@@ -1,0 +1,4587 @@
+<html>
+<head>
+<!DOCTYPE html>
+<html lang="en">
+<title>Alerts</title>
+<meta charset="UTF-8"> 
+<meta name="description" content="{{description}}">
+<meta name="keywords" content="CDSCO, National Regulatory Authority">
+<link rel="author" href="https://cdsco.gov.in/opencms/opencms/en/Home/" />
+<meta name="description" content="he Central Drugs Standard Control Organisation(CDSCO)under Directorate General of Health Services,Ministry of Health & Family Welfare,Government of India is the National Regulatory Authority (NRA) of India."> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/animate.min.css" />
+	
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/owl.theme.css" />
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/owl.carousel.css" />
+	
+	<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/jquery-ui.css" />
+	
+  
+  <script type="text/javascript" src="/opencms/export/system/modules/CDSCO.WEB/resources/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/opencms/export/system/modules/CDSCO.WEB/resources/js/wow.min.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/bootstrap.bundle.min.js"></script>
+
+ <link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/home.css" />
+	<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/mobile.css" />
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/owl.carousel.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/html5shiv.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/respond.min.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.smartmenus.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.smartmenus.bootstrap.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.fittext.js"></script>
+	<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.sort.js"></script>
+	<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.paginate.js"></script>
+
+	<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.filter.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/dataTables.responsive.min.js"></script>
+	
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/footable.core.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/jquery.dataTables.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/dataTables.bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/jquery.smartmenus.bootstrap.css">
+
+	<link rel="stylesheet"
+		href="/opencms/export/system/modules/CDSCO.WEB/resources/css/select2.css" />
+		<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/select2.min.js"></script>
+	 		<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/sweetalert.min.js"></script>
+ <link rel="stylesheet"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/sweetalert.css" />
+ <link rel="stylesheet"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/bootstrapValidator.css" />
+		
+ <link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/datepicker3.css" />
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/bootstrap-datepicker.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/bootstrapValidator.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery-ui.min.js"></script>
+
+	<script>
+	$(function() {
+
+		
+		var dt = new Date();
+		var time = dt.toDateString() + " , " + dt.getHours() + ":"
+				+ dt.getMinutes() + ":" + dt.getSeconds();
+		$("#date").text(time);
+
+		$(".dropdown").hover(function() {
+			$('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up");
+		}, function() {
+			$('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up");
+		});
+		$('#drug_control').click(function() {
+			alert('The link leads  you to an external website');
+		});
+
+	});
+</script>
+
+
+<script >
+$(window).scroll(function(){
+	  var menu = $('.menu'),
+	      scroll = $(window).scrollTop();
+
+	  if (scroll >= 100) menu.addClass('fixed');
+	  else menu.removeClass('fixed');
+	});
+	
+});
+ </script>
+ 
+<script >
+!function ($) {
+    
+    // Le left-menu sign
+    /* for older jquery version
+    $('#left ul.nav li.parent > a > span.sign').click(function () {
+        $(this).find('i:first').toggleClass("icon-minus");
+    }); */
+    
+    $(document).on("click","#left ul.nav li.parent > a > span.sign", function(){          
+        $(this).find('i:first').toggleClass("icon-minus");      
+    }); 
+    
+    // Open Le current menu
+    $("#left ul.nav li.parent.active > a > span.sign").find('i:first').addClass("icon-minus");
+    $("#left ul.nav li.current").parents('ul.children').addClass("in");
+
+}(window.jQuery);</script>
+
+
+
+
+<script>
+$(document).ready(function() {
+$('#event_start_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+$('#event_end_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+
+$('#industry_end_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+$('#industry_start_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+
+});
+</script>
+
+<script>
+	$(function() {
+	
+
+		$(".header_text h4").fitText(2.4, {
+			minFontSize : '10px',
+			maxFontSize : '18px'
+		});
+		$(".header_text h5").fitText(2.4, {
+			minFontSize : '10px',
+			maxFontSize : '16px'
+		});
+		$(".main_div1 h2").fitText(2.4, {
+			minFontSize : '20px',
+			maxFontSize : '25px'
+		});
+		/* $(".main_div p").fitText(2.4, {
+			minFontSize : '17px',
+			maxFontSize : '17px'
+		}); */
+		var curr_size;
+
+		$(".desc").click(function() {
+			curr_size = parseInt($('.main_div1 ').css('font-size')) - 1;
+			curr_h2 = parseInt($('.main_div1 h2').css('font-size')) - 2;
+			curr_h3 = parseInt($('.main_div1 h3').css('font-size')) - 2;
+			curr_h4 = parseInt($('.main_div1 h4').css('font-size')) - 2;
+			curr_h5 = parseInt($('.main_div1 h5').css('font-size')) - 2;
+			curr_p = parseInt($('.main_div1 p').css('font-size')) - 2;
+			curr_td = parseInt($('.main_div1 td').css('font-size')) - 2;
+			curr_a= parseInt($('.main_div1 a').css('font-size')) - 2;
+			curr_li= parseInt($('.main_div1 li').css('font-size')) - 2;
+			curr_h5= parseInt($('.main_div1 h5').css('font-size')) - 2;
+		
+			
+
+			if (curr_size >= 10) {
+				$('.main_div1').css('font-size', curr_size);
+			}
+			if (curr_h3 >= 16) {
+				$('.main_div1 h3').css('font-size', curr_h3);
+			}
+			if (curr_h4 >= 12) {
+				$('.main_div1 h4').css('font-size', curr_h4);
+			}
+			if (curr_h2 >= 20) {
+				$('.main_div1 h2').css('font-size', curr_h2);
+			}
+			if (curr_h5 >= 12) {
+				$('.main_div1 h5').css('font-size', curr_h5);
+			}
+			if (curr_p >= 12) {
+				$('.main_div1 p').css('font-size', curr_p);
+			}
+			if (curr_td >= 12) {
+				$('.main_div1 td').css('font-size', curr_td);
+			}
+			if (curr_a >= 12) {
+				$('.main_div1 a').css('font-size', curr_a);
+			}
+			if (curr_li >= 12) {
+				$('.main_div1 li').css('font-size', curr_li);
+			}
+		});
+		
+
+		$(".inc").click(function() {
+			curr_size = parseInt($('.main_div1').css('font-size')) + 1;
+			curr_h3 = parseInt($('.main_div1 h3').css('font-size')) + 1;
+			curr_h2 = parseInt($('.main_div1 h2').css('font-size')) + 1;
+			curr_h4 = parseInt($('.main_div1 h4').css('font-size')) + 1;
+			curr_h5 = parseInt($('.main_div1 h5').css('font-size')) + 1;
+			curr_p = parseInt($('.main_div1 p').css('font-size')) + 1;
+			curr_td = parseInt($('.main_div1 td').css('font-size')) + 1;
+			curr_a = parseInt($('.main_div1 a').css('font-size')) + 1;
+			curr_li = parseInt($('.main_div1 li').css('font-size')) + 1;
+
+
+			if (curr_size <= 18) {
+				$('.main_div1').css('font-size', curr_size);
+			}
+			if (curr_h3 <= 28) {
+				$('.main_div1 h3').css('font-size', curr_h3);
+			}
+			if (curr_h5 <= 28) {
+				$('.main_div1 h5').css('font-size', curr_h5);
+			}
+			if (curr_h2 <= 32) {
+				$('.main_div1 h2').css('font-size', curr_h2);
+			}
+			if (curr_h4 <= 22) {
+				$('.main_div1 h4').css('font-size', curr_h4);
+			}
+			if (curr_p <= 26) {
+				$('.main_div1 p').css('font-size', curr_p);
+			}
+			if (curr_td <= 26) {
+				$('.main_div1 td').css('font-size', curr_td);
+			}
+			if (curr_a <= 26) {
+				$('.main_div1 a').css('font-size', curr_a);
+			}
+			if (curr_li <= 26) {
+				$('.main_div1 li').css('font-size', curr_li);
+			}
+		});
+
+		$('.govt_link').click(function() {
+			alert('The link leads  you to an external website');
+		});
+	
+
+	$('.ext').click(function() {
+			alert('The link leads  you to an external website');
+		});
+
+		});
+</script>
+<script>
+function openNav() {
+    document.getElementById("mySidenavh").style.width = "230px";
+    document.getElementById("mainh").style.marginLeft = "230px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenavh").style.width = "0";
+    document.getElementById("mainh").style.marginLeft= "0";
+}
+</script>
+<script>
+$(document).ready(function() {
+$('#example_upload').DataTable();
+$('#example_upload_indus').DataTable();
+$('#example_upload_pen').DataTable();
+
+
+
+   $('#example1').DataTable();
+      $('#example2').DataTable();
+	     $('#example3').DataTable();
+$('#example4').DataTable();
+$('#example5').DataTable();
+$('#example6').DataTable();
+$('#example7').DataTable();
+        //var table = $('#example').DataTable({
+  // dom: 'lrtip'
+  var table = $('#example').DataTable();
+      
+      $('#ethics_state').on('change', function(){
+             table.search(this.value).draw();   
+       });
+	     $('#data_zones').on('change', function(){
+               table.search(this.value).draw();   
+       });
+	    $('#ct_approval_category').on('change', function(){
+       table.search(this.value).draw();     
+    });
+	$('#ct_approval_year').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_div').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_loc').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_month').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_year').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#syn_list').on('change', function(){
+        table.search(this.value).draw();   
+    });
+   });
+   
+ //for Tab used with jquery UI
+  $(document).ready(function(){
+    $(".tab-v1").tabs();
+  });
+
+</script>
+</html>
+<script>
+/*$(document).ready(function() {
+ 
+$('#example_upload').DataTable();
+
+
+var table = $('#example_upload_indus').DataTable();
+/*table.column( 7 ).visible( false );
+table.column( 8 ).visible( false );
+table.column( 9 ).visible( false );*/
+
+
+/*var table = $('#example_upload_pen').DataTable();
+/*table.column( 6 ).visible( false );
+table.column( 7 ).visible( false );
+table.column( 8 ).visible( false );*/
+
+/*});*/
+</script>
+
+
+
+	
+	</head>
+
+<body class="home main_div1">
+<div id="mainh">
+<div id="wrapper">
+
+    <div class="container-fluid">
+<header>
+<div class="row zeron">
+		<div class="col-md-12 col-sm-12 col-xs-12  header_top zero1">
+		<div  id="cdsco_gigw" ><div>
+	<div class="row justify-content-between">
+<div class="col-md-3 col-xs-3 col-lg-3 col-sm-3" style="margin-top: 4px;">
+				<i class="fa fa-calendar fa-1x pad-right hidden-xs"></i><span
+					id="date"></span>
+			</div>
+			
+			<div class="col-md-8 col-xs-8 text-end head_links" style="margin-left: 6%;">
+			
+				<a href="#section2" class="skip_mc white" title="Skip to main content" style="font-size: 20px;"><i class="fa fa-reply-all fa-rotate-270"></i></a> <!--<a
+					href="#myNavbar" class="skipnv white">Skip to navigation</a>--> <a
+					href="/opencms/opencms/en/ScreenReader/" class="white">Screen Reader</a>  <!--<span class="theme">
+					<a href="#" class="white dark_bg">A</a> <a href="#" class="white light_bg">A</a> </span> --><span class="text_size"> Text
+					Size <a href="#" class="white desc" >A<sup>-</sup> </a> 
+<a href="#"class="white norm"  onclick="window.location.reload()">A</a> 
+<a href="#" class="white inc">A<sup>+</sup>
+				</a>
+				</span> </div>	</div>	
+</div>
+</div><!--<div class="col-md-1 col-lg-1 language zero ">
+		        <a href="/opencms/opencms/CDSCO_WEB/en/index.html" class="white">Hindi</a>
+				<span>|</span>
+				<a href="/opencms/opencms/en/Alerts/index.html" class="white">English</a>			
+		</div>-->
+</div>
+		</div>
+<div  id="cdsco_header_content" ><div>
+	<div class="row mid_div">
+    <div class="header_mid row">
+      <div class="col-md-1 zero col-sm-2 col-xs-3 text-center cdsco_logo">
+        <a href="/opencms/opencms/en/Home/" target="_blank">
+          <img
+          src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/cdscologo_lbg.png"
+          alt="CDSCO logo" class="shrink">
+        </a>
+      </div>
+      <div class="header_text col-md-6  col-sm-6 col-xs-6 zero">
+        <h4 style="font-size: 18px;font-weight: bolder;">Central Drugs Standard Control
+          Organization</h4>
+        <h5 style="font-weight: bold;font-size:14px;">Directorate General of Health
+          Services</h5>
+        <h5 style="font-weight: bold;">Ministry of Health &amp; Family
+          Welfare</h5>
+        <h5 style="font-weight: bold; color: rgb(99, 19, 19);">Government of India</h5>
+      </div>
+      <div class="col-md-1 col-sm-2 col-xs-3 zero text-right icdra_logo">
+       <!-- <a href="https://www.g20.org/en/" target="_blank"> <img
+        src="/opencms/opencms/Image_folder/logo/g20.png"
+          alt="g-20 logo" class="img-responsive" style="height:100px; margin-top: 25px">
+        </a> -->
+      </div> 
+   
+    <div class="col-md-2 col-sm-2 col-xs-3 zero text-right"> </div>
+  
+
+  <!--    <div class="col-md-2 col-sm-2 col-xs-3 zero text-right swach_logo">
+        <a> <img
+          src="/opencms/opencms/Image_folder/logo/swach-bharat.jpg"
+          alt="swach bharat logo" class="img-responsive">
+        </a>
+      </div> -->
+
+  <!-- swach bharat -->
+<div class="col-md-2 col-sm-2 col-xs-3 zero text-right swach_logo">
+        <a> <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/swach-bharat.jpg" alt="swach bharat logo" class="img-responsive">
+        </a>
+      </div>
+
+
+    </div>
+  </div>
+
+</div>
+</div><div class="row navbar-blue">
+ 
+  
+  <div class="col-sm-12 col-lg-12 col-md-12">
+<div  id="cdsco_nav_content1" ><div>
+	<div id="mySidenavh" class="sidenavh">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="row">
+<div class="col-md-12">
+<ul id="tree1">
+<li>Ayush 
+<ul>
+<li><a href="/opencms/opencms/en/Aayush/" rel="tooltip" title="" data-original-title="Ayush"> Ayush</a></li>
+</ul>            
+</li>
+<li>Achievements
+<ul>
+<li><a href="/opencms/opencms/en/Achievements/" rel="tooltip" title="" data-original-title="Achievements">  Achievements</a></li>
+</ul>
+</li>
+<li>Blood Centre
+<ul>
+<li><a href="/opencms/opencms/en/BloodCentre/" rel="tooltip" title="" data-original-title="BloodBank">BloodCentre</a></li>
+</ul>
+</li>
+<li><a href="#">Committee</a>
+<ul>
+<li><a href="/opencms/opencms/en/Committees/Apex-Committee/">Apex Committee</a></li>
+<li><a href="/opencms/opencms/en/Committee/Committee-Functions/">Committee Functions</a></li>
+<li><a href="/opencms/opencms/en/Committee/Committee_Meetings/">Committee Meetings</a></li>
+<li><a href="/opencms/opencms/en/Committees/DCC/">DCC</a></li>
+<li><a href="/opencms/opencms/en/Committees/DTAB/">DTAB</a></li>
+<li><a href="/opencms/opencms/en/Committees/IND/">IND Committee</a></li>
+<li><a href="/opencms/opencms/en/Committees/Miscellaneous/"> Miscellaneous</a></li>
+<li><a href="/opencms/opencms/en/Committees/NDAC/">NDAC Committee</a></li>
+<li><a href="/opencms/opencms//en/Committees/SEC/">SEC</a></li>
+<li><a href="/opencms/opencms/en/Committees/Technical-Committee/">Technical Committee</a></li>
+</ul>
+</li>
+<li>Indian System of Medicines
+<ul><li>
+<a href="/opencms/opencms/en/Traditional_Drugs/" rel="tooltip" title="" data-original-title="Indian System of Medicines"> Traditional Drugs</a></li></ul>
+</li>
+
+
+<li><a href="#">Offices/Divisions</a>
+<ul>
+<li><a href="#">Headquarters</a> 
+<ul>
+<li><a href="/opencms/opencms/en/bioequi_bioavail/">BA/BE</a></li>
+<li><a href="/opencms/opencms/en/biologicals/">Biologics</a></li>
+<li><a href="/opencms/opencms/en/Central-Licences-Approving-Authority/">Central Licences Approving Authority</a></li>
+<li><a href="/opencms/opencms/en/Clinical-Trial/clinical-trials/">Clinical Trial</a></li>
+<li><a href="/opencms/opencms/en/Cosmetics/cosmetics/">Cosmetics</a></li>
+<li><a href="/opencms/opencms/en/Clinical-Trial/Ethics-Committee/">Ethics Committee</a></li>    
+<li><a href="/opencms/opencms/en/Departments/Headquarters/imports/">Import &amp;Registration</a></li>
+<li><a href="/opencms/opencms/en/International-cell1/">International Cell</a></li>
+<li><a href="/opencms/opencms/en/IT-cell/">IT Cell</a></li>
+<li><a href="/opencms/opencms/en/Legal-cell/">Legal Cell</a></li>
+<li><a href="/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/">Medical Devices &amp; Diagnostics</a></li>
+<li><a href="/opencms/opencms/en/Clinical-Trial/SAE/">SAE</a></li>                
+<li><a href="/opencms/opencms/en/Training-cell/">Training Cell</a></li>                 
+</ul></li>
+<li>Zonal Offices
+<ul>
+<li><a href="/opencms/opencms/en/Departments/Zones/Ahmedabad-West/">Ahemdabad</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Baddi/">Baddi</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Bengaluru/">Bengaluru</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/SouthZone/">Chennai</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/NorthZone/">Ghaziabad</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/Hyderabad-West/">Hydrabad</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/EastZone/">Kolkata</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/WestZone/">Mumbai</a></li>
+</ul>
+</li>
+<li>Sub Zonal Offices
+<ul>
+
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Goa/">Goa</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Guwahati/">Guwahati</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Indore/">Indore</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/jammu_kasmir/">Jammu & Kashmir</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Rishikesh/">Dehradun</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Varanasi/">Varanasi</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Visakhapatnam/">Visakhapatnam</a></li>
+
+</ul>
+</li>
+<li>Port
+<ul>
+<li><a href="/opencms/opencms/en/Departments/Port/chennai_Air-port/">Chennai Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/chennai_Sea-Port/">Chennai Sea-Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Delhi_port/">Delhi</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Hyderabad-Port/">Hyderabad</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Indore-Port/">Indore Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Kolkata_port/">Kolkata Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Mumbai_Air-port/">Mumbai Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Mumbai_Sea-Port/">Mumbai Sea-Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Cochin_Sea-Port/">Cochin Sea-Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Vishakapatnam_Sea-Port/">Vishakapatnam Sea-Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Krishnapatnam_Sea-Port/">Krishnapatnam Sea-Port</a></li>
+</ul>
+</li>
+<li>Labs
+<ul>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDL_Kasauli/">CDL(Kasauli)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDL-Kolkata/">CDL(Kolkata)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDTL-Chennai/">CDTL(Chennai)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDTL-Hyderabad/">CDTL(Hyderabad)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDTL-Mumbai/">CDTL(Mumbai)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/RDTL-Chandigarh/">RDTL(Chandigarh)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/RDTL-Guwahati/">RDTL(Guwahati)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Pendency Status
+<ul><li>
+<a href="/opencms/opencms/en/Pendency_Status/" rel="tooltip" title="" data-original-title="Pendency Status">Pendency Status</a></li></ul>                  
+</li>
+<li>PvPI
+<ul><li>
+<a href="/opencms/opencms/en/PvPI/" rel="tooltip" title="" data-original-title="PvPI"> PvPI</a></li></ul>                  
+</li>
+<li>State Drugs Control
+<ul >
+<li>
+<a href="/opencms/opencms/en/State-Drugs-Control/" rel="tooltip" title="" data-original-title="state drug control">State Drugs Control</a></li>
+</ul>
+</li>               
+       
+</ul>
+</li></ul></div>
+</div>
+</div>
+
+
+ <script>
+  $( function() {
+    $( "#comm_function" ).tabs();
+  } );
+ </script></div>
+<div>
+<!-- <div class="header"> -->
+<!--
+
+-->
+<!--=== Navbar ===-->
+
+	<div class="row menu navbar-blue clearfix ">
+		<div class="col-md-11 col-lg-11 col-sm-12 col-xs-12">
+			<nav class="navbar navbar-expand-lg navbar-default" id="navbar1">
+			<!-- READ -->
+            <!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+					
+				</div>
+               <!-- <a class="navbar-brand" href="/opencms/opencms/">
+                    <img src="/opencms/export/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/logo/logo_opencms_png24.png_1704647694.png" width="165" height="40" alt="Logo" id="logo-header" /></a> -->
+            
+			<!-- Menu -->       
+		<div class="collapse navbar-collapse header" id="myNavbar">
+
+				<ul class="nav navbar-nav text-center" data-smartmenus-id="15029566969090742">
+<li class="current-menu-item center nav-item"><a class="text-decoration-none"  aria-label="Open navigation menu"
+							href="#" rel="tooltip" title="" data-original-title="Home"> <span class="fa-stacks fa-2s ">
+									<i class="fa fa-circle fa-2g " id="circle"></i> <i
+									class="fa fa-bars fa-1x fa-stack-1x  bg-black-head" onclick="openNav()"></i>
+							</span>
+								    
+						</a></li>
+
+
+
+
+
+	<li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Home/"
+		><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-home fa-1x fa-stack-1x bg-purple-head"></i> </span><p>Home</p></a>
+			<span class="text-center"></span></li><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-info-circle fa-1x fa-stack-1x bg-blue-head"></i> </span><p>About Us</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Laboratories/"
+		><p>Central Drug Testing Laboratories</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/contact-us/"
+		><p>Contact Us</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Functions/"
+		><p>Functions</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Introduction/"
+		><p>Introduction</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Seniority-List/"
+		><p>Seniority List</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Telephone_Directory/"
+		><p>Telephone Directory</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Values/"
+		><p>Values / Strategies</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Vision/"
+		><p>Vision/Mission</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/who/"
+		><p>Who's who</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-gavel fa-1x fa-stack-1x bg-red-head"></i> </span><p>Act & Rules</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Drugs-and-Cosmetics-Act/"
+		><p>Drugs and Cosmetics Act, 1940</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Drugs-Rules/"
+		><p>Drugs Rules, 1945</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Medical-Devices-Rules/"
+		><p>Medical Devices Rules, 2017</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/New-Drugs/"
+		><p>New Drugs and Clinical Trials Rules, 2019</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Cosmetics-Rules/"
+		><p>Cosmetics Rules, 2020</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Advisories_NO/"
+		><p>Advisories/Notices/O.Ms./Orders</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Final-Notifications/"
+		><p>Final Notifications</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Draft-Notifications/"
+		><p>Draft Notifications </p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Guidance-documents/"
+		><p>Guidance documents</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/BloodCentre/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-tint fa-1x fa-stack-1x bg-red-head"></i> </span><p>Blood Centre</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/BloodCentre/index.html"
+		><p>Blood Center</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/bioequi_bioavail/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-hourglass fa-1x fa-stack-1x bg-orange-head "></i> </span><p>BA/BE</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/bioequi_bioavail/index.html"
+		><p>BA/BE</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-plus-square fa-1x fa-stack-1x bg-green-head "></i> </span><p>Biologics</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/Anti-Sera/"
+		><p>Anti Sera</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/Vaccines/"
+		><p>Vaccines</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/Blood-Products/"
+		><p>Blood Products</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/rDNA/"
+		><p>rDNA</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/Stem-cells-and-Cell-based-Products/"
+		><p>Stem Cells and Cell based products</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Clinical-Trial/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-flask fa-1x fa-stack-1x bg-green-head "></i> 							</span><p>Clinical Trial</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Clinical-Trial/Ethics-Committee/"
+		><p>Ethics Committee</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Clinical-Trial/Global-Clinical-Trial/"
+		><p>Global Clinical Trial</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Clinical-Trial/SAE/"
+		><p>Serious Adverse Event </p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Cosmetics/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-paint-brush fa-1x fa-stack-1x bg-blue-head"></i> 							</span><p>Cosmetics</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Cosmetics/cosmetics/"
+		><p>Cosmetics</p></a>
+			</li></ul><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/dcc-dtab-committee"
+		><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-user-plus fa-1x fa-stack-1x bg-purple-head "></i> 							</span><p>DTAB-DCC</p></a>
+			<span class="text-center"></span></li><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-medkit fa-1x fa-stack-1x bg-pink-head "></i> 							</span><p>Drugs</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/FDC/"
+		><p>Fixed Dose Combination</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/Investigational-New-Drugs-/"
+		><p>Investigational New Drugs</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/New-Drugs/"
+		><p>New Drugs</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/Subsequent-New-Drugs/"
+		><p>Subsequent New Drugs</p></a>
+			</li></ul><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Import-Registration"
+		><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-upload fa-1x fa-stack-1x bg-red-head"></i> </span><p>Import & Registration</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/international/"
+		><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-users fa-1x fa-stack-1x bg-blue-head"></i> </span><p>International<br>Cell</p></a>
+			<span class="text-center"></span></li><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Medical-Device-Diagnostics/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-stethoscope fa-1x fa-stack-1x bg-purple-head "></i> 							</span><p>Medical Devices<br> & Diagnostics</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Medical-Device-Diagnostics/InVitro-Diagnostics/"
+		><p>InVitro Diagnostics</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/"
+		><p>Medical Device</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-bell fa-1x fa-stack-1x bg-orange-head "></i> </span><p>Notifications</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/page/"
+		><p>Recruitment & Rules</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Alerts/"
+		><p>Alerts</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Archive/"
+		><p>Archive</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Circulars/"
+		><p>Circulars</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/documents/"
+		><p>Downloads/Documents&Publications</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Events/"
+		><p>Events</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Gazette-Notifications/"
+		><p>Gazette Notifications</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Public-Notices/"
+		><p>Public Notices</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Prescribing-Information/"
+		><p>Prescribing Information</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Adverse-Drug-Reaction-related-Notifications/"
+		><p>Adverse Drug Reaction<br>related Notifications</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Tender/"
+		><p>Tenders</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Vacancy/"
+		><p>Vacancies</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Citizens-charter/"
+		><p>Citizen's Charter</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-users fa-1x fa-stack-1x bg-blue-head"></i> </span><p>Committees</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/ASR-Committee/"
+		><p>ASR Committee</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/Apex-Committee/"
+		><p>Apex Committee</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/DCC/"
+		><p>DCC</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/DTAB/"
+		><p>DTAB</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/IND/"
+		><p>IND</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/Miscellaneous/"
+		><p>Miscellaneous</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/NDAC/"
+		><p>NDAC</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/SEC/"
+		><p>SEC</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/Technical-Committee/"
+		><p>Technical Committee</p></a>
+			</li></ul><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/PRO/"
+		><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-globe fa-1x fa-stack-1x bg-orange-head "></i> </span><p>PRO</p></a>
+			<span class="text-center"></span></li><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Post-Marketing-DSM/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-file fa-1x fa-stack-1x bg-blue-head "></i> </span><p>Post Marketing DSM</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Post-Marketing-DSM/Adverse-Drug-Reaction-related-Notifications/"
+		><p>Adverse Drug Reaction<br>related Notifications</p></a>
+			</li></ul><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/e-training-module"
+		><span class="fa-stacks fa-2s "><img src="/opencms/opencms/system/modules/CDSCO.WEB/resources/img/logo/trainingModule.jpg" alt="e Training Module Icon"></span><p>e Training Module</p></a>
+			<span class="text-center"></span></li><li class="active current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Alerts/"
+		><span class="fa-stacks fa-2s"><em class="newicon"><img src="/opencms/opencms/en/CDSCO-Image-Gallery/new.gif" alt="New"></em>     <i id="circle" class="fa fa-circle fa-2g"></i>     <i class="fa fa-exclamation-triangle fa-1x fa-stack-1x bg-blue-head" style="font-size:16px;"></i> </span><p>Alerts</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/BannedDrugs"
+		><span class="fa-stacks fa-2s">     <i id="circle" class="fa fa-circle fa-2g"></i>     <i class="fa fa-ban fa-1x fa-stack-1x bg-blue-head"></i> </span><p>Banned Drugs</p></a>
+			</li></ul>
+
+</div><!-- /collapse -->
+</nav>
+		</div><!-- /container -->
+		
+			<div class="col-md-1 col-lg-1 col-sm-12 col-xs-12 search hidden-md-down">
+			 <input type="hidden" name="Token" id="tokenId" value="aexy1478e045stxy90" />
+         <input type="hidden" name="Token" id="sessionToken" value="aexy1478e045stxy90" />
+								<!--<form class="form-inline1" name="searchFormHeader" action="[No detail page configured for type =function@Search page=]" method="post">-->
+								<form class="form-inline1" name="searchFormHeader" action="/opencms/opencms/en/Search/index.html" method="post">
+								
+
+								<input type="hidden" name="pageSession" id="pageSession" value="aexy1478e045stxy90" />
+						<input type="text" class="form-control input-sm" maxlength="64" placeholder="Type Here..." autocomplete="off" name="q">
+						<button type="button" class="btn btn-default btn-sm btn1" onclick="this.form.submit(); return false;"  aria-label="Search button"><i class="fa fa-search fa-1x double"></i>
+						</button>
+						</form>
+						
+						
+</div>
+
+
+
+	</div><!-- /navbar -->
+<!--=== End Navbar ===-->
+
+<!--</div>/header -->
+
+<script>
+function checkcsrf() {
+	 var csrftoken1=$('#tokenId').val();
+	 var csrftoken2=$('#sessionToken').val();
+	if(csrftoken1!=csrftoken2){
+window.location.href = "/nvs/en/Error/";
+	 }
+}
+</script>
+</div>
+</div></div>
+
+ <div class="col-sm-0">
+  <div  id="cdsco_nav_content2" ></div></div>
+
+</div>
+		
+      </header>  
+          		  <a class="scrollToTop" href="#" style="display: none;">
+<i class="fa fa-chevron-circle-up fa-3x"></i>
+</a>
+
+<div class="clearfix"></div>
+		<div class="col-md-12 col-sm-12 col-xs-12">
+		<div class="container-fluid">
+	<div class="row breadcrumb-bg">
+<div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
+<ul class="pull-left breadcrumb hidden-xs">
+	<li class="bold"><a href="/opencms/opencms/en/" style="text-decoration:none">Home</a></li>
+		<li class="bold"><a href="/opencms/opencms/en/Alerts/" style="text-decoration:none">Alerts</a></li>
+		</ul>
+</div>
+
+<div class=" col-md-2  col-lg-2 col-sm-12 col-xs-12">
+	<div class="pull-right">
+
+<button type="button" class="print-gigw" onclick="printDiv('printableArea')" value="print a div!" /><i class="fa fa-print" aria-hidden="true"></i></div>
+
+</div>
+</div>
+</div>
+<script>
+function printDiv(printableArea) {
+     var printContents = document.getElementById(printableArea).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+</script></div>
+		
+<section id="printableArea">
+<div class="row main_sec">
+  
+	 
+
+
+
+
+
+
+
+	
+	 
+
+
+
+
+
+
+
+	 
+
+  
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<body >
+<style>
+.custom-tooltip {
+  font-size:18px;
+}
+</style>
+<div
+	class="row mt-5 mx-0 mb-4">
+	<div class="NSQBtn col-lg-2 col-sm-12">
+		<a class="btn btn-primary" href="/opencms/opencms/en/Notifications/nsq-drugs/" target="_blank">NSQ Alerts</a>
+		<img src="/opencms/opencms/en/CDSCO-Image-Gallery/new.gif" 
+     alt="New" 
+     style="width:45px; height:auto; margin-left:8px; vertical-align:middle;">
+	</div>
+	<div class="col-md-9 col-sm-12 text-center">
+	<h2 class="blue bold">
+		<span
+			class="maintitle">Alerts</span>
+	</h2>
+	</div>
+	
+
+</div>
+
+
+
+<section class="consumer_section1" id="printableArea">
+<div class="wrap-appr">
+		<div class="col-md-12 col-sm-12 table-responsive">
+
+			<table class="table table-bordered bg-head table-striped example"
+				data-limit-navigation="5" data-page-size="10" data-filter="#filter"
+				data-filter-text-only="false" id="example">
+				<thead >
+					<tr >
+						<th>S.no</th>
+						<th>Title</th>
+						
+						<th>Release Date</th>
+						<th>Download Pdf</th>
+						<th>Pdf Size</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+				
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+	  
+
+
+<tr>
+            
+
+<td>1</td>
+<td>Circular to all State/UT Licensing Authorities regarding recent revised GST rate Structure</td>
+<td>2025-Oct-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTM0ODc='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1450 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>2</td>
+<td>Availability of Not Standard Quality (NSQ) Alert on New Link in CDSCO Website</td>
+<td>2025-Aug-28</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTMyNDU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>2245 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>3</td>
+<td>Alert on theft of multiple drug products of M/s. Novo Nordisk during transit</td>
+<td>2025-Aug-21</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTMxNzQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1149 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>4</td>
+<td>corrigendum of (M/s. Spectra Medical Pvt Ltd) dated 21.08.2025</td>
+<td>2025-Aug-21</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTMzMzM='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>655 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>5</td>
+<td>CDSCO NSQ ALERT FOR THE MONTH OF June 2025</td>
+<td>2025-Jul-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI5Mjc='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>185 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>6</td>
+<td>Revise list drug alert May-2025</td>
+<td>2025-Jul-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI5NjA='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>167 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>7</td>
+<td>STATE NSQ ALERT FOR THE MONTH OF June 2025</td>
+<td>2025-Jul-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI5MjY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>415 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>8</td>
+<td>List of spurious Drugs  for the month of June-2025</td>
+<td>2025-Jul-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI5NTk='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>127 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>9</td>
+<td>STATE NSQ ALERT FOR THE MONTH OF MAY-2025</td>
+<td>2025-Jun-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI4NDY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>426 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>10</td>
+<td>List of Drugs, Medical Devices, Vaccine and Cosmetics declared as Spurious for the Month of May-2025</td>
+<td>2025-Jun-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI4NDU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>200 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>11</td>
+<td>NSQ ALERT FOR THE MONTH OF MAY-2025</td>
+<td>2025-Jun-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI4NDc='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>197 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>12</td>
+<td>LIST OF REGISTRED BA-BE STUDY CENTRE &amp; BIO-ANALYTICAL LABORATORY under NDCT Rules 2019</td>
+<td>2025-Jun-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI4NjI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>633 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>13</td>
+<td>Not Of Standard of Quality (NSQ) ALERT FOR THE MONTH OF April-2025</td>
+<td>2025-May-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI3Mzg='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>152 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>14</td>
+<td>List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of April-2025</td>
+<td>2025-May-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI3NDA='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>118 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>15</td>
+<td>List of Drugs, Medical Devices, Vaccine and Cosmetics declared as Not of Standard Quality/Spurious/Adulterated/Misbranded for the Month of Januaryâ 2025 Revised</td>
+<td>2025-May-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI3Mzc='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>51 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>16</td>
+<td>State NSQ Alert For The Month April-2025</td>
+<td>2025-May-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI3Mzk='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>345 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>17</td>
+<td>Revise list drug alert January-2025</td>
+<td>2025-Apr-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2NzE='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>108 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>18</td>
+<td>NOT OF STANDARD QUALITY (NSQ) ALERT FOR THE MONTH OF MARCH-2025</td>
+<td>2025-Apr-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2Njk='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>178 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>19</td>
+<td>Revise list drug alert November-2024</td>
+<td>2025-Apr-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2NzA='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>107 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>20</td>
+<td>State NSQ Alert For The Month March-2025</td>
+<td>2025-Apr-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2Njg='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>207 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>21</td>
+<td>List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of March- 2025</td>
+<td>2025-Apr-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2Njc='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>119 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>22</td>
+<td>STATE NSQ ALERT FOR THE MONTH OF FEBRUARY-2025</td>
+<td>2025-Mar-29</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2MTQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>248 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>23</td>
+<td>List of Drugs, Medical Devices, Vaccine and Cosmetics declared as Spurious for the Month of February-2025</td>
+<td>2025-Mar-29</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2MTI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>164 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>24</td>
+<td>NSQ ALERT FOR THE MONTH OF Feb-2025</td>
+<td>2025-Mar-29</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2MTM='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>156 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>25</td>
+<td>STATE NSQ ALERT FOR THE MONTH OF JANUARY-2025</td>
+<td>2025-Feb-28</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI1NTY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>455 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>26</td>
+<td>NSQ ALERT FOR THE MONTH OF JANUARY-2025</td>
+<td>2025-Feb-28</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI1NTU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>274 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>27</td>
+<td>Drug Alert for the Month of December 2024</td>
+<td>2025-Jan-24</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIzOTM='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>490 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>28</td>
+<td>State Drug Alert for the Month of December 2024</td>
+<td>2025-Jan-24</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIzOTQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>613 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>29</td>
+<td>Drug Alert for the Month of November 2024</td>
+<td>2024-Dec-27</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyOTI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>458 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>30</td>
+<td>State Drug Alert for the Month of November 2024</td>
+<td>2024-Dec-27</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyOTA='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>721 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>31</td>
+<td>List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of November 2024</td>
+<td>2024-Dec-27</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyOTE='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>512 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>32</td>
+<td>List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of October 2024</td>
+<td>2024-Nov-29</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyMDM='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>380 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>33</td>
+<td>Drug Alert for the Month of October 2024</td>
+<td>2024-Nov-29</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyMDQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>610 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>34</td>
+<td>State Drug Alert for the Month of  October 2024</td>
+<td>2024-Nov-29</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyMDI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>832 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>35</td>
+<td>List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of September 2024</td>
+<td>2024-Oct-24</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwODI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>493 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>36</td>
+<td>State Drug Alert for the Month of September 2024</td>
+<td>2024-Oct-24</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwODM='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>405 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>37</td>
+<td>Drug Alert for the Month of September 2024</td>
+<td>2024-Oct-24</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwODQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>442 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>38</td>
+<td>State Drug Alert for the Month of August 2024</td>
+<td>2024-Sep-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwMTI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>370 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>39</td>
+<td>List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious Adulterated Misbranded for the Month of August-2024</td>
+<td>2024-Sep-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwMTE='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>169 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>40</td>
+<td>Drug Alert for the Month of August 2024</td>
+<td>2024-Sep-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwMTA='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>230 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>41</td>
+<td>Samples declared NSQ 2017-2023</td>
+<td>2024-Sep-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NTU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>239 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>42</td>
+<td>NSQ ALERT FOR THE MONTH OF JUlY-2024</td>
+<td>2024-Aug-22</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE2MDA='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>452 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>43</td>
+<td>STATE NSQ ALERT FOR THE MONTH OF July-2024</td>
+<td>2024-Aug-22</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE2MDE='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>425 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>44</td>
+<td>State NSQ ALERT FOR THE MONTH OF JUNE 2024</td>
+<td>2024-Jul-19</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE0Njc='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>536 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>45</td>
+<td>NSQ ALERT FOR THE MONTH OF JUNE 2024</td>
+<td>2024-Jul-19</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE0Njg='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>312 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>46</td>
+<td>NSQ May 2024 State Labs</td>
+<td>2024-Jun-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEzNzM='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>177 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>47</td>
+<td>NSQ May 2024 CDSCO Labs</td>
+<td>2024-Jun-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEzNzI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>195 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>48</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF APRIL 2024</td>
+<td>2024-May-17</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEyNTY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>694 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>49</td>
+<td>SPURIOUS ALERT FOR THE MONTH OF APRIL 2024</td>
+<td>2024-May-17</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEyNTU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>418 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>50</td>
+<td>Drug Alert for the Month of March 2024</td>
+<td>2024-Apr-16</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTExMTU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>103 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>51</td>
+<td>Drug Alert for the Month of Revised Jan 2024</td>
+<td>2024-Mar-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEwMTQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>452 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>52</td>
+<td>Drug Alert for the Month of February 2024</td>
+<td>2024-Mar-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEwMTM='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>402 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>53</td>
+<td>Drug Alert for the Month of January 2024</td>
+<td>2024-Feb-21</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA5Mzk='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>364 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>54</td>
+<td>Drug Alert for the Month of Revised Dec 2023</td>
+<td>2024-Feb-21</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA5NDA='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>389 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>55</td>
+<td>Drug Alert for the Month of Revised March 2023</td>
+<td>2024-Feb-21</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA5NDE='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>491 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>56</td>
+<td>Drug Alert for the Month of December 2023</td>
+<td>2024-Jan-19</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA4NTE='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>426 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>57</td>
+<td>ZyCoV-D SmPc and Factsheet</td>
+<td>2023-Dec-26</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwMDI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>311 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>58</td>
+<td>Drug Alert for the Month of May â 2022 Revised</td>
+<td>2023-Dec-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA3ODU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>467 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>59</td>
+<td>Drug Alert for the Month of November 2023</td>
+<td>2023-Dec-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA3ODQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>550 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>60</td>
+<td>Drug Alert for the Month of October 2023</td>
+<td>2023-Nov-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA2NjY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>387 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>61</td>
+<td>Drug Alert for the Month of September 2023</td>
+<td>2023-Oct-19</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1ODM='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>428 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>62</td>
+<td>Drug Alert for the Month of March 2023 (Revised)</td>
+<td>2023-Oct-19</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1ODU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>461 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>63</td>
+<td>Drug Alert for the Month of February  2023 (Revised)</td>
+<td>2023-Oct-19</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1ODY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>461 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>64</td>
+<td>July Revised Drugs Alert List 2023</td>
+<td>2023-Sep-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1MTY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>278 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>65</td>
+<td>Drug Alert list for month of August 2023</td>
+<td>2023-Sep-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1MTU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>491 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>66</td>
+<td>WHO Alert on falsified DEFITELIO (DEFIBROTIDE) 80 mg/ml concentrate for solution for infusion, B. No.  20G20A, Exp date 08/2024 mfg by:  Gentium Srl and identified in India</td>
+<td>2023-Sep-06</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1MDU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>3362 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>67</td>
+<td>Alert on falsified versions of Adcetris Injection Brentuximab Vedotin Manufactured by M/s Takeda Pharmaceuticals Company Ltd</td>
+<td>2023-Sep-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1MDQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>486 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>68</td>
+<td>	Voluntary Recall of Digene Gel manufactured by M/s Abbott India Limited, L-18/19, Verna Industrial Estate, Salcette, Goa-403722</td>
+<td>2023-Aug-31</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA0OTQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1049 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>69</td>
+<td>June Revised Drugs Alert List 2023</td>
+<td>2023-Aug-22</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA0MjY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>191 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>70</td>
+<td>Drug Alert list for month of July 2023</td>
+<td>2023-Aug-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA0MjU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>472 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>71</td>
+<td>Alert on Suspected Faisified Versions of Glucagon-Like Peptide 1 Receptor Agonist (GLP_1_RA) Products</td>
+<td>2023-Aug-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA0MTc='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1012 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>72</td>
+<td>Drug Alert list for month of June 2023</td>
+<td>2023-Jul-19</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAzNTk='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>467 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>73</td>
+<td>Alert on Pholcodine containing cough and cold remedies</td>
+<td>2023-Jul-14</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAzNTQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>468 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>74</td>
+<td>Drug Alert list for month of May 2023</td>
+<td>2023-Jun-14</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAyNDg='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>199 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>75</td>
+<td>Drug Alert list for month of February 2023 (Revised)</td>
+<td>2023-Jun-13</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAyNDY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>68 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>76</td>
+<td>NSQ of Typhoid Polysaccharide Vaccine TYPBAR </td>
+<td>2023-Jun-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NDE='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>180 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>77</td>
+<td>Medical Device Alert dated 08 May 2023</td>
+<td>2023-May-23</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAxODI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1842 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>78</td>
+<td>Drug Alert list for month of April 2023</td>
+<td>2023-May-16</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAxNTQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>624 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>79</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF APRIL-2023</td>
+<td>2023-May-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4NzQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>294 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>80</td>
+<td>Drug Alert list for month of March 2023</td>
+<td>2023-Apr-24</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAwNjk='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>666 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>81</td>
+<td>Drug Alert list for month of February 2023</td>
+<td>2023-Mar-30</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTk4NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>674 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>82</td>
+<td>Drug Alert list for month of January 2023</td>
+<td>2023-Feb-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTg4OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>692 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>83</td>
+<td>Drug Alert list for month of December 2022</td>
+<td>2023-Jan-13</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTgxMQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>696 kb</td>
+</tr>
+
+<tr>
+            
+
+<td>84</td>
+<td>Medical Device Alert dated 29 Dec 2022</td>
+<td>2023-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTc1Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>916 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>85</td>
+<td>Drug Alert list for month of November 2022</td>
+<td>2022-Dec-13</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTYwOQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>717 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>86</td>
+<td>Drug Alert list for month of Feb 2022 (Revised)</td>
+<td>2022-Dec-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTY3NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>94 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>87</td>
+<td>Drug Alert list for month of October 2022 (Revised)</td>
+<td>2022-Nov-23</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTI4Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>9 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>88</td>
+<td>Drug Alert list for month of October 2022</td>
+<td>2022-Nov-16</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTE4Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>248 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>89</td>
+<td>Drug Alert list for month of September 2022</td>
+<td>2022-Oct-17</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTEyMg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>216 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>90</td>
+<td>Drug Alert list for month of August 2022</td>
+<td>2022-Sep-12</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTAxMA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>237 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>91</td>
+<td>Drug Alert list for month of May 2022 (Revised)</td>
+<td>2022-Sep-01</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODk4Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>31 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>92</td>
+<td>Drug Alert list for month of July 2022</td>
+<td>2022-Aug-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODg3OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>251 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>93</td>
+<td>Medical Device Alert date 21 July 2022</td>
+<td>2022-Jul-21</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODgyNQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1328 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>94</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF JUNE-2022</td>
+<td>2022-Jul-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NDU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>7 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>95</td>
+<td>Drug Alert list for month of June 2022</td>
+<td>2022-Jul-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODc3MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>194 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>96</td>
+<td>Medical Device Alert date 21 June 2022</td>
+<td>2022-Jun-21</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODY1OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>5121 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>97</td>
+<td>Drug Alert list for month of April 2022 (Revised)</td>
+<td>2022-Jun-15</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODY2NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>32 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>98</td>
+<td>Medical Device Alert date 14 June 2022</td>
+<td>2022-Jun-14</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODYxNg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>955 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>99</td>
+<td>Drug Alert list for month of May 2022</td>
+<td>2022-Jun-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODU3Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>227 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>100</td>
+<td>Drug Alert list for month of April 2022</td>
+<td>2022-May-18</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODYxOA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>197 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>101</td>
+<td>Drug Alert list for month of March 2022</td>
+<td>2022-Apr-26</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODMyNg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>246 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>102</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF MAR-2022</td>
+<td>2022-Apr-13</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NDQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>9 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>103</td>
+<td>Drug Alert list for month of February 2022</td>
+<td>2022-Mar-21</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODI3Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>235 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>104</td>
+<td>Drug Alert list for month of January 2022</td>
+<td>2022-Feb-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODEyMw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>447 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>105</td>
+<td>Drug Alert list for month of December 2021</td>
+<td>2022-Jan-17</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODA4Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>454 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>106</td>
+<td>Drug Alert list for month of November 2021</td>
+<td>2021-Dec-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Nzk5OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>425 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>107</td>
+<td>Drug Alert list for month of October 2021</td>
+<td>2021-Nov-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Nzg4OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>449 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>108</td>
+<td>Medical Devices Alert 8 November 2021</td>
+<td>2021-Nov-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Nzg4MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>2370 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>109</td>
+<td>Drug Alert list for month of September 2021</td>
+<td>2021-Oct-22</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzgxOQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>463 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>110</td>
+<td>Medical Devices Alert on MiniMed 620G Insulin Pump/Pump Kits &amp; MiniMed 640G Insulin Pump/Pump kit of India Medtronic Ltd</td>
+<td>2021-Oct-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Nzc3MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1976 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>111</td>
+<td>Alert_FSN-Medtronic Heartware HVAD</td>
+<td>2021-Sep-17</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzY4NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>285 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>112</td>
+<td>Drug Alert list for month of August 2021</td>
+<td>2021-Sep-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzY1Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>445 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>113</td>
+<td>Drug Alert list for month of July 2021</td>
+<td>2021-Aug-13</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzU3Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>452 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>114</td>
+<td>Medical Devices alert for Ventilator of Philips August 2021</td>
+<td>2021-Aug-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzU3MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>659 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>115</td>
+<td>Drug Alert list for month of June 2021</td>
+<td>2021-Jul-26</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzQ5NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>3002 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>116</td>
+<td>Drug Alert list for month of May 2021 Revised</td>
+<td>2021-Jun-29</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Nzg0MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>8 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>117</td>
+<td>Drug Alert list for month of  May 2021</td>
+<td>2021-Jun-28</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzM1Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>317 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>118</td>
+<td>BA-BE Study Centre Approval Under New Drugs and CT Rules 2019</td>
+<td>2021-Jun-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzMxMg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>354 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>119</td>
+<td>Drug Alert list for month of April 2021</td>
+<td>2021-May-31</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzI3MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>323 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>120</td>
+<td>Drug Alert list for month of March 2021</td>
+<td>2021-Apr-14</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzE0OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>410 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>121</td>
+<td>Drug Alert list for month of February 2021</td>
+<td>2021-Mar-15</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzAzMg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>410 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>122</td>
+<td>Drug Alert list for month of Feb 2021</td>
+<td>2021-Mar-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzAwNQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>273 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>123</td>
+<td>Drug Alert list for month of January 2021</td>
+<td>2021-Feb-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Njk3Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>406 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>124</td>
+<td>Drug Alert list for month of December 2020</td>
+<td>2021-Jan-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Njg1MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>308 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>125</td>
+<td>Drug Alert list for month of November 2020</td>
+<td>2020-Dec-15</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Njc2NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>306 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>126</td>
+<td>Drug Alert list for month of October 2020</td>
+<td>2020-Nov-06</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjYyOA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>295 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>127</td>
+<td>Drug Alert list for month of September 2020</td>
+<td>2020-Oct-14</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjU1NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>298 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>128</td>
+<td>Drug Alert list for month of August 2020</td>
+<td>2020-Sep-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjQ2OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>219 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>129</td>
+<td>Drug Alert list for month of July 2020</td>
+<td>2020-Aug-17</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjM5MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>344 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>130</td>
+<td>Drug Alert list for month of June 2020</td>
+<td>2020-Jul-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjA5MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>409 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>131</td>
+<td>Drug Alert list for month of May 2020</td>
+<td>2020-Jun-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTk4Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>323 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>132</td>
+<td>Drug Alert list for month of April 2020</td>
+<td>2020-May-14</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTkyMw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>390 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>133</td>
+<td>Drug Alert list for month of March 2020</td>
+<td>2020-Apr-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTg3Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>187 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>134</td>
+<td>Drug Alert list for month of Feb 2020</td>
+<td>2020-Mar-06</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTcxMw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>442 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>135</td>
+<td>Drug Alert list for month of January 2020</td>
+<td>2020-Feb-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTU0Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>304 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>136</td>
+<td>Biosimilar Guideline 2016</td>
+<td>2020-Feb-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTU0NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>2363 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>137</td>
+<td>Drug Alert list for month of December 2019</td>
+<td>2020-Jan-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Njg0MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>458 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>138</td>
+<td>Drug Alert list for month of November 2019</td>
+<td>2019-Dec-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTM0OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>442 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>139</td>
+<td>Drug Alert list for month of October 2019</td>
+<td>2019-Nov-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTIyNA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>344 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>140</td>
+<td>Drug Alert list for month of September 2019</td>
+<td>2019-Oct-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTE5MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>317 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>141</td>
+<td>Drug Alert list for month of August 2019</td>
+<td>2019-Sep-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTE4OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>330 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>142</td>
+<td>Drug Alert list for month of July 2019</td>
+<td>2019-Aug-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDgwMA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>309 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>143</td>
+<td>Drug Alert list for month of June 2019</td>
+<td>2019-Jul-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDU4NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>218 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>144</td>
+<td>Medical  Devices alert july 2019</td>
+<td>2019-Jul-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDU0MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>567 kb</td>
+</tr>
+
+<tr>
+            
+
+<td>145</td>
+<td>Drug Alert  January 2019 Revised</td>
+<td>2019-Jun-13</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDQ5Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>267 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>146</td>
+<td> Drug Alert list for month of May 2019</td>
+<td>2019-Jun-12</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDQ5Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>335 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>147</td>
+<td>Medical Device Alert Dated 20.05.2019</td>
+<td>2019-May-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDQ3MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>88 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>148</td>
+<td>Drug Alert list for month of April 2019</td>
+<td>2019-May-13</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDM5MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>331 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>149</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF APRIL-2019</td>
+<td>2019-May-13</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4NzY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>210 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>150</td>
+<td>Drug Alert list for month of March 2019</td>
+<td>2019-Apr-15</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDMxNQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>360 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>151</td>
+<td>Minutes of meeting of CDSCO with stakeholders for obtaining Import License without Registration Certificate for Radiopharmaceuticals held on 12.04.19</td>
+<td>2019-Apr-12</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDQ3Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>464 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>152</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF MARCH-2019</td>
+<td>2019-Apr-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4ODI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>200 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>153</td>
+<td>Drug Alert list for month of February 2019</td>
+<td>2019-Mar-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDE0Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>343 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>154</td>
+<td>Drug Alert list for month of January 2019</td>
+<td>2019-Feb-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Mzc2OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>185 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>155</td>
+<td>List of Approved BA/BE Centers</td>
+<td>2019-Jan-29</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzQyNQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>181 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>156</td>
+<td>Drug Alert list for month of December 2018</td>
+<td>2019-Jan-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjQ4Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>335 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>157</td>
+<td>Drug Alert list for November 2018</td>
+<td>2018-Dec-12</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjIzOA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>52 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>158</td>
+<td>Drug Alert list for October 2018</td>
+<td>2018-Nov-01</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjE2Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>77 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>159</td>
+<td>Recall of OZURDEX (Dexamethasone Intravitreal Implant 0.7mg)</td>
+<td>2018-Oct-17</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjA1OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>516KB</td>
+</tr>
+
+<tr>
+            
+
+<td>160</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF SEP-2018</td>
+<td>2018-Oct-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4ODQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>201 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>161</td>
+<td>NOC update list of Medical Devices 2015</td>
+<td>2018-Oct-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjAzOQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>162 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>162</td>
+<td>NOC update list of Medical Devices 2018</td>
+<td>2018-Oct-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjA0Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>225 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>163</td>
+<td>NOC update list of Medical Devices 2017</td>
+<td>2018-Oct-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjA0MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>914 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>164</td>
+<td>NOC update list of Medical Devices 2016</td>
+<td>2018-Oct-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjA0MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>138 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>165</td>
+<td>NOC update list of Medical Devices 2014</td>
+<td>2018-Oct-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjAzOA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>79 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>166</td>
+<td>NOC update list of Medical Devices 2013</td>
+<td>2018-Oct-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjAzNw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>95 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>167</td>
+<td>NOC  Updated list of Medical Devices 2012</td>
+<td>2018-Oct-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjAzNg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>112 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>168</td>
+<td>NOC of Medical Devices 2011</td>
+<td>2018-Oct-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjAzNQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>91 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>169</td>
+<td>Drug Alert list for September 2018</td>
+<td>2018-Oct-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjE2Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>309 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>170</td>
+<td>List of Drugs, Medical Devices and Cosmetics declared as Not of Standard Quality/Spurious/Adulterated/Misbranded, For the Month of August, 2018</td>
+<td>2018-Sep-14</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTk1MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>340 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>171</td>
+<td>Drug Alert list for month of August 2018</td>
+<td>2018-Sep-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>340 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>172</td>
+<td>Drug Alert list for July, 2018</td>
+<td>2018-Aug-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTkwNg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>160 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>173</td>
+<td>List of Clarifications/NOCs Issue from 2011-  2018</td>
+<td>2018-Aug-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTg3Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1280 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>174</td>
+<td>Drug Alert for the month of June,2018</td>
+<td>2018-Jul-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc5NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>187 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>175</td>
+<td>List of Drugs, Medical Devices and Cosmetics declared as Not of Standard Quality/Spurious/Adulterated/Misbranded, For the Month of MAY, 2018</td>
+<td>2018-Jun-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTcxNw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>390KB</td>
+</tr>
+
+<tr>
+            
+
+<td>176</td>
+<td>Drug Alert for the month of May,2018</td>
+<td>2018-Jun-06</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc5Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>225 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>177</td>
+<td>Drug Alert for the month of  April,2018</td>
+<td>2018-Jun-01</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTY2Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>80KB</td>
+</tr>
+
+<tr>
+            
+
+<td>178</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF APRIL-2018 </td>
+<td>2018-May-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4NzU='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>200 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>179</td>
+<td>Drug Alert for the month of April 2018</td>
+<td>2018-May-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc5Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>177 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>180</td>
+<td>Oxytocin Drug Alert</td>
+<td>2018-May-01</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQ1OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>41KB</td>
+</tr>
+
+<tr>
+            
+
+<td>181</td>
+<td>Drug Alert list for month of March 2018</td>
+<td>2018-Apr-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>222 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>182</td>
+<td>NSQ Vi-Conjugate Typhoid Vaccine Batch No.TC010915 and Batch No. TC010417 of M/s Bio Med Pvt Ltd dated 14-03-2018</td>
+<td>2018-Mar-14</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQ1OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>905KB</td>
+</tr>
+
+<tr>
+            
+
+<td>183</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF FEB-2018</td>
+<td>2018-Mar-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NDM='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>8 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>184</td>
+<td>Drug Alert list for month of February 2018</td>
+<td>2018-Mar-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>245 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>185</td>
+<td>IN-VITRO DIAGNOSTIC ALERT FOR PRODUCT &#034; BBL(TM) MGIT(TM) Mycobacteria Growth Indicator Tube</td>
+<td>2018-Mar-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI2NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>196 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>186</td>
+<td>List of RC Holders and RC issued in Offline mode From 2013 to 2017</td>
+<td>2018-Feb-17</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODc5NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>2929 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>187</td>
+<td>17list of vaccine manufacturing units inspected-rotated_2</td>
+<td>2018-Feb-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDQ='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1353kb</td>
+</tr>
+
+<tr>
+            
+
+<td>188</td>
+<td>GCP Inspection Checklist16</td>
+<td>2018-Feb-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>261kb</td>
+</tr>
+
+<tr>
+            
+
+<td>189</td>
+<td>Import Drugs60 </td>
+<td>2018-Feb-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Mjk='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>372kb</td>
+</tr>
+
+<tr>
+            
+
+<td>190</td>
+<td>newdrug_advisory_commitee</td>
+<td>2018-Feb-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTY='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>4796kb</td>
+</tr>
+
+<tr>
+            
+
+<td>191</td>
+<td>Drug Alert list for month of  January 2018</td>
+<td>2018-Feb-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>310 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>192</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF JAN-2018</td>
+<td>2018-Feb-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4Nzg='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>201 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>193</td>
+<td>Drug Alert list for month of December 2017</td>
+<td>2018-Jan-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>130 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>194</td>
+<td>In-VitroDdiagnostic alert for product &#034; BBL(TM) MGIT(TM) Mycobacteria Growth Indicator Tube&#034;</td>
+<td>2018-Jan-01</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc4'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>196kb</td>
+</tr>
+
+<tr>
+            
+
+<td>195</td>
+<td>IVD Diagnostic Kit Alert for Comipack ABD</td>
+<td>2018-Jan-01</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc3'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>74kb</td>
+</tr>
+
+<tr>
+            
+
+<td>196</td>
+<td>Drugs Alert for the month of November 2017</td>
+<td>2017-Dec-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>232 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>197</td>
+<td>Drug Alert list for month of  October 2017</td>
+<td>2017-Nov-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>128 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>198</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF SEP-2017</td>
+<td>2017-Oct-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NDI='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>7 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>199</td>
+<td>Drug Alert list for month of  September 2017</td>
+<td>2017-Oct-06</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>189 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>200</td>
+<td>Drug Alert list for month of August 2017</td>
+<td>2017-Sep-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>128 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>201</td>
+<td>NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF July-2017</td>
+<td>2017-Aug-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4Nzk='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>206 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>202</td>
+<td>Drugs Alert for the month of  July 2017</td>
+<td>2017-Aug-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>217 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>203</td>
+<td>Drug Alert list for month of June 2017</td>
+<td>2017-Jul-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>62 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>204</td>
+<td> Destroy of the product demaged due to fire</td>
+<td>2017-Jul-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI2NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>57 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>205</td>
+<td>MEDICAL DEVICE ALERT FOR &#034; Absorb Bioresorbale Vascular Scaffold BVS and Absorb GT1 Bioresorbale Vascular Scaffold BVS </td>
+<td>2017-Jun-28</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI2Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1274 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>206</td>
+<td>IVD Diagnostic Kit Alert for Mediclone D</td>
+<td>2017-Jun-27</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI2MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>144 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>207</td>
+<td>Drug Alert list for month of May 2017</td>
+<td>2017-Jun-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>296 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>208</td>
+<td>MEDICAL DEVICE ALERT FOR &#034; Beacon Tip Torcon NB Advantage Catheter</td>
+<td>2017-Jun-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI2Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1125 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>209</td>
+<td>Medical Devices alert 02.06.2017</td>
+<td>2017-Jun-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzE0Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1125 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>210</td>
+<td>Drug Alert list for month of April 2017</td>
+<td>2017-May-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>320 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>211</td>
+<td>Medical Devices alert 13.04.2017</td>
+<td>2017-Apr-13</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzE0NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1048 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>212</td>
+<td>Medical Devices alert 07.04.2017</td>
+<td>2017-Apr-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzE0NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1134 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>213</td>
+<td>Drug Alert list for month of  March 2017</td>
+<td>2017-Apr-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>427 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>214</td>
+<td>Drug Alert list for month of February 2017</td>
+<td>2017-Mar-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>74 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>215</td>
+<td>Non-conviction Certificate</td>
+<td>2017-Feb-17</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI5Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>6 kb</td>
+</tr>
+
+<tr>
+            
+
+<td>216</td>
+<td>Drug Alert list for month of January 2017</td>
+<td>2017-Feb-06</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>155 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>217</td>
+<td>Drug Alert list for month of December 2016</td>
+<td>2017-Jan-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>85 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>218</td>
+<td>Medical Device Adverse Event reporting form</td>
+<td>2017-Jan-01</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc5'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1,655kb</td>
+</tr>
+
+<tr>
+            
+
+<td>219</td>
+<td>Drug Alert list for month of November 2016</td>
+<td>2016-Dec-12</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>341 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>220</td>
+<td>Drug Alert list for month of October 2016</td>
+<td>2016-Nov-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTU5MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>46 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>221</td>
+<td>Medical Devices alert 21.10.2016</td>
+<td>2016-Oct-21</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzE0Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>868 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>222</td>
+<td>Drug Alert list for month of September 2016</td>
+<td>2016-Oct-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>105 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>223</td>
+<td>Drugs Alert for the month of  July 2016</td>
+<td>2016-Aug-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>96 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>224</td>
+<td>Drug Alert list for month of June 2016</td>
+<td>2016-Jul-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>140 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>225</td>
+<td>Drugs Alert for the month of  May 2016</td>
+<td>2016-Jun-06</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>75 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>226</td>
+<td>Drug Alert list for month of April 2016</td>
+<td>2016-May-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>141 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>227</td>
+<td>Drug Alert list for month of August 2016</td>
+<td>2016-May-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>144 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>228</td>
+<td>Drugs Alert for the month of March 2016</td>
+<td>2016-Apr-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>33 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>229</td>
+<td>Drugs Alert for the month of February 2016</td>
+<td>2016-Mar-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>270 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>230</td>
+<td>Drug Alert list for month of January 2016</td>
+<td>2016-Feb-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>410 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>231</td>
+<td>Drug Alert list for month of December 2015</td>
+<td>2016-Jan-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>244 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>232</td>
+<td>Drug Alert list for month of November 2015</td>
+<td>2015-Dec-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM3MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>84 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>233</td>
+<td>Drug Alert list for month of October 2015</td>
+<td>2015-Nov-02</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>135 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>234</td>
+<td>Drug Alert list for month of  September 2015</td>
+<td>2015-Oct-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>420 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>235</td>
+<td>Drug Alert list for month of August 2015</td>
+<td>2015-Sep-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>195 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>236</td>
+<td>  1-Revoke order dated 19-08-2015 for the purpose of conducting clinical trial. </td>
+<td>2015-Aug-19</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQyMg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>54KB</td>
+</tr>
+
+<tr>
+            
+
+<td>237</td>
+<td>Drug Alert list for month of July 2015</td>
+<td>2015-Aug-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM3Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>101 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>238</td>
+<td>Drug Alert list for month of June 2015</td>
+<td>2015-Jul-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>80 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>239</td>
+<td>Drug Alert list for month of May 2015</td>
+<td>2015-Jun-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>329 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>240</td>
+<td>Sub Standard Quality of Human Albumin IP/EP Albiomin Solution for infusion</td>
+<td>2015-May-19</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQ1Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>62KB</td>
+</tr>
+
+<tr>
+            
+
+<td>241</td>
+<td>Drug Alert list for month of April 2015</td>
+<td>2015-May-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>61 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>242</td>
+<td>Drugs Alert for the month of March 2015</td>
+<td>2015-Apr-06</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>25 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>243</td>
+<td>Drugs Alert for the month of February 2015</td>
+<td>2015-Mar-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>323 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>244</td>
+<td>Drug Alert list for month of January 2015</td>
+<td>2015-Feb-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM3MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>242 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>245</td>
+<td>Drugs Alert for the month of December 2014</td>
+<td>2015-Jan-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>32 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>246</td>
+<td>Drugs Alert for the month of November 2014</td>
+<td>2014-Dec-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>157 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>247</td>
+<td>Drugs alert for the month of October 2014</td>
+<td>2014-Nov-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>145 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>248</td>
+<td>Drug Alert list for the month of September 2014</td>
+<td>2014-Oct-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>121 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>249</td>
+<td>Drug Alert list for month of August 2014</td>
+<td>2014-Sep-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>153 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>250</td>
+<td>Action in pursuance to the investigation carried out at facility (M/s Wellness Solution) for administration of Dendritic cells for treatment of Cancer</td>
+<td>2014-Aug-28</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQyNA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>62KB</td>
+</tr>
+
+<tr>
+            
+
+<td>251</td>
+<td>Action in pursuance to the investigation carried out at M/s Nichi-In Centre for Regenerative Medicine facility for administration of Dendritic Cells for treatment of cancer</td>
+<td>2014-Aug-25</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQyMw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>94KB</td>
+</tr>
+
+<tr>
+            
+
+<td>252</td>
+<td>Drug Alert list for month of July 2014</td>
+<td>2014-Aug-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>146 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>253</td>
+<td>Drug Alert list for month of July 2013</td>
+<td>2014-Aug-05</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>36 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>254</td>
+<td>Drug Alert list for the month of June 2014</td>
+<td>2014-Jul-15</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>378 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>255</td>
+<td>Drugs Alert for the Month of May 2014</td>
+<td>2014-Jun-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>32 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>256</td>
+<td>Drug Alert list for month of April 2014</td>
+<td>2014-May-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>137 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>257</td>
+<td>Drugs Alert for the month of March 2014</td>
+<td>2014-Apr-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>172 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>258</td>
+<td>Drugs Alert for the month of February 2014</td>
+<td>2014-Mar-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>44 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>259</td>
+<td>Drug Alerts for the month of January 2014</td>
+<td>2014-Feb-07</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>106 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>260</td>
+<td>Circular Regarding Approval of Safety and Efficacy Marketed in the Country of FDC Without Approval from DCG(I)</td>
+<td>2014-Feb-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQ1Njc='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>323kb</td>
+</tr>
+
+<tr>
+            
+
+<td>261</td>
+<td>Confidence Spinal Cement System</td>
+<td>2014-Jan-15</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTk2'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>241kb</td>
+</tr>
+
+<tr>
+            
+
+<td>262</td>
+<td>Documents to be submitted for Bioequivalence Study for export applications</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzIzNQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>283 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>263</td>
+<td>FAQ on Phytopharmaceutical Drugs</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI0MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>372 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>264</td>
+<td>Drugs banned in the Country</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>493 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>265</td>
+<td>Document required for approval of BA-BE center</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzIzOA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>58 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>266</td>
+<td>Surveillance of Drugs Manufactured in the Country by CDSCO</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>30 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>267</td>
+<td>Guidance Document for BA/BE NOC Applications for Export Purpose (Draft 2014)</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzIzNw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>294 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>268</td>
+<td>System of preliminary scrutiny by C.D.S.C.O at the time of receipt of application for approval of Fixed Dose Combinations ( 27 Jul 2012 )</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>198 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>269</td>
+<td>Neutral Code - labelling</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzIzNA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>1143 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>270</td>
+<td>Guidance document for approval of ba/be noc for export purpose as per schedule y &amp; test licence in form 11 of drugs and cosmetics rules, 1945</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzIzOQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>934 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>271</td>
+<td>Spurious Drugs -- Reward Scheme for Whistle Blowers </td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>77 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>272</td>
+<td>Draft Guidelines For Industry on Reporting Serious Adverse Events occurring in Clinical Trials ( 27 Jul 2012 )</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>415 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>273</td>
+<td>Draft guidance on approval of clinical trials &amp; new drug</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI0Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>643 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>274</td>
+<td>MEDICAL DEVICE ALERT FOR PRODUCT &#034;HT Connect Peripheral Guidewire</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI2Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>241 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>275</td>
+<td>Revised Checklist for Pre-screening of BA/BE Applications (Draft 2014) effective from 1st Feb 2014</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzIzNg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>327 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>276</td>
+<td>Twelve New Drug Advisory Committees (NDAC) ( 27 Jul 2012 )</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>4796 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>277</td>
+<td>Updated Package Insert PI for empagliflozin Tablets 10mg and 25mg based on company Core Data Sheet (CCDS)</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI0MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>60 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>278</td>
+<td>Guidelines for taking action on samples of drugs declared spurious or not of standard</td>
+<td>2014-Jan-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>193 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>279</td>
+<td>Drug Alert list for month of December 2013</td>
+<td>2014-Jan-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>109 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>280</td>
+<td>Cancellous Bone Screws (A Component of the Hip System)</td>
+<td>2013-Dec-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTk0'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>209kb</td>
+</tr>
+
+<tr>
+            
+
+<td>281</td>
+<td>LPS Lower Extremity Dovetail IntercalaryComponent</td>
+<td>2013-Dec-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTkz'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>238kb</td>
+</tr>
+
+<tr>
+            
+
+<td>282</td>
+<td>HT Connect Peripheral Guidewire</td>
+<td>2013-Dec-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTk4'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>241kb</td>
+</tr>
+
+<tr>
+            
+
+<td>283</td>
+<td>ECHELON Endoscopic Liner Cutter Reloads Black(ECR60T)</td>
+<td>2013-Dec-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTk3'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>268kb</td>
+</tr>
+
+<tr>
+            
+
+<td>284</td>
+<td>ONYX Liquid Embolic System</td>
+<td>2013-Dec-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTky'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>266kb</td>
+</tr>
+
+<tr>
+            
+
+<td>285</td>
+<td>ASR XL Acetabular System &amp; DePuy ASR Hip Resurfacing System</td>
+<td>2013-Dec-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTk1'><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>266kb</td>
+</tr>
+
+<tr>
+            
+
+<td>286</td>
+<td>Drugs Alert for the month of November 2013</td>
+<td>2013-Dec-04</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1MA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>151 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>287</td>
+<td>Approved for Marketing in India</td>
+<td>2013-Nov-27</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI0Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>433 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>288</td>
+<td>Drugs Alert for the month of September 2013</td>
+<td>2013-Oct-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1MQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>302 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>289</td>
+<td>Drug Alert list for month of August 2013</td>
+<td>2013-Sep-03</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0Mw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>188 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>290</td>
+<td>Action in pursuance to the investigation_Denvax Clinic</td>
+<td>2013-Jul-23</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQyMA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>360KB</td>
+</tr>
+
+<tr>
+            
+
+<td>291</td>
+<td>Report of Prof. Ranjit Roy Chaudhury Expert Committee</td>
+<td>2013-Jul-23</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI0OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>826 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>292</td>
+<td>Drug Alert list for month of June 2013</td>
+<td>2013-Jul-09</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0OA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>318 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>293</td>
+<td>Drug Alert list for month of May 2013</td>
+<td>2013-Jun-11</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>468 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>294</td>
+<td>Drugs Alert for the month of April 2013 J&amp; K</td>
+<td>2013-May-08</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1Mg=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>447 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>295</td>
+<td>Drugs Alert for the month of April 2013</td>
+<td>2013-May-01</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0NA=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>466 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>296</td>
+<td>Drug Alert list for month of March 2013</td>
+<td>2013-Apr-10</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>301 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>297</td>
+<td>Drugs Alert for the month of February 2013</td>
+<td>2013-Mar-06</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0Ng=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>298 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>298</td>
+<td>Draft Guidance for Industry on requirement of Chemical &amp; Pharmaceutical Information including Stability Study data before Approval of Clinical Trials / BE Studies ( 27 Jul 2012 )</td>
+<td>2012-Jul-27</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI0OQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>2599 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>299</td>
+<td>Draft Guidance for Industry on Fixed Dose Combinations</td>
+<td>2010-Aug-20</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI0NQ=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>422 KB</td>
+</tr>
+
+<tr>
+            
+
+<td>300</td>
+<td>Report on countrywide survey for Spurious Drugs</td>
+<td>2010-Feb-24</td>
+<td><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1Nw=='><i class="fa fa-file-pdf-o" style="color: red"></i></a></td>
+<td>5165 KB</td>
+</tr>
+
+
+
+ 
+
+</tbody>
+			</table>
+		</div>
+	</div>
+
+</section>
+<script>
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+</body>
+</html>
+
+</div>
+
+</section>
+		 		  </div>
+		  <div class="push"></div>
+		  </div>
+		  
+		  <div class="wrap-f">
+<footer>
+		  <div  id="footer1" ><div>
+	<div class="container">
+<div class="row">
+
+			<div class="col-md-4">
+			
+					<div class="wrap-footer navigfooter">
+					<h5>QUICK LINKS</h5>
+					<ul>
+						<li><span class=""><a href="/opencms/opencms/en/RTI/" rel="tooltip" title="RTI">RTI</a> </span> / <span class=""><a href="/opencms/opencms/en/Gallery/" rel="tooltip" title="Gallery">Gallery</a>
+						</span>/<span class=""><a href="/opencms/opencms/en/Sitemap/" rel="tooltip" title="SiteMap">SiteMap</a> </span> <!--/ <span class=""><a href="/opencms/opencms/en/Complain/" rel="tooltip" title="Grievance">Grievance</a>
+						</span>-->
+						</li>
+
+						<li><span class=""><a href="/opencms/opencms/en/disclaimer/" rel="tooltip" title="Disclaimer">Disclaimer</a> </span> / <span class=""><a href="/opencms/opencms//en/Copyright-Policy/" rel="tooltip" title="Copyright Policy">Copyright Policy</a> </span>/ <span class=""><a href="/opencms/opencms//en/PRO/" rel="tooltip" title="PRO">PRO</a> </span>
+						</li>
+
+						<li><span class=""><a href="/opencms/opencms/en/Hyperlink/" rel="tooltip" title="Hyper Linking Policy">Hyper Linking Policy</a> </span> /<span class=""><a href="/opencms/opencms/en/terms_conditions/" rel="tooltip" title="Terms&amp;Conditions">Terms &amp;
+									Conditions</a> </span> / <span class=""><a href="/opencms/opencms/en/privacy-policy/" rel="tooltip" title="Privacy Policy">Privacy Policy</a> </span> / <span class=""><a href="/opencms/opencms//en/Acts-Rules/" rel="tooltip" title="Acts & Rules">Acts & Rules</a> </span>
+						</li>
+						<li><span class=""><a href="/opencms/opencms/en/accessibility-statement/" rel="tooltip" title="Accessibility Statement">Accessibility Statement</a> </span>
+						</li>
+						<li><span class=""><a href="/opencms/opencms/en/abbreviations/" rel="tooltip" title="Abbreviations">Abbreviations</a> </span>
+						</li>
+<li><span class=""><a href="/opencms/opencms/en/OtherUsefulLinks/" rel="tooltip" title="Other Useful Links">Other Useful Links</a> </span>
+						</li>
+						<!--<li><span class=""><a href="/opencms/opencms/en/Archives/" rel="tooltip" title="Archives">Archives</a> </span>
+						</li>-->
+					</ul>
+				</div>
+
+			</div>
+			<div class="col-md-4">
+				<div class="wrap-footer conf">
+
+
+					<h5>Contact Info</h5>
+					<ul>
+						<li style="text-align: justify;"><i class="fa fa-map-marker" aria-hidden="true"></i>Central Drugs Standard Control Organization, Ministry of Health and Family Welfare, Directorate General of Health Services, Government of India FDA Bhavan, ITO, Kotla Road, <span>
+								New Delhi -110002</span></li>
+						<li><i class="fa fa-envelope-o" aria-hidden="true"></i>dci[at]nic[dot]in</li>
+						<li><i class="fa fa-fax" aria-hidden="true"></i>91-11-23236973</li>
+<li><i class="fa fa-fax" aria-hidden="true">
+</i>PRO Toll Free No. 1800 11 1454</li>
+					</ul>
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="wrap-footer navigfooter">
+					<h5>NAVIGATION</h5>
+
+					<ul>
+						<li><span class=""><a href="/opencms/opencms/en/Zonal-office/" rel="tooltip" title="Zonal Offices">Zonal Offices</a> </span>
+						</li>
+						<li><span class=""><a href="/opencms/opencms/en/subzonaloffice/" rel="tooltip" title="Sub-Zonal Offices">Sub-Zonal Offices</a> </span>
+						</li>
+                                       <li><span class=""><a href="/opencms/opencms/en/Port/" rel="tooltip" title="Port Offices">Port Offices</a> </span>
+						</li>
+						
+						
+						<li><span class=""><a href="/opencms/opencms/en/About-us/Laboratories/" rel="tooltip" title="Central Drug Testing Laboratories">Central
+									Drug Testing Laboratories</a> </span>
+						</li>
+						
+<li><span class=""><a href="/opencms/opencms/en/Notifications/Circulars/" rel="tooltip" title="Circulars">Circulars</a> </span>
+						</li>
+						<li><span class=""><a href="/opencms/opencms/en/help/" rel="tooltip" title="Help">Help</a> </span>
+						</li>
+
+					</ul>
+				</div><!--  -->
+			</div>
+</div>
+</div>
+
+	</div>
+<div>
+	<div class="footer2">
+<div class="bordertop-footer">
+<div class="container">
+		<div class="row">			
+				<div class="col-md-6 col-xs-12 col-sm-12 agileits_w3layouts_copy_right">
+					<p></p>
+					<p>
+						<img
+							src="/opencms/export/system/modules/CDSCO.WEB/resources/img/logo/cdac_logo.png"
+							alt="C-DAC Logo"> Designed, Developed and Maintained by<a
+							href="/opencms/opencms/.content/flexiblecontents/www.cdac.in"> C-DAC </a>
+					</p>
+
+				</div>
+				<div class="col-md-6 col-xs-12 col-sm-12 w3_agile_copy_right">
+					<!--<p> 
+						Last Updated on: <span class="yellow">04/05/2018</span>
+					</p>-->
+					
+					<ul class="agileits_social_list">
+
+						<li><a href="#" class="agile_twitter" title="twitter"
+							rel="tooltip"><i class="fa fa-twitter" aria-hidden="true"></i>
+						</a></li>
+					
+					</ul>
+
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div></div>
+</div><div  id="footer2" ></div></footer>  
+		  </div>
+		  </div>
+<script>
+	$(document)
+			.ready(
+					function() {
+						var headerwrap = $('#navbar1');
+					/* 	$(window).scroll(function() {
+							var scroll = $(this).scrollTop();
+							var topDist = 100;
+							if (scroll > topDist) {
+								headerwrap.addClass('sticky');
+							} else {
+								headerwrap.removeClass('sticky');
+							}
+						});
+ */
+						$('.scrollToTop').click(function() {
+							$('html, body').animate({
+								scrollTop : 0
+							}, 300);
+							return false;
+						});
+						new WOW().init();
+						$(window).scroll(function() {
+							if ($(this).scrollTop() > 100) {
+								$('.scrollToTop').fadeIn();
+							} else {
+								$('.scrollToTop').fadeOut();
+							}
+						});
+
+						
+
+						});
+						
+</script>
+<script>
+function printDiv(printableArea) {
+    var printContents = document.getElementById(printableArea).innerHTML;
+    var originalContents = document.body.innerHTML;
+
+    document.body.innerHTML = printContents;
+
+    window.print();
+
+    document.body.innerHTML = originalContents;
+}
+</script>
+<script>
+	$(document)
+			.ready(
+					function() {
+						var headerwrap = $('#navbar1');
+					/* 	$(window).scroll(function() {
+							var scroll = $(this).scrollTop();
+							var topDist = 100;
+							if (scroll > topDist) {
+								headerwrap.addClass('sticky');
+							} else {
+								headerwrap.removeClass('sticky');
+							}
+						});
+ */
+						$('.scrollToTop').click(function() {
+							$('html, body').animate({
+								scrollTop : 0
+							}, 300);
+							return false;
+						});
+						$(window).scroll(function() {
+							if ($(this).scrollTop() > 100) {
+								$('.scrollToTop').fadeIn();
+							} else {
+								$('.scrollToTop').fadeOut();
+							}
+						});
+
+						$('.govt_web .item a').click(function() {
+							alert('The link leads you to an external website');
+						});
+
+						$('#carousel figure img').click(function() {
+							window.open('/CDSCO_Home/gallery', '_blank');
+						});
+						/* var car_h=$('#transition-timer-carousel').height();
+						
+						$('.marquee').height(car_h); */
+
+						$("#owl-demo1").owlCarousel({
+
+							autoPlay : 3000, //Set AutoPlay to 3 seconds
+							stopOnHover : true,
+							navigation : true,
+							items : 3,
+							itemsDesktop : [ 1199, 3 ],
+							itemsDesktopSmall : [ 979, 3 ]
+
+						});
+
+						$("#owl-demo2")
+								.owlCarousel(
+										{
+
+											autoPlay : 3000, //Set AutoPlay to 3 seconds
+											stopOnHover : true,
+											navigation : true,
+											navigationText : [
+													"<span class='fa fa-chevron-circle-left'></span>",
+													"<span class='fa fa-chevron-circle-right'></span>" ],
+											items : 3,
+											itemsDesktop : [ 1199, 3 ],
+											itemsDesktopSmall : [ 979, 3 ]
+
+										});
+						$("#owl-demo_section3").owlCarousel({
+
+							navigation : true, // Show next and prev buttons
+							slideSpeed : 300,
+							stopOnHover : true,
+							/* paginationSpeed : 300, */
+							autoPlay : 3000,
+							 items : 1, //10 items above 1000px browser width
+						      itemsDesktop : [1000,1], //5 items between 1000px and 901px
+						      itemsDesktopSmall : [900,1], // betweem 900px and 601px
+						      itemsTablet: [600,1], //2 items between 600 and 0;
+						      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+						});
+
+						$("#transition-timer-carousel")
+								.on(
+										"slide.bs.carousel",
+										function(event) {
+
+											//The animate class gets removed so that it jumps straight back to 0%
+
+											$(
+													".transition-timer-carousel-progress-bar",
+													this)
+													.removeClass("animate")
+													.css("width", "0%");
+										})
+								.on(
+										"slid.bs.carousel",
+										function(event) {
+											//The slide transition finished, so re-add the animate class so that
+											//the timer bar takes time to fill up
+											$(
+													".transition-timer-carousel-progress-bar",
+													this).addClass("animate")
+													.css("width", "100%");
+										});
+
+						//Kick off the initial slide animation when the document is ready
+						$(".transition-timer-carousel-progress-bar",
+								"#transition-timer-carousel").css("width",
+								"100%");
+						
+						
+						$(".owl-carousel").owlCarousel({
+                            items : 4,
+							
+							autoPlay : true,
+							
+//Set AutoPlay to 10 seconds
+							stopOnHover : true,
+							/* navigation : true,
+							navigationText : [
+												"<span class='fa fa-chevron-circle-left'></span>",
+												"<span class='fa fa-chevron-circle-right'></span>" ], */
+						
+							itemsDesktop : [ 1199, 3 ],
+							itemsDesktopSmall : [ 979, 3 ]
+
+						});
+
+						
+					});
+
+	$('.scrollToTop').click(function() {
+		$('html, body').animate({
+			scrollTop : 0
+		}, 300);
+		return false;
+	});
+
+	if ('' != '') {
+		$('#login_panel').addClass('in');
+	}
+
+	/* $("#carousel1").Cloud9Carousel( {
+		  buttonLeft: $("#buttons > .left"),
+		  buttonRight: $("#buttons > .right"),
+		  autoPlay: 1,
+		  bringToFront: true
+		} );
+	 var showcase = $("#showcase");
+
+	  showcase.Cloud9Carousel( {
+	    yOrigin: 42,
+	    yRadius: 40,
+	    itemClass: "card",
+	    buttonLeft: $(".nav.left"),
+	    buttonRight: $(".nav.right"),
+	    bringToFront: true,
+	    onLoaded: function() {
+	      showcase.css( 'visibility', 'visible' )
+	      showcase.css( 'display', 'none' )
+	      showcase.fadeIn( 1500 )
+	    }
+	  } ) 
+	 */
+	new WOW().init();
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+</script>
+<script>
+$.fn.extend({
+    treed: function (o) {
+      
+      var openedClass = 'glyphicon-minus-sign';
+      var closedClass = 'glyphicon-plus-sign';
+      
+      if (typeof o != 'undefined'){
+        if (typeof o.openedClass != 'undefined'){
+        openedClass = o.openedClass;
+        }
+        if (typeof o.closedClass != 'undefined'){
+        closedClass = o.closedClass;
+        }
+      };
+      
+        //initialize each of the top levels
+        var tree = $(this);
+        tree.addClass("tree");
+        tree.find('li').has("ul").each(function () {
+            var branch = $(this); //li with children ul
+            branch.prepend("<i class='indicator glyphicon " + closedClass + "'></i>");
+            branch.addClass('branch');
+            branch.on('click', function (e) {
+                if (this == e.target) {
+                    var icon = $(this).children('i:first');
+                    icon.toggleClass(openedClass + " " + closedClass);
+                    $(this).children().children().toggle();
+                }
+            })
+            branch.children().children().toggle();
+        });
+        //fire event from the dynamically added icon
+      tree.find('.branch .indicator').each(function(){
+        $(this).on('click', function () {
+            $(this).closest('li').click();
+        });
+      });
+        //fire event to open branch if the li contains an anchor instead of text
+        tree.find('.branch>a').each(function () {
+            $(this).on('click', function (e) {
+                $(this).closest('li').click();
+                e.preventDefault();
+            });
+        });
+        //fire event to open branch if the li contains a button instead of text
+        tree.find('.branch>button').each(function () {
+            $(this).on('click', function (e) {
+                $(this).closest('li').click();
+                e.preventDefault();
+            });
+        });
+    }
+});
+
+//Initialization of treeviews
+
+$('#tree1').treed();
+
+$('#tree2').treed();
+
+$('#tree3').treed({openedClass:'glyphicon-chevron-right', closedClass:'glyphicon-chevron-down'});
+
+</script>
+
+
+</body>
+</html>
