@@ -1,0 +1,26 @@
+{
+  "control": {
+    "num_id": 13487,
+    "source": "Alerts page (known to work)",
+    "product": "Circular to all State/UT Licensing Authorities",
+    "encoded": "MTM0ODc=",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "linked": true,
+    "pdf_saved": "websites\\cdsco-nsq\\api-endpoint\\output\\numid_13487.pdf",
+    "inner_url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/All State and UTS Licensing Authority.pdf"
+  },
+  "spurious": [
+    {
+      "num_id": 12377,
+      "source": "Spurious Jul-2026 (unfiltered)",
+      "product": "Buprenorphine Injection I.P. 2ml",
+      "encoded": "MTIzNzc=",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "linked": true,
+      "pdf_saved": "websites\\cdsco-nsq\\api-endpoint\\output\\numid_12377.pdf",
+      "inner_url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadEthicsRegistration/2031-ICMR-2625-MH-RC-2024.pdf"
+    }
+  ]
+}

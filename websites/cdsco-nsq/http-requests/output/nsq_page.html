@@ -1,0 +1,1934 @@
+<html>
+<head>
+<!DOCTYPE html>
+<html lang="en">
+<title>NSQ Alerts</title>
+<meta charset="UTF-8"> 
+<meta name="description" content="{{description}}">
+<meta name="keywords" content="CDSCO, National Regulatory Authority">
+<link rel="author" href="https://cdsco.gov.in/opencms/opencms/en/Home/" />
+<meta name="description" content="he Central Drugs Standard Control Organisation(CDSCO)under Directorate General of Health Services,Ministry of Health & Family Welfare,Government of India is the National Regulatory Authority (NRA) of India."> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/animate.min.css" />
+	
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/owl.theme.css" />
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/owl.carousel.css" />
+	
+	<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/jquery-ui.css" />
+	
+  
+  <script type="text/javascript" src="/opencms/export/system/modules/CDSCO.WEB/resources/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/opencms/export/system/modules/CDSCO.WEB/resources/js/wow.min.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/bootstrap.bundle.min.js"></script>
+
+ <link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/home.css" />
+	<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/mobile.css" />
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/owl.carousel.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/html5shiv.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/respond.min.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.smartmenus.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.smartmenus.bootstrap.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.fittext.js"></script>
+	<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.sort.js"></script>
+	<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.paginate.js"></script>
+
+	<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.filter.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/dataTables.responsive.min.js"></script>
+	
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/footable.core.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/jquery.dataTables.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/dataTables.bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/jquery.smartmenus.bootstrap.css">
+
+	<link rel="stylesheet"
+		href="/opencms/export/system/modules/CDSCO.WEB/resources/css/select2.css" />
+		<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/select2.min.js"></script>
+	 		<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/sweetalert.min.js"></script>
+ <link rel="stylesheet"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/sweetalert.css" />
+ <link rel="stylesheet"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/bootstrapValidator.css" />
+		
+ <link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/datepicker3.css" />
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/bootstrap-datepicker.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/bootstrapValidator.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery-ui.min.js"></script>
+
+	<script>
+	$(function() {
+
+		
+		var dt = new Date();
+		var time = dt.toDateString() + " , " + dt.getHours() + ":"
+				+ dt.getMinutes() + ":" + dt.getSeconds();
+		$("#date").text(time);
+
+		$(".dropdown").hover(function() {
+			$('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up");
+		}, function() {
+			$('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up");
+		});
+		$('#drug_control').click(function() {
+			alert('The link leads  you to an external website');
+		});
+
+	});
+</script>
+
+
+<script >
+$(window).scroll(function(){
+	  var menu = $('.menu'),
+	      scroll = $(window).scrollTop();
+
+	  if (scroll >= 100) menu.addClass('fixed');
+	  else menu.removeClass('fixed');
+	});
+	
+});
+ </script>
+ 
+<script >
+!function ($) {
+    
+    // Le left-menu sign
+    /* for older jquery version
+    $('#left ul.nav li.parent > a > span.sign').click(function () {
+        $(this).find('i:first').toggleClass("icon-minus");
+    }); */
+    
+    $(document).on("click","#left ul.nav li.parent > a > span.sign", function(){          
+        $(this).find('i:first').toggleClass("icon-minus");      
+    }); 
+    
+    // Open Le current menu
+    $("#left ul.nav li.parent.active > a > span.sign").find('i:first').addClass("icon-minus");
+    $("#left ul.nav li.current").parents('ul.children').addClass("in");
+
+}(window.jQuery);</script>
+
+
+
+
+<script>
+$(document).ready(function() {
+$('#event_start_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+$('#event_end_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+
+$('#industry_end_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+$('#industry_start_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+
+});
+</script>
+
+<script>
+	$(function() {
+	
+
+		$(".header_text h4").fitText(2.4, {
+			minFontSize : '10px',
+			maxFontSize : '18px'
+		});
+		$(".header_text h5").fitText(2.4, {
+			minFontSize : '10px',
+			maxFontSize : '16px'
+		});
+		$(".main_div1 h2").fitText(2.4, {
+			minFontSize : '20px',
+			maxFontSize : '25px'
+		});
+		/* $(".main_div p").fitText(2.4, {
+			minFontSize : '17px',
+			maxFontSize : '17px'
+		}); */
+		var curr_size;
+
+		$(".desc").click(function() {
+			curr_size = parseInt($('.main_div1 ').css('font-size')) - 1;
+			curr_h2 = parseInt($('.main_div1 h2').css('font-size')) - 2;
+			curr_h3 = parseInt($('.main_div1 h3').css('font-size')) - 2;
+			curr_h4 = parseInt($('.main_div1 h4').css('font-size')) - 2;
+			curr_h5 = parseInt($('.main_div1 h5').css('font-size')) - 2;
+			curr_p = parseInt($('.main_div1 p').css('font-size')) - 2;
+			curr_td = parseInt($('.main_div1 td').css('font-size')) - 2;
+			curr_a= parseInt($('.main_div1 a').css('font-size')) - 2;
+			curr_li= parseInt($('.main_div1 li').css('font-size')) - 2;
+			curr_h5= parseInt($('.main_div1 h5').css('font-size')) - 2;
+		
+			
+
+			if (curr_size >= 10) {
+				$('.main_div1').css('font-size', curr_size);
+			}
+			if (curr_h3 >= 16) {
+				$('.main_div1 h3').css('font-size', curr_h3);
+			}
+			if (curr_h4 >= 12) {
+				$('.main_div1 h4').css('font-size', curr_h4);
+			}
+			if (curr_h2 >= 20) {
+				$('.main_div1 h2').css('font-size', curr_h2);
+			}
+			if (curr_h5 >= 12) {
+				$('.main_div1 h5').css('font-size', curr_h5);
+			}
+			if (curr_p >= 12) {
+				$('.main_div1 p').css('font-size', curr_p);
+			}
+			if (curr_td >= 12) {
+				$('.main_div1 td').css('font-size', curr_td);
+			}
+			if (curr_a >= 12) {
+				$('.main_div1 a').css('font-size', curr_a);
+			}
+			if (curr_li >= 12) {
+				$('.main_div1 li').css('font-size', curr_li);
+			}
+		});
+		
+
+		$(".inc").click(function() {
+			curr_size = parseInt($('.main_div1').css('font-size')) + 1;
+			curr_h3 = parseInt($('.main_div1 h3').css('font-size')) + 1;
+			curr_h2 = parseInt($('.main_div1 h2').css('font-size')) + 1;
+			curr_h4 = parseInt($('.main_div1 h4').css('font-size')) + 1;
+			curr_h5 = parseInt($('.main_div1 h5').css('font-size')) + 1;
+			curr_p = parseInt($('.main_div1 p').css('font-size')) + 1;
+			curr_td = parseInt($('.main_div1 td').css('font-size')) + 1;
+			curr_a = parseInt($('.main_div1 a').css('font-size')) + 1;
+			curr_li = parseInt($('.main_div1 li').css('font-size')) + 1;
+
+
+			if (curr_size <= 18) {
+				$('.main_div1').css('font-size', curr_size);
+			}
+			if (curr_h3 <= 28) {
+				$('.main_div1 h3').css('font-size', curr_h3);
+			}
+			if (curr_h5 <= 28) {
+				$('.main_div1 h5').css('font-size', curr_h5);
+			}
+			if (curr_h2 <= 32) {
+				$('.main_div1 h2').css('font-size', curr_h2);
+			}
+			if (curr_h4 <= 22) {
+				$('.main_div1 h4').css('font-size', curr_h4);
+			}
+			if (curr_p <= 26) {
+				$('.main_div1 p').css('font-size', curr_p);
+			}
+			if (curr_td <= 26) {
+				$('.main_div1 td').css('font-size', curr_td);
+			}
+			if (curr_a <= 26) {
+				$('.main_div1 a').css('font-size', curr_a);
+			}
+			if (curr_li <= 26) {
+				$('.main_div1 li').css('font-size', curr_li);
+			}
+		});
+
+		$('.govt_link').click(function() {
+			alert('The link leads  you to an external website');
+		});
+	
+
+	$('.ext').click(function() {
+			alert('The link leads  you to an external website');
+		});
+
+		});
+</script>
+<script>
+function openNav() {
+    document.getElementById("mySidenavh").style.width = "230px";
+    document.getElementById("mainh").style.marginLeft = "230px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenavh").style.width = "0";
+    document.getElementById("mainh").style.marginLeft= "0";
+}
+</script>
+<script>
+$(document).ready(function() {
+$('#example_upload').DataTable();
+$('#example_upload_indus').DataTable();
+$('#example_upload_pen').DataTable();
+
+
+
+   $('#example1').DataTable();
+      $('#example2').DataTable();
+	     $('#example3').DataTable();
+$('#example4').DataTable();
+$('#example5').DataTable();
+$('#example6').DataTable();
+$('#example7').DataTable();
+        //var table = $('#example').DataTable({
+  // dom: 'lrtip'
+  var table = $('#example').DataTable();
+      
+      $('#ethics_state').on('change', function(){
+             table.search(this.value).draw();   
+       });
+	     $('#data_zones').on('change', function(){
+               table.search(this.value).draw();   
+       });
+	    $('#ct_approval_category').on('change', function(){
+       table.search(this.value).draw();     
+    });
+	$('#ct_approval_year').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_div').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_loc').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_month').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_year').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#syn_list').on('change', function(){
+        table.search(this.value).draw();   
+    });
+   });
+   
+ //for Tab used with jquery UI
+  $(document).ready(function(){
+    $(".tab-v1").tabs();
+  });
+
+</script>
+</html>
+<script>
+/*$(document).ready(function() {
+ 
+$('#example_upload').DataTable();
+
+
+var table = $('#example_upload_indus').DataTable();
+/*table.column( 7 ).visible( false );
+table.column( 8 ).visible( false );
+table.column( 9 ).visible( false );*/
+
+
+/*var table = $('#example_upload_pen').DataTable();
+/*table.column( 6 ).visible( false );
+table.column( 7 ).visible( false );
+table.column( 8 ).visible( false );*/
+
+/*});*/
+</script>
+
+
+
+	
+	</head>
+
+<body class="main_div1">
+<div id="mainh">
+<div id="wrapper">
+ <div class="container-fluid">
+<header>
+<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12  header_top zero1">
+		<div  id="cdsco_gigw" ><div>
+	<div class="row justify-content-between">
+<div class="col-md-3 col-xs-3 col-lg-3 col-sm-3" style="margin-top: 4px;">
+				<i class="fa fa-calendar fa-1x pad-right hidden-xs"></i><span
+					id="date"></span>
+			</div>
+			
+			<div class="col-md-8 col-xs-8 text-end head_links" style="margin-left: 6%;">
+			
+				<a href="#section2" class="skip_mc white" title="Skip to main content" style="font-size: 20px;"><i class="fa fa-reply-all fa-rotate-270"></i></a> <!--<a
+					href="#myNavbar" class="skipnv white">Skip to navigation</a>--> <a
+					href="/opencms/opencms/en/ScreenReader/" class="white">Screen Reader</a>  <!--<span class="theme">
+					<a href="#" class="white dark_bg">A</a> <a href="#" class="white light_bg">A</a> </span> --><span class="text_size"> Text
+					Size <a href="#" class="white desc" >A<sup>-</sup> </a> 
+<a href="#"class="white norm"  onclick="window.location.reload()">A</a> 
+<a href="#" class="white inc">A<sup>+</sup>
+				</a>
+				</span> </div>	</div>	
+</div>
+<div>
+	<div class="row mid_div">
+    <div class="header_mid row">
+      <div class="col-md-1 zero col-sm-2 col-xs-3 text-center cdsco_logo">
+        <a href="/opencms/opencms/en/Home/" target="_blank">
+          <img
+          src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/cdscologo_lbg.png"
+          alt="CDSCO logo" class="shrink">
+        </a>
+      </div>
+      <div class="header_text col-md-6  col-sm-6 col-xs-6 zero">
+        <h4 style="font-size: 18px;font-weight: bolder;">Central Drugs Standard Control
+          Organization</h4>
+        <h5 style="font-weight: bold;font-size:14px;">Directorate General of Health
+          Services</h5>
+        <h5 style="font-weight: bold;">Ministry of Health &amp; Family
+          Welfare</h5>
+        <h5 style="font-weight: bold; color: rgb(99, 19, 19);">Government of India</h5>
+      </div>
+      <div class="col-md-1 col-sm-2 col-xs-3 zero text-right icdra_logo">
+       <!-- <a href="https://www.g20.org/en/" target="_blank"> <img
+        src="/opencms/opencms/Image_folder/logo/g20.png"
+          alt="g-20 logo" class="img-responsive" style="height:100px; margin-top: 25px">
+        </a> -->
+      </div> 
+   
+    <div class="col-md-2 col-sm-2 col-xs-3 zero text-right"> </div>
+  
+
+  <!--    <div class="col-md-2 col-sm-2 col-xs-3 zero text-right swach_logo">
+        <a> <img
+          src="/opencms/opencms/Image_folder/logo/swach-bharat.jpg"
+          alt="swach bharat logo" class="img-responsive">
+        </a>
+      </div> -->
+
+  <!-- swach bharat -->
+<div class="col-md-2 col-sm-2 col-xs-3 zero text-right swach_logo">
+        <a> <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/swach-bharat.jpg" alt="swach bharat logo" class="img-responsive">
+        </a>
+      </div>
+
+
+    </div>
+  </div>
+
+</div>
+</div><!--<div class="col-md-1 col-lg-1 language zero ">
+		        <a href="/opencms/opencms/CDSCO_WEB/en/index.html" class="white">Hindi</a>
+				<span>|</span>
+				<a href="/opencms/opencms/en/Notifications/nsq-drugs/index.html" class="white">English</a>			
+		</div-->
+</div>
+		</div>
+<div  id="cdsco_header_content" ></div><div class="row navbar-blue">
+ 
+  
+   <div class="col-sm-12 col-lg-12 col-md-12">
+<div  id="cdsco_nav_content1" ></div></div>
+
+ <div class="col-sm-0">
+  <div  id="cdsco_nav_content2" ></div></div>
+
+</div>
+
+		
+      </header> 
+          
+		  <a class="scrollToTop" href="#" style="display: none;">
+<i class="fa fa-chevron-circle-up fa-3x"></i>
+</a>
+<!--<a class="report" href="#">
+<img src="/opencms/export/system/modules/CDSCO.WEB/resources/img/new/report2.png" alt="Report Problem">
+</a>-->
+<div class="clearfix"></div>
+		 
+	
+		<div class="col-md-12 col-sm-12 col-xs-12 pt-4">
+		<div class="container-fluid">
+	<div class="row breadcrumb-bg">
+<div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
+<ul class="pull-left breadcrumb hidden-xs">
+	<li class="bold"><a href="/opencms/opencms/en/" style="text-decoration:none">Home</a></li>
+		<li class="bold"><a href="/opencms/opencms/en/Notifications/" style="text-decoration:none">Notifications</a></li>
+		<li class="bold"><a href="/opencms/opencms/en/Notifications/nsq-drugs/" style="text-decoration:none">NSQ Alerts</a></li>
+		</ul>
+</div>
+
+<div class=" col-md-2  col-lg-2 col-sm-12 col-xs-12">
+	<div class="pull-right">
+
+<button type="button" class="print-gigw" onclick="printDiv('printableArea')" value="print a div!" /><i class="fa fa-print" aria-hidden="true"></i></div>
+
+</div>
+</div>
+</div>
+<script>
+function printDiv(printableArea) {
+     var printContents = document.getElementById(printableArea).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+</script></div>
+		
+		<div
+	class="col-md-12 col-sm-12 col-xs-12 pad-top pad-bottom zero text-center">
+
+</div>
+
+		<section id="printableArea">
+		<div class="row pad-top text-center">
+				  <div  id="maintitle" ><div>
+	<div class="nsq_sec"><iframe src="https://cdscoonline.gov.in/CDSCO/viewPublicNSQDrug" title="W3Schools Free Online Web Tutorials"></iframe></div></div>
+</div></div> <!-- row pad-top -->			
+			
+		<!-- <div class="row main_sec">
+		<div class="col-md-8 col-sm-12 zero">
+		<div  id="cdsco_slider_imgs" ></div></div>
+		<div class="col-md-4 col-sm-12 col-xs-12">
+		<div class="inner-right-all">
+		<div  id="cdsco_tab-stacked-pro" ></div></div>
+		</div>
+		</div> --> <!-- main_sec -->
+		
+		
+		<div class="row section3 ">
+		<div class="col-md-12 section3_pro">
+<!-- <div class="col-md-4 col-sm-12 col-xs-12 pad-top double"> -->
+			
+<!--  
+	 
+
+
+
+
+
+
+
+	
+	 
+
+
+
+
+
+
+
+	 
+
+  
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+ul {
+  list-style-type: none;
+}
+li{
+list-style-type: none;
+padding-top:3px;
+}
+</style>
+</head>
+<body >
+
+
+<div class="panel panel-default ">
+					<div class="panel-heading bold ">
+						<h5>
+							<i class="fa fa-exclamation-triangle fa-2x pad-right half css_blink"></i>Alerts
+						</h5>
+
+					</div>
+					<div class="panel-body ">
+					<ul>
+					<marquee behavior="scroll" direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
+
+
+
+
+
+
+	 
+	  
+
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI3Mzk='>
+<span class="font_black"> State NSQ Alert For The Month April-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-May-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI3Mzc='>
+<span class="font_black"> List of Drugs, Medical Devices, Vaccine and Cosmetics declared as Not of Standard Quality/Spurious/Adulterated/Misbranded for the Month of Januaryâ 2025 Revised</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-May-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI3NDA='>
+<span class="font_black"> List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of April-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-May-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI3Mzg='>
+<span class="font_black"> Not Of Standard of Quality (NSQ) ALERT FOR THE MONTH OF April-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-May-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2MTM='>
+<span class="font_black"> NSQ ALERT FOR THE MONTH OF Feb-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Mar-29</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2MTI='>
+<span class="font_black"> List of Drugs, Medical Devices, Vaccine and Cosmetics declared as Spurious for the Month of February-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Mar-29</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2MTQ='>
+<span class="font_black"> STATE NSQ ALERT FOR THE MONTH OF FEBRUARY-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Mar-29</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI4NDc='>
+<span class="font_black"> NSQ ALERT FOR THE MONTH OF MAY-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Jun-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI4NDU='>
+<span class="font_black"> List of Drugs, Medical Devices, Vaccine and Cosmetics declared as Spurious for the Month of May-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Jun-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI4NDY='>
+<span class="font_black"> STATE NSQ ALERT FOR THE MONTH OF MAY-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Jun-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI5NjA='>
+<span class="font_black"> Revise list drug alert May-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Jul-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI5MjY='>
+<span class="font_black"> STATE NSQ ALERT FOR THE MONTH OF June 2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Jul-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI5Mjc='>
+<span class="font_black"> CDSCO NSQ ALERT FOR THE MONTH OF June 2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Jul-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI5NTk='>
+<span class="font_black"> List of spurious Drugs  for the month of June-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Jul-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIzOTM='>
+<span class="font_black"> Drug Alert for the Month of December 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Jan-24</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIzOTQ='>
+<span class="font_black"> State Drug Alert for the Month of December 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Jan-24</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI1NTU='>
+<span class="font_black"> NSQ ALERT FOR THE MONTH OF JANUARY-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Feb-28</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI1NTY='>
+<span class="font_black"> STATE NSQ ALERT FOR THE MONTH OF JANUARY-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Feb-28</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTMyNDU='>
+<span class="font_black"> Availability of Not Standard Quality (NSQ) Alert on New Link in CDSCO Website</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Aug-28</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTMxNzQ='>
+<span class="font_black"> Alert on theft of multiple drug products of M/s. Novo Nordisk during transit</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Aug-21</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2Njc='>
+<span class="font_black"> List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of March- 2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Apr-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2NzA='>
+<span class="font_black"> Revise list drug alert November-2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Apr-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2Njg='>
+<span class="font_black"> State NSQ Alert For The Month March-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Apr-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2Njk='>
+<span class="font_black"> NOT OF STANDARD QUALITY (NSQ) ALERT FOR THE MONTH OF MARCH-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Apr-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTI2NzE='>
+<span class="font_black"> Revise list drug alert January-2025</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2025-Apr-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwMTI='>
+<span class="font_black"> State Drug Alert for the Month of August 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Sep-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwMTA='>
+<span class="font_black"> Drug Alert for the Month of August 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Sep-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwMTE='>
+<span class="font_black"> List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious Adulterated Misbranded for the Month of August-2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Sep-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwODQ='>
+<span class="font_black"> Drug Alert for the Month of September 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Oct-24</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwODI='>
+<span class="font_black"> List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of September 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Oct-24</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwODM='>
+<span class="font_black"> State Drug Alert for the Month of September 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Oct-24</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyMDM='>
+<span class="font_black"> List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of October 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Nov-29</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyMDI='>
+<span class="font_black"> State Drug Alert for the Month of  October 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Nov-29</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyMDQ='>
+<span class="font_black"> Drug Alert for the Month of October 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Nov-29</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEyNTY='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF APRIL 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-May-17</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEyNTU='>
+<span class="font_black"> SPURIOUS ALERT FOR THE MONTH OF APRIL 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-May-17</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEwMTM='>
+<span class="font_black"> Drug Alert for the Month of February 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Mar-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEwMTQ='>
+<span class="font_black"> Drug Alert for the Month of Revised Jan 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Mar-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEzNzI='>
+<span class="font_black"> NSQ May 2024 CDSCO Labs</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Jun-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTEzNzM='>
+<span class="font_black"> NSQ May 2024 State Labs</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Jun-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE0Njc='>
+<span class="font_black"> State NSQ ALERT FOR THE MONTH OF JUNE 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Jul-19</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE0Njg='>
+<span class="font_black"> NSQ ALERT FOR THE MONTH OF JUNE 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Jul-19</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA4NTE='>
+<span class="font_black"> Drug Alert for the Month of December 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Jan-19</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA5NDA='>
+<span class="font_black"> Drug Alert for the Month of Revised Dec 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Feb-21</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA5Mzk='>
+<span class="font_black"> Drug Alert for the Month of January 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Feb-21</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA5NDE='>
+<span class="font_black"> Drug Alert for the Month of Revised March 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Feb-21</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyOTI='>
+<span class="font_black"> Drug Alert for the Month of November 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Dec-27</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyOTA='>
+<span class="font_black"> State Drug Alert for the Month of November 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Dec-27</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIyOTE='>
+<span class="font_black"> List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of November 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Dec-27</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE2MDA='>
+<span class="font_black"> NSQ ALERT FOR THE MONTH OF JUlY-2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Aug-22</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE2MDE='>
+<span class="font_black"> STATE NSQ ALERT FOR THE MONTH OF July-2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Aug-22</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTExMTU='>
+<span class="font_black"> Drug Alert for the Month of March 2024</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2024-Apr-16</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1MTY='>
+<span class="font_black"> July Revised Drugs Alert List 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Sep-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1MTU='>
+<span class="font_black"> Drug Alert list for month of August 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Sep-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1MDU='>
+<span class="font_black"> WHO Alert on falsified DEFITELIO (DEFIBROTIDE) 80 mg/ml concentrate for solution for infusion, B. No.  20G20A, Exp date 08/2024 mfg by:  Gentium Srl and identified in India</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Sep-06</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1MDQ='>
+<span class="font_black"> Alert on falsified versions of Adcetris Injection Brentuximab Vedotin Manufactured by M/s Takeda Pharmaceuticals Company Ltd</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Sep-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1ODY='>
+<span class="font_black"> Drug Alert for the Month of February  2023 (Revised)</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Oct-19</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1ODU='>
+<span class="font_black"> Drug Alert for the Month of March 2023 (Revised)</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Oct-19</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA1ODM='>
+<span class="font_black"> Drug Alert for the Month of September 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Oct-19</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA2NjY='>
+<span class="font_black"> Drug Alert for the Month of October 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Nov-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAxNTQ='>
+<span class="font_black"> Drug Alert list for month of April 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-May-16</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4NzQ='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF APRIL-2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-May-09</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTk4NQ=='>
+<span class="font_black"> Drug Alert list for month of February 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Mar-30</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAyNDg='>
+<span class="font_black"> Drug Alert list for month of May 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Jun-14</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAyNDY='>
+<span class="font_black"> Drug Alert list for month of February 2023 (Revised)</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Jun-13</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAzNTk='>
+<span class="font_black"> Drug Alert list for month of June 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Jul-19</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAzNTQ='>
+<span class="font_black"> Alert on Pholcodine containing cough and cold remedies</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Jul-14</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTgxMQ=='>
+<span class="font_black"> Drug Alert list for month of December 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Jan-13</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTg4OQ=='>
+<span class="font_black"> Drug Alert list for month of January 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Feb-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTIwMDI='>
+<span class="font_black"> ZyCoV-D SmPc and Factsheet</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Dec-26</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA3ODU='>
+<span class="font_black"> Drug Alert for the Month of May â 2022 Revised</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Dec-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA3ODQ='>
+<span class="font_black"> Drug Alert for the Month of November 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Dec-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA0OTQ='>
+<span class="font_black"> 	Voluntary Recall of Digene Gel manufactured by M/s Abbott India Limited, L-18/19, Verna Industrial Estate, Salcette, Goa-403722</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Aug-31</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA0MjY='>
+<span class="font_black"> June Revised Drugs Alert List 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Aug-22</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA0MjU='>
+<span class="font_black"> Drug Alert list for month of July 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Aug-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTA0MTc='>
+<span class="font_black"> Alert on Suspected Faisified Versions of Glucagon-Like Peptide 1 Receptor Agonist (GLP_1_RA) Products</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Aug-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTAwNjk='>
+<span class="font_black"> Drug Alert list for month of March 2023</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2023-Apr-24</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTAxMA=='>
+<span class="font_black"> Drug Alert list for month of August 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Sep-12</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODk4Mw=='>
+<span class="font_black"> Drug Alert list for month of May 2022 (Revised)</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Sep-01</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTEyMg=='>
+<span class="font_black"> Drug Alert list for month of September 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Oct-17</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTI4Ng=='>
+<span class="font_black"> Drug Alert list for month of October 2022 (Revised)</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Nov-23</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTE4Nw=='>
+<span class="font_black"> Drug Alert list for month of October 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Nov-16</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODYxOA=='>
+<span class="font_black"> Drug Alert list for month of April 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-May-18</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODI3Nw=='>
+<span class="font_black"> Drug Alert list for month of February 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Mar-21</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODY2NQ=='>
+<span class="font_black"> Drug Alert list for month of April 2022 (Revised)</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Jun-15</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODU3Mw=='>
+<span class="font_black"> Drug Alert list for month of May 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Jun-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODc3MQ=='>
+<span class="font_black"> Drug Alert list for month of June 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Jul-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NDU='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF JUNE-2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Jul-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODA4Ng=='>
+<span class="font_black"> Drug Alert list for month of December 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Jan-17</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODEyMw=='>
+<span class="font_black"> Drug Alert list for month of January 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Feb-09</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTYwOQ=='>
+<span class="font_black"> Drug Alert list for month of November 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Dec-13</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTY3NQ=='>
+<span class="font_black"> Drug Alert list for month of Feb 2022 (Revised)</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Dec-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODg3OA=='>
+<span class="font_black"> Drug Alert list for month of July 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Aug-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=ODMyNg=='>
+<span class="font_black"> Drug Alert list for month of March 2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Apr-26</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NDQ='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF MAR-2022</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2022-Apr-13</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzY1Ng=='>
+<span class="font_black"> Drug Alert list for month of August 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Sep-09</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzgxOQ=='>
+<span class="font_black"> Drug Alert list for month of September 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Oct-22</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Nzg4OA=='>
+<span class="font_black"> Drug Alert list for month of October 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Nov-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzI3MQ=='>
+<span class="font_black"> Drug Alert list for month of April 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-May-31</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzAzMg=='>
+<span class="font_black"> Drug Alert list for month of February 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Mar-15</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzAwNQ=='>
+<span class="font_black"> Drug Alert list for month of Feb 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Mar-03</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Nzg0MQ=='>
+<span class="font_black"> Drug Alert list for month of May 2021 Revised</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Jun-29</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzM1Nw=='>
+<span class="font_black"> Drug Alert list for month of  May 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Jun-28</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzQ5NA=='>
+<span class="font_black"> Drug Alert list for month of June 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Jul-26</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Njg1MQ=='>
+<span class="font_black"> Drug Alert list for month of December 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Jan-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Njk3Mw=='>
+<span class="font_black"> Drug Alert list for month of January 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Feb-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Nzk5OQ=='>
+<span class="font_black"> Drug Alert list for month of November 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Dec-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzU3Ng=='>
+<span class="font_black"> Drug Alert list for month of July 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Aug-13</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NzE0OQ=='>
+<span class="font_black"> Drug Alert list for month of March 2021</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2021-Apr-14</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjQ2OQ=='>
+<span class="font_black"> Drug Alert list for month of August 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Sep-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjU1NA=='>
+<span class="font_black"> Drug Alert list for month of September 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Oct-14</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjYyOA=='>
+<span class="font_black"> Drug Alert list for month of October 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Nov-06</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTkyMw=='>
+<span class="font_black"> Drug Alert list for month of April 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-May-14</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTcxMw=='>
+<span class="font_black"> Drug Alert list for month of Feb 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Mar-06</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTk4Ng=='>
+<span class="font_black"> Drug Alert list for month of May 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Jun-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjA5MQ=='>
+<span class="font_black"> Drug Alert list for month of June 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Jul-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Njg0MA=='>
+<span class="font_black"> Drug Alert list for month of December 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Jan-09</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTU0Nw=='>
+<span class="font_black"> Drug Alert list for month of January 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Feb-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Njc2NQ=='>
+<span class="font_black"> Drug Alert list for month of November 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Dec-15</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjM5MA=='>
+<span class="font_black"> Drug Alert list for month of July 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Aug-17</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTg3Mg=='>
+<span class="font_black"> Drug Alert list for month of March 2020</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2020-Apr-20</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTE4OQ=='>
+<span class="font_black"> Drug Alert list for month of August 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Sep-03</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTE5MA=='>
+<span class="font_black"> Drug Alert list for month of September 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Oct-03</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTIyNA=='>
+<span class="font_black"> Drug Alert list for month of October 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Nov-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4NzY='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF APRIL-2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-May-13</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDM5MQ=='>
+<span class="font_black"> Drug Alert list for month of April 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-May-13</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDE0Nw=='>
+<span class="font_black"> Drug Alert list for month of February 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Mar-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDQ5Ng=='>
+<span class="font_black"> Drug Alert  January 2019 Revised</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Jun-13</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDQ5Mw=='>
+<span class="font_black">  Drug Alert list for month of May 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Jun-12</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDU4NA=='>
+<span class="font_black"> Drug Alert list for month of June 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Jul-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NjQ4Nw=='>
+<span class="font_black"> Drug Alert list for month of December 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Jan-09</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=Mzc2OQ=='>
+<span class="font_black"> Drug Alert list for month of January 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Feb-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTM0OQ=='>
+<span class="font_black"> Drug Alert list for month of November 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Dec-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDgwMA=='>
+<span class="font_black"> Drug Alert list for month of July 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Aug-07</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NDMxNQ=='>
+<span class="font_black"> Drug Alert list for month of March 2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Apr-15</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4ODI='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF MARCH-2019</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2019-Apr-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTk1MA=='>
+<span class="font_black"> List of Drugs, Medical Devices and Cosmetics declared as Not of Standard Quality/Spurious/Adulterated/Misbranded, For the Month of August, 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Sep-14</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2MQ=='>
+<span class="font_black"> Drug Alert list for month of August 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Sep-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4ODQ='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF SEP-2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Oct-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjE2Nw=='>
+<span class="font_black"> Drug Alert list for September 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Oct-02</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjE2Ng=='>
+<span class="font_black"> Drug Alert list for October 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Nov-01</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4NzU='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF APRIL-2018 </span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-May-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc5Nw=='>
+<span class="font_black"> Drug Alert for the month of April 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-May-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NDM='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF FEB-2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Mar-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5NQ=='>
+<span class="font_black"> Drug Alert list for month of February 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Mar-07</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI2NQ=='>
+<span class="font_black"> IN-VITRO DIAGNOSTIC ALERT FOR PRODUCT &#034; BBL(TM) MGIT(TM) Mycobacteria Growth Indicator Tube</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Mar-03</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTcxNg=='>
+<span class="font_black"> List of Drugs, Medical Devices and Cosmetics declared as Not of Standard Quality/Spurious/Adulterated/Misbranded, For the Month of MAY, 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Jun-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc5Ng=='>
+<span class="font_black"> Drug Alert for the month of May,2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Jun-06</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc5NQ=='>
+<span class="font_black"> Drug Alert for the month of June,2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Jul-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4NQ=='>
+<span class="font_black"> Drug Alert list for month of December 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Jan-02</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc4'>
+<span class="font_black"> In-VitroDdiagnostic alert for product &#034; BBL(TM) MGIT(TM) Mycobacteria Growth Indicator Tube&#034;</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Jan-01</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc3'>
+<span class="font_black"> IVD Diagnostic Kit Alert for Comipack ABD</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Jan-01</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc2'>
+<span class="font_black"> IVD Diagnostic Kit Alert for Mediclone D</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Jan-01</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4Nzg='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF JAN-2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Feb-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5Ng=='>
+<span class="font_black"> Drug Alert list for month of  January 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Feb-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjIzOA=='>
+<span class="font_black"> Drug Alert list for November 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Dec-12</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTkwNg=='>
+<span class="font_black"> Drug Alert list for July, 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Aug-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5Nw=='>
+<span class="font_black"> Drug Alert list for month of March 2018</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2018-Apr-02</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4NA=='>
+<span class="font_black"> Drug Alert list for month of August 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Sep-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE5NDI='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF SEP-2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Oct-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5NA=='>
+<span class="font_black"> Drug Alert list for month of  September 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Oct-06</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5Mw=='>
+<span class="font_black"> Drug Alert list for month of  October 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Nov-07</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4Mw=='>
+<span class="font_black"> Drug Alert list for month of April 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-May-02</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4Ng=='>
+<span class="font_black"> Drug Alert list for month of February 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Mar-03</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5MQ=='>
+<span class="font_black"> Drug Alert list for month of May 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Jun-07</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4OQ=='>
+<span class="font_black"> Drug Alert list for month of June 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Jul-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4MA=='>
+<span class="font_black"> Drug Alert list for month of December 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Jan-02</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTc5'>
+<span class="font_black"> Medical Device Adverse Event reporting form</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Jan-01</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4Nw=='>
+<span class="font_black"> Drug Alert list for month of January 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Feb-06</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5Mg=='>
+<span class="font_black"> Drugs Alert for the month of November 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Dec-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE4Nzk='>
+<span class="font_black"> NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF July-2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Aug-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4OA=='>
+<span class="font_black"> Drugs Alert for the month of  July 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Aug-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2OA=='>
+<span class="font_black"> Drug Alert list for month of July 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Aug-02</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI5MA=='>
+<span class="font_black"> Drug Alert list for month of  March 2017</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2017-Apr-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2Nw=='>
+<span class="font_black"> Drug Alert list for month of September 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Oct-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=NTU5MA=='>
+<span class="font_black"> Drug Alert list for month of October 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Nov-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4Mg=='>
+<span class="font_black"> Drug Alert list for month of April 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-May-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI4MQ=='>
+<span class="font_black"> Drug Alert list for month of August 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-May-03</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3NQ=='>
+<span class="font_black"> Drugs Alert for the month of February 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Mar-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3OQ=='>
+<span class="font_black"> Drugs Alert for the month of  May 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Jun-06</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3Nw=='>
+<span class="font_black"> Drug Alert list for month of June 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Jul-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2Nw=='>
+<span class="font_black"> Drug Alert list for month of December 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Jan-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2Mw=='>
+<span class="font_black"> Drug Alert list for month of January 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Feb-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2NA=='>
+<span class="font_black"> Drug Alert list for month of November 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Dec-12</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3Ng=='>
+<span class="font_black"> Drugs Alert for the month of  July 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Aug-02</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3OA=='>
+<span class="font_black"> Drugs Alert for the month of March 2016</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2016-Apr-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2Ng=='>
+<span class="font_black"> Drug Alert list for month of August 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Sep-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3MQ=='>
+<span class="font_black"> Drug Alert list for month of  September 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Oct-07</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2NQ=='>
+<span class="font_black"> Drug Alert list for month of October 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Nov-02</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2NQ=='>
+<span class="font_black"> Drug Alert list for month of April 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-May-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2OA=='>
+<span class="font_black"> Drugs Alert for the month of February 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Mar-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI3MA=='>
+<span class="font_black"> Drug Alert list for month of May 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Jun-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2OQ=='>
+<span class="font_black"> Drug Alert list for month of June 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Jul-07</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1NQ=='>
+<span class="font_black"> Drugs Alert for the month of December 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Jan-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM3MQ=='>
+<span class="font_black"> Drug Alert list for month of January 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Feb-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM3MA=='>
+<span class="font_black"> Drug Alert list for month of November 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Dec-03</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2OQ=='>
+<span class="font_black"> Drugs Alert for the month of March 2015</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2015-Apr-06</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1NA=='>
+<span class="font_black"> Drug Alert list for month of August 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Sep-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2NA=='>
+<span class="font_black"> Drug Alert list for the month of September 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Oct-07</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2Mw=='>
+<span class="font_black"> Drugs alert for the month of October 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Nov-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1Mw=='>
+<span class="font_black"> Drug Alert list for month of April 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-May-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTQ1Ng=='>
+<span class="font_black"> Surveillance of Drugs Manufactured in the Country by CDSCO</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-May-01</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1Ng=='>
+<span class="font_black"> Drugs Alert for the month of February 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Mar-09</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2MQ=='>
+<span class="font_black"> Drugs Alert for the Month of May 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Jun-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1OQ=='>
+<span class="font_black"> Drug Alert list for the month of June 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Jul-15</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1OA=='>
+<span class="font_black"> Guidelines for taking action on samples of drugs declared spurious or not of standard</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Jan-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1NA=='>
+<span class="font_black"> Oxytocin Drug Alert</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Jan-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1Ng=='>
+<span class="font_black"> Spurious Drugs -- Reward Scheme for Whistle Blowers </span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Jan-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1Mw=='>
+<span class="font_black"> Drugs banned in the Country</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Jan-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0NQ=='>
+<span class="font_black"> Drug Alert list for month of December 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Jan-03</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1Nw=='>
+<span class="font_black"> Drug Alerts for the month of January 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Feb-07</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2Mg=='>
+<span class="font_black"> Drugs Alert for the month of November 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Dec-09</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1OA=='>
+<span class="font_black"> Drug Alert list for month of July 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Aug-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0Nw=='>
+<span class="font_black"> Drug Alert list for month of July 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Aug-05</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI2MA=='>
+<span class="font_black"> Drugs Alert for the month of March 2014</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2014-Apr-09</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0Mw=='>
+<span class="font_black"> Drug Alert list for month of August 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2013-Sep-03</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1MQ=='>
+<span class="font_black"> Drugs Alert for the month of September 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2013-Oct-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1Mg=='>
+<span class="font_black"> Drugs Alert for the month of April 2013 J&amp; K</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2013-May-08</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0NA=='>
+<span class="font_black"> Drugs Alert for the month of April 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2013-May-01</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0Ng=='>
+<span class="font_black"> Drugs Alert for the month of February 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2013-Mar-06</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjM2Mg=='>
+<span class="font_black"> Drug Alert list for month of May 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2013-Jun-11</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0OA=='>
+<span class="font_black"> Drug Alert list for month of June 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2013-Jul-09</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI1MA=='>
+<span class="font_black"> Drugs Alert for the month of November 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2013-Dec-04</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MjI0OQ=='>
+<span class="font_black"> Drug Alert list for month of March 2013</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2013-Apr-10</a>
+									</li>
+
+
+<li><i class="fa fa fa-hand-o-right" style="color: red"></i><a href='/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MzI1Nw=='>
+<span class="font_black"> Report on countrywide survey for Spurious Drugs</span><i class="fa fa-file-pdf-o" style="color: red"></i> 2010-Feb-24</a>
+									</li>
+
+
+
+ 
+ </marquee>
+</ul>
+
+
+					</div>
+				</div>
+			
+
+
+</body>
+</html>
+
+ -->
+
+<!-- </div>  -->
+				
+		<div class="col-md-12 col-sm-12 col-xs-12 pad-top double" id="pro">
+						<div class="col-md-12 col-sm-12 col-xs-12 pad-top double" id="med_nav">
+					 	
+	 
+
+
+
+
+
+
+
+	
+	 
+
+
+
+
+
+
+
+	 
+
+  
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<section class="consumer_section1" id="printableArea">
+<div class="wrap-appr">
+		<div class="container">
+			<!--div class="pdf-container">
+		        <iframe src="https://cdsco.gov.in/opencms/opencms/Pdf-documents/Notification/Citizen-Charter-CDSCO.pdf" frameborder="0" class="w-100 h-100"></iframe>
+		    </div-->
+		</div>
+	</div>
+
+</section>
+
+
+</body>
+</html>
+
+            
+
+
+</div> <!--med_nav -->
+			
+			
+		</div> <!-- section3_medical -->
+		</div><!-- section3 -->
+		</div>
+		</section> 
+</div> <!-- container-fluid -->
+<div class="push"></div>
+</div><!-- wrapper -->
+
+		  <div class="wrap-f">
+<!-- <footer>
+		  <div  id="footer1" ></div><div  id="footer2" ></div></footer> -->  
+		  </div>
+		  </div>
+<script>
+	$(document).ready(
+			function() {
+
+				$("#transition-timer-carousel").on(
+						"slide.bs.carousel",
+						function(event) {
+							//The animate class gets removed so that it jumps straight back to 0%
+							$(".transition-timer-carousel-progress-bar", this)
+									.removeClass("animate").css("width", "0%");
+						}).on(
+						"slid.bs.carousel",
+						function(event) {
+							//The slide transition finished, so re-add the animate class so that
+							//the timer bar takes time to fill up
+							$(".transition-timer-carousel-progress-bar", this)
+									.addClass("animate").css("width", "100%");
+						});
+
+				//Kick off the initial slide animation when the document is ready
+				$(".transition-timer-carousel-progress-bar",
+						"#transition-timer-carousel").css("width", "100%");
+
+			});
+</script>
+<script>function toggleIcon(e) {
+	$(e.target).prev('.panel-heading').find(".more-less").toggleClass(
+	'glyphicon-plus glyphicon-minus');
+}
+$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+$('.panel-group').on('shown.bs.collapse', toggleIcon);
+</script>
+
+<script>
+$.fn.extend({
+    treed: function (o) {
+      
+      var openedClass = 'glyphicon-minus-sign';
+      var closedClass = 'glyphicon-plus-sign';
+      
+      if (typeof o != 'undefined'){
+        if (typeof o.openedClass != 'undefined'){
+        openedClass = o.openedClass;
+        }
+        if (typeof o.closedClass != 'undefined'){
+        closedClass = o.closedClass;
+        }
+      };
+      
+        //initialize each of the top levels
+        var tree = $(this);
+        tree.addClass("tree");
+        tree.find('li').has("ul").each(function () {
+            var branch = $(this); //li with children ul
+            branch.prepend("<i class='indicator glyphicon " + closedClass + "'></i>");
+            branch.addClass('branch');
+            branch.on('click', function (e) {
+                if (this == e.target) {
+                    var icon = $(this).children('i:first');
+                    icon.toggleClass(openedClass + " " + closedClass);
+                    $(this).children().children().toggle();
+                }
+            })
+            branch.children().children().toggle();
+        });
+        //fire event from the dynamically added icon
+      tree.find('.branch .indicator').each(function(){
+        $(this).on('click', function () {
+            $(this).closest('li').click();
+        });
+      });
+        //fire event to open branch if the li contains an anchor instead of text
+        tree.find('.branch>a').each(function () {
+            $(this).on('click', function (e) {
+                $(this).closest('li').click();
+                e.preventDefault();
+            });
+        });
+        //fire event to open branch if the li contains a button instead of text
+        tree.find('.branch>button').each(function () {
+            $(this).on('click', function (e) {
+                $(this).closest('li').click();
+                e.preventDefault();
+            });
+        });
+    }
+});
+
+//Initialization of treeviews
+
+$('#tree1').treed();
+
+$('#tree2').treed();
+
+$('#tree3').treed({openedClass:'glyphicon-chevron-right', closedClass:'glyphicon-chevron-down'});
+
+</script>
+
+
+</body>
+</html>
