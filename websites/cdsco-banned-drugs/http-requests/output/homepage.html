@@ -1,0 +1,2213 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>home</title>
+<meta charset="UTF-8"> 
+<meta name="description" content="{{description}}">
+<meta name="keywords" content="CDSCO, National Regulatory Authority">
+<link rel="author" href="https://cdsco.gov.in/opencms/opencms/en/Home/" />
+<meta name="description" content="he Central Drugs Standard Control Organisation(CDSCO)under Directorate General of Health Services,Ministry of Health & Family Welfare,Government of India is the National Regulatory Authority (NRA) of India."> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/animate.min.css" />
+	
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/owl.theme.css" />
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/owl.carousel.css" />
+	
+	<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/jquery-ui.css" />
+	
+  
+  <script type="text/javascript" src="/opencms/export/system/modules/CDSCO.WEB/resources/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/opencms/export/system/modules/CDSCO.WEB/resources/js/wow.min.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/bootstrap.bundle.min.js"></script>
+
+ <link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/home.css" />
+	<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/mobile.css" />
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/owl.carousel.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/html5shiv.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/respond.min.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.smartmenus.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.smartmenus.bootstrap.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.fittext.js"></script>
+	<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.sort.js"></script>
+	<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.paginate.js"></script>
+
+	<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/footable.filter.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/dataTables.responsive.min.js"></script>
+	
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/footable.core.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/jquery.dataTables.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/dataTables.bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/jquery.smartmenus.bootstrap.css">
+
+	<link rel="stylesheet"
+		href="/opencms/export/system/modules/CDSCO.WEB/resources/css/select2.css" />
+		<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/select2.min.js"></script>
+	 		<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/sweetalert.min.js"></script>
+ <link rel="stylesheet"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/sweetalert.css" />
+ <link rel="stylesheet"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/bootstrapValidator.css" />
+		
+ <link rel="stylesheet" type="text/css"
+	href="/opencms/export/system/modules/CDSCO.WEB/resources/css/datepicker3.css" />
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/bootstrap-datepicker.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/bootstrapValidator.js"></script>
+
+<script type="text/javascript"
+	src="/opencms/export/system/modules/CDSCO.WEB/resources/js/jquery-ui.min.js"></script>
+
+	<script>
+	$(function() {
+
+		
+		var dt = new Date();
+		var time = dt.toDateString() + " , " + dt.getHours() + ":"
+				+ dt.getMinutes() + ":" + dt.getSeconds();
+		$("#date").text(time);
+
+		$(".dropdown").hover(function() {
+			$('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up");
+		}, function() {
+			$('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up");
+		});
+		$('#drug_control').click(function() {
+			alert('The link leads  you to an external website');
+		});
+
+	});
+</script>
+
+
+<script >
+$(window).scroll(function(){
+	  var menu = $('.menu'),
+	      scroll = $(window).scrollTop();
+
+	  if (scroll >= 100) menu.addClass('fixed');
+	  else menu.removeClass('fixed');
+	});
+	
+});
+ </script>
+ 
+<script >
+!function ($) {
+    
+    // Le left-menu sign
+    /* for older jquery version
+    $('#left ul.nav li.parent > a > span.sign').click(function () {
+        $(this).find('i:first').toggleClass("icon-minus");
+    }); */
+    
+    $(document).on("click","#left ul.nav li.parent > a > span.sign", function(){          
+        $(this).find('i:first').toggleClass("icon-minus");      
+    }); 
+    
+    // Open Le current menu
+    $("#left ul.nav li.parent.active > a > span.sign").find('i:first').addClass("icon-minus");
+    $("#left ul.nav li.current").parents('ul.children').addClass("in");
+
+}(window.jQuery);</script>
+
+
+
+
+<script>
+$(document).ready(function() {
+$('#event_start_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+$('#event_end_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+
+$('#industry_end_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+$('#industry_start_date').datepicker({
+   
+  	       format: "MM/dd/yyyy",
+  	          endDate: "+3y",
+			 autoclose:true
+  	   
+});
+
+});
+</script>
+
+<script>
+	$(function() {
+	
+
+		$(".header_text h4").fitText(2.4, {
+			minFontSize : '10px',
+			maxFontSize : '18px'
+		});
+		$(".header_text h5").fitText(2.4, {
+			minFontSize : '10px',
+			maxFontSize : '16px'
+		});
+		$(".main_div1 h2").fitText(2.4, {
+			minFontSize : '20px',
+			maxFontSize : '25px'
+		});
+		/* $(".main_div p").fitText(2.4, {
+			minFontSize : '17px',
+			maxFontSize : '17px'
+		}); */
+		var curr_size;
+
+		$(".desc").click(function() {
+			curr_size = parseInt($('.main_div1 ').css('font-size')) - 1;
+			curr_h2 = parseInt($('.main_div1 h2').css('font-size')) - 2;
+			curr_h3 = parseInt($('.main_div1 h3').css('font-size')) - 2;
+			curr_h4 = parseInt($('.main_div1 h4').css('font-size')) - 2;
+			curr_h5 = parseInt($('.main_div1 h5').css('font-size')) - 2;
+			curr_p = parseInt($('.main_div1 p').css('font-size')) - 2;
+			curr_td = parseInt($('.main_div1 td').css('font-size')) - 2;
+			curr_a= parseInt($('.main_div1 a').css('font-size')) - 2;
+			curr_li= parseInt($('.main_div1 li').css('font-size')) - 2;
+			curr_h5= parseInt($('.main_div1 h5').css('font-size')) - 2;
+		
+			
+
+			if (curr_size >= 10) {
+				$('.main_div1').css('font-size', curr_size);
+			}
+			if (curr_h3 >= 16) {
+				$('.main_div1 h3').css('font-size', curr_h3);
+			}
+			if (curr_h4 >= 12) {
+				$('.main_div1 h4').css('font-size', curr_h4);
+			}
+			if (curr_h2 >= 20) {
+				$('.main_div1 h2').css('font-size', curr_h2);
+			}
+			if (curr_h5 >= 12) {
+				$('.main_div1 h5').css('font-size', curr_h5);
+			}
+			if (curr_p >= 12) {
+				$('.main_div1 p').css('font-size', curr_p);
+			}
+			if (curr_td >= 12) {
+				$('.main_div1 td').css('font-size', curr_td);
+			}
+			if (curr_a >= 12) {
+				$('.main_div1 a').css('font-size', curr_a);
+			}
+			if (curr_li >= 12) {
+				$('.main_div1 li').css('font-size', curr_li);
+			}
+		});
+		
+
+		$(".inc").click(function() {
+			curr_size = parseInt($('.main_div1').css('font-size')) + 1;
+			curr_h3 = parseInt($('.main_div1 h3').css('font-size')) + 1;
+			curr_h2 = parseInt($('.main_div1 h2').css('font-size')) + 1;
+			curr_h4 = parseInt($('.main_div1 h4').css('font-size')) + 1;
+			curr_h5 = parseInt($('.main_div1 h5').css('font-size')) + 1;
+			curr_p = parseInt($('.main_div1 p').css('font-size')) + 1;
+			curr_td = parseInt($('.main_div1 td').css('font-size')) + 1;
+			curr_a = parseInt($('.main_div1 a').css('font-size')) + 1;
+			curr_li = parseInt($('.main_div1 li').css('font-size')) + 1;
+
+
+			if (curr_size <= 18) {
+				$('.main_div1').css('font-size', curr_size);
+			}
+			if (curr_h3 <= 28) {
+				$('.main_div1 h3').css('font-size', curr_h3);
+			}
+			if (curr_h5 <= 28) {
+				$('.main_div1 h5').css('font-size', curr_h5);
+			}
+			if (curr_h2 <= 32) {
+				$('.main_div1 h2').css('font-size', curr_h2);
+			}
+			if (curr_h4 <= 22) {
+				$('.main_div1 h4').css('font-size', curr_h4);
+			}
+			if (curr_p <= 26) {
+				$('.main_div1 p').css('font-size', curr_p);
+			}
+			if (curr_td <= 26) {
+				$('.main_div1 td').css('font-size', curr_td);
+			}
+			if (curr_a <= 26) {
+				$('.main_div1 a').css('font-size', curr_a);
+			}
+			if (curr_li <= 26) {
+				$('.main_div1 li').css('font-size', curr_li);
+			}
+		});
+
+		$('.govt_link').click(function() {
+			alert('The link leads  you to an external website');
+		});
+	
+
+	$('.ext').click(function() {
+			alert('The link leads  you to an external website');
+		});
+
+		});
+</script>
+<script>
+function openNav() {
+    document.getElementById("mySidenavh").style.width = "230px";
+    document.getElementById("mainh").style.marginLeft = "230px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenavh").style.width = "0";
+    document.getElementById("mainh").style.marginLeft= "0";
+}
+</script>
+<script>
+$(document).ready(function() {
+$('#example_upload').DataTable();
+$('#example_upload_indus').DataTable();
+$('#example_upload_pen').DataTable();
+
+
+
+   $('#example1').DataTable();
+      $('#example2').DataTable();
+	     $('#example3').DataTable();
+$('#example4').DataTable();
+$('#example5').DataTable();
+$('#example6').DataTable();
+$('#example7').DataTable();
+        //var table = $('#example').DataTable({
+  // dom: 'lrtip'
+  var table = $('#example').DataTable();
+      
+      $('#ethics_state').on('change', function(){
+             table.search(this.value).draw();   
+       });
+	     $('#data_zones').on('change', function(){
+               table.search(this.value).draw();   
+       });
+	    $('#ct_approval_category').on('change', function(){
+       table.search(this.value).draw();     
+    });
+	$('#ct_approval_year').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_div').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_loc').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_month').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#select_year').on('change', function(){
+        table.search(this.value).draw();   
+    });
+	$('#syn_list').on('change', function(){
+        table.search(this.value).draw();   
+    });
+   });
+   
+ //for Tab used with jquery UI
+  $(document).ready(function(){
+    $(".tab-v1").tabs();
+  });
+
+</script>
+</html>
+<script>
+/*$(document).ready(function() {
+ 
+$('#example_upload').DataTable();
+
+
+var table = $('#example_upload_indus').DataTable();
+/*table.column( 7 ).visible( false );
+table.column( 8 ).visible( false );
+table.column( 9 ).visible( false );*/
+
+
+/*var table = $('#example_upload_pen').DataTable();
+/*table.column( 6 ).visible( false );
+table.column( 7 ).visible( false );
+table.column( 8 ).visible( false );*/
+
+/*});*/
+</script>
+
+
+
+	
+	<style>body.home.main_div1 {
+    overflow-x: hidden;
+}
+</style>
+
+<body class="home main_div1">
+<div id="mainh">
+<div id="wrapper">
+  <div class="container-fluid">
+<header>
+<div class="row zeron">
+		<div class="col-md-12 col-sm-12 col-xs-12  header_top zero1">
+		<div  id="cdsco_gigw" ><div>
+	<div class="row justify-content-between">
+<div class="col-md-3 col-xs-3 col-lg-3 col-sm-3" style="margin-top: 4px;">
+				<i class="fa fa-calendar fa-1x pad-right hidden-xs"></i><span
+					id="date"></span>
+			</div>
+			
+			<div class="col-md-8 col-xs-8 text-end head_links" style="margin-left: 6%;">
+			
+				<a href="#section2" class="skip_mc white" title="Skip to main content" style="font-size: 20px;"><i class="fa fa-reply-all fa-rotate-270"></i></a> <!--<a
+					href="#myNavbar" class="skipnv white">Skip to navigation</a>--> <a
+					href="/opencms/opencms/en/ScreenReader/" class="white">Screen Reader</a>  <!--<span class="theme">
+					<a href="#" class="white dark_bg">A</a> <a href="#" class="white light_bg">A</a> </span> --><span class="text_size"> Text
+					Size <a href="#" class="white desc" >A<sup>-</sup> </a> 
+<a href="#"class="white norm"  onclick="window.location.reload()">A</a> 
+<a href="#" class="white inc">A<sup>+</sup>
+				</a>
+				</span> </div>	</div>	
+</div>
+</div><!---<div class="col-md-1 col-lg-1 language zero " style="margin-top: 4px;">
+		            <a href="/opencms/opencms/hi/index.html" class="white">Hindi</a>
+					<span>|</span>
+					<a href="/opencms/opencms/en/index.html" class="white">English</a>			
+			</div>-->
+</div>
+		</div> 
+<div  id="cdsco_header_content" ><div>
+	<div class="row mid_div">
+    <div class="header_mid row">
+      <div class="col-md-1 zero col-sm-2 col-xs-3 text-center cdsco_logo">
+        <a href="/opencms/opencms/en/Home/" target="_blank">
+          <img
+          src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/cdscologo_lbg.png"
+          alt="CDSCO logo" class="shrink">
+        </a>
+      </div>
+      <div class="header_text col-md-6  col-sm-6 col-xs-6 zero">
+        <h4 style="font-size: 18px;font-weight: bolder;">Central Drugs Standard Control
+          Organization</h4>
+        <h5 style="font-weight: bold;font-size:14px;">Directorate General of Health
+          Services</h5>
+        <h5 style="font-weight: bold;">Ministry of Health &amp; Family
+          Welfare</h5>
+        <h5 style="font-weight: bold; color: rgb(99, 19, 19);">Government of India</h5>
+      </div>
+      <div class="col-md-1 col-sm-2 col-xs-3 zero text-right icdra_logo">
+       <!-- <a href="https://www.g20.org/en/" target="_blank"> <img
+        src="/opencms/opencms/Image_folder/logo/g20.png"
+          alt="g-20 logo" class="img-responsive" style="height:100px; margin-top: 25px">
+        </a> -->
+      </div> 
+   
+    <div class="col-md-2 col-sm-2 col-xs-3 zero text-right"> </div>
+  
+
+  <!--    <div class="col-md-2 col-sm-2 col-xs-3 zero text-right swach_logo">
+        <a> <img
+          src="/opencms/opencms/Image_folder/logo/swach-bharat.jpg"
+          alt="swach bharat logo" class="img-responsive">
+        </a>
+      </div> -->
+
+  <!-- swach bharat -->
+<div class="col-md-2 col-sm-2 col-xs-3 zero text-right swach_logo">
+        <a> <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/swach-bharat.jpg" alt="swach bharat logo" class="img-responsive">
+        </a>
+      </div>
+
+
+    </div>
+  </div>
+
+</div>
+</div><div class="row navbar-blue">
+ 
+  
+  <div class="col-sm-12 col-lg-12 col-md-12">
+<div  id="cdsco_nav_content1" ><div>
+<!-- <div class="header"> -->
+<!--
+
+-->
+<!--=== Navbar ===-->
+
+	<div class="row menu navbar-blue clearfix ">
+		<div class="col-md-11 col-lg-11 col-sm-12 col-xs-12">
+			<nav class="navbar navbar-expand-lg navbar-default" id="navbar1">
+			<!-- READ -->
+            <!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+					
+				</div>
+               <!-- <a class="navbar-brand" href="/opencms/opencms/">
+                    <img src="/opencms/export/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/logo/logo_opencms_png24.png_1704647694.png" width="165" height="40" alt="Logo" id="logo-header" /></a> -->
+            
+			<!-- Menu -->       
+		<div class="collapse navbar-collapse header" id="myNavbar">
+
+				<ul class="nav navbar-nav text-center" data-smartmenus-id="15029566969090742">
+<li class="current-menu-item center nav-item"><a class="text-decoration-none"  aria-label="Open navigation menu"
+							href="#" rel="tooltip" title="" data-original-title="Home"> <span class="fa-stacks fa-2s ">
+									<i class="fa fa-circle fa-2g " id="circle"></i> <i
+									class="fa fa-bars fa-1x fa-stack-1x  bg-black-head" onclick="openNav()"></i>
+							</span>
+								    
+						</a></li>
+
+
+
+
+
+	<li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Home/"
+		><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-home fa-1x fa-stack-1x bg-purple-head"></i> </span><p>Home</p></a>
+			<span class="text-center"></span></li><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-info-circle fa-1x fa-stack-1x bg-blue-head"></i> </span><p>About Us</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Laboratories/"
+		><p>Central Drug Testing Laboratories</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/contact-us/"
+		><p>Contact Us</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Functions/"
+		><p>Functions</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Introduction/"
+		><p>Introduction</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Seniority-List/"
+		><p>Seniority List</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Telephone_Directory/"
+		><p>Telephone Directory</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Values/"
+		><p>Values / Strategies</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/Vision/"
+		><p>Vision/Mission</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/About-us/who/"
+		><p>Who's who</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-gavel fa-1x fa-stack-1x bg-red-head"></i> </span><p>Act & Rules</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Drugs-and-Cosmetics-Act/"
+		><p>Drugs and Cosmetics Act, 1940</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Drugs-Rules/"
+		><p>Drugs Rules, 1945</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Medical-Devices-Rules/"
+		><p>Medical Devices Rules, 2017</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/New-Drugs/"
+		><p>New Drugs and Clinical Trials Rules, 2019</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Cosmetics-Rules/"
+		><p>Cosmetics Rules, 2020</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Advisories_NO/"
+		><p>Advisories/Notices/O.Ms./Orders</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Final-Notifications/"
+		><p>Final Notifications</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Draft-Notifications/"
+		><p>Draft Notifications </p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Acts-and-rules/Guidance-documents/"
+		><p>Guidance documents</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/BloodCentre/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-tint fa-1x fa-stack-1x bg-red-head"></i> </span><p>Blood Centre</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/BloodCentre/index.html"
+		><p>Blood Center</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/bioequi_bioavail/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-hourglass fa-1x fa-stack-1x bg-orange-head "></i> </span><p>BA/BE</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/bioequi_bioavail/index.html"
+		><p>BA/BE</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-plus-square fa-1x fa-stack-1x bg-green-head "></i> </span><p>Biologics</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/Anti-Sera/"
+		><p>Anti Sera</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/Vaccines/"
+		><p>Vaccines</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/Blood-Products/"
+		><p>Blood Products</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/rDNA/"
+		><p>rDNA</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/biologicals/Stem-cells-and-Cell-based-Products/"
+		><p>Stem Cells and Cell based products</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Clinical-Trial/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-flask fa-1x fa-stack-1x bg-green-head "></i> 							</span><p>Clinical Trial</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Clinical-Trial/Ethics-Committee/"
+		><p>Ethics Committee</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Clinical-Trial/Global-Clinical-Trial/"
+		><p>Global Clinical Trial</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Clinical-Trial/SAE/"
+		><p>Serious Adverse Event </p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Cosmetics/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-paint-brush fa-1x fa-stack-1x bg-blue-head"></i> 							</span><p>Cosmetics</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Cosmetics/cosmetics/"
+		><p>Cosmetics</p></a>
+			</li></ul><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/dcc-dtab-committee"
+		><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-user-plus fa-1x fa-stack-1x bg-purple-head "></i> 							</span><p>DTAB-DCC</p></a>
+			<span class="text-center"></span></li><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-medkit fa-1x fa-stack-1x bg-pink-head "></i> 							</span><p>Drugs</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/FDC/"
+		><p>Fixed Dose Combination</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/Investigational-New-Drugs-/"
+		><p>Investigational New Drugs</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/New-Drugs/"
+		><p>New Drugs</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Drugs/Subsequent-New-Drugs/"
+		><p>Subsequent New Drugs</p></a>
+			</li></ul><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Import-Registration"
+		><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-upload fa-1x fa-stack-1x bg-red-head"></i> </span><p>Import & Registration</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/international/"
+		><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-users fa-1x fa-stack-1x bg-blue-head"></i> </span><p>International<br>Cell</p></a>
+			<span class="text-center"></span></li><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Medical-Device-Diagnostics/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i class="fa fa-circle fa-2g " id="circle"></i> <i class="fa fa-stethoscope fa-1x fa-stack-1x bg-purple-head "></i> 							</span><p>Medical Devices<br> & Diagnostics</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Medical-Device-Diagnostics/InVitro-Diagnostics/"
+		><p>InVitro Diagnostics</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/"
+		><p>Medical Device</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-bell fa-1x fa-stack-1x bg-orange-head "></i> </span><p>Notifications</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/page/"
+		><p>Recruitment & Rules</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Alerts/"
+		><p>Alerts</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Archive/"
+		><p>Archive</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Circulars/"
+		><p>Circulars</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/documents/"
+		><p>Downloads/Documents&Publications</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Events/"
+		><p>Events</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Gazette-Notifications/"
+		><p>Gazette Notifications</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Public-Notices/"
+		><p>Public Notices</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Prescribing-Information/"
+		><p>Prescribing Information</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Adverse-Drug-Reaction-related-Notifications/"
+		><p>Adverse Drug Reaction<br>related Notifications</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Tender/"
+		><p>Tenders</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Vacancy/"
+		><p>Vacancies</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Notifications/Citizens-charter/"
+		><p>Citizen's Charter</p></a>
+			</li></ul><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-users fa-1x fa-stack-1x bg-blue-head"></i> </span><p>Committees</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/ASR-Committee/"
+		><p>ASR Committee</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/Apex-Committee/"
+		><p>Apex Committee</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/DCC/"
+		><p>DCC</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/DTAB/"
+		><p>DTAB</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/IND/"
+		><p>IND</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/Miscellaneous/"
+		><p>Miscellaneous</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/NDAC/"
+		><p>NDAC</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/SEC/"
+		><p>SEC</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Committees/Technical-Committee/"
+		><p>Technical Committee</p></a>
+			</li></ul><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/PRO/"
+		><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-globe fa-1x fa-stack-1x bg-orange-head "></i> </span><p>PRO</p></a>
+			<span class="text-center"></span></li><li class="dropdown current-menu-item center">
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Post-Marketing-DSM/"
+		 class="dropdown-toggle" data-toggle="dropdown" ><span class="fa-stacks fa-2s "> <i id="circle" class="fa fa-circle fa-2g "></i> <i class="fa fa-file fa-1x fa-stack-1x bg-blue-head "></i> </span><p>Post Marketing DSM</p></a>
+			<ul class="dropdown-menu "><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Post-Marketing-DSM/Adverse-Drug-Reaction-related-Notifications/"
+		><p>Adverse Drug Reaction<br>related Notifications</p></a>
+			</li></ul><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/e-training-module"
+		><span class="fa-stacks fa-2s "><img src="/opencms/opencms/system/modules/CDSCO.WEB/resources/img/logo/trainingModule.jpg" alt="e Training Module Icon"></span><p>e Training Module</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/Alerts/"
+		><span class="fa-stacks fa-2s"><em class="newicon"><img src="/opencms/opencms/en/CDSCO-Image-Gallery/new.gif" alt="New"></em>     <i id="circle" class="fa fa-circle fa-2g"></i>     <i class="fa fa-exclamation-triangle fa-1x fa-stack-1x bg-blue-head" style="font-size:16px;"></i> </span><p>Alerts</p></a>
+			<span class="text-center"></span></li><li >
+		
+		<a class="text-decoration-none w-100" href="/opencms/opencms/en/BannedDrugs"
+		><span class="fa-stacks fa-2s">     <i id="circle" class="fa fa-circle fa-2g"></i>     <i class="fa fa-ban fa-1x fa-stack-1x bg-blue-head"></i> </span><p>Banned Drugs</p></a>
+			</li></ul>
+
+</div><!-- /collapse -->
+</nav>
+		</div><!-- /container -->
+		
+			<div class="col-md-1 col-lg-1 col-sm-12 col-xs-12 search hidden-md-down">
+			 <input type="hidden" name="Token" id="tokenId" value="aexy1478e045stxy90" />
+         <input type="hidden" name="Token" id="sessionToken" value="aexy1478e045stxy90" />
+								<!--<form class="form-inline1" name="searchFormHeader" action="[No detail page configured for type =function@Search page=]" method="post">-->
+								<form class="form-inline1" name="searchFormHeader" action="/opencms/opencms/en/Search/index.html" method="post">
+								
+
+								<input type="hidden" name="pageSession" id="pageSession" value="aexy1478e045stxy90" />
+						<input type="text" class="form-control input-sm" maxlength="64" placeholder="Type Here..." autocomplete="off" name="q">
+						<button type="button" class="btn btn-default btn-sm btn1" onclick="this.form.submit(); return false;"  aria-label="Search button"><i class="fa fa-search fa-1x double"></i>
+						</button>
+						</form>
+						
+						
+</div>
+
+
+
+	</div><!-- /navbar -->
+<!--=== End Navbar ===-->
+
+<!--</div>/header -->
+
+<script>
+function checkcsrf() {
+	 var csrftoken1=$('#tokenId').val();
+	 var csrftoken2=$('#sessionToken').val();
+	if(csrftoken1!=csrftoken2){
+window.location.href = "/nvs/en/Error/";
+	 }
+}
+</script>
+</div>
+<div>
+	<div id="mySidenavh" class="sidenavh">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="row">
+<div class="col-md-12">
+<ul id="tree1">
+<li>Ayush 
+<ul>
+<li><a href="/opencms/opencms/en/Aayush/" rel="tooltip" title="" data-original-title="Ayush"> Ayush</a></li>
+</ul>            
+</li>
+<li>Achievements
+<ul>
+<li><a href="/opencms/opencms/en/Achievements/" rel="tooltip" title="" data-original-title="Achievements">  Achievements</a></li>
+</ul>
+</li>
+<li><a href="#">Committee</a>
+<ul>
+<li><a href="/opencms/opencms/en/Committees/Apex-Committee/">Apex Committee</a></li>
+<li><a href="/opencms/opencms/en/Committee/Committee-Functions/">Committee Functions</a></li>
+<li><a href="/opencms/opencms/en/Committee/Committee_Meetings/">Committee Meetings</a></li>
+<li><a href="/opencms/opencms/en/Committees/DCC/">DCC</a></li>
+<li><a href="/opencms/opencms/en/Committees/DTAB/">DTAB</a></li>
+<li><a href="/opencms/opencms/en/Committees/IND/">IND Committee</a></li>
+<li><a href="/opencms/opencms/en/Committees/Miscellaneous/"> Miscellaneous</a></li>
+<li><a href="/opencms/opencms/en/Committees/NDAC/">NDAC Committee</a></li>
+<li><a href="/opencms/opencms//en/Committees/SEC/">SEC</a></li>
+<li><a href="/opencms/opencms/en/Committees/Technical-Committee/">Technical Committee</a></li>
+</ul>
+</li>
+<li>Indian System of Medicines
+<ul><li>
+<a href="/opencms/opencms/en/Traditional_Drugs/" rel="tooltip" title="" data-original-title="Indian System of Medicines"> Traditional Drugs</a></li></ul>
+</li>
+
+
+<li><a href="#">Offices/Divisions</a>
+<ul>
+<li><a href="#">Headquarters</a> 
+<ul>
+<li><a href="/opencms/opencms/en/bioequi_bioavail/">BA/BE</a></li>
+<li><a href="/opencms/opencms/en/biologicals/">Biologics</a></li>
+<li><a href="/opencms/opencms/en/Central-Licences-Approving-Authority/">Central Licences Approving Authority</a></li>
+<li><a href="/opencms/opencms/en/Clinical-Trial/clinical-trials/">Clinical Trial</a></li>
+<li><a href="/opencms/opencms/en/Cosmetics/cosmetics/">Cosmetics</a></li>
+<li><a href="/opencms/opencms/en/Clinical-Trial/Ethics-Committee/">Ethics Committee</a></li>    
+<li><a href="/opencms/opencms/en/Departments/Headquarters/imports/">Import &amp;Registration</a></li>
+<li><a href="/opencms/opencms/en/International-cell1/">International Cell</a></li>
+<li><a href="/opencms/opencms/en/IT-cell/">IT Cell</a></li>
+<li><a href="/opencms/opencms/en/Legal-cell/">Legal Cell</a></li>
+<li><a href="/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/">Medical Devices &amp; Diagnostics</a></li>
+<li><a href="/opencms/opencms/en/Clinical-Trial/SAE/">SAE</a></li>                
+<li><a href="/opencms/opencms/en/Training-cell/">Training Cell</a></li>                 
+</ul></li>
+<li>Zonal Offices
+<ul>
+<li><a href="/opencms/opencms/en/Departments/Zones/Ahmedabad-West/">Ahemdabad</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Bengaluru/">Bengaluru</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/SouthZone/">Chennai</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/NorthZone/">Ghaziabad</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/Hyderabad-West/">Hydrabad</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/EastZone/">Kolkata</a></li>
+<li><a href="/opencms/opencms/en/Departments/Zones/WestZone/">Mumbai</a></li>
+</ul>
+</li>
+<li>Sub Zonal Offices
+<ul>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Baddi/">Baddi-I</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Baddi/">Baddi-II</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Baddi/">Chandigarh</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Goa/">Goa</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Guwahati/">Guwahati</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Indore/">Indore</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/jammu_kasmir/">Jammu & Kashmir</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Rishikesh/">Dehradun</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Varanasi/">Varanasi</a></li>
+<li><a href="/opencms/opencms/en/Departments/Sub-Zone/Visakhapatnam/">Visakhapatnam</a></li>
+
+</ul>
+</li>
+<li>Port
+<ul>
+<li><a href="/opencms/opencms/en/Departments/Port/chennai_Air-port/">Chennai Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/chennai_Sea-Port/">Chennai Sea-Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Delhi_port/">Delhi</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Hyderabad-Port/">Hyderabad</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Indore-Port/">Indore Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Kolkata_port/">Kolkata Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Mumbai_Air-port/">Mumbai Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Mumbai_Sea-Port/">Mumbai Sea-Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Cochin_Sea-Port/">Cochin Sea-Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Vishakapatnam_Sea-Port/">Vishakapatnam Sea-Port</a></li>
+<li><a href="/opencms/opencms/en/Departments/Port/Krishnapatnam_Sea-Port/">Krishnapatnam Sea-Port</a></li>
+</ul>
+</li>
+<li>Labs
+<ul>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDL_Kasauli/">CDL(Kasauli)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDL-Kolkata/">CDL(Kolkata)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDTL-Chennai/">CDTL(Chennai)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDTL-Hyderabad/">CDTL(Hyderabad)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/CDTL-Mumbai/">CDTL(Mumbai)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/RDTL-Chandigarh/">RDTL(Chandigarh)</a></li>
+<li><a href="/opencms/opencms/en/Departments/Lab/RDTL-Guwahati/">RDTL(Guwahati)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Pendency Status
+<ul><li>
+<a href="/opencms/opencms/en/Pendency_Status/" rel="tooltip" title="" data-original-title="Pendency Status">Pendency Status</a></li></ul>                  
+</li>
+<li>PvPI
+<ul><li>
+<a href="/opencms/opencms/en/PvPI/" rel="tooltip" title="" data-original-title="PvPI"> PvPI</a></li></ul>                  
+</li>
+<li>State Drugs Control
+<ul >
+<li>
+<a href="/opencms/opencms/en/State-Drugs-Control/" rel="tooltip" title="" data-original-title="state drug control">State Drugs Control</a></li>
+</ul>
+</li>               
+       
+</ul>
+</li></ul></div>
+</div>
+</div>
+
+
+ <script>
+  $( function() {
+    $( "#comm_function" ).tabs();
+  } );
+ </script></div>
+</div></div>
+
+
+  </div>
+ <div class="col-sm-12">
+  <div  id="cdsco_nav_content2" ><div>
+	<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <script type="text/javascript">
+    // Alert for external links
+    document.addEventListener('click', function(e){
+      const a = e.target.closest('a.link');
+      if (a) alert("This link leads to external website");
+    });
+
+    // Close popup
+    function closePopup(id) {
+      var e = document.getElementById(id);
+      if (e) e.style.display = 'none';
+    }
+
+    // Show follow-up popup directly on load
+    window.addEventListener('load', function(){
+      var p2 = document.getElementById('popup-box2');
+      if (p2) p2.style.display = 'flex';
+    });
+
+    // ESC closes popup
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Escape') {
+        closePopup('popup-box2');
+      }
+    });
+  </script>
+
+  <style>
+    .popup-position{
+      display: none;
+      position: fixed;
+      inset: 0;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,.35);
+      z-index: 9999999;
+      padding: 24px;
+    }
+
+    .popup-wrapper{
+      background: #f5f3ff;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+      border: 6px solid #8b5cf6;
+      width: min(92vw, 900px);
+      height: min(80vh, 600px);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .popup-header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      background: #ede9fe;
+      font-weight: 700;
+    }
+
+    .close-x{
+      font-size: 28px;
+      cursor: pointer;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .popup-body{
+      padding: 16px;
+      overflow: auto;
+    }
+
+    .headline{
+      text-align: center;
+      font-weight: 800;
+      font-size: 22px;
+      color: #4c1d95;
+    }
+
+    @media (max-width: 768px){
+      .popup-wrapper{
+        width: 96vw;
+        height: 85vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- =============== ONLY FOLLOW-UP POPUP =============== -->
+  <div id="popup-box2" class="popup-position" onclick="closePopup('popup-box2');">
+    <div class="popup-wrapper" onclick="event.stopPropagation();">
+
+      <div class="popup-header">
+        <div class="headline">
+          <i class="fa fa-check-circle"></i> Helpful Links
+        </div>
+        <a class="close-x" onclick="closePopup('popup-box2');">&times;</a>
+      </div>
+
+      <div class="popup-body">
+        <p><b>The National Single Window System</b> has access to 100+ central approvals and 14 states/UTs.</p>
+
+        <p>1.
+          <a class="link" href="https://nsws.gov.in" target="_blank" rel="noopener">
+            Visit <b>nsws.gov.in</b>
+          </a>
+        </p>
+
+        <p><b>Written Confirmation details</b> are present in International Cell under Offices/Division in the Menu.</p>
+
+        <p>2.
+          <a class="link" href="https://cdscoonline.gov.in/CDSCO/homepage" target="_blank" rel="noopener">
+            Visit <b>SUGAM</b>
+          </a>
+        </p>
+
+        <p>3.
+          <a class="link" href="https://cdscomdonline.gov.in/NewMedDev/Homepage" target="_blank" rel="noopener">
+            Visit <b>Online System for Medical Devices</b>
+          </a>
+        </p>
+
+        <p>4.
+          <a class="link" href="https://statedrugs.gov.in/SFDA/Homepage" target="_blank" rel="noopener">
+            Visit <b>State Drugs Licensing System</b>
+          </a>
+        </p>
+<p>5.
+          <a class="link" href="https://cdlkasauli.gov.in/CDL_KASAULI/Homepage" target="_blank" rel="noopener">
+            Visit <b>Central Drugs Laboratory, CDL Kasauli</b>
+          </a>
+        </p>
+
+        <hr/>
+
+        <p>
+          <b>e-Gov Helpdesk</b><br/>
+          <i class="fa fa-phone"></i> 011-23232918<br/>
+          <i class="fa fa-envelope"></i> it-cell[at]cdsco[dot]nic[dot]in
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
+</div>
+</div></div>
+
+
+		
+      </header>
+	  </div>
+	  
+	
+	  
+	  
+	  	<div class="container-fluids">
+
+          		  <a class="scrollToTop" href="#" style="display: none;">
+<i class="fa fa-chevron-circle-up fa-3x"></i>
+</a>
+
+<div class="clearfix"></div>
+
+
+<section class="row main_sec whats_new_section">
+<div class="col-md-12 col-sm-12 zero">
+<div  id="cdsco_whats_new" ><div>
+	<style>
+.yellow1{
+color:#fff700 !important;
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 120s linear 2s infinite;
+}
+
+.marquee-content span {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Duplicate marquee content for seamless loop
+  const marqueeContent = document.querySelector('.marquee-content');
+  const clone = marqueeContent.innerHTML;
+  marqueeContent.innerHTML = clone + clone;
+
+  window.pauseMarquee = function () {
+    document.querySelector('.marquee-content').style.animationPlayState = 'paused';
+  };
+
+  window.playMarquee = function () {
+    document.querySelector('.marquee-content').style.animationPlayState = 'running';
+  };
+
+});
+</script>
+<div class="row" id="whats_new">
+	<span class="col-md-1 col-xs-3 padded1">
+	<label class="label css_blink mb-0" style="color: white">What's New</label> </span>
+	<span class="col-md-11 col-xs-9 pad-t"> 
+
+
+	 <div class="marquee" id="nw_up">
+	 	 <div class="marquee-content">
+		<!--<span><img class="image-responsive" alt="new" src="/opencms/opencms/Image_folder/new1.gif"/>
+ <a href="https://statedrugs.gov.in/SFDA/Homepage" target="_BLANK" class="pt-0 text-decoration-none">Online application for extension of time to comply with revised Sch M is live on ONDLS portal. Login and file application</a>		</span>-->
+
+<span>
+  <img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/>
+  <a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/Bid-document.pdf"
+     rel="tooltip" 
+     target="_blank" 
+     class="pt-0 text-decoration-none">
+     
+     CDSCO – Invitation for RFP Selection of Software Service Provider (SSP) for Design, Development, Implementation, Operation & Maintenance of Digital Drugs Regulatory System (DDRS): Corrigendum issued - C1 | Bid No. GEM/2026/B/7383439 (Dated 24-04-2026) — Please refer to the latest corrigendum on GeM.
+     <span style="color: #FFFF00; font-weight: bold;">
+       Last Date: 30 JUNE 2026
+     </span>   
+  </a>
+</span>
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/Public-Notice-Diposal-Rejection-of-Long-Pending-Applications-on-Sugam-Portal-Awaiting-Query-Response.pdf" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none">Disposal / Rejection of Long-Pending Applications on Sugam Portal Awaiting Query Response</a></span>
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/DgSimilaBiologics25.pdf" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none">Inviting comments on Revised Guidelines on Similar Biologics- Regulatory requirements for Marketing Authorization in India 2025 drafted by CDSCO</a></span>
+
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/Complaintemail.pdf" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none">Report your Quality Related Complaint for All Drugs Including Vaccines</a></span>
+<span>
+  <img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/>
+  <a href="https://aikosh.indiaai.gov.in/home/competitions/details/fad61a56-c8f7-4bb4-9510-00e0b696c6f1" 
+     rel="tooltip" 
+     
+     target="_blank" 
+     class="pt-0 text-decoration-none">
+     
+     CDSCO – IndiaAI Mission Health Innovation Acceleration Hackathon, has been extended to
+     <span style="color: #FFFF00; font-weight: bold;">
+       10 May 2026
+     </span>
+     
+  </a>
+</span>
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE1OTE=" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none">Vacancy for post of Director in RDTL Chandigarh</a></span>
+
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE0NzA=" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none">Vacancy for Deputy Director in RDTL Guwahati</a></span>
+
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=MTE0NDg=" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none">Vacancy for Senior Assistant (Admn) in CDSCO</a></span>
+
+
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/Cough_Syrup/Cough-Syrup-Data-08.09.2026-.pdf-website.pdf" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none">Number of Cough syrup sample for Export at Different Laboratories for testing</a></span>
+
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/mdgsr.pdf" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none"> Regulation of all Class A & B Medical Devices under Licensing regime, w.e.f 01.10.2022, as per G.S.R. 102(E) dt 11.02.2020</a></span>
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/mdsale.pdf" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none"> GSR 754 (E) 30-09-2022 Sale of Medical Device Retail and wholesale</a></span>
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/notice15april21.pdf" rel="tooltip"  target="_blank" class="pt-0 text-decoration-none">All the stakeholders are requested to voluntarily fill and submit customer feedback form available in the website while visiting PRO at CDSCO (HQ)</a></span>
+
+<span><img class="image-responsive" alt="new" src="/opencms/export/sites/CDSCO_WEB/Image_folder/new1.gif"/><a href="/opencms/opencms/Pdf-documents/" rel="tooltip"  target="_blank"  class="pt-0 text-decoration-none">	Notice regarding Guidance for approval Covid-19 vaccine in India for restricted use in emergency situation which are already approved for restricted use by US FDA EMA, UK MHRA, PMDA Japan or which are listed in WHO Emergency use listing</a><small class="pad-left5 yellow">	15th April,2021</small> 
+	</span>	
+	
+	<span><!--<img class="image-responsive" alt="new" src="/opencms/opencms/Image_folder/new1.gif"/>--><a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/Messages/DCGI_Message_2021.pdf" rel="tooltip"  target="_blank"  class="pt-0 text-decoration-none">DCGI Message 2021</a><small class="pad-left5 yellow">01 Jan 2021</small>
+	</span>	
+	
+
+	<span>
+	<a href="/opencms/opencms/en/About-us/E-GOV-cell-at-CDSCO/index.html" rel="tooltip"  class="pt-0 text-decoration-none">E-GOV cell at CDlSCO</a>
+	</span>
+		
+
+		
+
+</div>
+		</div> 
+			
+			 <i class="fa fa-pause white st_cdsco" onclick="pauseMarquee()"></i>
+  <i class="fa fa-play white st_cdsco" onclick="playMarquee()"></i>
+		</span>
+
+</div></div>
+</div></div>
+</section>
+
+<section class="row main_sec ">
+<div class="col-md-12 col-sm-12 zero">
+<div  id="cdsco_main_slider" ><div id="main-slider" class="form-group">
+         <div id="transition-timer-carousel" class="carousel slide  transition-timer-carousel" data-bs-ride="carousel">
+            <!--<ol class="carousel-indicators">
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     <li data-target="#transition-timer-carousel"></li>
+                     </ol>-->
+                  <div class="carousel-inner shadow">
+                     <div class="carousel-item  active"><a href="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/formatters/slider_med_cdsco.jsp">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/Min-healthFamily.jpg" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="/opencms/opencms/en/Home/">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/drrajeevsingh.jpg" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="/opencms/opencms/en/Home/">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/cdsco_main1.jpg" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/Bid-document.pdf">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/ddrs-banner-updated_new.png" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="/opencms/opencms/en/About-us/who/">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/mission.jpg" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="/opencms/opencms/en/Home/">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/Untitled-who.png" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="/opencms/opencms/en/Home/">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/QA_banner.jpg" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="/opencms/opencms/en/bioequi_bioavail/">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/BABE.png" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="/opencms/opencms/en/Clinical-Trial/clinical-trials/">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/clinical_trial_new.png" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="https://cdscoonline.gov.in/CDSCO/homepage">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/banner2_new.png" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="https://cdscomdonline.gov.in/NewMedDev/Homepage">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/slider/banner3_new.png" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="https://statedrugs.gov.in/SFDA/Homepage">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/SFDA.jpg" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  <div class="carousel-item "><a href="https://aikosh.indiaai.gov.in/home/competitions/details/fad61a56-c8f7-4bb4-9510-00e0b696c6f1">
+                        <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/IndiaAI-CDSCO-1.jpg" alt="Hero Banner Images" /></a>
+                  </div>
+                  <!-- item -->
+                  </div>
+         <!-- carousel-inner -->
+         <a class="opacity-100 carousel-control-prev" data-bs-slide="prev" data-bs-target="#transition-timer-carousel"> 
+         <span class="carousel-control-prev-icon"></span> </a> 
+
+         <a class="opacity-100 right carousel-control-next" data-bs-slide="next" data-bs-target="#transition-timer-carousel"> 
+         <span class="carousel-control-next-icon"></span> </a>
+         <hr class="transition-timer-carousel-progress-bar animate" />
+         </div>
+      <!-- transition-timer-carousel -->
+      </div> <!-- main-slider -->
+   </div></div>
+</section>
+		  <section class=" section2 " id="section2">
+		  <div class="section2_main row">
+		
+		 <div class="col-md-9 col-lg-9 col-xs-12">
+		 <div id="med_nav" class="col-md-12 col-sm-12 col-xs-12 pad-top double">
+		  <div  id="cdsco_horizontaltab_content_main" ><div class="margin-bottom-30">
+
+	<div class="tabs-ab">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#b518c4e3-9416-11e7-b359-0a0027000000-tab-1" data-toggle="tab">About  CDSCO</a></li>
+			</ul>
+
+		<div class="tab-content">
+			<div id="b518c4e3-9416-11e7-b359-0a0027000000-tab-1" class="tab-pane active">
+					<div ><div class="none">
+
+	<div >
+		<div ><p class="text-justify" style="text-align: justify;"><strong>The Central Drugs Standard Control Organisation(CDSCO)</strong>under Directorate General of Health Services,Ministry of Health &amp; Family Welfare,Government of India is the National Regulatory Authority (NRA) of India. Its headquarter is located at FDA Bhawan, Kotla Road, New Delhi 110002 and also has six zonal offices,four sub zonal offices,thirteen Port offices and seven laboratories spread across the country. <br /> The Drugs &amp; Cosmetics Act,1940 and rules 1945 have entrusted various responsibilities to central &amp; state regulators for regulation of drugs &amp; cosmetics.It envisages uniform implementation of the provisions of the Act &amp; Rules made there under for ensuring the safety, rights and well being of the patients by regulating the drugs and cosmetics. CDSCO is constantly thriving upon to bring out transparency, accountability and uniformity in its services in order to ensure safety, efficacy and quality of the medical product manufactured, imported and distributed in the country. <br /> Under the Drugs and Cosmetics Act, CDSCO is responsible for approval of Drugs, Conduct of Clinical Trials, laying down the standards for Drugs, control over the quality of imported Drugs in the country and coordination of the activities of State Drug Control Organizations by providing expert advice with a view of bring about the uniformity in the enforcement of the Drugs and Cosmetics Act.<br /> Further CDSCO along with state regulators, is jointly responsible for grant of licenses of certain specialized categories of critical Drugs such as blood and blood products, I. V. Fluids, Vaccine and Sera.</p></div>		
+		</div>	
+	
+</div>
+</div></div>
+			</div><!--/tab-content-->
+	</div><!--/tab-v1-->
+
+</div>
+
+</div></div>
+		  </div>
+		  <div class="col-md-3 col-sm-12 col-xs-12 ">
+		  <div  id="cdsco_panel_right" ><div>
+	
+<!-- <div class="icon-tbar">  
+  <a href="https://twitter.com/search?q=CDSCO_INDIA_INFO" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> 
+</div> -->
+  <div class="scanner">
+    <a title="Know your drug" href="/opencms/export/sites/CDSCO_WEB/Pdf-documents/Guidance-for-Identification-and-Verification-of-Spurious-Drugs-document.pdf"
+      target="_blank"> <img class="scanner"
+      src="/opencms/export/system/modules/CDSCO.WEB/resources/img/icons/scanner_new.png"
+      alt="Know your drug"> </a>
+  </div>
+  <div class="drugs11 btn-success">
+    <a title="Sugam" href="https://cdscoonline.gov.in/CDSCO/cdscoDrugs" target="_blank"> <img class="drugimg" src="/opencms/export/system/modules/CDSCO.WEB/resources/img/icons/pills_3.png" alt="Sugam"> </a>
+  </div>
+  <div class="manufSites">
+    <a title="Online System for Medical Devices" href="https://cdscomdonline.gov.in/NewMedDev/Homepage"
+      target="_blank"> <img class="manufimg"
+      src="/opencms/export/system/modules/CDSCO.WEB/resources/img/icons/med_device.png"
+      alt="Online System for Medical Devices"> </a>
+  </div>
+
+  <div class="SFDA">
+    <a title="State Drugs Licensing System" href="https://statedrugs.gov.in/SFDA/Homepage"
+      target="_blank"> <img class="sfdaimg"
+      src="/opencms/export/system/modules/CDSCO.WEB/resources/img/icons/SFDA_icon1.png"
+      alt="State Drugs Licensing System"> </a>
+  </div>
+
+
+
+  <div class="helpDesk">
+    <a title="Helpdesk" href="/opencms/opencms/en/About-us/E-GOV-cell-at-CDSCO/index.html"
+      target="_blank"> <img class="helpdeskimg"
+      src="/opencms/export/system/modules/CDSCO.WEB/resources/img/icons/helpdesk_icon.png"
+      alt="Help Desk"> </a>
+  </div>
+
+
+</div>
+</div><div class="panel-about-right">
+			
+		  <div  id="linksq" ><div class="ap-linksequence panel panel-default">
+
+    <div class="panel-heading bold font_16 wow fadeInLeft form-group animated animated"><h3 >Latest Updates</h3>
+    </div>
+<ul >
+        <li >
+                <a href="/opencms/opencms/en/Latest-Circulars/"
+            
+        ><span class="ap-icon-label"><i class="fa fa-sign-out" title=""></i></span>Circulars</a>
+    </li>
+        <li >
+                <a href="/opencms/opencms/en/Latest-Public-Notices/"
+            
+        ><span class="ap-icon-label"><i class="fa fa-sign-out" title=""></i></span>Public Notices</a>
+    </li>
+        <li >
+                <a href="/opencms/opencms/en/Latest-Alerts/"
+            
+        ><span class="ap-icon-label"><i class="fa fa-sign-out" title=""></i></span>Alerts</a>
+    </li>
+        </ul>
+
+</div></div></div>
+		  </div>
+		  </div>
+		  </section>
+		  
+		  <div class="main_content">
+		  <section id="division_row" class="row section4 ">
+		  <div  id="cdsco_division_section" ><div>
+	<div class="row"><div class="headline"><h3 >Divisions</h3></div></div><div class="col-md-12 col-sm-12 col-xs-12"> <!-- slider -->
+<div id="myowl-demo" class="col-md-12 owl-carousel owl-theme">
+	
+	<!--	<div class="owl-wrapper-outer"> 
+		<div class="owl-wrapper" style="left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);"> -->
+					<!-- <div class="owl-item"> --> 
+				     <div class="item wow fadeInDown">
+					<div class="cuadro_intro_hover " style="background-color: #cccccc;">
+						<p style="text-align: center;">
+					<!-- Main image of slide 1 -->
+					<img src="/opencms/export/sites/CDSCO_WEB/Image_folder/icons/new_drugs1.png" alt="" />
+</p>
+					<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+							<h4 style="padding:20px;">New Drugs</h4>
+							<a class="btn  bg-white text-dark" href="/opencms/opencms/en/Drugs/New-Drugs/"> More Info </a>
+					  
+ <!-- <a class=" btn btn-default" href="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/formatters/cdsco_division_slider.jsp"> More
+									Info</a> -->
+							</div>  <!-- caption-text -->
+							</div> <!-- caption -->
+					</div> <!--  cuadro -->
+</div> <!--   item -->
+ <!--</div>   owl-item -->
+				<!-- <div class="owl-item"> --> 
+				     <div class="item wow fadeInDown">
+					<div class="cuadro_intro_hover " style="background-color: #cccccc;">
+						<p style="text-align: center;">
+					<!-- Main image of slide 2 -->
+					<img src="/opencms/export/sites/CDSCO_WEB/Image_folder/icons/import_division_section.png" alt="" />
+</p>
+					<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+							<h4 style="padding:20px;">Import & Registration</h4>
+							<a class="btn  bg-white text-dark" href="/opencms/opencms/en/Departments/Headquarters/imports/"> More Info </a>
+					  
+ <!-- <a class=" btn btn-default" href="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/formatters/cdsco_division_slider.jsp"> More
+									Info</a> -->
+							</div>  <!-- caption-text -->
+							</div> <!-- caption -->
+					</div> <!--  cuadro -->
+</div> <!--   item -->
+ <!--</div>   owl-item -->
+				<!-- <div class="owl-item"> --> 
+				     <div class="item wow fadeInDown">
+					<div class="cuadro_intro_hover " style="background-color: #cccccc;">
+						<p style="text-align: center;">
+					<!-- Main image of slide 3 -->
+					<img src="/opencms/export/sites/CDSCO_WEB/Image_folder/icons/med_division_section.png" alt="" />
+</p>
+					<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+							<h4 style="padding:20px;">Medical Devices & Diagnostics</h4>
+							<a class="btn  bg-white text-dark" href="/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/"> More Info </a>
+					  
+ <!-- <a class=" btn btn-default" href="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/formatters/cdsco_division_slider.jsp"> More
+									Info</a> -->
+							</div>  <!-- caption-text -->
+							</div> <!-- caption -->
+					</div> <!--  cuadro -->
+</div> <!--   item -->
+ <!--</div>   owl-item -->
+				<!-- <div class="owl-item"> --> 
+				     <div class="item wow fadeInDown">
+					<div class="cuadro_intro_hover " style="background-color: #cccccc;">
+						<p style="text-align: center;">
+					<!-- Main image of slide 4 -->
+					<img src="/opencms/export/sites/CDSCO_WEB/Image_folder/icons/cosmetic_division_section.png" alt="" />
+</p>
+					<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+							<h4 style="padding:20px;">Cosmetics</h4>
+							<a class="btn  bg-white text-dark" href="/opencms/opencms/en/Cosmetics/cosmetics/"> More Info </a>
+					  
+ <!-- <a class=" btn btn-default" href="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/formatters/cdsco_division_slider.jsp"> More
+									Info</a> -->
+							</div>  <!-- caption-text -->
+							</div> <!-- caption -->
+					</div> <!--  cuadro -->
+</div> <!--   item -->
+ <!--</div>   owl-item -->
+				<!-- <div class="owl-item"> --> 
+				     <div class="item wow fadeInDown">
+					<div class="cuadro_intro_hover " style="background-color: #cccccc;">
+						<p style="text-align: center;">
+					<!-- Main image of slide 5 -->
+					<img src="/opencms/export/sites/CDSCO_WEB/Image_folder/icons/be_ba_division_section.png" alt="" />
+</p>
+					<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+							<h4 style="padding:20px;">BA/BE</h4>
+							<a class="btn  bg-white text-dark" href="/opencms/opencms/en/bioequi_bioavail/"> More Info </a>
+					  
+ <!-- <a class=" btn btn-default" href="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/formatters/cdsco_division_slider.jsp"> More
+									Info</a> -->
+							</div>  <!-- caption-text -->
+							</div> <!-- caption -->
+					</div> <!--  cuadro -->
+</div> <!--   item -->
+ <!--</div>   owl-item -->
+				<!-- <div class="owl-item"> --> 
+				     <div class="item wow fadeInDown">
+					<div class="cuadro_intro_hover " style="background-color: #cccccc;">
+						<p style="text-align: center;">
+					<!-- Main image of slide 6 -->
+					<img src="/opencms/export/sites/CDSCO_WEB/Image_folder/icons/biologicals_division_section.png" alt="" />
+</p>
+					<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+							<h4 style="padding:20px;">Biologics</h4>
+							<a class="btn  bg-white text-dark" href="/opencms/opencms/en/biologicals/"> More Info </a>
+					  
+ <!-- <a class=" btn btn-default" href="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/formatters/cdsco_division_slider.jsp"> More
+									Info</a> -->
+							</div>  <!-- caption-text -->
+							</div> <!-- caption -->
+					</div> <!--  cuadro -->
+</div> <!--   item -->
+ <!--</div>   owl-item -->
+				<!-- <div class="owl-item"> --> 
+				     <div class="item wow fadeInDown">
+					<div class="cuadro_intro_hover " style="background-color: #cccccc;">
+						<p style="text-align: center;">
+					<!-- Main image of slide 7 -->
+					<img src="/opencms/export/sites/CDSCO_WEB/Image_folder/icons/clinical_trial_division_section.png" alt="" />
+</p>
+					<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+							<h4 style="padding:20px;">Clinical Trials</h4>
+							<a class="btn  bg-white text-dark" href="/opencms/opencms/en/Clinical-Trial/clinical-trials/"> More Info </a>
+					  
+ <!-- <a class=" btn btn-default" href="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/formatters/cdsco_division_slider.jsp"> More
+									Info</a> -->
+							</div>  <!-- caption-text -->
+							</div> <!-- caption -->
+					</div> <!--  cuadro -->
+</div> <!--   item -->
+ <!--</div>   owl-item -->
+				<!-- <div class="owl-item"> --> 
+				     <div class="item wow fadeInDown">
+					<div class="cuadro_intro_hover " style="background-color: #cccccc;">
+						<p style="text-align: center;">
+					<!-- Main image of slide 8 -->
+					<img src="/opencms/export/sites/CDSCO_WEB/Image_folder/icons/committee.png" alt="" />
+</p>
+					<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+							<h4 style="padding:20px;">DCC-DTAB</h4>
+							<a class="btn  bg-white text-dark" href="/opencms/opencms/en/dcc-dtab-committee"> More Info </a>
+					  
+ <!-- <a class=" btn btn-default" href="/opencms/opencms/system/modules/com.alkacon.bootstrap.formatters/formatters/cdsco_division_slider.jsp"> More
+									Info</a> -->
+							</div>  <!-- caption-text -->
+							</div> <!-- caption -->
+					</div> <!--  cuadro -->
+</div> <!--   item -->
+ <!--</div>   owl-item -->
+				<!--  </div>owl-wrapper-outer -->
+		<!-- </div>  myowl-wrapper -->
+	
+		</div>  <!-- myowl-demo -->
+	
+	
+
+				
+
+<!--=== End Slider ===--></div>
+	</div> 
+</div></section>
+		  	<section class="row imp_links">
+			<div  id="imp_links" ><div>
+			<h2 class="text-center  wow fadeInDown bold form-group animated" style="visibility: visible; animation-name: fadeInDown;">Important
+			Links</h2>
+<div class="w3layouts_header">
+			<p>
+				<i class="fa fa-link" aria-hidden="true"></i>
+			</p>
+		</div>
+		<div class="row">
+		<div class="col-md-2 col-xs-12 col-sm-4 text-center">
+
+			<span class="fa-stack fa-3x wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <i class="fa fa-circle fa-stack-2x "></i> <i class="fa fa-users fa-stack-1x fa-inverse borderc"></i> </span> <br>
+			<h5 class=" wow fadeInDown animated mt-3" style="visibility: visible; animation-name: fadeInDown;"><a class="text-decoration-none white bold " href="/opencms/opencms/en/consumer/">Consumer</a></h5>
+		</div>
+
+		<div class="col-md-2 col-xs-12 col-sm-4 text-center">
+			<span class="fa-stack fa-3x wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <i class="fa fa-circle fa-stack-2x fa-bor"></i> <i class="fa fa-industry fa-stack-1x fa-inverse borderc"></i> </span><br>
+			<!-- <i class="fa fa-industry fa-3x bg-purple-gradient padded"></i> -->
+			<h5 class="wow fadeInDown  animated mt-3" style="visibility: visible; animation-name: fadeInDown;"><a class="white bold " href="/opencms/opencms/en/industry/">Industry</a></h5>
+		</div>
+
+		<div class="col-md-2 col-xs-12 col-sm-4 text-center ">
+			<span class="fa-stack fa-3x wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <i class="fa fa-circle fa-stack-2x fa-bor"></i> <i class="fa fa-list-alt fa-stack-1x fa-inverse borderc"></i> </span><br>
+			<!-- <i class="fa fa-list-alt fa-3x bg-red-gradient padded"></i> -->
+			<h5 class="wow fadeInDown animated mt-3" style="visibility: visible; animation-name: fadeInDown;"><a class="white bold text-decoration-none " href="/opencms/opencms/en/Data-Bank/">Data Bank</a></h5>
+		</div>
+		<div class="col-md-2 col-xs-12 col-sm-4 text-center">
+			<span class="fa-stack fa-3x wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <i class="fa fa-circle fa-stack-2x fa-bor"></i> <i class="fa fa-check-square-o fa-stack-1x fa-inverse borderc"></i> </span><br>
+			<!-- <i class="fa fa-check-square-o fa-3x bg-green-gradient padded"></i> -->
+			<h5 class="wow fadeInDown animated mt-3" style="visibility: visible; animation-name: fadeInDown;"><a class="text-decoration-none white bold " href="/opencms/opencms/en/Approval_new/">Approval</a></h5>
+		</div>
+<div class="col-md-2 col-xs-12 col-sm-4 text-center">
+			<span class="fa-stack fa-3x wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <i class="fa fa-circle fa-stack-2x fa-bor"></i> <i class="fa fa-medkit fa-stack-1x fa-inverse borderc"></i> </span><br>
+			<!-- <i class="fa fa-check-square-o fa-3x bg-green-gradient padded"></i> -->
+			<h5 class="wow fadeInDown animated mt-3" style="visibility: visible; animation-name: fadeInDown;"><a class="text-decoration-none white bold " href="https://cdscoonline.gov.in/CDSCO/cdscoDrugs">Drugs@CDSCO</a></h5>
+		</div>
+		
+		<div class="col-md-2 col-xs-12 col-sm-4 text-center">
+			<span class="fa-stack fa-3x wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <i class="fa fa-circle fa-stack-2x fa-bor"></i> <i class="fa fa-weixin fa-stack-1x fa-inverse borderc"></i> </span><br>
+			<h5 class="wow fadeInDown animated mt-3" style="visibility: visible; animation-name: fadeInDown;"><a class="text-decoration-none white bold " href="/opencms/opencms/en/FAQ/">FAQs</a></h5>
+		</div>
+	</div></div>
+</div></section>
+			<section class="govt_web ckg">
+			<div  id="govt_web" ><div>
+	<div class="row">
+		<div class="col-md-12 zero">
+			<div class="panel panel-info zero-margin">
+				
+				<div class="panel-body padded ">		
+				<div id="owl-demo2"
+						class="col-md-12 text-center owl-carousel owl-theme">
+						
+		
+				<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="https://india.gov.in/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/india_gov_in.gif" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 1 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="https://www.g20.org/en/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/g-20-new.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 2 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://digitalindia.gov.in/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/digital_india.gif" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 3 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="https://www.cdscoonline.gov.in/CDSCO/homepage" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/sugam_logo.gif" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 4 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="https://cdscomdonline.gov.in/NewMedDev/Homepage" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/cdscomdonline.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 5 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="https://statedrugs.gov.in/SFDA/Homepage" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/SFDA_Logo.jpg" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 6 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="https://naitik.gov.in/DHR/Homepage" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/naitik_new.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 7 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="https://sugamlabs.gov.in/SugamLabs/Homepage" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/SUGAM_Labs_logo.jpg" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 8 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://mohfw.nic.in/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/mohfw.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 9 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://www.ipc.gov.in/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/ipc.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 10 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://www.nib.gov.in/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/nib.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 11 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://ivri.nic.in/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/ivri.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 12 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://www.icmr.nic.in/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/ICMR.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 13 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://ctri.nic.in/Clinicaltrials/login.php" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/ctri.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 14 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://www.dbtindia.nic.in/index.asp" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/biotech.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 15 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://www.naco.gov.in/NACO/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/naco.png" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 16 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://goidirectory.gov.in/index.php" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/goi.gif" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 17 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="https://www.mygov.in/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/mygov.gif" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 18 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="http://ayush.gov.in/" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/AYUSH_Logo.jpg" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 19 -->
+										</div>
+								<div class="item wow fadeInDown govt_link" id="govt_link">
+					<a href="https://www.searn-isp.org/SEARN/en/Home" target="blank" > <img src="/opencms/export/sites/CDSCO_WEB/Image_folder/logo/searn-logo.jpg" alt=""  class="img-responsive" id="govt_link1" /> </a>
+
+										<!-- Main image of slide 20 -->
+										</div>
+								</div>
+</div>
+</div>
+</div>
+</div>
+	</div> 
+</div></section>
+		  </div>
+		  </div>
+		  <div class="push"></div>
+		  
+		  </div>
+	
+		  <div class="wrap-f">
+<footer>
+		  <div  id="footer1" ><div>
+	<div class="container">
+<div class="row">
+
+			<div class="col-md-4">
+			
+					<div class="wrap-footer navigfooter">
+					<h5>QUICK LINKS</h5>
+					<ul>
+						<li><span class=""><a href="/opencms/opencms/en/RTI/" rel="tooltip" title="RTI">RTI</a> </span> / <span class=""><a href="/opencms/opencms/en/Gallery/" rel="tooltip" title="Gallery">Gallery</a>
+						</span>/<span class=""><a href="/opencms/opencms/en/Sitemap/" rel="tooltip" title="SiteMap">SiteMap</a> </span> <!--/ <span class=""><a href="/opencms/opencms/en/Complain/" rel="tooltip" title="Grievance">Grievance</a>
+						</span>-->
+						</li>
+
+						<li><span class=""><a href="/opencms/opencms/en/disclaimer/" rel="tooltip" title="Disclaimer">Disclaimer</a> </span> / <span class=""><a href="/opencms/opencms//en/Copyright-Policy/" rel="tooltip" title="Copyright Policy">Copyright Policy</a> </span>/ <span class=""><a href="/opencms/opencms//en/PRO/" rel="tooltip" title="PRO">PRO</a> </span>
+						</li>
+
+						<li><span class=""><a href="/opencms/opencms/en/Hyperlink/" rel="tooltip" title="Hyper Linking Policy">Hyper Linking Policy</a> </span> /<span class=""><a href="/opencms/opencms/en/terms_conditions/" rel="tooltip" title="Terms&amp;Conditions">Terms &amp;
+									Conditions</a> </span> / <span class=""><a href="/opencms/opencms/en/privacy-policy/" rel="tooltip" title="Privacy Policy">Privacy Policy</a> </span> / <span class=""><a href="/opencms/opencms//en/Acts-Rules/" rel="tooltip" title="Acts & Rules">Acts & Rules</a> </span>
+						</li>
+						<li><span class=""><a href="/opencms/opencms/en/accessibility-statement/" rel="tooltip" title="Accessibility Statement">Accessibility Statement</a> </span>
+						</li>
+						<li><span class=""><a href="/opencms/opencms/en/abbreviations/" rel="tooltip" title="Abbreviations">Abbreviations</a> </span>
+						</li>
+<li><span class=""><a href="/opencms/opencms/en/OtherUsefulLinks/" rel="tooltip" title="Other Useful Links">Other Useful Links</a> </span>
+						</li>
+						<!--<li><span class=""><a href="/opencms/opencms/en/Archives/" rel="tooltip" title="Archives">Archives</a> </span>
+						</li>-->
+					</ul>
+				</div>
+
+			</div>
+			<div class="col-md-4">
+				<div class="wrap-footer conf">
+
+
+					<h5>Contact Info</h5>
+					<ul>
+						<li style="text-align: justify;"><i class="fa fa-map-marker" aria-hidden="true"></i>Central Drugs Standard Control Organization, Ministry of Health and Family Welfare, Directorate General of Health Services, Government of India FDA Bhavan, ITO, Kotla Road, <span>
+								New Delhi -110002</span></li>
+						<li><i class="fa fa-envelope-o" aria-hidden="true"></i>dci[at]nic[dot]in</li>
+						<li><i class="fa fa-fax" aria-hidden="true"></i>91-11-23236973</li>
+<li><i class="fa fa-fax" aria-hidden="true">
+</i>PRO Toll Free No. 1800 11 1454</li>
+					</ul>
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="wrap-footer navigfooter">
+					<h5>NAVIGATION</h5>
+
+					<ul>
+						<li><span class=""><a href="/opencms/opencms/en/Zonal-office/" rel="tooltip" title="Zonal Offices">Zonal Offices</a> </span>
+						</li>
+						<li><span class=""><a href="/opencms/opencms/en/subzonaloffice/" rel="tooltip" title="Sub-Zonal Offices">Sub-Zonal Offices</a> </span>
+						</li>
+                                       <li><span class=""><a href="/opencms/opencms/en/Port/" rel="tooltip" title="Port Offices">Port Offices</a> </span>
+						</li>
+						
+						
+						<li><span class=""><a href="/opencms/opencms/en/About-us/Laboratories/" rel="tooltip" title="Central Drug Testing Laboratories">Central
+									Drug Testing Laboratories</a> </span>
+						</li>
+						
+<li><span class=""><a href="/opencms/opencms/en/Notifications/Circulars/" rel="tooltip" title="Circulars">Circulars</a> </span>
+						</li>
+						<li><span class=""><a href="/opencms/opencms/en/help/" rel="tooltip" title="Help">Help</a> </span>
+						</li>
+
+					</ul>
+				</div><!--  -->
+			</div>
+</div>
+</div>
+
+	</div>
+</div><div class="footer2">
+<div class="bordertop-footer">
+<div class="container">
+		<div class="row">			
+				<div class="col-md-6 col-xs-12 col-sm-12 agileits_w3layouts_copy_right">
+					<p></p>
+					<p>
+						<img
+							src="/opencms/opencms/system/modules/CDSCO.WEB/resources/img/logo/cdac_logo.png"
+							alt="C-DAC Logo"> Designed, Developed and Maintained by<a
+							href="www.cdac.in"> C-DAC </a>
+					</p>
+				</div>
+				<div class="col-md-6 col-xs-12 col-sm-12 w3_agile_copy_right">
+				<p>
+						Visitor Count: <span class="yellow"> 955497</span>
+					</p>
+					
+
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+		  
+		  </footer>  
+		  </div>
+		  </div>
+		 
+<script>
+	$(document)
+			.ready(
+					function() {
+						var headerwrap = $('#navbar1');
+				
+						$('.scrollToTop').click(function() {
+							$('html, body').animate({
+								scrollTop : 0
+							}, 300);
+							return false;
+						});
+						$(window).scroll(function() {
+							if ($(this).scrollTop() > 100) {
+								$('.scrollToTop').fadeIn();
+							} else {
+								$('.scrollToTop').fadeOut();
+							}
+						});
+
+						$('.govt_web .item a').click(function() {
+							alert('The link leads you to an external website');
+						});
+
+						$('#carousel figure img').click(function() {
+							window.open('/CDSCO_Home/gallery', '_blank');
+						});
+						/* var car_h=$('#transition-timer-carousel').height();
+						
+						$('.marquee').height(car_h); */
+
+						$("#owl-demo1").owlCarousel({
+						    items : 3,
+						    autoplay : true,
+						    loop:true,
+						    autoplayTimeout:2000,
+						    autoplayHoverPause:true,
+						    responsiveClass:true,
+						    responsive:{
+						        0:{
+						            items:1,
+						            nav:true
+						        },
+						        600:{
+						            items:2,
+						            nav:false
+						        },
+						        1000:{
+						            items:3,
+						            nav:true,
+						            loop:false
+						        },
+						        1280:{
+						          items:3,
+						          nav:true,
+						          loop:false
+						        }
+						      }
+						  });
+
+
+						$("#owl-demo2, #myowl-demo").owlCarousel({
+						    items : 4,
+						    autoplay : true,
+						    loop:true,
+						    autoplayTimeout:2000,
+						    autoplayHoverPause:true,
+							nav:false,
+						    responsiveClass:true,
+						    responsive:{
+						        0:{
+						            items:1,
+						            nav:true
+						        },
+						        600:{
+						            items:2,
+						            nav:false
+						        },
+						        1000:{
+						            items:3,
+						            nav:true,
+						            loop:true
+						        },
+						        1280:{
+						          items:4,
+						          nav:false,
+						          loop:true
+						        }
+						      }
+						  });
+
+						$("#owl-demo_section3").owlCarousel({
+
+							navigation : true, // Show next and prev buttons
+							slideSpeed : 300,
+							stopOnHover : true,
+							/* paginationSpeed : 300, */
+							autoPlay : 3000,
+							 items : 1, //10 items above 1000px browser width
+						      itemsDesktop : [1000,1], //5 items between 1000px and 901px
+						      itemsDesktopSmall : [900,1], // betweem 900px and 601px
+						      itemsTablet: [600,1], //2 items between 600 and 0;
+						      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+						});
+
+						$("#transition-timer-carousel")
+								.on(
+										"slide.bs.carousel",
+										function(event) {
+
+											//The animate class gets removed so that it jumps straight back to 0%
+
+											$(
+													".transition-timer-carousel-progress-bar",
+													this)
+													.removeClass("animate")
+													.css("width", "0%");
+										})
+								.on(
+										"slid.bs.carousel",
+										function(event) {
+											//The slide transition finished, so re-add the animate class so that
+											//the timer bar takes time to fill up
+											$(
+													".transition-timer-carousel-progress-bar",
+													this).addClass("animate")
+													.css("width", "100%");
+										});
+
+						//Kick off the initial slide animation when the document is ready
+						$(".transition-timer-carousel-progress-bar",
+								"#transition-timer-carousel").css("width",
+								"100%");
+						
+						
+		
+
+
+						
+					});
+
+	$('.scrollToTop').click(function() {
+		$('html, body').animate({
+			scrollTop : 0
+		}, 300);
+		return false;
+	});
+
+	if ('' != '') {
+		$('#login_panel').addClass('in');
+	}
+
+	new WOW().init();
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+</script>
+<script>
+$.fn.extend({
+    treed: function (o) {
+      
+      var openedClass = 'glyphicon-minus-sign';
+      var closedClass = 'glyphicon-plus-sign';
+      
+      if (typeof o != 'undefined'){
+        if (typeof o.openedClass != 'undefined'){
+        openedClass = o.openedClass;
+        }
+        if (typeof o.closedClass != 'undefined'){
+        closedClass = o.closedClass;
+        }
+      };
+      
+        //initialize each of the top levels
+        var tree = $(this);
+        tree.addClass("tree");
+        tree.find('li').has("ul").each(function () {
+            var branch = $(this); //li with children ul
+            branch.prepend("<i class='indicator glyphicon " + closedClass + "'></i>");
+            branch.addClass('branch');
+            branch.on('click', function (e) {
+                if (this == e.target) {
+                    var icon = $(this).children('i:first');
+                    icon.toggleClass(openedClass + " " + closedClass);
+                    $(this).children().children().toggle();
+                }
+            })
+            branch.children().children().toggle();
+        });
+        //fire event from the dynamically added icon
+      tree.find('.branch .indicator').each(function(){
+        $(this).on('click', function () {
+            $(this).closest('li').click();
+        });
+      });
+        //fire event to open branch if the li contains an anchor instead of text
+        tree.find('.branch>a').each(function () {
+            $(this).on('click', function (e) {
+                $(this).closest('li').click();
+                e.preventDefault();
+            });
+        });
+        //fire event to open branch if the li contains a button instead of text
+        tree.find('.branch>button').each(function () {
+            $(this).on('click', function (e) {
+                $(this).closest('li').click();
+                e.preventDefault();
+            });
+        });
+    }
+});
+
+//Initialization of treeviews
+
+$('#tree1').treed();
+
+$('#tree2').treed();
+
+$('#tree3').treed({openedClass:'glyphicon-chevron-right', closedClass:'glyphicon-chevron-down'});
+
+</script>
+<script>
+function openNav() {
+    document.getElementById("mySidenavh").style.width = "230px";
+    document.getElementById("mainh").style.marginLeft = "230px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenavh").style.width = "0";
+    document.getElementById("mainh").style.marginLeft= "0";
+}
+
+
+
+				$('#govt_link').click(function() {
+			alert('The link leads  you to an external website');
+		});
+</script>
+
+</body>
+</html>

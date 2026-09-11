@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/banneddrugs_1.pdf",
+    "ok": true,
+    "size_bytes": 504075,
+    "sha256": "8b2fad16e4752afc70bf631e25056ec1f1dafd721a7ecf122d232505c74cc0a8",
+    "path": "websites\\cdsco-banned-drugs\\pdf-download\\output\\banneddrugs_1.pdf"
+  },
+  {
+    "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/banneddrugs_2.pdf",
+    "ok": false,
+    "reason": "not a PDF"
+  },
+  {
+    "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/banneddrugs_3.pdf",
+    "ok": false,
+    "reason": "not a PDF"
+  },
+  {
+    "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/banneddrugs_4.pdf",
+    "ok": false,
+    "reason": "not a PDF"
+  },
+  {
+    "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/banneddrugs.pdf",
+    "ok": true,
+    "size_bytes": 504075,
+    "sha256": "8b2fad16e4752afc70bf631e25056ec1f1dafd721a7ecf122d232505c74cc0a8",
+    "path": "websites\\cdsco-banned-drugs\\pdf-download\\output\\banneddrugs.pdf"
+  }
+]
