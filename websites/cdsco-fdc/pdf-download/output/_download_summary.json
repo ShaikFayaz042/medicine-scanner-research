@@ -1,0 +1,61 @@
+{
+  "total": 7,
+  "successful": 7,
+  "tabs_tested": [
+    "Alerts",
+    "Gazette Notifications",
+    "News",
+    "Public Notices"
+  ],
+  "results": [
+    {
+      "document_id": 14567,
+      "tab": "Alerts",
+      "ok": true,
+      "size_bytes": 330198,
+      "path": "websites\\cdsco-fdc\\pdf-download\\output\\14567.pdf"
+    },
+    {
+      "document_id": 3251,
+      "tab": "Alerts",
+      "ok": true,
+      "size_bytes": 202158,
+      "path": "websites\\cdsco-fdc\\pdf-download\\output\\3251.pdf"
+    },
+    {
+      "document_id": 14519,
+      "tab": "Gazette Notifications",
+      "ok": true,
+      "size_bytes": 1500720,
+      "path": "websites\\cdsco-fdc\\pdf-download\\output\\14519.pdf"
+    },
+    {
+      "document_id": 3170,
+      "tab": "Gazette Notifications",
+      "ok": true,
+      "size_bytes": 2010487,
+      "path": "websites\\cdsco-fdc\\pdf-download\\output\\3170.pdf"
+    },
+    {
+      "document_id": 14514,
+      "tab": "News",
+      "ok": true,
+      "size_bytes": 42881,
+      "path": "websites\\cdsco-fdc\\pdf-download\\output\\14514.pdf"
+    },
+    {
+      "document_id": 12087,
+      "tab": "News",
+      "ok": true,
+      "size_bytes": 277947,
+      "path": "websites\\cdsco-fdc\\pdf-download\\output\\12087.pdf"
+    },
+    {
+      "document_id": 13292,
+      "tab": "Public Notices",
+      "ok": true,
+      "size_bytes": 442861,
+      "path": "websites\\cdsco-fdc\\pdf-download\\output\\13292.pdf"
+    }
+  ]
+}

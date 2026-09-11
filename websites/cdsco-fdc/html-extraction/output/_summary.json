@@ -1,0 +1,30 @@
+{
+  "source_html": "websites\\cdsco-fdc\\http-requests\\output\\fdc_page.html",
+  "tabs": [
+    {
+      "tab": "Alerts",
+      "table_id": "example",
+      "rows": 2,
+      "file": "websites\\cdsco-fdc\\html-extraction\\output\\fdc_alerts.json"
+    },
+    {
+      "tab": "News",
+      "table_id": "example1",
+      "rows": 10,
+      "file": "websites\\cdsco-fdc\\html-extraction\\output\\fdc_news.json"
+    },
+    {
+      "tab": "Public Notices",
+      "table_id": "example2",
+      "rows": 65,
+      "file": "websites\\cdsco-fdc\\html-extraction\\output\\fdc_public_notices.json"
+    },
+    {
+      "tab": "Gazette Notifications",
+      "table_id": "example3",
+      "rows": 2,
+      "file": "websites\\cdsco-fdc\\html-extraction\\output\\fdc_gazette.json"
+    }
+  ],
+  "total_rows": 79
+}

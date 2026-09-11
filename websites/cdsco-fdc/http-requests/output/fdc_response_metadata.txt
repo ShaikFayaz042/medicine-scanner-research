@@ -1,0 +1,11 @@
+URL: https://cdsco.gov.in/opencms/opencms/en/Drugs/FDC/
+Status: 200
+Size: 114538 bytes
+Content-Type: text/html;charset=UTF-8
+Server: Wish
+Timestamp: 2026-09-11T15:00:49.941347
+Table count: 4
+PDF count: 3
+download_file_division count: 81
+Total <a> tags: 341
+File-pointing <a> tags: 82
