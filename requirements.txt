@@ -1,1 +1,11 @@
 requests
+beautifulsoup4
+pymupdf
+pdfplumber
+fastapi
+uvicorn
+jinja2
+sqlalchemy
+apscheduler
+python-multipart
+psycopg2-binary
