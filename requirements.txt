@@ -9,3 +9,4 @@ sqlalchemy
 apscheduler
 python-multipart
 psycopg2-binary
+tqdm

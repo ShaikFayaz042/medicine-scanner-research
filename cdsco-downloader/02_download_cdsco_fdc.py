@@ -1,0 +1,99 @@
+#!/usr/bin/env python3
+"""
+Download every PDF from CDSCO FDC page (all four tabs).
+Source: https://cdsco.gov.in/opencms/opencms/en/Drugs/FDC/
+"""
+
+import sys
+import logging
+import time
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from bs4 import BeautifulSoup
+from tqdm import tqdm
+
+import cdsco_utils as cu
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+log = logging.getLogger(__name__)
+
+SOURCE_URL = "https://cdsco.gov.in/opencms/opencms/en/Drugs/FDC/"
+OUT_DIR = cu.ensure_dir(cu.DOWNLOADS_ROOT / "fdc")
+
+# (tab label, table id)
+TABS = [
+    ("Alerts", "example"),
+    ("News", "example1"),
+    ("Public Notices", "example2"),
+    ("Gazette", "example3"),
+]
+
+
+def main():
+    log.info("Fetching %s", SOURCE_URL)
+    resp = cu.SESSION.get(SOURCE_URL, timeout=30)
+    resp.raise_for_status()
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    records = []
+
+    for tab_label, table_id in TABS:
+        table = soup.find("table", id=table_id)
+        if not table:
+            log.warning("Table %s (%s) not found", table_id, tab_label)
+            continue
+
+        rows = table.find("tbody").find_all("tr")
+        for row in tqdm(rows, desc=f"FDC {tab_label}"):
+            cells = row.find_all("td")
+            if len(cells) < 5:
+                continue
+
+            title = cells[1].get_text(strip=True)
+            release_date = cells[2].get_text(strip=True)
+
+            anchor = cells[3].find("a")
+            if not anchor or not anchor.get("href"):
+                continue
+
+            href = anchor["href"].strip()
+            num_id_b64 = cu.extract_num_id_from_href(href)
+            if not num_id_b64:
+                continue
+
+            document_id = cu.base64_decode_num_id(num_id_b64)
+            safe_title = cu.sanitize_filename(title)
+            filename = f"{document_id or 'unknown'}_{safe_title}.pdf"
+            dest = OUT_DIR / filename
+
+            if dest.exists():
+                log.info("Skipping existing %s", dest.name)
+            else:
+                pdf_bytes = cu.resolve_cdsco_pdf(
+                    num_id_b64, referer=SOURCE_URL
+                )
+                if pdf_bytes:
+                    dest.write_bytes(pdf_bytes)
+                    log.info("Downloaded %s", dest.name)
+                else:
+                    log.error("Failed to download %s", title)
+                time.sleep(cu.DELAY)
+
+            records.append({
+                "tab": tab_label,
+                "document_id": document_id,
+                "num_id_b64": num_id_b64,
+                "title": title,
+                "release_date": release_date,
+                "local_path": str(dest),
+                "source": "fdc",
+            })
+
+    cu.save_metadata(records, OUT_DIR / "_metadata.json")
+    log.info("Done. %d records processed.", len(records))
+
+
+if __name__ == "__main__":
+    main()
