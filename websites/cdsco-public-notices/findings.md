@@ -28,29 +28,23 @@ Pattern A — same as Alerts/FDC:
 
 **Signal-to-noise ratio: ~15%.**
 
-## Decision: Keyword-Filtered Extraction
+## Extraction Policy
 
-Do NOT scrape all notices. Apply a title-keyword filter:
+This source is now collected without a relevance filter.
 
-**Keep if title contains:** alert, cancellation, prohibit, unapproved,
-safety, theft, recall, spurious, NSQ, misbranded, adulterated, impurity,
-side effect, adverse, prescribing information.
-
-**Skip if title contains:** ethics committee, cosmetic, IVD, medical device,
-SUGAM, e-RaktKosh, clinical research organisation, visitor, RTI, CPIO,
-tender, vacancy, blood centre, radiotherapy, radiology, spectacle.
+The parser saves the full table from the page into `pn_all.json` and does not discard rows based on title keywords. Filtering is intentionally deferred to downstream analysis or app-level logic instead of being hardcoded into the scraper.
 
 ## Value to Medicine Scanner
 
-**HIGH for ~15 notices per view**, mostly:
+The Public Notices page includes a mixture of meaningful enforcement actions and unrelated administrative/regulatory notices. The full extraction is kept to avoid missing legitimate drug safety or enforcement notices that do not match narrow keyword assumptions.
 
-- Drug theft alerts (e.g. insulin batch)
-- Cancellation orders naming manufacturers
-- Unapproved drug/FDC enforcement
-- Prescribing Information (PIL) updates for safety signals
-- Prohibitions (e.g. Chloramphenicol/Nitrofurans)
+This matters for:
 
-**NONE for ~85 notices** — administrative content irrelevant to a scanner.
+- drug theft or safety alerts
+- manufacturer cancellation orders
+- unapproved drug enforcement
+- prescribing-information updates
+- prohibitions or enforcement actions
 
 ## Dedup Strategy
 
@@ -67,18 +61,15 @@ Add a `source_category` column to the `documents` table:
 documents
 ...
 source_category -- 'alerts' | 'fdc' | 'public_notices' | 'banned_drugs'
-relevant -- boolean, derived from title keyword filter
 
-text
-
-Only query the scanner against rows where `relevant = true` for
-Public Notices.
+The full set should remain available for downstream filtering, rather than pre-filtering at the extraction step.
 
 ## Recommendation
 
 - ✅ Use the existing Pattern A pipeline
-- ✅ Add a keyword filter (see parse_pn.py)
-- ✅ Download only relevant PDFs (skip cosmetics/devices)
+- ✅ Keep all Public Notice records in the extraction output
+- ✅ Save full dataset to `pn_all.json`
+- ❌ Do not apply hardcoded keyword filtering in the scraper
 - ❌ Do not build a separate scraper — reuse what we have
 
 ## Files
@@ -90,6 +81,5 @@ websites/cdsco-public-notices/
 ├── html-extraction/
 │ ├── parse_pn.py
 │ └── output/
-│ ├── pn_all.json (all ~100 notices)
-│ └── pn_relevant.json (~15 filtered)
+│     └── pn_all.json
 └── findings.md

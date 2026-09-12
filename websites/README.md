@@ -13,8 +13,8 @@
 | - | ------------------------------ | -------------------------------------------- | ------------------------- | ----------------------- | ----------------- |
 | 1 | CDSCO Alerts                   | `/en/Alerts/`                              | HTTP + BS4                | 300 docs                | HIGH              |
 | 2 | CDSCO FDC                      | `/en/Drugs/FDC/`                           | HTTP + BS4                | 79 docs (4 tabs)        | HIGH              |
-| 3 | CDSCO Public Notices           | `/en/Notifications/Public-Notices/`        | HTTP + BS4 + filter       | 815 → 31 relevant      | HIGH              |
-| 4 | CDSCO Gazette                  | `/en/Notifications/Gazette-Notifications/` | HTTP + BS4 + filter       | 489 → 30 relevant      | HIGH              |
+| 3 | CDSCO Public Notices           | `/en/Notifications/Public-Notices/`        | HTTP + BS4               | full extraction        | HIGH              |
+| 4 | CDSCO Gazette                  | `/en/Notifications/Gazette-Notifications/` | HTTP + BS4               | full extraction        | HIGH              |
 | 5 | CDSCO Banned Drugs             | `/en/BannedDrugs`                          | HTTP + iframe + hash      | 1 PDF, 444 entries      | HIGH              |
 | 6 | **CDSCO NSQ + Spurious** | `/en/Notifications/nsq-drugs/`             | **Direct JSON API** | **6,453 records** | **HIGHEST** |
 | 7 | IPC PvPI Drug Safety Alerts    | `ipc.gov.in/.../drug-safety-alerts.html`   | HTTP + regex              | 84 PDFs + master        | HIGH              |
@@ -54,7 +54,7 @@ HTML table → row → <a href="download_file_division.jsp?num_id=<base64>">
 
 - Same `pdf_handler.py` works for all four sources
 - `document_id` is **globally unique across CDSCO** — single dedup key
-- Filter needed on PN (~15% signal) and Gazette (~15% signal)
+- PN and Gazette are now kept in full during extraction; filtering is deferred to downstream app logic instead of being hardcoded in the scraper
 
 ### Pattern B — iframe stub (Banned Drugs)
 
@@ -144,7 +144,8 @@ Tested: `num_id=12377` (Buprenorphine) resolves to an unrelated ethics PDF. Cros
 | Sources with stable document IDs          | 4               |
 | Sources needing SHA-256 only              | 1               |
 | Sources with JSON API                     | 1               |
-| Sources needing keyword filter            | 2               |
+| Sources with extraction-time filtering     | 2               |
+| Notes                                     | IPC PDF URL filter + NSQ API filtered endpoints |
 | Sources needing year-crawl                | 1               |
 
 ---
@@ -236,4 +237,4 @@ Each folder contains:
 
 ## 11. One-Paragraph Answer
 
-* [ ] All 7 target sources were tested progressively and resolved without browser automation. CDSCO's Alerts, FDC, Public Notices, and Gazette share a single wrapped-PDF pattern (`num_id` → iframe → real PDF) with a globally unique `document_id`; Public Notices and Gazette need aggressive title-keyword filters (~15% signal). Banned Drugs is a single hash-tracked PDF carrying critical legal caveats (2016 tranche quashed, 2017 tranche stayed). NSQ hides a clean public JSON API on a separate server (`cdscoonline.gov.in`) yielding **6,453 structured batch-level records** backfilled to 2019 in under 2 minutes — the highest-value source for the scanner. IPC PvPI exposes 84 direct monthly Drug Safety Alert PDFs plus one master PDF covering 2016–present. Dedup keys vary by pattern (document_id / SHA-256 / product-batch-manufacturer tuple / master-PDF filename). The MVP must carry a `legal_status` field so spurious and quashed entries are never presented as authoritative fact. Nothing in the research phase justified Playwright, Selenium, Scrapy, proxies, or a VPS.
+* [ ] All 7 target sources were tested progressively and resolved without browser automation. CDSCO's Alerts, FDC, Public Notices, and Gazette share a single wrapped-PDF pattern (`num_id` → iframe → real PDF) with a globally unique `document_id`; Public Notices and Gazette are now kept in full during extraction and filtered only downstream as needed. Banned Drugs is a single hash-tracked PDF carrying critical legal caveats (2016 tranche quashed, 2017 tranche stayed). NSQ hides a clean public JSON API on a separate server (`cdscoonline.gov.in`) yielding **6,453 structured batch-level records** backfilled to 2019 in under 2 minutes — the highest-value source for the scanner. IPC PvPI exposes 84 direct monthly Drug Safety Alert PDFs plus one master PDF covering 2016–present. Dedup keys vary by pattern (document_id / SHA-256 / product-batch-manufacturer tuple / master-PDF filename). The MVP must carry a `legal_status` field so spurious and quashed entries are never presented as authoritative fact. Nothing in the research phase justified Playwright, Selenium, Scrapy, proxies, or a VPS.

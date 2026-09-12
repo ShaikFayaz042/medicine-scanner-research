@@ -44,123 +44,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 BASE_URL = "https://cdsco.gov.in"
 
-# --- Relevance filter ---
-
-# Strong positive signals — keep (matched as substring on lowercased title,
-# so "prohibit" also matches "prohibition", "prohibited", etc.)
-KEEP_KEYWORDS = [
-    "prohibit",
-    "prohibition",
-    "banning",
-    "ban of",
-    "banned",
-    "restriction of",
-    "restricted",
-    "schedule h1",
-    "debarment",
-    "antimicrobial products for animal use",
-    "unapproved",
-    "spurious",
-    "nimesulide",
-    "chloramphenicol",
-    "nitrofurans",
-    "etodolac",
-    "ketoprofen",
-    "aceclofenac",
-    "pregabalin",
-    "oseltamivir",
-    "zanamivir",
-    "chlorpheniramine",
-    "phenylephrine",
-    "naproxen",
-    "fixed dose combination",
-    "fdc",
-    "colistin",
-    "buclizine",
-    "chenodeoxycholic",
-    "ursodeoxycholic",
-]
-
-# Strong negative signals — drop even if KEEP matched (drafts, admin, process).
-# Matched with word-boundary semantics after normalizing the title, so
-# "port" does NOT match "import"/"report"/"support", but DOES match
-# "_Port_" (because "_" becomes a separator).
-SKIP_KEYWORDS = [
-    "draft",
-    "corrigendum",
-    "amendment in md rules",
-    "amendment in ndct",
-    "amendment in cosmetics",
-    "amendment under drugs rules",
-    "amendment in schedule",
-    "testing fee",
-    "testing fees",
-    "fee revision",
-    "revision of testing fees",
-    "government analyst",
-    "government analysts",
-    "notification of",
-    "notified as",
-    "port",
-    "airport",
-    "air port",
-    "national institute",
-    "institute of animal health",
-    "central drugs laboratory",
-    "cdl",
-    "cdtl",
-    "nib",
-    "ivri",
-    "schedule m",
-    "compounding of offence",
-    "jan vishwas",
-    "qualification",
-    "competent person",
-    "regarding submission",
-    "regarding extension",
-    "extension of timeline",
-    "reconstitution",
-    "appointment of",
-    "appointment",
-    "online intimation",
-    "blue line",
-    "blood product",
-    "cosmetics rule",
-    "shelf life",
-    "raw material",
-    "label of antimicrobial",
-    "exemption",
-]
-
-
-def _normalize(text: str) -> str:
-    """Lowercase and collapse every non-alphanumeric run to a single space.
-
-    "_Draft_ notification" -> " draft notification"
-    "Import banning"       -> " import banning"
-    """
-    return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
-
-
-def _has_word(keyword: str, text_normalized: str) -> bool:
-    """Word-level containment on already-normalized text.
-
-    " port "  in " prohibits to import " -> False
-    " draft " in " 745 e draft notification " -> True
-    """
-    return f" {keyword} " in f" {text_normalized} "
-
-
-def is_relevant(title: str) -> bool:
-    tl = title.lower()
-    tl_norm = _normalize(title)
-
-    for skip in SKIP_KEYWORDS:
-        if _has_word(skip, tl_norm):
-            return False
-
-    return any(keep in tl for keep in KEEP_KEYWORDS)
-
+# --- Full extraction. No relevance filtering applied. ---
 
 # --- Dedup helper ---
 
@@ -242,46 +126,20 @@ def main():
             "num_id_b64":        num_id_b64,
             "document_id":       document_id,
             "pdf_size_declared": cells[4].get_text(strip=True),
-            "relevant":          is_relevant(title),
             "notif_number":      notification_number(title),
         }
         all_records.append(record)
-        if record["relevant"]:
-            kept_records.append(record)
 
-    # --- Dedup relevant records ---
-    seen_keys = set()
-    deduped = []
-    for r in kept_records:
-        if r["notif_number"]:
-            key = ("notif", r["notif_number"])
-        else:
-            key = ("doc", r["document_id"])
-        if key in seen_keys:
-            continue
-        seen_keys.add(key)
-        deduped.append(r)
-
-    # Save
+    # Save full dataset only; no filtering.
     (OUTPUT_DIR / "gazette_all.json").write_text(
         json.dumps(all_records, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
-    (OUTPUT_DIR / "gazette_relevant.json").write_text(
-        json.dumps(deduped, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
-
-    dropped_dupes = len(kept_records) - len(deduped)
 
     print(f"[*] Total rows parsed : {len(all_records)}")
-    print(f"[*] Relevant rows     : {len(kept_records)}")
-    print(f"[*] After dedup       : {len(deduped)}  (dropped {dropped_dupes} duplicate(s))")
-    print(f"[+] All      saved to : {OUTPUT_DIR / 'gazette_all.json'}")
-    print(f"[+] Relevant saved to : {OUTPUT_DIR / 'gazette_relevant.json'}")
-
-    print("\n[*] Relevant notifications:")
-    for r in deduped:
+    print(f"[+] All saved to : {OUTPUT_DIR / 'gazette_all.json'}")
+    print("\n[*] First few records:")
+    for r in all_records[:10]:
         nnum = f"  [{r['notif_number']}]" if r["notif_number"] else ""
         print(f"    {r['release_date']}  {r['title'][:80]}{nnum}")
 

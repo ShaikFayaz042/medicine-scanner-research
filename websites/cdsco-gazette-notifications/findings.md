@@ -31,35 +31,23 @@ Pattern A — same as Alerts / FDC / Public Notices:
 
 **Signal-to-noise ratio: ~15-20%.**
 
-## Decision: Aggressive Keyword Filter
+## Extraction Policy
 
-Gazette is the noisiest CDSCO source. Filter must be stricter than
-Public Notices.
+This source is now collected without a relevance filter.
 
-**Keep if title contains:**
-prohibit, prohibition, banning, ban, restriction of, schedule h1,
-debarment, unapproved, spurious, and specific drug names
-(nimesulide, chloramphenicol, nitrofurans, etodolac, ketoprofen,
-aceclofenac, pregabalin, oseltamivir, zanamivir, chlorpheniramine,
-phenylephrine, naproxen, FDC, fixed dose combination).
-
-**Skip if title contains:**
-draft, corrigendum, amendment, testing fee, government analyst,
-port, airport, national institute, cdl, cdtl, nib, ivri, schedule m,
-compounding, jan vishwas, qualification, appointment, extension,
-reconstitution, blood product, cosmetics rule, shelf life.
+The parser saves the full table from the page into `gazette_all.json` and does not discard rows based on title keywords. Filtering is intentionally deferred to downstream analysis or app-level logic instead of being hardcoded in the extraction step.
 
 ## Value to Medicine Scanner
 
-**HIGH for ~15-20 notices**, mostly:
+The Gazette includes both high-signal regulatory actions and a large amount of administrative/regulatory process noise. Keeping the full set avoids losing potentially important notices that were previously excluded by a keyword filter.
 
-- Prohibition of FDCs (16, 156, 14 FDCs etc. — single PDF each lists many drugs)
-- Specific drug bans (Nimesulide, Etodolac, Ketoprofen, Aceclofenac)
-- Schedule H1 inclusions (Pregabalin, Oseltamivir, Zanamivir)
-- Debarment of manufacturers (fraud/fabricated documents)
-- Antimicrobial prohibition for animal use
+This is especially relevant for:
 
-**NONE for ~80 notices** — pure regulatory process noise.
+- Prohibitions of FDCs
+- Specific drug bans
+- Schedule H1 inclusions
+- Debarment notices
+- Antimicrobial action items
 
 ## Dedup Strategy
 
@@ -73,14 +61,15 @@ Same as Alerts / FDC / Public Notices:
 
 Reuse `source_category = 'gazette'` in the `documents` table.
 
-Only query scanner against rows where `relevant = true`.
+Do not rely on a `relevant = true` boolean at the extraction layer. The full dataset should remain available for downstream filtering.
 
 ## Recommendation
 
 - ✅ Use existing Pattern A pipeline
-- ✅ Aggressive keyword filter (see parse_gazette.py)
-- ✅ Download only relevant PDFs
-- ❌ Do not build separate scraper — reuse what we have
+- ✅ Keep all Gazette records in the extraction output
+- ✅ Save full dataset to `gazette_all.json`
+- ❌ Do not apply hardcoded keyword filtering in the scraper
+- ❌ Do not build a separate scraper — reuse what we have
 
 ## Files
 
@@ -91,6 +80,5 @@ websites/cdsco-gazette-notifications/
 ├── html-extraction/
 │   ├── parse_gazette.py
 │   └── output/
-│       ├── gazette_all.json
-│       └── gazette_relevant.json
+│       └── gazette_all.json
 └── findings.md

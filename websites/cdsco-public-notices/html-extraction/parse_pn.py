@@ -18,56 +18,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 BASE_URL = "https://cdsco.gov.in"
 
-# --- Relevance filter ---
-KEEP_KEYWORDS = [
-    # specific drug safety
-    "alert", "prohibit", "ban", "banned", "restrict",
-    "unapproved", "unauthorized", "spurious", "nsq",
-    "not of standard", "substandard", "misbranded", "adulterated",
-    "recall", "theft", "impurity", "ndma",
-    "side effect", "adverse", "safety warning", "safety guideline",
-    "withdrawal of indication", "prescribing information",
-    "enforcement against", "cancellation of", "cancellation letter",
-    # specific products
-    "ranitidine", "isotretinoin", "glp-1", "sglt2", "doxycycline",
-    "carbimazole", "olaparib", "digene", "tocilizumab",
-]
-
-SKIP_KEYWORDS = [
-    # --- existing ---
-    "meeting", "stakeholder consultation", "public hearing",
-    "surrender of cosmetic", "cosmetic registration",
-    "rti", "cpio", "vacancy", "tender", "visitor",
-    "medical device", "ivd", "in-vitro", "ivf",
-    "ethics committee", "cbbtdec", "mdtag", "mdac",
-    "classification list", "risk classification",
-    "sugam portal", "e-raktkosh", "ondls",
-    "blood centre", "blood bank",
-    "recruitment", "seniority", "transfer", "deputation",
-    "gst", "challan", "bharatkosh",
-    "office order", "office memorandum",
-    "sop", "guidance document", "draft guidance",
-    "surrender of rc",
-
-    # --- NEW: catch cosmetics by product code ---
-    "rc/cos",              # matches RC/COS-005358, RC/COS-001655, etc.
-    "cosmetic",            # catches any remaining cosmetic word
-    "qr 678",              # specific product pattern that slipped through
-
-    # --- NEW: filter out guidance/approval processes ---
-    "guidance for approval",   # matches "Guidance for approval COVID-19..."
-    "noc's for manufacture",   # matches "NOC's for manufacture of Unapproved..."
-
-    # --- NEW: filter announcements, not actions ---
-    "new link in cdsco website",  # "Availability of NSQ Alert on New Link..."
-]
-
-
-def is_relevant(title: str) -> bool:
-    tl = title.lower()
-    if any(skip in tl for skip in SKIP_KEYWORDS):
-        return False
-    return any(keep in tl for keep in KEEP_KEYWORDS)
+# --- Full extraction. No relevance filtering applied. ---
 
 
 def main():
@@ -121,29 +72,18 @@ def main():
             "num_id_b64":          num_id_b64,
             "document_id":         document_id,
             "pdf_size_declared":   cells[4].get_text(strip=True),
-            "relevant":            is_relevant(cells[1].get_text(strip=True)),
         }
         all_records.append(record)
-        if record["relevant"]:
-            kept_records.append(record)
 
-    # Save both
     (OUTPUT_DIR / "pn_all.json").write_text(
         json.dumps(all_records, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
-    (OUTPUT_DIR / "pn_relevant.json").write_text(
-        json.dumps(kept_records, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
 
     print(f"[*] Total rows parsed : {len(all_records)}")
-    print(f"[*] Relevant rows     : {len(kept_records)}")
-    print(f"[+] All      saved to : {OUTPUT_DIR / 'pn_all.json'}")
-    print(f"[+] Relevant saved to : {OUTPUT_DIR / 'pn_relevant.json'}")
-
-    print("\n[*] Relevant notices:")
-    for r in kept_records:
+    print(f"[+] All saved to : {OUTPUT_DIR / 'pn_all.json'}")
+    print("\n[*] First few notices:")
+    for r in all_records[:10]:
         print(f"    {r['release_date']}  {r['title'][:80]}")
 
 
