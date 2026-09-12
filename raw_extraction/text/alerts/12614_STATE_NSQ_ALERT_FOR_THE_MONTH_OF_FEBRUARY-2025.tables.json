@@ -1,0 +1,877 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      42.81,
+      91.34,
+      828.01,
+      540.6
+    ],
+    "n_rows": 8,
+    "n_cols": 8,
+    "rows": [
+      [
+        "B. State Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No",
+        "Product/Drug\nName",
+        "Batch\nNo.",
+        "Manufact\nuring\nDate",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by State\nLaboratory"
+      ],
+      [
+        "1.",
+        "Calcium &\nVitamin D3\nTablets IP",
+        "PGT246\n72",
+        "09/24",
+        "08/26",
+        "Affy Parenterals Vill. Gullawala P.O\nBaddi Distt. Solan 173205 (HP)",
+        "The sample does not\nconform to the IP 2022\nrequirement with respect to\nuniformity of weights",
+        "Drug Testing Laboratory\nSrinagar (J&K)"
+      ],
+      [
+        "2.",
+        "Para 500",
+        "NBRT-\n018",
+        "05/23",
+        "04/26",
+        "Laborate Pharmaceuticals India Ltd\n(Unit II) 31, Rajban Road Nariwala\nPaota Sahib (HP)\nMfg For : GPP Axalade 101, Kohand\n–Assandh Road V.P.O Salwan\nHaryana -132046",
+        "The sample does not\nconforms to the IP 2022\nrequirement w.r.t\ndissolution test",
+        "Drug Testing Laboratory\nSrinagar (J&K)"
+      ],
+      [
+        "3.",
+        "Phenytoin Tablets\nIP 100 mg",
+        "T-1150",
+        "04/24",
+        "03/26",
+        "Jackson Laboratories Pvt Ltd 22-24,\nMajitha Road Bye Pass Amritsar –\n143001 (India)",
+        "The sample does not\nconforms w.r.t the test for\ndescription",
+        "Modern Drug Testing\nLaboratory Kathua (J&K)"
+      ],
+      [
+        "4.",
+        "Telfine -CT",
+        "T-1150",
+        "01/24",
+        "12/25",
+        "Cosmas Pharmacls Ltd. Buranwala\nRoad Village Kotla P.O Barotiwala\nSolan (H.P) 174103\nMrk. By: NemaSis kabee Vakil Sahab\nHaveli Near Ansal Mall Bamba\nMohalla Jodhpur India - 342001",
+        "The sample does not\nconform w.r.t the Assay\ncontents of Telmisartan\nand Chlorthalidone",
+        "Modern Drug Testing\nLaboratory Kathua (J&K)"
+      ],
+      [
+        "5.",
+        "Xorcid-O\nSuspension",
+        "LSF-\nB0656",
+        "07/23",
+        "06/25",
+        "Spen Formulations Pvt Ltd Plot No.\n123, Industrial Area , Mehatpur, Distt.\nUna-174315 (H.P)",
+        "Under Investigation / The\nsample is found spurious\nas the Assay contents of\nSucralfate and Oxetacaine\nare found to be NIL and\nalso fails in the test for\nDescription",
+        "Modern Drug Testing\nLaboratory Kathua (J&K)"
+      ],
+      [
+        "6.",
+        "Cloprostenol\nInjection IP (Vet)\n(M Promate\nInjection)",
+        "I241020",
+        "10/24",
+        "09/26",
+        "Monatt Biotech E-31, New Focal\nPoint Bathinda - 151005",
+        "Sheep Husbandry Supply /\nThe sample is found\nspurious as the Assay\ncontents of Cloprostenol\nSodium I.P is found to be",
+        "Modern Drug Testing\nLaboratory Kathua (J&K)"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      42.8,
+      14.37,
+      828.02,
+      523.08
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Nil and also fails in the Test\nfor Sterility",
+        ""
+      ],
+      [
+        "7.",
+        "MIDAZOLAM\nInjection\nIP",
+        "24257",
+        "08/2024.",
+        "07/2026.",
+        "M/s. T Walkers Pharmaceuticals Pvt\nLtd, Gta No 285-B, Viii-Kasaramboli,\nPo Ambedvet, Tal- Mulshi, Dist Pune\n411004 Maharashtra",
+        "NOT OF STANDARD\nQUALITY\nThe sample Midazolam\nInjection I.P does not\ncomply for Assay and pH\nparameters as per IP 2022.",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ],
+      [
+        "8.",
+        "Zinc Sulphate\n20mg Dispersible\nTablets\nIP",
+        "T-15192",
+        "03/2023.",
+        "02-2025.",
+        "Karnal Pharmaceuticals Pvt Ltd 38,\nPharmacity, Selaqui,\nDehradun,Uttarakhand-248 011\nUttarakhand",
+        "NOT OF STANDARD\nQUALITY\nThe sample Zinc Sulphate\n20 mg Dispersible Tablets\nIP does not comply\ndisintegration test as per\nI.P 2022.",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ],
+      [
+        "9.",
+        "Cefdoxi-CV-50\ndry syrup\nCefpodoxime &\nPotassium\nClavulanate for\nOral Suspension",
+        "CD0724\n002F",
+        "02/2024.",
+        "07/2025.",
+        "Alencure Biotech Pvt Ltd Village:\nNagal, Suketi road, P.O. Moginand,\nKala Amb, Distt. Sirmour-173030\n(HP) HIMACHAL PRADESH",
+        "NOT OF STANDARD\nQUALITY\n1. Description Dose Not\ncomplies- Orange -colored\nsuspension, that is not\nuniformly resuspendable\nafter reconstitution with the\nsterile water ampoule\nprovided in the pack A\nclear phase separation is\nobserved immediately after\nreconstitution. Additionally,\nthe reconstituted\nsuspension exhibits an\nobnoxious/ unacceptable\nodour.\n2. Assay Does Not\nComplies: The Assay\ncontent found is not within\nthe prescribed limit.",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ],
+      [
+        "10.",
+        "Amoxyheal-CV\ntablets\nAmoxycillin &\nPotassium\nClavulanate\nTablets\nI.P",
+        "TB2403\n78A",
+        "10/2024.",
+        "09/2026.",
+        "Polestar power industries(Pharma\ndivision) Damuwala, Haripur road,\nBarotiwala, Baddi, Distt: Solan (H.P.)-\n174 103 HIMACHAL PRADESH",
+        "NOT OF STANDARD\nQUALITY\nThe sample failed with\nrespect to the test for\nUnifarmity of Weight for\ntablets, as 6 out of twenty\ntablets fall outside the\nprescribed limit of 5\npercent.",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      42.79,
+      14.37,
+      828.03,
+      545.52
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "11.",
+        "Diclofenac\nSodium tablets IP\n50mg.",
+        "DT23-\n38",
+        "12/2023.",
+        "11/2025.",
+        "Leostar Healthcare Pvt. Ltd Sy No.\n321, Plot No. 10, Biotect park phase-\nIII, Genome valley, Karlapatla (V),\nMarkook(M), Siddipet(Sist)502281,",
+        "NOT OF STANDARD\nQUALITY\n1. While opening the strip,\nit is found that the tablets\nare not in intact condition.\nHence sample is of Not of\nStandard Quality with\nrespect to Description test\nparameter.\n2. Disintegration test does\nnot complies since the\ntablets disintegrated in acid\nmedium completely. But as\nper IP the coating of the\nenteric coated should be in\nintact condition in acid\nmedium. Hence sample is\nof Not of Standerd Quality\nwith respect to\nDisintegration test\nparameter.",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ],
+      [
+        "12.",
+        "RABISAP tablets\nRabeprazole\nGastro Resistant\nTablets IP 20\nmg",
+        "AST\n24524",
+        "10/2024.",
+        "09/2026.",
+        "AASSK Pharmaceuticals Pvt Ltd Plot\nNO.9 Dr .Ambedkar Street,\nKozhumanivakkam,\nMangadu,Chennai-600122. TAMIL\nNADU",
+        "NOT OF STANDARD\nQUALITY\nSample does not complies\nin respect of Dissolution\ntest as per IP",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ],
+      [
+        "13.",
+        "Rabicy-20 Tablets\nRabeprazole\nTablets IP 20 mg",
+        "AT2403\n4149",
+        "03/2024.",
+        "02/2026.",
+        "Accura Care Pharmaceuticals Pvt Ltd\n( A Venture of Biochemix grop\n(Agmp& ISO Certified Co) Vill. Mogin\nand Nahan Road Kala Amb.Dist\nSirmour (H.P)173030 HIMACHAL\nPRADESH",
+        "NOT OF STANDARD\nQUALITY &MISBRADED\n1. Sample does not\ncomplies in respect of\nDissolution test as per\nIP\n2. The drug Rabeprazole\nSodium is official in IP. But\nthe product titile\nRabeprazole Sodium IP is\nnot mentioned on the\nproduct label. Hence the\nsubject drug is Misbranded\nas per section 17 of Drugs\n& Cosmetics Act 1940, as it\nis not labeled in the\nprescribed manner",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ],
+      [
+        "14.",
+        "ACEGLO tablets\nAceclofenac and",
+        "ATG4I7\n87",
+        "09/2024.",
+        "08/2026.",
+        "Anrose pharma 147,Mauza\nSansiwala ,Post :Barotiwala ,Tehsil -",
+        "MISBRANDED DRUG\nThe drug product\nAceclofenac and",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      42.76,
+      14.37,
+      828.06,
+      521.52
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "Paracetamol\nTablets",
+        "",
+        "",
+        "",
+        "Kasauli ,Dist .Solan(H.P.)-173205\nHIMACHAL PRADESH",
+        "Paracetamol Tablets is\nofficial i.e. included in the\nAddendum 2024 to Indian\nPharmacopoeia 2022\neffective from 1st July,\n2024-current edition of IP\nand as required as per\nSecond Schesule of the\nDrugs and Cosmetics Act,\n1940. The said drug\nproduct shall comply with\nthe standards set out in the\nIndian Pharmacopoeia .But\nthe designation IP in\nconjunction with the official\ntitle Aceclofenac and\nParacetamol tablets on the\nlabel of the drug product\nwas not menttioned as an\nindication that the drug\nproduct purports to comply\nwith IP standards. Hence\nthe drug product shall be\ndeemed to be Misbranded\nDrug as per Secton 17 of\nDrugs and Cosmetics Act,\nas it is not labeled in the\nprescribed manner.",
+        ""
+      ],
+      [
+        "15.",
+        "Amrox-LS syrup\nLevosalbutamol\nSulphate,\nAmborxol\nHydrochloride &\nGuaipenesin\nsyrup",
+        "AJLH24\n051",
+        "06/2024.",
+        "05/2026.",
+        "M/s. Leeford Healthcare Ltd. Plot No.\n88-B, EPIP, Phase – II, Village-\nThana, Baddi, Distt. Solan (H.P)\n173205 HIMACHAL PRADESH",
+        "MISBRANDED DRUG\nIn the composition the label\nshould be mentioned as\nLevosalbutamol Sulphate\nIP equivalent to\nLevosalbutamol. But the\nlabel is mentioned as only\nLevosalbutamol Sulphate\nIP, equivalent to\nLevosalbutamol as not\nmentioned. Hence it is a\nMisbranded drug as per\nsection 17 of Drugs and\nCosmetics Act, as it is not\nlabeled in the prescribed\nmanner.",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      42.76,
+      14.37,
+      828.06,
+      544.56
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "16.",
+        "Cefixime\nDispersible\nTablets IP 100\nmg",
+        "oo84",
+        "10/2024.",
+        "03/2026.",
+        "Stride Organics Private Limited\nSY.No.265/P,Kondapur(Vill.),Ghatkes\nar,Medchal District(T.S.) Telangana",
+        "MISBRANDED\nDRUG\n1. The sample is deemed\nto be misbranded as it is\nlabeled only with the words\napproved colours used but\nfails to include the common\nname of the color on the\nlabel, as required by Rule\n127(2) of the Drugs Rules,\n1945.\n2. Additionally, the label\ndoes not state that the\ntablets should be dispersed\nin water immediately before\nuse, as required by the IP\n2022 monograph for\nCefixime Dispersible\ntablets. Hence, the drug is\ndeemed Misbranded under\nsection 17 of the Drug and\nCosmetics Act, 1940 as it\nis not labeled in the\nprescribed\nmanner.",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ],
+      [
+        "17.",
+        "Moovrun tablets\nDiclofenac\nSodium and\nParacetamol\ntablets",
+        "DFP-\n2403",
+        "01/2024.",
+        "12/2025.",
+        "Concord Drugs Ltd . Sy no.249\n,Brahmanapally\n,R.R.(DT),T.S.501505 Telangana",
+        "MISBRANDED DRUG\nThe drug product\nDiclofenac sodium and\nParacetamol tablets is\noffcially included in the\ncurrent edition of Indian\nPharmacopoeia IP 2022\nand as required as per\nsecond schedule of the\nDrugs and Cosmetics Act,\n1940 the said Product shall\ncomply with the standards\nset out in the Indian\nPharmacopoeia. But the\ndesignation IP in\nconjunction with the offcial\ntitle Diclofenac sodium and\nParacetamol tablets on the\nlabel of the drug product\nwas not mentioned as an\nindication that the drug",
+        "State Lab, Drugs Control\nLaboratory,Telangana."
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      42.81,
+      14.37,
+      828.01,
+      524.52
+    ],
+    "n_rows": 8,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "product purports to comply\nwith the IP satadards.\nHence the drug product\nshall deemed to be\nMISBRANDED DRUG as\nper section 17 of Drugs\nand Cosmetics Act, 1940\nas it is not labelled in the\nprescribed Manner.",
+        ""
+      ],
+      [
+        "18.",
+        "Sodium\nHypochlorite\n5% (NaOCL)",
+        "NSSH1\n0",
+        "01/2024.",
+        "12/2025.",
+        "Neucleus Scientific,\nAzara, Guwahati – 781017 (Assam)",
+        "The Sample does not\nconform to standard\nin respect of the test\n“Assay” performed.",
+        "State Drugs Testing\nLaboratory, Agartala, Tripura."
+      ],
+      [
+        "19.",
+        "URINIF-SR\n(Nitrofurantoin\nSustained\nRelease\nTablets I.P. 100\nmg",
+        "USR-\n186",
+        "11/2024.",
+        "10/2026.",
+        "Overseas Health Care Pvt. Ltd., 335\nkm, Milestone, National Highway No.\n1,\nP.O. Box No. 25, Philaur – 144410,\nPunjab.",
+        "The sample does not\nconform to standard\nin respect of the test for\n“Dissolution” test\nperformed.",
+        "State Drugs Testing\nLaboratory, Agartala, Tripura."
+      ],
+      [
+        "20.",
+        "Glitel M1\n(Glimepride &\nMetformin\nHydrochloride\nProlonged\nReleasre\nTablets IP)",
+        "LGN05/\n186/08",
+        "05/2024.",
+        "04/2026.",
+        "Logos Pharma, Village MaissaTibba,\nTehsil Nalagarh, Dist. Solan (H.P) -\n174101.",
+        "The sample does not\nconform to Standard\nin respect of the tests for\n“Assay, Dissolution &\nUniformity of content for\nGlimepiride” performed.",
+        "State Drugs Testing\nLaboratory, Agartala, Tripura."
+      ],
+      [
+        "21.",
+        "Glitel M2\n(Glimepride &\nMetformin\nHydrochloride\nProlonged\nReleasre\nTablets IP)",
+        "LGM09/\n237/11",
+        "09/2024.",
+        "08/2025.",
+        "Logos Pharma, Village MaissaTibba,\nTehsil Nalagarh, Dist. Solan (H.P) -\n174101.",
+        "The sample does not\nconform to Standard\nin respect of the tests for\n“Assay, Dissolution &\nUniformity of content for\nGlimepiride” performed.",
+        "State Drugs Testing\nLaboratory, Agartala, Tripura."
+      ],
+      [
+        "22.",
+        "Amoxycillin &\nPotassium\nClavulanate Tab\nI.P.",
+        "APTD-\n002",
+        "12/2024.",
+        "05/2026.",
+        "M/s. Standard Pharmaceuticals Ltd.,\nSerampore-712203, West Bengal",
+        "Does not conform to I.P.",
+        "State Drugs Testing\nLaboratory, Kolkata, West\nBengal."
+      ],
+      [
+        "23.",
+        "Telmisartan Tab\nIP 40 mg\n[Telmasil-40]",
+        "TBS\n034",
+        "45352",
+        "02/26",
+        "RTN Pharma, Sy. No. 675/2, Plot\nNo.15, 17, 18 & 19 Bharathiyar\nNagar, Avalapalli Road, Hosur- 635\n109 , Tamil Nadu",
+        "It fails the test ‘Dissolution’\nSpecified in the laboratory\nprotocol as per IP",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "24.",
+        "Paracetamol Tab\nIP 500 mg",
+        "PAK\n551",
+        "06/23",
+        "05/26",
+        "Healer’s Lab Unit II, Plot No. 33,\nH.P.S.I.D.C, Extn. Baddi, Distt-Solan\n(H.P)",
+        "It fails the test ‘Dissolution’\nSpecified in the laboratory\nprotocol as per IP",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      42.81,
+      14.37,
+      828.01,
+      535.08
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "25.",
+        "Paracetamol Tab\nIP [Parayes -500 )",
+        "423-\n1582",
+        "09/23",
+        "08/26",
+        "Zee Laboratories Ltd, behind 47,\nIndustrial Area, Paonta Sahib- 173\n025",
+        "It fails the test ‘Dissolution’\nSpecified in the laboratory\nprotocol as per IP",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "26.",
+        "Fevanex Rapid -\n650[ Paracetamol\nTab IP 650 mg]",
+        "SRGT-\n24471",
+        "08/24",
+        "07/26",
+        "SPAS REMEDISE Vill, bersan P.O,\nLodhi Majra, Tehsil Baddi, Dist.Solan\n(HP) 173 205",
+        "It fails the test ‘Dissolution’\nSpecified in the laboratory\nprotocol as per IP",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "27.",
+        "Vitamin B\nComplex Tablets\nN.F.I",
+        "VBT241\n6",
+        "03/24",
+        "02/26",
+        "Modern Laboratories 45-47, Sector\nD- 2, Industrial area, Sanwer Road,\nIndore (MP) 452 015",
+        "The sample does not\nconform to IP standards to\nDescriptive part for tablets\nAs per IP, the tablets\nshould have sufficient\nhardness to withstand\nhandling without crumbling\nor breaking. The tablets\nare soft and in powdered\nform and cannot be\nremoved from strip in intact\nform and further tests\ncannot be performed for\nthe reason specified in the\nlaboratory protocol.",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "28.",
+        "Liquid Paraffin\nIP",
+        "163",
+        "03/24",
+        "08/26",
+        "Medi smith Pharma Lab, #20A 1 st\nphase, KIADB, Mysore Road\nKumbalagodu, Bangalore- 560074",
+        "It fails the test ‘Light\nAbsorption’ specified in the\nlaboratory protocol as per\nIP",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "29.",
+        "Vitamin B\nComplex Tablets\nN.F.I",
+        "VBT\n2468",
+        "05/24",
+        "04/26",
+        "Modern Laboratories 45-47, Sector\nD- 2, Industrial area, Sanwer Road,\nIndore (MP) 452 015",
+        "The sample does not\nconform to IP standards to\nDescriptive part for tablets\nAs per IP, the tablets\nshould have sufficient\nhardness to withstand\nhandling without crumbling\nor breaking. The tablets\nare soft and in powdered\nform and cannot be\nremoved from strip in intact\nform and further tests\ncannot be performed for\nthe reason specified in the\nlaboratory protocol.",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "30.",
+        "Isosorbide\nDinitrate Tablets\nIP [ISOMIC 10]",
+        "PT-\n42968",
+        "08/24",
+        "07/26",
+        "Pharmaroots Healthcare,\nKhasra No. 411, Village Tipra.P.O,\nBarotiwala, Tehsil ,dist. Soaln (HP)",
+        "The sample does not\nconform to identification\ntest for Isosorbide Dinitrate\nas per IP. Hence the\nsample is spurious and",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      42.79,
+      14.37,
+      828.03,
+      534.0
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "declared as Not of\nStandard Quality",
+        ""
+      ],
+      [
+        "31.",
+        "Vitamin B\nComplex Tablets\nN.F.I",
+        "VBT\n2415",
+        "03/24",
+        "02/26",
+        "Modern Laboratories 45-47, Sector\nD- 2, Industrial area, Sanwer Road,\nIndore (MP) 452 015",
+        "The sample does not\nconform to IP standards to\nDescriptive part for tablets\nAs per IP, the tablets\nshould have sufficient\nhardness to withstand\nhandling without crumbling\nor breaking. The tablets\nare soft and in powdered\nform and cannot be\nremoved from strip in intact\nform and further tests\ncannot be performed for\nthe reason specified in the\nlaboratory protocol.",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "32.",
+        "Vitamin B\nComplex Tablets\nN.F.I",
+        "VBT\n2417",
+        "03/24",
+        "02/26",
+        "Modern Laboratories 45-47, Sector\nD- 2, Industrial area, Sanwer Road,\nIndore (MP) 452 015",
+        "The sample does not\nconform to IP standards to\nDescriptive part for tablets\nAs per IP, the tablets\nshould have sufficient\nhardness to withstand\nhandling without crumbling\nor breaking. The tablets\nare soft and in powdered\nform and cannot be\nremoved from strip in intact\nform and further tests\ncannot be performed for\nthe reason specified in the\nlaboratory protocol.",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "33.",
+        "Vitamin B\nComplex Tablets\nN.F.I",
+        "VBT\n2414",
+        "03/24",
+        "02/26",
+        "Modern Laboratories 45-47, Sector\nD- 2, Industrial area, Sanwer Road,\nIndore (MP) 452 015",
+        "The sample does not\nconform to IP standards to\nDescriptive part for tablets\nAs per IP, the tablets\nshould have sufficient\nhardness to withstand\nhandling without crumbling\nor breaking. The tablets\nare soft and in powdered\nform and cannot be\nremoved from strip in intact\nform and further tests\ncannot be performed for",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      42.81,
+      14.37,
+      828.01,
+      547.56
+    ],
+    "n_rows": 8,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "the reason specified in the\nlaboratory protocol.",
+        ""
+      ],
+      [
+        "34.",
+        "Folic Acid Tablets\nIP 5 mg [Foldivit]",
+        "FTV240\n04",
+        "06/24",
+        "05/26",
+        "Danish Healthcare (p) Ltd, 76/27-28,\nIndustrial Estate, Maxi Road, Ujjain,\n456010, MP",
+        "It fails the test ‘Dissolution’\nSpecified in the laboratory\nprotocol as per IP",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "35.",
+        "Mydew Ultra\nSyndet Bar",
+        "2387",
+        "01/24",
+        "Best before\n36 months\nfrom the date\nof Mfg.",
+        "Jain Soap, 39/A, Devam Estate,\nGandhi Nagar, Gujarat",
+        "The sample does not\nconform to the test pH as\nper manufacturer’s\nspecification for Mydew\nUltra Syndet Bar as\nspecified in the Laboratory\nProtocol",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "36.",
+        "Acetazolamide\nTablets IP 250 mg",
+        "T\n240840",
+        "08/24",
+        "07/27",
+        "Micron Pharmaceuticals, 2117, A-2,\nPhaseIII, GIDC, Vapi- 396 195",
+        "It fails the test ‘Dissolution’\nSpecified in the laboratory\nprotocol as per IP",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "37.",
+        "Clopidogrel Tab\nIP 75 mg",
+        "D\n2720/24\n-25",
+        "",
+        "",
+        "Kerala Medical Services Corporation\nLtd, Thycaud P.O,\nThiruvananthapuram-14",
+        "It fails the test\n‘Dissolution’, ‘Assay’ and\ndescriptive part for tablets\nspecified above as per IP",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "38.",
+        "Cefixime Oral\nSuspension IP\n100 mg/5ml",
+        "D2852/2\n4-25",
+        "",
+        "",
+        "Kerala Medical Services Corporation\nLtd, Thycaud P.O,\nThiruvananthapuram-14",
+        "It fails the test ‘Assay’\nand ‘Descriptive part’ for\noral powders specified\nabove as per IP",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "39.",
+        "Vitamin B\nComplex Tablets\nN.F.I",
+        "S0018/2\n4-25",
+        "",
+        "",
+        "Kerala Medical Services Corporation\nLtd, Thycaud P.O,\nThiruvananthapuram-14",
+        "The sample does not\nconform to IP standards to\nDescriptive part for tablets\nAs per IP, the tablets\nshould have sufficient\nhardness to withstand\nhandling without crumbling\nor breaking. The tablets\nare soft and in powdered\nform and cannot be\nremoved from strip in intact\nform and further tests\ncannot be performed for\nthe reason specified in the\nlaboratory protocol.",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "40.",
+        "Vitamin B\nComplex Tablets\nN.F.I",
+        "S0017/2\n4-25",
+        "",
+        "",
+        "Kerala Medical Services Corporation\nLtd, Thycaud P.O,\nThiruvananthapuram-14",
+        "The sample does not\nconform to IP standards to\nDescriptive part for tablets\nAs per IP, the tablets\nshould have sufficient\nhardness to withstand\nhandling without crumbling\nor breaking. The tablets",
+        "Drugs Testing Laboratory\nThiruvananthapuramH20"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      42.8,
+      14.37,
+      828.02,
+      546.0
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "are soft and in powdered\nform and cannot be\nremoved from strip in intact\nform and further tests\ncannot be performed for\nthe reason specified in the\nlaboratory protocol.",
+        ""
+      ],
+      [
+        "41.",
+        "Asokarishtam",
+        "56",
+        "09/24",
+        "Within 3 Yrs\nfrom the date\nof Mfg.",
+        "Sakthi Ayurveda Pharmaceuticals,\nOttasekharamangalam,\nNeyyattinkara, Thiruvananthapuram",
+        "It fails the test ‘Total Solids’\n, ‘Specific Gravity’,\n‘Reducing Sugar’ and\n‘Alcohol Content’ as\nspecified in the Laboratory\nprotocol as per API",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "42.",
+        "Amrutharishtam",
+        "58",
+        "09/24",
+        "3 Yrs from\nthe date of\nMfg.",
+        "Sakthi Ayurveda Pharmaceuticals,\nOttasekharamangalam,\nNeyyattinkara, Thiruvananthapuram",
+        "It fails the test ‘Total Solids’\n, ‘Specific Gravity’,\n‘Reducing Sugar’ and\n‘Alcohol Content’ as\nspecified in the Laboratory\nprotocol as per API",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "43.",
+        "Balarishtam",
+        "57",
+        "09/24",
+        "NO EXPIRY",
+        "Sakthi Ayurveda Pharmaceuticals,\nOttasekharamangalam,\nNeyyattinkara, Thiruvananthapuram",
+        "It fails the test ‘Total Solids’\n, ‘Specific Gravity’,\n‘Reducing Sugar’ and\n‘Alcohol Content’ as\nspecified in the Laboratory\nprotocol as per API",
+        "Drugs Testing Laboratory\nThiruvananthapuram"
+      ],
+      [
+        "44.",
+        "CEFIXIME &\nLACTIC ACID\nBACILLUS\nTABLETS (AFIX-\nL 200)",
+        "MDP -\n785",
+        "Oct-24",
+        "Sep-26",
+        "M/s. MEDINOK HEALTHCARE PVT.\nLTD., R.S.No. 2/1, Plot No.\n87,88,89, Vazhudhavur Main Road,\nKurumbapet, Puducherry – 605 009.",
+        "For the received sample\nCefixime & Lactic Acid\nBacillus tablets (AFIX- L\n200),\n(i) The label on the\nsecondary packaging,\nname of the colour\ninformation is concealed\n,whereas the primary\npackaging label specifies\n'Red oxide of Iron' as the\ncolour. This discrepancy\nindicates a mismatch\nbetween the primary and\nsecondary packaging\nlabels.\n(ii) The primary packaging\nlabel claims the tablet\ncolour is ' Red oxide of\nIron' but physical\nverification of the tablet",
+        "Puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      42.79,
+      14.37,
+      828.03,
+      545.52
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "observed as pale yellow\ncolour. - NSQ",
+        ""
+      ],
+      [
+        "45.",
+        "PREGABALIN\nAND\nMETHYLCOBALA\nMIN CAPSULES\n(Amalin Plus )",
+        "MDP-\n774",
+        "Oct-24",
+        "Sep-26",
+        "M/s. MEDINOK HEALTHCARE PVT.\nLTD., R.S.No. 2/1, Plot No.\n87,88,89, Vazhudhavur Main Road,\nKurumbapet, Puducherry – 605 009.",
+        "The sample received is\nlabelled as PREGABALIN\nAND\nMETHYLCOBALAMIN\nCAPSULES, however\nPREGABALIN AND\nMETHYLCOBALAMIN\nCAPSULES is an official IP\nmonograph (2022) hence\nshould be labelled as\nPREGABALIN AND\nMETHYLCOBALAMIN\nCAPSULES IP-\nMisbranded",
+        "Puducherry"
+      ],
+      [
+        "46.",
+        "CALCIUM WITH\nVITAMIN D3\nTABLETS IP (S-\nCAL)",
+        "ST2406\n09",
+        "Jun-24",
+        "Nov-25",
+        "M/s. Spycaa Life care Sciences\nPrivate Limited, No. 253/4C,\nThiruvandavar Village, Sirupinayur\nPanchayat, Uthiramerur Taluk,\nKancheepuram District, Pin-603 308",
+        "For the received sample,\nlabel is mentioned as\n\"Approved colour used\" but\ncommon name of the\npermitted colour used in\nthe formulation as\nprescribed under rule\n127(2) of the Drug\nRule,1945 was not\nmentioned.-Misbranded",
+        "Puducherry"
+      ],
+      [
+        "47.",
+        "RABEPRAZOLE\nENTERIC\nCOATED\nTABLETS IP\n20mg\n(Rabelanz-20)",
+        "SP/T/76\n2",
+        "Jun-24",
+        "May-26",
+        "M/s Signoret Pharmaceuticals\nPvt.Ltd., Plot No. 556, Industrial area,\nPhase IX, SAS Nagar-160059",
+        "For the received sample\nRabeprazole Enteric\nCoated Tablets IP 20mg,\n1. Chipping and Rough\nsurface defect was\nobserved which should not\nbe present as per Drugs &\nCosmetics (Amendment)\nAct, 2008 of DCC\nGuidelines on Not Of\nStandard Quality (NSQ)\nDrugs Approved in 1993\n(Annexure A) Tablets vide\nserial No. (V) Chipping and\n(Vii) Rough\nsurface.\n2. Cracking of the coating\ndefect was observed which\nshould not be present as\nprescribed under rule 124B",
+        "Puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      42.76,
+      14.37,
+      828.06,
+      544.56
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "of the Drugs Rules\n,1945.\n3. The label is mentioned\nas ‘Approved colour used’\nbut common name of the\npermitted colour used in\nthe formulation as\nprescribed under rule\n127(2) of the Drugs Rules\n,1945 was not mentioned.\n4. Does not comply with\nrespect to test for\nDisintegration and Assay -\nNSQ",
+        ""
+      ],
+      [
+        "48.",
+        "PANTOPROZOL\nE SODIUM (EC)\n&\nDOMPERIDONE\n(SR) CAPSULES\n(Tonixpro DSR)",
+        "MDP-\n345",
+        "Jul-24",
+        "Jun-26",
+        "M/s. Medinok Healthcare Pvt. Ltd.,\nR.S.No. 2/1, Plot No. 87, 88, 89,\nVazhudhavur Main Road,\nKurumbapet, Puducherry – 605 009.",
+        "1. The primary packaging\nlabel claims 'Each film\ncoated tablet contains:'\nhowever, on physical\nobservation the received\nsample is found to be 'Hard\nGelatin\nCapsules'.\n2.The received sample is\nlabelled as\n'PANTOPROZOLE\nSODIUM (EC) &\nDOMPERIDONE (SR)\nCAPSULES', however\nPantoprazole Gastro-\nresistant and Domperidone\nProlonged-release\nCapsules is an official IP\nmonograph (2022) hence\nshould be labelled as\nPANTOPRAZOLE\nSODIUM (EC) &\nDOMPERIDONE (SR)\nCAPSULES\nIP.\n3.The sample name and\nthe label claim of the drug\nstates 'PANTOPROZOLE'\ninstead of\n'PANTOPRAZOLE' but the\nproper name of the drug\nshould be written as",
+        "Puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 13,
+    "bbox": [
+      42.79,
+      14.37,
+      828.03,
+      545.52
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "prescribed under 96(1),\n(i)(A) of the Drugs &\nCosmetics Act.-\nMisbranded",
+        ""
+      ],
+      [
+        "49.",
+        "TELMISARTAN &\nHYDROCHLORO\nTHIAZIDE\nTABLETS IP\n(Lanztel-H)",
+        "RHT24-\n401",
+        "Jul-24",
+        "Jun-26",
+        "M/s Revantis Healthcare, Plot No.\n124, HPSIDC, Industrial Area, Baddi,\nDistt. Solan (H.P)-173205",
+        "For the received sample\nTelmisartan &\nHydrochlorothiazide\nTablets IP,\nPresence of Spot and\nRough Surface was\nobserved which should not\nbe present as per Drugs &\nCosmetics (Amendment)\nAct, 2008 of DCC\nGuidelines on Not Of\nStandard Quality (NSQ)\nDrugs Approved in 1993\n(Annexure A) Tablets vide\nserial No. (i) Presence of\nSpot/discoloration (vii)\nRough surface and rule\n124B of the Drugs\nRules,1945. -NSQ",
+        "Puducherry"
+      ],
+      [
+        "50.",
+        "ACECLOFENAC\n&\nPARACETAMOL\nTABLETS\n(ACPON-P)",
+        "ACP-\n046",
+        "Aug-24",
+        "Jul-27",
+        "M/s Rippon Laboratories No.44-45,\nPalaniappa Nagar, Othiyampet,\nVillianur commune, Puducherry-605\n110",
+        "The sample received is\nlabelled as\nACECLOFENAC &\nPARACETAMOL\nTABLETS (ACPON-P),\nhowever\nACECLOFENAC &\nPARACETAMOL\nTABLETS is an official IP\nmonograph (Addendum\n2024) hence should be\nlabelled as\nACECLOFENAC &\nPARACETAMOL\nTABLETS IP.- Misbranded",
+        "Puducherry"
+      ],
+      [
+        "51.",
+        "TELMISARTAN\nTABLETS IP 40\nmg (Leaftel-40)",
+        "240390",
+        "Mar-24",
+        "Feb-26",
+        "M/s. Sai sarvaa Biotech Pvt. Ltd., Plot\nNo. 8 & 9, Balaji Nagar, Pattanur,\nAuroville (PO), Vanur(Tk), Villupuram\n(Dt), Pin – 605 101.",
+        "For the received sample\nTelmisartan Tablets IP 40\nmg (Leaftel-40),\nCapping defect was\nobserved which should not\nbe present as per Drugs &\nCosmetics (Amendment)\nAct, 2008 of DCC",
+        "Puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "bbox": [
+      42.79,
+      14.37,
+      828.03,
+      545.52
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Guidelines on Not Of\nStandard Quality (NSQ)\nDrugs Approved in 1993\n(Annexure A) Tablets vide\nserial No. (VI) Capping and\nrule 124B of the Drugs\nRules,1945.- NSQ",
+        ""
+      ],
+      [
+        "52.",
+        "SITAGLIPTIN IP\n100mg TABLETS\n(LanZsita 100)",
+        "SP/T/83\n8",
+        "Jul-24",
+        "Jun-26",
+        "M/s Signoret Pharmaceuticals\nPvt.Ltd., Plot No. 556, Industrial Area,\nPhase IX, SAS Nagar-160059",
+        "For the received sample\nSitagliptin IP 100mg\nTablets (LanZsita 100),\nThe label is mentioned as\n‘Approved colour used’ but\ncommon name of the\npermitted colour used in\nthe formulation as\nprescribed under rule\n127(2) of the Drugs Rules\n,1945 was not mentioned.-\nMisbranded",
+        "Puducherry"
+      ],
+      [
+        "53.",
+        "METHYLCOBALA\nMIN, FOLIC\nACID, ALPHA\nLIPOIC ACID,\nVITAMIN B6,\nCHROMIUM\nPICOLINATE,\nSODIUM\nSELENITE &\nZINC SOFT\nGELATIN\nCAPSULES\n(Mi- 6)",
+        "SOD-\n2470",
+        "May-24",
+        "Apr-26",
+        "M/s. Symbiosis Pharmaceuticals Pvt.\nLtd., At C/o\nOvation Remedies\nBehind IITT Engg. College, Trilokpur\nRoad, Kala Amb. Distt. Sirmour, HP -\n173030",
+        "Does not comply with\nrespect to test for\nDisintegration -NSQ",
+        "Puducherry"
+      ],
+      [
+        "54.",
+        "SITAGLIPTIN\nPHOSPHATE 50\n+ METFORMIN\n500MG TABLETS\n(LanZsita-M)",
+        "SP/T/76\n1",
+        "Jun-24",
+        "May-26",
+        "M/s. SIGNORET\nPHARMACEUTICALS PVT.LTD.,\nPlot No. 556, Industrial area, Phase\nIX, SAS nagar,-160059.",
+        "For the received sample\nSITAGLIPTIN\nPHOSPHATE 50 +\nMETFORMIN 500MG\nTABLETS (LanZsita-M),\nThe label is mentioned as\n‘Approved colour used’ but\ncommon name of the\npermitted colour used in\nthe formulation as\nprescribed under rule\n127(2) of the Drugs\nRules,1945 was not\nmentioned.-Misbranded",
+        "Puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "bbox": [
+      42.76,
+      14.37,
+      828.06,
+      349.06
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "55.",
+        "DICLOFENAC\nSODIUM AND\nPARACETAMOL\nTABLETS I.P\n(DiCLOWiN\nPLUS)",
+        "DPT-\n5765",
+        "Aug-24",
+        "Jul-27",
+        "M/s. Wings Biotech LLP, 43 & 44,\nHPSIDC, Industrial Area, Baddi – 173\n205 (H.P)",
+        "Does not comply with\nrespect to Assay for\nDiclofenac sodium -NSQ",
+        "Puducherry"
+      ],
+      [
+        "56.",
+        "PIOGLITAZONE\n15, GLIMEPIRIDE\n2mg+\nMETFORMIN 500\nmg (Lanzpride-\nPM2)",
+        "SP/T/74\n3",
+        "Jun-24",
+        "May-26",
+        "M/s. SIGNORET\nPHARMACEUTICALS PVT.LTD.,\nPlot No. 556, Industrial area, Phase\nIX, SAS nagar,-160059.",
+        "For the received sample\nPIOGLITAZONE 15,\nGLIMEPIRIDE 2mg+\nMETFORMIN 500 mg\n(Lanzpride-PM2),\n1. The label is mentioned\nas ‘Approved colour used’\nbut common name of the\npermitted colour used in\nthe formulation as\nprescribed under rule\n127(2) of the Drugs\nRules,1945 was not\nmentioned.\n2.For the received sample\nPIOGLITAZONE 15,\nGLIMEPIRIDE 2mg+\nMETFORMIN 500 mg\n(Lanzpride-PM2), On visual\ninspection pink coloured\nspots were observed on\nother side (white colour) of\nthe tablets .-Misbranded",
+        "Puducherry"
+      ]
+    ]
+  }
+]

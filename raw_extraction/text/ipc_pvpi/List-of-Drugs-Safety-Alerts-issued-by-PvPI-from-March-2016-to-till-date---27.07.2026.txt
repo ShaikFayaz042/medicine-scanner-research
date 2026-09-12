@@ -1,0 +1,2076 @@
+===== PAGE 1 =====
+
+
+
+File No. P.17019/03/2026-DSA
+Date: 27th July, 2026
+
+The analysis of Adverse Drug Reactions (ADRs) from the PvPI database revealed the following
+suspected drugs are associated with the ADRs as given below;
+
+
+
+
+S. No.
+Issue Date
+Suspected drugs
+Indication(s)
+Adverse Drug
+Reactions
+1
+Mar-16
+Phenytoin
+Used for the treatment of Generalised
+tonic clonic seizure, partial seizure,
+status epilepticus
+Angioedema
+2
+Phenytoin
+Osteoporosis
+3
+Nicorandil
+Used for the treatment of Angina
+pectoris, Vasodilator
+Risk of ulcer
+complication
+4
+Olanzapine
+Used for the treatment of
+Schizophrenia, acute mania episodes
+in bipolar disorder
+Hyponatraemia
+5
+Crizotinib
+Used for the treatment of locally
+advanced or metastatic Non- Small
+Cell Lung Cancer (NSCLC) that is
+Anaplastic Lymphoma Kinase (ALK)
+Risk of cardiac failure
+6
+Apr-16
+Roflumilast
+Reduce the risk of chronic obstructive
+pulmonary disease exacerbation
+Gynecomastia
+7
+Clozapine
+Used for the management of
+schizophrenic patients
+Neutropenia
+8
+Disulfiram
+Used for Alcohol – abuse deterrent
+Erythroderma
+9
+May-16
+Peginterferon alpha – 2a
+Used for the treatment of Chronic
+active Hepatitis B & C
+Vasculitis
+10
+Piperacillin + Tazobactam
+Used for the treatment of lower RTI /
+UTI / intra-abdominal infection, skin
+and skin structure infection, bacterial
+septicaemia polymicrobic infection
+Vision abnormal
+11
+Mometasone furoate,
+topical
+Used for Steroid responsive
+dermatitis, eczema, or atopic
+dermatitis
+Hypertrichosis /
+Hirsutism, Skin
+depigmentation
+
+===== PAGE 2 =====
+
+
+12
+Jun-16
+Ranibizumab
+Used for the treatment of Neovascular
+age related macular degeneration
+(AMD), Visual impairment due to
+Diabetic macular edema (DME),
+Visual impairment due to Choroidal
+Neovascularization (CNV) secondary
+to pathologic myopia
+Myocardial Infarction
+13
+Amphotericin B
+Used for the treatment of life-
+threatening fungal infection including
+histoplasmosis, coccidioidomycosis,
+paracoccidioidomycosis,
+blastomycosis, aspergillosis,
+cryptaococcosis, mucormycosis,
+sporotrichosis, and candidiasis,
+visceral and mucocutaneous
+leishmaniasis unresponsive to
+pentavalent antimony compounds,
+severe meningitis, Perioral candidiasis
+Bone marrow
+depression
+14
+Doxorubicin
+Used for the treatment of soft tissue
+and bone sarcomas, Acute leukaemia,
+Malignant lymphoma, Hodgkin’
+disease, Breast carcinoma, small cell
+carcinoma of lungs, AIDS- related
+Kaposi’s sarcoma, Multiple myeloma,
+Gastrointestinal tract carcinoma,
+Bladder cancer, Ovarian carcinoma,
+Acute myeloblastic leukaemia,
+Thyroid carcinoma,
+Neuroblastoma
+Photosensitivity
+reaction
+15
+Crizotinib
+Used for the treatment of locally
+advanced or metastatic Non – Small
+Cell Lung Cancer (NSCLC) that is
+Anaplastic Lymphoma Kinase (ALK)
+positive.
+Pneumonitis, Hepatic
+encephalopathy
+16
+Jul-16
+Febuxostat
+Used for treatment of chronic
+hyperuricemia in conditions where
+urate deposition has already occurred
+(Including a history, or presence of
+tophus and / or gouty arthritis)
+Allergic vasculitis
+
+===== PAGE 3 =====
+
+
+17
+Oxcarbamazepine
+Monotherapy or adjunctive therapy in
+the treatment of partial seizure,
+secondary generalized seizure,
+substitution for carbamazepine can be
+made abruptly with an
+oxcarbamazepine–to-carbamazepine
+ratio of 300: 200
+Syndrome of
+Inappropriate
+Antidiuretic Hormone
+secretion (SIADH)
+18
+Artemether &
+Lumefantrine
+Used for treatment of uncomplicated
+falciparum malaria, mixed infection
+of falciparum and chloroquine
+resistant vivax malaria.
+Steven- Johnson
+Syndrome / Toxic
+Epidermal
+Necrolysis
+19
+Cefixime
+Used for the treatment of otitis media,
+respiratory tract infection,
+uncomplicated UTIs, effective against
+infection caused by
+Enterobacteriaceae, H.  influenza
+species
+Acute Generalized
+Exanthematous
+Pustulosis (AGEP)
+20
+Aug-16
+Hepatitis B Immune
+globulin (human)
+Used for active immunization against
+Hepatitis B virus (HBV) infection in
+subjects considered at risk of
+exposure to HBV – positive material
+Encephalopathy
+21
+Cefotaxime
+Infection due to sensitive Gram –
+positive and Gram-negative bacteria
+such as bacteraemia, cellulitis, Intra-
+abdominal infection, Gonorrhoea,
+bone or joint infection, skin and skin
+structure infection, Urinary tract
+infection, Septicaemias, surgical
+prophylaxis, Endometritis, life
+threatening resistant/ hospital
+acquired infections, infection in
+immune –compromised patient,
+Haemophilus   epiglottitis   and
+meningitis
+Anaphylactic shock
+22
+Lacosamide
+As an adjunctive treatment of partial
+onset seizure in patient >17 years of
+age
+Red Man Syndrome
+23
+Dimethyl fumarate
+Used for relapsing remitting multiple
+sclerosis
+Osteonecrosis
+24
+Sodium citrate
++Diphenhydramine
+hydrochloride+Ammonium
+chloride
+Used for symptomatic treatment of
+cough
+Myocardial infraction
+
+===== PAGE 4 =====
+
+
+25
+Nov-16
+Cabergoline
+Used for the treatment of
+hyperprolactinemia and inhibition of
+lactation
+Steven- Johnson
+Syndrome
+26
+Amlodipine
+Used for the treatment of Angina,
+Hypertension, Coronary Artery
+Disease
+Alopecia
+27
+Nitrofurantoin
+Used for the treatment of urinary tract
+infection, Cystitis
+Drug reaction with
+Eosinophilia and
+Systemic Symptoms
+(DRESS
+syndrome)
+28
+Cefoperazone + Sulbactam
+For treatment of RTI, UTI, (lower &
+upper), Septicaemia, Meningitis, Skin
+& Soft tissue infection, Endometritis,
+Other infection of genital tract, Intra-
+abdominal infection bone & joint
+infection
+Acute Generalized
+Exanthematous
+pustulosis (AGEP)
+29
+December
+2016
+Cefixime
+Used for the treatment of otitis media,
+Respiratory tract infection,
+uncomplicated UTIs, effective against
+infection caused by
+Enterobacteriaceae, H.  Influenza
+species
+Anal ulcer
+30
+Atenolol
+Used for the treatment of Angina and
+myocardial infarction, Arrhythmias,
+Hypertension, Migraine prophylaxis
+Dermatitis Lichenoid
+31
+Olanzapine
+Used for the treatment of
+Schizophrenia and other psychotic
+disorders, mania/ mixed episode,
+psychomotor agitation and violent
+behaviour
+Drug Reaction with
+Eosinophilia and
+Systemic Symptoms
+32
+Meropenem
+Used for the treatment of Nosocomial
+infection like Septicaemia, Febrile
+neutropenia, intra-abdominal and
+pelvic infection, etc, caused by
+cephalosporin’s resistant bacteria,
+meningitis cystic fibrosis
+Hypokalaemia
+33
+Montelukast
+Prophylaxis of mild to moderate
+asthma
+Tinnitus
+34
+Jan-17
+Cefepime
+Used for the treatment of serious
+CRTI, uncomplicated and
+complicated UTI, Uncomplicated skin
+& skin structure, infection acute
+exacerbation of chronic bronchitis &
+intra-abdominal infection
+Dermatitis Lichenoid
+
+===== PAGE 5 =====
+
+
+35
+Losartan
+Congestive Heart Failure,
+Hypertension (myocardial infarction
+along with stroke including reduction
+of stroke risk in hypertension) with
+left ventricular hypertrophy, Diabetic
+Nephropathy in type II diabetes
+Burning Micturition
+36
+Amisulpride
+For the treatment of acute and chronic
+schizophrenic disorder, in which
+positive symptoms, and or negative
+symptoms are prominent, including
+patients characterized   by
+predominant negative symptoms
+Tinnitus
+37
+Carbamazepine
+For the treatment of Partial seizure
+with or without secondary
+generalization, Trigeminal neuralgia,
+bipolar disorder
+Bruxism
+38
+Feb-17
+Clomipramine
+Used for the treatment of Obsessive–
+compulsive disorder, panic disorder
+Melasma
+39
+Glimepiride
+Used for the treatment of Type 2
+diabetes mellitus
+Lichenoid Drug
+Eruption
+40
+Metoprolol
+Used for the treatment of Supra-
+ventricular arrhythmia, Angina
+pectoris, Hypertension, Myocardial
+infarction, Migraine prophylaxis,
+Hyperthyroidism, Heart failure
+Lichenoid Drug
+Eruption
+41
+Levamisole
+Used for the treatment of roundworm
+and hookworm infestations
+Skin Exfoliation
+42
+Mar-17
+Deferasirox
+Used for the treatment of chronic iron
+overload in patients with Non –
+Transfusion Dependent Thalassemia
+(NTDT) Syndrome
+Osteoporosis
+43
+Ambroxol
+Used for the treatment of all forms of
+tracheobronchitis, Emphysema with
+bronchitis pneumoconiosis, chronic
+inflammatory pulmonary conditions,
+Bronchiectasis, Bronchitis   with
+bronchospasm asthma
+Lacrimation
+44
+Lurasidone
+Used for the treatment of patient with
+schizophrenia
+Thrombocytopenia
+
+===== PAGE 6 =====
+
+
+45
+Etoricoxib
+Short term use in acute painful
+condition
+Skin
+hyperpigmentation
+46
+Apr-17
+Dexamethasone
+Adjunct in the emergency treatment
+of anaphylaxis, short term
+suppression of inflammation in
+allergic disorders, adrenocortical
+insufficiency. Ocular inflammation,
+autoimmune disorder.   Rhematic
+Hiccups
+47
+Cabergoline
+For the treatment of parkinson’s
+disease, hyperprolactinemia and
+inhibition of lactation
+Skin
+hyperpigmentation
+48
+Sodium valproate
+Used for the treatment of generalised
+tonic-clonic seizure, partial seizure,
+atonic seizure, absence seizure,
+myoclonic seizure, acute migraine
+Psoriasis
+49
+Amoxycillin
+Used for the treatment of urinary tract
+infection, upper respiratory tract
+infection, bronchitis, pneumonia,
+otitis media, dental abscess,
+osteomyelitis, Lyme disease in
+children, endocarditis prophylaxis,
+post – splenectomy prophylaxis,
+gynaecological infection, gonorrhoea,
+helicobacter pylori eradication
+Eye irritation
+50
+May-17
+Tinidazole
+Used for the treatment of amoebiasis,
+trichomoniasis and giardiasis,
+anaerobic infection, necrotising
+ulcerative gingivitis, bacterial
+vaginosis, H. pylori associated peptic
+ulcer, abdominal surgery prophylaxis
+Hyperpigmentation
+51
+Amlodipine
+Used for the treatment of Angina,
+Hypertension, Coronary artery disease Psoriasis
+52
+Hydroxyzine
+Used for management of pruritus due
+to allergic condition such as chronic
+urticaria and atopic contact
+dermatoses, and in histamine –
+mediated pruritus
+Bullous pemphigoid
+
+===== PAGE 7 =====
+
+
+53
+Amitriptyline
+Used for the treatment of moderate to
+severe depression, migraine
+prophylaxis, tension type headache,
+neuropathic / chronic pain,
+fibromyalgia
+Gingival
+discolouration
+54
+Jun-17
+Paracetamol
+Used for the treatment of mild to
+moderate pain including
+dysmenorrhoeal pain, headache, pain
+relief in osteoarthritis and soft tissue
+lesions, pyrexia, acute migraine attack
+Baboon syndrome
+55
+Lamivudine
+Used for the treatment of HIV
+Infection in combination with at least
+two other antiretroviral drugs
+Hearing loss
+56
+Mebeverine
+Used for the treatment of irritable
+bowel syndrome
+Retrosternal pain
+57
+Jul-17
+Clindamycin
+Used for the treatment of respiratory
+tract infection, penicillin resistant
+staphylococcal infection and many
+anaerobes such as bacteroides, skin,
+soft tissue and dental infection
+Acute Generalised
+Exanthematous
+Pustulosis
+58
+Triamcinolone
+For the treatment of intraarticular,
+intra synovial, or periarticular use in
+adults and adolescents for the
+symptomatic treatment of subacute
+and chronic inflammatory joint
+diseases including osteoarthritis and
+posttraumatic arthritis, rheumatoid
+arthritis, juvenile idiopathic arthritis,
+synovitis, tendinitis, bursitis and
+epicondylitis
+Skin peeling
+
+===== PAGE 8 =====
+
+
+59
+Polymyxin B
+• For the treatment of Infections of the
+urinary tract, meninges and blood
+stream caused by susceptible strains
+of Pseudomonas aeruginosa. It may
+also be used as subconjunctival
+injection in the treatment of infections
+of the eye caused by susceptible
+strains of Pseudomonas aeruginosa. •
+It may be indicated in serious
+infections caused by susceptible
+strains of the organisms-
+Haemophilus influenzae specifically
+meningeal infections, Escherichia coli
+specifically urinary tract infections,
+Aerobacter aerogenes specifically
+bacteremia, Klebsiella pneumoniae
+specifically bacteremia.
+Mottled skin
+60
+Diclofenac
+Used for the treatment of acute
+musculo-skeletal pain, arthritis, gout,
+spondylitis, migraine, post–operative
+pain
+Nicolau Syndrome
+61
+Aug-17
+Terbinafine
+Used for the treatment of fungal
+infection.
+Acute Generalised
+Exanthematous
+Pustulosis
+62
+Nitrofurantoin
+Used for the treatment of urinary tract
+infection, Cystitis.
+Vasculitis
+63
+Sep-17
+Acetazolamide
+Adjunct in treatment of chronic open-
+angle glaucoma, secondary glaucoma,
+as a part of pre- operative treatment of
+acute angle–closure glaucoma
+Drug hypersensitivity
+syndrome
+64
+Linagliptin
+Used for the treatment of Type 2
+diabetes mellitus
+Acute Generalised
+Exanthematous
+Pustulosis
+65
+Diloxanide
+Used for the treatment of intestinal
+amoebiasis.
+Glossitis
+
+===== PAGE 9 =====
+
+
+66
+17th
+October
+2017
+Amikacin
+Short term treatment of serious
+infection due to susceptible strains of
+gram- negative bacteria, including
+pseudomonas species, Escherichia
+coli species of indole – positive and
+indole negative proteus, providencia
+species, Klebsiella, Enterobacter,
+Serratia species and acinetobacter
+species
+Steven Johnson
+Syndrome
+67
+Allopurinol
+Prophylaxis of gout prophylasix of
+hyperuricaemia associated with
+cancer chemotherapy
+Uveitis
+68
+28th
+November
+2017
+Quetiapine
+For treatment of schizophrenia and
+bipolar disorder
+Gynaecomastia
+69
+Ceftriaxone
+Serious infection due to sensitive
+bacteria, including septicaemia,
+pneumonia and meningitis, surgical
+prophylaxis of meningococcal
+meningitis, gonorrhoea, bone and
+joint infection
+Palpitation
+70
+27th
+December
+2017
+Fluoxetine
+Fluoxetine is a SSRI antidepressant
+which is used in psychological
+disorders and also in premature
+ejaculation
+Urinary incontinence
+71
+30th
+January
+2018
+Levetiracetam
+For treatment of myoclonus –
+generalised epilepsy with
+photosensitivity, idiopathic epilepsy –
+control of generalised tonic – clonic
+seizure, post anoxic and post –
+encephalitic myoclonic epilepsy,
+epileptic encephalopathies, severe
+myoclonic epilepsy, absence seizure,
+rolandic epilepsy
+Hypokalaemia
+72
+28th
+February
+2018
+Dapsone
+For the treatment of leprosy,
+acnevulgaris, dermatitis,
+Pneumocystic pneumonia
+Erythema Nodosum
+73
+27th March
+2018
+Cefixime
+For treatment of otitis media,
+respiratory tract infection,
+uncomplicated UTIs, effective against
+infection caused by
+Enterobacteriaceae, H.  influenza
+species
+Skin
+Hyperpigmentation
+
+===== PAGE 10 =====
+
+
+74
+27th April
+2018
+Dexamethasone
+Adjunct in the emergency treatment
+of anaphylaxis, short term
+suppression of inflammation in
+allergic disorder, adrenocortical
+insufficiency, ocular inflammation
+autoimmune disorder, rheumatic
+disorder, cerebral oedema,
+unresponsive   shock, bacterial
+meningitis along with antibiotics
+Peripheral neuropathy
+75
+10th July
+2018
+Fluoxetine
+Used for the treatment of Bipolar
+disorder, Depressive episode
+Hypoacusis (Hearing
+impairment)
+76
+3rd
+December
+2018
+Telmisartan
+Used for the treatment of
+hypertension
+Lichenoid keratosis
+77
+1st January
+2019
+Miltefosine
+Directly Observed Therapy (DOT) of
+Visceral Leishmaniasis caused by
+Leishmania donovani
+Acute Pancreatitis
+78
+14th
+February
+2019
+Levetiracetam
+Anti-epileptic, 1) As monotherapy in
+partial onset seizures with or without
+secondary generalisation in patient
+with 16 years of age with newly
+diagnosed epilepsy. 2) As adjunctive
+therapy in myoclonic seizures in adult
+and adolescent from 12 years of age
+with juvenile.
+Anencephaly
+79
+Cetirizine
+For the treatment of
+seasonal/perennial allergic rhinitis &
+chronic idiopathic urticaria in infants
+& children.
+Tachycardia
+80
+25th March
+2019
+Dabigatran
+For prevention of stroke, systemic
+embolism and reduction of vascular
+mortality in adult patient with atrial
+fibrillation
+Alopecia
+81
+Sertaline
+Major depressive disorders, obsessive
+compulsive disorders (OCD), panic
+disorders
+Maculopathy
+
+===== PAGE 11 =====
+
+
+82
+15th May
+2019
+Amiodarone
+In the treatment of control of
+ventricular and supraventricular
+arrhythmia where other drug cannot
+be used, arrhythmia associated with
+Wolf-White Syndrome.
+
+For cardiopulmonary resuscitation in
+the event of cardiac arrest related to
+ventricular fibrillation resistant to
+external electric shock.
+Acute Pancreatitis
+83
+Teicoplanin
+Glycopeptide antibiotic-use in serious
+gram +Ve infection, staphylococcal
+infection in patients sensitive or
+unresponsive to penicillin and
+cephalosporin CAPD related
+peritonitis, prophylaxis in orthopaedic
+surgery at risk of gram +Ve infection
+Red Man Syndrome
+84
+6th June
+2019
+Teicoplanin
+Glycopeptide antibiotic-use in serious
+gram +Ve infection, staphylococcal
+infection in patients sensitive or
+unresponsive to penicillin and
+cephalosporin CAPD related
+peritonitis, prophylaxis in orthopaedic
+surgery at risk of gram +Ve infection
+Toxic Epidermal
+Necrolysis (TEN)
+85
+3rd July
+2019
+Febuxostat
+For treatment of chronic
+hyperuricemia in conditions where
+urate crystals deposition has already
+occurred (including a history, or
+presence of tophus and /or gouty
+arthritis).
+Toxic Epidermal
+Necrolysis/Steven
+Johnson Syndrome
+86
+Netilmicin
+Aminoglycoside antibiotic - Indicated
+in the treatment of septicaemia
+including neonatal sepsis and other
+severe systemic infections.
+Tetany
+87
+6th August
+2019
+Metronidazole
+For the treatment of amoebiasis,
+urogenital trichomoniasis &
+giardiasis.
+Vasculitis
+88
+Risperidone
+Indicated as monotherapy or as
+adjunctive therapy in lithium or
+valproate for the maintenance
+treatment of Bipolar-1 disorder.
+Rabbit Syndrome
+89
+5th
+September
+2019
+Teneligliptin
+For the treatment of type-2 Diabetes
+Mellitus as a monotherapy adjunct to
+diet and exercise
+Arthralgia
+
+===== PAGE 12 =====
+
+
+90
+Atorvastatin
+As an adjunct to diet to reduce
+elevated total cholesterol &
+triglyceride level in patients with
+primary hypercholesterolemia &
+mixed dysbetalipoprotenimia (Type
+IIa & IIb)
+Vit-D deficiency
+91
+30th
+October
+2019
+Cetirizine
+For the treatment of allergic rhinitis
+and chronic urticaria.
+Acute Generalized
+Exanthematous
+Pustulosis
+92
+Clozapine
+Indicated in the management of
+Schizophrenic patients.
+Neural Tube Defects
+93
+22nd
+November
+2019
+Cetirizine
+For the treatment of allergic rhinitis
+and chronic urticaria.
+Hiccups
+94
+Cilostazole
+For the treatment of stable
+intermittent claudication, acting or
+cramping in legs that occur with
+walking.
+Tinnitus
+95
+30th
+December
+2019
+Levamisole
+Indicated in the treatment and control
+of mature and developing immature
+infections of haemonchus, ostertagia,
+trichostrongylus, cooperia,
+nematodinus, bunostomum,
+oesophagastomum and dictyocaulus
+and all forms of liver fluke infection
+Steven Johnson
+Syndrome
+96
+Cephalosporin
+Indicated in the treatment of serious
+infections due to susceptible
+organisms-respiratory tract infections,
+urinary tract infections, skin billiary
+tract infections, septicaemia,
+meningitis other infections due to
+susceptible organisms and in the
+treatment of infections due to
+penicillin resistant strains of
+staphylococci.
+Acute Generalized
+Exanthematous
+Pustulosis
+97
+15th
+January
+2020
+Disulfiram
+Antidotes, Detoxifying Agents &
+Drugs Used in Substance
+Dependence.
+Skin
+Hyperpigmentation
+98
+Fluconazole
+For the treatment of systemic
+candidiasis, mucosal candidiasis,
+pityriasis versicolor, prevention of
+fungal infections in patients with
+malignancy.
+Mouth Ulceration
+
+===== PAGE 13 =====
+
+
+99
+12th
+February
+2020
+Olanzapine
+For the treatment of Schizophrenia.
+Hyponatremia
+100
+Piperacillin+Tazobactam
+In the treatment of LRTI/UTI/Intra-
+abdominal infections, skin and skin
+structure infections, bacterial
+septicemic polymicrobic infections
+Blurred Vision
+101
+12th March
+2020
+Terlipressin
+In the treatment of bleeding
+oesophageal varices.
+Atrial Fibrillation
+102
+1st June
+2020
+Hydroxychloroquine
+Sulphate
+Off Label drug use as Prophylactic &
+Treatment of COVID-19 disease
+Mouth Ulceration
+103
+7th July
+2020
+SGLT-2 Inhibitors
+As an adjunct to diet and exercise to
+improve glycaemic control in adults
+with type 2 Diabetes Mellitus
+Genital Pruritus
+104
+Fluconazole
+For the treatment of systemic
+candidiasis, mucosal candidiasis,
+prevention of fungal infections in
+patients with malignancy.
+Symmetrical Drug-
+Related Intertriginous
+and Flexural
+Exanthema (SDRIFE)
+105
+31st
+August,
+2020
+Pramipexole
+Indicated for the treatment of sign and
+symptoms of idiopathic Parkinsons
+disease.
+Photosensitivity
+Reaction
+106
+4th
+September,
+2020
+Fluvoxamine
+Fluvoxamine is a Selective Serotonin
+Reuptake Inhibitor (SSRI) indicated
+for the treatment of obsessive-
+compulsive disorder and depression
+Intracranial/Pulmonary
+Hypertension
+107
+5th October
+2020
+Clindamycin
+Antibiotic-Indicated in the treatment
+of gram +ve organism pathogens,
+staphylococcus & streptococci,
+pneumococci.
+Symmetrical Drug
+Related Intertriginous
+and Flexural
+Exanthema (SDRIFE)
+108
+4th
+November
+2020
+Clarithromycin
+For the treatment of mild to
+moderately severe infections like
+acute exacerbation of chronic
+bronchitis community acquired
+pneumonia including infections due to
+Chlamydia, Mycoplasma spegiocella
+acute streptococcal pharyngitis and
+skin and soft tissue infections.
+Acute Generalised
+Exanthematous
+Pustulosis (AGEP)
+109
+Tamsulosin + Deflazacort
+For the treatment of sign & symptoms
+of benign prostate hyperplasia. For
+Asthma, Rheumatoid Arthritis when
+Glucocorticosteroid therapy is
+warranted.
+Ear pain
+
+===== PAGE 14 =====
+
+
+110
+30th
+December
+2020
+Beta-Blockers (Atenolol,
+Bisoprolol, Metoprolol)
+Anti-arrhythmic agent- Indicated in
+the treatment of hypertension, angina
+pectoris, cardiac arrhythmias,
+Congestive Heart Failure (CHF).
+Lichen Planus
+111
+Omeprazole
+Anti-ulcer, short term treatment of
+duodenal ulcer, gastric ulcer, reflux
+oesophagitis, management of
+Zollinger Ellison Syndrome.
+Dysuria
+112
+4th January
+2021
+Fexofenadine
+In the treatment of relief of symptoms
+associated with seasonal allergic
+rhinitis and chronic idiopathic
+urticaria.
+Blurred Vision
+113
+Ambroxol
+Anti-tussive - Acute and chronic
+disease of the respiratory tract
+associated with abnormal bronchial
+secretions in particular acute attacks
+of chronic bronchitis, asthmatic
+bronchitis and bronchial asthma.
+Fixed Drug Eruption
+114
+1st February
+2021
+Cefpodoxime
+Used for the treatment of acute
+bronchitis, exacerbations of chronic
+bronchitis, bronchiolitis pneumonia,
+sinusitis, recurrent chronic tonsillitis,
+pharyngitis, acute otitis.
+Drug Reaction with
+Eosinophilia Systemic
+Symptoms (DRESS)
+Syndrome
+115
+Clarithromycin
+Used for the treatment of mild to
+moderately severe infections like
+acute exacerbation of chronic
+bronchitis community acquired
+pneumonia including infections due to
+chlamydia, mycoplasma spegiocella
+acute streptococcal pharyngitis and
+skin and soft tissue infections.
+Burning Sensation
+116
+01st March
+2021
+Hydroxyzine
+For the management of pruritus due to
+allergic conditions such as chronic
+urticaria and atopic contact
+dermatoses, and in histamine -
+mediated pruritus.
+Photosensitivity
+Reaction
+117
+Salicylic Acid
+For the treatment of acne vulgaris
+Photosensitivity
+Reaction
+118
+5th April
+2021
+Zinc (Acetate/Oxide/Sulp
+hate/Gluconate)
+In treatment of acute diarrhoea in
+children as an adjunct to oral
+rehydration.
+Diarrhoea
+
+===== PAGE 15 =====
+
+
+119
+Clobazam
+For the treatment of acute and chronic
+anxiety states and as an adjunctive
+therapy in patients with refractory
+epilepsy.
+DRESS Syndrome
+120
+Baclofen
+For the symptomatic treatment of
+neuronal spasticity due to multiple
+sclerosis, spinal cord, pathology &
+injury.
+Encephalopathy
+121
+28th June,
+2021
+Rosuvastatin & Ticagrelor
+Interaction
+Rosuvastatin:
+Risk reduction of MI stroke and
+arterial revascularisation procedure in
+patients without clinically evident
+CHD but with multiple risk factors.
+Ticagrelor:
+For the prevention of thrombotic
+events (cardiovascular death,
+Myocardial Infarction and stroke) in
+patients with Acute coronary
+syndromes (ACS) unstable angina,
+non-ST   Elevation   Myocardial
+Infarction (STEMI) including patients
+managed medically and those who are
+managed with Percutaneous Coronary
+Intervention (PCI) or Coronary Artery
+Bypass Grafting (CABG).
+Rhabdomyolysis
+122
+Etoricoxib
+For the treatment of pain, swelling &
+inflammatory conditions due to
+arthritis.
+Acute Generalized
+Exanthematous
+Pustulosis (AGEP)
+123
+Torsemide
+For the treatment of oedema
+associated with congestive heart
+failure & hypertension.
+DRESS Syndrome
+
+===== PAGE 16 =====
+
+
+124
+28th July
+2021
+Quetiapine & Valproic
+Acid Interaction
+Quetiapine:
+• For the management of the
+manifestation of psychotic disorders
+(schizophrenia).
+• For the additional indication "acute
+manic episode associated with bipolar
+disorder".
+Valproic Acid:
+• As monotherapy and adjunctive
+therapy in the treatment of patients
+with complex partial seizures that
+occur either in isolation or in
+association with other types of
+seizure.
+• As monotherapy or adjunctive
+therapy in the treatment of patients
+with complex partial seizure and
+manic episodes associated with
+bipolar disorder.
+Neuropsychiatric
+Adverse Events
+(Depressed level of
+consciousness/Com a
+& Disorientation)
+125
+31st August
+2021
+Sofosbuvir
+Used in combination with other
+medicinal products for the treatment
+of chronic hepatitis C in adults.
+Steven-Johnson
+Syndrome
+126
+30th
+September,
+2021
+Dimethyl Fumarate
+Used for Relapsing remitting multiple
+sclerosis
+Alopecia
+127
+Cefazolin
+Cephalosporin antibiotic-indicated in
+the treatment of serious infections due
+to susceptible organisms – respiratory
+tract infections, urinary tract
+infections, skin & skin structure
+infection, biliary tract infections,
+septicaemia
+Acute Generalised
+Exanthematous
+Pustulosis
+128
+30th
+November,
+2021
+Diclofenac
+For the treatment of rheumatoid
+arthritis, osteoarthritis, ankylosing
+spondylitis, gout, painful post-
+operative pain following dental
+surgery, migraine attack and post-
+operative inflammation in patients
+who have undergone cataract
+operation.
+Skin
+hyperpigmentation
+129
+28th
+December,
+2021
+Remdesivir
+Broad spectrum antiviral medication.
+Restricted emergency use for
+treatment of patients with severe
+COVID-19
+Sinus Bradycardia
+
+===== PAGE 17 =====
+
+
+130
+18th
+January,
+2022
+Ibuprofen
+For the treatment of chronic arthritic
+disorders and painful musculoskeletal
+conditions.
+Fixed Drug Eruption
+131
+28th
+February,
+2022
+Losartan
+For the treatment of hypertension
+Muscle Spasm
+132
+17th March,
+2022
+Cephalosporin Class
+Cephalosporins are beta-lactam
+antimicrobials used to manage a wide
+range of infections from Gram-
+positive and Gram-negative bacteria
+Fixed Drug Eruption
+133
+28th April,
+2022
+Cefuroxime
+• Antibiotic- Indicated for lower &
+upper respiratory tract infection, UTI,
+gynaecological infection, skin or soft
+tissue infection etc.
+• Antibiotic- Indicated in the
+treatment of respiratory tract
+infections, UTI, ENT soft
+tissue infections etc.
+Drug Reaction with
+Eosinophilia and
+Systemic Symptoms
+(DRESS)
+134
+30th May,
+2022
+Itraconazole
+• Systemic aspergillosis and
+candidiasis, cryptococcosis,
+sporotrichosis,
+Paracoccidioidomycosis,
+blastomycosis and other rarely
+occurring systemic or tropical
+mycoses.
+• Empiric therapy of febrile
+neutropenic patients with suspected
+fungal infections
+Symmetrical Drug
+Related- Intertriginous
+and Flexural
+Exanthema (SDRIFE)
+135
+17th June,
+2022
+Trimetazidine
+• Ischaemic heart disease, angina
+pectoris, sequalae of infarction.
+• Cardiac drug indicated in the
+treatment of angina pectoris and
+intermittent claudication.
+Drug Reaction with
+Eosinophilia and
+Systemic Symptoms
+(DRESS)
+
+===== PAGE 18 =====
+
+
+136
+15th July,
+2022
+Tacrolimus
+• For prophylaxis of transplant
+rejection in adult kidney or liver
+allograft rejection.
+• Prophylaxis of transplant rejection
+in kidney, liver or heart allograft
+recipient.
+• For prophylaxis of transplant
+rejection in liver, pancreas, lung, heart
+and kidney allograft recipients and
+treatment of allograft rejection
+resistant to treatment with other
+immuno- suppressive medicinal
+products.
+• By nephrologists only- for the
+prophylaxis of organ rejection in
+patients receiving allogenic kidney
+transplant.
+• For dermatologists-for treatment of
+patients with moderate to severe
+atopic dermatitis in whom the use of
+alternative conventional therapy is
+advisable.
+Gingival Hypertrophy
+137
+23rd
+August,
+2022
+Cefoperazone
+Urinary infections, biliary infections,
+respiratory infections, infections of
+skin tissues, meningitis, septicaemia,
+Pseudomonas, Salmonella typhi & B.
+fragilis infections.
+Coagulopathy
+138
+26th
+September,
+2022
+Piroxicam
+• In the treatment of rheumatoid
+arthritis, osteoarthritis, ankylosing
+spondylitis, cervical spondylitis and
+other musculoskeletal disorder.• Anti-
+inflammatory agent- Indicated in the
+treatment of rheumatoid arthritis,
+ankylosing spondylitis and other
+musculoskeletal disorders
+•  Indicated in the treatment of
+musculoskeletal disorders, acute gout,
+pain after operative intervention
+following acute trauma and in
+primary dysmenorrhoea (12 years age
+or older)
+Fixed Drug Eruption
+
+===== PAGE 19 =====
+
+
+139
+17th
+October,
+2022
+Amoxicillin
+For treatment of urinary tract
+infections, upper respiratory-tract
+infections, bronchitis, pneumonia,
+otitis media, dental abscess,
+osteomyelitis, Lyme diseases in
+children, endocarditis prophylaxis,
+post-splenectomy prophylaxis,
+gynaecological infections,
+gonorrhoea, helicobacter pylori
+eradication enteric fever.
+Fixed Drug Eruption
+140
+
+28th
+November,
+2022
+Norfloxacin
+1. Antibacterial- Indicated in the
+treatment of acute
+uncomplicated/complicated chronic,
+recurrent urinary tract infections,
+including pyelonephritis, cystitis,
+urethritis & gonococcal infections.
+2. Wide variety of infections caused
+by susceptible Gram +ve and Gram -
+ve organism including mixed
+infection in poultry.
+Skin
+Hyperpigmentation
+141
+26th
+December
+2022
+Minoxidil
+For the treatment of alopecia (male
+pattern baldness in men).
+Folliculitis
+142
+31st January
+2023
+Amphotericin B
+(Liposomal)
+1. Febrile Neutropenia in cancer
+patients.
+2. For invasive fungal infection in
+patients who are refractory to or
+intolerant of conventional
+amphotericin B therapy.
+3. By RMP- for the treatment of
+invasive fungal infection in patients
+who are refractory to or intolerant of
+conventional amphotericin-B therapy.
+4. Indicated for the treatment of
+visceral leishmaniasis.
+Hearing disorders
+143
+Tachycardia
+144
+20th
+February
+2023
+Cephalosporins
+Cephalosporins are beta-lactam
+antimicrobials used to manage a wide
+range of infections from Gram-
+positive and Gram-negative bacteria.
+Purpura
+145
+Amikacin
+Indicated in the treatment of serious
+infections due to amikacin sensitive
+organisms.
+Vision blurred
+
+===== PAGE 20 =====
+
+
+146
+29th March
+2023
+Metoprolol
+For the treatment of essential
+hypertension in adults, functional
+heart disorders, migraine prophylaxis,
+cardiac arrhythmias, prevention of
+cardiac death and reinfarction after
+the acute phase of myocardial
+infarction, stable symptomatic CHF
+Hyponatraemia
+147
+Nebivolol
+For the treatment of essential
+hypertension
+Hyperkalaemia
+148
+Olmesartan
+Use as an Anti-hypertensive
+Muscle Spasm
+149
+Taste Disorder
+150
+24th April
+2023
+Sulfasalazine
+Use for the treatment of severe
+rheumatoid arthritis, ulcerative colitis;
+Crohn’s diseases.
+Visual Impairment
+151
+Ziprasidone
+1. Use for the treatment of
+schizophrenia.2. Use for rapid control
+of agitation in psychotic patients.
+DRESS Syndrome
+152
+31st May
+2023
+Ceftriaxone
+For the treatment of urinary tract
+infections, lower respiratory tract
+infections, bacteraemia, septicaemia,
+meningitis, abdominal infections and
+infections caused by pseudomonas
+species.
+Electrocardiogram QT
+prolonged
+153
+Levosulpiride
+• Use for the treatment of depression
+and schizophrenia in adults.
+• For the treatment of different G.I.
+problems like functional dyspepsia,
+nausea, vomiting and diabetic
+gastroparesis.
+Restless Legs
+Syndrome (RLS)
+154
+22nd June
+2023
+Teneligliptin
+For the treatment of Type-2 Diabetes
+Mellitus as a monotherapy adjunct to
+diet and exercise.
+Bullous Pemphigoid
+155
+28th July
+2023
+Colistimethate Sodium
+For the treatment of some serious
+infections caused by Gram-negative
+bacteria, including those of the lower
+respiratory tract and urinary tract,
+when more commonly used systemic
+antibacterial agents may be
+contraindicated or may be ineffective
+because of bacterial resistance.
+Bartter's like syndrome
+
+===== PAGE 21 =====
+
+
+156
+22nd
+August
+2023
+Levonorgestrel
+• Used as emergency Contraceptive.
+• For Control of Fertility.
+• For the treatment of Contraception,
+Menorrhagia & Endometrial
+Hyperplasia during Estrogen
+replacement therapy in women.
+Deep Vein Thrombosis
+157
+27th
+September
+2023
+Esomeprazole
+• GERD, erosive reflux esophagitis,
+prevention of relapse of esophagitis &
+helps in eradication of H. Pylori
+associated peptic ulcer.
+• For the treatment of GERD, gastric
+and duodenal ulcer, Zollinger-Ellison
+syndrome.
+Hyperprolactinaemia
+158
+25th
+October
+2023
+Co-trimoxazole
+Indicated in the treatment of
+respiratory tract infection, urogenital
+infections, G.I. tract infections etc.
+FDE
+159
+30th
+November
+2023
+Mefenamic Acid
+Treatment of rheumatoid arthritis,
+osteoarthritis, dysmenorrhoea, mild to
+moderate pain, inflammation, fever,
+dental pain.
+DRESS Syndrome
+160
+27th March
+2024
+Cefuroxime
+Antibiotic- Indicated for lower &
+upper respiratory tract infection,
+Urinary Tract Infection (UTI),
+gynaecological infection, skin or soft
+tissue infection etc.
+AGEP
+161
+Dutasteride + Tamsulosin
+For the treatment of Benign Prostatic
+Hyperplasia
+Palpitation
+
+===== PAGE 22 =====
+
+
+162
+Nimesulide
+• Use in Inflammatory condition
+including joint disorders such as
+rheumatoid arthritis, post traumatic
+and post operative painful condition
+and fever.• Acute pain in
+Orthopaedic, ENT, Dental and Post
+Operative condition.• Additional
+indication; for short treatment of adult
+patients with inflammation & pain
+associated with arthritis, soft tissue,
+ENT condition, trauma, dental pain,
+Musculo skeletal & gynaecology &
+obstetric painful condition.• For the
+treatment of pyrexia and
+inflammatory conditions in livestock
+FDE
+163
+Beta blockers (Metoprolol,
+Propranolol, Atenolol)
+Metoprolol: For the treatment of
+essential hypertension in adults,
+functional heart disorders, migraine
+prophylaxis, cardiac arrhythmias,
+prevention of cardiac death and
+reinfarction after the acute phase of
+myocardial infarction, stable
+symptomatic CHF.
+Propranolol: Cardiac arrhythmias;
+tachycardia; hypertrophic obstructive
+cardiac myopathy;
+pheochromocytoma; thrombosis;
+management of angina; essential and
+renal hypertension; prophylaxis of
+migraine.
+Atenolol:  For  the  treatment of
+hypertension, angina pectoris, cardiac
+arrhythmias
+Erectile dysfunction
+(Reversible)
+164
+21st May
+2024
+Meropenem
+For treatment of pneumonia,
+nosocomial pneumonia, UTI, intra-
+abdominal infection, gynaecological
+infection, skin & soft tissue infection,
+meningitis, septicaemia & empiric
+treatment of presumed infection in
+adult patients with febrile
+neutropenia.
+Acute Generalized
+Exanthematous
+Pustulosis (AGEP)
+
+===== PAGE 23 =====
+
+
+165
+28th June
+2024
+Acetazolamide
+As an adjunct in the treatment of
+chronic open-angle glaucoma;
+secondary glaucoma; as part of pre-
+operative treatment of acute- angle
+closure glaucoma.
+Choroidal effusion or
+Choroidal detachment
+166
+Amlodipine
+• To reduce fatal coronary heart
+disease, non-fatal myocardial
+infarction, risk of stroke and treatment
+of hypertension.
+• To reduce the risk of coronary
+revascularization procedures and the
+need for hospitalization due to angina
+in patients with coronary artery
+diseases
+Lichenoid Keratosis
+167
+18th July
+2024
+Vancomycin
+Treatment of serious infection due to
+Gram-positive cocci including
+methicillin-resistant staphylococcal
+infections, brain abscess,
+staphylococcal meningitis and
+septicaemia.
+DRESS Syndrome
+168
+28th August
+2024
+Metronidazole
+For the treatment of amoebiasis,
+urogenital trichomoniasis &
+giardiasis.
+FDE
+169
+25th
+September
+2024
+Tetracycline
+Treatment of Rocky Mountain spotted
+fever, typhus, Q fever, rickettsial pox,
+tick fever caused by Rickettsiae,
+respiratory tract infections caused by
+Mycoplasma pneumonia, Chlamydia
+infection, nongonococcal urethritis,
+chancroid, plague, tularemia, cholera,
+brucellosis, bartonellosis, granuloma
+inguinale, haemophilus and kleibsella
+infections, psittacosis.
+FDE
+170
+28th
+November
+2024
+Amphotericin B
+1. Treatment of Febrile Neutropenia
+in cancer patients.
+2. Treatment for invasive fungal
+infection in patients, who are
+refractory to or intolerant of
+conventional Amphotericin B therapy.
+3. Indicated for the treatment of
+Visceral Leishmaniasis
+Hyperkalaemia
+
+===== PAGE 24 =====
+
+
+171
+Carbimazole
+Indicated for the treatment of
+thyrotoxicosis including
+thyrotoxicosis crisis
+Agranulocytosis
+172
+26th
+December
+2024
+Beta-blockers (Metoprolol,
+Propranolol, Atenolol)
+Metoprolol: For the treatment of
+essential hypertension in adults,
+functional heart disorders, migraine
+prophylaxis, cardiac arrhythmias,
+prevention of cardiac death and
+reinfarction after the acute phase of
+myocardial infarction, stable
+symptomatic CHF and angina
+pectoris.
+Propranolol: For the treatment of
+cardiac arrhythmias; tachycardia;
+hypertrophic obstructive cardiac
+myopathy; pheochromocytoma;
+thrombosis; management of angina;
+essential and renal hypertension;
+prophylaxis of migraine.
+Atenolol: For the treatment of
+hypertension, angina pectoris, cardiac
+arrhythmias.
+Hypokalaemia
+173
+12th March
+2025
+Metronidazole
+For the treatment of amoebiasis,
+urogenital trichomoniasis &
+giardiasis.
+AGEP
+174
+Luliconazole
+For the treatment of cutaneous
+mycosis viz. Tinea pedis, Tinea
+corporis and Tinea cruris
+Chloasma/Melasma
+175
+Dalteparin
+For the extended treatment of
+symptomatic Venous
+Thromboembolism (VTE) proximal
+Deep Vein Thrombosis (DVT) and/or
+Pulmonary Embolism (PE) to reduce
+the recurrence of VTE in patients with
+cancer.
+Muscle spasms
+176
+Gliclazide
+Indicated for the treatment of all types
+of maturity onset diabetes, diabetes
+without or with obesity in adults.
+Erythema multiforme
+177
+Tramadol
+For the treatment of severe acute and
+chronic pain, diagnostic measures and
+surgical pain
+Fixed Drug Eruption
+
+===== PAGE 25 =====
+
+
+178
+13th May,
+2025
+Sulfamethoxazole +
+Trimethoprim
+For the treatment of Urinary Tract
+infection; Respiratory-tract infection
+including Bronchitis, Pneumonia,
+infections in Cystic Fibrosis,
+Melioidosis, Listeriosis, Brucellosis,
+Granuloma Inguinale, Otitis Media,
+Skin infection, Pneumocystis Carinii
+Pneumonia
+Leukopenia
+179
+27th June
+2025
+Beta-blockers
+(Propranolol, Metoprolol)
+Propranolol: For the treatment of
+cardiac arrhythmias, tachycardia,
+hypertrophic obstructive cardiac
+myopathy, pheochromocytoma,
+thrombosis, management of angina,
+essential and renal hypertension,
+prophylaxis of migraine.
+MetoprololFor the treatment of
+supraventricular arrythmia, angina
+pectoris, hypertension, myocardial
+infarction, migraine prophylaxis,
+hyperthyroidism, heart failure.
+Psoriasis
+180
+Beta blockers (Metoprolol,
+Propranolol, Atenolol,
+Carvedilol)
+Metoprolol: For the treatment of
+Supraventricular arrythmia, angina
+pectoris, hypertension, myocardial
+infarction, migraine prophylaxis,
+hyperthyroidism, heart failure.
+Propranolol: For the treatment of
+Cardiac arrhythmias, tachycardia,
+hypertrophic obstructive cardiac
+myopathy, pheochromocytoma,
+thrombosis, management of angina,
+essential and renal hypertension,
+prophylaxis of migraine.
+Atenolol: For the treatment of
+hypertension, angina pectoris, cardiac
+arrhythmias
+Erectile Dysfunction
+(Reversible)
+
+===== PAGE 26 =====
+
+
+Carvedilol
+• To reduce cardiovascular mortality
+in clinically stable patients, who have
+survived the acute phase of a
+myocardial infarction and have a left
+ventricular ejection fraction of 40%
+(with or without symptomatic heart
+failure).
+• For the treatment of mild to severe
+chronic heart failure.
+• For the treatment of left ventricular
+dysfunction following myocardial
+infarction in clinically stable patients
+• For the treatment of hypertension.
+• For the treatment of Congestive
+Heart Failure (CHF)
+181
+29th August
+2025
+Tranexamic Acid
+• For the treatment of abnormal
+bleeding in which local
+hyperfibrinolysis is considered to be
+involved (pulmonary, haemorrhage,
+epistaxis, renal bleeding abnormal
+bleeding during or after prostate
+surgery).
+• Haemorrhage or risk of
+haemorrhage in increased fibrinolysis
+of hereditary angioneurotic oedema.
+• For the treatment of excessive
+bleeding in patients with haemophilia
+during & following tooth extraction.
+• For the treatment of menorrhagia.
+• For the prevention of oral
+haemorrhage in anticoagulant treated
+patients undergoing oral surgery.
+Nasal Congestion
+
+===== PAGE 27 =====
+
+
+182
+Metoclopramide
+• To restore normal coordination and
+tone the upper digestive tract and
+relieve symptoms of gastro-duodenal
+dysfunction including heart burn,
+dyspepsia, nausea and vomiting
+associated with such conditions as
+reflux oesophagitis, gastritis,
+duodenitis and hiatus hernia.
+• For the treatment of nausea and
+vomiting.
+Tachycardia
+183
+26th
+September
+2025
+Erythromycin
+Alternative to penicillin in
+hypersensitive patients; pneumonia;
+legionnaires’ diseases; syphilis;
+chancroid; chlamydia; non-
+gonococcal urethritis; prostatitis;
+lymphogranuloma venereum;
+campylobacter enteritis; relapsing
+fever; diphtheria and whooping cough
+prophylaxis upper respiratory tract
+infection, acne vulgaris, sycosis,
+vulgaris.
+FDE
+184
+20th
+February
+2026
+Dacarbazine
+Chemotherapy of malignant
+melanoma, Hodgkin’s lymphoma and
+soft tissue sarcomas.
+Transient reversible
+blurred vision
+185
+ Dolutegravir
+Use in combination with other
+antiretroviral agents for the treatment
+of Human Immunodeficiency Virus
+Type 1 (HIV 1) infection.
+Sexual dysfunction
+186
+30th March
+2026
+Polymyxin B
+Urinary tract infections caused by P.
+Aeruginosa and E. Coli, bloodstream
+infections caused by P. Aeruginosa,
+E. Aerogenes and K. Pneumoniae,
+Meningeal infections caused by P.
+Aeruginosa.
+Hypokalaemia
+187
+Clomipramine
+Antidepressant- obsessive compulsive
+disorders, phobic states and
+depression (when sedation is
+required).
+Akathisia
+188
+Famotidine
+Indicated in the treatment of duodenal
+& peptic ulcer, Zollinger-Ellison
+syndrome
+Fixed Drug Eruption
+189
+27th May
+2026
+Clonidine
+Indicated in the treatment of
+hypertension.
+Hyponatremia
+
+===== PAGE 28 =====
+
+
+190
+30th June
+2026
+Metoprolol
+• Antihypertensive agent- Indicated in
+the treatment of essential
+hypertension and angina pectoris.
+• Adjunct to the treatment of
+Hyperthyroidism.
+• Additional indication; i) functional
+heart disorders, ii) Migraine
+prophylaxis, iii) Cardiac Arrhythmias,
+iv) Prevention of cardiac death and
+reinfarction after the acute phase of
+myocardial infarction v) Stable
+symptomatic CHF.
+Additional indication: For the
+treatment of myocardial infarction.
+Hyperkalemia
+191
+27th July
+2026
+Polymyxin B
+• For the treatment of Infections of the
+urinary tract, meninges and blood
+stream caused by susceptible strains
+of Pseudomonas aeruginosa. It may
+also be used as subconjunctival
+injection in the treatment of infections
+of the eye caused by susceptible
+strains of Pseudomonas aeruginosa.
+• It may be indicated in serious
+infections caused by susceptible
+strains of the organisms-
+Haemophilus influenzae specifically
+meningeal infections, Escherichia coli
+specifically urinary tract infections,
+Aerobacter aerogenes specifically
+bacteraemia, Klebsiella pneumoniae
+specifically bacteraemia.
+Hypotension
+Healthcare Professionals, Patients/Consumers are advised to closely monitor the possibility of the above ADRs
+associated with the use of above suspected drugs. If, such reactions are encountered, please report to the NCC-
+PvPI, IPC by filling of Suspected Adverse Drug Reactions Reporting Form by HCPs, Medicines Side
+Effect Reporting Form by Consumer (download from https://www.ipc.gov.in), PvPI Helpline Number
+1800-180-3024, PvPI Mobile App 2.0 (available at Google Play Store) and ADRMS (
+https://adrmsipc.in/adrms/index.html)

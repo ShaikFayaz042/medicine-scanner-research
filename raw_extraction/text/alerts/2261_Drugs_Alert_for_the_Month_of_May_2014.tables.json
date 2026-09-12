@@ -1,0 +1,198 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      52.17,
+      99.47,
+      548.41,
+      760.35
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.No.",
+        "Name of the Drug/Medical\nDevice/Cosmetic",
+        "B.No., D/M, D/E,\nName of the Mfg.\n& Address",
+        "Reason for\nFailure with\nreport in\nForm 13/34\nNo. & Date",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1",
+        "Diclofenac Sodium tablets",
+        "B.No.08123-\nBG151\nMfg. Dt. 12-2013\nExp. Dt. 11-2016\nMfg. By: M/s.\nBiogenetic Drugs\nPvt Ltd., Jharmajri,\nBaddi-174103, H.P.",
+        "Disintegration\nTest\nCDTL/F18/D/\n209/14-15 Dt.\n30-05-2014",
+        "CDSCO,\nSouth Zone",
+        "CDTL,\nChennai"
+      ],
+      [
+        "2",
+        "Ibuprofen Tablets",
+        "B.No.4610\nMfg. Dt. 06-2013\nExp. Dt. 05-2015\nMfg. By:\nM/s.Vikram\nLaboratories (P)\nLtd., behind\nTubewell Colony,\nMeerut Road,\nMuzaffarnagar-\n251002 (U.P.)",
+        "Assay &\nDissolution\nCDTL/F18/D/\n104/14-15 Dt.\n30-05-2014",
+        "CDSCO,\nSouth Zone",
+        "CDTL,\nChennai"
+      ],
+      [
+        "3",
+        "Elispirin 150 Tablets\n(Enteric Coated Aspirin\nTablets)",
+        "B.No.ELP-122\nMfg. Dt. 12-2013\nExp. Dt. 11-2015\nMfg. By: M/s.\nEmbiotic\nLaboratories (P)\nLtd., 20C,\nKumbalgodu\nIndustrial Area, 1st\nPhase\nKumbalgodu,\nBangalore-560074",
+        "Dissolution\nCDTL/F18/11\n/177/14-15 Dt.\n30-05-2014",
+        "CDSCO,\nSouth Zone",
+        "CDTL,\nChennai"
+      ],
+      [
+        "4",
+        "Serratiopeptidase Tablets IP\n10mg",
+        "B.No. BUK-014\nMfg. Dt. 03-2013\nExp. Dt. 02-2015\nMfg. By: M/s.\nBHC lab Pvt Ltd.,\n91/2, DIC, Baddi,\nSolan H.P.-173205",
+        "Assay\nRDTL/561/13\n-14 Dt. 13-05-\n2014",
+        "CDSCO\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "5",
+        "Alprazolam Tablets (Agcalm-\n0.25)",
+        "B.No. HCM-03\nMfg. Dt. 06-2013\nExp. Dt. 05-2016\nMfg. By: M/s.\nAgron Remedies\nPvt Ltd.,\nSarverkhera,\nMoradabad Road,\nKashipur (U.K.)",
+        "Assay\nRDTL/567/13\n-14 Dt. 27-05-\n2014",
+        "CDSCO\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      52.16,
+      99.47,
+      548.42,
+      759.87
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "6",
+        "Rabeprazole&Domperidon\ntablets (Rappi-D)",
+        "B.No. T-130577\nMfg. Dt. 07-2012\nExp. Dt. 06-2014\nMfg. By: M/s.\nMerrilPharmaPvt.\nLtd., Plot No. 212,\nB/h P.G.\nInternational,\nRaipur,\nBhagwanpur,\nRoorkee (UA)",
+        "Disintegration\nTest\nRDTL/608/13\n-14 Dt. 13-05-\n2014",
+        "CDSCO\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "7",
+        "CefpodoximeProxetil Tablets\nI.P. (CP-200)",
+        "B.No. ULT-5454\nMfg. Dt. 10-2013\nExp. Dt. 09-2015\nMfg.By: M/s.\nUltratech\nPharmaceuticals\nVill. Tipra, Haripur\nRoad, P.O.\nBarotiwala, Solan\n(H.P.)",
+        "Dissolution\nRDTL/627/13\n-14 Dt. 13-05-\n2014",
+        "CDSCO\nSub Zone\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "8",
+        "Lignotox 2% (Lignocaine &\nAdrenaline Injection IP)",
+        "B.No. JT06\nMfg. Dt. 10-2012\nExp. Dt. 09-2014\nMfg. By: M/s.\nJ.L.Morison (India)\nLtd., Worli,\nMumbai-400018",
+        "Description &\nparticulate\nmatter\n32-20/2014-\nSS/DCA(J)-\n17/176 Dt. 06-\n05-2014",
+        "CDSCO\nNorth Zone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9",
+        "Artfin 60mg Injection\n(Artesunate for Injection)",
+        "B.No. D-1779\nMfg. Dt. 07-2013\nExp. Dt. 06-2015\nMfg. By: M/s. Zee\nlaboratories, 47,\nIndustrial Area,\nPoanta Sahib\n173205",
+        "Sterility Test\n& bacterial\nEndotoxin for\nSodium\nChloride\nInjection\nsupplied along\nwith sample as\ndiluent 32-\n1/2014-\nSS/DCA(N)-\n47/177 Dt. 06-\n05-2014",
+        "CDSCO\nNorth Zone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "10",
+        "Lidocaine Ointment USP",
+        "B.No. 735\nMfg. Dt. 08-2012\nExp. Dt. 07-2014\nMfg. By: M/s.\nCiron Drugs &\nPharmaceuticals\nPvt. Ltd. N-118,\n119, MIDC,\nTarapur, Boisar,\nThane-401506",
+        "Assay\n32-9/2014-\nSS/DCA(W)-\n3/232 Dt.19-\n05-2014",
+        "CDSCO\nWest Zone",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      52.17,
+      99.47,
+      548.41,
+      760.35
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "11",
+        "Ondot (Ondansetron Injection\nUSP 2ml)",
+        "B.No. OND-1015\nMfg.Dt. 09-2012\nExp. Dt. 08-2014\nMfg. By: M/s.\nCrystal\nPharmaceuticals,\n365, Model Town,\nAmbala City\n134003",
+        "Assay of\nOndansetron\n32-1/2013-\nSS/DCA(N)-\n40/280 Dt. 30-\n05-2014",
+        "CDSCO\nNorth Zone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "12",
+        "Trypsin Chymotrypsin Tablets",
+        "B.No. NT0103004\nMfg.Dt. 09-2013\nExp. Dt. 08-2016\nMfg. By: M/s.\nElder\nPharmaceuticals\nLtd., D-220, TTC\nIndustrial Area,\nNavi Mumbai-\n400706",
+        "Assay of\nTrypsin\nChymotrypsin\n(total\nProteolytic\nActivity)\n32-9/2014-\nSS/DCA(W)-\n95/290 Dt.30-\n05-2014",
+        "CDSCO\nWest Zone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "13",
+        "Ibuprofen Tablets",
+        "B.No. IB4-7050\nMfg.Dt. 05-2011\nExp. Dt. 04-2014\nMfg. By: M/s. Lark\nLaboratories\n(India) Ltd., SP-\n1192E, Phase-IV\nRIICO Industrial\nArea, Rajasthan-\n301019",
+        "Dissolution\n09183/2014-\n15 Dt. 13-05-\n2014",
+        "Drugs\nControl\nDept.,\nArunachal\nPradesh",
+        "CDTL,\nGuwahati"
+      ],
+      [
+        "14",
+        "Paracetamol,\nPropyphenazone& Caffeine\nTablets",
+        "B.No. 09210\nMfg.Dt. 09-2012\nExp. Dt. 08-2015\nMfg. By: M/s.\nJuggatPharma,\n(Pharma Division\nof Jagdale\nIndustries Ltd.),\n47/1, 20th km.,\nMysore Road,\nBangalore-560060",
+        "Disintegration\n09185/2014-\n15 Dt. 15-05-\n2014",
+        "Drugs\nControl\nDept.,\nAssam",
+        "CDTL,\nGuwahati"
+      ],
+      [
+        "15",
+        "Dart Tablets",
+        "B.No. 10225\nMfg.Dt. 10-2012\nExp. Dt. 09-2015\nMfg. By:\nM/s.JuggatPharma,\n(Pharma Division\nof Jagdale\nIndustries Ltd.),\n47/1, 20th km.,\nMysore Road,\nBangalore-560060",
+        "Disintegration\n09206/2014-\n15 Dt. 21-05-\n2014",
+        "Drugs\nControl\nDept.,\nAssam",
+        "CDTL,\nGuwahati"
+      ],
+      [
+        "16",
+        "Erythromycin Estolate Tablets",
+        "B.No. 10225",
+        "Disintegration",
+        "Drugs",
+        "CDTL,"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      52.2,
+      99.5,
+      548.38,
+      201.26
+    ],
+    "n_rows": 1,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Mfg.Dt. 10-2012\nExp. Dt. 09-2015\nMfg. By: M/s.\nHecatomb\nLaboratory Pvt.\nLtd., Baghorbori,\nPanjabari,\nGuwahati-781037",
+        ", Uniformity\nof Weight\n09232/2014-\n15 Dt. 28-05-\n2014",
+        "Control\nDept.,\nAssam",
+        "Guwahati"
+      ]
+    ]
+  }
+]

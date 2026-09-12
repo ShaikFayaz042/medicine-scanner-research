@@ -1,0 +1,122 @@
+{
+  "source": "public_notices",
+  "generated_at": "2026-09-12T13:43:41+00:00",
+  "total_pdfs": 11,
+  "extracted": 11,
+  "skipped": 0,
+  "errors": 0,
+  "total_chars": 348368,
+  "total_tables": 317,
+  "files": [
+    {
+      "pdf": "1721_Revised_List_of_Oxytocin_Manufacturer.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 10897,
+      "tables": 0,
+      "txt": "public_notices\\1721_Revised_List_of_Oxytocin_Manufacturer.txt",
+      "tables_json": "public_notices\\1721_Revised_List_of_Oxytocin_Manufacturer.tables.json",
+      "extracted_at": "2026-09-12T13:42:32+00:00"
+    },
+    {
+      "pdf": "4505_National_List_of_Essential_Medicines_2015.pdf",
+      "status": "ok",
+      "pages": 117,
+      "chars": 84422,
+      "tables": 110,
+      "txt": "public_notices\\4505_National_List_of_Essential_Medicines_2015.txt",
+      "tables_json": "public_notices\\4505_National_List_of_Essential_Medicines_2015.tables.json",
+      "extracted_at": "2026-09-12T13:42:56+00:00"
+    },
+    {
+      "pdf": "470_Notice_regarding_Draft_SOP_for_handling_of_NSQ_samples.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 630,
+      "tables": 0,
+      "txt": "public_notices\\470_Notice_regarding_Draft_SOP_for_handling_of_NSQ_samples.txt",
+      "tables_json": "public_notices\\470_Notice_regarding_Draft_SOP_for_handling_of_NSQ_samples.tables.json",
+      "extracted_at": "2026-09-12T13:42:57+00:00"
+    },
+    {
+      "pdf": "514_Notice_Order_regarding_Examination_of_Safety_and_efficacy_of_FDCs_licensed_for_manufacture_for_sale_in_the_country_witho.pdf",
+      "status": "ok",
+      "pages": 10,
+      "chars": 14681,
+      "tables": 15,
+      "txt": "public_notices\\514_Notice_Order_regarding_Examination_of_Safety_and_efficacy_of_FDCs_licensed_for_manufacture_for_sale_in_the_country_witho.txt",
+      "tables_json": "public_notices\\514_Notice_Order_regarding_Examination_of_Safety_and_efficacy_of_FDCs_licensed_for_manufacture_for_sale_in_the_country_witho.tables.json",
+      "extracted_at": "2026-09-12T13:43:01+00:00"
+    },
+    {
+      "pdf": "614_National_List_of_Essential_Medicines_NLEM_2015.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 498,
+      "tables": 0,
+      "txt": "public_notices\\614_National_List_of_Essential_Medicines_NLEM_2015.txt",
+      "tables_json": "public_notices\\614_National_List_of_Essential_Medicines_NLEM_2015.tables.json",
+      "extracted_at": "2026-09-12T13:43:02+00:00"
+    },
+    {
+      "pdf": "7596_PCR_Kits_approved_for_testing_of_Covid-19_as_on_23.08.2021.pdf",
+      "status": "ok",
+      "pages": 18,
+      "chars": 18779,
+      "tables": 18,
+      "txt": "public_notices\\7596_PCR_Kits_approved_for_testing_of_Covid-19_as_on_23.08.2021.txt",
+      "tables_json": "public_notices\\7596_PCR_Kits_approved_for_testing_of_Covid-19_as_on_23.08.2021.tables.json",
+      "extracted_at": "2026-09-12T13:43:04+00:00"
+    },
+    {
+      "pdf": "7966_PCR_Kits_approved_for_testing_of_Covid-19_as_on_09.12.2021.pdf",
+      "status": "ok",
+      "pages": 19,
+      "chars": 21280,
+      "tables": 19,
+      "txt": "public_notices\\7966_PCR_Kits_approved_for_testing_of_Covid-19_as_on_09.12.2021.txt",
+      "tables_json": "public_notices\\7966_PCR_Kits_approved_for_testing_of_Covid-19_as_on_09.12.2021.tables.json",
+      "extracted_at": "2026-09-12T13:43:08+00:00"
+    },
+    {
+      "pdf": "8141_Rapid_CLIA_ELISA_Kits_approved_for_testing_of_Covid-19_as_on_11.02.2022.pdf",
+      "status": "ok",
+      "pages": 16,
+      "chars": 27663,
+      "tables": 16,
+      "txt": "public_notices\\8141_Rapid_CLIA_ELISA_Kits_approved_for_testing_of_Covid-19_as_on_11.02.2022.txt",
+      "tables_json": "public_notices\\8141_Rapid_CLIA_ELISA_Kits_approved_for_testing_of_Covid-19_as_on_11.02.2022.tables.json",
+      "extracted_at": "2026-09-12T13:43:12+00:00"
+    },
+    {
+      "pdf": "9011_National_List_of_Essential_Medicines_2022.pdf",
+      "status": "ok",
+      "pages": 135,
+      "chars": 112456,
+      "tables": 101,
+      "txt": "public_notices\\9011_National_List_of_Essential_Medicines_2022.txt",
+      "tables_json": "public_notices\\9011_National_List_of_Essential_Medicines_2022.tables.json",
+      "extracted_at": "2026-09-12T13:43:30+00:00"
+    },
+    {
+      "pdf": "9824_PCR_Kits_approved_for_testing_of_Covid-19_as_on_25.01.2023.pdf",
+      "status": "ok",
+      "pages": 21,
+      "chars": 25787,
+      "tables": 21,
+      "txt": "public_notices\\9824_PCR_Kits_approved_for_testing_of_Covid-19_as_on_25.01.2023.txt",
+      "tables_json": "public_notices\\9824_PCR_Kits_approved_for_testing_of_Covid-19_as_on_25.01.2023.tables.json",
+      "extracted_at": "2026-09-12T13:43:34+00:00"
+    },
+    {
+      "pdf": "9825_Rapid_CLIA_ELISA_Kits_approved_for_testing_of_Covid-19_as_on_25.01.2023.pdf",
+      "status": "ok",
+      "pages": 17,
+      "chars": 31275,
+      "tables": 17,
+      "txt": "public_notices\\9825_Rapid_CLIA_ELISA_Kits_approved_for_testing_of_Covid-19_as_on_25.01.2023.txt",
+      "tables_json": "public_notices\\9825_Rapid_CLIA_ELISA_Kits_approved_for_testing_of_Covid-19_as_on_25.01.2023.tables.json",
+      "extracted_at": "2026-09-12T13:43:41+00:00"
+    }
+  ]
+}

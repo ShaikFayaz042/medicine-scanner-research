@@ -1,0 +1,51 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      126.2,
+      109.44,
+      788.7,
+      396.69
+    ],
+    "n_rows": 3,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.No.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "B.No.",
+        "Date of\nManufa\ncture",
+        "Date of\nExpiry",
+        "Manufactured by",
+        "Reasons for\nfailure",
+        "Drawn by",
+        "From",
+        "Remarks"
+      ],
+      [
+        "38.",
+        "Pantoprazole\nGastro- Resistant\nTablets IP\n(PAN*40)",
+        "22440483",
+        "Feb-22",
+        "Jul-24",
+        "ALKEM HEALTH\nSCIENCE, A unit\nof Alkem\nLaboratories\nLimited, Unit2,\nSamardung Karek\nBlock, P.O.:\nNamthang, South\nSikkim- 737137",
+        "Assay of\nPantoprazole",
+        "Drug\nController\nDepartment\nBhagalpur",
+        "RDTL\nGuwahati",
+        "The actual manufacturer\n(as per label claim) has\ninformed that the\nimpugned batch of the\nproduct has not been\nmanufactured by them\nand that it is a spurious\ndrug. Thus, the product is\npurported to be spurious,\nhowever, the same is\nsubject to outcome of\ninvestigation."
+      ],
+      [
+        "40.",
+        "PAN 40\n(Pantoprazole\nGastro- Resistant\nTablets I.P.)",
+        "22441073",
+        "Apr-22",
+        "Sep-24",
+        "ALKEM HEALTH\nSCIENCE, A unit\nof Alkem\nLaboratories\nLimited, Unit2,\nSamardung Karek\nBlock, P.O.:\nNamthang, South\nSikkim- 737137",
+        "Assay of\nPantoprazole",
+        "Drug\nController\nDepertment\nGoalpara",
+        "RDTL\nGuwahati",
+        "The actual manufacturer\n(as per label claim) has\ninformed that the\nimpugned batch of the\nproduct has not been\nmanufactured by them\nand that it is a spurious\ndrug. Thus, the product is\npurported to be spurious,\nhowever, the same is\nsubject to outcome of\ninvestigation."
+      ]
+    ]
+  }
+]

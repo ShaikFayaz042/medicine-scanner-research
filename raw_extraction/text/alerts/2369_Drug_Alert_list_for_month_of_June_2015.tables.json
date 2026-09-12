@@ -1,0 +1,71 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      11.85,
+      116.87,
+      562.57,
+      741.49
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Cefotaxime Sodium\nInjections",
+        "B. No.: DP-699\nMfg dt: 11/2014,\nExp dt: 10/2016\nMfd by: M/s. Pharma\nImpex Laboratories Pvt.\nLimited,\n620, D. H. Road, Kolkata,\n700034, West Bengal",
+        "Particulate\ncontamination",
+        "Drugs\nControl\nDepartment,\nTripura",
+        "RDTL, Guwahati"
+      ],
+      [
+        "2.",
+        "Cefotaxime Sodium\nInjections",
+        "B. No.: DP-726\nMfg dt: 12/2014,\nExp dt: 11/2016\nMfd by: M/s. Pharma\nImpex Laboratories Pvt.\nLimited,\n620, D. H. Road, Kolkata,\n700034, West Bengal",
+        "Particulate\ncontamination",
+        "Drugs\nControl\nDepartment,\nTripura",
+        "RDTL, Guwahati"
+      ],
+      [
+        "3.",
+        "Glimekem\n(Glimeprimide\nTablets I.P.)",
+        "B. No.: GMT/3004C\nMfg dt: 10/2013\nExp dt: 09/2015\nMfd by: M/s. Alkem\nLaboratories Pvt. Ltd.,\nVillage: Thana, Baddi, Distt.\nSolan, HP-173205.",
+        "Dissolution &\nAssay",
+        "CDSCO,\nAhmedabad\nZone",
+        "CDL, Kolkata"
+      ],
+      [
+        "4.",
+        "Ranitidine Tablets\nI.P. 150 mg",
+        "B. No.: 11 Ran 14\nMfg dt: 03/2014\nExp dt: 02/2016\nMfd by: M/s. IDPL (TN)\nLtd., Nandanbakkam,\nChennai – 600089.",
+        "Description",
+        "CDSCO,\nAhmedabad\nZone",
+        "CDL, Kolkata"
+      ],
+      [
+        "5.",
+        "K-Dox-200\n(Cefpodoxime\nDispersible Tablets\n200 mg)",
+        "B. No.: BLT-058\nMfg dt: 02/2014\nExp dt: 01/2016\nMfd by: M/s. Affine\nFormulations Pvt. Ltd.,\n1947/3, Vill: Bhatia, Tehsil\nNalagarh, Distt. Solan, H.P.",
+        "Uniformity of\nDispersion",
+        "CDSCO,\nEast Zone",
+        "CDL, Kolkata"
+      ],
+      [
+        "6.",
+        "Protolyte ORS 21.8\ng (Oral Rehydration\nSalts I.P.)",
+        "B. No.: 1422\nMfg dt: 02/2014\nExp dt: 01/2016\nMfd by: M/s. Zenith Drugs\n(P) Ltd., 35A-36, Industrial\nArea, Extn. Rao – 453331.",
+        "Seal Test",
+        "CDSCO,\nEast Zone",
+        "CDL, Kolkata"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      70.44,
+      129.02,
+      768.6,
+      265.12
+    ],
+    "n_rows": 2,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.No",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch\nNo.",
+        "Date\nof\nManu\nfactur\ne",
+        "Date of\nExpiry",
+        "Manufactured\nBy",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From",
+        "Remarks"
+      ],
+      [
+        "18.",
+        "Omeprazole\n(Delayed-Release)\nand Domperidone\n(Sustained Release)\nCapsules",
+        "E21004\n19",
+        "01/202\n1",
+        "12/2022",
+        "Dr. Reddys\nLaboratories Ltd.,\nVillage Mauja\nThana, Baddi-\n173205, Dist.\nSolan, Himachal\nPradesh.",
+        "Assay of\nOmeprazole and\nDomperidone",
+        "Drugs Control\nDepartment\nAssam",
+        "RDTL Guwahati",
+        "The actual manufacturer (as per label claim) has\ninformed that the impugned batch of the product has\nnot been manufactured by them and that it is a\nspurious drug. Thus, the product is purported to be\nspurious, however, the same is subject to outcome of\ninvestigation."
+      ]
+    ]
+  }
+]

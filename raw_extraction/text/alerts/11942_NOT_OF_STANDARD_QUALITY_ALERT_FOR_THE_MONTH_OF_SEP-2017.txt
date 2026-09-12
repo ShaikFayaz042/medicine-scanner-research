@@ -1,0 +1,25 @@
+===== PAGE 1 =====
+S.No.
+Vaccine Name
+Batch No.
+Manufacturing
+Date
+Expiry
+Date
+Manufactured By
+NSQ Result
+Reported by CDSCO Laboratory
+1
+Tetanus Vaccine(adsorbed)
+I.P (AbhayTox)
+Tox 23B/15
+Apr-15
+Mar-18
+M/s Human Biological Institute, (A division
+of Indian Immunologicals Limited),
+Rakshapuram, Gachibowli Post,
+Hyderabad- 500032
+Physical aspect
+Central Drugs Laboratory, Kasauli
+NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF SEP-2017.
+A. Central Laboratories

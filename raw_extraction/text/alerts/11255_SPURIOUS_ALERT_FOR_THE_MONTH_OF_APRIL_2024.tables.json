@@ -1,0 +1,151 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      71.95,
+      108.38,
+      795.41,
+      519.96
+    ],
+    "n_rows": 4,
+    "n_cols": 9,
+    "rows": [
+      [
+        "NCT of DELHI",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S. No.",
+        "Product/Drug\nName",
+        "B. No.",
+        "Manufactur\ning Date",
+        "Expiry\nDate",
+        "Manufactured\nBy as per label",
+        "Sales Outlets\nInvolved in\nDistribution of\nSpurious Drugs\n(Name and address\nof outlet with pin\ncode and\npharmacist name\nwith registration\nnumber)",
+        "Response of\nOriginal\nManufacturer\nstating how to\nidentify the\noriginal\nproduct from\nreported\nspurious\nproduct",
+        "Reported\nby\nCDSCO/\nState/Ma\nnufactur\ner"
+      ],
+      [
+        "1",
+        "Instgra\nTablets\n(Dolutegravir\nTablets IP 50\nmg)",
+        "E16DV23\n001",
+        "Feb.2023",
+        "Sep.2026",
+        "Emcure\nPharmaceutical\ns Ltd., Lane No.\n3, Phase II,\nSIDCO, Bari-\nBrahmana,\nJammu – 181\n133, India",
+        "1) M/s. Harsh\nPharma Capital Delhi\n2) M/s. Vedas\nHealthcare Delhi\n3) M/s. Mili\nHealthcare Mumbai\n4) M/s. Khushi\nEnterprises Jaipur\n5) M/s. V. K.\nEnterprises Jaipur",
+        "Based on\nphysical\nverification\nwith original\nproduct on spot\nand SLA email\ndt. May 10,\n2024",
+        "NCT of\nDelhi"
+      ],
+      [
+        "2",
+        "Telmisartan\n40mg and\nAmlodipine\n5mg Tablets",
+        "18230073",
+        "Feb.23",
+        "Jan.26",
+        "Glenmark\nPharmaceutical\ns Ltd. Samlik\nMarchak,",
+        "1) M/s. Dass Medical\nStore Delhi (on\ndirection of court)",
+        "As per SLA\nemail dt. May\n10, 2024",
+        "NCT of\nDelhi"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      71.96,
+      72.24,
+      795.64,
+      516.48
+    ],
+    "n_rows": 5,
+    "n_cols": 9,
+    "rows": [
+      [
+        "",
+        "I.P. (Telma-\nAM)",
+        "",
+        "",
+        "",
+        "Industrial\nGrowth Centre,\nEast Sikkim,\nSikkim-737135",
+        "2) M/s. Shree Giriraj Ji\nPharma Delhi\n3) M/s Amba\nMedicose Delhi",
+        "",
+        ""
+      ],
+      [
+        "3",
+        "Domperidone\nand Naproxen\nSodium\nTablets\n(Naxdom 500)",
+        "FHA0966",
+        "Dec.2023",
+        "Nov. 2026",
+        "Pure and Cure\nHealthcare Pvt.\nLtd. Plot No.\n26A, 27-30,\nSector-8A,\nI.I.E., Sidcul,\nRanipur,\nHaridwar-249\n403\n(Uttarakhand)",
+        "1) M/s. Jai Mata Di\nBhagirath Palace\nDelhi\n2) M/s. JMD\nEnterprises Patna",
+        "Based on\nphysical\ncomparison\nand analytical\ntests done by\nmanufacturer\nand SLA email\ndt. May 10,\n2024",
+        "NCT of\nDelhi"
+      ],
+      [
+        "4",
+        "Rifaximin\nTablets\n(Rifagut 400)",
+        "GKE0938\nA",
+        "June. 2023",
+        "May. 2025",
+        "Sun pharma\nlaboratories ltd.\nPlot No. 754,\nSetipool,\nNandok Block,\nR.O. Ranipool,\nEast Sikkim-\n737",
+        "1) M/s. Jai Mata Di\nBhagirath Palace\nDelhi\n2) M/s. JMD\nEnterprises Patna",
+        "Based on\nphysical\ncomparison\nand analytical\ntests done by\nmanufacturer\nand SLA email\ndt. May 10,\n2024",
+        "NCT of\nDelhi"
+      ],
+      [
+        "JHARKHAND",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5",
+        "Cefixime\nTrihydrate\nwith Lactic\nAcid Bacillus\nTablets LP.\n(Presef 200",
+        "BHCJ-009",
+        "Nov. 2022",
+        "Oct. 2024",
+        "Pragti\nRemedies Plot\nNo. 143 GS\nRoad Link\nUlubari\nGuwahathi",
+        "1. M/s. Pragti\nRemedies Plot No.\n143 GS Road Link\nUlubari Guwahathi\nAssam 781008;",
+        "Based on SLA\nemail dt. May\n13, 2024",
+        "SLA,\nJharkhan\nd"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      71.88,
+      72.24,
+      795.48,
+      238.39
+    ],
+    "n_rows": 1,
+    "n_cols": 9,
+    "rows": [
+      [
+        "",
+        "LB Tablets)\n★Serial No. 14\nof NSQ alert\nof April, 2024",
+        "",
+        "",
+        "",
+        "Assam 781008\n(This firm does\nnot exist at the\ngiven address\nas per SDC,\nAssam vide\nletter no-\nCFDA/2019/05/\nPT-1/1073, Dt.\n19.03.2024)",
+        "2. M/s. Pama\nPharmaceuticals Devi\nMandap Road Ratu\nRoad Ranchi;\n3. M/s. Sarthak\nAgency Kathitand\nRatu Road Ranchi;\n4. M/s. Life Saver 11/1\nDewan Gazi Road\nKolkata West Bengal",
+        "",
+        ""
+      ]
+    ]
+  }
+]

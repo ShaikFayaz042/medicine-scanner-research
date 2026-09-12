@@ -1,0 +1,122 @@
+{
+  "source": "fdc",
+  "generated_at": "2026-09-12T13:43:41+00:00",
+  "total_pdfs": 11,
+  "extracted": 11,
+  "skipped": 0,
+  "errors": 0,
+  "total_chars": 967081,
+  "total_tables": 120,
+  "files": [
+    {
+      "pdf": "11024_LIST_OF_DRUGS_PROHIBITED_FOR_MANUFACTURE_AND_SALE_THROUGH_GAZETTE_NOTIFICATIONS_UNDER_SECTION_26A_OF_DRUGS_COSMETICS_ACT.pdf",
+      "status": "ok",
+      "pages": 34,
+      "chars": 53528,
+      "tables": 34,
+      "txt": "fdc\\11024_LIST_OF_DRUGS_PROHIBITED_FOR_MANUFACTURE_AND_SALE_THROUGH_GAZETTE_NOTIFICATIONS_UNDER_SECTION_26A_OF_DRUGS_COSMETICS_ACT.txt",
+      "tables_json": "fdc\\11024_LIST_OF_DRUGS_PROHIBITED_FOR_MANUFACTURE_AND_SALE_THROUGH_GAZETTE_NOTIFICATIONS_UNDER_SECTION_26A_OF_DRUGS_COSMETICS_ACT.tables.json",
+      "extracted_at": "2026-09-12T13:36:19+00:00"
+    },
+    {
+      "pdf": "12085_List_of_02_Restricted_FDC_drugs_dated_12.08.2024.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 302,
+      "tables": 1,
+      "txt": "fdc\\12085_List_of_02_Restricted_FDC_drugs_dated_12.08.2024.txt",
+      "tables_json": "fdc\\12085_List_of_02_Restricted_FDC_drugs_dated_12.08.2024.tables.json",
+      "extracted_at": "2026-09-12T13:36:19+00:00"
+    },
+    {
+      "pdf": "12086_List_of_Prohibited_FDC_drugs_14_FDCs_dated_02.06.2023.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1402,
+      "tables": 1,
+      "txt": "fdc\\12086_List_of_Prohibited_FDC_drugs_14_FDCs_dated_02.06.2023.txt",
+      "tables_json": "fdc\\12086_List_of_Prohibited_FDC_drugs_14_FDCs_dated_02.06.2023.tables.json",
+      "extracted_at": "2026-09-12T13:36:19+00:00"
+    },
+    {
+      "pdf": "12087_List_of_Prohibited_FDC_drugs_156_FDCs_dated_02.08.2024.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 16238,
+      "tables": 7,
+      "txt": "fdc\\12087_List_of_Prohibited_FDC_drugs_156_FDCs_dated_02.08.2024.txt",
+      "tables_json": "fdc\\12087_List_of_Prohibited_FDC_drugs_156_FDCs_dated_02.08.2024.tables.json",
+      "extracted_at": "2026-09-12T13:36:22+00:00"
+    },
+    {
+      "pdf": "12088_List_of_Prohibited_FDC_S_Etodolac_Paracetamol_12.08.2024.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 123,
+      "tables": 1,
+      "txt": "fdc\\12088_List_of_Prohibited_FDC_S_Etodolac_Paracetamol_12.08.2024.txt",
+      "tables_json": "fdc\\12088_List_of_Prohibited_FDC_S_Etodolac_Paracetamol_12.08.2024.tables.json",
+      "extracted_at": "2026-09-12T13:36:22+00:00"
+    },
+    {
+      "pdf": "14514_List_of_16_FDCs_banned_dated_11.06.2026.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1291,
+      "tables": 1,
+      "txt": "fdc\\14514_List_of_16_FDCs_banned_dated_11.06.2026.txt",
+      "tables_json": "fdc\\14514_List_of_16_FDCs_banned_dated_11.06.2026.tables.json",
+      "extracted_at": "2026-09-12T13:36:22+00:00"
+    },
+    {
+      "pdf": "14519_2026.06.11_S.O._3068E_to_S.O._3083E__Prohibition_of_16_FDCs.pdf",
+      "status": "ok",
+      "pages": 26,
+      "chars": 84721,
+      "tables": 0,
+      "txt": "fdc\\14519_2026.06.11_S.O._3068E_to_S.O._3083E__Prohibition_of_16_FDCs.txt",
+      "tables_json": "fdc\\14519_2026.06.11_S.O._3068E_to_S.O._3083E__Prohibition_of_16_FDCs.tables.json",
+      "extracted_at": "2026-09-12T13:36:28+00:00"
+    },
+    {
+      "pdf": "2237_List_of_FDCs_under_category_c_permitted_for_continu_ed_manufacturing_and_marketing_under_18_month_policy_decision_dated_.pdf",
+      "status": "ok",
+      "pages": 43,
+      "chars": 249112,
+      "tables": 43,
+      "txt": "fdc\\2237_List_of_FDCs_under_category_c_permitted_for_continu_ed_manufacturing_and_marketing_under_18_month_policy_decision_dated_.txt",
+      "tables_json": "fdc\\2237_List_of_FDCs_under_category_c_permitted_for_continu_ed_manufacturing_and_marketing_under_18_month_policy_decision_dated_.tables.json",
+      "extracted_at": "2026-09-12T13:37:13+00:00"
+    },
+    {
+      "pdf": "3170_2019.01.11_S.O._180E_to_S.O.259E_Prohibition_of_certain_FDCs_appeared_in_the_list_of_294_FDCs_under_Section_26A.pdf",
+      "status": "ok",
+      "pages": 130,
+      "chars": 500836,
+      "tables": 0,
+      "txt": "fdc\\3170_2019.01.11_S.O._180E_to_S.O.259E_Prohibition_of_certain_FDCs_appeared_in_the_list_of_294_FDCs_under_Section_26A.txt",
+      "tables_json": "fdc\\3170_2019.01.11_S.O._180E_to_S.O.259E_Prohibition_of_certain_FDCs_appeared_in_the_list_of_294_FDCs_under_Section_26A.tables.json",
+      "extracted_at": "2026-09-12T13:37:44+00:00"
+    },
+    {
+      "pdf": "3251_System_of_preliminary_scrutiny_by_C.D.S.C.O_at_the_time_of_receipt_of_application_for_approval_of_Fixed_Dose_Combination.pdf",
+      "status": "ok",
+      "pages": 23,
+      "chars": 44847,
+      "tables": 17,
+      "txt": "fdc\\3251_System_of_preliminary_scrutiny_by_C.D.S.C.O_at_the_time_of_receipt_of_application_for_approval_of_Fixed_Dose_Combination.txt",
+      "tables_json": "fdc\\3251_System_of_preliminary_scrutiny_by_C.D.S.C.O_at_the_time_of_receipt_of_application_for_approval_of_Fixed_Dose_Combination.tables.json",
+      "extracted_at": "2026-09-12T13:37:51+00:00"
+    },
+    {
+      "pdf": "514_Notice_Order_regarding_Examination_of_Safety_and_efficacy_of_FDCs_licensed_for_manufacture_for_sale_in_the_country_witho.pdf",
+      "status": "ok",
+      "pages": 10,
+      "chars": 14681,
+      "tables": 15,
+      "txt": "fdc\\514_Notice_Order_regarding_Examination_of_Safety_and_efficacy_of_FDCs_licensed_for_manufacture_for_sale_in_the_country_witho.txt",
+      "tables_json": "fdc\\514_Notice_Order_regarding_Examination_of_Safety_and_efficacy_of_FDCs_licensed_for_manufacture_for_sale_in_the_country_witho.tables.json",
+      "extracted_at": "2026-09-12T13:37:56+00:00"
+    }
+  ]
+}

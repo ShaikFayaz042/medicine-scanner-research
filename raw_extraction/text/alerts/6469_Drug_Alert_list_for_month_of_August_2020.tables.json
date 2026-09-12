@@ -1,0 +1,295 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.28,
+      80.08,
+      582.5,
+      160.66
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "843"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "821"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "22"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "0"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.21,
+      174.83,
+      596.67,
+      717.85
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.No\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Diclofenac gel B.P.\n1% w/w",
+        "B. No.: 8916\nMfg dt: 09/2019\nExp dt: 08/2020\nMfd by: M/s. Syncom\nHealthcare Ltd.D-42,IIE\nSIDCUL, Selaqui,\nDehradun-248197, U.K.",
+        "ASSAY",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2.",
+        "Folic Acid Tablets\nI.P. 5mg.",
+        "B. No.: T9125\nMfg dt: 05/2019\nExp dt: 04/2022\nMfd by: M/s. Bharat\nParenterals Ltd. ViLL-\nHaripura, TA. Savli, Dist-\nVadodara-391520, Gujarat.",
+        "ASSAY",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3.",
+        "Hypodermic\nSyringe 2ml.",
+        "B. No.: 19501\nMfg dt: 12/2019\nExp dt: 11/2021\nMfd by: M/s.\nGurumangalam International\nRancharda-382115 (TA,\nKalol, Dist-Gandhinagar).",
+        "Sterility",
+        "Drugs Control\nDepartment,\nGujarat",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4.",
+        "Hypodermic\nSyringe 2ml.",
+        "B. No.: 19503\nMfg dt: 12/2019\nExp dt: 11/2021\nMfd by: M/s.\nGurumangalam International\nRancharda-382115 (TA.\nKalol, Dist-Gandhinagar).",
+        "Sterility",
+        "Drugs Control\nDepartment,\nGujarat",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5.",
+        "Hypodermic\nSyringe 5ml.",
+        "B. No.: 19703\nMfg dt: 12/2019\nExp dt: 11/2021\nMfd by: M/s.",
+        "Sterility",
+        "Drugs Control\nDepartment,\nGujarat",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      28.53,
+      596.67,
+      716.89
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Gurumangalam International\nRancharda-382115 (TA.\nKalol, Dist-Gandhinagar).",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.",
+        "Winpress-XL 5mg\n(Prazosin\nHydrochloride\nSustained Release\nTablets)",
+        "B. No.: PST9001\nMfg dt: 02/2019\nExp dt: 01/2021\nMfd by: M/s. Vivimed Labs\nLimited, D-125 &128, Phase\nIII, IDA, Jeedimetla,\nHyderabad-500055,\nTelangana.",
+        "Dissolution",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "Halopar\n(Haloperidol\nInjection IP\n5mg/ml) 1ml.",
+        "B. No.: DP9004\nMfg dt: 01/2019\nExp dt: 12/2020\nMfd by: M/s. Divine\nLaboratories Pvt. Ltd., Block\nNo. 471, Dabhasa, Ta.:\nPadra. Dist. Vadodara.",
+        "Description &\nParticulate\nMatter",
+        "CDSCO,\nAhmedabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "Aciclovir Tablets IP\n(Herpivir-800\nTablets)",
+        "B. No.: DVT197055\nMfg dt: 07/2019\nExp dt: 06/2021\nMfd by: M/s. Digital Vision\n176, Mauza Ogli, Nahan\nRoad, Kala-Amb, Distt.\nSirmour (H.P.)-173030.",
+        "Uniformity of\nweight",
+        "CDSCO North-\nZone,\nGhaziabad (UP)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "9.",
+        "Advanced Hand\nRub 70% Alcohol\n(RYAAL)",
+        "B. No.: BO208586\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. Bo\nInternational A91, Wazirpur\nIndustrial Area, New Delhi-\n110052.",
+        "Assay of\nIsopropyl\nAlcohol and\nChlorhexidine\nGluconate\nSolution",
+        "Drug Control,\nDepartment,\nGovt .of N.C.T\nof Delhi,",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "10.",
+        "Isopropyl Alcohol\nand Chlorhexidine\nGluconate Hand\nSanitizer\n(Vibpure Hand\nSanitizer)",
+        "B. No.: 231H\nMfg dt: 06/2020\nExp dt: 05/2022\nMfd by: M/s. Haustus\nBiotech Pvt. Ltd. 44-45, Ind.\nArea, Tahliwal, Distt. Una\n(H.P.).",
+        "Assay of\nIsopropyl\nAlcohol",
+        "Drug Control,\nDepartment,\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "11.",
+        "(Allyn Instant Dry\nHand Rub)",
+        "B. No.: PKE-06\nMfg dt: 06/2020\nExp dt: 05/2023\nMfd by: M/s.\nP.K.COSMETICS C-152,",
+        "Assay of Ethyl\nAlcohol",
+        "Drug Control,\nDepartment,\nGovt. of N.C.T.\nof Delhi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.21,
+      28.53,
+      596.67,
+      713.17
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Sector-2, DSIIDC, Bawana\nIndustrial Area, Delhi-\n110039.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "12.",
+        "Clidinium Bromide,\nChlordiazepoxide\nand Magnesium\nHydroxide Tablets\n(Ulcon Tablets)",
+        "B. No.: ULGT20031\nMfg dt: 01/2020\nExp dt: 12/2021\nMfd by: M/s. UNIMARCK\nHEALTHCARE LTD. Plot\nNo.25 & 37, Sector-6A,\nSIDCUL, Haridwar-249403\n(Uttarakhand).",
+        "Assay of\nClidinium\nBromide",
+        "CDSCO North-\nZone,\nGhaziabad (UP)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "13.",
+        "Ethanol Hand\nSanitizer\n(Instawash Hand\nSanitizer)",
+        "B. No.: 247H\nMfg dt: 06/2020\nExp dt: 05/2022\nMfd by: M/s. Haustus\nBiotech Pvt. Ltd. 44-45, Ind.\nArea, Tahliwal, Distt. Una\n(H.P.).",
+        "Assay of\nEthanol",
+        "Drug Control,\nDepartment,\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "14.",
+        "Ethyl Alcohol\nSolution 70%\n(Handzon Instant\nHand Sanitizer)",
+        "B. No.: HDZC-016\nMfg dt: 05/2020\nExp dt: 04/2022\nMfd by: M/s. RPL (India)\nPharmaceuticals Pvt. Ltd.,\nD-8/5 & D-8/6, Okhla,\nIndustrial Area, Phase-1,\nNew Delhi-110020.",
+        "Assay of\nEthanol",
+        "Drug Control,\nDepartment,\nGovt of N.C.T.\nof Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "15.",
+        "(Allyn Instant Dry\nHand Rub)",
+        "B. No.: PKEA-07\nMfg dt: 07/2020\nExp dt: 07/2023\nMfd by: M/s.\nP.K.COSMETICS C-152,\nSector-2, DSIIDC, Bawana\nIndustrial Area, Delhi-\n110039.",
+        "Assay of Ethyl\nAlcohol",
+        "Drug Control,\nDepartment,\nGovt. of N.C.T.\nof Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "16.",
+        "Cefixime\nDispersible Tablets\n(Micfox-100 Dt\nTablets)",
+        "B. No.: FBT19-186B\nMfg dt: 06/2019\nExp dt: 05/2021\nMfd by: M/s. Athens Life\nSciences Mauza Rampur\nJattan, Nahan Road, Kala\nAmb, Distt.Sirmour,\nH.P.173030.",
+        "Assay",
+        "Drug Control,\nDepartment,\nGovt .of N.C.T.\nof Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "17.",
+        "Amoxycillin &\nPotassium\nClavulanate",
+        "B. No.: KPT-3348\nMfg dt: 11/2019\nExp dt: 04/2021",
+        "Dissolution\n(Amoxycillin\nTrihydrate",
+        "Drug Control,\nDepartment,\nGovt .of N.C.T.",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      15.21,
+      28.53,
+      596.67,
+      671.05
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "Tablets IP 625 mg\n(Amzeclav-625\nTablets)",
+        "Mfd by: M/s. G NINE\nBIOCEUTICALS PVT. Ltd,\n208-F, Sector-3, HSIDC,\nIndustrial Estate, Karnal-\n132001 (Haryana).",
+        "",
+        "of Delhi",
+        ""
+      ],
+      [
+        "18.",
+        "New Fame N Love\nFairness Cream",
+        "B. No.: 5\nMfg dt: 07/2020,\nExp dt: 06/2023,\nMfd by: M/s.\nP.C.COSMETICS",
+        "Total Aerobic\nMicrobial Count,\nTotal yeast and\nMould Count,\nPseudomonas\naeruginosa per\ngram",
+        "Drug Control,\nDepartment,\nGovt .of N.C.T.\nof Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "19.",
+        "Vitamin C, Vitamin\nB-12, Folic Acid\nand Niacinamide\nInjection ( Eldervit-\n12 Im/Iv Drip)",
+        "B. No.: 20NI0210\nMfg dt: 02/2020,\nExp dt: 01/2022,\nMfd by: M/s. Nuclotec\nRemedies Pvt. Ltd. 14-Mile\nStone, Rudrapur-Kashipur\nRoad, Gadarpur, Distt-\nU.S.Nagar, (Uttarakhand)-\n263152.",
+        "Particulate\nMatter",
+        "CDSCO North-\nZone,\nGhaziabad (UP)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "20.",
+        "Vitamin C, Vitamin\nB-12, Folic Acid\nand Niacinamide\nInjection\n(Eldervit-12 Im/Iv\nDrip)",
+        "B. No.: 20NI0212\nMfg dt: 02/2020\nExp dt: 01/2022\nMfd by: M/s. Nuclotec\nRemedies Pvt. Ltd. 14-Mile\nStone, Rudrapur-Kashipur\nRoad, Gadarpur, Distt-\nU.S.Nagar, (Uttarakhand)-\n263152.",
+        "Sterility A,\nSterility B",
+        "CDSCO (North-\nZone),\nGhaziabad (UP)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "21.",
+        "Ethyl Alcohol,\nIsopropyl Alcohol\nand Niacinamide\nHand Sanitizer Gel\n( Tanzo)",
+        "B. No.: SM041\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. Swiss Biotech\nParentrals Kewat No.1138,\nVPO-Kachhwa, Karnal\n132001 (Haryana).",
+        "Assay of Ethyl\nAlcohol,\nIsopropyl\nAlcohol",
+        "Drug Control,\nDepartment,\nGovt .of N.C.T.\nof Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "22.",
+        "Instant Hand\nSanitizer Original\nAlcohol Based\n(Safe Me\nSanitizer)",
+        "B. No.: SM/2020/508\nMfg dt: 02/2020\nExp dt: 01/2022\nMfd by: M/s. KDM\nGOLDSTAR CO. New\nDelhi-110019.",
+        "Identification for\nAlcohol (Ethyl\nAlcohol)",
+        "Drug Control,\nDepartment,\nSrinagar",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

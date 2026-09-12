@@ -1,0 +1,1130 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      70.39,
+      72.2,
+      816.17,
+      162.14
+    ],
+    "n_rows": 6,
+    "n_cols": 2,
+    "rows": [
+      [
+        "List of Drugs, Medical Devices, Vaccine and Cosmetics declared as Not of Standard Quality/Spurious/Adulterated/Misbranded for the Month of\nDecember– 2023",
+        ""
+      ],
+      [
+        "Total number of samples tested",
+        "1008"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "930"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "78"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "0"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      70.39,
+      174.22,
+      816.17,
+      500.65
+    ],
+    "n_rows": 6,
+    "n_cols": 9,
+    "rows": [
+      [
+        "S.No",
+        "Name of Drugs/medical\ndevice/cosmetics",
+        "Batch No.",
+        "Date of\nManufacture",
+        "Date of\nExpiry",
+        "Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By\n(From\nstate/CDSCO\nZone)",
+        "From (Name of\nLaboratory)"
+      ],
+      [
+        "1",
+        "Montelukast Sodium and\nLevocetirizine Dihydrochloride Tablets\n(MELEE TABLETS)",
+        "JUN-23146",
+        "Jun-2023",
+        "May-2025",
+        "Bonsai Pharma, Kishanpura,\nBaddi-Nalagarh Road,\nP.O.Gurumajara, Distt. Solan\n(H.P.)",
+        "Assay of\nMontelukast\nSodium\nCalculated as\nMontelukast",
+        "O/o State Drugs\nController, H.Q.\nBaddi, H.P.",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "2",
+        "Multi-Vitamin Tablets (VITAJACKS-S\nTABLETS)",
+        "T-171",
+        "Apr-2023",
+        "Mar-2025",
+        "Jackson Laboratories Pvt. Ltd., 22-\n24, Majitha Road, Bye Pass,\nAmritsar-143001 (India)",
+        "Assay of Vitamin\nB1 and Vitamin\nC.",
+        "CDSCO (North\nZone), Ghaziabad",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "3",
+        "Telmisartan and Amlodipine Tablets IP\n(Zensartan-AM Tablets)",
+        "WEL22031",
+        "Apr-2022",
+        "Sep-2024",
+        "Windlas Biotech Limited (Plant-2),\nKhasra No. 141 to 143 & 145.,\nMohabewala Indl. Area,\nDehradun-248110 (U.K.)",
+        "Assay of\nAmlodipine\nBesilate\ncalculated as\nAmlodipine",
+        "CDSCO Sub\nZone Baddi,",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "4",
+        "Telmisartan Tablets IP 40 mg\n(Telmibeck-40 Tablets)",
+        "BT23-297",
+        "Jul-2023",
+        "Jun-2025",
+        "Biocore Pharmaceuticals, Plot No.\n8-C, D.I.C. Indl. Area, Lodhimajra,\nBaddi, Distt. Solan (HP)-173205",
+        "Dissolution of\nTelmisartan",
+        "CDSCO Sub\nZone Baddi,",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "5",
+        "Pregabalin Capsules IP (Pragavir\nCapsules)",
+        "MMC-1476",
+        "Jun-2023",
+        "May-2025",
+        "Mayoford Pharma, Near Railway\nCrossing, Chambaghat, Solan,\nDistt. Solan (H.P.)-173205",
+        "Assay of\nPregabalin",
+        "State FDA, H.Q.\nBaddi, H.P.",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      70.39,
+      72.34,
+      816.17,
+      501.73
+    ],
+    "n_rows": 6,
+    "n_cols": 9,
+    "rows": [
+      [
+        "6",
+        "Cyproheptadine HCl and Tricholine\nCitrate Syrup (CYPOFINE-T Syrup)",
+        "SHL1107B",
+        "Jul-2022",
+        "Jun-2024",
+        "SUNFINE HEALTCHARE, Plot\nNo.63, Ind.Area Lodhimajra,\nTehsil Baddi, Distt. Solan (H.P.)\n1732025",
+        "Assay of\nTricholine Citrate",
+        "State FDA, H.Q.\nBaddi, H.P.",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "7",
+        "Sodium Valporate Tablets IP 200 mg",
+        "423-499",
+        "Mar-2023",
+        "Feb-2025",
+        "ZEE LABORATORIES LTD.,\nBehind 47, Industrial Area, Paonta\nSahib-173205",
+        "Dissolution of\nSodium Valproate",
+        "State FDA Drugs\nControl\nDepartment,\nDelhi",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "8",
+        "Aceclofenac, Paracetamol and\nSerratiopeptidase Tablets (ACETOP-\nSP TABLETS)",
+        "YT206011",
+        "Jun-2022",
+        "May-2024",
+        "Yug Enteprises Pvt. Ltd., Khasra\nNo.143M, Raipur, Bhagwanpur,\nRoorkee, Distt. haridwar (UK)\n247661",
+        "Assay of\nSerratiopeptidase",
+        "CDSCO (North\nZone), Ghaziabad",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "9",
+        "Cefpodoxime Proxetil Tablets IP\n(DOXTIL-200 TABLETS)",
+        "MHBT/23/03\n8",
+        "Apr-2023",
+        "Mar-2025",
+        "Morisus Healthcare, Ind. Area,\nBhagwanpur, Roorkee-247661",
+        "Uniformity of\nweight,\nIdentification and\nAssay of\nCefpodoxime\nProxetil\nequivalent to\nanhydrous\nCefpodoxime",
+        "State FDA,\nH.Q.Baddi, HP",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "10",
+        "Ampicillin Capsules IP 500 mg\n(Ampicillin-500 Capsules)",
+        "RRCF 002",
+        "May-2023",
+        "Apr-2025",
+        "Ross Robinz Biotech,\n(Manufactured under technical\nguidance of ) ASHICON\nREMEDIES V.P.O-Barog, Solan -\n173212 (H.P.)",
+        "Assay of\nAmpicillin\nTrihydrate\ncalculated as\nAmpicillin",
+        "State FDA,\nH.Q.Baddi, HP",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "11",
+        "Amoxycillin Trihydrate Capsules IP\n(Amoxus -500 Capsules)",
+        "CP04854",
+        "Jun-2023",
+        "May-2025",
+        "Morisus Healthcare, Ind. Area,\nBhagwanpur, Roorkee-247661",
+        "Identification,\nUniformity of\nfilled weight and\nAssay of\nAmoxycillin",
+        "O/o State Drugs\nController, H.Q.\nBaddi, HP",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      70.38,
+      72.34,
+      816.18,
+      501.01
+    ],
+    "n_rows": 5,
+    "n_cols": 9,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "trihydrate eq. to\nAmoxycillin",
+        "",
+        ""
+      ],
+      [
+        "12",
+        "Azithromycin Tablets IP 500 mg\n(Zathron-500 Tablets)",
+        "45865",
+        "Mar-2023",
+        "Feb-2025",
+        "Reon Pharma, Plot No. F-310,\nRoad No-3, Phase-1st Kathwad,\nGidc Bhind Odhav Vepan,\nAhmedabad (Gujrat)",
+        "Identification and\nAssay of\nAzithromycin\nDihydrate\nequivalent to\nanhydrous\nAzithromycin",
+        "State FDA,\nH.Q.Baddi, HP",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "13",
+        "Cefuroxime Axetil Tablets IP (Roxim-\n500 Tablets)",
+        "457783",
+        "Mar-2023",
+        "Feb-2026",
+        "Reon Pharma, Plot No. F-310,\nRoad No-3, Phase-1st Kathwad,\nGidc Bhind Odhav Vepan,\nAhmedabad (Gujrat)",
+        "Identification,\nUniformity of\nweight and Assay\nof Cefuroxime\nAxetil eq. to\nCefuroxime",
+        "O/o State Drugs\nController, H.Q.\nBaddi, HP",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "14",
+        "Cefixime Trihydrate and Lactic Acid\nBacillus Tablets (MEF-200 LB\nTABLETS)",
+        "MHBT/23/02\n5",
+        "Apr-2023",
+        "Mar-2025",
+        "Morisus Healthcare, Ind. Area,\nBhagwanpur, Roorkee-247661",
+        "Identification and\nAssay of\nCefixime\nTrihydrate eq. to\nAnhydrous\nCefixime",
+        "State FDA H.Q.\nBaddi, HP",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "15",
+        "Ascorbic Acid +Zinc 500mg/5mg\nCapsules (MAX-CEE+CAPSULES)",
+        "MT-2231",
+        "Apr-2023",
+        "Mar-2026",
+        "Mason Pharma, P1, 125 EPIP,\nJharmajri, Dist. Solan (HP), India",
+        "Identification and\nAssay of Zinc\nSulphate\nmonohydrate\ncalculated as\nelemental Zinc\nand Assay of\nSodium Ascorbate\ncalculated as\nAscorbic acid",
+        "O/o State Drugs\nController, H.Q.\nBaddi, HP",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      70.4,
+      72.34,
+      816.16,
+      498.01
+    ],
+    "n_rows": 7,
+    "n_cols": 9,
+    "rows": [
+      [
+        "16",
+        "Ascorbic Acid 500 mg Capsules\n(MAX-CEE CAPSULES)",
+        "MT-2232",
+        "Apr-2023",
+        "Mar-2026",
+        "Mason Pharma, P1, 125 EPIP,\nJharmajri, Dist. Solan (HP), India",
+        "Assay of Sodium\nAscorbate\ncalculated as\nAscorbic Acid",
+        "State FDA H.Q.\nBaddi, HP",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "17",
+        "TESTO-VAS-250 (Testosterone Mix\nCompound Injection)",
+        "MI-101",
+        "Sep-2022",
+        "Aug-2025",
+        "QP Pharmachem Ltd., F-5, Focal\nPoint, Dera Bassi, SAS Nagar\n(Pb). 140507.",
+        "Particulate Matter\nand Description",
+        "Office of the\nAssistant\nDirector,\nVijayawada,\nNTR Dist. A.P.",
+        "CDL\nKolkata"
+      ],
+      [
+        "18",
+        "Peritoneal Dialysis Solution IP (1.7%\nw/v) (PD 1.7 )",
+        "1K25276",
+        "Nov-2022",
+        "Oct-2025",
+        "Aculife Healthcare Pvt. Ltd.,\nSachana, Gujarat 382150, India.",
+        "Assay of Calcium",
+        "CDSCO\nHyderabad.",
+        "CDL\nKolkata"
+      ],
+      [
+        "19",
+        "SODIUM CHLORIDE INJECTION IP\n(0.9% w/v) (NS)",
+        "S1FBV01",
+        "Jan-2022",
+        "Dec-2023",
+        "Swaroop Pharmaceuticals Pvt.\nLtd., A-10, Tala Nagari Industrial\nArea, Aligarh 202001.",
+        "Bacterial\nendotoxins",
+        "CDSCO, Baddi",
+        "CDL\nKolkata"
+      ],
+      [
+        "20",
+        "Heparin Sodium Injection IP 5000\nIU/5ml",
+        "AGI-23111",
+        "May-2023",
+        "Apr-2025",
+        "Alliance Biotech, 440/3, Vill-\nKatha, Baddi, Solan (H.P.)-173205",
+        "pH, Particulate\nMatter and\nDescription",
+        "O/o. The Drugs\nInspector,\nOdisha, Odisha,\nBhubaneswar-V\nRange,\nBhubaneswar",
+        "CDL\nKolkata"
+      ],
+      [
+        "21",
+        "Heparin Sodium Injection IP 5000\nIU/5ml",
+        "AGI-23110",
+        "May-2023",
+        "Apr-2025",
+        "Alliance Biotech, 440/3, Vill-\nKatha, Baddi, Solan (H.P.)-173205",
+        "pH, Particulate\nMatter and\nDescription",
+        "O/o. The Drugs\nInspector,\nOdisha,\nSambalpur\nRange,\nSambalpur",
+        "CDL\nKolkata"
+      ],
+      [
+        "22",
+        "Heparin Sodium Injection IP 5000\nIU/5ml",
+        "AGI-23109",
+        "May-2023",
+        "Apr-2025",
+        "Alliance Biotech, 440/3, Vill-\nKatha, Baddi, Solan (H.P.)-173205",
+        "Particulate Matter\nand Description",
+        "O/o. The Drugs\nInspector,\nOdisha,\nSambalpur",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      70.4,
+      72.34,
+      816.16,
+      506.77
+    ],
+    "n_rows": 8,
+    "n_cols": 9,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Range,\nSambalpur",
+        ""
+      ],
+      [
+        "23",
+        "Trypsin, Bromelain & Rutoside\nTrihydrate Tablets (Rednil)",
+        "DMT1197B",
+        "Aug-2023",
+        "Jul-2025",
+        "DM Pharma Private Limited\n(WHO GMP & ISO APPROVED),\nNH-21A, Vill. Bhud, Baddi,\nDistrict Solan, H.P. 173205.",
+        "Assay/content of\n'Trypsin'",
+        "CDSCO, Baddi",
+        "CDL\nKolkata"
+      ],
+      [
+        "24",
+        "Cefepime and Tazobactam for Injection\n(Pimebest-TZ)",
+        "YBZ3101",
+        "Jul-2023",
+        "Jun-2025",
+        "Yeluri Formulations Pvt Ltd., Sy.\nNo. 296/7/6, I.D.A. Bollaram,\nSangareddy District- 502325,\nTelangana, India.",
+        "Completeness of\nsolution, Clarity\nof Solution and\nParticulate Matter",
+        "CDSCO,\nHyderabad",
+        "CDL\nKolkata"
+      ],
+      [
+        "25",
+        "Shercef-TZ (Ceftriaxone and\nTazobactam for Injection 1.125 gm)",
+        "YSZ3103",
+        "Jul-2023",
+        "Jun-2025",
+        "Yeluri Formulations Pvt Ltd., Sy.\nNo. 296/7/6, I.D.A. Bollaram,\nSangareddy District- 502325,\nTelangana, India.",
+        "Completeness of\nsolution, Clarity\nof Solution and\nParticulate Matter",
+        "CDSCO,\nHyderabad",
+        "CDL\nKolkata"
+      ],
+      [
+        "26",
+        "EDU-AX SYRUP (Ambroxol\nHydrochloride, Terbutaline Sulphate,\nGuaiphenesin and Menthol Syrup )",
+        "RL22287",
+        "Feb-2023",
+        "Jan-2025",
+        "Rachil Pharma 18-19, Phase-1,\nInd. Area, Sansarpur Terrace,\nDistrict Kangra H.P. 176501",
+        "Assay of\nAmbroxol\nHydrochloride,\nMenthol and\nDescription",
+        "O/o CMO,\nBilaspur,\nHP",
+        "CDL\nKolkata"
+      ],
+      [
+        "27",
+        "Myspas (Mefenamic Acid &\nDicyclomine HCl Tablets I.P.)",
+        "T-230764",
+        "Sep-2023",
+        "Aug-2025",
+        "Sunlife Sciences, 130, Kurdi,\nJhabrera Road, Manglour,\nRoorkee, Distt. Haridwar (U.K.).",
+        "Dissolution",
+        "CDSCO, Sub-\nZone, Rishikesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "28",
+        "Fexofenadine Hydrochloride Tablets IP",
+        "658-009",
+        "Sep-2022",
+        "Aug-2024",
+        "Signature Phytochemical\nIndustries, 122, MI, Selaqui\nIndustrial Area, Dehradun-\n248011.",
+        "Dissolution",
+        "CDSCO, Zonal\nOffice, Bangalore",
+        "CDL\nKolkata"
+      ],
+      [
+        "29",
+        "Pregabalin SR 75 and\nMethylcobalamin 1500 mcg Tablets",
+        "PMC-2311",
+        "Sep-2023",
+        "Aug-2025",
+        "Seeko biotics, Krishna Nagar-\n522502 (A.P.)",
+        "Assay of\nPregabalin and\nMethylcobalamin,\nDissolution of",
+        "CDSCO ,Sub-\nZone,\nVisakhapatnam",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      70.4,
+      72.34,
+      816.16,
+      477.62
+    ],
+    "n_rows": 8,
+    "n_cols": 9,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Pregabalin and\nDescription",
+        "",
+        ""
+      ],
+      [
+        "30",
+        "Betamethasone Sodium Phosphate\nInjection IP 4mg/ml",
+        "BS-2303",
+        "Aug-2023",
+        "Jul-2025",
+        "Konis Pharmaceuticals Krishna\nNagar-522502 (A.P.)",
+        "Description ,\nParticulate Matter\nand Related\nSubstances.",
+        "CDSCO ,Sub-\nZone,\nVisakhapatnam",
+        "CDL\nKolkata"
+      ],
+      [
+        "31",
+        "MULTIVITAMIN TABLETS NFI",
+        "TN2212142",
+        "Dec-2022",
+        "Feb-2024",
+        "Adroit Pharmaceuticals Pvt. Ltd.,\n46, Garoba Maidan, Nagpur-\n440008 (M.S)",
+        "Assay of vitamin\nD3 and\nDescription",
+        "CDSCO., West\nZone, Mumbai",
+        "CDL\nKolkata"
+      ],
+      [
+        "32",
+        "Levofull (Levofloxacin 500 mg )",
+        "23ATE0906",
+        "Sep-2023",
+        "Aug-2026",
+        "Acies Pharmaceutical Pvt. Ltd .,\n14, Mile Stone, Rudrapur-Kashipur\nRoad , Gadarpur, Distt. U.S.\nNagar, Uttarakhand - 263152,\nIndia.",
+        "Disintegration and\nDissolution",
+        "CDSCO, Sub-\nZone, Rishikesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "33",
+        "CEFOPERAZONE INJECTION IP\n(PICOZONE INJECTION)",
+        "HICO23010\nA",
+        "Oct-2023",
+        "Sep-2025",
+        "Health Biotech Ltd., Village\nSandoli, Nalagarh Road, Baddi,\nDistt. Solan (H.P.)- 173205.",
+        "Particulate matter,\nClarity of\nSolution and\nAssay",
+        "CDSCO, Baddi",
+        "CDL\nKolkata"
+      ],
+      [
+        "34",
+        "LIGNOCAINE HYDROCHLORIDE\nINJECTION I.P. (A-CAINE)",
+        "HILA23013\nC",
+        "Aug-2023",
+        "Jul-2025",
+        "Health Biotech Ltd., Village\nSandoli, Nalagarh Road, Baddi,\nDistt. Solan (H.P.)- 173205.",
+        "Assay of\nLignocaine\nHydrochloride",
+        "CDSCO, Baddi",
+        "CDL\nKolkata"
+      ],
+      [
+        "35",
+        "Unlabeled white tablets Calcium and\nVitamin D3",
+        "Unlabeled",
+        "Not Mentioned",
+        "Not\nMentioned",
+        "Kanha Biogenetic, Plot No. 1C,\nE.P.I.P., Phase 1, Jharmajri, Baddi,\nDist. Solan, (H.P.)",
+        "Assay of Calcium\nand Description",
+        "CDSCO, Baddi",
+        "CDL\nKolkata"
+      ],
+      [
+        "36",
+        "Calcium Carbonate with Vitamin D3\nTablets IP",
+        "UP2310036",
+        "Oct-2023",
+        "Sep-2025",
+        "Kanha Biogenetic, Plot No. 1C,\nE.P.I.P., Phase 1, Jharmajri, Baddi,\nDist. Solan, (H.P.)",
+        "Assay of Calcium\nand Description",
+        "CDSCO, Baddi",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      70.4,
+      72.34,
+      816.16,
+      477.62
+    ],
+    "n_rows": 8,
+    "n_cols": 9,
+    "rows": [
+      [
+        "37",
+        "Calcium Carbonate with Vitamin D3\nTablets IP",
+        "WB2309007",
+        "Sep-2023",
+        "Aug-2025",
+        "Kanha Biogenetic, Plot No. 1C,\nE.P.I.P, Phase 1, Jharmajri, Baddi,\nDist. Solan, (H.P.)",
+        "Assay of Calcium",
+        "CDSCO, Baddi",
+        "CDL\nKolkata"
+      ],
+      [
+        "38",
+        "Calcium Carbonate with Vitamin D3\nTablets IP",
+        "UP2310033",
+        "Oct-2023",
+        "Sep-2025",
+        "Kanha Biogenetic, Plot No. 1C,\nE.P.I.P, Phase 1, Jharmajri, Baddi,\nDist. Solan, (H.P.).",
+        "Assay of Calcium\nand Description",
+        "CDSCO, Baddi",
+        "CDL\nKolkata"
+      ],
+      [
+        "39",
+        "Unlabeled white tablets Calcium and\nVitamin D3",
+        "Unlabeled",
+        "Not Mentioned",
+        "Not\nMentioned",
+        "Kanha Biogenetic, Plot No. 1B,\nEPIP, Phase 1, Jharmajri, Baddi,\nDist. Solan, (H.P.).",
+        "Assay of Calcium\nand Description",
+        "CDSCO, Baddi",
+        "CDL\nKolkata"
+      ],
+      [
+        "40",
+        "MOXIZEE-P Eye Drops (Moxifloxacin\n& Prednisolone Acetate Eye Drops)",
+        "1223-319",
+        "Aug-2023",
+        "Jul-2025",
+        "Zee Laboratories Ltd., Behind, 47,\nIndustrial Area, Paonta Sahib-\n173025, India.",
+        "Assay of\nPrednisolone",
+        "CDSCO ,Sub-\nZone,\nVisakhapatnam",
+        "CDL\nKolkata"
+      ],
+      [
+        "41",
+        "Heparin Sodium Injection IP 5000\nIU/5ml",
+        "AGI-23108",
+        "May-2023",
+        "Apr-2025",
+        "Alliance Biotech, 440/3, Village\nKatha, Baddi, Solan (H.P.)-\n173205.",
+        "pH, Particulate\nMatter and\nDescription",
+        "State FDA,\nOdisha, Ganjam-I\nRange,\nBerhampur",
+        "CDL\nKolkata"
+      ],
+      [
+        "42",
+        "CALCIUM GLUCONATE\nINJECTION I.P. 10ml",
+        "CG23Y1",
+        "May-2023",
+        "Apr-2025",
+        "Acro Lifesciences (India) Pvt. Ltd.,\nC-86, MIDC, Hingna, Nagpur-16.",
+        "Assay of Calcium\nGluconate,\nParticulate Matter\nand Description.",
+        "CDSCO,\nAhmedabad",
+        "CDL\nKolkata"
+      ],
+      [
+        "43",
+        "TESCALVIT D3 Tablets (Calcium\nCarbonate & Vitamin D3 Tablets)",
+        "PT-30296",
+        "Feb-2023",
+        "Jan-2025",
+        "Pharmaroots Health Care, Khasra\nNo.411, Village Tipra, P.O.-\nBarotiwala, Tehsil Baddi, Distt.\nSolan. H.P.",
+        "Assay of Vitamin\nD3 and\nDescription",
+        "CDSCO, Zonal\nOffice, Bangalore",
+        "CDL\nKolkata"
+      ],
+      [
+        "44",
+        "Oxytetracycline Injection I.P. 30 ml",
+        "TR-129",
+        "Oct-2023",
+        "Mar-2025",
+        "PAR Pharmaceuticals Pvt. Ltd.,\n5th KM Roorkee Road,\nMuzaffarnagar (U.P.) - 251003.",
+        "Description, pH\nand Particulate\nMatter",
+        "CDSCO, North\nZone, Ghaziabad",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      70.4,
+      72.34,
+      816.16,
+      510.49
+    ],
+    "n_rows": 7,
+    "n_cols": 9,
+    "rows": [
+      [
+        "45",
+        "STREPTOMYCIN (STREPTOMYCIN\nINJECTION I.P. (0.75g.) )",
+        "STRO-0103",
+        "April-2023",
+        "Mar-2025",
+        "PAR Pharmaceuticals Pvt. Ltd.,\n5th KM Roorkee Road,\nMuzaffarnagar (U.P.) - 251001.",
+        "Clarity of\nsolution,\nParticulate Matter\nand Description",
+        "CDSCO, North\nZone, Ghaziabad",
+        "CDL\nKolkata"
+      ],
+      [
+        "46",
+        "TELGO-80 (Telmisartan Tablets IP)",
+        "OT-231699",
+        "Nov-2023",
+        "Oct-2025",
+        "Orchid Bio-Tech Limited, 65,\nPeerpura-Delhi Highway,\nRoorkee- 247667 (U.K.)",
+        "Dissolution",
+        "CDSCO, Sub-\nZone, Rishikesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "47",
+        "Piroxicam Tablets I.P. 20 mg,",
+        "URDT2340",
+        "Oct-2023",
+        "Sep-2026",
+        "Unicure India Ltd., Plot No. 46(B),\n/49B, Vill. Raipur, Bhagwanpur,\nRoorkee, Distt. Haridwar,\nUttarakhand.",
+        "Dissolution",
+        "CDSCO, Sub-\nZone, Rishikesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "48",
+        "HEPARIN SODIUM INJECTION IP\n5000 IU/5ML",
+        "AGI-23107",
+        "May-2023",
+        "Apr-2025",
+        "Alliance Biotech, 440/3, Vill-\nKatha, Baddi, Solan (H.P.)-173205",
+        "pH, Particulate\nMatter and\nDescription",
+        "O/o. The Drugs\nInspector,\nOdisha,\nOdisha,Cuttack-V\nRange,Cuttack.",
+        "CDL\nKolkata"
+      ],
+      [
+        "49",
+        "Heparin Sodium Injection IP 5000\nIU/5ml ,(INFA-HEP)",
+        "A23LV060B",
+        "May-2023",
+        "Apr-2025",
+        "Infallible Pharma Pvt. Ltd., HO:\n202, Matru Smruti Bldg,\nLokmanya Tilak Road-2, Behind\nSwami Narayan Mandir, Dadar\n(East), Mumbai-400014.",
+        "pH, Particulate\nMatter and\nDescription",
+        "O/o. The Drugs\nInspector,\nOdisha,\nOdisha,Cuttack-\nVI\nRange,Cuttack.",
+        "CDL\nKolkata"
+      ],
+      [
+        "50",
+        "HEPARIN SODIUM INJECTION IP\n5000 IU/5ML",
+        "AGI-23112",
+        "May-2023",
+        "Apr-2025",
+        "Alliance Biotech , 440/3, Village\nKatha, Baddi, Solan (H.P.)-\n173205.",
+        "pH, Particulate\nMatter, Assay and\nDescription",
+        "State FDA,\nOdisha,\nBhubaneswar-III\nRange,\nBhubaneswar.",
+        "CDL\nKolkata"
+      ],
+      [
+        "51",
+        "HEPARIN SODIUM INJECTION IP\n5000 IU/5ML",
+        "AGI-23113",
+        "May-2023",
+        "Apr-2025",
+        "Alliance Biotech , 440/3, Village\nKatha, Baddi, Solan (H.P.)-\n173205.",
+        "pH, Particulate\nMatter and\nDescription",
+        "O/o. The Drugs\nInspector,\nOdisha, Odisha,\nBhubaneswar-III",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      70.4,
+      72.34,
+      816.16,
+      519.25
+    ],
+    "n_rows": 8,
+    "n_cols": 9,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Range,\nBhubaneswar.",
+        ""
+      ],
+      [
+        "52",
+        "HEPARIN SODIUM INJECTION IP\n5000 IU/5ML",
+        "AGI-23114",
+        "May-2023",
+        "Apr-2025",
+        "Alliaance Biotech, 440/3, Village\nKatha, Baddi, Solan (H.P.)-\n173205.",
+        "Particulate Matter\nand Description",
+        "O/o. The Drugs\nInspector,\nOdisha, Odisha,\nBhubaneswar-III\nRange,\nBhubaneswar.",
+        "CDL\nKolkata"
+      ],
+      [
+        "53",
+        "MAFNAC-SPAS (MEFENAMIC\nACID & PARACETAMOL\nTABLETS)",
+        "MFNT-001",
+        "Mar-2022",
+        "Feb-2025",
+        "Laborate Pharmaceuticals India\nLtd., (Unit-II), #31, Rajban Road,\nNariwala, Paonta Sahib (H.P.),",
+        "Disintegration and\nDescription",
+        "State FDA, Drugs\nInspector Office,\nBokaro-1, Bokaro",
+        "CDL\nKolkata"
+      ],
+      [
+        "54",
+        "Ovit Cee Tablets (Ascorbic Acid\nTablets IP )",
+        "T-2306-08",
+        "Jun-2023",
+        "Nov-2024",
+        "Oscar Remedies, Johron,\nAdjoining Industrial Area, Kala-\nAmb- 173030 (H.P.),",
+        "Assay of\n'Ascorbic Acid'\nand Description",
+        "CDSCO, Zonal\nOffice, Bangalore",
+        "CDL\nKolkata"
+      ],
+      [
+        "55",
+        "Digiver (Digoxin Injection BP 250\nMCG/ML)",
+        "E1582204",
+        "Dec-2022",
+        "Nov-2024",
+        "Verve Human Care Laboratories\n15-A, Pharmacity, Selaqui\nDehradun- 248011 (Uttarakhand),\nIndia.",
+        "Assay/Content of\nDigoxin",
+        "CDSCO, Sub-\nZone, Rishikesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "56",
+        "Zalcoril-LS Syrup (Ambroxol Hcl,\nLevosalbutamol & Guaiphenesin\nSyrup-100 ml)",
+        "VDL-1240",
+        "Jul-2022",
+        "Jun-2024",
+        "VVPB Pharmaceuticals Pvt. Ltd.,\nKh. No. 114, Vill. Damowala, P.O.\nBarotiwala, Baddi, Dist. Solan\n(H.P.) -174103",
+        "Content of\nDiethylene Glycol",
+        "O/o. District\nDrugs Control\nOfficer, Prakash\nNagar, DCA,\nA.P.",
+        "CDL\nKolkata"
+      ],
+      [
+        "57",
+        "Itraconazole Capsules\n100mg (ITRAKAM 100)",
+        "2304104",
+        "Apr-2023",
+        "Mar-2025",
+        "Impulse Pharma Pvt. Ltd., J-201, J.\n202/1, MIDC Tarapur, Boisar,\nDist-PaLGHAR-401506,\nMaharashtra Sate india\n_",
+        "Dissolution",
+        "CDSCO\nWest-Zone\nMumbai",
+        "CDTL-Mumbai"
+      ],
+      [
+        "58",
+        "Clopidogrel & Aspirin\nTablets IP (75mg / 75mg)",
+        "MT221335",
+        "Apr-2022",
+        "Mar-2024",
+        "Mascot Health Series Pvt. Ltd.,\n' Plot No. 79, 80, Sector-6A, IIE,\nSidcul, Haridwar-249403",
+        "Related\nSubstances Free\nSalicylic Acid,\nAssay for",
+        "CDSCO\nWest-Zone\nMumbai",
+        "CDTL-Mumbai"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      70.4,
+      72.34,
+      816.16,
+      506.77
+    ],
+    "n_rows": 8,
+    "n_cols": 9,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Clopidogrel &\nDescription",
+        "",
+        ""
+      ],
+      [
+        "59",
+        "Diltizem Tablets IP 60mg",
+        "GM23005",
+        "Mar-2023",
+        "Feb-2025",
+        "Skymap Pharmaceuticals Pvt.\nLtd., B-3, Dev Bhoomi Industrial\nEsate, Puhana lqbalpur Road,\nRoorkee-247667",
+        "Related\nSubstances",
+        "CDSCO\nWest-Zone\nMumbai",
+        "CDTL-Mumbai"
+      ],
+      [
+        "60",
+        "Metformin Hydrochloride\nTablets IP",
+        "GT0712",
+        "Aug-2023",
+        "Jul-2025",
+        "Deep Pharma, unit-2, Survey No.\n293/3, Behind Jalaram Mandir,\nKalikund-Kheda Road, Dholka\n382225, Distt. Ahmedabad.",
+        "Description",
+        "CDSCO\nAhmedabad",
+        "CDTL-Mumbai"
+      ],
+      [
+        "61",
+        "Pantoprazole Tablets I.P.\n40mg",
+        "PNT/2300 I",
+        "May-2023",
+        "Apr-2025",
+        "Maan Pharmaceuticals Ltd., Plot-I\nGIDC, Phase-IL Modhera Road,\nMehsana-384002, Gujarat",
+        "Dissolution\n(Buffer\nstage)",
+        "CDSCO\nWest-Zone\nMumbai",
+        "CDTL-Mumbai"
+      ],
+      [
+        "62",
+        "Bisacodyl Gastro-\nResistance Tablets IP\n5mg (Bisacodyl)",
+        "EGT10909",
+        "Sep-2021",
+        "Aug-2024",
+        "Elder Labs Limited, Vill :\nKishnapur, Baddi-Nalagarh\nRoad, Baddi, Distt. Solan.\n(H.P.) - 174101",
+        "Assay,\nDissolution",
+        "CDSCO\nWest-Zone\nMumbai",
+        "CDTL-Mumbai"
+      ],
+      [
+        "63",
+        "Cefoperazone Injection IP.\n(NOZACEF-1 GM)",
+        "PD042309",
+        "Apr-2023",
+        "Mar-2025",
+        "Primus Pharmaceuticals, Sadhoura\nRoad, Mouza Ogli Khari Vill\nAsgarpur Majra, Kala Amb, Distt.\nSirmour-(H. P.) 173030",
+        "Assay of\nCefoperazone",
+        "State Drugs\nInspector,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "64",
+        "Calcitriol, Calcium Carbonate, Vitamin\nK2-7, Methylcobalamin, Zinc,\nMagnesium & L-Methyl Folate Softgel\nCapsules (Maycal K2 Softgel)",
+        "CHD-2039",
+        "Feb-2022",
+        "Jan-2024",
+        "Capsoft Healthcare Pvt. Ltd.,, Shed\nNo. 6, Khasra No. 760- 761,\nKhalsa Complex, Village Karuna,\nSai Road, Baddi, Solan-173205,\nH.P.",
+        "Assay of\n\"Methylcobalamin\n\" & \"L-Methyl\nFolate\" and\nDescription.",
+        "State Drugs\nInspector,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "65",
+        "METRONIDAZOLE &\nFURAZOLIDONE TABLETS\n(DIARRNIL)",
+        "BNT-425",
+        "Jun-2022",
+        "May-2024",
+        "BONN SCHTERING BIO\nSCIENCES, PLOT NO. 64 & 65,\n1ST FLOOR ELECTRONICS\nPARK, THIRUBUVANAI,",
+        "Disintegration",
+        "Inspector of\nDrugs, Jowai,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      70.4,
+      72.34,
+      816.16,
+      489.98
+    ],
+    "n_rows": 8,
+    "n_cols": 9,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "MANNADIPET COMMUNE,\nPUDUCHERRY-605107",
+        "",
+        "",
+        ""
+      ],
+      [
+        "66",
+        "Glimepiride Tablets IP.. (Glimnol-1\nTablets)",
+        "PT-22953",
+        "Jan-2023",
+        "Dec-2024",
+        "Pharmaroots Healthcare, Khasra\nNo. 411, Village Tipra, P.O.\nBarotiwala, Tehsil Baddi, Distt.\nSolan, H.P",
+        "Dissolution",
+        "State Drugs\ncontrol Officer,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "67",
+        "Paracetamol & Diclofenac Sodium\nTablets (KEZIPYRIN)",
+        "KZ-004",
+        "Mar-2022",
+        "Feb-2024",
+        "Indian Remedies, Bhagawat\nNagar- 800020",
+        "Assay of\nParacetamol and\nDiclofenac\nSodium",
+        "State Inspector of\nDrugs, Bihar",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "68",
+        "Itraconazole Capsules BP. (ITROX-\n200)",
+        "LGL07/150/\n20",
+        "Jul-2022",
+        "Jun-2024",
+        "Logos Pharma, village Maissa\nTibba, Tehsil Nalagarh, District\nSolan (H.P.) - 174101",
+        "Dissolution",
+        "State Inspector of\nDrugs, Jharkhand",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "69",
+        "Albendazole Tablets IP (Opida- 400)",
+        "23A-T149",
+        "Apr-2023",
+        "Mar-2025",
+        "Orison Pharma International,\nKhari, Mouza Ogli, Kala Amb,-\n173030 (H.P.)",
+        "Dissolution",
+        "State Drugs\nInspector,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "70",
+        "Pantoprazole Gastro-resistant Tablets\nIP (PAN-40)",
+        "22442076",
+        "Jul-2022",
+        "Dec-2024",
+        "ALKEM HEALTH SCIENCE,\nUnit-2, Samardung, Karek Block,\nPO- Namthang, South Sikkim-\n737137",
+        "Assay",
+        "State Inspector of\nDrugs, Bihar",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "71",
+        "Methylergometrine Injection IP\n(0.2mg/ml)",
+        "I-6067",
+        "Jan-2023",
+        "Dec-2024",
+        "Jackson Laboratories Pvt. Ltd., 22-\n24, Majitha Road, Bye Pass,\nAmritsar- 143001",
+        "Bacterial\nendotoxins",
+        "State Inspector of\nDrugs,\nMadhubani,\nBihar",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "72",
+        "AMOXYCILLIN ORAL\nSUSPENSION I.P. 250 mg/5ml",
+        "RD220037",
+        "Oct-2022",
+        "Sep-2024",
+        "RIDLEY LIFE SCIENCE PVT.\nLTD., D-1651, DSIDC, Indl.\nComplex, Narela, Delhi- 110040",
+        "Assay & pH",
+        "State Inspector of\nDrugs, Jowai,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      70.39,
+      72.34,
+      816.17,
+      398.03
+    ],
+    "n_rows": 6,
+    "n_cols": 9,
+    "rows": [
+      [
+        "73",
+        "Glimepiride Tablets I.P. (Glimicut-1)",
+        "SG22022",
+        "Mar.2022",
+        "Feb.2024",
+        "Sanctus Global Formulations\nLimited, Khasra No. 587/588,\nVillage Kunjhal, Backside\nJharmjri, Tehsil-Baddi, Distt.-\nSolan, (H.P.) Pin- 174103",
+        "Dissolution",
+        "Inspector of\nDrugs, Jharkhand",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "74",
+        "Paracetamol Tablets IP 500mg.\n(Galpara)",
+        "GPT22003",
+        "Jul-2022",
+        "Jun-2025",
+        "Galpha Laboratories Limited,\nVillage-Thana, Baddi, Himachal\nPradesh- 173205",
+        "Dissolution",
+        "Inspector of\nDrugs,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "75",
+        "ISONIAZID TABLETS IP 300 MG\n(ISONIAZID-300)",
+        "PT23-108",
+        "May-2023",
+        "Apr-2025",
+        "Pentachem Pharmaceutical,\nChunari Road, Krishnapur, Baddi\n(H.P.) 173205",
+        "Description",
+        "Inspector of\nDrugs, Bihar",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "76",
+        "Paracetamol Tablets IP 650mg.\n(DAXIPAR-650 Tablets)",
+        "DPT22863",
+        "Sep-2022",
+        "Aug-2024",
+        "Daxin Pharmaceuticals Pvt. Ltd.\nPlot No.121-122 EPIP, Jharmajri\nPhase 1, Teh. baddi, Distt. Solan\n(H.P)- 174103.",
+        "Dissolution",
+        "Inspector of\nDrugs, Bihar",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "77",
+        "Lycopene, Vitamin A, Vitamine E,\nAscorbic Acid, Zinc Sulphate, Copper\nSulphate, Manganese Sulphate, Beta\nCarotene & Sodium Selenate Capsules",
+        "RC220065",
+        "Nov-2022",
+        "Apr-2024",
+        "RIDLEY LIFE SCIENCE PVT.\nLTD., D-1651, DSIDC, Indl.\nComplex, Narela, Delhi- 110040",
+        "Description",
+        "Inspector of\nDrugs,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "78",
+        "CALCIUM AND VITAMIN D3\nTABLETS I.P.",
+        "UDT10673",
+        "Feb-2023",
+        "Jul-2024",
+        "Unicure India Ltd,, C-21, 22 & 23,\nSector-3, Noida-201 301, Distt.\nGautam Budh Nagar (U.P.).",
+        "Description",
+        "Inspector of\nDrugs, Assam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  }
+]

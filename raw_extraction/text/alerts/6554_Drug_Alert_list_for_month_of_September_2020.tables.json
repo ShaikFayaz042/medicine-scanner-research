@@ -1,0 +1,157 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.28,
+      87.18,
+      582.5,
+      167.86
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "646"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "636"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "10"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "0"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      182.03,
+      596.68,
+      713.65
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.No\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "CIROPRAZ – 1\nInjection – 5 ml\n(Midazolam\nInjection I.P. 1\nmg/ml)",
+        "B. No.: 9B04028\nMfg dt: 04/2019\nExp dt: 03/2021\nMfd by: M/s. Ciron Drugs &\nPharmaceuticals Pvt. Ltd., N -\n118, 119, 113, 119/1, 119/2 &\n118/1, M.I.D.C., Tarapur,\nBoisar, Distt. Palghar – 401\n506 (Maharashtra).",
+        "Description &\nParticulate\nMatter",
+        "CDSCO, Zonal\nOffice,\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "Ranius – 300\n(Ranitidine Tablets\nI.P. 300 mg)",
+        "B. No.: VNT – 19A02\nMfg dt: 01/2019\nExp dt: 12/2020\nMfd by: M/s. Venus\nBiosciences Pvt. Ltd., 116,\nExport Promotion Industrial\nPark, Phase – I, Jharmajri,\nBaddi, Distt. Solan – 173 205,\nH.P.",
+        "Dissolution &\nAssay",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "CefiximeTablets\nI.P. 100 mg",
+        "B. No.: 8513007\nMfg dt: 11/2018\nExp dt: 10/2020\nMfd by: M/s. Bengal\nChemicals & Pharmaceuticals\nLtd., 164, Maniktala Main\nRoad, Kolkata – 700 054.",
+        "Description,\nDissolution &\nAssay",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "Levocetirizine\nTablets I.P. 5 mg",
+        "B. No.: 9700719\nMfg dt: 05/2019\nExp dt: 04/2021\nMfd by: M/s. Karnataka\nAntibiotics & Pharmaceuticals\nLimited, Plot No. – 14, II\nPhase, Peenya, Bangalore –",
+        "Dissolution",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      35.61,
+      596.67,
+      693.37
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "560 058.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Clopidogrel &\nAspirin Tablets",
+        "B. No.: TACB-010\nMfg dt: 07/2019\nExp dt: 06/2021\nMfd by: M/s. Medipol\nPharmaceutical India Pvt. Ltd.,\n1199/3, Bhud, Baddi, Distt.\nSolan (Himachal Pradesh).",
+        "Description,\nLimit of\nSalicylic Acid\nand Assay of\naspirin",
+        "CDSCO, South\nZone, Chennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "Noradrenaline\nBitartrate I.P.",
+        "B. No.: MLPL/NABT/0220/84\nMfg dt: 02/2020\nExp dt: 01/2023\nMfd by: M/s. Medinex\nLaboratories Pvt. Ltd., Plot No.\n2 & 3, Survey No. 277/1, Vill,\nUkharla – 364 050, Distt.\nBhavnagar (Gujarat).",
+        "pH",
+        "CDSCO, Zonal\nOffice,\nAhmedabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "ROOTCAL\n((Calcium Citrate\nMalate & Vitamin\nD3 Tablets)",
+        "B. No.: RTC - 1910\nMfg dt: 10/2019,\nExp dt: 09/2021,\nMfd by: M/s. Concord Drugs\nLtd., Survey No. 249,\nBrahmanapally, R.R. (DT.)\nTS– 501 511 Hyderabad,\nTelangana.",
+        "Disintegration\nand Assay of\nVitamin D3",
+        "CDSCO, Zonal\nOffice,\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "(ISO PROPYL\nALCOHOL IP)",
+        "B. No.: IPA/GCPL/532\nMfg dt: 05/2020\nExp dt: 04/2023\nMfd by: M/s. Gujrat Chempac\nPvt. Ltd. Valsad Gujrat.",
+        "Refractive\nIndex, Water",
+        "Drugs Control\nDepartment,\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "9.",
+        "(ISO PROPYL\nALCOHOL IP)",
+        "B. No.: IPA/GCPL/532\nMfg dt: 05/2020\nExp dt: 04/2023\nMfd by: M/s. Gujrat Chempac\nPvt. Ltd. Valsad Gujrat.",
+        "Identification",
+        "Drugs Control\nDepartment,\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "10.",
+        "Isopropyl Alcohol,\nCarbopol,\nTriethanolamine,\nGlycerin and\nChlorhexidine\nDigluconate Hand\nSanitizer ( Safe\nAnd Clean Hand\nSanitizer)",
+        "B. No.: C-02\nMfg dt: 04/2020\nExp dt: 03/2022\nMfd by: M/s. Cosway\nPharmaceuticals Plot No.11C,\nInd.Area, Tahiwal, Teh.Haroli,\nDistt.UNA, (H.P)-174507.",
+        "Assay of\nGlycerin,\nChlorhexidine\nDigluconate",
+        "Drugs Control\nDepartment,\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

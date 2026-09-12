@@ -1,0 +1,286 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      29.37,
+      83.75,
+      575.43,
+      805.47
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Stolax – 5\n(Bisacodyl\nTablets I.P. 5 mg)",
+        "B. No.: T-14116,\nMfg dt: 09/2014\nExp dt: 08/2017\nMfd by: M/s. Biogen\nPharmaceutical Company, Plot\nNo. 165 to 169, Patel Ind. Estate,\nPariya, Distt. Surat, Gujrat-\n394130",
+        "Disintegration",
+        "CDSCO, Sub\nZone,\nAhmedabad.",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "Infusion Set N.V.",
+        "B. No.: 15C03,\nMfg dt: 03/2015\nExp dt: 02/2018\nMfd by: M/s. National Healthcare,\n5/4 Anand Estate, Opp, Revabhai\nEstate, CTM Cross Road,\nAmraiwadi, Ahmedabad- 380026,\nGujarat.",
+        "Sterility",
+        "CDSCO, Sub\nZone,\nAhmedabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "LOPRIN-DS\n(Aspirin Gastro\nResistant Tablets)",
+        "B. No.: DLS-14017,\nMfg dt: 07/2014\nExp dt: 06/2016\nMfd by: M/s. Kallindi Medicare\nPvt. Ltd., Plot No. 25 & 26,\nPharmacity, Selaqui Industrial\nArea, Dehradun (Uttrakhand).",
+        "Dissolution",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "CIP-ZOX\n(Diclofenac\nSodium,\nParacetamol and\nChlorozoxazone\nTablets)",
+        "B. No.: AA4137,\nMfg dt: 05/2014\nExp dt: 04/2017\nMfd by: M/s. Cipla Limited,\nVillage Katha, Baddi, H.P. –\n173205.",
+        "Disintegration",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "5.",
+        "Combiflam\n(Ibuprofen &\nParacetamol\nTablets)",
+        "B. No.: A150825,\nMfg dt: 07/2015\nExp dt: 06/2018\nMfd by: M/s. Sanofi India\nLimited, 3501, 3503-15, 6310 B-\n14, G.I.D.C. Estate, Ankleshwar-\n393002",
+        "Disintegration",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "Prednisolone\nTablets I.P. 5 mg",
+        "B. No.: PD-14A04,\nMfg dt: 06/2014\nExp dt: 05/2016\nMfd by: M/s. Cyper Pharma, K.\nNo. 825-827, Village Gullarwala,\nSai Road, Baddi, Distt. Solan,\nTehsil: Nalagarh, Himachal\nPradesh",
+        "Dissolution",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "Ciprofloxacin\nHCL U.S.P.\n(Powder)",
+        "B. No.: CP20415250,\nMfg dt: 04/2015\nExp dt: 03/2020\nMfd by: M/s. Neuland\nLaboratories Ltd., Situated at Plot",
+        "Water",
+        "CDSCO,\nHyderabad\nZone",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      29.37,
+      28.53,
+      575.43,
+      777.87
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "No. 92,93,94,257,258,259 IDA,\nPashamylaram, Isnapur,\nPatancheru(M), Medak, Dist.,\nTelangana.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "8.",
+        "Chlorpheniramine\nMaleate,\nPhenylephrine\nHCl and\nDextromethorpha\nn HBr Syrup\n(COFCURE-D\nSYRUP)",
+        "B. No.: GPL-14325,\nMfg dt: 10/2014\nExp dt: 09/2016\nMfd by: M/s. Gnaosis\nPharmacetuicals Pvt. Ltd., Nahan\nRoad, Village Moginand, Kala-\nAmb, Distt. Sirmour (H.P.)-\n173030.",
+        "Assay",
+        "Zone-II,\nJammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "9.",
+        "Aceclofenac,\nParacetamol and\nSerratiopeptidase\nTablets\n(ACEFEX-\nFORTE\nTABLETS)",
+        "B. No.: TU7723,\nMfg dt: 11/2014\nExp dt: 10/2016\nMfd by: M/s. Cotec Healthcare\n(P) Ltd., K.H. No. 74, Roorkee-\nDehradun Highway, Kishanpur,\nRoorkee (Uttarakhand)",
+        "Assay",
+        "CDSCO, Sub-\nZone,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "10.",
+        "Diclofenac\nSodium,\nParacetamol,\nChlorpheniramine\nMaleate and\nMagnesium\nTrisilicate Tablets\n(LABDIC\nRELIEF\nTABLETS)",
+        "B. No.: LRJT-338,\nMfg dt: 10/2014\nExp dt: 09/2017\nMfd by: M/s. Loborate\nPharmaceuticals Pvt. Ltd., 51 Ind.\nArea, Paonta Sahib (H.P)",
+        "Assay",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "11.",
+        "Sildenafil 100mg\n(TIAGRA-100\nTABLETS)",
+        "B. No.: TG-12,\nMfg dt: 01/2015\nExp dt: 12/2017\nMfd by: M/s. Lark Laboratories\nIndia Limited, SP-1192-E, Phase-\nIV, RIICO, Ind. Area, Bhiwadi-\n301019, Dist. Alwar (Rajasthan)",
+        "Assay",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "12.",
+        "Cefixime\nDispersible\nTablets (NIXIM-\n200 TABLETS)",
+        "B. No.: TX-6806\nMfg dt: 01/2015\nExp dt: 12/2016\nMfd by: M/s. Legen Healthcare,\nPlot No. 20, Sector-5, Parwanoo,\nDistt. Solan. (H.P.) 173220",
+        "Disintegration",
+        "CDSCO, Sub-\nZone, Jammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "13.",
+        "Roxybet-150\nTablets",
+        "B. No.: T-140563,\nMfg dt: 05/2014\nExp dt: 04/2016\nMfd by: M/s. Indkus Biotech\nIndia, Vill- Mauja Rampur, Kala\nAmb, Dist- Sirmour, HP-173001.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nNagaland.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "14.",
+        "Metronidazole\nTablets",
+        "B. No.: KT-027,\nMfg dt: 06/2015\nExp dt: 05/2017\nMfd by: M/s. Akpash\nPharmaceutical Pvt. Ltd.,\n275,Sector-E, Indore-452015",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nMeghalaya.",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      29.38,
+      28.53,
+      575.42,
+      790.35
+    ],
+    "n_rows": 9,
+    "n_cols": 6,
+    "rows": [
+      [
+        "15.",
+        "Co-Trimoxazole\nTablets",
+        "B. No.: NCT-60,\nMfg dt: 07/2015\nExp dt: 06/2017\nMfd by: M/s. Nezone Medicines\nPvt. Ltd., Amerigog, Guwahati,\nAssam-781023",
+        "Uniformity of\nweight, Assay",
+        "Drugs Control\nDepartment,\nCachar, Assam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "16.",
+        "Iron & Folic Acid\nSyrups",
+        "B. No.: IF13,\nMfg dt: 02/2015\nExp dt: 04/2016\nMfd by: M/s. Dusap\nPharmaceuticals, 115 Dr. B.C.\nRoy Road, Kolkata, West Bengal.",
+        "Assay",
+        "Drugs Control\nDepartment,\nMeghalaya.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "17.",
+        "Iron & Folic Acid\nSyrups",
+        "B. No.: IF15,\nMfg dt: 02/2015\nExp dt: 04/2016\nMfd by: M/s. Dusap\nPharmaceuticals, 115 Dr. B.C.\nRoy Road, Kolkata, West Bengal.",
+        "Assay",
+        "Drugs Control\nDepartment,\nMeghalaya.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "18.",
+        "Norfloxacin\nTablets",
+        "B. No.: 361015,\nMfg dt: 10/2015\nExp dt: 09/2017\nMfd by: M/s. Veejay\nLaboratories, EPIP Zone,\nAmingaon, Guwahati, Assam-\n781031.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nKamrup.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "19.",
+        "Norfloxacin\nTablets",
+        "B. No.: NR4-228,\nMfg dt: 11/2015\nExp dt: 10/2017\nMfd by: M/s. Ghanshyam\nPharmaceuticals, D-14, Rani\nIndustrial Area, Kamrup, Assam.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nKamrup,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "20.",
+        "Norfloxacin\nTablets",
+        "B. No.: NR4-215,\nMfg dt: 10/2015\nExp dt: 09/2017\nMfd by: M/s. Ghanshyam\nPharmaceuticals, D-14, Rani\nIndustrial Area, Kamrup, Assam.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nKamrup,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "21.",
+        "Amikacin\nInjections",
+        "B. No.: AM-2020,\nMfg dt: 04/2015\nExp dt: 05/2017\nMfd by: M/s. Vardhman Pharma,\n32, Indl. Area, Trilokpur Road,\nKala-Amp, Dist-Sirmour",
+        "Assay",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "22.",
+        "V-Mox-500\nCapsules",
+        "B. No.: V-201,\nMfg dt: 04/2014\nExp dt: 03/2016\nMfd by: M/s. Aims International,\nDehradun Road, Rampur Ghat,\nPaonta Sahib, HP.",
+        "Dissolution,\nAssay",
+        "Drugs Control\nDepartment,\nMizoram.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "23.",
+        "P 40\nTablets",
+        "B. No.: Pant 15004,\nMfg dt: 04/2015\nExp dt: 03/2017\nMfd by: M/s. Sri Ram Healthcare\nPvt. Ltd, 81-C/2, Jharmajri,\nBaddi, Dist-Solan, HP-173205.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nDhubri, Assam.",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      29.4,
+      28.56,
+      575.4,
+      375.65
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "24.",
+        "Trizole-R DSR\nCapsules",
+        "B. No.: GCN/150154,\nMfg dt: 04/2015\nExp dt: 03/2017\nMfd by: M/s. GMH Laboratories,\nPlot No.13, Industrial Township,\nSolan, HP.",
+        "Assay",
+        "Drugs Control\nDepartment,\nLakhimpur,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "25.",
+        "Mklevo Tablets",
+        "B. No.: AT-140919\nMfg dt: 09/2014\nExp dt: 08/2016\nMfd by: M/s. Avalance\nPharmaceuticals, A66, Eldeco\nSidcul Industrial Park, Udhan\nSingh Nagar, Uttarakhand.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "26.",
+        "Iron Sucrose\nInjections",
+        "B. No.: 315-411,\nMfg dt: 06/2015\nExp dt: 05/2017\nMfd by: M/s. Zee Laboratories,\n47, Industrial Area, Paonta Sahib-\n173025.",
+        "Sterility",
+        "Drugs Control\nDepartment,\nNalbari, Assam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "27.",
+        "Iron Sucrose\nInjections",
+        "B. No.: 315-411,\nMfg dt: 06/2015\nExp dt: 05/2017\nMfd by: M/s. Zee Laboratories,\n47, Industrial Area, Paonta Sahib-\n173025.",
+        "Sterility",
+        "Drugs Control\nDepartment,\nLakhimpur,\nAssam.",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  }
+]

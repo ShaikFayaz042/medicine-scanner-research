@@ -1,0 +1,1626 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      42.81,
+      113.27,
+      792.63,
+      549.24
+    ],
+    "n_rows": 7,
+    "n_cols": 8,
+    "rows": [
+      [
+        "S.No",
+        "Product/Drug\nName",
+        "Batch No.",
+        "Manufactu\nring Date",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by\nState\nLaboratory"
+      ],
+      [
+        "1.",
+        "Ranitidine Injection IP-\n2ML",
+        "HLI352C",
+        "Mar-24",
+        "Feb-26",
+        "M/s. Himalaya Meditek Pvt\nLtd, Plot No.35&36\nPharmacity, Selaqui\nIndustrial Area, Dehradun -\n248197",
+        "Sample does not\nconform to requirement\nfor Assay",
+        "King Institute of\nPreventive\nMedicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "2.",
+        "Gentamicin Injection IP-\n2ML",
+        "24BUH85",
+        "Aug-24",
+        "Jul-26",
+        "M/s. SVP Life Sciences,\nC/10-1, Sara Industrial\nEstate, Selequi, Dehradun.",
+        "Sample does not\nconform to the\nrequirement for pH",
+        "King Institute of\nPreventive\nMedicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "3.",
+        "Betamethasone\nValerate Ointment IP\n0.1% w/w",
+        "B73",
+        "Aug-24",
+        "Jul-26",
+        "M/s.Syndicate Pharma,\n185/B, 185/B-1, 187/A & 188\nSector - F, Sanwer Road,\nIndore-452015.",
+        "Sample does not\nconform to IP\nspecification for\nBetamethasone\nValerate Ointment with\nrespect to the content of\nBetamethasone in\nBetamethasone\nValerate",
+        "Drugs Testing\nLaboratory,\nChennai-06"
+      ],
+      [
+        "4.",
+        "Calcium and Vitamin D3\nTablets (Elprocal)",
+        "NBT-230543",
+        "Jan-24",
+        "Dec-25",
+        "M/s.Soft Touch\nPharmaceuticals India Ltd,\nPlot No.8, Industrial Area,\nWaknaghat, Distt. Solan\n(H.P)-173234",
+        "Sample does not\nconform to IP\nspecification for Calcium\nand Vitamin D3 Tablets\nwith respect to the\nidentification and\ncontent of Vitamin D3",
+        "Drugs Testing\nLaboratory,\nMadurai-19"
+      ],
+      [
+        "5.",
+        "Gentamicin Injection I.P-\n2ml",
+        "HLI624F",
+        "Jun-24",
+        "May-25",
+        "M/s.Himalaya Meditek Pvt\nLtd, Plot No.35&36,\nPharmacity, Selaqui\nIndustrial Area, Dehradun -\n248 197",
+        "Sample does not\nconform to the\nrequirement for pH.",
+        "King Institute of\nPreventive\nMedicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "6.",
+        "Atorvastatin Tablets IP\n10mg",
+        "CT240237A",
+        "Jul-24",
+        "Jun-25",
+        "M/s.Candour\nPharmaceuticals, Vill. OGLI,",
+        "Sample does not\nconform to IP\nspecification for",
+        "Drugs Testing\nLaboratory,\nChennai-06"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      42.82,
+      14.37,
+      792.62,
+      548.04
+    ],
+    "n_rows": 9,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Suketi Road, Kala Amb,\nDistt. Sirmour (H.P), 173030",
+        "Atorvastatin Tablets with\nrespect to Dissolution",
+        ""
+      ],
+      [
+        "7.",
+        "Glibenclamide Tablets\nIP 5mg",
+        "NHD24411A",
+        "Jul-24",
+        "Jul-25",
+        "M/s.Nest Healthcare Private\nlimited, Plot No.300, G.I.D.C,\nOdhav, Ahmedabad-\n382415(GUJ.), India.",
+        "Sample does not\nconform to IP\nspecificaion for\nGlibenclamide Tablets\nwith respec to\nDissolution",
+        "Drugs Testing\nLaboratory,\nChennai-06"
+      ],
+      [
+        "8.",
+        "Amoxycillin and\nPotassium Clavulanate\nOral Suspension\nRIGHTCLAV 228.5 Dry\nSyrup",
+        "ACAG24001E",
+        "Apr-24",
+        "Sep-25",
+        "M/s.J.M.Laboratories, Village\nBhanat, PO-Ghatti, Subathu\nRoad, Solan (H.P)-173211",
+        "Sample does not\nconform to IP\nspecification for\nAmoxycillin and\nPotassium Clavulanate\noral suspension with\nrespect to pH and the\ncontent of Clavulanic\nAcid in Potassium\nClavulanate diluted",
+        "Drugs Testing\nLaboratory,\nMadurai-19"
+      ],
+      [
+        "9.",
+        "Glimepiride Tablets IP\n1mg",
+        "PGG24-012",
+        "Aug-24",
+        "Jul-26",
+        "M/s.Pondchy\nPharmaceuticals,\nR.S.No.218/4, 218/5,\nOdiampet, Manaveli Road,\nVillianur Commune,\nPuducherry, 605110.",
+        "Sample does not\nconform to IP\nspecification for\nGlimepiride Tablets with\nrespect to Dissolution",
+        "Drugs Testing\nLaboratory,\nChennai-06"
+      ],
+      [
+        "10.",
+        "Axid 200 (Sucralfate\nOral Suspension)",
+        "624-470",
+        "Jun-24",
+        "May-26",
+        "M/s.Zee Laboratories Ltd,\nBehind 47, Industrial Area,\nPaonta Sahib, 173025",
+        "Sample does not\nconform with respect to\nGeneral requirements\nfor liquid dosage form.",
+        "Drugs Testing\nLaboratory,\nChennai-06"
+      ],
+      [
+        "11.",
+        "Fenacin (Diclofenac\nDiethylammonium +\nMethyl Salicylate +\nMenthol Gel)",
+        "DG2402",
+        "Apr-24",
+        "Mar-26",
+        "M/s.Johnson & Smith Co, B-\n48, III Stage, Peenya\nIndustrial Estate, Bangalore,\n560058",
+        "Sample does not\nconform to Label claim\nwith respect to the\ncontent of Methyl\nSalicylate",
+        "Drugs Testing\nLaboratory,\nChennai-06"
+      ],
+      [
+        "12.",
+        "Phenytoin Sodium\nInjection USP-2ml",
+        "45PSA138",
+        "May-24",
+        "Apr-26",
+        "M/s.SPM Drugs (P) Ltd,\nBhavani-638301",
+        "Sample does not\nconform to the\nrequirement for assay",
+        "King Institute of\nPreventive\nMedicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "13.",
+        "Manoril-BR Syrup\n(Terbutaline Sulphate,\nBromhexine HCL,\nGuaiphenesin and\nMenthol Syrup)",
+        "ASL24199",
+        "Oct-24",
+        "Sep-26",
+        "M/s.AASSK Pharmaceuticals\nPvt. Ltd, S.No.243/2, Plot\nNo.9, Dr.Ambedkar Street,\nKozhumanivakkam Village,\nMangadu, Chennai-600122",
+        "Sample does not\nconform to Label claim\nwith respect to the\ncontent of Bromhexine\nHydrochloride",
+        "Drugs Testing\nLaboratory,\nChennai-06."
+      ],
+      [
+        "14.",
+        "Entcof Syrup (Ambroxol\nHydrochloride,\nGuaiphenesin,",
+        "MMR-344",
+        "Mar-24",
+        "Feb-26",
+        "M/s.Mediguard Remedies,\nR.S.No.106/1, Perambai",
+        "Sample does not\nconform to Label claim\nwith respect to the",
+        "Drugs Testing\nLaboratory,\nChennai-06."
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      42.81,
+      14.37,
+      792.63,
+      547.56
+    ],
+    "n_rows": 8,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "Terbutaline Sulphate\nSyrup)",
+        "",
+        "",
+        "",
+        "Village, Vanur Tk, Villupuram\nDt,605110. Tamilnadu, India.",
+        "content of Terbutalline\nSulphate",
+        ""
+      ],
+      [
+        "15.",
+        "Nifedipine Sustained\nRelease Tablets IP 10\nmg",
+        "NF24007",
+        "Aug-24",
+        "Jan-26",
+        "M/s.Eurokem Laboratories\nPvt ltd, C-25, SIDCO\nPharmaceutical Complex,\nAlathur, Thiruporur, 603110.",
+        "Sample does not\nconform to IP\nspecification for\nNifedipine Sustained\nRelease Tablets with\nrespect to the content of\nNifedipine",
+        "Drugs Testing\nLaboratory,\nMadurai-19"
+      ],
+      [
+        "16.",
+        "Albendazole tablets IP\n400mg",
+        "T24/006A",
+        "Dec-24",
+        "Nov-26",
+        "M/s. Samkem, 15-B & 10-B,\nA.K.V.N. Industrial Area,\nRangwasa, Rao, Indore -\n453331(M.P). Madhya\nPradesh.",
+        "Sample does not meet\nthe Specifications wrt.\nDissolution Test as per\nIP.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "17.",
+        "Albendazole tablets IP\n400mg",
+        "T24/021A",
+        "Dec-24",
+        "Nov-26",
+        "M/s. Samkem, 15-B & 10-B,\nA.K.V.N. Industrial Area,\nRangwasa, Rao, Indore -\n453331(M.P). Madhya\nPradesh.",
+        "The sample does not\ncomply with respect to\nDissolution Test as per\nIP 2022",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "18.",
+        "Norfloxacin Tablets\nI.P.400mg,",
+        "0004",
+        "Feb-25",
+        "Jul-26",
+        "M/s.Stride Organics Private\nLimited, Sy. No. 265/P,\nKondapur (Vill.) Ghatkesar,\nMedchal District. (T.G),\nTelangana.",
+        "The sample does not\ncomply with respect to\nDissolution Test as per\nIP.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "19.",
+        "Gutwell Suspension,\nBacillus clausii 2 billion\nspores/5ml",
+        "PSB-B00225",
+        "Jan-25",
+        "Dec-27",
+        "M/s.Prosafe Biologicals LLP\nSurvey No:237/EE/1,\nMallepalle (V), Kondapur (M),\nSangareddy Dist - 502295,\nTelangana.",
+        "Total viable count found\nLess than 2 billion\nspores/5ml.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "20.",
+        "Bacillus clausii Bakteriya\nshtammining polireist\nSuspension, Bacillus\nclausii Bakteriya\nshtammining\npolirezistent 2mlrd. Tirik\nbakteriyalar/5ml",
+        "PSB-B00125",
+        "Jan-25",
+        "Dec-26",
+        "M/s. Prosafe Biologicals LLP\nSurvey No:237/EE/1,\nMallepalle (V), Kondapur (M),\nSangareddy Dist - 502295,\nTelangana.\nMrkt: Humaniqe\nBiopharmaceuticals, Private\nLimited, 12-1-16, Plot NO:\n49, 402, 4-qavat, Naga\nchambers, waltair main road,\nVishakapatnam - 530002.",
+        "Total viable count found\nLess than 2 billion\nspores/5ml.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "21.",
+        "Azithromycin Oral\nSuspension",
+        "A004",
+        "Dec-23",
+        "Nov-25",
+        "M/s. Smith & Kenner\nPharmaceuticals Pvt.Ltd,\nH.No.2-51, Survey No.72/1,\nTatti annaram Village,\nHayathnagar Mandal, R.R.\nDist. Telangana. India.",
+        "The label of the drug\nshould be mentioned as\nAzithromycin Oral\nsuspension IP. But the\nletters IP is not\nmentioned on the label.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      42.79,
+      14.37,
+      792.65,
+      522.48
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Mrkt: M/s. Smith & Kenner\nPharmaceuticals Pvt.Ltd,\nH.No.2-51, Survey No.72/1,\nTatti annaram Village,\nHayathnagar Mandal, R.R.\nDist. Telangana. India.",
+        "",
+        ""
+      ],
+      [
+        "22.",
+        "Amoxycillin & Potassium\nClavulanate for Oral\nSuspension,",
+        "UPS-245C",
+        "Jan-24",
+        "Jun-25",
+        "M/s.Ultra Drugs Pvt.Ltd, Plot\nNO. 1315-1318, VPO\nManpura, Baddi - Nlagarh\nRoad, Dist. Solan, H.P-174\n101 Himachal Pradesh.\nMrkt: KRV Life Sciences, #\n122, Padmanagar, Bhiwandi,\nMumbai - 421 303.",
+        "The drug product\nAmoxcycillin and\npotassium Clavulanate\nfor Oral suspension is\nofficial in the current\nedition of IP 2022. But\nthe designation in\nconjiction with the\nproduct title Amoxycillin\nand Potassium\nClavulanate for Oral\nsuspension IP is not\nmentioned on the\nproduct Label.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "23.",
+        "Pantoprazole Gastro-\nResistant Tablets IP 40\nmg,",
+        "0431",
+        "Nov-24",
+        "Apr-26",
+        "M/s.Stride Organics Pvt\nLimited, Survey No. 265/P,\nKondapur, Ghatkesar,\nMedchal District, T.S.\nTelangana.",
+        "The drug failed to\nindicate the common\nname of the color\ncontained in the drug on\nthe label of the product,\nas required by Rule\n127(2) of the Drugs\nRules, 1945. It was\nmentioned on the label\nas Approved Colours\nUsed.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "24.",
+        "Ambroxol Hydrochloride,\nTerbutaline sulphate,\nGuaiphenesin & Menthol\nsyrup (TEXORIL-AM\nSyrups),",
+        "MXS-9081",
+        "Nov-23",
+        "Oct-25",
+        "M/s. Maxtra\nLaboratoriestifindustrialpark,\nPlot No. 105, 105a, 105b, 1st\n, 2nd, 3rd Floors,\nDandumalkapur Vill,\nChoutuppal Mandal, Tadadri-\nBhongir Dist, 508252\nTelangana.\nMrkt: Trophomed Health\nCare, House NO.: C-35,\nDoor No: 8-3-222/8/3,\nMadhura Nagr, S.R. Nagar,\nHyderabad - 500038.",
+        "The drug failed to\nindicate the common\nname of the color\ncontained in the drug on\nthe label of the product,\nas required by Rule\n127(2) of the Drugs\nRules, 1945. It was\nmentioned on the label\nas Approved Colours\nused.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      42.8,
+      14.37,
+      792.64,
+      546.0
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "25.",
+        "Zaflox-OZ Tablet",
+        "TLT-6938",
+        "Feb-24",
+        "Jan-26",
+        "M/s.Taksa Lifescience E-47,\nIndustrial Area , Focal Point\nDerabassi Distt Mohali\nMrk. By : Ryze Lifecare A.O\nPlot No. 51 , Industrial Area\nPhase-2 , Chandigarh\n160002",
+        "1.The sample fails in the\nDissolution Test of\nOfloxacin IP &\nOrnidazole IP\n2.The sample does not\nconform to the Assay\ncontent of Ofloxacin IP\n3.The sample is also\nfound Misbranded as\nOfloxacin and\nOrnidazole Tablets are\nnot been shown official\nas per I.P 2022",
+        "Modern Drug\nTesting Laboratory\nKathua (J&K)"
+      ],
+      [
+        "26.",
+        "Maxirest –LP Tablets",
+        "MPT23365",
+        "Mar-24",
+        "Feb-26",
+        "M/s.Micro Organics\nPharmaceuticals (India)Pvt\nLtd , Ogli Suket Road Kala\nAmb Sirmour (HP)\nMrk. By : Bioglare\nPharmaceuticals 379A , Plot\nNo. 108 Top Floor Sector 39\nWest Maloya Chandigarh\n160025",
+        "The sample fails in the\ntest for Description of\ntablets",
+        "Modern Drug\nTesting Laboratory\nKathua (J&K)"
+      ],
+      [
+        "27.",
+        "Neo-Chloranton",
+        "T-3750",
+        "Dec-23",
+        "Nov-25",
+        "M/s.New Gayzel\nPharmaceuticals 6/4 Modern\nIndustrial Estate\nBahadurgarh - 124507\nMrk. By : Remedies\nPharmaceuticals (India) Pvt\nLtd 107A &B Aradhana\nBhawan Azadpur\nCommercial Complex , Delhi\n110033",
+        "The sample fails in the\ntest for Description &\nDisintegration test of\ntablets",
+        "Modern Drug\nTesting Laboratory\nKathua (J&K)"
+      ],
+      [
+        "28.",
+        "Robiflam-SP",
+        "UTGRFB401",
+        "May-24",
+        "Apr-26",
+        "M/s.Khandelwal Laboratories\nPvt Ltd , Plot No. 20 Sec-6\nIIE , Sidcul , Pantnagar , US\nNagar -263153 Uttarakhand\nMrk. By : Khandelwal\nLaboratories Pvt Ltd ,79/87 ,\nD-Lad Path Mumbai- 400033",
+        "The sample fails in the\ntest for Description of\ntablets",
+        "Modern Drug\nTesting Laboratory\nKathua (J&K)"
+      ],
+      [
+        "29.",
+        "Park 650",
+        "AT24/391",
+        "Aug-24",
+        "Jul-26",
+        "M/s.Accuwell Medics Pvt Ltd\nSurvey No 414 , Ashwamegh\nIndustrial Estate Changodar\nAhmedabad 382213\n(Gujarat)\nMrk. By : Heal Sure\nLifesciences Pvt Ltd Plot No.",
+        "The sample fails in the\ntest for Uniformity of\nWeight of Tablets &\nAssay content of\nParacetamol",
+        "Modern Drug\nTesting Laboratory\nKathua (J&K)"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      42.81,
+      14.37,
+      792.63,
+      536.04
+    ],
+    "n_rows": 8,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "198/983, Chachrawadi\nVasna Near Claris\nLifesciences Ltd Ta Sanand\nDistt. Ahmedabad Gujarat",
+        "",
+        ""
+      ],
+      [
+        "30.",
+        "Dolomol 650",
+        "RBT-2042",
+        "Oct-24",
+        "Jun-27",
+        "M/s. Rockbrook Overseas\nPvt Ltd , DIC , Industrial\nEstate Govindsar , Kathua -\n184102",
+        "The sample fails in the\ndissolution test of\nparacetamol",
+        "Modern Drug\nTesting Laboratory\nKathua (J&K)"
+      ],
+      [
+        "31.",
+        "Albendazole Tablets IP\n400 mg (ALBISTI – 400)",
+        "PI28AH05",
+        "Jul-23",
+        "Dec-25",
+        "M/s.Pure & Cure Healthcare\nPvt. Ltd., (A subsidiary of\nAkums Drugs &\nPharmaceuticals Ltd.,), Plot\nNo. 26A, 27-30, Sector-8A,\nI.I.E., SIDCUL, Ranipur,\nHaridwar – 249403,\nUttarakhand. Mfg. Lic. No. :\n31/UA/2013.",
+        "The Sample does not\nconform to standard in\nrespect of the test for\n“Dissolution”",
+        "State Drugs Testing\nLaboratory,\nAgartala, Tripura."
+      ],
+      [
+        "32.",
+        "Amlodipine Besylate\nTablets I.P. 2.5 mg\n(AMLODOSE – 2.5 )",
+        "SPT240321",
+        "Feb-24",
+        "Jan-26",
+        "M/s.Salus Pharmaceuticals,\n480/211, Harraipur, P.O. –\nGurumajra, Teh. Baddi, Dist.\nSolan, Himachal Pradesh –\n173205",
+        "The Sample does not\nconform to standard in\nrespect of the test for\n“Assay & Uniformity of\nContent”",
+        "State Drugs Testing\nLaboratory,\nAgartala, Tripura."
+      ],
+      [
+        "33.",
+        "Amoxycillin with\nPotassium Clavulanate\nTablets I.P. (CLAIM –\nCV 625)",
+        "CT/24/747",
+        "Oct-24",
+        "Mar-26",
+        "M/s.Ciphem Pharma, Plot\nNo.: 30, Subhlakshmi Ind.\nEstate, Opp. Sanket Ind.\nEstate, At: Morraya, Ta:\nSanand, Dist.: Ahmedabad –\n382213. Mfg. Lic. No. :\nG/28/1738.",
+        "The Sample does not\nconform to standard in\nrespect of the test for\n“Uniformity of weight,\nDissolution & Assay”",
+        "State Drugs Testing\nLaboratory,\nAgartala, Tripura."
+      ],
+      [
+        "34.",
+        "Amoxycillin& Potassium\nClavulanate Tablets I.P\n(AGECLAV – 375\nTablets)",
+        "JMT-240801A",
+        "Aug-24",
+        "Jan-26",
+        "M/s.JMM Formulation Pvt.\nLtd., (A WHO GMP & GLP\nCertified Company), Vill:\nKhari, Mouza-Ogli, Suketi\nRoad, Kala Amb, Tehsil:\nNahan, Dist: Sirmour,\nHimachal Pradesh – 173030.",
+        "The Sample does not\nconform to Standard\nQuality in respect of the\ntest for “Dissolution of\nAmoxycillin”.",
+        "State Drugs Testing\nLaboratory,\nAgartala, Tripura."
+      ],
+      [
+        "35.",
+        "Zinc Sulphate Tablets\nI.P. 20 mg (TONZEE 20)",
+        "ZS-2404",
+        "May-24",
+        "Apr-26",
+        "M/s.Torino Laboratories Pvt.\nLtd., Fact: Plot No. 65/1,\nSector 1, Pithampur –\n454775, Dist. Dhar (INDIA).",
+        "The Sample does not\nconform to Standard\nQuality in respect of the\ntest for “Disintegration”.",
+        "State Drugs Testing\nLaboratory,\nAgartala, Tripura."
+      ],
+      [
+        "36.",
+        "Telmisartan Tablets I.P.\n20 mg (TELSAT – 20)",
+        "ST2T2302",
+        "Mar-24",
+        "Feb-26",
+        "M/s.Goodman\nPharmaceuticals, Plot No.\nB3-B8, PIPDIC Electronic\nPark, Thirubhuvanai,\nPoducherry – 605107",
+        "The Sample does not\nconform to standard in\nrespect of the test for\n“Dissolution” performed.",
+        "State Drugs Testing\nLaboratory,\nAgartala, Tripura."
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      42.81,
+      14.37,
+      792.63,
+      546.48
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "37.",
+        "Amoxycillin& Potassium\nClavulanate Tablets I.P.\n625 mg (TIMOX – CV\n625)",
+        "AXP5F5007",
+        "Jan-25",
+        "Dec-26",
+        "M/s.Sucantis Bio Tech Pvt.\nLtd., Plot No.: E-127 & 128,\nInd. Area Bahadarabad,\nHaridwar (Uttarakhand) –\n249402, Mfg. Lic. No.:\n19/UA/SC/P - 2023",
+        "The sample does not\nconform to standard\nquality in respect of the\ntest for “Dissolution of\nAmoxycillin”",
+        "State Drugs Testing\nLaboratory,\nAgartala, Tripura."
+      ],
+      [
+        "38.",
+        "Amoxycillin& Potassium\nClavulanate Tablets I.P\n(AMOXMED – CV 625\nTablets)",
+        "ABT24071",
+        "May-24",
+        "Oct-25",
+        "M/s.Alexa Pharmaceuticals,\nPlot No: 20 Ext HPSIDC, Ind\nArea, Baddi, Dist. Solan\n(H.P.) – 173205, Mfg. Lic.\nNo. : L/21/2638/MNB &\nL/21/2639/MB",
+        "The sample does not\nconform to standard\nquality in respect of the\ntest for “Dissolution &\nAssay”.",
+        "State Drugs Testing\nLaboratory,\nAgartala, Tripura."
+      ],
+      [
+        "39.",
+        "Albendazole Tablets I.P.\n400 mg (B-ZOLE 400\nmg)",
+        "T50120A",
+        "Feb-25",
+        "Jan-27",
+        "M/s.Samson Laboratories\nPvt. Ltd., (WHO-GMP\nCertified Company), 152,\nSansiwala, Barotiwala, Distt.\nSolan (H.P.) – 174103, Mfg.\nLic. No. : MNB/05/156.",
+        "The sample does not\nconform to standard\nquality in respect of the\ntest for “Dissolution”",
+        "State Drugs Testing\nLaboratory,\nAgartala, Tripura."
+      ],
+      [
+        "40.",
+        "Methylcobalamin, Alpha\nLipoic Acid, Pyridoxine\nHydrochloride, Folic\nAcid, Inositol &\nNiacinamide Softgel\nCapsules (S-Neuro\nPlus)",
+        "SD240762",
+        "Apr-24",
+        "Sep-25",
+        "M/s. Bajaj Nutraceuticals,\n328M, Raipur Industrial Area,\nBhagwanpur, Roorkee Distt.\nHaridwar-247661, (U.K.)",
+        "(1) For the received\nsample\nMethylcobalamin, Alpha\nLipoic Acid, Pyridoxine\nHydrochloride, Folic\nAcid, Inositol &\nNiacinamide Softgel\nCapsules (S-NEURO\nPLUS), Leakage of the\nsoft gelatin capsules\nwas observed which\nshould not be present as\nper rule 124B of the\nDrugs Rules,1945\n(2) Does not comply\nwith respect to test for\nDesintegration",
+        "State lab ,\nPuducherry"
+      ],
+      [
+        "41.",
+        "Telmisartan &\nAmlodipine TabletsIP\n(Lanztel-AM)",
+        "RHT24-402",
+        "Jul-24",
+        "Jun-26",
+        "M/s Revantis Healthcare,\nPlot No. 124, HPSIDC,\nIndustrial Area, Baddi, Distt.\nSoaln (H.P)-173205",
+        "Does not comply with\nrespect to test for Assay",
+        "State lab ,\nPuducherry"
+      ],
+      [
+        "42.",
+        "Aceclofenac &\nParacetamol Tablets (A-\nSid Tablets)",
+        "HT-2401253",
+        "Dec-24",
+        "Nov-26",
+        "M/s.Helax Healthcare Private\nLimited., Khasra No. 410,Vill-\nKarondi Roorkee -\n247667,Distt- Haridwar (UK)",
+        "(1)The sample received\nis labelled as\nAceclofenac &\nParacetamol Tablets,\nhowever Aceclofenac &\nParacetamol Tablets is\nan official IP monograph",
+        "State lab ,\nPuducherry"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      42.78,
+      14.37,
+      792.66,
+      545.04
+    ],
+    "n_rows": 3,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "(Addendum 2024)\nhence should be\nlabelled as Aceclofenac\n& Paracetamol Tablets\nIP.\n(2)For the received\nsample, Discolouration\nwas observed.\n(3) Does not comply\nwith respect to test for\nUniformity of weight and\nAssay for Aceclofenac\nand Paracetamol.",
+        ""
+      ],
+      [
+        "43.",
+        "Aceclofenac &\nParacetamol Tablets\n(Aceclon-P)",
+        "NTT250578",
+        "Feb-25",
+        "Jan-28",
+        "M/s. Nanoceut Therapeutics\nPvt. Ltd.,\nR.S.No.104/19A,E.V.R\nStreet, Sedarapet,\nPuducherry-605111",
+        "The sample received is\nlabelled as Aceclofenac\nAnd Paracetamol\nTablets (Aceclon-P) ,\nhowever Aceclofenac\nAnd Paracetamol\nTablets is an official IP\nmonograph (IP\nAddendum 2024) hence\nshould be labelled as\nAceclofenac And\nParacetamol Tablets IP.",
+        "State lab ,\nPuducherry"
+      ],
+      [
+        "44.",
+        "Bromhexine Hcl Tabs.\nIP 8mg (Bronco)",
+        "BRO-2401",
+        "Jun-24",
+        "May-27",
+        "M/s. Medibest Pharma Pvt.\nLtd. N-31,Sidco\nIndl.Estate,Hosur,TN",
+        "(1) The label of the\nreceived sample\nBromhexine Hcl Tabs.\nIP 8mg (BRONCO),\nmentions the proper\nname of the drug\nwhose font size is\nsmaller than the brand\nname whereas the\nproper name of the drug\nshould be at least two\nfont size larger than the\nbrand name as\nprescribed under Rule\n96 (1), i (A) of the Drugs\nand Cosmetics Rules.\n(2) The name of the\nreceived sample\nmentions as\nBromhexine HCL Tabs.\nIP 8mg, however",
+        "State lab ,\nPuducherry"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      42.82,
+      14.37,
+      792.62,
+      548.04
+    ],
+    "n_rows": 9,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Bromhexine HCL Tabs\nIP is an official\nmonograph hence\nshould be labelled as\nBromhexine HCL Tabs\nIP.",
+        ""
+      ],
+      [
+        "45.",
+        "Amoxycillin Capsules IP\n250mg (Amoxi 250)",
+        "MT14AC08",
+        "Aug-23",
+        "Jul-25",
+        "M/s.Malik Lifesciences Pvt.\nLtd., Plot No. 16, Vardhman\nIndl. Estate, Vill-Bahadarpur\nSaini, N.H.58, Haridwar-247\n667",
+        "Does not comply with\nrespect to test for Assay",
+        "State lab ,\nPuducherry"
+      ],
+      [
+        "46.",
+        "Tamsulosin\nHydrochloride &\nDutasteride tab (Urimax-\nD",
+        "4GH0097",
+        "Dec-23",
+        "Nov-25",
+        "M/s. Cipla Ltd., Verna Indl.\nEstate, Goa-403722",
+        "Negative for the\npresence of Tamsulosin\nHydrochloride &\nDutasteride",
+        "State Drug Control\n& Research Lab,\nWest Bengal"
+      ],
+      [
+        "47.",
+        "Ursodeoxycholic acid\nTablets IP 300 mg",
+        "UDS-501",
+        "Aug-24",
+        "Jul-26",
+        "M/s.Healers Lab Unit II Plot\nNO. 33, H.P.S.I.D.C. , Extn.,\nBaddi, Distt. Solan H.P.",
+        "The sample does not\nconfirm to claim as per\nIP 2022 in respect to the\nDissolution of Ursodiol (\nUrsodeoxycholic Acid)",
+        "DTL Baddi Distt.\nSolan"
+      ],
+      [
+        "48.",
+        "Ferrous Sulphate &\nFolic Acid Syrup IP",
+        "FSF-158",
+        "Oct-24",
+        "Sep-26",
+        "M/s.Medipol Pharmaceuticals\nIndia Pvt. Ltd. 1199/3, Bhud\nBaddi, Distt. Solan H.P.",
+        "The sample does not\nconform to claim as per\nIP 2022 in respect to the\nTest of Free Ferric\nCompounds & Assay of\nFolic Acid.",
+        "DTL Baddi Distt.\nSolan"
+      ],
+      [
+        "49.",
+        "Ibuprofen Oral\nSuspension BP 100\nmg/5ml",
+        "IBS-022",
+        "Jul-24",
+        "Jun-26",
+        "M/s.Medipol Pharmaceuticals\nIndia Pvt. Ltd. 1199/3, Bhud\nBaddi, Distt. Solan H.P.",
+        "The sample does not\nconform to claim as per\nBP 2024 in respect to\nthe Assay of Ibuprofen.",
+        "DTL Baddi Distt.\nSolan"
+      ],
+      [
+        "50.",
+        "Montelukast Sodium &\nLevocetirizine\nDihydrochloride Tablets\nIP (BLUCAST-L)",
+        "ZP24T176",
+        "Aug-24",
+        "Jul-26",
+        "M/s. Zantic Pharmaceuticals\nPvt. Ltd. (AGMP Certified\nUnit) G-86, UPSIDC,\nIndustrial Area, Selaqui,\nDehradun, Uttarakhand-\n248011",
+        "The sample does not\nconform to claim as per\nIP 2022 in respect to the\nDissolution of\nMontelukast &\nLevocetirizine\nHydrochloride",
+        "DTL Baddi"
+      ],
+      [
+        "51.",
+        "Alcinac-SR Tablets\n(Aceclofenac Sustained-\nrelease Tablets)",
+        "9244001",
+        "May-24",
+        "Apr-26",
+        "M/s.Leeford Healthcare Ltd.\nAt: Plot No. 79-A & 79-B,\nEPIP, Phase-II, Vill. Thana,\nTehsil Baddi, Distt. Solan\n173205 (H.P.). India.",
+        "Dissolution of\nAceclofenac.",
+        "Drugs Testing\nLaboratory, Baddi"
+      ],
+      [
+        "52.",
+        "Dapagliflozin Tablets IP\n(DAPAWOHN)",
+        "HT2406181",
+        "Jun-24",
+        "May-26",
+        "M/s.Helax Healthcare Private\nLimited Khasra No.410\nVillage Karondi Roorkee Distt\nHaridwar",
+        "Assay and Uniformity of\nContent of Dapagliflozin",
+        "DTL Baddi Distt\nSolan HP"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      42.82,
+      14.37,
+      792.62,
+      548.52
+    ],
+    "n_rows": 10,
+    "n_cols": 8,
+    "rows": [
+      [
+        "53.",
+        "Moxi-KT EYE DROPS\n(Moxifloxacin 0.5 % +\nKetorolac 0.4% +\nH.P.M.C. 0.025 %\nOpthalmic solution)",
+        "3780",
+        "Aug-24",
+        "Jul-26",
+        "M/s.Eden Drugs Pvt. Ltd.\nS.G.R.D.J. Airport Road\nMeerankot Distt.\nAmritsar,Punjab",
+        "Assay of\nKetorolac(80.75%)",
+        "DTL Baddi Distt\nSolan HP"
+      ],
+      [
+        "54.",
+        "Acelofenac &\nParacetamol Tablets\n(ACELOZAL-P)",
+        "YLT25005",
+        "Jan-25",
+        "Dec-26",
+        "M/s.YL Pharma Baddi, Distt.\nSolan H.P.",
+        "The sample does not\nconforms to Patent &\nProprietary in repect to\nthe Assay of\nAceclofenac.",
+        "DTL Baddi Distt\nSolan HP"
+      ],
+      [
+        "55.",
+        "Cefixime 100 mg/5ml\nPowder for oral\nSuspension (Sunderin)",
+        "MSSB24005",
+        "Nov-24",
+        "Nov-26",
+        "M/s.Nector Lifesciences\nLimited Unit-VI, Village\nBhatoli Kalan Adjoining\nJharmajri EPIP Baddi, Distt.\nSolan H.P.",
+        "The sample does not\nconforms to Patent &\nProprietary in repect to\nthe Assay of Anhydrous\nCefixime.",
+        "DTL Baddi Distt\nSolan HP"
+      ],
+      [
+        "56.",
+        "Depcof cough syrup",
+        "L-2306077",
+        "Jun-23",
+        "May-25",
+        "M/s.Gopal life sciences,\njhadmajri, Baddi",
+        "Assay of Phenylephrine\nHydrochloride.",
+        "DTL Baddi Distt\nSolan HP"
+      ],
+      [
+        "57.",
+        "Trypsin, Bromelain,\nRutoside, Trihydrate &\nDiclofenac Tablets\n(RUMIHEAL-D)",
+        "SRTF240703B",
+        "Jun-24",
+        "",
+        "M/s.Systole Remedies Pvt.\nLtd.. Vill-Ogli, Kala Amb,\nTehsil-Nahan Distt. Sirmour\nHP",
+        "Test for Disintegration",
+        "DTL Baddi Distt\nSolan HP"
+      ],
+      [
+        "58.",
+        "Dapagliflozin Tablets IP\n(DAPAWOHN)",
+        "HT2406181",
+        "Jun-24",
+        "May-26",
+        "M/s. Helax Healthcare\nPrivate Limited Khasra\nNo.410 Village Karondi\nRoorkee Distt Haridwar",
+        "Assay and Uniformity of\nContent of Dapagliflozin",
+        "DTL Baddi Distt\nSolan HP"
+      ],
+      [
+        "59.",
+        "Itraconazole Capsules\nBP 100 mg (ITR 100",
+        "5007",
+        "Jul-23",
+        "Jun-25",
+        "M/s. Orley Laboratories Pvt.\nLtd. 1817, GIDC Estate,\nPhase-III Vatwa, Ahmedabad\n382445",
+        "The sample does not\ncomply with B.P\nrequirements for\nDissolution Test\"",
+        "A.S Kambli\nPalghar-Zone-1\nFDA, Lab Mumbai"
+      ],
+      [
+        "60.",
+        "Calcium and Vitamin D3\nTablets IP(Tricum-XT)",
+        "1240247",
+        "Feb-24",
+        "Jul-25",
+        "M/s. Corona Remedies Pvt\nLtd. Village, Jatoli, Post\noffice-Oachghat, Tehsil-\nSolan, Dist. Solan (H.P)\n173223",
+        "The Content of Vitamin\nD3 in the sample is less\n(i.e. 34.85% of the\nlabelled amount) than\nthe IP limits",
+        "A.S Kambli\nPalghar-Zone-1\nFDA, Lab Mumbai"
+      ],
+      [
+        "61.",
+        "Acidom-DSR Capusles",
+        "2560301C",
+        "Jul-23",
+        "Jun-25",
+        "M/s. Lifecare, Formulation\nPvt Ltd. Plot No. 2 & 3, 91/5,\nLink Road, Sonia Gandhi,\nNear Mettupalayam Industrial\nEstate, Puducherry-605009",
+        "The content of\nRabeprozole in the\nsample is less (i.e\n31.85% of the lablled\namount) than\npermissible limits",
+        "A.S Kambli\nPalghar-Zone-1\nFDA, Lab Mumbai"
+      ],
+      [
+        "62.",
+        "Itraconazole Ofloxacin,\nOrnidazole & Clobetasol\nPropionate Cream\n(Fondastop C Cream)",
+        "0-102",
+        "Sep-23",
+        "Aug-25",
+        "M/s. Spen Formulations Pvt\nLtd. Plot No. 123, Industrial\nArea, Mehatpur-174315,\nDistt. UNA(H.P)",
+        "The sample does not\ngive High Performance\nLiquid Chromatographic\nand Thin Layer\nChromatographic\nidentification Test for the",
+        "A.S Kambli\nPalghar-Zone-1\nFDA, Lab Mumbai"
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      42.82,
+      14.37,
+      792.62,
+      536.52
+    ],
+    "n_rows": 9,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "presence of itraconazole\nand Clobetasol\nPropionate.",
+        ""
+      ],
+      [
+        "63.",
+        "Halar Cream",
+        "HA-292",
+        "Jul-23",
+        "Jun-26",
+        "M/s. Maxheal\nPharmaceuticals (I) Ltd. J-7\nM.I.D.C Tarapur Industrial\nArea, Boisar-401506\nMaharashtra",
+        "The content of\nNeomycin Sulphate (i.e.\n18.80% of the labelled\namount)",
+        "A.S Kambli\nPalghar-Zone-1\nFDA, Lab Mumbai"
+      ],
+      [
+        "64.",
+        "Lomojack",
+        "CN2305",
+        "Apr-23",
+        "Sep-25",
+        "M/s.Century Drugs Pvt Ltd.\nPlot no. 38, Sector-3, Dist.\nDhar, Pithampur , Madhya\nPradesh",
+        "The sample does not\ncomply with I.P\nrequirement for\nDissolution Test\"",
+        "A.S Kambli\nPalghar-Zone-1\nFDA, Lab Mumbai"
+      ],
+      [
+        "65.",
+        "Amikacin Sulphate\nInjection IP 500mg\n(Amikablast 500\nInjection)",
+        "W373",
+        "Jul-23",
+        "Jun-25",
+        "M/s. Macin Remedies India\nLtd. B-21, Ind focal point,\nMoga(PB)-142001",
+        "The content of Amikacin\nin the sample is more\n(i.e 183.99% of the\nlablled amount) than the\nI.P limits",
+        "A.S Kambli\nPalghar-Zone-1\nFDA, Lab Mumbai"
+      ],
+      [
+        "66.",
+        "Misoprostol Tablets IP\n200 mcg(Misotop 200)",
+        "SPT241229",
+        "Jun-24",
+        "May-26",
+        "M/s. Salus Pharmaceuticals\n480/211, Harraipur, Po.\nGurumajra, Teh. Baddi Dist.\nSolan (H.P)-173205",
+        "The content of\nMisoprostol in the\nsample is less (i.e\n13.82% of the lablled\namount) than the IP\nlimits",
+        "A.S Kambli\nPalghar-Zone-1\nFDA, Lab Mumbai"
+      ],
+      [
+        "67.",
+        "Albendazole Chewable\nTablets IP (Alsia-400\nTab",
+        "SPD-618",
+        "Oct-24",
+        "Sep-26",
+        "M/s. Sia Pharma Pvt Ltd.\n(Who-Gmp Certified\nCompany) Plot no. 170,\nHSIIDC Barhi Indl Area,\nPhase-I, Sonipat Haryana-\n131101",
+        "The sample does not\ncomply with I.P\nrequirement for\nDissolution Test\"",
+        "A.S Kambli\nPalghar-Zone-1\nFDA, Lab Mumbai"
+      ],
+      [
+        "68.",
+        "Aceclofenac,\nParacetamol &\nSerratiopeptidase\nTablets (ACIJAN-SP\nTablets)",
+        "AF-23T683",
+        "Oct-23",
+        "Sep-25",
+        "M/s. Affine Formulations\nLtd.1947/3, Vill. Bhatian,\nTehsil-Nalagarh, Dist. Solan,\n174101 (H.P)",
+        "The Content of\nSerratiopeptidase in the\nsample is less(i.e\n41.54% of lebelled\namount)",
+        "V.P. Mahajan,\nJalna. FDA Lab,\nM.S. Chhatrapati\nSambhajinagar .\nMaharashtra State"
+      ],
+      [
+        "69.",
+        "Codeine Phosphate,\nChlorpheniramine\nMaleate and Sodium\nCitrate Cough Linctus\n(WYKAREX-CD Cough\nLinctus)",
+        "AL-5770",
+        "Nov-23",
+        "Oct-25",
+        "M/s. Acron Pharmaceuticals,\n38/2, Main Road, G.I.D.C,\nEstate, Naroda, Ahmedabad-\n382330",
+        "The Content of Codeine\nPhosphate in the\nsample less (i.e 32.50%\nof the labelled amount)",
+        "B.D. Marewad,\nFDA Lab, M.S.\nChhatrapati\nSambhajinagar .\nMaharashtra State"
+      ],
+      [
+        "70.",
+        "Ciprofloxacin\nHydrochloride Tablets IP\n500mg (Cipro-500\nTablets",
+        "COP24001",
+        "Mar-24",
+        "Feb-26",
+        "M/s. Danish Healthcare(P)\nLtd. 76/27-28, Industrial\nEstate, Maxi Road, Ujjain-\n456010",
+        "The sample does not\ncomply with I.P\nrequirement for \"\nDissolution \"",
+        "N.S. Bhalerao,\nNanded, FDA Lab,\nM.S. Chhatrapati\nSambhajinagar .\nMaharashtra State"
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      42.81,
+      14.37,
+      792.63,
+      546.48
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "71.",
+        "Advanced Pakiza\nUnani's Golden Knight\n125g",
+        "PUN45",
+        "Nov-24",
+        "Oct-27",
+        "M/s. Advanced Pakiza Unani\nLLP, C.C Narpoli, Dist.\nThane-302(MS)",
+        "1. The sample gives\nidentification for the\npresence of Sildenafil\nCitrate. 2. Found\nContent of Sildenafil in\nthe sample is 33.72\nmg/10gm",
+        "S.K, Jadhav, Pune-\nZone 3 , FDA Lab,\nM.S. Chhatrapati\nSambhajinagar .\nMaharashtra State"
+      ],
+      [
+        "72.",
+        "Advanced Pakiza\nUnani's Golden Knight\nCream",
+        "PUNC02",
+        "Apr-24",
+        "Mar-27",
+        "M/s. Advanced Pakiza Unani\nLLP, MH/103279, Narpoli\nBhiwandi 302",
+        "1. The sample gives\nidentification for the\npresence of Tadalafil. .\n2. Found Content of\nTadalafil in the sample\nis 0.17mg/gm",
+        "S.K, Jadhav, Pune-\nZone 3 , FDA Lab,\nM.S. Chhatrapati\nSambhajinagar .\nMaharashtra State"
+      ],
+      [
+        "73.",
+        "Advanced Pakiza\nUnani's Golden Knight\nCapsules",
+        "GKC002A",
+        "Nov-23",
+        "Oct-26",
+        "M/s. Advanced Pakiza Unani\nLLP, MH/105594A",
+        "1. The sample gives\nidentification for the\npresence of Sildenafil\nCitrate and Tadalafil. 2.\nFound Content of\nSildenafil in the sample\nis 9.65mg/Cap 3. Found\nContent of Tadalafil in\nthe sample is\n12.77mg/Cap",
+        "S.K, Jadhav, Pune-\nZone 3 , FDA Lab,\nM.S. Chhatrapati\nSambhajinagar .\nMaharashtra State"
+      ],
+      [
+        "74.",
+        "Golden Drive 250gm",
+        "GDM002N",
+        "Oct-23",
+        "Sep-26",
+        "M/s. Advanced Pakiza Unani\nLLP, C.C Narpoli, bhiwandi\nDist. Thane-302(MS)",
+        "1. The sample gives\nidentification for the\npresence of Sildenafil\nCitrate 2. Found Content\nof Sildenafil in the\nsample is 8.49mg/10gm",
+        "S.K, Jadhav, Pune-\nZone 3 , FDA Lab,\nM.S. Chhatrapati\nSambhajinagar .\nMaharashtra State"
+      ],
+      [
+        "75.",
+        "Azithromycin Tablets IP\n500mg (Ronnin 500\nTablets)",
+        "PPTC082",
+        "Nov-23",
+        "Oct-26",
+        "M/s.Pratima\nPharmaceuticals, G.No. 56/3,\nPratima Nagar, Pabal Road,\nShikrapur, Pune-412208",
+        "1. The sample does\ngives identification for\nthe presence of\nAzithromycin 2.\nAdditional identification:-\nThe sample gives\nidentification for the\npresence of\nParacetamol.3. Found\nContent of Paracetamol\nin the sample is\n147.24mg/Tab",
+        "S.K, Jadhav, Pune-\nZone 3 , FDA Lab,\nM.S. Chhatrapati\nSambhajinagar .\nMaharashtra State"
+      ],
+      [
+        "76.",
+        "Paracetamol Tablets I.P\n500mg(Fevimed)",
+        "451AA05",
+        "Dec-23",
+        "Nov-25",
+        "M/s. Sarv Pharmaceuticals,\nPlot no. 28, Sector-3A, I.I.E,\nSIDCUL, Haridwar-249403",
+        "The sample does not\ncomply for Description\nas, the tablets shows\nuneven light Brown\nColoured Spots on the",
+        "N.S. Bhalerao,\nHingoli , FDA Lab,\nM.S. Chhatrapati\nSambhajinagar .\nMaharashtra State"
+      ]
+    ]
+  },
+  {
+    "page": 13,
+    "bbox": [
+      42.82,
+      14.37,
+      792.62,
+      548.04
+    ],
+    "n_rows": 9,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Surface of almost all the\nTablets.",
+        ""
+      ],
+      [
+        "77.",
+        "Fluconazole 150mg\nTablets IP (PRATIFLU\n150 Tablets",
+        "PPTS-2801",
+        "Aug-24",
+        "Jul-27",
+        "M/s. Pratima\nPharmaceuticals, G.No. 56/3,\nPratima Nagar, Pabal Road,\nShikrapur, Pune-412208",
+        "The content of\nFluconazole in the\nsample is less (i.e\n31.96% of the stated\namount) (I.P. Limits:-\nNot less than 90% and\nnot more than 110% of\nthe stated Amount)",
+        "V.P. Khedkar,\nPune-Zone 2"
+      ],
+      [
+        "78.",
+        "White Powder\nParacetamol IP",
+        "PAR040325",
+        "Mar-25",
+        "Feb-30",
+        "M/s. Samarth\nPharmaceuticals Office No.\n201 GIDC Shopping Centre\nMorarji Circle GIDC Vapi-\n396195",
+        "Identification Test Found\nTo be Negative. Assay\nof Paracetamol IP-NIL",
+        "State Food & Drug\nTesting Laboratory\nUttarakhand"
+      ],
+      [
+        "79.",
+        "White Powder\nParacetamol IP",
+        "PAR050325",
+        "Mar-25",
+        "Feb-30",
+        "M/s. Samarth\nPharmaceuticals Office No.\n201 GIDC Shopping Centre\nMorarji Circle GIDC Vapi-\n396195",
+        "Identification Test Found\nTo be Negative. Assay\nof Paracetamol IP-NIL",
+        "State Food & Drug\nTesting Laboratory\nUttarakhand"
+      ],
+      [
+        "80.",
+        "Dicyclomine HCL\nPowder",
+        "DEH/24011R",
+        "Jul-25",
+        "Jun-29",
+        "M/s. Palam Pharma Pvt. Ltd.,\n12/C, Phase-I, Nr. Old Nirma,\nGIDC Estate, Vatva\nAhmedabad-382445 Gujrat",
+        "IdentificationTest-\nFound to be Negative.\nAssay of Paracetamol\nIP-Nil.",
+        "State Food & Drug\nTesting Laboratory\nUttarakhand"
+      ],
+      [
+        "81.",
+        "Fluconazole IP Powder",
+        "FLZ23-2411",
+        "Nov-23",
+        "Oct-28",
+        "M/s.Mestra Pharma Pvt. Ltd.,\nM/s. Jasvic Laboratories Kh\nno. 376, Vill. Latifpur\nKhubbanpur, Dehradun,\nRoorkee-",
+        "Loss on drying: Does\nnot comply with IP",
+        "State Food & Drug\nTesting Laboratory\nUttarakhand"
+      ],
+      [
+        "82.",
+        "Sodium Valporate IP\nPowder",
+        "SV/02/01/25",
+        "Jan-25",
+        "Dec-29",
+        "M/s.Mirambika Pigment, Plot\nNo. 155/1, Dhanot, Chhatra-\nKadi road, Distt.\nGandhinagar-382729 Gujrat",
+        "Loss on drying: Does\nnot comply with IP,\nAssay of Sodium\nValporate IP: More than\nPrescribed Limit",
+        "State Food & Drug\nTesting Laboratory\nUttarakhand"
+      ],
+      [
+        "83.",
+        "Compound Sodium\nLactate Injection IP\n(Ringer-Lactate Solution\nfor Injection)",
+        "KI124110",
+        "Dec-24",
+        "Nov-27",
+        "M/s.Ultra Laboratories Pvt.\nLtd.,Plot NO.102-\nB &102-B (P-1),\nPharmaceuticals SEZ,\nKIADB Industrial\nEstate, Hassan,\nKarnataka-573201",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "84.",
+        "Compound Sodium\nLactate Injection I.P\n(Ringer's Lactate\nSolution Injection\nI.P)RL",
+        "13-4536",
+        "Nov-24",
+        "Oct-27",
+        "M/s.Tam Bran\nPharmaceuticals Pvt.\nLtd.,PlotNo.212-216,\nSector-1, Pithampue\n(Distt.Dhar) M.P",
+        "Test for Sterility",
+        "Karnataka"
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "bbox": [
+      42.82,
+      14.37,
+      792.62,
+      548.04
+    ],
+    "n_rows": 9,
+    "n_cols": 8,
+    "rows": [
+      [
+        "85.",
+        "Pomol-650\n(Paracetamol Tablets\nI.P. 650mg)",
+        "24020111",
+        "Feb-24",
+        "Jan-27",
+        "Mls.Aban\nPharmaceuticals,Plot\nNo. 1018, Kerala,\nG.I.D.C., Bavla, Dist.\nAhmedabad-382220",
+        "Test for Dissolution of\nTablets and content of\nParacetamol in the\nAssay",
+        "Karnataka"
+      ],
+      [
+        "86.",
+        "MITO Q7 Syrup (Co\nEnzyme Q10, L-\nCarnitine, Benfotiamine,\nRiboflavin, Pyridoxine\nHCL",
+        "CHS-40170",
+        "Sep-24",
+        "Feb-26",
+        "M/s.Bion Therapeutics India\nPvt.Ltd. ,N.H No\n74,Roorkee,Dehradun\nHighway Kishanpur,\nRoorkee, Haridwar\nUttarakhand(India),",
+        "Assay for Benfotiamine,\nRiboflavinand,AscorbicA\ncid",
+        "Karnataka"
+      ],
+      [
+        "87.",
+        "Sterile Diluent For\nReconstitution of ND, IB,\nIBD and\nCombination\nVaccines for Poultry\n(Veterinary) Multi",
+        "GSCEV03",
+        "Nov-23",
+        "Oct-25",
+        "M/s.Safe Parenterals\nPvt.Ltd.,Gollapadu,Guntur\nDistrict-522408\nAndhra Pradesh",
+        "Description & Particulate\nMatter",
+        "Karnataka"
+      ],
+      [
+        "88.",
+        "Spnflox-OZ Tablets\n(Ofloxacin\n&OrnidazoleTablets IP)",
+        "DT240523B",
+        "May-2024",
+        "Apr-26",
+        "M/s.Indo Rama Health\nCare Pvt.Ltd., 204-\n05,HSIIDC Manakpur\n,Industrial Area, Jagadhri,\nDistt.Yamuna Nagar",
+        "Description of Tablets",
+        "Karnataka"
+      ],
+      [
+        "89.",
+        "Pantoprazole\nGastro-resistant &\nDomperidone\nProlonged Release\nCapsuels IP\n(Pantocoat-\nDAR)",
+        "C112403",
+        "Nov-24",
+        "Oct-26",
+        "Mls.Swefn\nPharmaceuticals Pvt.Ltd., 7,\nSopan Kesar Industrial Hub,\nVil. Moraiya,Tal.Sanand,\nDist. Ahmedabad-",
+        "Description of Tablets",
+        "Karnataka"
+      ],
+      [
+        "90.",
+        "Sodium Chloride\nInjection IP 0.9% w/v\n(NS)",
+        "TL304F003",
+        "Nov-24",
+        "Oct-27",
+        "M/s. Puniska lnjectables\nPvt.Ltd.,Plot No.1, Phase\nIII, Honda Industrial\nEstate,Honda Sattari,\nGoa-403530,",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "91.",
+        "Sodium Chloride\nInjectionIP0.9% w/v\n(NS)",
+        "UA404B026",
+        "Jan-25",
+        "Dec-27",
+        "M/s. Puniska lnjectables\nPvt.Ltd.,Plot No.1, Phase\nIII, Honda Industrial\nEstate,Honda Sattari,\nGoa-403530,",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "92.",
+        "Alpha Lipoic Acid,\nFolic Acid,\nMethylcobalamin,\nVitamin B6 &Vitamin D3\nTablets)",
+        "AT-052410",
+        "May-24",
+        "Apr-26",
+        "M/s.East African\n(India) Overseas,1,\nPharmacity,Selaqui,\nDehradun- 24801l (U.k)",
+        "Test for Disintegration\nonly",
+        "Karnataka"
+      ],
+      [
+        "93.",
+        "Om Shanthi Gold\nClass KUMKUM,",
+        "BL0l",
+        "Dec-24",
+        "Nov-25",
+        "M/s.N. Rangarao &\nSons Pvt.Ltd.,C9 &",
+        "Test for Fineness\nresidue only",
+        "Karnataka"
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "bbox": [
+      42.82,
+      14.37,
+      792.62,
+      525.0
+    ],
+    "n_rows": 9,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "C10,Yadavagiri Industrial\nArea,Mysusru-570020",
+        "",
+        ""
+      ],
+      [
+        "94.",
+        "Sulcralfate&\nOxetacaine\nSuspension( Piracid-O\nSuspension)",
+        "R05GL2423A",
+        "May-24",
+        "Apr-26",
+        "M/s. Rednex\nPharmaceuticals Pvt.\nLtd.,Survey No.586 & 231,\nNr.SKF Bearing, Bavla\nBagodara, N.H.8A, Kerala\nTa.\n.Bavla Ahmedabad.382220",
+        "Assay for Oxetacaine\nOnly",
+        "Karnataka"
+      ],
+      [
+        "95.",
+        "GlimepirideTablets IP\n2mg (Glimiz-2),",
+        "T24039",
+        "Apr-24",
+        "Mar-26",
+        "M/s.Knm Pharma Pvt.\nLtd.13,Mahagujrat Ind.\nEstate, Opp. Nova\nPetrochemicals Ltd,\nMoraiya,Ta.Sanand,\nDist .Ahmedabad\nf3ujarat (India)",
+        "Assay”and IP\nstandards with\nrespect“Test for\nDissolution\n\"",
+        "Karnataka"
+      ],
+      [
+        "96.",
+        "Iron Sucrose\nInjection USP\nl00mg (Irogain)",
+        "IISI406",
+        "Sep-24",
+        "Jul-26",
+        "U/s. Regain\nLaboratories,134/5\nH.T.M.Road., Raipur\nLane Hisar-125001",
+        "Test for Fineness\nresidue only",
+        "Karnataka"
+      ],
+      [
+        "97.",
+        "Compound Sodium\nLactate Injection I.P\n(Ringer Lactate Solution\nfor injectionI.P) RL",
+        "1247988",
+        "Nov-24",
+        "Oct-27",
+        "M/s.Otsuka\nPharmaceuticals India Pvt,\nLtd.,Village- Vasana-\nChacharwadi,TAL-\nSanand,Dist.\nAhmedabad 382213,\nIndia",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "98.",
+        "KAAMRAJ (Suspected\nto contain Sildenafil and\nTadalafil\n(Brahmanands)",
+        "BAC0003",
+        "Jan-23",
+        "Dec-25",
+        "M/s. Brahmanand Ayurveda\n(OPC) Pvt. Ltd, Punjab\n(INDIA)-144020",
+        "1) Identification Test for\nSildenafil found to be\nNegative. 2)\nIdentification test for\nTadalafil found to be\nPositive.",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "99.",
+        "Testosterone Propionate\n100mg/ml (P-JECT)",
+        "INLDAN1801",
+        "Feb-24",
+        "Jan-28",
+        "M/s. Novector Labs, Not\nMentioned",
+        "Manufacturing address\nis not mentioned on the\nlabel.",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "100.",
+        "Super Bulk-Mix Rx Only\n(Super Bulk-Mix Rx)",
+        "CQ20215MIOS",
+        "Feb-24",
+        "Jan-27",
+        "Not Mentioned",
+        "Manufacturing address\nis not mentioned on the\nlabel.",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "101.",
+        "Boldenone\nUndecylenate Injection\n400mg/ml (VEBOLDEX\n400)",
+        "TST2301",
+        "Not\nMentioned",
+        "Apr-27",
+        "M/s. Thaiger Pharma, Not\nMentioned",
+        "1) Manufacturing Date is\nnot mentioned on the\nlabel. 2) Manufacturing\naddress is not\nmentioned on the label.",
+        "State Drugs\nLaboratory, Punjab"
+      ]
+    ]
+  },
+  {
+    "page": 16,
+    "bbox": [
+      42.82,
+      14.37,
+      792.62,
+      549.0
+    ],
+    "n_rows": 11,
+    "n_cols": 8,
+    "rows": [
+      [
+        "102.",
+        "Trenbolone Enanthate\nInjection 200mg/ml\n(FINAREX 200)",
+        "TST2301",
+        "Not\nMentioned",
+        "Apr-27",
+        "M/s. Thaiger Pharma, Not\nMentioned",
+        "1) Manufacturing Date is\nnot mentioned on the\nlabel. 2) Manufacturing\naddress is not\nmentioned on the label.",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "103.",
+        "Trenbolone Acetate\nInjection 100mg/ml...\n(FINEXAL 100)",
+        "TST2301",
+        "Not\nMentioned",
+        "Apr-27",
+        "M/s. Thaiger Pharma, Not\nMentioned",
+        "1) Manufacturing Date is\nnot mentioned on the\nlabel. 2) Manufacturing\naddress is not\nmentioned on the label.",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "104.",
+        "Stanozolol Injection\n100mg/ml (VENAJECT)",
+        "TST2301",
+        "Not\nMentioned",
+        "Apr-27",
+        "M/s. Thaiger Pharma, Not\nMentioned",
+        "1) Manufacturing Date is\nnot mentioned on the\nlabel. 2) Manufacturing\naddress is not\nmentioned on the label.",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "105.",
+        "Nandrolone Blend\nInjection 350mg/ml\n(DEXADUR)",
+        "TST2301",
+        "Not\nMentioned",
+        "Apr-27",
+        "M/s. Thaiger Pharma, Not\nMentioned",
+        "1) Manufacturing Date is\nnot mentioned on the\nlabel. 2) Manufacturing\naddress is not\nmentioned on the label.",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "106.",
+        "Norfloxacin Tablets I.P.\n400mg (Norfloxacin 400)",
+        "R-240327",
+        "Mar-24",
+        "Feb-26",
+        "M/s. Remax\nPharmaceuticals, Street No.\n2, Paras Ramnagar,\nBathinda",
+        "Description",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "107.",
+        "Ranitidine Hydrochloride\nTablets IP 150mg\n(Zeptiloc-150 tablets)",
+        "ZCI24003",
+        "Apr-24",
+        "Mar-26",
+        "M/s. Danish Healthcare (P)\nLtd. 76/27-28, Industrial\nEstate, Maxi Road, Ujjain-\n456010 INDIA",
+        "Description",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "108.",
+        "Diclofenac Sodium and\nParacetamol Tablets….\n(DICLOZEG-P)",
+        "TSF-B5792",
+        "Oct-23",
+        "Sep-25",
+        "M/s. Spen Formulations Pvt.\nLtd., Plot No-123, Industrial\nArea, Mehatpur, Distt. UNA-\n174315 (H.P.)",
+        "The Product is official in\nI.P 2022 but the same is\nnot mentioned anywhere\non the label.",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "109.",
+        "Mefenamic Acid and\nParacetamol\nSuspension (Sarmef-\nPDS)",
+        "SBL-1021",
+        "Oct-24",
+        "Sep-26",
+        "M/s. Sarthak Biotech Pvt.\nLtd., 198-A, Sector-3,\nHSIIDC, Karnal-132001 (Hr.)",
+        "Volume",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "110.",
+        "Atorvastatin Tablets IP\n10mg (Atosar-10)",
+        "SBT-813",
+        "Mar-24",
+        "Feb-26",
+        "M/s. Sarthak Biotech Pvt.\nLtd., 198-A, Sector-3,\nHSIIDC, Karnal-132001 (Hr.)",
+        "Description",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "111.",
+        "Gabapentin Capsules IP\n300mg. (GABATEC-\n300)",
+        "SG2412559",
+        "Dec-24",
+        "Nov-26",
+        "M/s. Scout Lifescience Pvt.\nLtd., Plot No. 353, Sector-2\nIndustrial Growth Centre,\nHSIIDC, Saha, Ambala,\nHaryana, India-133104",
+        "Uniformity of Weight",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "112.",
+        "Aceclofenac\nParacetamol &",
+        "PBT-2024101",
+        "May-24",
+        "Apr-26",
+        "M/s. Presun Biotech,\nKandwal Lodhwan Road,",
+        "The contents of\nSerratiopeptidase found",
+        "State Drugs\nLaboratory, Punjab"
+      ]
+    ]
+  },
+  {
+    "page": 17,
+    "bbox": [
+      42.82,
+      14.37,
+      792.62,
+      548.52
+    ],
+    "n_rows": 10,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "Serratiopeptidase\nTablets. (Aceclofen-SP)",
+        "",
+        "",
+        "",
+        "The. Nurpur., Kangra-176201\n(HP)",
+        "to be 8.06mg per tablet\n(80.6%) against labeled\nclaim of 10.0mg per\ntablet.",
+        ""
+      ],
+      [
+        "113.",
+        "Olanzapine Tablets\nI.P.5mg. (Olanzapine\nTablets IP 5mg)",
+        "N2503121",
+        "Mar-25",
+        "Feb-28",
+        "M/s. Talent Healthcare, 66-\n67, Sector-6A, SIDCUL, IIE\nHaridwar-249403\n(Uttarakhand)",
+        "Description",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "114.",
+        "Olanzapine Tablet I.P.\n(Etimok)",
+        "ATD-B24020",
+        "Feb-24",
+        "Jan-26",
+        "M/s. Alzan Pharmaceuticals\nPvt, Ltd., Nai Wala Road,\nBnl-148101.",
+        "Uniformity of content",
+        "State Drugs\nLaboratory, Punjab"
+      ],
+      [
+        "115.",
+        "Povidone Iodine Gargle\n2% (ZEVODINE)",
+        "623-864",
+        "Nov-23",
+        "Oct-25",
+        "M/s Zee Laboratories Ltd.,\nBehind 47, Industrial Area,\nPaonta Sahib-173025",
+        "Test For Assay\n(Content) of Povidone-\nIodine Equivalent To\nAvailable-Iodine",
+        "Government of\nNCT of Delhi"
+      ],
+      [
+        "116.",
+        "Rabeprazole Sodium\nEnteric Coated &\nDomperidone Sustained\nRelease Capsules\n(Kylid-RD)",
+        "NHD24207C",
+        "May-24",
+        "Apr-26",
+        "M/s. Nest Healthcare Pvt\nLtd., Plot No. 300, G.I.D.C\nOdhav, Ahmedabad-\n382415(Gujarat)",
+        "The sample does not\nconform to the claim\nwith respect to Assay of\nRabeprazole Sodium.",
+        "DTL, Jaipur (State\nLab)"
+      ],
+      [
+        "117.",
+        "Rabeprazole Sodium\nGastro- resistant &\nDomperidone (SR)\nCapsules (Rebtil-DSR)",
+        "LV23LC-017",
+        "Nov-23",
+        "Oct-25",
+        "M/s L.V. Life Sciences, VPO\nGurumajra, Baddi,\nDistt.Solan (HP) 174101.",
+        "The sample does not\nconform to the claim\nwith respect to Assay of\nRabeprazole Sodium.",
+        "DTL,Bikaner (State\nLab)"
+      ],
+      [
+        "118.",
+        "Albendazole Oral\nSuspension IP (Vet.)",
+        "SLG24095",
+        "Mar-24",
+        "Feb-26",
+        "M/s Safecon Lifesciences\nPvt. Ltd., B 36,E.P.I.P.Shastri\nPuram,UPSIDC,Sikandra-\n282007.",
+        "The sample does not\nconform to the IP with\nrespect to Assay of\nAlbendazole.",
+        "DTL,Jaipur (State\nLab)"
+      ],
+      [
+        "119.",
+        "Paracetamol Tablets IP\n650mg",
+        "PCT24034",
+        "Feb-24",
+        "Jan-26",
+        "M/s Vivek Pharmachem\n(India) Ltd.,NH-\n8,Chimanpura,Amer,Jaipur-\n303102.",
+        "The sample has been\ndeclared as not of\nStandard Quality as it\ndoes not conform to IP\nstandards with respect\nto \"Test for Dissolution\"\nand Description.",
+        "Karnataka"
+      ],
+      [
+        "120.",
+        "Clopidogrel and Aspirin\nTablets IP\n(AclizacAS 75)",
+        "2411039",
+        "Nov-24",
+        "Oct-26",
+        "M/s Sanctus Global\nFormulations Limited, Khasra\nNo.\n587/588,Village: Kunjhal,\nBackside Jharmajri Tehsil",
+        "The sample does not\nconform to the IP with\nrespect to Assay of\nAspirin & Free Salicylic\nAcid",
+        "DTL,Jaipur (State\nLab)"
+      ],
+      [
+        "121.",
+        "Cefixime &Ofloxacin\nTablets (CEFXEN-O)",
+        "VT240794",
+        "Jul-24",
+        "Jun-26",
+        "M/s VADSP\nPharmaceuticals, Plot\nno.124,E.P.I.P.\nInd.Area, Phase-\n1,Jharmajri,Baddi(H.P.)1741\n03",
+        "The sample does not\nconform to the claim\nwith respect to assay of\nCefixime.",
+        "DTL,Jaipur (State\nLab)"
+      ]
+    ]
+  },
+  {
+    "page": 18,
+    "bbox": [
+      42.81,
+      14.37,
+      792.63,
+      489.49
+    ],
+    "n_rows": 7,
+    "n_cols": 8,
+    "rows": [
+      [
+        "122.",
+        "Isoxsuprine\nHydrochloride\n(SR)Tablets(Siox-Sr)",
+        "GT400966A",
+        "Oct-24",
+        "Sep-26",
+        "M/s Gnosis Pharmaceuticals\nPvt.Ltd.Nahan Road,Village\nMoginand,Kala-Amb\nDistt.Sirmour,H.P.173030.",
+        "The sample does not\nconform to the claim\nwith respect to Assay of\nIsoxsuprine\nHydrochloride.",
+        "DTL,Jaipur(State\nLab)"
+      ],
+      [
+        "123.",
+        "Sulphamethoxazole\n&Trimethoprim Injection\nI.P.",
+        "EL-240608",
+        "Jun-24",
+        "May-26",
+        "M/s Ethicare\nLaboratories,15,Industrial\nEstate,Digiana,Jammu-\n180010.",
+        "The sample does not\nconform to the IP (Vet.)\nwith respect to\nParticulate Matter,\nDescription as it show\nphysical in stability in\nthe form of white\ncrystalline particles and\nAssay of Trimethoprim.",
+        "DTL,Jaipur(State\nLab)"
+      ],
+      [
+        "124.",
+        "Rabeprazole Sodium\n(Enteric Coated) &\nDomperidone\n(Sustained Releases)\nCapsules (Rzol-D)",
+        "SSC23187",
+        "Jan-24",
+        "Dec-25",
+        "M/s Shri Sai Bala Ji\nPharmatech Pvt.Ltd.,20, Ext\nHPSIDC,Ind Area Baddi\n(H.P.)173205.",
+        "The sample does not\nconform to the claim\nwith respect to Assay of\nRabeprazole Sodium.",
+        "DTL,Bikaner (State\nLab)"
+      ],
+      [
+        "125.",
+        "Gabapentin &\nNortriptyline\nHydrochloride Tablets\n(GABVONT400)",
+        "HT24642",
+        "Dec-24",
+        "Nov-26",
+        "M/s HBC Healthcare\nPvt.Ltd.,Block/Survey\nNo.609, Paiki 002, Ambasan\n(Amipura), Nr. Shankus\nWater Park, Ahmedabad-\nMehsana Highway,\nMehsana-384435, Gujarat,",
+        "The sample does not\nconfirm to the claim with\nrespect to Assay of\nNortriptyline.",
+        "DTL,Jaipur (State\nLab)"
+      ],
+      [
+        "126.",
+        "Doxycycline and Lactic\nAcid\nBacillusTablets(DOXYG\nLO-LB)",
+        "ATG4G566",
+        "Jul-24",
+        "Jun-26",
+        "M/s Anrose Pharma, 147,\nMauza Sansiwala,\nPost:Barotiwala,Tehsil-\nBaddi,Distt.Solan174103\n(HP)",
+        "The sample does not\nconform to the claim\nwith respect to Assay of\nDoxycycline\nHydrochloride IP",
+        "DTL,Jaipur (State\nLab)"
+      ],
+      [
+        "127.",
+        "Diclofenac Sodium\nTablets I.P.(Dicloax\nPlus)",
+        "CDTP-265",
+        "Sep-24",
+        "Aug-26",
+        "M/s Candor Biotech\nLtd.,Village Alamgir ,Lalru-\n140501(Punjab)",
+        "The sample does not\nconform to the IP with\nrespect Assay of\nDiclofenac Sodium (NIL)\nand Found Aceclofenac\n(57.41 mg/Tab.)",
+        "DTL,Jaipur (State\nLab)"
+      ],
+      [
+        "128.",
+        "Amoxycillin Capsules IP\n500mg (Moxgo-500)",
+        "MOXG-\n2404001",
+        "Jul-24",
+        "Jun-26",
+        "M/s RMIS Pharmaceuticals,\nPlot No.75, Navjeevan\nDhamtari Road, Raipur\n,Chhatisgarh-492002.",
+        "The sample does not\nconform to the IP as it\ndoes not contain\nAmoxycillin ( NIL).",
+        "DTL, Jaipur (State\nLab)"
+      ]
+    ]
+  }
+]

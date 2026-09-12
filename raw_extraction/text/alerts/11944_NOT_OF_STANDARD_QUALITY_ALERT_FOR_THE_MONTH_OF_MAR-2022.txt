@@ -1,0 +1,57 @@
+===== PAGE 1 =====
+S.No.
+Vaccine Name
+Batch No.
+Manufacturing Date
+Expiry
+Date
+Manufactured By
+NSQ Result
+Reported by CDSCO
+Laboratory
+3
+Unlabelled filled
+transparent fluid vial
+purported to be ChAdoX1
+nCoV19 corona virus
+vaccine
+--
+-
+--
+Spurious
+Sterility test, Biochemical
+Test, Physical aspects,
+Label Review, Assay,
+Identity Test (Spurious)
+Central Drugs Laboratory,
+Kasauli
+4
+ChAdoX1 nCoV19
+corona virus vaccine
+(Covishiled vaccine)
+4121MC034
+01.07.2021
+31.03.2022
+Spurious
+Sterility test, Biochemical
+Test, Physical aspects,
+Label Review, Assay,
+Identity Test (Spurious)
+Central Drugs Laboratory,
+Kasauli
+5
+Novel Corona Virus -
+nCoV Vaccine (ZYCOV-
+D)
+I457BH110
+29.09.2021
+28.06.2022
+Spurious
+Sterility test, Biochemical
+Test, Physical aspects,
+Label Review, Assay,
+Identity Test (Spurious)
+Central Drugs Laboratory,
+Kasauli
+NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF MAR-2022.
+A. Central Laboratories

@@ -1,0 +1,140 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.29,
+      83.75,
+      582.51,
+      807.51
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.\nNo\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for failure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Dexlysone\n(Dexamethasone\nTablets I.P.)",
+        "B. No.: T141047,\nMfg dt: 10/2014,\nExp dt: 09/2016,\nMfd by: M/s. Lycon Healthcare\nPvt. Ltd., Khasra No. 37,\nMakkanpur, Bhagwanpur,\nRoorkee, Dist. Haridwar.",
+        "Related Substances",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "Adrecid\n(Adrenaline\nTartrate Injection\nI.P. 1 ml)",
+        "B. No.: 610601,\nMfg dt: 02/2016,\nExp dt: 01/2017,\nMfd by: M/s. Ravi\nPharmaceuticals Pvt. Ltd., 69/1,\nGIDC, Kansari – 388 630,\nKhambhat (Cambay), Gujarat.",
+        "Particulate Matter\n& Description",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Paracetamol\nTablets IP 500 mg",
+        "B. No.: 9102,\nMfg dt: 04/2015,\nExp dt: 03/2018,\nMfd by: M/s. Orissa Drugs &\nChemicals Limited,\nA unit of India Drugs &\nPharmaceuticals Ltd\n1, Mancheswar Industrial Estate,\nBhubaneswar, Odisha",
+        "Dissolution",
+        "CDSCO South\nZone, Chennai",
+        "CDTL,\nChennai"
+      ],
+      [
+        "4.",
+        "Stromix A 75\n(75mg+75mg)\n(Clopidogrel &\nAspirin Capsules)",
+        "B. No.: SA-1393,\nMfg dt: 11/2014,\nExp dt: 10/2016,\nMfd by: M/s. Mapro\nPharmaceuticals Pvt. Ltd., (Unit\nII), Q Road, Phase IV, G.I.D.C.,\nWadhwan City-363035,\nDist. Surendra Nagar, Gujarat,\nIndia",
+        "Does not conform\nto IP 2014\nstandard with\nrespect to the test\nfor Salicylic Acid\nin Aspirin Gastro-\nResistant Tablet\nI.P.",
+        "CDSCO South\nZone, Chennai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "5.",
+        "Zenil\n(Pheniramine\nMaleate Injection\nI.P.)",
+        "B. No.: ZN1501,\nMfg dt: 08/2015,\nExp dt: 07/2017,\nMfd by: M/s. Pharmax India Pvt.\nLtd., 9 Kurla Industrial Estate,\nGhatkopar (W), Mumbai-400086",
+        "Does not conform\nto IP 2014\nstandard with\nrespect to the test\nfor Extractable\nVolume",
+        "CDSCO West\nZone, Mumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "6.",
+        "Amika 100\nInjections",
+        "B. No.: AM2020,\nMfg dt: 05/2015,\nExp dt: 04/2017,\nMfd by: M/s. AIMS International,\nDehradun Road, Rampur Ghat,\nPaonta Sahib, H.P.",
+        "Spurious And\nMisbranded",
+        "Drugs Control\nDepartment,\nMizoram.",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      22.29,
+      28.53,
+      582.51,
+      730.45
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "7.",
+        "Esthrocin\nSuspensions",
+        "B. No.: ET-2020,\nMfg dt: 05/2015,\nExp dt: 04/2017,\nMfd by: M/s. Saibliss Drugs &\nPharmaceuticals, 66/67, Gondpur\nIndstl. Area, Paonta Sahib",
+        "Spurious",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "8.",
+        "Gentamicin\nInjection",
+        "B. No.: GT-2020,\nMfg dt: 04/2015,\nExp dt: 03/2017,\nMfd by: M/s. Vardhman Pharma,\n32 Indl. Area, Trilokpur Road,\nKala-Amb, Dist-Sirmour H.P",
+        "Spurious",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "9.",
+        "Gentamicin\nEye/Ear Drops",
+        "B. No.: 8189,\nMfg dt: 09/2015,\nExp dt: 02/2017,\nMfd by: M/s. Ramson Remedies,\n186-187 Indl. Focal Point,\nMalabar Hill, Mumbai.",
+        "pH",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "10.",
+        "Oxytocin\nInjection",
+        "B. No.: H204,\nMfg dt: 01/2015,\nExp dt: 12/2016,\nMfd by: M/s. JMD\nPharmaceuticals, A.T. Road,\nBarauni-851112",
+        "Bet Test & Assay",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "11.",
+        "Norfloxacin &\nTinidazole\nTablets",
+        "B. No.: GT50605,\nMfg dt: 10/2015,\nExp dt: 09/2017,\nMfd by: M/s. Omega Biotech\nLtd., 7th Mile Stone, Roorkee,\nUttarakhand-247667.",
+        "Assay",
+        "Drugs Control\nDepartment,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "12.",
+        "Paracetamol\nTablets",
+        "B. No.: 561115,\nMfg dt: 11/2015,\nExp dt: 10/2017,\nMfd by: M/s. Veejay\nLaboratories, Unit of Grace\nLaboratories Pvt. Ltd., EPIP\nZone, Amingaon, Guwahati,\nAssam-781031",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "13.",
+        "Aciclovir Tablets",
+        "B. No.: TPVR4-008,\nMfg dt: 02/2015,\nExp dt: 01/2017,\nMfd by: M/s. Medipol\nPharmaceuticals Pvt. Ltd., 1199/3,\nBhud Baddi, Dist-Solan, H.P.",
+        "Assay",
+        "Drugs Control\nDepartment,\nAssam.",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  }
+]

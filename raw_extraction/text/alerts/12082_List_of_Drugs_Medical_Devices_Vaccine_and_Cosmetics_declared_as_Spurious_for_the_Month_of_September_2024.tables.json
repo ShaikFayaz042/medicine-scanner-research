@@ -1,0 +1,94 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      66.66,
+      116.03,
+      823.02,
+      511.09
+    ],
+    "n_rows": 4,
+    "n_cols": 9,
+    "rows": [
+      [
+        "S.No",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No.",
+        "Date of\nManufac\nture",
+        "Date of\nExpiry",
+        "Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "Firm reply"
+      ],
+      [
+        "1.",
+        "Tamsulosin and\nDutasteride\nTablets (Urimax-\nD)",
+        "GH30334",
+        "May-23",
+        "Apr-25",
+        "Under Investigation",
+        "Description,\nIdentification\nand Assay",
+        "Drugs\nInspector,\nOdisha",
+        "The actual manufacturer (as per label claim) has\ninformed that the impugned batch of the product\nhas not been manufactured by them and that it is\na spurious drug. The product is purported to be\nspurious, however, the same is subject to\noutcome of investigation."
+      ],
+      [
+        "2.",
+        "Calcium and\nVitamin D3\nTablets I.P\n(SHELCAL 500)",
+        "GDXD0581",
+        "Aug/202\n3",
+        "July/202\n5",
+        "Under Investigation",
+        "Identification,\nDissolution,\nAssay and\nDescription.",
+        "Drugs\nInspector, EZ,\nKolkata",
+        "The actual manufacturer (as per label claim) has\ninformed that the impugned batch of the product\nhas not been manufactured by them and that it is\na spurious drug. The product is purported to be\nspurious, however, the same is subject to\noutcome of investigation."
+      ],
+      [
+        "3.",
+        "Pantoprazole\nGastro-Resistant\nand Domperidone\nProlonged-\nRelease Capsules\nI.P. (PAN-D)",
+        "23443507",
+        "Sep-2023",
+        "Aug-\n2025",
+        "Under Investigation",
+        "Assay of both\nPantoprazole\nand\nDomeperidone",
+        "Drugs\nInspector,\nBihar",
+        "The actual manufacturer (as per label claim) has\ninformed that the impugned batch of the product\nhas not been manufactured by them and that it is\na spurious drug. The product is purported to be\nspurious, however, the same is subject to\noutcome of investigation."
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      66.72,
+      0.36,
+      822.96,
+      138.38
+    ],
+    "n_rows": 2,
+    "n_cols": 9,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "4.",
+        "Nandrolone\nDecanoate\nInjection IP\n25mg/ml (Deca-\nDurabolin 25 Inj.)",
+        "G202620",
+        "10/2022",
+        "09/2026",
+        "Under Investigation",
+        "Identification",
+        "Drugs\nInspector,\nNZ,\nGhaziabad",
+        "The actual manufacturer (as per label claim) has\ninformed that the impugned batch of the product\nhas not been manufactured by them and that it is\na spurious drug. The product is purported to be\nspurious, however, the same is subject to\noutcome of investigation."
+      ]
+    ]
+  }
+]

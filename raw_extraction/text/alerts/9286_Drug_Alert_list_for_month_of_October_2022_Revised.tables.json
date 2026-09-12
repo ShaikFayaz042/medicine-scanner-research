@@ -1,0 +1,35 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      28.36,
+      152.51,
+      567.08,
+      444.58
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "S.\nNo.",
+        "Name of the\nDrugs",
+        "Product\nDetails",
+        "Manufactured\nBy",
+        "Reason for\nFailure",
+        "Drawn By",
+        "From",
+        "Remarks"
+      ],
+      [
+        "8",
+        "Montek® LC\n(Montelukast\nSodium &\nLevocetirizine\nHydrochloride\nTablets IP",
+        "B. No.:\nSIC1932\nA Mfg dt:\n08/2021\nExp dt:\n01/2024",
+        "Allegedly\nmanufactured\nby: M/s. Sun\npharma\nlaboratories\nltd. Plot No.\n107-108,\nNamli Block,\nP.O. Ranipool,\nEast Sikkim-\n737135.\n(as per label\nClaim)",
+        "Identificatio\nn and\nAssay of\nMontelukast",
+        "Drug\nControl\nDepartment\nAssam",
+        "RDTL\nGuwahati",
+        "The\nmanufacturer (as\nper label i.e.\nM/s. Sun\nPharma\nLaboratories\nLtd.) has\nconfirmed that\nthe impugned\nbatch is not\nmanufactured by\nthem.\nControl samples\nare stated to be\ncomplying with\nthe\nspecifications.\nHence, the drug\nin question is\nstated to be\nspurious."
+      ]
+    ]
+  }
+]

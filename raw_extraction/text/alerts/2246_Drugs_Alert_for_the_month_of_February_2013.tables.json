@@ -1,0 +1,124 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      242.51,
+      81.83,
+      765.61,
+      539.77
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S. No.",
+        "Name of\nDrugs/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Sample\nReceived\nfrom",
+        "Declared\nby"
+      ],
+      [
+        "1.",
+        "Ethambutol\nTablets IP 200 mg",
+        "Batch No – T- 964\nD/Mfg. – 03/12\nD/Exp. – 02/14\nMfd. By- M/S Jackson Laboratories\nPvt. Ltd., Amritsar",
+        "Does not\nconform with\nrespect to the\ntest for assay",
+        "CDSCO,\nWest Zone",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "2.",
+        "Emclox\n(Amoxycillin &\nCloxacillin\ncapsules)",
+        "Batch No – C124\nD/Mfg. – 07/2011\nD/Exp. – 06/2013\nMfd. By- M/S Elegant Drugs (P) Ltd.,\nR. S.59/3A Chalmatti 581204",
+        "Assay of\nCloxacillin",
+        "CDSCO,\nEast Zone",
+        "CDL\nKolkata"
+      ],
+      [
+        "3",
+        "Cetirizine\n(Cetirizine Tablets\nI.P. 10 mg)",
+        "Batch No – T1111060\nD/Mfg. – 11/2011\nD/Exp. – 10/2013\nMfd. By- M/S Manglour Saharanpurb\nRoad, Mangalore- 247656, Roorkee,\nHaridwar, U.K.",
+        "Description",
+        "CDSCO,\nEast Zone",
+        "CDL\nKolkata"
+      ],
+      [
+        "4",
+        "Ampicillin inj. IP\n500 mg",
+        "Batch No – ASIJI-2001\nD/Mfg. – 01/12\nD/Exp. – 06/13\nMfd. By- M/S Vivek Pharmachem (I)\nLtd., CPIP, Jammu 181133",
+        "Bacterial\nEndotoxin\nTest",
+        "CDSCO,\nSub Zone,\nZammu",
+        "CDL\nKolkata"
+      ],
+      [
+        "5",
+        "Bigzyme Syrup\n(Fungal Diastase\nwith Pepsin\nSyrup)",
+        "Batch No – CBL-0838\nD/Mfg. – 11/11\nD/Exp. – 01.2013\nMfd. By- M/S Hauz Pharma Pvt. Ltd.,\nSCF 311, 1st floor, Chandigarh 160101",
+        "Assay of\nFungal\nDiastase &\nPepsin",
+        "CDSCO,\nSub Zone,\nZammu",
+        "CDL\nKolkata"
+      ],
+      [
+        "6",
+        "Colsun Tablets",
+        "Batch No – ST 12279\nD/Mfg. – July, 2012",
+        "Dissolution",
+        "Drugs\nControl",
+        "RDTL"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      242.5,
+      45.21,
+      765.62,
+      434.26
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "D/Exp. – June,2014\nMfd. By- M/S Sun Life Sciences, 130,\nKurdi, Jabrere Road, Mangalore,\nRoorkee, Dist. Haridwar (UK)",
+        "",
+        "Department,\nAssam",
+        "Guwahati"
+      ],
+      [
+        "7",
+        "Galpara Tablets",
+        "Batch No – TGL - 10532\nD/Mfg. – June, 2010\nD/Exp. – May, 2013\nMfd. By- M/S Pro Labs (P) Ltd.\nRoorkee, Haridwar, Uttaranchal",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nNagaland",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "8",
+        "Geenor – 400\nTablets",
+        "Batch No – NR4-180\nD/Mfg. – July 2012\nD/Exp. – June 2015\nMfd. By- M/S Ghanshyam\nPharmaceuticals D-14, Rani Industrial\nArea, Rani- 781131, Kamrup, Assam",
+        "Dissolution\nAssay\n(content of\nNorfloxacin)",
+        "Drugs\nControl\nDepartment,\nAssam",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "9",
+        "Aardex Injections",
+        "Batch No – RD- 243\nD/Mfg. – July, 2011\nD/Exp. – June, 2013\nMfd. By- M/S Regain Laboratories\n134/5, HTM Road, Ranipur Lane, Hissar\n- 125001",
+        "Description\n(particulate\nmatter)",
+        "Drugs\nControl\nDepartment,\nArunachal\nPradesh",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "10",
+        "Albendazole\nTablets IP",
+        "Batch No – AL- 1062\nD/Mfg. – May, 2012\nD/Exp. – April, 2014\nMfd. By- M/S Mehsan Pharmaceuticals\nNawapara, Azara, Guwahati- 781017,\nAssam",
+        "Disintegration",
+        "Drugs\nControl\nDepartment,\nAssam",
+        "RDTL\nGuwahati"
+      ]
+    ]
+  }
+]

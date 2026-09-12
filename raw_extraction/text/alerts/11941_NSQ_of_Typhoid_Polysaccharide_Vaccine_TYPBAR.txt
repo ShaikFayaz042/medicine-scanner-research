@@ -1,0 +1,39 @@
+===== PAGE 1 =====
+Vaccine declared as Not of Standard Quality
+
+
+Sr.
+no
+Name of Vaccine
+Batch No/Date of
+Manufacturing
+/Date of Expiry
+/Manufactured by
+Reason for
+failure
+Drawn by  From
+1
+Typhoid
+Polysaccharide
+Vaccine
+(TYPBAR®)
+B.no: 54A22001A
+Mfg dt: 04/2022
+Exp dt: 03/2025
+Manufactured by:
+M/s Bharat
+Biotech
+International
+Limited,Genome
+valley,
+Shameerpet
+Mandal,
+Hyderabad
+Telangana (India)
+- 500078
+O-acetyl
+content not
+complying
+with the
+specification.
+FDA, Goa  CDL,Kasauli

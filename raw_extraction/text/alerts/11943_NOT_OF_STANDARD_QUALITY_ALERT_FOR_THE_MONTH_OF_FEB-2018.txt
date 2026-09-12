@@ -1,0 +1,39 @@
+===== PAGE 1 =====
+S.No.
+Vaccine Name
+Batch No.
+Manufacturing
+Date
+Expiry
+Date
+Manufactured By
+NSQ Result
+Reported by CDSCO
+Laboratory
+1
+Peda Typh  (Vi-Conjugate Typhoid
+Vaccine) (One dose)
+TC010915
+Sep-15
+Aug-18
+M/s Bio med., C-96, Bulandshar Road,
+Industrial Area, Ghaziabad-201009, U.P-
+VI Polysaccride
+content
+Central Drugs Laboratory,
+Kasauli
+2
+Peda Typh (Typhoid Vi-Conjugate
+Vaccine) I.P. (One dose)
+TC010417
+Apr-17
+Mar-20
+M/s Bio med., C-96, Bulandshar Road,
+Industrial Area, Ghaziabad-201009, U.P-
+201009
+VI Polysaccride
+content
+Central Drugs Laboratory,
+Kasauli
+NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF FEB-2018.
+A. Central Laboratories

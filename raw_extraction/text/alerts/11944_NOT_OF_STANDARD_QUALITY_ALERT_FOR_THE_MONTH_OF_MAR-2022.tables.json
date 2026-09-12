@@ -1,0 +1,75 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      18.48,
+      54.48,
+      765.12,
+      244.67
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF MAR-2022.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "A. Central Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No.",
+        "Vaccine Name",
+        "Batch No.",
+        "Manufacturing Date",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by CDSCO\nLaboratory"
+      ],
+      [
+        "3",
+        "Unlabelled filled\ntransparent fluid vial\npurported to be ChAdoX1\nnCoV19 corona virus\nvaccine",
+        "--",
+        "-",
+        "--",
+        "Spurious",
+        "Sterility test, Biochemical\nTest, Physical aspects,\nLabel Review, Assay,\nIdentity Test (Spurious)",
+        "Central Drugs Laboratory,\nKasauli"
+      ],
+      [
+        "4",
+        "ChAdoX1 nCoV19\ncorona virus vaccine\n(Covishiled vaccine)",
+        "4121MC034",
+        "01.07.2021",
+        "31.03.2022",
+        "Spurious",
+        "Sterility test, Biochemical\nTest, Physical aspects,\nLabel Review, Assay,\nIdentity Test (Spurious)",
+        "Central Drugs Laboratory,\nKasauli"
+      ],
+      [
+        "5",
+        "Novel Corona Virus -\nnCoV Vaccine (ZYCOV-\nD)",
+        "I457BH110",
+        "29.09.2021",
+        "28.06.2022",
+        "Spurious",
+        "Sterility test, Biochemical\nTest, Physical aspects,\nLabel Review, Assay,\nIdentity Test (Spurious)",
+        "Central Drugs Laboratory,\nKasauli"
+      ]
+    ]
+  }
+]

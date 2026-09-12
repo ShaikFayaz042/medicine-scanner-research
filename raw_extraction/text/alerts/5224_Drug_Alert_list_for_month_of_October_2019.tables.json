@@ -1,0 +1,417 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.28,
+      130.74,
+      568.36,
+      211.42
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "1163"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "1127"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "36"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "0"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      22.28,
+      239.27,
+      575.44,
+      794.07
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.\nN.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Paracetamol\nTablets I.P.",
+        "B. No.: 821481298,\nMfg dt: 03/2019,\nExp dt: 02/2021,\nMfd by: M/s. Bengal\nChemicals &\nPharmaceuticals Ltd.\n84/23, Factory Area,\nFazalganj, Kanpur-\n208012, Uttar Pradesh.",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2.",
+        "Albendazole Tablets\nI.P.400 mg",
+        "B. No.: 9410,\nMfg dt: 01/2017,\nExp dt: 12/2019,\nMfd by: M/s. Orissa\nDrugs and Chemicals\nLtd. 1, Mancheswar,\nIndustrial Estate,\nBhubaneswar, Odisha.",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3.",
+        "Paracetamol Tablet\nI.P.",
+        "B. No.: 821481296,\nMfg dt: 03/2019,\nExp dt: 02/2021,\nMfd by: M/s. Bengal\nChemicals &\nPharmaceuticals Ltd.\n84/23, Factory Area,\nFazalganj, Kanpur-\n208012, Uttar Pradesh",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4.",
+        "Azithromycin Oral\nSuspensions I.P.\n100 mg",
+        "B. No.: L-1724703,\nMfg dt: 11/2017,\nExp dt: 10/2019,\nMfd by: M/s. Hanuchem\nLaboratories V.P.O:\nManpura, Tehsil, Baddi,\nDist-Solan-173205 (H.P.).",
+        "Assay & pH",
+        "Drugs\nControl\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      22.29,
+      35.61,
+      575.43,
+      803.31
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "5.",
+        "Ibuprofen Tablets\nI.P. 400 mg",
+        "B. No.: 01019-BJA36,\nMfg dt: 01/2019,\nExp dt: 12/2020,\nMfd by: M/s. Biogenetic\nDrugs Pvt. Ltd. Vill-\nJharmajri, Baddi, Dist-\nSolan H.P.-174103.",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "6.",
+        "Moxiford Eye Drops\n(Moxifloxacin Eye\nDrops I.P.)",
+        "B. No.: LHL-2692,\nMfg dt: 08/2018,\nExp dt: 07/2020,\nMfd by: M/s. Park\nPharmaceuticals,\nVill.- Kalujhanda, Near\nNanakpura, Teh. Baddi,\nDistt. Solan (H.P.) –\n174103.",
+        "Description &\nAssay",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "Tobotor Eye Drops\n5 ml (Tobramycin\nSulphate Opthalmic\nSolution)",
+        "B. No.: ETB-045,\nMfg dt: 10/2018,\nExp dt: 09/2020,\nMfd by: M/s. Appasamy\nOccular Devices (P) Ltd.,\nPlot No. 74-D, Katha,\nBaddi, Distt. Solan (H.P.)\n– 173205.",
+        "Uniformity of\nVolume",
+        "CDSCO,\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "CLEO Fresh\nGlutathione 70000\nmg",
+        "B. No.: G2A06.530,\nMfg dt: Not Stated\nExp dt: 10/2021\nMfd by: M/s. Laboratories\nFilorga 75008, Paris\nFrance.",
+        "Identification &\nAssay",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9.",
+        "CLEO Fresh\nGlutathione 70000\nmg",
+        "B. No.: G2A05.529\nMfg dt: Not Stated\nExp dt: 10/2019\nMfd by: M/s. Laboratories\nFilorga 75008, Paris\nFrance",
+        "Identification &\nAssay",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "10.",
+        "New Erythrocin 500\n(Erythromycin\nStearate Tablets I.P.\n500 mg)",
+        "B. No.: MBD0214,\nMfg dt: 11/2018,\nExp dt: 04/2020,\nMfd by: Medibios\nLaboratories Pvt. Ltd.,\nPlot No. J-76, MIDC\nTarapur, Boisar, Taluka:\nPalghar, Distt. Thane -\n401506",
+        "Dissolution",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "11.",
+        "Erythrocin 500\n(Erythromycin\nStearate Tablets I.P.\n500 mg)",
+        "B. No.: MBE0082\nMfg dt: 05/2019\nExp dt: 04/2021\nMfd by: M/s. Medibios\nLaboratory Pvt. Ltd., Plot\nNo. J-76, MIDC Tarapur,\nPalghar – 401506.",
+        "Dissolution",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      22.29,
+      35.61,
+      575.43,
+      800.67
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "12.",
+        "Ciprofloxacin\nTablets IP 500 mg",
+        "B. No.: 2095\nMfg dt: 11/2019\nExp dt: 12/2021\nMfd by: Hindustan\nAntibiotics Ltd. Pimpri,\nPune-411018,\nMaharashtra, India",
+        "Dissolution",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "13.",
+        "Betamethasone\nDipropionate Cream\nIP",
+        "B. No.: RD459\nMfg dt: 04/2019\nExp dt: 03/2021\nMfd by: Curetech\nSkincare Plot No.33-34,\nPhase-IV, Bhatoli Kalan,\nBaddi-173205, Distt.\nSolan (HP).",
+        "Assay",
+        "Drugs\nControl\nOffice,\nRohtak.",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "14.",
+        "Amoxycillin and\nPotassium\nClavulanate Tablets\nIP (ICLAVE-625\nTABLETS )",
+        "B. No.: TG19-32\nMfg dt: 07/2019\nExp dt: 12/2020\nMfd by: GNB Medica\nLabs Village Neehli\nDhang, Jagat Khana,\nTehsil Nalagarh, Distt,\nSolan (H.P.)-174101",
+        "Dissolution\nand Assay",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "15.",
+        "Atorvastatin Tablets\nIP 10 Mg",
+        "B. No.: RLT-005\nMfg dt: 11/2018\nExp dt: 10/2020\nMfd by: Revat\nLaboratories Pvt. Ltd 12-\n321.Opp. I.D.A, Kurnool\nRoad, Pernamitta,\nOngole-523002, Andhra\nPradesh",
+        "Dissolution",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "16.",
+        "Cefixime Dispersible\nTablets (SAMCEF-\n200DT TABLETS)",
+        "B. No.: TF19-88\nMfg dt: 06/2019\nExp dt: 05/2021\nMfd by: GNB Medica\nLabs Village Neehli\nDhang, Jagat Khana,\nTehsil Nalagarh, Distt,\nSolan (H.P.)-174101",
+        "Uniformity of\ndispersion and\nDisintegration",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "17.",
+        "Luliconazole 1 %\nw/w Cream\n(LUZOLE)",
+        "B. No.: 393\nMfg dt: 05/2019\nExp dt: 04/2021\nMfd by: Algen Healthcare\nLimited 134/2, Vill. Khara\nKhari, Sadhaura Road,\nKala Amb, Distt. Sirmour\nH.P.-173030",
+        "Assay",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "18.",
+        "Calcium Carbonate\nTablets IP",
+        "B. No.: CBRT-1041\nMfg dt: 04/2019\nExp dt: 03/2021",
+        "Uniformity of\nweight",
+        "CDSCO,\nNorth Zone,",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      22.29,
+      35.61,
+      575.43,
+      798.27
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Mfd by: Wings Biotech 43\n& 44 HPSIDC Industrial\nArea, Baddi-173205, H.P",
+        "",
+        "Ghaziabad",
+        ""
+      ],
+      [
+        "19.",
+        "Albendazole Tablets\nIP 400 mg",
+        "B. No.: RALB-1841\nMfg dt: 06/2018\nExp dt: 05/2020\nMfd by: Revat\nLaboratories Pvt. Ltd 12-\n321. Opp. I.D.A, Kurnool\nRoad, Pernamitta,\nOngole-523002,\nAndhra Pradesh.",
+        "Uniformity of\nweight",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "20.",
+        "Clindamycin\nPhosphate Gel USP\n1% w/w",
+        "B. No.: 08073\nMfg dt: 06/2018\nExp dt: 05/2020\nMfd by: Rhydburg\nPharmaceuticals Ltd. C-2\n& 3, S.I.E.I, Seaqui,\nDehradun, Uttarakhand,\nIndia",
+        "Assay",
+        "CDSCO,\nSub Zone,\nJammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "21.",
+        "Amoxycillin and\nPotassium\nClavulanate with\nLactic Acid Bacillus\nTablets (ANUMOX-\nCV-LB TABLETS)",
+        "B. No.: TG19-36\nMfg dt: 07/2019\nExp dt: 12/2020\nMfd by: GNB Medica\nLabs Village Neehli\nDhang, Jagat Khana,\nTehsil Nalagarh, Distt,\nSolan (H.P.)- 174101",
+        "Assay",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "22.",
+        "Metformin\nHydrochloride\nSustained release\nTablets IP\n(MEFMED-SR 500\nTABLETS)",
+        "B. No.: M500SRT-1901\nMfg dt: 01/2019\nExp dt: 12/2020\nMfd by: Titanes Pharma,\nVill, Bathu, Tehsil Haroli,\nDistt. Una (H.P)-174507",
+        "Assay",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "23.",
+        "Clobetasol\nPropionate,\nNeomycin Sulphate\nand Miconazole\nNitrate Cream\n(PANDERM\n++CREAM)",
+        "B. No.: PCF901A\nMfg dt: 02/2019\nExp dt: 01/2021\nMfd by: Macleods\nPharmaceuticals Ltd.\nKhasra No. 21, 22, 66, 67\n& 68, Aho-Yangtam,\nNamchepung, PO:\nRanipool, Sikkim-737135.",
+        "Identification",
+        "Drugs\nControl\nOffice,\nN.C.T Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "24.",
+        "Betamethasone and\nClioquinol Cream\nBP (BETNOVATE-C\nSKIN CREAM)",
+        "B. No.: NG980\nMfg dt: 04/2019\nExp dt: 03/2021\nMfd by: GlaxoSmithKline\nPharmaceuticals Limited\nA-10, M.I.D.C., Ambad-",
+        "Identification of\nBetamethasone\nValerate eq. to\nBetamethasone\n& Assay of",
+        "Drugs\nControl\nOffice,\nN.C.T Delhi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      22.29,
+      35.61,
+      575.43,
+      800.07
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Pathardi Block, Nashik-\n422010, Maharashtra,\nIndia",
+        "Clioquinol",
+        "",
+        ""
+      ],
+      [
+        "25.",
+        "Betamethasone\nValerate and\nNeomycin Skin\nCream\n(BETNOVATE-N\nCREAM)",
+        "B. No.: EZ277\nMfg dt: 01/2019\nExp dt: 06/2020\nMfd by: GlaxoSmithKline\nPharmaceuticals Limited,\nAt: Plot No. C-1,\nMadkaim Industrial\nEstate, Madkaim, Post\nMardol, Ponda, Goa\n403404.",
+        "Identification\nBetamethasone\nValerate and\nNeomycin\nSulphate",
+        "Drugs\nControl\nOffice,\nN.C.T Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "26.",
+        "Amikacin Sulphate\nInjection IP\n(AMIKACARE 500 )",
+        "B. No.: CLI-6868\nMfg dt: 11/2018\nExp dt: 10/2020\nMfd by: Caremax\nFormulations Plot No. 56\n& 61, Industrial Area,\nPhase III, Sansarpur\nTerrace, Distt. Kangra\n(H.P.)-176501",
+        "Particulate\nMatter",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "27.",
+        "Ondansetron Oral\nSolution IP",
+        "B. No.: GNSG3-18-227\nMfg dt: 02/2019\nExp dt: 01/2021\nMfd by: Ornate Labs Pvt.\nLtd., Bela Industrial\nEstate, Muzaffarpur -\n842005, Bihar",
+        "Assay",
+        "CDSCO, Port\nOffice,\nVisakhapatnam",
+        "CDTL,\nChennai"
+      ],
+      [
+        "28.",
+        "Compound Sodium\nLactate Injection IP\n(Ringers Lactate\nSolution for\nInjection)",
+        "B. No.: 2198\nMfg dt: 01/2019\nExp dt: 12/2021\nMfd by: Hindustan\nAntibiotics Ltd., Pimpri,\nPune-411018,\nMaharashtra, India",
+        "Description &\nSterility",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDTL\nChennai"
+      ],
+      [
+        "29.",
+        "Levodopa &\nCarbidopa Tablets\nIP",
+        "B. No.: AU49\nMfg dt: 12/2018\nExp dt: 11/2020\nMfd by: Eurokem\nLaboratories Pvt. Ltd., C-\n25, SIDCO\nPharmaceuticals\nComplex, Alathur,\nThiruporur-603110",
+        "Description &\nAssay of\nLevodopa &\nCarbidopa",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDTL\nChennai"
+      ],
+      [
+        "30.",
+        "Lansoprazole Ph.\nEur",
+        "B. No.: T9004141\nMfg dt: 03/2019\nExp dt: 05/2023\nMfd by: M/s. Lupin Ltd.,\nT-142, MIDC, Tarapur,\nBoisar, Palghar-401506",
+        "Test for Water",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      22.28,
+      35.61,
+      575.44,
+      631.69
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "31.",
+        "Atorvastatin\nCalcium Tablets IP\n40mg",
+        "B. No.: 19SGBT032\nMfg dt: 02/2019\nExp dt: 01/2021\nMfd by: M/s. Synokem\nPharmaceutical Ltd., Plot\nNo.-35-36, Sector-6A,\nIntegrated industrial\nEstate (SIDCUL),\nRanipur (BHEL),\nHaridwar -249403,\nUttarakhand",
+        "Dissolution",
+        "CDSCO,\nSub Zone,\nIndore",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "32.",
+        "Moxileb Oral\nSuspension\n(Amoxicillin Oral\nSuspension BP)",
+        "B. No.: BS169\nMfg dt: 09/2019\nExp dt: 08/2021\nMfd by: M/s. Leben\nLaboratories Pvt. Ltd.,\nPlot No. L-4, Phase-III,\nMIDC Akola-444104\nMaharashtra.",
+        "Assay",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "33.",
+        "Enaril (Enalapril\nMaleate Tablets I.P.\n5mg)",
+        "B. No.: T-17395\nMfg dt: 07/2018\nExp dt: 06/2020\nMfd by: M/s. Jackson\nLaboratories pvt. Ltd.,\nBye Pass, Majitha Road,\nAmritsar 143001, Punjab",
+        "Assay &\nDissolution",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "34.",
+        "Furosemide\nInjection I.P. 20mg /\n2ml",
+        "B. No.: AV-4275\nMfg dt: 05/2019\nExp dt: 04/2021\nMfd by: M/s. Alpa\nLaboratories Ltd., 33/2.\nA.B. Road, Pigdamber\n453446, Indore, Madhya\nPradesh",
+        "Sterility",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "35.",
+        "Ramipril Tablts IP\n2.5mg",
+        "B. No.: STN-181394A\nMfg dt: 12/2018\nExp dt: 11/2020\nMfd by: M/s. Terrace\nPaharmaceuticals (P)\nLtd., 3-B (a), Phase-III,\nIndustrial Area,\nSansarpur terrace, Distt.\nKangra (H.P.) 176501",
+        "Assay",
+        "CDSCO,\nSub Zone,\nIndore",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  }
+]

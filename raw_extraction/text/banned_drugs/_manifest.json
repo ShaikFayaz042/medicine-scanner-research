@@ -1,0 +1,22 @@
+{
+  "source": "banned_drugs",
+  "generated_at": "2026-09-12T13:43:41+00:00",
+  "total_pdfs": 1,
+  "extracted": 1,
+  "skipped": 0,
+  "errors": 0,
+  "total_chars": 44252,
+  "total_tables": 27,
+  "files": [
+    {
+      "pdf": "banneddrugs.pdf",
+      "status": "ok",
+      "pages": 28,
+      "chars": 44252,
+      "tables": 27,
+      "txt": "banned_drugs\\banneddrugs.txt",
+      "tables_json": "banned_drugs\\banneddrugs.tables.json",
+      "extracted_at": "2026-09-12T13:36:06+00:00"
+    }
+  ]
+}

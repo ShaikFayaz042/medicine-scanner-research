@@ -1,0 +1,84 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      36.56,
+      115.31,
+      554.06,
+      762.03
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.\nNo\n.",
+        "Name of the\nDrug/ Medical\nDevice/ Cosmetic",
+        "Batch No./\nDate of\nManufacture/\nDate of\nExpiry/\nManufactured\nBy",
+        "Reason for\nFailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "ISO Sorbide\nDintrate Tablets IP\n10 mg",
+        "F551C201,\nMAR/2012,\nFEB/2015,\nM/s.\nBiogenetic\nDrugs Pvt. Ltd\nJharmazri,\nBaddi, Dist\nSolan - 174\n103, HP",
+        "TEST FOR\nASSAY AND\nUNIFORMITY\nOF CONTENT",
+        "Mrs. B. SARALA DEVI,\nDrugs Inspector, CDSCO\n(ZONAL OFFICE),\nHYDERABAD, AP.",
+        "CDTL,Chennai"
+      ],
+      [
+        "2.",
+        "Neurobion Forte\nTablets (Tablets\nof Vitamin B\nComplex with B\n12\n)",
+        "A06613412,\n05/2012\n10/2013\nM/s. Merck\nLtd., Plot No.\nH-19, MIDC,\nWaluj,\nAurangabad-\n431133",
+        "Description\n32-10/2013-\nSS/DCA (S)-\n78/2049,\nDated\n01/08/2013",
+        "Mrs. V. M. Bharathi,\nDrugs Inspector, CDSCO\nSOUTH ZONE, CHENNAI",
+        "CDL, Kolkata"
+      ],
+      [
+        "3.",
+        "Hydrocort-100\n(Hydrocortisone\nSodium Succinate\nInjection IP)",
+        "DG3017,\n02/2013\n01/2015\nM/s. Scott-\nEdil\nPhamacia\nLtd., 56,\nEPIP, Phase\nI, Jharmajari-\n173205, HP",
+        "Clarity of\nSolution &\nParticulate\nMatter 32-\n18/2013-\nSS/DCA (C)-\n13/2175,\nDated\n16/08/2013",
+        "P. Manavalan,\nDrugs Inspector, CDSCO\nSUB ZONE, CHANDIGARH",
+        "CDL, Kolkata"
+      ],
+      [
+        "4.",
+        "Levof 500\n(Levofloxacin\nTablets IP)",
+        "TC2115002,\n09/2011\n08/2013\nM/s. Biochem\nPharmaceutic\nal Industries\nLtd., Survey\nNo. 49/3,\n51/1, 51/2,\nRinganwada,\nVill: Daman\n(U.T.)-396210",
+        "Dissolution 32-\n08/2013-\nSS/DCA (E)-\n126/2368,\nDated\n27/08/2013",
+        "D. V. Singh, Drugs Inspector,\nCDSCO\nEAST ZONE, KOLKATA",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      36.6,
+      72.24,
+      554.02,
+      357.29
+    ],
+    "n_rows": 2,
+    "n_cols": 6,
+    "rows": [
+      [
+        "5.",
+        "Relate-50 Tablets\n(Losartan\nPotassium Tablets\nIP)",
+        "2411,\n12/2012\n11/2015\nM/s. Olcae\nLaboratories,\n504/A, GIDC\nEstate,\nWadhwancity-\n363035,\nGujarat",
+        "Dissolution 32-\n08/2013-\nSS/DCA (A)-\n15/2370,\nDated\n28/08/2013",
+        "Ashok Kr. Yadav, Drugs\nInspector, CDSCO\nSUB ZONE, AHMEDABAD",
+        "CDL, Kolkata"
+      ],
+      [
+        "6.",
+        "Ifa Plus Tablets",
+        "IPHT-003,\n12/2012,\n11/20114,\nM/s. Laborate\nPharmaceutic\nals India Ltd.,\n51, Industrial\nArea, Paonta\nSahib,\nHimachal\nPradesh",
+        "Disintegration\n07936/2013-14\ndated 29-08-\n2013",
+        "Drugs Control, Department,\nAssam",
+        "RDTL,Guwahati"
+      ]
+    ]
+  }
+]

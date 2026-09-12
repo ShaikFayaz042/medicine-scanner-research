@@ -1,0 +1,2192 @@
+{
+  "source": "alerts",
+  "generated_at": "2026-09-12T13:43:41+00:00",
+  "total_pdfs": 219,
+  "extracted": 214,
+  "skipped": 5,
+  "errors": 0,
+  "total_chars": 1944420,
+  "total_tables": 1237,
+  "files": [
+    {
+      "pdf": "10069_Drug_Alert_list_for_month_of_March_2023.pdf",
+      "status": "skipped",
+      "chars": 16481,
+      "tables": 11,
+      "txt": "alerts\\10069_Drug_Alert_list_for_month_of_March_2023.txt",
+      "tables_json": "alerts\\10069_Drug_Alert_list_for_month_of_March_2023.tables.json"
+    },
+    {
+      "pdf": "10154_Drug_Alert_list_for_month_of_April_2023.pdf",
+      "status": "skipped",
+      "chars": 11730,
+      "tables": 8,
+      "txt": "alerts\\10154_Drug_Alert_list_for_month_of_April_2023.txt",
+      "tables_json": "alerts\\10154_Drug_Alert_list_for_month_of_April_2023.tables.json"
+    },
+    {
+      "pdf": "10246_Drug_Alert_list_for_month_of_February_2023_Revised.pdf",
+      "status": "skipped",
+      "chars": 921,
+      "tables": 1,
+      "txt": "alerts\\10246_Drug_Alert_list_for_month_of_February_2023_Revised.txt",
+      "tables_json": "alerts\\10246_Drug_Alert_list_for_month_of_February_2023_Revised.tables.json"
+    },
+    {
+      "pdf": "10248_Drug_Alert_list_for_month_of_May_2023.pdf",
+      "status": "skipped",
+      "chars": 10192,
+      "tables": 8,
+      "txt": "alerts\\10248_Drug_Alert_list_for_month_of_May_2023.txt",
+      "tables_json": "alerts\\10248_Drug_Alert_list_for_month_of_May_2023.tables.json"
+    },
+    {
+      "pdf": "10359_Drug_Alert_list_for_month_of_June_2023.pdf",
+      "status": "skipped",
+      "chars": 12219,
+      "tables": 9,
+      "txt": "alerts\\10359_Drug_Alert_list_for_month_of_June_2023.txt",
+      "tables_json": "alerts\\10359_Drug_Alert_list_for_month_of_June_2023.tables.json"
+    },
+    {
+      "pdf": "10425_Drug_Alert_list_for_month_of_July_2023.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 14486,
+      "tables": 8,
+      "txt": "alerts\\10425_Drug_Alert_list_for_month_of_July_2023.txt",
+      "tables_json": "alerts\\10425_Drug_Alert_list_for_month_of_July_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:41+00:00"
+    },
+    {
+      "pdf": "10426_June_Revised_Drugs_Alert_List_2023.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1413,
+      "tables": 1,
+      "txt": "alerts\\10426_June_Revised_Drugs_Alert_List_2023.txt",
+      "tables_json": "alerts\\10426_June_Revised_Drugs_Alert_List_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:41+00:00"
+    },
+    {
+      "pdf": "10515_Drug_Alert_list_for_month_of_August_2023.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 13313,
+      "tables": 10,
+      "txt": "alerts\\10515_Drug_Alert_list_for_month_of_August_2023.txt",
+      "tables_json": "alerts\\10515_Drug_Alert_list_for_month_of_August_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:43+00:00"
+    },
+    {
+      "pdf": "10516_July_Revised_Drugs_Alert_List_2023.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1575,
+      "tables": 1,
+      "txt": "alerts\\10516_July_Revised_Drugs_Alert_List_2023.txt",
+      "tables_json": "alerts\\10516_July_Revised_Drugs_Alert_List_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:43+00:00"
+    },
+    {
+      "pdf": "10583_Drug_Alert_for_the_Month_of_September_2023.pdf",
+      "status": "ok",
+      "pages": 13,
+      "chars": 15742,
+      "tables": 13,
+      "txt": "alerts\\10583_Drug_Alert_for_the_Month_of_September_2023.txt",
+      "tables_json": "alerts\\10583_Drug_Alert_for_the_Month_of_September_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:45+00:00"
+    },
+    {
+      "pdf": "10585_Drug_Alert_for_the_Month_of_March_2023_Revised.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 907,
+      "tables": 1,
+      "txt": "alerts\\10585_Drug_Alert_for_the_Month_of_March_2023_Revised.txt",
+      "tables_json": "alerts\\10585_Drug_Alert_for_the_Month_of_March_2023_Revised.tables.json",
+      "extracted_at": "2026-09-12T13:31:45+00:00"
+    },
+    {
+      "pdf": "10586_Drug_Alert_for_the_Month_of_February_2023_Revised.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1010,
+      "tables": 1,
+      "txt": "alerts\\10586_Drug_Alert_for_the_Month_of_February_2023_Revised.txt",
+      "tables_json": "alerts\\10586_Drug_Alert_for_the_Month_of_February_2023_Revised.tables.json",
+      "extracted_at": "2026-09-12T13:31:45+00:00"
+    },
+    {
+      "pdf": "10666_Drug_Alert_for_the_Month_of_October_2023.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 15531,
+      "tables": 9,
+      "txt": "alerts\\10666_Drug_Alert_for_the_Month_of_October_2023.txt",
+      "tables_json": "alerts\\10666_Drug_Alert_for_the_Month_of_October_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:47+00:00"
+    },
+    {
+      "pdf": "10784_Drug_Alert_for_the_Month_of_November_2023.pdf",
+      "status": "ok",
+      "pages": 14,
+      "chars": 16129,
+      "tables": 14,
+      "txt": "alerts\\10784_Drug_Alert_for_the_Month_of_November_2023.txt",
+      "tables_json": "alerts\\10784_Drug_Alert_for_the_Month_of_November_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:50+00:00"
+    },
+    {
+      "pdf": "10785_Drug_Alert_for_the_Month_of_May_â_2022_Revised.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 948,
+      "tables": 1,
+      "txt": "alerts\\10785_Drug_Alert_for_the_Month_of_May_â_2022_Revised.txt",
+      "tables_json": "alerts\\10785_Drug_Alert_for_the_Month_of_May_â_2022_Revised.tables.json",
+      "extracted_at": "2026-09-12T13:31:50+00:00"
+    },
+    {
+      "pdf": "10851_Drug_Alert_for_the_Month_of_December_2023.pdf",
+      "status": "ok",
+      "pages": 12,
+      "chars": 20707,
+      "tables": 13,
+      "txt": "alerts\\10851_Drug_Alert_for_the_Month_of_December_2023.txt",
+      "tables_json": "alerts\\10851_Drug_Alert_for_the_Month_of_December_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:53+00:00"
+    },
+    {
+      "pdf": "10939_Drug_Alert_for_the_Month_of_January_2024.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 12917,
+      "tables": 8,
+      "txt": "alerts\\10939_Drug_Alert_for_the_Month_of_January_2024.txt",
+      "tables_json": "alerts\\10939_Drug_Alert_for_the_Month_of_January_2024.tables.json",
+      "extracted_at": "2026-09-12T13:31:55+00:00"
+    },
+    {
+      "pdf": "10940_Drug_Alert_for_the_Month_of_Revised_Dec_2023.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 925,
+      "tables": 1,
+      "txt": "alerts\\10940_Drug_Alert_for_the_Month_of_Revised_Dec_2023.txt",
+      "tables_json": "alerts\\10940_Drug_Alert_for_the_Month_of_Revised_Dec_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:55+00:00"
+    },
+    {
+      "pdf": "10941_Drug_Alert_for_the_Month_of_Revised_March_2023.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 922,
+      "tables": 1,
+      "txt": "alerts\\10941_Drug_Alert_for_the_Month_of_Revised_March_2023.txt",
+      "tables_json": "alerts\\10941_Drug_Alert_for_the_Month_of_Revised_March_2023.tables.json",
+      "extracted_at": "2026-09-12T13:31:55+00:00"
+    },
+    {
+      "pdf": "11013_Drug_Alert_for_the_Month_of_February_2024.pdf",
+      "status": "ok",
+      "pages": 12,
+      "chars": 17669,
+      "tables": 12,
+      "txt": "alerts\\11013_Drug_Alert_for_the_Month_of_February_2024.txt",
+      "tables_json": "alerts\\11013_Drug_Alert_for_the_Month_of_February_2024.tables.json",
+      "extracted_at": "2026-09-12T13:31:58+00:00"
+    },
+    {
+      "pdf": "11014_Drug_Alert_for_the_Month_of_Revised_Jan_2024.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 917,
+      "tables": 1,
+      "txt": "alerts\\11014_Drug_Alert_for_the_Month_of_Revised_Jan_2024.txt",
+      "tables_json": "alerts\\11014_Drug_Alert_for_the_Month_of_Revised_Jan_2024.tables.json",
+      "extracted_at": "2026-09-12T13:31:58+00:00"
+    },
+    {
+      "pdf": "11115_Drug_Alert_for_the_Month_of_March_2024.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 15896,
+      "tables": 7,
+      "txt": "alerts\\11115_Drug_Alert_for_the_Month_of_March_2024.txt",
+      "tables_json": "alerts\\11115_Drug_Alert_for_the_Month_of_March_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:00+00:00"
+    },
+    {
+      "pdf": "11255_SPURIOUS_ALERT_FOR_THE_MONTH_OF_APRIL_2024.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 3610,
+      "tables": 3,
+      "txt": "alerts\\11255_SPURIOUS_ALERT_FOR_THE_MONTH_OF_APRIL_2024.txt",
+      "tables_json": "alerts\\11255_SPURIOUS_ALERT_FOR_THE_MONTH_OF_APRIL_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:00+00:00"
+    },
+    {
+      "pdf": "11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.pdf",
+      "status": "ok",
+      "pages": 11,
+      "chars": 14037,
+      "tables": 11,
+      "txt": "alerts\\11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.txt",
+      "tables_json": "alerts\\11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:02+00:00"
+    },
+    {
+      "pdf": "11372_NSQ_May_2024_CDSCO_Labs.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 13445,
+      "tables": 9,
+      "txt": "alerts\\11372_NSQ_May_2024_CDSCO_Labs.txt",
+      "tables_json": "alerts\\11372_NSQ_May_2024_CDSCO_Labs.tables.json",
+      "extracted_at": "2026-09-12T13:32:04+00:00"
+    },
+    {
+      "pdf": "11373_NSQ_May_2024_State_Labs.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 8962,
+      "tables": 6,
+      "txt": "alerts\\11373_NSQ_May_2024_State_Labs.txt",
+      "tables_json": "alerts\\11373_NSQ_May_2024_State_Labs.tables.json",
+      "extracted_at": "2026-09-12T13:32:05+00:00"
+    },
+    {
+      "pdf": "11467_State_NSQ_ALERT_FOR_THE_MONTH_OF_JUNE_2024.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 8443,
+      "tables": 9,
+      "txt": "alerts\\11467_State_NSQ_ALERT_FOR_THE_MONTH_OF_JUNE_2024.txt",
+      "tables_json": "alerts\\11467_State_NSQ_ALERT_FOR_THE_MONTH_OF_JUNE_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:06+00:00"
+    },
+    {
+      "pdf": "11468_NSQ_ALERT_FOR_THE_MONTH_OF_JUNE_2024.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 6837,
+      "tables": 6,
+      "txt": "alerts\\11468_NSQ_ALERT_FOR_THE_MONTH_OF_JUNE_2024.txt",
+      "tables_json": "alerts\\11468_NSQ_ALERT_FOR_THE_MONTH_OF_JUNE_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:07+00:00"
+    },
+    {
+      "pdf": "11600_NSQ_ALERT_FOR_THE_MONTH_OF_JUlY-2024.pdf",
+      "status": "ok",
+      "pages": 11,
+      "chars": 13819,
+      "tables": 11,
+      "txt": "alerts\\11600_NSQ_ALERT_FOR_THE_MONTH_OF_JUlY-2024.txt",
+      "tables_json": "alerts\\11600_NSQ_ALERT_FOR_THE_MONTH_OF_JUlY-2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:09+00:00"
+    },
+    {
+      "pdf": "11601_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_July-2024.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4220,
+      "tables": 3,
+      "txt": "alerts\\11601_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_July-2024.txt",
+      "tables_json": "alerts\\11601_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_July-2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:09+00:00"
+    },
+    {
+      "pdf": "11874_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2023.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 420,
+      "tables": 1,
+      "txt": "alerts\\11874_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2023.txt",
+      "tables_json": "alerts\\11874_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2023.tables.json",
+      "extracted_at": "2026-09-12T13:32:09+00:00"
+    },
+    {
+      "pdf": "11875_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2018.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 344,
+      "tables": 1,
+      "txt": "alerts\\11875_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2018.txt",
+      "tables_json": "alerts\\11875_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2018.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11876_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2019.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 414,
+      "tables": 1,
+      "txt": "alerts\\11876_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2019.txt",
+      "tables_json": "alerts\\11876_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2019.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11878_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_JAN-2018.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 562,
+      "tables": 1,
+      "txt": "alerts\\11878_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_JAN-2018.txt",
+      "tables_json": "alerts\\11878_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_JAN-2018.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11879_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_July-2017.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 357,
+      "tables": 1,
+      "txt": "alerts\\11879_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_July-2017.txt",
+      "tables_json": "alerts\\11879_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_July-2017.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11882_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_MARCH-2019.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 561,
+      "tables": 1,
+      "txt": "alerts\\11882_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_MARCH-2019.txt",
+      "tables_json": "alerts\\11882_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_MARCH-2019.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11884_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_SEP-2018.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 726,
+      "tables": 1,
+      "txt": "alerts\\11884_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_SEP-2018.txt",
+      "tables_json": "alerts\\11884_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_SEP-2018.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11941_NSQ_of_Typhoid_Polysaccharide_Vaccine_TYPBAR.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 483,
+      "tables": 1,
+      "txt": "alerts\\11941_NSQ_of_Typhoid_Polysaccharide_Vaccine_TYPBAR.txt",
+      "tables_json": "alerts\\11941_NSQ_of_Typhoid_Polysaccharide_Vaccine_TYPBAR.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11942_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_SEP-2017.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 461,
+      "tables": 1,
+      "txt": "alerts\\11942_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_SEP-2017.txt",
+      "tables_json": "alerts\\11942_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_SEP-2017.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11943_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_FEB-2018.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 653,
+      "tables": 1,
+      "txt": "alerts\\11943_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_FEB-2018.txt",
+      "tables_json": "alerts\\11943_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_FEB-2018.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11944_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_MAR-2022.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 912,
+      "tables": 1,
+      "txt": "alerts\\11944_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_MAR-2022.txt",
+      "tables_json": "alerts\\11944_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_MAR-2022.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11945_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_JUNE-2022.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 427,
+      "tables": 1,
+      "txt": "alerts\\11945_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_JUNE-2022.txt",
+      "tables_json": "alerts\\11945_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_JUNE-2022.tables.json",
+      "extracted_at": "2026-09-12T13:32:10+00:00"
+    },
+    {
+      "pdf": "11955_Samples_declared_NSQ_2017-2023.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 7832,
+      "tables": 5,
+      "txt": "alerts\\11955_Samples_declared_NSQ_2017-2023.txt",
+      "tables_json": "alerts\\11955_Samples_declared_NSQ_2017-2023.tables.json",
+      "extracted_at": "2026-09-12T13:32:11+00:00"
+    },
+    {
+      "pdf": "12002_ZyCoV-D_SmPc_and_Factsheet.pdf",
+      "status": "ok",
+      "pages": 14,
+      "chars": 26630,
+      "tables": 7,
+      "txt": "alerts\\12002_ZyCoV-D_SmPc_and_Factsheet.txt",
+      "tables_json": "alerts\\12002_ZyCoV-D_SmPc_and_Factsheet.tables.json",
+      "extracted_at": "2026-09-12T13:32:14+00:00"
+    },
+    {
+      "pdf": "12010_Drug_Alert_for_the_Month_of_August_2024.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 11921,
+      "tables": 8,
+      "txt": "alerts\\12010_Drug_Alert_for_the_Month_of_August_2024.txt",
+      "tables_json": "alerts\\12010_Drug_Alert_for_the_Month_of_August_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:15+00:00"
+    },
+    {
+      "pdf": "12011_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_Adulterated_Misbranded_for_the_Month_of_August-.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3131,
+      "tables": 2,
+      "txt": "alerts\\12011_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_Adulterated_Misbranded_for_the_Month_of_August-.txt",
+      "tables_json": "alerts\\12011_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_Adulterated_Misbranded_for_the_Month_of_August-.tables.json",
+      "extracted_at": "2026-09-12T13:32:16+00:00"
+    },
+    {
+      "pdf": "12012_State_Drug_Alert_for_the_Month_of_August_2024.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 3754,
+      "tables": 3,
+      "txt": "alerts\\12012_State_Drug_Alert_for_the_Month_of_August_2024.txt",
+      "tables_json": "alerts\\12012_State_Drug_Alert_for_the_Month_of_August_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:16+00:00"
+    },
+    {
+      "pdf": "12082_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_September_2024.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3318,
+      "tables": 2,
+      "txt": "alerts\\12082_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_September_2024.txt",
+      "tables_json": "alerts\\12082_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_September_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:17+00:00"
+    },
+    {
+      "pdf": "12083_State_Drug_Alert_for_the_Month_of_September_2024.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 6767,
+      "tables": 5,
+      "txt": "alerts\\12083_State_Drug_Alert_for_the_Month_of_September_2024.txt",
+      "tables_json": "alerts\\12083_State_Drug_Alert_for_the_Month_of_September_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:17+00:00"
+    },
+    {
+      "pdf": "12084_Drug_Alert_for_the_Month_of_September_2024.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 12485,
+      "tables": 10,
+      "txt": "alerts\\12084_Drug_Alert_for_the_Month_of_September_2024.txt",
+      "tables_json": "alerts\\12084_Drug_Alert_for_the_Month_of_September_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:19+00:00"
+    },
+    {
+      "pdf": "12202_State_Drug_Alert_for_the_Month_of_October_2024.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 15365,
+      "tables": 8,
+      "txt": "alerts\\12202_State_Drug_Alert_for_the_Month_of_October_2024.txt",
+      "tables_json": "alerts\\12202_State_Drug_Alert_for_the_Month_of_October_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:21+00:00"
+    },
+    {
+      "pdf": "12203_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_October_2024.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2788,
+      "tables": 2,
+      "txt": "alerts\\12203_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_October_2024.txt",
+      "tables_json": "alerts\\12203_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_October_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:21+00:00"
+    },
+    {
+      "pdf": "12204_Drug_Alert_for_the_Month_of_October_2024.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 14400,
+      "tables": 10,
+      "txt": "alerts\\12204_Drug_Alert_for_the_Month_of_October_2024.txt",
+      "tables_json": "alerts\\12204_Drug_Alert_for_the_Month_of_October_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:23+00:00"
+    },
+    {
+      "pdf": "12290_State_Drug_Alert_for_the_Month_of_November_2024.pdf",
+      "status": "ok",
+      "pages": 18,
+      "chars": 28711,
+      "tables": 17,
+      "txt": "alerts\\12290_State_Drug_Alert_for_the_Month_of_November_2024.txt",
+      "tables_json": "alerts\\12290_State_Drug_Alert_for_the_Month_of_November_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:27+00:00"
+    },
+    {
+      "pdf": "12291_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_November_2024.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2411,
+      "tables": 1,
+      "txt": "alerts\\12291_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_November_2024.txt",
+      "tables_json": "alerts\\12291_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_November_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:27+00:00"
+    },
+    {
+      "pdf": "12292_Drug_Alert_for_the_Month_of_November_2024.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 10477,
+      "tables": 9,
+      "txt": "alerts\\12292_Drug_Alert_for_the_Month_of_November_2024.txt",
+      "tables_json": "alerts\\12292_Drug_Alert_for_the_Month_of_November_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:29+00:00"
+    },
+    {
+      "pdf": "12393_Drug_Alert_for_the_Month_of_December_2024.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 13753,
+      "tables": 10,
+      "txt": "alerts\\12393_Drug_Alert_for_the_Month_of_December_2024.txt",
+      "tables_json": "alerts\\12393_Drug_Alert_for_the_Month_of_December_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:30+00:00"
+    },
+    {
+      "pdf": "12394_State_Drug_Alert_for_the_Month_of_December_2024.pdf",
+      "status": "ok",
+      "pages": 18,
+      "chars": 27975,
+      "tables": 18,
+      "txt": "alerts\\12394_State_Drug_Alert_for_the_Month_of_December_2024.txt",
+      "tables_json": "alerts\\12394_State_Drug_Alert_for_the_Month_of_December_2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:34+00:00"
+    },
+    {
+      "pdf": "12555_NSQ_ALERT_FOR_THE_MONTH_OF_JANUARY-2025.pdf",
+      "status": "ok",
+      "pages": 10,
+      "chars": 12754,
+      "tables": 11,
+      "txt": "alerts\\12555_NSQ_ALERT_FOR_THE_MONTH_OF_JANUARY-2025.txt",
+      "tables_json": "alerts\\12555_NSQ_ALERT_FOR_THE_MONTH_OF_JANUARY-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:36+00:00"
+    },
+    {
+      "pdf": "12556_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_JANUARY-2025.pdf",
+      "status": "ok",
+      "pages": 22,
+      "chars": 34216,
+      "tables": 22,
+      "txt": "alerts\\12556_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_JANUARY-2025.txt",
+      "tables_json": "alerts\\12556_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_JANUARY-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:40+00:00"
+    },
+    {
+      "pdf": "12612_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_February-2025.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1926,
+      "tables": 1,
+      "txt": "alerts\\12612_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_February-2025.txt",
+      "tables_json": "alerts\\12612_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_February-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:40+00:00"
+    },
+    {
+      "pdf": "12613_NSQ_ALERT_FOR_THE_MONTH_OF_Feb-2025.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 12145,
+      "tables": 6,
+      "txt": "alerts\\12613_NSQ_ALERT_FOR_THE_MONTH_OF_Feb-2025.txt",
+      "tables_json": "alerts\\12613_NSQ_ALERT_FOR_THE_MONTH_OF_Feb-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:42+00:00"
+    },
+    {
+      "pdf": "12614_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_FEBRUARY-2025.pdf",
+      "status": "ok",
+      "pages": 16,
+      "chars": 28597,
+      "tables": 15,
+      "txt": "alerts\\12614_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_FEBRUARY-2025.txt",
+      "tables_json": "alerts\\12614_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_FEBRUARY-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:45+00:00"
+    },
+    {
+      "pdf": "12667_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_March-_2025.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1904,
+      "tables": 1,
+      "txt": "alerts\\12667_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_March-_2025.txt",
+      "tables_json": "alerts\\12667_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_March-_2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:45+00:00"
+    },
+    {
+      "pdf": "12668_State_NSQ_Alert_For_The_Month_March-2025.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 22469,
+      "tables": 8,
+      "txt": "alerts\\12668_State_NSQ_Alert_For_The_Month_March-2025.txt",
+      "tables_json": "alerts\\12668_State_NSQ_Alert_For_The_Month_March-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:48+00:00"
+    },
+    {
+      "pdf": "12670_Revise_list_drug_alert_November-2024.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 881,
+      "tables": 1,
+      "txt": "alerts\\12670_Revise_list_drug_alert_November-2024.txt",
+      "tables_json": "alerts\\12670_Revise_list_drug_alert_November-2024.tables.json",
+      "extracted_at": "2026-09-12T13:32:48+00:00"
+    },
+    {
+      "pdf": "12671_Revise_list_drug_alert_January-2025.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 765,
+      "tables": 1,
+      "txt": "alerts\\12671_Revise_list_drug_alert_January-2025.txt",
+      "tables_json": "alerts\\12671_Revise_list_drug_alert_January-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:49+00:00"
+    },
+    {
+      "pdf": "12737_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_for.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 859,
+      "tables": 1,
+      "txt": "alerts\\12737_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_for.txt",
+      "tables_json": "alerts\\12737_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_for.tables.json",
+      "extracted_at": "2026-09-12T13:32:49+00:00"
+    },
+    {
+      "pdf": "12738_Not_Of_Standard_of_Quality_NSQ_ALERT_FOR_THE_MONTH_OF_April-2025.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 15355,
+      "tables": 8,
+      "txt": "alerts\\12738_Not_Of_Standard_of_Quality_NSQ_ALERT_FOR_THE_MONTH_OF_April-2025.txt",
+      "tables_json": "alerts\\12738_Not_Of_Standard_of_Quality_NSQ_ALERT_FOR_THE_MONTH_OF_April-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:51+00:00"
+    },
+    {
+      "pdf": "12739_State_NSQ_Alert_For_The_Month_April-2025.pdf",
+      "status": "ok",
+      "pages": 22,
+      "chars": 47443,
+      "tables": 22,
+      "txt": "alerts\\12739_State_NSQ_Alert_For_The_Month_April-2025.txt",
+      "tables_json": "alerts\\12739_State_NSQ_Alert_For_The_Month_April-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:58+00:00"
+    },
+    {
+      "pdf": "12740_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_April-2025.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1981,
+      "tables": 1,
+      "txt": "alerts\\12740_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_April-2025.txt",
+      "tables_json": "alerts\\12740_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_April-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:58+00:00"
+    },
+    {
+      "pdf": "12845_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_May-2025.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2358,
+      "tables": 1,
+      "txt": "alerts\\12845_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_May-2025.txt",
+      "tables_json": "alerts\\12845_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_May-2025.tables.json",
+      "extracted_at": "2026-09-12T13:32:58+00:00"
+    },
+    {
+      "pdf": "12846_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_MAY-2025.pdf",
+      "status": "ok",
+      "pages": 19,
+      "chars": 42411,
+      "tables": 18,
+      "txt": "alerts\\12846_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_MAY-2025.txt",
+      "tables_json": "alerts\\12846_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_MAY-2025.tables.json",
+      "extracted_at": "2026-09-12T13:33:04+00:00"
+    },
+    {
+      "pdf": "12847_NSQ_ALERT_FOR_THE_MONTH_OF_MAY-2025.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 14831,
+      "tables": 8,
+      "txt": "alerts\\12847_NSQ_ALERT_FOR_THE_MONTH_OF_MAY-2025.txt",
+      "tables_json": "alerts\\12847_NSQ_ALERT_FOR_THE_MONTH_OF_MAY-2025.tables.json",
+      "extracted_at": "2026-09-12T13:33:06+00:00"
+    },
+    {
+      "pdf": "12926_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.pdf",
+      "status": "ok",
+      "pages": 15,
+      "chars": 35601,
+      "tables": 14,
+      "txt": "alerts\\12926_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.txt",
+      "tables_json": "alerts\\12926_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.tables.json",
+      "extracted_at": "2026-09-12T13:33:11+00:00"
+    },
+    {
+      "pdf": "12927_CDSCO_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 13202,
+      "tables": 7,
+      "txt": "alerts\\12927_CDSCO_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.txt",
+      "tables_json": "alerts\\12927_CDSCO_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.tables.json",
+      "extracted_at": "2026-09-12T13:33:13+00:00"
+    },
+    {
+      "pdf": "12959_List_of_spurious_Drugs_for_the_month_of_June-2025.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3281,
+      "tables": 2,
+      "txt": "alerts\\12959_List_of_spurious_Drugs_for_the_month_of_June-2025.txt",
+      "tables_json": "alerts\\12959_List_of_spurious_Drugs_for_the_month_of_June-2025.tables.json",
+      "extracted_at": "2026-09-12T13:33:13+00:00"
+    },
+    {
+      "pdf": "12960_Revise_list_drug_alert_May-2025.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 830,
+      "tables": 1,
+      "txt": "alerts\\12960_Revise_list_drug_alert_May-2025.txt",
+      "tables_json": "alerts\\12960_Revise_list_drug_alert_May-2025.tables.json",
+      "extracted_at": "2026-09-12T13:33:13+00:00"
+    },
+    {
+      "pdf": "1666_Drug_Alert_for_the_month_of_April2018.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1760,
+      "tables": 1,
+      "txt": "alerts\\1666_Drug_Alert_for_the_month_of_April2018.txt",
+      "tables_json": "alerts\\1666_Drug_Alert_for_the_month_of_April2018.tables.json",
+      "extracted_at": "2026-09-12T13:33:14+00:00"
+    },
+    {
+      "pdf": "1717_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 12409,
+      "tables": 7,
+      "txt": "alerts\\1717_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.txt",
+      "tables_json": "alerts\\1717_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.tables.json",
+      "extracted_at": "2026-09-12T13:33:15+00:00"
+    },
+    {
+      "pdf": "1795_Drug_Alert_for_the_month_of_June2018.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 7236,
+      "tables": 4,
+      "txt": "alerts\\1795_Drug_Alert_for_the_month_of_June2018.txt",
+      "tables_json": "alerts\\1795_Drug_Alert_for_the_month_of_June2018.tables.json",
+      "extracted_at": "2026-09-12T13:33:16+00:00"
+    },
+    {
+      "pdf": "1796_Drug_Alert_for_the_month_of_May2018.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 12409,
+      "tables": 7,
+      "txt": "alerts\\1796_Drug_Alert_for_the_month_of_May2018.txt",
+      "tables_json": "alerts\\1796_Drug_Alert_for_the_month_of_May2018.tables.json",
+      "extracted_at": "2026-09-12T13:33:18+00:00"
+    },
+    {
+      "pdf": "1797_Drug_Alert_for_the_month_of_April_2018.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 10185,
+      "tables": 5,
+      "txt": "alerts\\1797_Drug_Alert_for_the_month_of_April_2018.txt",
+      "tables_json": "alerts\\1797_Drug_Alert_for_the_month_of_April_2018.tables.json",
+      "extracted_at": "2026-09-12T13:33:20+00:00"
+    },
+    {
+      "pdf": "1906_Drug_Alert_list_for_July_2018.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 6369,
+      "tables": 4,
+      "txt": "alerts\\1906_Drug_Alert_list_for_July_2018.txt",
+      "tables_json": "alerts\\1906_Drug_Alert_list_for_July_2018.tables.json",
+      "extracted_at": "2026-09-12T13:33:20+00:00"
+    },
+    {
+      "pdf": "1950_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 9854,
+      "tables": 6,
+      "txt": "alerts\\1950_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.txt",
+      "tables_json": "alerts\\1950_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.tables.json",
+      "extracted_at": "2026-09-12T13:33:21+00:00"
+    },
+    {
+      "pdf": "2058_Recall_of_OZURDEX_Dexamethasone_Intravitreal_Implant_0.7mg.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 4026,
+      "tables": 7,
+      "txt": "alerts\\2058_Recall_of_OZURDEX_Dexamethasone_Intravitreal_Implant_0.7mg.txt",
+      "tables_json": "alerts\\2058_Recall_of_OZURDEX_Dexamethasone_Intravitreal_Implant_0.7mg.tables.json",
+      "extracted_at": "2026-09-12T13:33:22+00:00"
+    },
+    {
+      "pdf": "2166_Drug_Alert_list_for_October_2018.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 11755,
+      "tables": 8,
+      "txt": "alerts\\2166_Drug_Alert_list_for_October_2018.txt",
+      "tables_json": "alerts\\2166_Drug_Alert_list_for_October_2018.tables.json",
+      "extracted_at": "2026-09-12T13:33:23+00:00"
+    },
+    {
+      "pdf": "2167_Drug_Alert_list_for_September_2018.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4418,
+      "tables": 3,
+      "txt": "alerts\\2167_Drug_Alert_list_for_September_2018.txt",
+      "tables_json": "alerts\\2167_Drug_Alert_list_for_September_2018.tables.json",
+      "extracted_at": "2026-09-12T13:33:24+00:00"
+    },
+    {
+      "pdf": "2238_Drug_Alert_list_for_November_2018.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 7363,
+      "tables": 5,
+      "txt": "alerts\\2238_Drug_Alert_list_for_November_2018.txt",
+      "tables_json": "alerts\\2238_Drug_Alert_list_for_November_2018.tables.json",
+      "extracted_at": "2026-09-12T13:33:25+00:00"
+    },
+    {
+      "pdf": "2243_Drug_Alert_list_for_month_of_August_2013.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 1969,
+      "tables": 2,
+      "txt": "alerts\\2243_Drug_Alert_list_for_month_of_August_2013.txt",
+      "tables_json": "alerts\\2243_Drug_Alert_list_for_month_of_August_2013.tables.json",
+      "extracted_at": "2026-09-12T13:33:25+00:00"
+    },
+    {
+      "pdf": "2244_Drugs_Alert_for_the_month_of_April_2013.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2652,
+      "tables": 2,
+      "txt": "alerts\\2244_Drugs_Alert_for_the_month_of_April_2013.txt",
+      "tables_json": "alerts\\2244_Drugs_Alert_for_the_month_of_April_2013.tables.json",
+      "extracted_at": "2026-09-12T13:33:26+00:00"
+    },
+    {
+      "pdf": "2245_Drug_Alert_list_for_month_of_December_2013.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 3687,
+      "tables": 4,
+      "txt": "alerts\\2245_Drug_Alert_list_for_month_of_December_2013.txt",
+      "tables_json": "alerts\\2245_Drug_Alert_list_for_month_of_December_2013.tables.json",
+      "extracted_at": "2026-09-12T13:33:26+00:00"
+    },
+    {
+      "pdf": "2246_Drugs_Alert_for_the_month_of_February_2013.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2581,
+      "tables": 2,
+      "txt": "alerts\\2246_Drugs_Alert_for_the_month_of_February_2013.txt",
+      "tables_json": "alerts\\2246_Drugs_Alert_for_the_month_of_February_2013.tables.json",
+      "extracted_at": "2026-09-12T13:33:27+00:00"
+    },
+    {
+      "pdf": "2247_Drug_Alert_list_for_month_of_July_2013.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 4603,
+      "tables": 4,
+      "txt": "alerts\\2247_Drug_Alert_list_for_month_of_July_2013.txt",
+      "tables_json": "alerts\\2247_Drug_Alert_list_for_month_of_July_2013.tables.json",
+      "extracted_at": "2026-09-12T13:33:27+00:00"
+    },
+    {
+      "pdf": "2248_Drug_Alert_list_for_month_of_June_2013.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 5559,
+      "tables": 5,
+      "txt": "alerts\\2248_Drug_Alert_list_for_month_of_June_2013.txt",
+      "tables_json": "alerts\\2248_Drug_Alert_list_for_month_of_June_2013.tables.json",
+      "extracted_at": "2026-09-12T13:33:28+00:00"
+    },
+    {
+      "pdf": "2249_Drug_Alert_list_for_month_of_March_2013.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3015,
+      "tables": 2,
+      "txt": "alerts\\2249_Drug_Alert_list_for_month_of_March_2013.txt",
+      "tables_json": "alerts\\2249_Drug_Alert_list_for_month_of_March_2013.tables.json",
+      "extracted_at": "2026-09-12T13:33:29+00:00"
+    },
+    {
+      "pdf": "2252_Drugs_Alert_for_the_month_of_April_2013_J_K.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 973,
+      "tables": 1,
+      "txt": "alerts\\2252_Drugs_Alert_for_the_month_of_April_2013_J_K.txt",
+      "tables_json": "alerts\\2252_Drugs_Alert_for_the_month_of_April_2013_J_K.tables.json",
+      "extracted_at": "2026-09-12T13:33:29+00:00"
+    },
+    {
+      "pdf": "2254_Drug_Alert_list_for_month_of_August_2014.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 7034,
+      "tables": 5,
+      "txt": "alerts\\2254_Drug_Alert_list_for_month_of_August_2014.txt",
+      "tables_json": "alerts\\2254_Drug_Alert_list_for_month_of_August_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:30+00:00"
+    },
+    {
+      "pdf": "2255_Drugs_Alert_for_the_month_of_December_2014.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 5031,
+      "tables": 2,
+      "txt": "alerts\\2255_Drugs_Alert_for_the_month_of_December_2014.txt",
+      "tables_json": "alerts\\2255_Drugs_Alert_for_the_month_of_December_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:30+00:00"
+    },
+    {
+      "pdf": "2256_Drugs_Alert_for_the_month_of_February_2014.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 6766,
+      "tables": 4,
+      "txt": "alerts\\2256_Drugs_Alert_for_the_month_of_February_2014.txt",
+      "tables_json": "alerts\\2256_Drugs_Alert_for_the_month_of_February_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:31+00:00"
+    },
+    {
+      "pdf": "2257_Drug_Alerts_for_the_month_of_January_2014.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 9223,
+      "tables": 9,
+      "txt": "alerts\\2257_Drug_Alerts_for_the_month_of_January_2014.txt",
+      "tables_json": "alerts\\2257_Drug_Alerts_for_the_month_of_January_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:32+00:00"
+    },
+    {
+      "pdf": "2258_Drug_Alert_list_for_month_of_July_2014.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 6139,
+      "tables": 3,
+      "txt": "alerts\\2258_Drug_Alert_list_for_month_of_July_2014.txt",
+      "tables_json": "alerts\\2258_Drug_Alert_list_for_month_of_July_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:33+00:00"
+    },
+    {
+      "pdf": "2259_Drug_Alert_list_for_the_month_of_June_2014.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 11058,
+      "tables": 7,
+      "txt": "alerts\\2259_Drug_Alert_list_for_the_month_of_June_2014.txt",
+      "tables_json": "alerts\\2259_Drug_Alert_list_for_the_month_of_June_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:35+00:00"
+    },
+    {
+      "pdf": "2260_Drugs_Alert_for_the_month_of_March_2014.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 9681,
+      "tables": 6,
+      "txt": "alerts\\2260_Drugs_Alert_for_the_month_of_March_2014.txt",
+      "tables_json": "alerts\\2260_Drugs_Alert_for_the_month_of_March_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:36+00:00"
+    },
+    {
+      "pdf": "2261_Drugs_Alert_for_the_Month_of_May_2014.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 4778,
+      "tables": 4,
+      "txt": "alerts\\2261_Drugs_Alert_for_the_Month_of_May_2014.txt",
+      "tables_json": "alerts\\2261_Drugs_Alert_for_the_Month_of_May_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:36+00:00"
+    },
+    {
+      "pdf": "2262_Drugs_Alert_for_the_month_of_November_2014.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 7471,
+      "tables": 4,
+      "txt": "alerts\\2262_Drugs_Alert_for_the_month_of_November_2014.txt",
+      "tables_json": "alerts\\2262_Drugs_Alert_for_the_month_of_November_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:37+00:00"
+    },
+    {
+      "pdf": "2263_Drugs_alert_for_the_month_of_October_2014.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 5201,
+      "tables": 3,
+      "txt": "alerts\\2263_Drugs_alert_for_the_month_of_October_2014.txt",
+      "tables_json": "alerts\\2263_Drugs_alert_for_the_month_of_October_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:38+00:00"
+    },
+    {
+      "pdf": "2264_Drug_Alert_list_for_the_month_of_September_2014.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 12304,
+      "tables": 7,
+      "txt": "alerts\\2264_Drug_Alert_list_for_the_month_of_September_2014.txt",
+      "tables_json": "alerts\\2264_Drug_Alert_list_for_the_month_of_September_2014.tables.json",
+      "extracted_at": "2026-09-12T13:33:39+00:00"
+    },
+    {
+      "pdf": "2265_Drug_Alert_list_for_month_of_April_2015.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2506,
+      "tables": 2,
+      "txt": "alerts\\2265_Drug_Alert_list_for_month_of_April_2015.txt",
+      "tables_json": "alerts\\2265_Drug_Alert_list_for_month_of_April_2015.tables.json",
+      "extracted_at": "2026-09-12T13:33:40+00:00"
+    },
+    {
+      "pdf": "2266_Drug_Alert_list_for_month_of_August_2015.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1812,
+      "tables": 1,
+      "txt": "alerts\\2266_Drug_Alert_list_for_month_of_August_2015.txt",
+      "tables_json": "alerts\\2266_Drug_Alert_list_for_month_of_August_2015.tables.json",
+      "extracted_at": "2026-09-12T13:33:40+00:00"
+    },
+    {
+      "pdf": "2267_Drug_Alert_list_for_month_of_December_2015.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4254,
+      "tables": 3,
+      "txt": "alerts\\2267_Drug_Alert_list_for_month_of_December_2015.txt",
+      "tables_json": "alerts\\2267_Drug_Alert_list_for_month_of_December_2015.tables.json",
+      "extracted_at": "2026-09-12T13:33:40+00:00"
+    },
+    {
+      "pdf": "2268_Drugs_Alert_for_the_month_of_February_2015.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 4963,
+      "tables": 2,
+      "txt": "alerts\\2268_Drugs_Alert_for_the_month_of_February_2015.txt",
+      "tables_json": "alerts\\2268_Drugs_Alert_for_the_month_of_February_2015.tables.json",
+      "extracted_at": "2026-09-12T13:33:41+00:00"
+    },
+    {
+      "pdf": "2269_Drugs_Alert_for_the_month_of_March_2015.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3729,
+      "tables": 2,
+      "txt": "alerts\\2269_Drugs_Alert_for_the_month_of_March_2015.txt",
+      "tables_json": "alerts\\2269_Drugs_Alert_for_the_month_of_March_2015.tables.json",
+      "extracted_at": "2026-09-12T13:33:42+00:00"
+    },
+    {
+      "pdf": "2270_Drug_Alert_list_for_month_of_May_2015.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 4291,
+      "tables": 2,
+      "txt": "alerts\\2270_Drug_Alert_list_for_month_of_May_2015.txt",
+      "tables_json": "alerts\\2270_Drug_Alert_list_for_month_of_May_2015.tables.json",
+      "extracted_at": "2026-09-12T13:33:43+00:00"
+    },
+    {
+      "pdf": "2271_Drug_Alert_list_for_month_of_September_2015.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4466,
+      "tables": 3,
+      "txt": "alerts\\2271_Drug_Alert_list_for_month_of_September_2015.txt",
+      "tables_json": "alerts\\2271_Drug_Alert_list_for_month_of_September_2015.tables.json",
+      "extracted_at": "2026-09-12T13:33:43+00:00"
+    },
+    {
+      "pdf": "2275_Drugs_Alert_for_the_month_of_February_2016.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 6984,
+      "tables": 4,
+      "txt": "alerts\\2275_Drugs_Alert_for_the_month_of_February_2016.txt",
+      "tables_json": "alerts\\2275_Drugs_Alert_for_the_month_of_February_2016.tables.json",
+      "extracted_at": "2026-09-12T13:33:44+00:00"
+    },
+    {
+      "pdf": "2276_Drugs_Alert_for_the_month_of_July_2016.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3687,
+      "tables": 2,
+      "txt": "alerts\\2276_Drugs_Alert_for_the_month_of_July_2016.txt",
+      "tables_json": "alerts\\2276_Drugs_Alert_for_the_month_of_July_2016.tables.json",
+      "extracted_at": "2026-09-12T13:33:45+00:00"
+    },
+    {
+      "pdf": "2277_Drug_Alert_list_for_month_of_June_2016.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4512,
+      "tables": 3,
+      "txt": "alerts\\2277_Drug_Alert_list_for_month_of_June_2016.txt",
+      "tables_json": "alerts\\2277_Drug_Alert_list_for_month_of_June_2016.tables.json",
+      "extracted_at": "2026-09-12T13:33:45+00:00"
+    },
+    {
+      "pdf": "2278_Drugs_Alert_for_the_month_of_March_2016.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4922,
+      "tables": 3,
+      "txt": "alerts\\2278_Drugs_Alert_for_the_month_of_March_2016.txt",
+      "tables_json": "alerts\\2278_Drugs_Alert_for_the_month_of_March_2016.tables.json",
+      "extracted_at": "2026-09-12T13:33:46+00:00"
+    },
+    {
+      "pdf": "2279_Drugs_Alert_for_the_month_of_May_2016.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4661,
+      "tables": 3,
+      "txt": "alerts\\2279_Drugs_Alert_for_the_month_of_May_2016.txt",
+      "tables_json": "alerts\\2279_Drugs_Alert_for_the_month_of_May_2016.tables.json",
+      "extracted_at": "2026-09-12T13:33:46+00:00"
+    },
+    {
+      "pdf": "2280_Drug_Alert_list_for_month_of_December_2016.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 5946,
+      "tables": 3,
+      "txt": "alerts\\2280_Drug_Alert_list_for_month_of_December_2016.txt",
+      "tables_json": "alerts\\2280_Drug_Alert_list_for_month_of_December_2016.tables.json",
+      "extracted_at": "2026-09-12T13:33:47+00:00"
+    },
+    {
+      "pdf": "2281_Drug_Alert_list_for_month_of_August_2016.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 5467,
+      "tables": 3,
+      "txt": "alerts\\2281_Drug_Alert_list_for_month_of_August_2016.txt",
+      "tables_json": "alerts\\2281_Drug_Alert_list_for_month_of_August_2016.tables.json",
+      "extracted_at": "2026-09-12T13:33:48+00:00"
+    },
+    {
+      "pdf": "2282_Drug_Alert_list_for_month_of_April_2016.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4798,
+      "tables": 3,
+      "txt": "alerts\\2282_Drug_Alert_list_for_month_of_April_2016.txt",
+      "tables_json": "alerts\\2282_Drug_Alert_list_for_month_of_April_2016.tables.json",
+      "extracted_at": "2026-09-12T13:33:48+00:00"
+    },
+    {
+      "pdf": "2283_Drug_Alert_list_for_month_of_April_2017.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 6450,
+      "tables": 4,
+      "txt": "alerts\\2283_Drug_Alert_list_for_month_of_April_2017.txt",
+      "tables_json": "alerts\\2283_Drug_Alert_list_for_month_of_April_2017.tables.json",
+      "extracted_at": "2026-09-12T13:33:49+00:00"
+    },
+    {
+      "pdf": "2284_Drug_Alert_list_for_month_of_August_2017.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 9237,
+      "tables": 5,
+      "txt": "alerts\\2284_Drug_Alert_list_for_month_of_August_2017.txt",
+      "tables_json": "alerts\\2284_Drug_Alert_list_for_month_of_August_2017.tables.json",
+      "extracted_at": "2026-09-12T13:33:50+00:00"
+    },
+    {
+      "pdf": "2285_Drug_Alert_list_for_month_of_December_2017.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 8722,
+      "tables": 5,
+      "txt": "alerts\\2285_Drug_Alert_list_for_month_of_December_2017.txt",
+      "tables_json": "alerts\\2285_Drug_Alert_list_for_month_of_December_2017.tables.json",
+      "extracted_at": "2026-09-12T13:33:51+00:00"
+    },
+    {
+      "pdf": "2286_Drug_Alert_list_for_month_of_February_2017.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4774,
+      "tables": 3,
+      "txt": "alerts\\2286_Drug_Alert_list_for_month_of_February_2017.txt",
+      "tables_json": "alerts\\2286_Drug_Alert_list_for_month_of_February_2017.tables.json",
+      "extracted_at": "2026-09-12T13:33:52+00:00"
+    },
+    {
+      "pdf": "2287_Drug_Alert_list_for_month_of_January_2017.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4828,
+      "tables": 3,
+      "txt": "alerts\\2287_Drug_Alert_list_for_month_of_January_2017.txt",
+      "tables_json": "alerts\\2287_Drug_Alert_list_for_month_of_January_2017.tables.json",
+      "extracted_at": "2026-09-12T13:33:53+00:00"
+    },
+    {
+      "pdf": "2288_Drugs_Alert_for_the_month_of_July_2017.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 11360,
+      "tables": 6,
+      "txt": "alerts\\2288_Drugs_Alert_for_the_month_of_July_2017.txt",
+      "tables_json": "alerts\\2288_Drugs_Alert_for_the_month_of_July_2017.tables.json",
+      "extracted_at": "2026-09-12T13:33:54+00:00"
+    },
+    {
+      "pdf": "2289_Drug_Alert_list_for_month_of_June_2017.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 10271,
+      "tables": 5,
+      "txt": "alerts\\2289_Drug_Alert_list_for_month_of_June_2017.txt",
+      "tables_json": "alerts\\2289_Drug_Alert_list_for_month_of_June_2017.tables.json",
+      "extracted_at": "2026-09-12T13:33:55+00:00"
+    },
+    {
+      "pdf": "2290_Drug_Alert_list_for_month_of_March_2017.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 15101,
+      "tables": 8,
+      "txt": "alerts\\2290_Drug_Alert_list_for_month_of_March_2017.txt",
+      "tables_json": "alerts\\2290_Drug_Alert_list_for_month_of_March_2017.tables.json",
+      "extracted_at": "2026-09-12T13:33:57+00:00"
+    },
+    {
+      "pdf": "2291_Drug_Alert_list_for_month_of_May_2017.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 8779,
+      "tables": 5,
+      "txt": "alerts\\2291_Drug_Alert_list_for_month_of_May_2017.txt",
+      "tables_json": "alerts\\2291_Drug_Alert_list_for_month_of_May_2017.tables.json",
+      "extracted_at": "2026-09-12T13:33:59+00:00"
+    },
+    {
+      "pdf": "2292_Drugs_Alert_for_the_month_of_November_2017.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 9676,
+      "tables": 5,
+      "txt": "alerts\\2292_Drugs_Alert_for_the_month_of_November_2017.txt",
+      "tables_json": "alerts\\2292_Drugs_Alert_for_the_month_of_November_2017.tables.json",
+      "extracted_at": "2026-09-12T13:34:00+00:00"
+    },
+    {
+      "pdf": "2293_Drug_Alert_list_for_month_of_October_2017.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 8921,
+      "tables": 5,
+      "txt": "alerts\\2293_Drug_Alert_list_for_month_of_October_2017.txt",
+      "tables_json": "alerts\\2293_Drug_Alert_list_for_month_of_October_2017.tables.json",
+      "extracted_at": "2026-09-12T13:34:01+00:00"
+    },
+    {
+      "pdf": "2294_Drug_Alert_list_for_month_of_September_2017.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 6554,
+      "tables": 4,
+      "txt": "alerts\\2294_Drug_Alert_list_for_month_of_September_2017.txt",
+      "tables_json": "alerts\\2294_Drug_Alert_list_for_month_of_September_2017.tables.json",
+      "extracted_at": "2026-09-12T13:34:02+00:00"
+    },
+    {
+      "pdf": "2295_Drug_Alert_list_for_month_of_February_2018.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 10896,
+      "tables": 6,
+      "txt": "alerts\\2295_Drug_Alert_list_for_month_of_February_2018.txt",
+      "tables_json": "alerts\\2295_Drug_Alert_list_for_month_of_February_2018.tables.json",
+      "extracted_at": "2026-09-12T13:34:03+00:00"
+    },
+    {
+      "pdf": "2296_Drug_Alert_list_for_month_of_January_2018.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 8531,
+      "tables": 5,
+      "txt": "alerts\\2296_Drug_Alert_list_for_month_of_January_2018.txt",
+      "tables_json": "alerts\\2296_Drug_Alert_list_for_month_of_January_2018.tables.json",
+      "extracted_at": "2026-09-12T13:34:04+00:00"
+    },
+    {
+      "pdf": "2297_Drug_Alert_list_for_month_of_March_2018.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 11816,
+      "tables": 6,
+      "txt": "alerts\\2297_Drug_Alert_list_for_month_of_March_2018.txt",
+      "tables_json": "alerts\\2297_Drug_Alert_list_for_month_of_March_2018.tables.json",
+      "extracted_at": "2026-09-12T13:34:06+00:00"
+    },
+    {
+      "pdf": "2361_Drug_Alert_list_for_month_of_August_2018.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 9854,
+      "tables": 6,
+      "txt": "alerts\\2361_Drug_Alert_list_for_month_of_August_2018.txt",
+      "tables_json": "alerts\\2361_Drug_Alert_list_for_month_of_August_2018.tables.json",
+      "extracted_at": "2026-09-12T13:34:07+00:00"
+    },
+    {
+      "pdf": "2362_Drug_Alert_list_for_month_of_May_2013.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 2925,
+      "tables": 3,
+      "txt": "alerts\\2362_Drug_Alert_list_for_month_of_May_2013.txt",
+      "tables_json": "alerts\\2362_Drug_Alert_list_for_month_of_May_2013.tables.json",
+      "extracted_at": "2026-09-12T13:34:07+00:00"
+    },
+    {
+      "pdf": "2363_Drug_Alert_list_for_month_of_January_2016.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 6592,
+      "tables": 3,
+      "txt": "alerts\\2363_Drug_Alert_list_for_month_of_January_2016.txt",
+      "tables_json": "alerts\\2363_Drug_Alert_list_for_month_of_January_2016.tables.json",
+      "extracted_at": "2026-09-12T13:34:08+00:00"
+    },
+    {
+      "pdf": "2364_Drug_Alert_list_for_month_of_November_2016.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 7478,
+      "tables": 4,
+      "txt": "alerts\\2364_Drug_Alert_list_for_month_of_November_2016.txt",
+      "tables_json": "alerts\\2364_Drug_Alert_list_for_month_of_November_2016.tables.json",
+      "extracted_at": "2026-09-12T13:34:09+00:00"
+    },
+    {
+      "pdf": "2365_Drug_Alert_list_for_month_of_October_2015.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3873,
+      "tables": 2,
+      "txt": "alerts\\2365_Drug_Alert_list_for_month_of_October_2015.txt",
+      "tables_json": "alerts\\2365_Drug_Alert_list_for_month_of_October_2015.tables.json",
+      "extracted_at": "2026-09-12T13:34:10+00:00"
+    },
+    {
+      "pdf": "2367_Drug_Alert_list_for_month_of_September_2016.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4421,
+      "tables": 3,
+      "txt": "alerts\\2367_Drug_Alert_list_for_month_of_September_2016.txt",
+      "tables_json": "alerts\\2367_Drug_Alert_list_for_month_of_September_2016.tables.json",
+      "extracted_at": "2026-09-12T13:34:10+00:00"
+    },
+    {
+      "pdf": "2369_Drug_Alert_list_for_month_of_June_2015.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1741,
+      "tables": 1,
+      "txt": "alerts\\2369_Drug_Alert_list_for_month_of_June_2015.txt",
+      "tables_json": "alerts\\2369_Drug_Alert_list_for_month_of_June_2015.tables.json",
+      "extracted_at": "2026-09-12T13:34:10+00:00"
+    },
+    {
+      "pdf": "2370_Drug_Alert_list_for_month_of_November_2015.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 2985,
+      "tables": 1,
+      "txt": "alerts\\2370_Drug_Alert_list_for_month_of_November_2015.txt",
+      "tables_json": "alerts\\2370_Drug_Alert_list_for_month_of_November_2015.tables.json",
+      "extracted_at": "2026-09-12T13:34:11+00:00"
+    },
+    {
+      "pdf": "2371_Drug_Alert_list_for_month_of_January_2015.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3725,
+      "tables": 2,
+      "txt": "alerts\\2371_Drug_Alert_list_for_month_of_January_2015.txt",
+      "tables_json": "alerts\\2371_Drug_Alert_list_for_month_of_January_2015.tables.json",
+      "extracted_at": "2026-09-12T13:34:11+00:00"
+    },
+    {
+      "pdf": "2372_Drug_Alert_list_for_month_of_July_2015.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 5523,
+      "tables": 3,
+      "txt": "alerts\\2372_Drug_Alert_list_for_month_of_July_2015.txt",
+      "tables_json": "alerts\\2372_Drug_Alert_list_for_month_of_July_2015.tables.json",
+      "extracted_at": "2026-09-12T13:34:12+00:00"
+    },
+    {
+      "pdf": "3145_Medical_Devices_alert_07.04.2017.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2276,
+      "tables": 1,
+      "txt": "alerts\\3145_Medical_Devices_alert_07.04.2017.txt",
+      "tables_json": "alerts\\3145_Medical_Devices_alert_07.04.2017.tables.json",
+      "extracted_at": "2026-09-12T13:34:12+00:00"
+    },
+    {
+      "pdf": "3146_Medical_Devices_alert_02.06.2017.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2767,
+      "tables": 1,
+      "txt": "alerts\\3146_Medical_Devices_alert_02.06.2017.txt",
+      "tables_json": "alerts\\3146_Medical_Devices_alert_02.06.2017.tables.json",
+      "extracted_at": "2026-09-12T13:34:13+00:00"
+    },
+    {
+      "pdf": "3147_Medical_Devices_alert_21.10.2016.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2811,
+      "tables": 0,
+      "txt": "alerts\\3147_Medical_Devices_alert_21.10.2016.txt",
+      "tables_json": "alerts\\3147_Medical_Devices_alert_21.10.2016.tables.json",
+      "extracted_at": "2026-09-12T13:34:13+00:00"
+    },
+    {
+      "pdf": "3246_Approved_for_Marketing_in_India.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 7347,
+      "tables": 4,
+      "txt": "alerts\\3246_Approved_for_Marketing_in_India.txt",
+      "tables_json": "alerts\\3246_Approved_for_Marketing_in_India.tables.json",
+      "extracted_at": "2026-09-12T13:34:14+00:00"
+    },
+    {
+      "pdf": "3251_System_of_preliminary_scrutiny_by_C.D.S.C.O_at_the_time_of_receipt_of_application_for_approval_of_Fixed_Dose_Combination.pdf",
+      "status": "ok",
+      "pages": 23,
+      "chars": 44847,
+      "tables": 17,
+      "txt": "alerts\\3251_System_of_preliminary_scrutiny_by_C.D.S.C.O_at_the_time_of_receipt_of_application_for_approval_of_Fixed_Dose_Combination.txt",
+      "tables_json": "alerts\\3251_System_of_preliminary_scrutiny_by_C.D.S.C.O_at_the_time_of_receipt_of_application_for_approval_of_Fixed_Dose_Combination.tables.json",
+      "extracted_at": "2026-09-12T13:34:21+00:00"
+    },
+    {
+      "pdf": "3253_Drugs_banned_in_the_Country.pdf",
+      "status": "ok",
+      "pages": 28,
+      "chars": 44252,
+      "tables": 27,
+      "txt": "alerts\\3253_Drugs_banned_in_the_Country.txt",
+      "tables_json": "alerts\\3253_Drugs_banned_in_the_Country.tables.json",
+      "extracted_at": "2026-09-12T13:34:35+00:00"
+    },
+    {
+      "pdf": "3256_Spurious_Drugs_--_Reward_Scheme_for_Whistle_Blowers.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 16399,
+      "tables": 4,
+      "txt": "alerts\\3256_Spurious_Drugs_--_Reward_Scheme_for_Whistle_Blowers.txt",
+      "tables_json": "alerts\\3256_Spurious_Drugs_--_Reward_Scheme_for_Whistle_Blowers.tables.json",
+      "extracted_at": "2026-09-12T13:34:36+00:00"
+    },
+    {
+      "pdf": "3262_MEDICAL_DEVICE_ALERT_FOR_Beacon_Tip_Torcon_NB_Advantage_Catheter.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2767,
+      "tables": 1,
+      "txt": "alerts\\3262_MEDICAL_DEVICE_ALERT_FOR_Beacon_Tip_Torcon_NB_Advantage_Catheter.txt",
+      "tables_json": "alerts\\3262_MEDICAL_DEVICE_ALERT_FOR_Beacon_Tip_Torcon_NB_Advantage_Catheter.tables.json",
+      "extracted_at": "2026-09-12T13:34:37+00:00"
+    },
+    {
+      "pdf": "3263_MEDICAL_DEVICE_ALERT_FOR_Absorb_Bioresorbale_Vascular_Scaffold_BVS_and_Absorb_GT1_Bioresorbale_Vascular_Scaffold_BVS.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3202,
+      "tables": 0,
+      "txt": "alerts\\3263_MEDICAL_DEVICE_ALERT_FOR_Absorb_Bioresorbale_Vascular_Scaffold_BVS_and_Absorb_GT1_Bioresorbale_Vascular_Scaffold_BVS.txt",
+      "tables_json": "alerts\\3263_MEDICAL_DEVICE_ALERT_FOR_Absorb_Bioresorbale_Vascular_Scaffold_BVS_and_Absorb_GT1_Bioresorbale_Vascular_Scaffold_BVS.tables.json",
+      "extracted_at": "2026-09-12T13:34:37+00:00"
+    },
+    {
+      "pdf": "3769_Drug_Alert_list_for_month_of_January_2019.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 12893,
+      "tables": 8,
+      "txt": "alerts\\3769_Drug_Alert_list_for_month_of_January_2019.txt",
+      "tables_json": "alerts\\3769_Drug_Alert_list_for_month_of_January_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:38+00:00"
+    },
+    {
+      "pdf": "4147_Drug_Alert_list_for_month_of_February_2019.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 10893,
+      "tables": 7,
+      "txt": "alerts\\4147_Drug_Alert_list_for_month_of_February_2019.txt",
+      "tables_json": "alerts\\4147_Drug_Alert_list_for_month_of_February_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:39+00:00"
+    },
+    {
+      "pdf": "4315_Drug_Alert_list_for_month_of_March_2019.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 14084,
+      "tables": 10,
+      "txt": "alerts\\4315_Drug_Alert_list_for_month_of_March_2019.txt",
+      "tables_json": "alerts\\4315_Drug_Alert_list_for_month_of_March_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:41+00:00"
+    },
+    {
+      "pdf": "4391_Drug_Alert_list_for_month_of_April_2019.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 9037,
+      "tables": 7,
+      "txt": "alerts\\4391_Drug_Alert_list_for_month_of_April_2019.txt",
+      "tables_json": "alerts\\4391_Drug_Alert_list_for_month_of_April_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:42+00:00"
+    },
+    {
+      "pdf": "4470_Medical_Device_Alert_Dated_20.05.2019.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 9717,
+      "tables": 0,
+      "txt": "alerts\\4470_Medical_Device_Alert_Dated_20.05.2019.txt",
+      "tables_json": "alerts\\4470_Medical_Device_Alert_Dated_20.05.2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:43+00:00"
+    },
+    {
+      "pdf": "4493_Drug_Alert_list_for_month_of_May_2019.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 9820,
+      "tables": 7,
+      "txt": "alerts\\4493_Drug_Alert_list_for_month_of_May_2019.txt",
+      "tables_json": "alerts\\4493_Drug_Alert_list_for_month_of_May_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:44+00:00"
+    },
+    {
+      "pdf": "4496_Drug_Alert_January_2019_Revised.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 1036,
+      "tables": 1,
+      "txt": "alerts\\4496_Drug_Alert_January_2019_Revised.txt",
+      "tables_json": "alerts\\4496_Drug_Alert_January_2019_Revised.tables.json",
+      "extracted_at": "2026-09-12T13:34:44+00:00"
+    },
+    {
+      "pdf": "4540_Medical_Devices_alert_july_2019.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 8965,
+      "tables": 2,
+      "txt": "alerts\\4540_Medical_Devices_alert_july_2019.txt",
+      "tables_json": "alerts\\4540_Medical_Devices_alert_july_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:45+00:00"
+    },
+    {
+      "pdf": "4584_Drug_Alert_list_for_month_of_June_2019.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 7304,
+      "tables": 5,
+      "txt": "alerts\\4584_Drug_Alert_list_for_month_of_June_2019.txt",
+      "tables_json": "alerts\\4584_Drug_Alert_list_for_month_of_June_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:46+00:00"
+    },
+    {
+      "pdf": "4800_Drug_Alert_list_for_month_of_July_2019.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 5386,
+      "tables": 5,
+      "txt": "alerts\\4800_Drug_Alert_list_for_month_of_July_2019.txt",
+      "tables_json": "alerts\\4800_Drug_Alert_list_for_month_of_July_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:47+00:00"
+    },
+    {
+      "pdf": "5189_Drug_Alert_list_for_month_of_August_2019.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 8147,
+      "tables": 6,
+      "txt": "alerts\\5189_Drug_Alert_list_for_month_of_August_2019.txt",
+      "tables_json": "alerts\\5189_Drug_Alert_list_for_month_of_August_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:48+00:00"
+    },
+    {
+      "pdf": "5190_Drug_Alert_list_for_month_of_September_2019.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 6319,
+      "tables": 5,
+      "txt": "alerts\\5190_Drug_Alert_list_for_month_of_September_2019.txt",
+      "tables_json": "alerts\\5190_Drug_Alert_list_for_month_of_September_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:49+00:00"
+    },
+    {
+      "pdf": "5224_Drug_Alert_list_for_month_of_October_2019.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 9926,
+      "tables": 7,
+      "txt": "alerts\\5224_Drug_Alert_list_for_month_of_October_2019.txt",
+      "tables_json": "alerts\\5224_Drug_Alert_list_for_month_of_October_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:50+00:00"
+    },
+    {
+      "pdf": "5349_Drug_Alert_list_for_month_of_November_2019.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 10073,
+      "tables": 9,
+      "txt": "alerts\\5349_Drug_Alert_list_for_month_of_November_2019.txt",
+      "tables_json": "alerts\\5349_Drug_Alert_list_for_month_of_November_2019.tables.json",
+      "extracted_at": "2026-09-12T13:34:52+00:00"
+    },
+    {
+      "pdf": "5547_Drug_Alert_list_for_month_of_January_2020.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 9621,
+      "tables": 8,
+      "txt": "alerts\\5547_Drug_Alert_list_for_month_of_January_2020.txt",
+      "tables_json": "alerts\\5547_Drug_Alert_list_for_month_of_January_2020.tables.json",
+      "extracted_at": "2026-09-12T13:34:53+00:00"
+    },
+    {
+      "pdf": "5590_Drug_Alert_list_for_month_of_October_2016.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 6058,
+      "tables": 4,
+      "txt": "alerts\\5590_Drug_Alert_list_for_month_of_October_2016.txt",
+      "tables_json": "alerts\\5590_Drug_Alert_list_for_month_of_October_2016.tables.json",
+      "extracted_at": "2026-09-12T13:34:54+00:00"
+    },
+    {
+      "pdf": "5713_Drug_Alert_list_for_month_of_Feb_2020.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 10890,
+      "tables": 8,
+      "txt": "alerts\\5713_Drug_Alert_list_for_month_of_Feb_2020.txt",
+      "tables_json": "alerts\\5713_Drug_Alert_list_for_month_of_Feb_2020.tables.json",
+      "extracted_at": "2026-09-12T13:34:55+00:00"
+    },
+    {
+      "pdf": "5872_Drug_Alert_list_for_month_of_March_2020.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 13569,
+      "tables": 9,
+      "txt": "alerts\\5872_Drug_Alert_list_for_month_of_March_2020.txt",
+      "tables_json": "alerts\\5872_Drug_Alert_list_for_month_of_March_2020.tables.json",
+      "extracted_at": "2026-09-12T13:34:57+00:00"
+    },
+    {
+      "pdf": "5923_Drug_Alert_list_for_month_of_April_2020.pdf",
+      "status": "ok",
+      "pages": 12,
+      "chars": 18319,
+      "tables": 13,
+      "txt": "alerts\\5923_Drug_Alert_list_for_month_of_April_2020.txt",
+      "tables_json": "alerts\\5923_Drug_Alert_list_for_month_of_April_2020.tables.json",
+      "extracted_at": "2026-09-12T13:34:59+00:00"
+    },
+    {
+      "pdf": "5986_Drug_Alert_list_for_month_of_May_2020.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 7654,
+      "tables": 5,
+      "txt": "alerts\\5986_Drug_Alert_list_for_month_of_May_2020.txt",
+      "tables_json": "alerts\\5986_Drug_Alert_list_for_month_of_May_2020.tables.json",
+      "extracted_at": "2026-09-12T13:35:00+00:00"
+    },
+    {
+      "pdf": "6091_Drug_Alert_list_for_month_of_June_2020.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 6210,
+      "tables": 5,
+      "txt": "alerts\\6091_Drug_Alert_list_for_month_of_June_2020.txt",
+      "tables_json": "alerts\\6091_Drug_Alert_list_for_month_of_June_2020.tables.json",
+      "extracted_at": "2026-09-12T13:35:01+00:00"
+    },
+    {
+      "pdf": "6390_Drug_Alert_list_for_month_of_July_2020.pdf",
+      "status": "ok",
+      "pages": 7,
+      "chars": 10735,
+      "tables": 8,
+      "txt": "alerts\\6390_Drug_Alert_list_for_month_of_July_2020.txt",
+      "tables_json": "alerts\\6390_Drug_Alert_list_for_month_of_July_2020.tables.json",
+      "extracted_at": "2026-09-12T13:35:02+00:00"
+    },
+    {
+      "pdf": "6469_Drug_Alert_list_for_month_of_August_2020.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 6843,
+      "tables": 5,
+      "txt": "alerts\\6469_Drug_Alert_list_for_month_of_August_2020.txt",
+      "tables_json": "alerts\\6469_Drug_Alert_list_for_month_of_August_2020.tables.json",
+      "extracted_at": "2026-09-12T13:35:03+00:00"
+    },
+    {
+      "pdf": "6487_Drug_Alert_list_for_month_of_December_2018.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 8377,
+      "tables": 5,
+      "txt": "alerts\\6487_Drug_Alert_list_for_month_of_December_2018.txt",
+      "tables_json": "alerts\\6487_Drug_Alert_list_for_month_of_December_2018.tables.json",
+      "extracted_at": "2026-09-12T13:35:04+00:00"
+    },
+    {
+      "pdf": "6554_Drug_Alert_list_for_month_of_September_2020.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 3463,
+      "tables": 3,
+      "txt": "alerts\\6554_Drug_Alert_list_for_month_of_September_2020.txt",
+      "tables_json": "alerts\\6554_Drug_Alert_list_for_month_of_September_2020.tables.json",
+      "extracted_at": "2026-09-12T13:35:05+00:00"
+    },
+    {
+      "pdf": "6628_Drug_Alert_list_for_month_of_October_2020.pdf",
+      "status": "ok",
+      "pages": 2,
+      "chars": 2729,
+      "tables": 3,
+      "txt": "alerts\\6628_Drug_Alert_list_for_month_of_October_2020.txt",
+      "tables_json": "alerts\\6628_Drug_Alert_list_for_month_of_October_2020.tables.json",
+      "extracted_at": "2026-09-12T13:35:05+00:00"
+    },
+    {
+      "pdf": "6765_Drug_Alert_list_for_month_of_November_2020.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4648,
+      "tables": 4,
+      "txt": "alerts\\6765_Drug_Alert_list_for_month_of_November_2020.txt",
+      "tables_json": "alerts\\6765_Drug_Alert_list_for_month_of_November_2020.tables.json",
+      "extracted_at": "2026-09-12T13:35:06+00:00"
+    },
+    {
+      "pdf": "6840_Drug_Alert_list_for_month_of_December_2019.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 13643,
+      "tables": 10,
+      "txt": "alerts\\6840_Drug_Alert_list_for_month_of_December_2019.txt",
+      "tables_json": "alerts\\6840_Drug_Alert_list_for_month_of_December_2019.tables.json",
+      "extracted_at": "2026-09-12T13:35:08+00:00"
+    },
+    {
+      "pdf": "6851_Drug_Alert_list_for_month_of_December_2020.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4574,
+      "tables": 4,
+      "txt": "alerts\\6851_Drug_Alert_list_for_month_of_December_2020.txt",
+      "tables_json": "alerts\\6851_Drug_Alert_list_for_month_of_December_2020.tables.json",
+      "extracted_at": "2026-09-12T13:35:09+00:00"
+    },
+    {
+      "pdf": "6973_Drug_Alert_list_for_month_of_January_2021.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 5271,
+      "tables": 5,
+      "txt": "alerts\\6973_Drug_Alert_list_for_month_of_January_2021.txt",
+      "tables_json": "alerts\\6973_Drug_Alert_list_for_month_of_January_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:09+00:00"
+    },
+    {
+      "pdf": "7005_Drug_Alert_list_for_month_of_Feb_2021.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 404,
+      "tables": 1,
+      "txt": "alerts\\7005_Drug_Alert_list_for_month_of_Feb_2021.txt",
+      "tables_json": "alerts\\7005_Drug_Alert_list_for_month_of_Feb_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:09+00:00"
+    },
+    {
+      "pdf": "7032_Drug_Alert_list_for_month_of_February_2021.pdf",
+      "status": "ok",
+      "pages": 3,
+      "chars": 4519,
+      "tables": 4,
+      "txt": "alerts\\7032_Drug_Alert_list_for_month_of_February_2021.txt",
+      "tables_json": "alerts\\7032_Drug_Alert_list_for_month_of_February_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:10+00:00"
+    },
+    {
+      "pdf": "7149_Drug_Alert_list_for_month_of_March_2021.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 5477,
+      "tables": 5,
+      "txt": "alerts\\7149_Drug_Alert_list_for_month_of_March_2021.txt",
+      "tables_json": "alerts\\7149_Drug_Alert_list_for_month_of_March_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:11+00:00"
+    },
+    {
+      "pdf": "7271_Drug_Alert_list_for_month_of_April_2021.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 6739,
+      "tables": 6,
+      "txt": "alerts\\7271_Drug_Alert_list_for_month_of_April_2021.txt",
+      "tables_json": "alerts\\7271_Drug_Alert_list_for_month_of_April_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:12+00:00"
+    },
+    {
+      "pdf": "7357_Drug_Alert_list_for_month_of_May_2021.pdf",
+      "status": "ok",
+      "pages": 4,
+      "chars": 5719,
+      "tables": 5,
+      "txt": "alerts\\7357_Drug_Alert_list_for_month_of_May_2021.txt",
+      "tables_json": "alerts\\7357_Drug_Alert_list_for_month_of_May_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:12+00:00"
+    },
+    {
+      "pdf": "7576_Drug_Alert_list_for_month_of_July_2021.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 13398,
+      "tables": 10,
+      "txt": "alerts\\7576_Drug_Alert_list_for_month_of_July_2021.txt",
+      "tables_json": "alerts\\7576_Drug_Alert_list_for_month_of_July_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:14+00:00"
+    },
+    {
+      "pdf": "7656_Drug_Alert_list_for_month_of_August_2021.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 10240,
+      "tables": 9,
+      "txt": "alerts\\7656_Drug_Alert_list_for_month_of_August_2021.txt",
+      "tables_json": "alerts\\7656_Drug_Alert_list_for_month_of_August_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:15+00:00"
+    },
+    {
+      "pdf": "7684_Alert_FSN-Medtronic_Heartware_HVAD.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 13373,
+      "tables": 2,
+      "txt": "alerts\\7684_Alert_FSN-Medtronic_Heartware_HVAD.txt",
+      "tables_json": "alerts\\7684_Alert_FSN-Medtronic_Heartware_HVAD.tables.json",
+      "extracted_at": "2026-09-12T13:35:17+00:00"
+    },
+    {
+      "pdf": "7819_Drug_Alert_list_for_month_of_September_2021.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 12378,
+      "tables": 10,
+      "txt": "alerts\\7819_Drug_Alert_list_for_month_of_September_2021.txt",
+      "tables_json": "alerts\\7819_Drug_Alert_list_for_month_of_September_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:18+00:00"
+    },
+    {
+      "pdf": "7841_Drug_Alert_list_for_month_of_May_2021_Revised.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 608,
+      "tables": 1,
+      "txt": "alerts\\7841_Drug_Alert_list_for_month_of_May_2021_Revised.txt",
+      "tables_json": "alerts\\7841_Drug_Alert_list_for_month_of_May_2021_Revised.tables.json",
+      "extracted_at": "2026-09-12T13:35:18+00:00"
+    },
+    {
+      "pdf": "7888_Drug_Alert_list_for_month_of_October_2021.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 11015,
+      "tables": 9,
+      "txt": "alerts\\7888_Drug_Alert_list_for_month_of_October_2021.txt",
+      "tables_json": "alerts\\7888_Drug_Alert_list_for_month_of_October_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:20+00:00"
+    },
+    {
+      "pdf": "7999_Drug_Alert_list_for_month_of_November_2021.pdf",
+      "status": "ok",
+      "pages": 5,
+      "chars": 6690,
+      "tables": 6,
+      "txt": "alerts\\7999_Drug_Alert_list_for_month_of_November_2021.txt",
+      "tables_json": "alerts\\7999_Drug_Alert_list_for_month_of_November_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:21+00:00"
+    },
+    {
+      "pdf": "8086_Drug_Alert_list_for_month_of_December_2021.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 11217,
+      "tables": 9,
+      "txt": "alerts\\8086_Drug_Alert_list_for_month_of_December_2021.txt",
+      "tables_json": "alerts\\8086_Drug_Alert_list_for_month_of_December_2021.tables.json",
+      "extracted_at": "2026-09-12T13:35:22+00:00"
+    },
+    {
+      "pdf": "8123_Drug_Alert_list_for_month_of_January_2022.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 8052,
+      "tables": 7,
+      "txt": "alerts\\8123_Drug_Alert_list_for_month_of_January_2022.txt",
+      "tables_json": "alerts\\8123_Drug_Alert_list_for_month_of_January_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:23+00:00"
+    },
+    {
+      "pdf": "8277_Drug_Alert_list_for_month_of_February_2022.pdf",
+      "status": "ok",
+      "pages": 9,
+      "chars": 11824,
+      "tables": 10,
+      "txt": "alerts\\8277_Drug_Alert_list_for_month_of_February_2022.txt",
+      "tables_json": "alerts\\8277_Drug_Alert_list_for_month_of_February_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:25+00:00"
+    },
+    {
+      "pdf": "8326_Drug_Alert_list_for_month_of_March_2022.pdf",
+      "status": "ok",
+      "pages": 10,
+      "chars": 13568,
+      "tables": 11,
+      "txt": "alerts\\8326_Drug_Alert_list_for_month_of_March_2022.txt",
+      "tables_json": "alerts\\8326_Drug_Alert_list_for_month_of_March_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:26+00:00"
+    },
+    {
+      "pdf": "8573_Drug_Alert_list_for_month_of_May_2022.pdf",
+      "status": "ok",
+      "pages": 10,
+      "chars": 13854,
+      "tables": 11,
+      "txt": "alerts\\8573_Drug_Alert_list_for_month_of_May_2022.txt",
+      "tables_json": "alerts\\8573_Drug_Alert_list_for_month_of_May_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:28+00:00"
+    },
+    {
+      "pdf": "8616_Medical_Device_Alert_date_14_June_2022.pdf",
+      "status": "ok",
+      "pages": 8,
+      "chars": 9875,
+      "tables": 6,
+      "txt": "alerts\\8616_Medical_Device_Alert_date_14_June_2022.txt",
+      "tables_json": "alerts\\8616_Medical_Device_Alert_date_14_June_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:29+00:00"
+    },
+    {
+      "pdf": "8618_Drug_Alert_list_for_month_of_April_2022.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 7900,
+      "tables": 7,
+      "txt": "alerts\\8618_Drug_Alert_list_for_month_of_April_2022.txt",
+      "tables_json": "alerts\\8618_Drug_Alert_list_for_month_of_April_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:30+00:00"
+    },
+    {
+      "pdf": "8665_Drug_Alert_list_for_month_of_April_2022_Revised.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 837,
+      "tables": 1,
+      "txt": "alerts\\8665_Drug_Alert_list_for_month_of_April_2022_Revised.txt",
+      "tables_json": "alerts\\8665_Drug_Alert_list_for_month_of_April_2022_Revised.tables.json",
+      "extracted_at": "2026-09-12T13:35:31+00:00"
+    },
+    {
+      "pdf": "8771_Drug_Alert_list_for_month_of_June_2022.pdf",
+      "status": "ok",
+      "pages": 6,
+      "chars": 8532,
+      "tables": 7,
+      "txt": "alerts\\8771_Drug_Alert_list_for_month_of_June_2022.txt",
+      "tables_json": "alerts\\8771_Drug_Alert_list_for_month_of_June_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:32+00:00"
+    },
+    {
+      "pdf": "8878_Drug_Alert_list_for_month_of_July_2022.pdf",
+      "status": "ok",
+      "pages": 11,
+      "chars": 17738,
+      "tables": 12,
+      "txt": "alerts\\8878_Drug_Alert_list_for_month_of_July_2022.txt",
+      "tables_json": "alerts\\8878_Drug_Alert_list_for_month_of_July_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:34+00:00"
+    },
+    {
+      "pdf": "8983_Drug_Alert_list_for_month_of_May_2022_Revised.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 944,
+      "tables": 1,
+      "txt": "alerts\\8983_Drug_Alert_list_for_month_of_May_2022_Revised.txt",
+      "tables_json": "alerts\\8983_Drug_Alert_list_for_month_of_May_2022_Revised.tables.json",
+      "extracted_at": "2026-09-12T13:35:34+00:00"
+    },
+    {
+      "pdf": "9010_Drug_Alert_list_for_month_of_August_2022.pdf",
+      "status": "ok",
+      "pages": 10,
+      "chars": 14938,
+      "tables": 11,
+      "txt": "alerts\\9010_Drug_Alert_list_for_month_of_August_2022.txt",
+      "tables_json": "alerts\\9010_Drug_Alert_list_for_month_of_August_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:36+00:00"
+    },
+    {
+      "pdf": "9122_Drug_Alert_list_for_month_of_September_2022.pdf",
+      "status": "ok",
+      "pages": 13,
+      "chars": 19838,
+      "tables": 14,
+      "txt": "alerts\\9122_Drug_Alert_list_for_month_of_September_2022.txt",
+      "tables_json": "alerts\\9122_Drug_Alert_list_for_month_of_September_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:38+00:00"
+    },
+    {
+      "pdf": "9187_Drug_Alert_list_for_month_of_October_2022.pdf",
+      "status": "ok",
+      "pages": 11,
+      "chars": 17557,
+      "tables": 12,
+      "txt": "alerts\\9187_Drug_Alert_list_for_month_of_October_2022.txt",
+      "tables_json": "alerts\\9187_Drug_Alert_list_for_month_of_October_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:40+00:00"
+    },
+    {
+      "pdf": "9286_Drug_Alert_list_for_month_of_October_2022_Revised.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 890,
+      "tables": 1,
+      "txt": "alerts\\9286_Drug_Alert_list_for_month_of_October_2022_Revised.txt",
+      "tables_json": "alerts\\9286_Drug_Alert_list_for_month_of_October_2022_Revised.tables.json",
+      "extracted_at": "2026-09-12T13:35:40+00:00"
+    },
+    {
+      "pdf": "9609_Drug_Alert_list_for_month_of_November_2022.pdf",
+      "status": "ok",
+      "pages": 19,
+      "chars": 27572,
+      "tables": 20,
+      "txt": "alerts\\9609_Drug_Alert_list_for_month_of_November_2022.txt",
+      "tables_json": "alerts\\9609_Drug_Alert_list_for_month_of_November_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:43+00:00"
+    },
+    {
+      "pdf": "9675_Drug_Alert_list_for_month_of_Feb_2022_Revised.pdf",
+      "status": "ok",
+      "pages": 1,
+      "chars": 735,
+      "tables": 1,
+      "txt": "alerts\\9675_Drug_Alert_list_for_month_of_Feb_2022_Revised.txt",
+      "tables_json": "alerts\\9675_Drug_Alert_list_for_month_of_Feb_2022_Revised.tables.json",
+      "extracted_at": "2026-09-12T13:35:44+00:00"
+    },
+    {
+      "pdf": "9811_Drug_Alert_list_for_month_of_December_2022.pdf",
+      "status": "ok",
+      "pages": 15,
+      "chars": 24682,
+      "tables": 16,
+      "txt": "alerts\\9811_Drug_Alert_list_for_month_of_December_2022.txt",
+      "tables_json": "alerts\\9811_Drug_Alert_list_for_month_of_December_2022.tables.json",
+      "extracted_at": "2026-09-12T13:35:47+00:00"
+    },
+    {
+      "pdf": "9889_Drug_Alert_list_for_month_of_January_2023.pdf",
+      "status": "ok",
+      "pages": 15,
+      "chars": 23207,
+      "tables": 16,
+      "txt": "alerts\\9889_Drug_Alert_list_for_month_of_January_2023.txt",
+      "tables_json": "alerts\\9889_Drug_Alert_list_for_month_of_January_2023.tables.json",
+      "extracted_at": "2026-09-12T13:35:50+00:00"
+    },
+    {
+      "pdf": "9985_Drug_Alert_list_for_month_of_February_2023.pdf",
+      "status": "ok",
+      "pages": 12,
+      "chars": 19918,
+      "tables": 13,
+      "txt": "alerts\\9985_Drug_Alert_list_for_month_of_February_2023.txt",
+      "tables_json": "alerts\\9985_Drug_Alert_list_for_month_of_February_2023.tables.json",
+      "extracted_at": "2026-09-12T13:35:53+00:00"
+    }
+  ]
+}

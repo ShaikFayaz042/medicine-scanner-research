@@ -1,0 +1,286 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      29.37,
+      83.75,
+      575.43,
+      777.87
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Ofloxacin &\nOrnidazole Tablets",
+        "B. No.: C3005\nMfg dt: 08/2013\nExp dt: 07/2015\nMfd by: M/s. Concept\nPharmaceuticals Ltd., A-28/3,\nMIDC,Chikalthana, Aurgabad-\n431006",
+        "Disintegration",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2.",
+        "Absorbent Cotton\nwool (Non Sterile)",
+        "B. No.: 231\nMfg dt: 07/2013\nExp dt: 06/2018\nMfd by: M/s. Lakshmi\nHealthcare Products (P) Ltd.,\n40 F, M.I.E., Bhubaneshwar,\nOrissa",
+        "Fluorescence\nTest",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3.",
+        "Absorbent Cotton\nwool (Non Sterile)",
+        "B. No.: 232\nMfg dt: 07/2013\nExp dt: 06/2018\nMfd by: M/s. Lakshmi\nHealthcare Products (P) Ltd.,\n40 F, M.I.E., Bhubaneshwar,\nOrissa",
+        "Fluorescence\nTest",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4.",
+        "R-Zole 20 Tablets",
+        "B. No.: RAB-045\nMfg dt: 06/2013\nExp dt: 05/2015\nMfd by: M/s. Regent Ajanta\nBiotech 86-87, Vill: Makhiyali\nDundi, Peerpura Road,\nRoorkee, Uttarakhand-247667",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5.",
+        "Ibugesic-400 Tablets",
+        "B. No.: DG2172\nMfg dt: 04/2012\nExp dt: 03/2015\nMfd by: M/s. Cipla Ltd., Plot\nNo. 17 &18 Golden Industrial\nEstate, Dabhel, Daman-396210",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "6.",
+        "V Mox-125 Tablets",
+        "B. No.: VM-2012\nMfg dt: 10/2012\nExp dt: 09/2014\nMfd by: M/s. Vardhaman\nPharma,32 Industrial Road,\nKala-Amb, Sirmour, Haryana",
+        "Uniformity of\nWeight, Assay",
+        "Drugs Control\nDepartment,\nTripura",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "7.",
+        "Ofloxacin &\nOrnidazole Tablets",
+        "B. No.: C2004\nMfg dt: 08/2012\nExp dt: 07/2014\nMfd by: M/s. Concept\nPharmaceuticals Ltd., A-28/3,\nM.I.D.C., Chikalthana,\nAurangabad-431006",
+        "Disintegration",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      29.38,
+      28.53,
+      575.42,
+      805.95
+    ],
+    "n_rows": 9,
+    "n_cols": 6,
+    "rows": [
+      [
+        "8.",
+        "QXL-OZ Tablet",
+        "B. No.: 1203\nMfg dt: 07/2012\nExp dt: 06/2014\nMfd by: M/s. Kamron\nLaboratories Ltd.,\nGandhinagar, Gujarat",
+        "Dissolution,\nAssay",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "9.",
+        "Megarab-20 Tablets",
+        "B. No.: S753776\nMfg dt: 06/2013\nExp dt: 05/2015\nMfd by: M/s. Scott-Edil\nPharmacia Ltd., 56, EPIP,\nPhase-I, jahrmajri-173205",
+        "Dissolution,\nAssay",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "10.",
+        "Megarab-20 Tablets",
+        "B. No.: S752888\nMfg dt: 07/2012\nExp dt: 06/2014\nMfd by: M/s. Scott-Edil\nPharmacia Ltd., 56, EPIP,\nPhase-I, jahrmajri-173205",
+        "Dissolution,\nAssay",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "11.",
+        "Lycopene with\nMultivitamin &\nMultimineral Soft\nGelatin Capsules",
+        "B. No.: PSGF-2029\nMfg dt: 01/2013\nExp dt: 06/2014\nMfd by: M/s. Affy Parenterals\nVill. Gullerwala, Baddi, Solan\n(HP)",
+        "Disintegration",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "12.",
+        "Atropine Sulphate\nInjection IP 1ml",
+        "B. No.: AE 1205\nMfg dt: 08/2012\nExp dt: 07/2014\nMfd by: M/s. Modern\nLaboratories, 45, Sector-D-2,\nSanwer Road, Indore, MP",
+        "Description &\nParticulate\nMatter",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "13.",
+        "Ketzy Eye Drops-\n5ml (Ketorolac\nTromethamine\nOpthalmic Solution)",
+        "B. No.: EEZ651\nMfg dt: 03/2012\nExp dt: 02/2014\nMfd by: M/s. Zee Laboratories\n47, Industrial Area, Paonta\nSahib-173025",
+        "Sterility Test",
+        "CDSCO (HQ),\nNew Delhi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "14.",
+        "Ketzy Eye Drops-\n5ml (Ketorolac\nTromethamine\nOpthalmic Solution)",
+        "B. No.: EEZ653\nMfg dt: 07/2012\nExp dt: 06/2014\nMfd by: M/s. Zee Laboratories\n47, Industrial Area, Paonta\nSahib-173025",
+        "Sterility Test",
+        "CDSCO (HQ),\nNew Delhi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "15.",
+        "Stalip-10\n(Atorvastatin Tablets\nIP)",
+        "B. No.: T603\nMfg dt: 08/2012\nExp dt: 07/2015\nMfd by: M/s. Stallion\nLaboratories Pvt. Ltd., C-1B,\n305/2 & 3, GIDC, Kerala Nr.\nBavla, Distt. Ahmedabad-\n382220",
+        "Dissolution",
+        "CDSCO Sub-\nZone,\nAhmedabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "16.",
+        "Nirixone-S\n(Ceftriaxone &\nSulbactum for\ninjection)",
+        "B. No.: 6C30037\nMfg dt: 03/2013\nExp dt: 02/2015\nMfd by: M/s. Nirma Limited\n(Healthcare Division),\nSachana, Gujarat",
+        "Particulate\nMatter &\nClarity of\nSolution",
+        "CDSCO Sub-\nZone,\nAhmedabad",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      29.38,
+      28.53,
+      575.42,
+      805.95
+    ],
+    "n_rows": 9,
+    "n_cols": 6,
+    "rows": [
+      [
+        "17.",
+        "Atropine Sulphate\nInjection IP 1ml\n(0.6mg/ml)",
+        "B. No.: 0237F1301\nMfg dt: 06/2013\nExp dt: 01/2015\nMfd by: M/s. Unijules\nLifesciences Ltd., D-82, MIDC\nArea, Hingana, Nagpur-\n440028.",
+        "Description &\nParticulate\nMatter",
+        "CDSCO, West\nZone, Mumbai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "18.",
+        "Pantoprazole Tablets\nIP (Litma-40)",
+        "B. No.: SPG/2505\nMfg dt: 11/2012\nExp dt: 10/2014\nMfd by: M/s. Solitarie\nPharmacia Pvt. Ltd., Plot No.\n25, HPSIDC Industrial Area,\nExtn-1, Baddi-173205, HP",
+        "Dissolution",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "19.",
+        "Ibuprofen Tablets IP\n(Balfen)",
+        "B. No.: BFN14\nMfg dt: 08/2013\nExp dt: 07/2016\nMfd by: M/s. Bal Pharma Ltd.,\n21 & 22, Bommasandra\nIndustrial Area, Bangalore-\n560099",
+        "Dissolution",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "20.",
+        "Actibilc Tablets\n(Urosodiol 150mg\nTablets USP)",
+        "B. No.: 2T30006\nMfg dt: 11/2012\nExp dt: 10/2015\nMfd by: M/s. Albert David\nLimited, 5/11 D Gupta Lane,\nKolkata-700050",
+        "Dissolution &\nAssay",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "21.",
+        "Absorbent Cotton\nWool IP",
+        "B. No.: 51\nMfg dt: 07/2013\nExp dt: 06/2016\nMfd by: M/s. Jayer &\nCompany, Ghoshpara Road,\nBarrackpore, 24 Pgs (N), WB.",
+        "Acidity &\nAlkalinity,\nSurface Active\nSubstances,\nSulphated Ash",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "22.",
+        "Absorbent Cotton\nWool IP",
+        "B. No.: 046\nMfg dt: 07/2013\nExp dt: 06/2016\nMfd by: M/s. Jayer &\nCompany, Ghoshpara Road,\nBarrackpore, 24 Pgs (N), WB.",
+        "Surface Active\nSubstances,\nWater Soluble\nSubstances,\nSulphated Ash",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "23.",
+        "Repadone Plus\n(Risperidone &\nTrihexyphenidyl\nHydrochloride\nTablets)",
+        "B. No.: 11R13T01\nMfg dt: 02/2013\nExp dt: 01/2015\nMfd by: M/s. Shine\nPharmaceuticals Ltd., P. No.\n132, Karjan-Vemardi Road,\nJuni Jitherdi Tah-Karjan-\n391240, Vadodara, Gujarat",
+        "Uniformity of\nContent, Assay",
+        "CDSCO, Sub\nZone,\nAhmedabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "24.",
+        "Sterodin Injection",
+        "B. No.: 133/12\nMfg dt: 03/2012\nExp dt: 02/2014\nMfd by: M/s. Union Drug\nCompany Road, Kolkata-\n700034",
+        "Description &\nParticulate\nmatter",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "25.",
+        "Aceclofenac\nSustained Release\nTablets",
+        "B. No.: ALEE-01\nMfg dt: 07/2012\nExp dt: 06/2014",
+        "Description &\nParticulate\nMatter",
+        "CDSCO, Sub-\nZone,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      29.4,
+      28.56,
+      575.4,
+      237.14
+    ],
+    "n_rows": 3,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Mfd by: M/s. Union Drug\nCompany Ltd., 182, Rai\nBahadur Road, Kolkata-\n700034",
+        "",
+        "",
+        ""
+      ],
+      [
+        "26.",
+        "Amoxycillin\nDispersible Tablets\nIP 250mg (Omoxy\nPlus Dispersible\nTablets)",
+        "B. No.: FT 2431\nMfg dt: 09/2012\nExp dt: 08/2014\nMfd by: M/s. Omega Biotech\nLtd., 7th Mile Stone, Dehradun\nRoad, Roorkee-247667\n(Uttarakhand)",
+        "Uniformity of\nDispersion",
+        "CDSCO, Sub-\nZone,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "27.",
+        "Ibuprofen Tablets IP\n(IBUPROFEN 400)",
+        "B. No.: T-2705\nMfg dt: 12/2012\nExp dt: 11/2014\nMfd by: M/s.",
+        "Assay",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

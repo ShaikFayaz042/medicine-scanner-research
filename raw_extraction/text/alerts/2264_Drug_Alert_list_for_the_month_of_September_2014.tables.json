@@ -1,0 +1,477 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      44.97,
+      108.47,
+      544.69,
+      795.75
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medica\nl\ndevice/cosmet\nics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure with\nReport No.\n(in Form-13)&\nDate",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1",
+        "Paracetamol\nSyrups",
+        "B. No. 448,\nD/Mfg. Apr, 2014 ,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09616/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2",
+        "Paracetamol\nSyrups",
+        "B. No. 454,\nD/Mfg. May, 2014 ,\nD/Exp. May, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09614/2014-15\nDated\n03-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3",
+        "Paracetamol\nSyrups",
+        "B. No. 446,\nD/Mfg. Apr, 2014 ,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09615/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4",
+        "Paracetamol\nSyrups",
+        "B. No. 444,\nD/Mfg. Apr, 2014 ,\nD/Exp. Apr, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09613/2014-15\nDated\n03-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5",
+        "Paracetamol\nSyrups",
+        "B. No. 455,\nD/Mfg. May, 2014 ,\nD/Exp. Apr, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09617/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "6",
+        "Paracetamol\nSyrups",
+        "B. No. 461,\nD/Mfg. May, 2014 ,\nD/Exp. Apr, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09618/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "7",
+        "Paracetamol\nSyrups",
+        "B. No. 442,\nD/Mfg. Apr, 2014 ,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09626/2014-15\nDated\n05-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      44.97,
+      45.21,
+      544.69,
+      770.43
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "8",
+        "Paracetamol\nSyrups",
+        "B. No. 445,\nD/Mfg. Apr, 2014 ,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09624/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "9",
+        "Paracetamol\nSyrups",
+        "B. No. 449,\nD/Mfg. May, 2014 ,\nD/Exp. Apr, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09623/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "10",
+        "Paracetamol\nSyrups",
+        "B. No. 456,\nD/Mfg. May, 2014 ,\nD/Exp. May, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09625/2014-15\nDated\n05-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "11",
+        "Paracetamol\nSyrups",
+        "B. No. 447,\nD/Mfg. Apr, 2014 ,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09627/2014-15\nDated\n05-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "12",
+        "Paracetamol\nSyrups",
+        "B. No. 450,\nD/Mfg. May, 2014,\nD/Exp. Apr, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09622/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "13",
+        "Rabcam-20\nTablets",
+        "B. No. RAB-078,\nD/Mfg. Nov, 2013 ,\nD/Exp. Oct, 2015,\nMfg. By.\nM/s Regent Ajanta Biotech,\n86-87, Vill. MakhiyaliDundi,\nPeerpura Road, Roorkee,\nUttarakhand.",
+        "Misbranded\nReport No.\n09628/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "14",
+        "Paracetamol\nSyrups",
+        "B. No. 458,\nD/Mfg. May, 2014 ,\nD/Exp. Apr, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09621/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "15",
+        "Paracetamol\nSyrups",
+        "B. No. 453,\nD/Mfg. May, 2014 ,\nD/Exp. May, 2016,\nMfg. By.\nM/s Brahma Pharmaceuticals,\nDist. Kokrajhar, Pin. 783370\nAssam.",
+        "Misbranded\nReport No.\n09630/2014-15\nDated\n05-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      44.97,
+      45.21,
+      544.69,
+      820.95
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "16",
+        "PD-MET-F\nSuspension",
+        "B. No. PMF-09,\nD/Mfg. May, 2014,\nD/Exp. Apr, 2016,\nMfg. By.\nM/s Pharm Asia Drugs,\n20-21 Panchal Compound,\nSurvey No. 78/1,\nPatwariHalke No. 17, New\n45, Indore.",
+        "Misbranded\nReport No.\n09643/2014-15\nDated\n09-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "17",
+        "RAYZOLE\nTABLETS",
+        "B. No. BNT-13033\nD/Mfg. Mar, 2014,\nD/Exp. Aug, 2015,\nMfg. By.\nM/s BROSE ENTERPRISE,\n160, Nalhera, Anantpur,\nIqbalpur Road, Roorkee,\nUttarakhand-247668.",
+        "Misbranded\nReport No.\n09711/2014-15\nDated\n25-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "18",
+        "NET-N-Clean\nBleaching\nPowder",
+        "B. No. (K) 383,\nD/Mfg. May, 2014,\nD/Exp. Oct, 2016,\nMfg. By.\nM/s Repacked By-Bajrang\nChemicals,\nBarasat, Kolkata, West\nBengal.",
+        "Misbranded\nReport No.\n09698/2014-15\nDated\n25-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "19",
+        "Handloom\nCotton Rolled\nBandage\n(Non-Sterile)",
+        "B. No. 033,\nD/Mfg. Dec, 2013,\nD/Exp. NIL,\nMfg. By.\nNIL.",
+        "Misbranded\nReport No.\nRDTL/09/\n2014-15\nDated\n25-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "20",
+        "Bleaching\nPowder",
+        "B. No. 593,\nD/Mfg. Apr, 2014,\nD/Exp. NIL,\nMfg. By.\nM/s National Chemical &\nPerfumery Works,\nFatasil, Guwahati-781009.",
+        "Misbranded\nReport No.\nRDTL/08/\n2014-15\nDated\n25-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "21",
+        "ROXYRAB\nSUSPENSIO\nN",
+        "B. No. RAB-132\nD/Mfg. Apr, 2014,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Regent Ajanta Biotech,\n86-87, Vill. MakhiyaliDundi,\nPeer Pura Road, Roorkee,\nUttarakhand-247807.",
+        "Misbranded\nReport No.\n09718/2014-15\nDated\n29-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "22",
+        "Calcijoint\nTablets",
+        "B. No. 13A-049,\nD/Mfg. Jan, 2013,\nD/Exp. Dec, 2014,\nMfg. By.\nM/s Unix Biotech,\nJharmajri, Baddi, Dist. Solan-\n173205, Himachal Pradesh.",
+        "Disintegration\nReport No.\n09606/2014-15\nDated\n02-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "23",
+        "Rey Flam\nTablets",
+        "B. No. RAB-105,\nD/Mfg. Apr, 2014,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Regent Ajanta Biotech,\n86-87, Vill. MAkhiyaliDundi,\nPeerpura Road, Roorkee,",
+        "Disintegration,\nAssay\nReport No.\n09607/2014-15\nDated\n02-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      44.97,
+      45.21,
+      544.69,
+      817.95
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Uttarakhand, 247667.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "24",
+        "Oflowin-OZ\nTablets",
+        "B. No. ABG4003BT,\nD/Mfg. Feb, 2014,\nD/Exp. Jan, 2016,\nMfg. By.\nM/s BHC Lab (P) Ltd.,\n91/2, DIC Baddi, Dist. Solan,\n173205, Himachal Pradesh.",
+        "Disintegration\nReport No.\n09642/2014-15\nDated\n09-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "25",
+        "Norfloxacin\nTablets",
+        "B. No. 210414,\nD/Mfg. Apr, 2014,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Veejay Laboratories,\nEPIP Zone, Amingaon,\nGuwahati-781031, Assam.",
+        "Dissolution\nReport No.\n09639/2014-15\nDated\n09-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "26",
+        "Metronidazole\nBenzoate Oral\nSuspensions",
+        "B. No. MS/1405,\nD/Mfg. Jun, 2014,\nD/Exp. May, 2016,\nMfg. By.\nM/s Viva Pharma Pvt. Ltd.,\nJorhat, Assam.",
+        "Assay\nReport No.\n09620/2014-15\nDated\n04-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "27",
+        "Paracetamol\nTablets",
+        "B. No. PKT-3027SB,\nD/Mfg. Sep, 2013,\nD/Exp. Aug, 2016,\nMfg. By.\nM/s Shiva Biogenetic\nPharmaceuticals Pvt. Ltd.,\nVill. Manpura, Baddi, Dist.\nSolan, 174101, Himachal\nPradesh.",
+        "Dissolution, Assay\nReport No.\n09666/2014-15\nDated\n15-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "28",
+        "Ofloxacin&Or\nnidazole\nSuspensions",
+        "B. No. DOSL-006,\nD/Mfg. Aug, 2013,\nD/Exp. Jul, 2015,\nMfg. By.\nM/s Laborate\nPharmaceuticals India Ltd.,\nRajban Road, Nariwala,\nPaonta Sahib, Himachal\nPradesh.",
+        "Assay\nReport No.\n09683/2014-15\nDated\n22-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "29",
+        "R-Panta 40\nTablets",
+        "B. No. RAB-0123\nD/Mfg. Nov, 2013,\nD/Exp. Oct, 2015,\nMfg. By.\nM/s Regent Ajanta Biotech,\n86-87, Vill. MakhiyaliDundi,\nPeer Pura Road, Roorkee,\nUttarakhand-247807.",
+        "Dissolution\nReport No.\n09714/2014-15\nDated\n26-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "30",
+        "AMPIRAB-C\nCAPSULES",
+        "B. No. RAB-117\nD/Mfg. Apr, 2014,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Regent Ajanta Biotech,\n86-87, Vill. MakhiyaliDundi,\nPeer Pura Road, Roorkee,\nUttarakhand-247807.",
+        "Assay\nReport No.\n09717/2014-15\nDated\n29-09-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      44.96,
+      45.21,
+      544.7,
+      776.07
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "31",
+        "Hemsyl\nInjection\n(Etamsylate\nInjection),",
+        "B. No.: HAA1J32, Mfgdt:\n10/2013,\nExpdt: 09/2016\nMfd by: M/s. Indoco\nRemedies Ltd., L-32, Verna\nIndustrial Area, Verna, Goa-\n403722",
+        "Description &\nParticulate\nMatter32-8/2014-\nSS/DCA(E)-\n217/1466Dt.\n26.09.2014",
+        "CDSCO, East\nZone",
+        "CDL, Kolkata"
+      ],
+      [
+        "32",
+        "Polytaz 1.125\nInjection\n(Ceftriaxone\n&Tazobactum\nfor Injection),",
+        "B. No.: P-1211105\nMfgdt: 11/2012\nExpdt: 10/2014\nMfd by: M/s. Brooks\nLaboratories Ltd., Village:\nKashipura, Nalagarh Road,\nBaddi 174101, HP",
+        "Constituted\nSolution &\nParticulate Matter\n32-1/2014-SS/\nDCA(N)-70/1449\nDt. 25.09.2014",
+        "CDSCO,\nNorth Zone,\nGhaziabad,\nUP",
+        "CDL, Kolkata"
+      ],
+      [
+        "33",
+        "C-Zone Plus\n1.5 gm\n(Ceftriaxone\n&Sulbactum\nfor Injection),",
+        "B. No.: PCZ - 109\nMfgdt: 01/2014,\nExpdt: 12/2015\nMfd by: M/s. Marc\nLaboratories Ltd. (U-III), Plot\nNo. 112, HPSIDC, Baddi,\nSolan (HP).",
+        "Clarity of Solution\n& Particulate\nMatter\n32-18/2014-SS/\nDCA(C)-47/1448\nDt. 25.09.2014",
+        "CDSCO, Sub\nZone\nChandigarh",
+        "CDL, Kolkata"
+      ],
+      [
+        "34",
+        "Bupivacaine\nHeavy\n(Bupivacaine\nHydrochloride\n& Dextrose\nInjection USP)",
+        "B.No: I-3864,\nMfgdt: 05/2013\nExpdt: 04/2015\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd., Bye\nPass, Majitha Road, Amritsar\n143 004.",
+        "Description,\nParticulate Matter,\nAssay of\nBupivacaine,\nAssay of Dextrose\n32-18/2014-SS/\nDCA(C)-04/1406\nDt. 12.09.2014",
+        "CDSCO, Sub\nZone\nChandigarh",
+        "CDL, Kolkata"
+      ],
+      [
+        "35",
+        "Meparin 5\n(Heparin\nSodium) 1000\nIU/ml\nSolution for\nInjection 5 ml,",
+        "B.No: N-3176\nMfgdt: 07/2013\nExpdt: 07/2016\nMfd by: M/s. Medchem\nInternational Ltd., A6,\nBanjara Garden, Road No.\n12, Banjara Hills, Hyderabad\n– 500 034, India",
+        "Description &\nParticulate Matter\n32-18/2014-SS/\nDCA(C)-18/1266\nDt. 02.09.2014",
+        "CDSCO, Sub\nZone\nChandigarh",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      44.97,
+      45.21,
+      544.69,
+      823.35
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "36",
+        "Lozep 0.5\n(Clonazepam\ntabs IP 0.5mg)",
+        "B.No: AA-1456\nMfgdt: 01/2013\nExpdt: 12/2015\nMfd by: M/s. Psychotropics\nIndia Ltd., Plot No. 46 & 49,\nSector 6A, IIE, SIDCUL\nIndustrial Area, Ranipur,\nHaridwar – 249 403.",
+        "Related\nSubstances\n32-13/2014-SS/\nDCA(B)-98/1431\nDt. 17.09.2014",
+        "CDSCO,\nSubZone\nBangalore",
+        "CDL, Kolkata"
+      ],
+      [
+        "37",
+        "Amoxicillin\nDispersible\nTablets 250\nmg",
+        "B. No.: 131103\nMfgdt: Not Stated\nExpdt: 01/2016\nMfd by: M/s. Not Stated",
+        "Uniformity of\nDispersion\n32-13/2014-SS/\nDCA(B)-52/1297\nDt. 04.09.2014",
+        "CDSCO,\nSubZone\nBangalore",
+        "CDL, Kolkata"
+      ],
+      [
+        "38",
+        "Carbamine\n(Diethylcarba\nmazine Citrate\nTablets IP\n100mg),",
+        "B. No.: FO12016\nMfgdt: 10/2012,\nExpdt: 09/2014\nMfd by: M/s. Ortin\nLaboratories Ltd., 275 & 278\n(Part), IDA, Pashamilaram\n502 307, Medak, AP",
+        "Description\n32-12/2014-SS/\nDCA(H)-\n126/1347\nDt. 08.09.2014",
+        "CDSCO,\nZonal Office\nHyderabad",
+        "CDL, Kolkata"
+      ],
+      [
+        "39",
+        "Ezelax\n(Bisacodyl\nTablet I.P.)",
+        "B. No.: ZT-8663\nMfgdt: 02/2013,\nExpdt: 01/2015\nMfd by: M/s. Zee\nLaboratories, 47 Industrial\nArea, Paonta Sahib173025",
+        "Does not conform\nto IP standard with\nrespect to the test\nfor Disintegration",
+        "CDSCO, West\nZone",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "40",
+        "Pafenil 150\n(Paracetamol\nInjection 2ml)",
+        "B. No.: 13AD82\nMfgdt: 04/2013,\nExpdt: 03/2015\nMfd by: M/s.\nPharmafabrikon, Unit-II, 91-1\nSivagangaiRaod, Vilathur,\nMadurai-625020",
+        "Does not conform\nto specification\nwith respect to the\ntest for PH",
+        "CDSCO, West\nZone",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "41",
+        "Ibuprofen\nTablets IP 400\nmg",
+        "B.No: 10023-BG137\nRegn.No:CDTL/Form-\n18/D/0394/14-15\nMfd. Dt: Feb- 2013\nExp. Dt: Jan - 2016",
+        "Does not conform\nwith respect to\nTest For\nDissolution",
+        "CDSCO,\nZonal Office,\nHyderabad",
+        "CDTL,\nChennai"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      44.96,
+      45.21,
+      544.7,
+      532.18
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "MfdBy: Biogenetic Drugs\nPvt.Ltd, Jharmazri Baddi-174\n103,\nDist-Solan HP",
+        "",
+        "",
+        ""
+      ],
+      [
+        "42",
+        "Dispersible\nAmoxycillin\nTablets I.P\n(ANTEMOX-\n250 DT)",
+        "Batch No.-T5266 D/Mfg.-\nDec. 2013 D/Exp.-Nov. 2015\nMfd. By – M/s Jackson\nLaboratories Pvt. Ltd.,\nAmritsar Majitha Road, Bye\nPass, Amritsar-143004",
+        "Uniformity of\nDispersion, Report\nNo.\nLSD/RDTL/0120/\n14-15",
+        "CDSCO. Sub\nZone,\nChandigarh",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "43",
+        "Ciprofloxacin\ne\nHydrochloride\nTablets I.P\n(CIPMARX-\n500)",
+        "Batch No. - CPT-4514,\nD/Mfg.-Jun. 2013, D/Exp.-\nMay. 2015 Mfd. By – M/s\nA.K. Biotech Pvt. Ltd.,\nExport Promotional Industrial\nPark, Kartholi Jammu-\n181133",
+        "Dissolution &\nAssay Report No.\nLSD/RDTL/0211/\n14-15",
+        "CDSCO. Sub\nZone,\nChandigarh",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "44",
+        "Ofloxacin&Or\nnidazole\nTablets\n(Floxavin-OZ)",
+        "Batch No. - FZ-28, D/Mfg.-\nApr. 2014 D/Exp.-Sep. 2015\nMfd. By – M/s Therawin\nFormulation 69-71, Jasmeet\nNagar, Ambala City-134007",
+        "Disintegration\nTest Report No.\nLSD/RDTL/0263/\n14-15",
+        "CDSCO. Sub\nZone,\nChandigarh",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "45",
+        "Paracetamol,\nDiclofenac\nsodium\n&Serratiopepti\ndase Tablets\n(Lyser DP\nTablets)",
+        "Batch No.-B142008, D/Mfg.-\nMay. 2014, D/Exp.-Apr.\n2016, Mfd. By – M/s Comed\nChemicals Limited., Village\nDassomajra, P.O. Bhud.\nBaddi, Tehsil Nalagarh, Solan\n(H.P)",
+        "Assay of\nSerratiopeptidase\nReport No.\nLSD/RDTL/0213/\n14-15",
+        "CDSCO. Sub\nZone,\nChandigarh",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  }
+]

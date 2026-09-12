@@ -1,0 +1,194 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.28,
+      86.22,
+      582.5,
+      166.78
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "1204"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "1190"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "14"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "0"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      183.23,
+      596.68,
+      675.13
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S. No.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "ULGEL – A 200 ml\n(Magaldrate,\nSimethicone &\nOxetacaine Oral\nSuspension)",
+        "B. No.: 1808001807\nMfg dt: 12/2018\nExp dt: 11/2021\nMfd by: M/s. Alembic\nPharmaceuticals Ltd.,\nSamardung Basti, Karek\nBlock, Namthang Ilaka,\nSouth Sikkim – 737 126.",
+        "Assay of\nOxetacaine",
+        "CDSCO,\nNorth Zone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "DELSONE-M 16 Tablets\n(Methylprednisolone\nTablets I.P. 16 mg)",
+        "B. No.: ART29005\nMfg dt: 11/2019\nExp dt: 10/2021\nMfd by: M/s.\nPsychotropics India Ltd.,\nPlot No. 46 & 49, Sector-\n6A, IIE, SIDCUL, Ranipur,\nHaridwar-249403\nUttarakhand.",
+        "Dissolution",
+        "CDSCO,\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Amoxycillin & Potassium\nClavulanate Tablets I.P.\n625 mg",
+        "B. No.: 0017\nMfg dt: 11/2019\nExp dt: 04/2021\nMfd by: M/s. Stride\nOrganics Private Ltd., Sy.\nNo. 265/P, Kondapur\n(Vill.), Ghatkesar, Medchal\nDistrict (T.S.), Telangana.",
+        "Dissolution &\nAssay of\nPotassium\nClavulanate",
+        "CDSCO,\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "Cardirid (Carvedilol\nTablets IP)",
+        "B. No.: CAR-2001\nMfg dt: 06/2020\nExp dt: 05/2022\nMfd by: M/s. Ridley Life\nScience Pvt. Ltd., D 1651,\nDSIDC Indl. Complex,\nNarela, Delhi-110 040.",
+        "Uniformity of\nContent and\nRelated\nSubstances",
+        "CDSCO,\nHyderabad",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      21.57,
+      596.67,
+      719.17
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "5.",
+        "RAMZE-5 (Ramipril\nTablets I.P.)",
+        "B. No.: 420-578\nMfg dt: 05/2020\nExp dt: 04/2022\nMfd by: M/s. Zee\nLaboratories, 47, Industrial\nArea, Paonta Sahib –\n173025 Himachal Pradesh.",
+        "Assay",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "Theopenam -1g\n(Meropenem Injection\nI.P.)",
+        "B. No.: MERM19015A\nMfg dt: 07/2019\nExp dt: 06/2021\nMfd by: M/s. Theon\nPharmaceuticals Ltd.,\nVillage Saini Majra, Teh.\nNalagarh, Distt. Solan\nHimachal Pradesh –\n174101.",
+        "Particulate\nMatter and\nClarity of\nSolution",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "Rosuvas 20\n(Rosuvastatin Tablets\nI.P.)",
+        "B. No.: EMX0174\nMfg dt: 01/2020\nExp dt: 06/2022\nMfd by: M/s. Sun Pharma\nLaboratories Ltd., Plot No.\n107-108, Namli Block, P.O.\nRanipool, East-Sikkim-737\n135.",
+        "Uniformity of\nWeight,\nDissolution\nand Assay",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "Amoxycillin Capsules IP\n500 mg",
+        "B. No.: YAT91054\nMfg dt: 11/2019\nExp dt: 10/2021\nMfd by: M/s. Yeluri\nFormulations Pvt. Ltd., Sy.\nNo. 296/7/6, I.D.A.\nBollaram, Sangareddy,\nDistrict-502325,\nTelangana.",
+        "Assay",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "9.",
+        "Doxylamine Succinate &\nPyridoxine\nHydrochloride Tablets",
+        "B. No.: PF8B101\nMfg dt: 08/2019\nExp dt: 07/2021\nMfd by: M/s. Pure & Cure\nHealthcare Pvt. Ltd., Plot\nNo. 26A, 27-30, Sector-8A,\nI.I.E., SIDCUL, Haridwar-\n249403, Uttrakhand.",
+        "Disintegration\nTime",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "10.",
+        "Prolonged-release\nDiltiazem Tablets BP\n90mg",
+        "B. No.: GM20128\nMfg dt: 11/2020\nExp dt: 10/2022\nMfd by: M/s. Skymap\nPharmaceuticals Pvt. Ltd.,\nB-3, Dev Bhoomi Industrial\nEstate, Puhana Iqbalpur\nRoad, Roorkee-247667\nUttarakhand.",
+        "Dissolution",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.19,
+      21.57,
+      596.69,
+      481.18
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "11.",
+        "Revol-CC (Calcium\nCarbonate Magnesium\nOxide, Manganese\nSulphate, Zinc &\nVitamin D3 Tablets)",
+        "B. No.: MT191325\nMfg dt: 08/2019\nExp dt: 07/2021\nMfd by: M/s. Mascot Health\nSeries Pvt. Ltd., Plot No.\n79, 80, Sec-6A, IIE,\nSiducul, Haridwar- 249403,\nUttrakhand.",
+        "Assay of\nVitamin D3",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "12.",
+        "Aspirin Gastro-Resistant\nTablets IP 150 mg",
+        "B. No.: APET716\nMfg dt: 06/2019\nExp dt: 05/2021\nMfd by: M/s. Unicure India\nltd., C-21, 22 & 23, Sector-\n3, Noida- 201301, Distt:\nGautam Budh Nagar (U.P).",
+        "Test for\nSalicylic Acid",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "13.",
+        "Ciprofloxacin\nHydrochloride Tablets\nIP 500 mg",
+        "B. No.: 0703419\nMfg dt: 09/2019\nExp dt: 08/2022\nMfd by: M/s. Karnataka\nAntibiotics &\nPharmaceuticals Limited\nPlot No. 14, II Phase,\nPeenaya, Bengaluru-\n560058.",
+        "Dissolution",
+        "CDSCO,\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "14.",
+        "Cefpodoxime Proxetil\nDispersible Tablets\n(BROTOCEF-100 DT\nTABLETS)",
+        "B. No.: CT1904E\nMfg dt: 12/2019\nExp dt: 11/2021\nMfd by: M/s. J.M.\nLaboratories Village-\nBhanat, P.O. - Ghatti,\nSubathu Road, Solan\nHimachal Pradesh-\n173211.",
+        "Assay",
+        "CDSCO,\nSub-Zone,\nJammu",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

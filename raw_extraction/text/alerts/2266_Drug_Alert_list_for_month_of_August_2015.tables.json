@@ -1,0 +1,71 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      15.33,
+      98.51,
+      566.19,
+      682.45
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Zinc Sulphate\nDispersible\nTablets",
+        "B. No.: OBT-94\nMfg dt: 07/2015\nExp dt: 06/2017\nMfd by: M/s. Om Biomedic Pvt.\nLimited, Plot No. 68, 69, 82 & 83,\nSector-6A, Haridwar, Uttarakhand.",
+        "Disintegration\n& Uniformity of\nWt.",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2.",
+        "Zinc Sulphate\nDispersible\nTablets",
+        "B. No.: OBT-95\nMfg dt: 07/2015\nExp dt: 06/2017\nMfd by: M/s. Om Biomedic Pvt.\nLimited, Plot No. 68, 69, 82 & 83,\nSector-6A, Haridwar, Uttarakhand.",
+        "Disintegration\n& Uniformity of\nWt",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3.",
+        "Paracetamol\nTablets",
+        "B. No.: T-1410107\nMfg dt: 10/2014\nExp dt: 09/2016\nMfd by: M/s. G. S.\nPharmaceuticals Pvt. Limited,\n1.5 Km. Manglore-Saharanpur\nRoad, Dist. - Haridwar, Roorkee,\nUttarakhand-247656.",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4.",
+        "Domperidone\nTablets",
+        "B. No.: GT40709\nMfg dt: 10/2014\nExp dt: 03/2017\nMfd by: M/s. Omega Biotech\nLimited, 7th Mile Stone, Dehradun\nRoad, Roorkee, Uttarakhand.",
+        "Misbranded",
+        "Drugs\nControl\nDepartment,\nTripura",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5.",
+        "Cephalexin\nCapsules IP\n500MG",
+        "B. No.: CCL-005\nMfg dt: 10/2014\nExp dt: 03/2016\nMfd by: M/s. Medipol\nPharmaceutical India Pvt. Ltd.,\n1199/3, Bhud, Baddi, Dist. Solan,\nH.P, India",
+        "Dissolution",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "6.",
+        "Acirid - 20\n(Omeprazole\nCapsules I.P.)",
+        "B. No.: KDC13F06\nMfg dt: 09/2013\nExp dt: 08/2015\nMfd by: M/s. Kaizen\nPharmaceuticals, Vill Katha, Baddi\n- 173205, Solan, H.P.",
+        "Dissolution &\nLoss on drying",
+        "CDSCO, Sub\nZone,\nChandigarh",
+        "CDL,\nKolkata"
+      ]
+    ]
+  }
+]

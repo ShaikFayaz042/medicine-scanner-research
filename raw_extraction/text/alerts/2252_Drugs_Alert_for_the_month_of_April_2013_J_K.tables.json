@@ -1,0 +1,39 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      180.44,
+      84.47,
+      823.96,
+      348.34
+    ],
+    "n_rows": 3,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S. No.",
+        "Name of\nDrugs/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for failure\nwith report in Form-\n13/34 No. & Date",
+        "Sample\nReceived\nfrom",
+        "Declared by"
+      ],
+      [
+        "1.",
+        "Handloom Cloth\n“Rolled Bandage”\n(12 ROLLS)\n(Unsterilized)",
+        "Batch No – 33\nD/Mfg. – 08/2011\nD/Exp. – 07/2014\nMfd. By- M/s Sundaram Surgical,\n63 A, B, C/8 Srivilliputur Road,\nSankarapandia Puram, Chatrapati-\n626102, (Tamil Nadu)",
+        "Threads/dm\nL/DA/2013-14/176\nDated 07/5/2013",
+        "Drugs & Food\nControl\nOrganization,\nJ&K, Jammu",
+        "Drug Testing\nLaboratory,\nSrinagar"
+      ],
+      [
+        "2.",
+        "Handloom Cloth\n“Rolled Bandage”\n(12 ROLLS)\n(Unsterilized)",
+        "Batch No – 30\nD/Mfg. – 04/2011\nD/Exp. – 03/2014\nMfd. By- M/s Sundaram Surgical,\n63 A, B, C/8 Srivilliputur Road,\nSankarapandia Puram, Chatrapati-\n626102, (Tamil Nadu)",
+        "Threads/ dm\nL/DA/201314/175\nDated07.05.2013",
+        "Drugs & Food\nControl\nOrganization\nJ&K, Jammu",
+        "Drug Testing\nLaboratory,\nSrinagar"
+      ]
+    ]
+  }
+]

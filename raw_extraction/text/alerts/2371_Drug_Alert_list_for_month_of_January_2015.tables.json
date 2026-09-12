@@ -1,0 +1,116 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      31.53,
+      103.07,
+      571.71,
+      712.45
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for failure\nwith Report No.\n(in Form-13)& Date",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Elmox CV 1.2 g\n(Amoxycillin &\nPotassium\nClavulanate\ninjection IP 1.2g)",
+        "B. No.: AP3029\nMfg dt: 03/2013,\nExp dt: 02/2015\nMfd by: M/s. Affy Parenterals, Vill:\nGullerwala, P.O. Baddi, Distt. Solan,\nHP",
+        "Particulate Matter &\nClarity of Solution\n32-8/2014-SS/\nDCA(E)-261/2082\nDt. 29.01.2015",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "Akuri T-3 Tablets\n(Rifampicin,\nIsoniazid &\nEthambutol\nHydrochloride\nTablets)",
+        "B. No.: A2004RP\nMfg dt: 12/2012,\nExp dt: 11/2014\nMfd by: M/s. Lupin Ltd., 116 K.B.\nComplex, Opp. Mahavir Nagar,\nVapi, Distt. Valsad, Gujarat, India",
+        "Assay & Dissolution\nof Rifampicin\n32-8/2014-SS/\nDCA(E)-107/1927\nDt. 06.01.2015",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Forecox Tablets\n(Rifampicin,\nIsoniazid,\nPyrazinamide &\nEthambutol\nHydrochloride\nTablets IP)",
+        "B. No.: HRJ3202A\nMfg dt: 12/2013,\nExp dt: 09/2016\nMfd by: M/s. Macleods\nPharmaceuticals Ltd., Survey No.\n363/1 (8-9), Plot No 8-9, Ganesh\nIndustrial Estate, Kachigam, Daman\n396 210",
+        "Assay of Rifampicin\n32-9/2014-SS/\nDCA(W)-137/2053\nDt. 20.01.2015",
+        "CDSCO, West\nZone, Mumbai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "Macox-ZH\nTablets\n(Rifampicin,\nIsoniazid,\nPyrazinamide\nTablets IP),",
+        "B. No.: HRG319A\nMfg dt: 11/2013,\nExp dt: 10/2015\nMfd by: M/s. Macleods\nPharmaceuticals Ltd., Survey No.\n363/1 (8-9), Plot No 8-9, Ganesh\nIndustrial Estate, Kachigam, Daman\n396 210",
+        "Assay & Dissolution\nof Rifampicin\n32-9/2014-SS/\nDCA(W)-129/2045\nDt. 20.01.2015",
+        "CDSCO, West\nZone, Mumbai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "5.",
+        "P-Quine 7.5mg\n(Primaquine\nPhosphate\nTablets I.P.)",
+        "B. No.: KT-13025\nMfg dt: 02/2013,\nExp dt: 07/2015\nMfd by: M/s Endolabs Healthcare\nPvt. Ltd., Khasra No. 68, 69,71,\nVillage-Sikandarpur Bhaiswal, Near\nBhagwanpur, Roorkee, Dist.\nHaridwar-247661 (UK).",
+        "Does not conform to\nIP 2010 standard\nwith respect to the\ntest for Assay",
+        "CDSCO, West\nZone, Mumbai",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      31.52,
+      31.77,
+      571.72,
+      532.66
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "6.",
+        "Razocid 20\nTablets",
+        "B. No. PGT-2508,\nD/Mfg. 02/2014,\nD/Exp. 01/2016,\nMfg. By.\nM/s Affy Parenterals,\nVill-Gullarwala, P.O.-Baddi, Dist.-\nSolan, Himachal Pradesh.",
+        "Dissolution,\nReport No.\n10100/2014-15\nDated\n02-01-2015",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "7.",
+        "Ciprobiotic-Forte\nTablets",
+        "B. No. GHB13007,\nD/Mfg. 05/2013,\nD/Exp. 04/2016,\nMfg. By.\nM/s Syncom Healthcare Ltd.,\nD-42, UPSIDC Industrial Area,\nSelaqui, Dehradun, Uttarakhand-\n248197.",
+        "Dissolution\nReport No.\n10122/2014-15\nDated\n08-01-2015",
+        "Drugs Control\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "8.",
+        "Serratiopeptidas\ne Tablets IP\n(LYSER\nFORTE)",
+        "B. No. B142405,\nD/Mfg. 06/2014,\nD/Exp. 05/2016,\nMfg. By. Comed Chemicals Ltd.,\nSolan (H.P), Village Dassomajra,\nP.O. Bhud, Baddi, Tehsil- Nalagarh,\nSolan (H.P.)",
+        "Assay of\nSerratiopeptidase\n(81.7% against the\nlimit NLT-90% -\n110%)\nReport No.\nLSD/RDTL/0111/14-\n15,\nDated: 06-01-2015",
+        "CDSCO-\nSubzone,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "9.",
+        "Ciprofloxacin\nTablets IP\n500mg (ELCIP-\n500)",
+        "B. No. EEN-020,\nD/Mfg. 05/2014,\nD/Exp. 04/2016,\nMfg. By. Elanco Healthcare Pvt.\nLtd., H-1139, RIICO, Industrial Area,\nPhase IIIrd, Sitapura-Jaipur-302022",
+        "Dissolution\nReport No.\nRDTL/0354/14-15,\nDated: 30-01-2015",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "10.",
+        "Ciprofloxacin\nHydrochloride\nTablets\nIP(CIPROLUP\n250)",
+        "B. No. 13004AA-SC,\nD/Mfg. 02/2013,\nD/Exp. 01/2016,\nMfg. By. Synocom Healthcare Ltd.,\nD-42, UPSIDC, Industrial Area,\nSelaqui (Dehradun) 248197,\nUttarakhand",
+        "Dissolution\nReport No.\nLSD/RDTL/0395/15-\n16,\nDated: 30-01-2015",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

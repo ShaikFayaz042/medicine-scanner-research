@@ -1,0 +1,369 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      117.66,
+      582.52,
+      199.66
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "1227"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "1200"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "27"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "-"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "-"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      225.11,
+      582.52,
+      764.19
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.No.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured\nBy",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Ferrous Sulphate\n&\nFolic Acid Tablets IP",
+        "B. No.: B210049\nMfg dt: 06/2021\nExp dt: 05/2023\nMfd by: M/s. Bochem\nHealthcare Pvt. Ltd., 83-\n84, Industrial Area,\nDewas Road, Nagziri,\nUjjain 456010, Madhya\nPradesh, India.",
+        "Uniformity of\nContent of\nFolic Acid",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "2.",
+        "NITZO -2.6 (Controlled\nRelease Tablets of\nNitrogylcerin)",
+        "B. No.: 420-1291\nMfg dt: 10/2020\nExp dt: 09/2022\nMfd by: M/s. Zee\nLaboratories 47,\nIndustrial Area, Paonta\nSahib -173 025,\nHimachal Pradesh.",
+        "Assay",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "3.",
+        "Levetripac-500 Tablets\n(Levetiracetam Tablets\nIP 500 mg)",
+        "B. No.: APT/04306\nMfg dt: 04/2021\nExp dt: 03/2023\nMfd by: M/s. Amkon\nPharmaceuticals, Plot\nNo. 242, Phase 9,\nIndustrial Area, Mohali-\n160062, Punjab.",
+        "Dissolution\n&\nAssay",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "4.",
+        "Clopidogrel & Aspirin\nTablets I.P.",
+        "B. No.: TACB-017\nMfg dt: 05/2020\nExp dt: 04/2022\nMfd by: M/s. Medipol\nPharmaceutical India\nPvt. Ltd., 1199/3, Budh,\nBaddi, Dist. Solan,",
+        "Related\nSubstances",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      35.61,
+      582.51,
+      754.35
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Himachal Pradesh,\nIndia.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Pantoprazole for\nInjection B.P. 40 mg",
+        "B. No.: AA011068\nMfg dt: 04/2021\nExp dt: 03/2023\nMfd by: M/s. ANG\nLifesciences India Ltd.,\nVillage- Kishanpura,\nNalagarh Road, Tehsil-\nBaddi, Distt. Solan,\nHimachal Pradesh -174\n101.",
+        "Sterility",
+        "Drug Control\nDepartment\nMadhya\nPradesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "6.",
+        "Adrenochrome\nMonosemicarbazone\nInjection, 2 ml",
+        "B. No.: 01ACA295\nMfg dt: 02/2021\nExp dt: 07/2022\nMfd by: M/s. SPM Drugs\n(P) Ltd., S.F. 52/1 Main\nRoad, K.R. Palayam,\nBhavani – 638 301\nTamil Nadu.",
+        "Description &\nParticulate\nMatter",
+        "CDSCO\nSouth Zone\nChennai",
+        "CDL\nKolkata"
+      ],
+      [
+        "7.",
+        "WARZYME Digestive\nEnzymes (Pepsin &\nFungal Diastase\nSyrup), 200 ml",
+        "B. No.: AA21036\nMfg dt: 06/2021\nExp dt: 11/2022\nMfd by: M/s. Skymap\nPharmaceuticals Pvt.\nLtd., B-3, Dev Bhoomi\nIndustrial Estate,\nPuhana Iqbalpur Road,\nRoorkee-247667,\nUttarakhand.",
+        "Assay of\nPepsin &\nFungal\nDiastase",
+        "CDSCO\nSouth Zone\nChennai",
+        "CDL\nKolkata"
+      ],
+      [
+        "8.",
+        "Mymi D (Alpha Lipoic\nAcid, Pyridoxine\nHydrochloride,\nMethylcobalamin, Folic\nAcid & Vitamin D3\nTablets)",
+        "B. No.: TT21031\nMfg dt: 06/2021\nExp dt: 05/2023\nMfd by: M/s. Kausikh\nTherapeutics(P) Ltd.,\nUnit II, Plot No. 54,\nSIDCO Industrial Estate,\nThirumudivakkam,\nChennai -600044.",
+        "Assay of\nMethylcobala\nmin & Vitamin\nD3",
+        "CDSCO\nSouth Zone\nChennai",
+        "CDL\nKolkata"
+      ],
+      [
+        "9.",
+        "Pantoprazole Gastro-\nResistant Tablets IP",
+        "B. No.: TF1036A\nMfg dt: 06/2021\nExp dt: 11/2022\nMfd by: M/s. Navkar\nLifesciences,\nPlot No.76, Lodhi\nMajra, Industrial Area,\nBaddi, Distt. Solan,\nHimachal Pradesh.",
+        "Dissolution",
+        "CDSCO\nSub Zone\nBangalore",
+        "CDTL\nChennai"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.21,
+      35.61,
+      582.51,
+      769.47
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "10.",
+        "ENALAPRIL\nMALEATE TABLETS\nIP 5 mg",
+        "B. No.: GA21002\nMfg dt: 02/2021\nExp dt: 01/2023\nMfd by: M/s. Ortin\nLaboratories Ltd., 275 &\n278 (part), IDA,\nPashamylaram-502307,\nSanga Reddy, Dist.\nTelangana.",
+        "Dissolution\n&\nAssay",
+        "CDSCO\nZonal Office\nHyderabad",
+        "CDTL\nHyderabad"
+      ],
+      [
+        "11.",
+        "Ceftriaxone Injection\nIP",
+        "B. No.: I.269\nMfg dt: 04/2021\nExp dt: 03/2023\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd.\n22-24, Majitha Road,\nBye pass, Amritsar-\n143001, Punjab (India).",
+        "Clarity of\nSolution &\nParticulate\nmatter",
+        "Drug Control\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "12.",
+        "Pantoprazole Sodium\nTablets I.P. 40 mg",
+        "B. No.: SL20098\nMfg dt: 11/2020\nExp dt: 10/2022\nMfd by: M/s. IBN\nHerbals (A unit of\nCuretech Formulations\n(P) Ltd.), Khasra No. 63,\nVill. JuddiKalan, Baddi,\nDist. Solan, Himachal\nPradesh.",
+        "Dissolution",
+        "Drug Control\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "13.",
+        "Alprazolam Tablets IP",
+        "B. No.: TP.1901\nMfg dt: 12/2019\nExp dt: 11/2022\nMfd by: M/s. Achemic\nPharmaceuticals\n(INDIA) Pvt. Ltd.\n71-A, I.D.A. (Etn)\nPhase-II, Mangalpur\nNacharam, Hyderabad -\n500076.",
+        "Dissolution",
+        "Drug Control\nDepartment\nBihar",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "14.",
+        "Isopropyl Rubbing\nAlcohol I.P.",
+        "B. No.: SP-851\nMfg dt: 05/2020\nExp dt: 04/2023\nMfd by: M/s. Sritech\nPharma, F-19,\nUPSIDC Industrial Area,\nGajraula JP Nagar,\nUttar Pradesh – 244235.",
+        "Assay",
+        "Drug Control\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "15.",
+        "Doxycycline\nHydrochloride &",
+        "B. No.: DOX-2009",
+        "Description",
+        "Drug Control\nDepartment",
+        "RDTL\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      15.21,
+      35.61,
+      582.51,
+      766.59
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "Ambroxol HCl Tablets",
+        "Mfg dt: 01/2021\nExp dt: 12/2022\nMfd by: M/s. RIDLEY\nLIFE SCIENCE PVT.\nLTD., D-1651, DSIDC\nIndl. Complex, Narela,\nDelhi-110040",
+        "",
+        "Assam",
+        ""
+      ],
+      [
+        "16.",
+        "Favipiravir Tablets\n400 mg",
+        "B. No.: TP-0421903\nMfg dt: 04/2021\nExp dt: 03/2023\nMfd by: M/s. Maxrelief\nHealthcare, Vill.-Anji,\nSolan, Himachal\nPradesh- 173212.",
+        "Identification,\nDissolution &\nAssay",
+        "Drug Control\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "17.",
+        "Trypsin, Bromelain &\nRutoside Trihydrate\nTablets",
+        "B. No.: GT200466\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. Theon\nPharmaceuticals Ltd.\nVill. Saini Majra, Teh.\nNalagarh, Distt. Solan,\nHimachal Pradesh-\n174101.",
+        "Description &\nDisintegration",
+        "CDSCO\nSub-Zone\nGuwahati",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "18.",
+        "Pantoprazole Sodium\nTablets I.P. 40 mg",
+        "B. No.: TN-5142\nMfg dt: 11/2020\nExp dt: 10/2022\nMfd by: M/s. Naptune\nLife Sciences Pvt. Ltd.\n100-B, EPIP, Phase-II,\nThana, Baddi -173205\nHimachal Pradesh.",
+        "Dissolution",
+        "Drug Control\nDepartment\nAssam",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "19.",
+        "Pantoprazole Gastro-\nResistant Tablets I.P.\n40 mg",
+        "B. No.: AT201095\nMfg dt: 03/2021\nExp dt: 02/2023\nMfd by: M/s. Aarpic\nPharmaceuticals Pvt.\nLtd., C1/306/5 Kerala\nG.I.D.C., Kerala, Bavla\nRoad, Dist. Ahmedabad.",
+        "Dissolution",
+        "Drug Control\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "20.",
+        "Paracetamol Tablets\nIP 650 mg",
+        "B. No.: FDR3A101\nMfg dt: 01/2021\nExp dt: 12/2022\nMfd by: M/s. ZIM\nLABORATORIES\nLIMITED, B-21/22,\nMIDC Area,\nKalmeshwar-441501,\nDist. Nagpur,\nMaharashtra.",
+        "Dissolution",
+        "CDSCO\nSub-Zone\nGuwahati",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "21.",
+        "Calcium with Vitamin",
+        "B. No.: CV-212",
+        "Dissolution",
+        "Drug Control",
+        "RDTL"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      15.21,
+      35.61,
+      582.51,
+      769.47
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "D3 Tablets",
+        "Mfg dt: 11/2020\nExp dt: 05/2022\nMfd by: M/s.\nVINTOCHEM\nPHARMACEUTICALS\nIndustrial Area, Maxi\nRoad, Ujjain- 456010\nMadhya Pradesh.",
+        "",
+        "Department\nJharkhand",
+        "Guwahati"
+      ],
+      [
+        "22.",
+        "Pantoprazole Gastro-\nResistant Tablets I.P.",
+        "B. No.: TA21-11\nMfg dt: 01/2021\nExp dt: 12/2022\nMfd by: M/s. Om\nBiomedic Pvt. Ltd.\nPlot No. 68, 69, 82 & 83,\nSector-6A, IIE SIDCUL,\nHaridwar – 249403\nUttarakhand.",
+        "Dissolution",
+        "Drug Control\nDepartment\nMeghalaya",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "23.",
+        "Calcium with Vitamin\nD3 Tablets",
+        "B. No.: CV-212\nMfg dt: 11/2020\nExp dt: 05/2022\nMfd by: M/s.\nVINTOCHEM\nPHARMACEUTICALS\nIndustrial Area, Maxi\nRoad, Ujjain- 456010\nMadhya Pradesh.",
+        "Dissolution",
+        "Drug Control\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "24.",
+        "Atenolol Tablets IP\n50 mg.",
+        "B. No.: TPT GOV-21139\nMfg dt: 06/2021\nExp dt: 05/2023\nMfd by: M/s. Terrace\nPharmaceutical (P) Ltd.,\n3-B (a) Phase III,\nIndustrial Area,\nSansarpur Terrace,\nDistt. Kangra, Himachal\nPradesh – 176501.",
+        "Disintegration",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDTL\nMumbai"
+      ],
+      [
+        "25.",
+        "Itraconazole Capsules\n200 mg",
+        "B. No.: MC21250\nMfg dt: 04/2021\nExp dt: 03/2023\nMfd by: M/s. Mascot\nHealth Series Pvt. Ltd.\nPlot No. 79, 80, Sec.6A,\nIIE, SIDCUL, Haridwar-\n249403 Uttarakhand.",
+        "Disintegration",
+        "CDSCO\nNorth Zone",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "26.",
+        "Ondansetron Orally\nDisintegrating Tablets\nIP 4 mg (ONVIN-4MD\nTABLETS)",
+        "B. No.: RV21023\nMfg dt: 07/2021\nExp dt: 06/2023\nMfd by: M/s. Rivpra",
+        "Dissolution",
+        "CDSCO\nSub-Zone\nBaddi",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      15.24,
+      35.64,
+      582.48,
+      230.66
+    ],
+    "n_rows": 2,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Formulation Pvt. Ltd.\nPlot No. 8, Sector-6A,\nI.I.E. SIDCUL, Haridwar-\n249403, Uttarakhand.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "27.",
+        "Alcohol/Chlorhexidine\nGluconate Hand Rub\n(MICRO-CV HAND\nSANITIZER)",
+        "B. No.: 8267\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. RAMSON\nREMEDIES 186-187,\nIndustrial Focal Point,\nAmritsar A.O: 2, G.Floor\nBaktawar, Malabar Hill,\nMUMBAI – 6.",
+        "Identification",
+        "Drug Control\nDepartment\nHimachal\nPradesh",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,1925 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      66.8,
+      123.69,
+      529.02,
+      753.53
+    ],
+    "n_rows": 15,
+    "n_cols": 4,
+    "rows": [
+      [
+        "S.\nNo.",
+        "Name of the\nFirm",
+        "Type of Kit",
+        "Country"
+      ],
+      [
+        "1.",
+        "M/s CPC Diag. Pvt.\nLtd,Chennai",
+        "ChemiLuminscentImmun\no Assay IgG &IgM (CLIA)\nCE and Australia Approved",
+        "M/s Shenzhen YHLO\nBiotech Co. Ltd.China"
+      ],
+      [
+        "2.",
+        "M/s. S.D. Biosensor\nDelhi",
+        "Fluorescent Rapid\nAntigen Test",
+        "M/s S.D. Biosensor, Korea\nCE Approved"
+      ],
+      [
+        "3.",
+        "M/s.\nTrivitronHealthcarePv\ntLtd, Chennai",
+        "Chemi Luminescence\nImmuno Assay CLIA\nCE approved",
+        "M/s Shenzhen New\nIndustries Biomedical\nEngineering (SNIBE),China"
+      ],
+      [
+        "4.",
+        "M/s. SNIBE\nDiagnostics (India),\nGurgaon",
+        "Chemi Luminescence\nImmuno Assay CLIA\nCE approved",
+        "M/s Shenzhen New\nIndustries Biomedical\nEngineering (SNIBE),China"
+      ],
+      [
+        "5.",
+        "M/s. Vishat\nDiagnostics Pvt Ltd\nMumbai",
+        "ELISA\nCE approved",
+        "M/s. Zhengzhou Human well\nBiocel Technology Ltd China"
+      ],
+      [
+        "6.",
+        "M/s.\nImmunoshopIndia Pvt\nLtd, Thane",
+        "Chemi Luminescence\nImmuno Assay CLIA\nCE approved",
+        "M/s. Shenzhen New\nIndustries Biomedical\nEngineering (SNIBE),China"
+      ],
+      [
+        "7.",
+        "M/s.Athenese Dx Pvt\nLtd, Chennai",
+        "Rapid Antibody test\nIgG/IgMCE approved",
+        "M/s Beijing Genese Biotech\nInc , China"
+      ],
+      [
+        "8.",
+        "M/s. Indelox Global\nDistribution, PvtLtd,\nBangalore",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s. Dongguan Bosh\nBiotechnology, China"
+      ],
+      [
+        "9.",
+        "M/s. Rapid\nDiagnostics Pvt Ltd\nDelhi",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Hangzhou Biotech Co\nLtd, China"
+      ],
+      [
+        "10.",
+        "M/s PTS Diagnostics\nIndia Pvt. Ltd.",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Changsha Sinocare Inc\nChina"
+      ],
+      [
+        "11.",
+        "M/s.\nAccrediatedConsultan\ntPvtLtd",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s. Humasis Co Ltd Korea"
+      ],
+      [
+        "12.",
+        "M/s.\nAgappeDiagnosticsLt\nd",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Hangzhou Biotech Co\nLtd, China"
+      ],
+      [
+        "13.",
+        "M/s. Rafael\nDiagnostics, Pune",
+        "Antibody test IgG/IgM CE\napproved",
+        "M/s. BMT Diagnostics\nIsrael"
+      ],
+      [
+        "14.",
+        "M/s. Matrix\nLab Chennai",
+        "CLIACE Approved",
+        "M/s. Autobio Diagnostics\nCo Ltd China"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      67.68,
+      64.03,
+      528.69,
+      764.33
+    ],
+    "n_rows": 20,
+    "n_cols": 4,
+    "rows": [
+      [
+        "15.",
+        "M/s. Voxtur Bio Ltd",
+        "Antibody test IgG/IgM",
+        "Indigenous"
+      ],
+      [
+        "16.",
+        "M/s. Vanguard Diag\nPvt Ltd",
+        "Antibody test IgG/IgM",
+        "Indigenous"
+      ],
+      [
+        "17.",
+        "M/s. Weldon\nBiotech(I) Pvt.Ltd.",
+        "iChromeFIA(\nFluoracenceImmunoAssay)\nCovid-19 Ab",
+        "M/s Boditech Med Inc.\nKorea"
+      ],
+      [
+        "18.",
+        "M/s HLL",
+        "Antibody test IgG/IgM",
+        "Indigenous"
+      ],
+      [
+        "19.",
+        "M/s CPC Diagnostics\nPvt. Ltd.",
+        "Anti SAR- COV-2 ELISA\nIgG",
+        "M/s Euroimmun AG\nGermany"
+      ],
+      [
+        "20.",
+        "M/s Bravo\nPharmaceuticals Pvt.\nLtd.",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Biosynex S.A\nFrance"
+      ],
+      [
+        "21.",
+        "M/s Harmony\nLifeSciences Pvt. Ltd.",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Humasis Co. Ltd.\nSouth Korea"
+      ],
+      [
+        "22.",
+        "M/s Trivitron\nHealthcare Pvt. Ltd.",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Innovita(Tang Shen)\nBiological Technology Co.\nLtd. China"
+      ],
+      [
+        "23.",
+        "M/s Concept\nHealthCare",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s CeltexBiotech(Suzhou)\nCo. Ltd.\nChina"
+      ],
+      [
+        "24.",
+        "M/s Bio Innovations\nThane",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Primer Design Ltd.\nU.K"
+      ],
+      [
+        "25.",
+        "M/s AR KAY Medicos\nPvt. Ltd.",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Humasis Co. Ltd.\nSouth Korea"
+      ],
+      [
+        "26.",
+        "M/s Kin Diagnostics\nWest Bengal",
+        "FIA iChroma IgG/IgM\nCE approved",
+        "M/s Boditech Med Inc.\nSouth Korea"
+      ],
+      [
+        "27.",
+        "M/S Aracion\nTechnology Pvt LTd",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Innovita(Tang Shen)\nBiological Technology Co.\nLtd.China"
+      ],
+      [
+        "28.",
+        "M/s. SD Bio Sensor\nHealthcare Pvt Ltd",
+        "Standard Q COVID-19\nIgG/IgM Duo",
+        "Indigenous"
+      ],
+      [
+        "29.",
+        "M/s. Tara Medicos\nPvt Ltd Jaipur",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s. CELLEX INC,CHINA"
+      ],
+      [
+        "30.",
+        "M/s Med Source\nOzone Biomedicals\nPvt Ltd",
+        "COVID-19 IgG/IgM Rapid\nTest",
+        "Indigenous"
+      ],
+      [
+        "31.",
+        "M/s. Immunoscience\nIndiaPvt Ltd",
+        "COVID-19 IgG/IgM Rapid\nTest",
+        "Indigenous"
+      ],
+      [
+        "32.",
+        "M/s S.D Biosensor\nHealthcare Pvt. Ltd.",
+        "Standard Q Covid-19\nIgG/IgM Combo",
+        "M/s S.D Biosensor Inc.\nKorea"
+      ],
+      [
+        "33.",
+        "M/s True Healthcare\nIndia Pvt. Ltd.",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Humasis Co. Ltd.\nSouth Korea"
+      ],
+      [
+        "34.",
+        "M/s Immunoshop\nIndia Pvt. Ltd.",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Shenzhen Cifotrunic\nTechnology Ltd. China"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      68.44,
+      64.03,
+      528.3,
+      736.11
+    ],
+    "n_rows": 16,
+    "n_cols": 5,
+    "rows": [
+      [
+        "35.",
+        "M/s Clini Experts\nServices Pvt. Ltd.",
+        "Antibody test IgG/IgM\nCE approved",
+        "",
+        "M/s Biocan Diagnostics Inc.\nCanada"
+      ],
+      [
+        "36.",
+        "M/s Inbios India, Delhi",
+        "Antibody test IgG/IgM\nCE approved",
+        "",
+        "M/s. CELLEX Biotech\n(Suzhou) Co. Ltd ,CHINA"
+      ],
+      [
+        "37.",
+        "M/s. Synergy\nScientific\nServices Pvt Ltd",
+        "Antibody test IgG/IgM\nCE approved",
+        "",
+        "M/s. Schenzhen Reagent\nTechnology Co Ltd China"
+      ],
+      [
+        "38.",
+        "M/s Bioscience Sales\nCorp. Delhi",
+        "Antibody test IgG/IgM\nCE approved",
+        "",
+        "M/s. ShenzhanWatmind\nMedical Co. Ltd , China"
+      ],
+      [
+        "39.",
+        "M/s. Doctor Analytical\nLaboratories Pvt Ltd",
+        "Antibody test IgG/IgM\nCE approved",
+        "",
+        "M/s Biocan Diagnostics Inc.\nCanada"
+      ],
+      [
+        "40.",
+        "M/s Alere Medical Pvt.\nLtd.",
+        "",
+        "PanBioAntibody test\nIgG/IgMCE approved",
+        "M/s Abbott Rapid\nDiagnostics Germany\nHaving Mfg. Site at Abon\nBiopharma(Hangzhou) Co.\nLtd. China"
+      ],
+      [
+        "41.",
+        "M/s Incarp\nInstruments Pvt. Ltd.\nHyderabad",
+        "",
+        "FIA IgG/IgM AntiBody\nTestCE approved",
+        "M/s Boditech Med Inc.\nSouth Korea"
+      ],
+      [
+        "42.",
+        "M/s Nucleus\n18Turnkey Projects\nPvt. Ltd.Telangana",
+        "",
+        "Antibody test IgG/IgM\nAustralian EUA",
+        "M/s Innovita (Tangshan)\nBiological Technology Co.\nLtd.\nChina"
+      ],
+      [
+        "43.",
+        "M/s KDH Biomedicals\nPvt Ltd Mumbai",
+        "",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Dynamiker\nBiotechnology (Tianjin) Co\nLtd China"
+      ],
+      [
+        "44.",
+        "M/s KDH Biomedicals\nPvt Ltd Mumbai",
+        "",
+        "ELISA IgG and ELISA\nIgM/IgA CE approved",
+        "M/s Dynamiker\nBiotechnology (Tianjin) Co\nLtd China"
+      ],
+      [
+        "45.",
+        "M/s Trivitron\nHealthcare\nPvt LTD, Chennai.",
+        "",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s Shenzhen Lifotronic\nTechnology Co. Ltd. China"
+      ],
+      [
+        "46.",
+        "M/s Bioplus\nHealthcare\nPvt Ltd, Bangalore",
+        "",
+        "Antibody test IgG/IgM\nCE approved",
+        "M/s CellexBioTech\n(Suzhou) Co. Ltd. China"
+      ],
+      [
+        "47.",
+        "M/s Alpine\nBiomedicals\nPvt Ltd, Haryana",
+        "",
+        "Rapid Antibody test\nIgG/IgM",
+        "Indigenous"
+      ],
+      [
+        "48.",
+        "M/s Abbott Healthcare\nPvt Ltd",
+        "",
+        "Chemiluminescent\nMicroparticle Immunoassay\nWith Architect System",
+        "M/s Abbott Ireland Diag Div.\nIreland"
+      ],
+      [
+        "49.",
+        "M/s Lab Care Diag,\nIndia Pvt Ltd",
+        "",
+        "Antibody test IgG/IgM",
+        "Indigenous"
+      ],
+      [
+        "50.",
+        "M/s.Nulife, Noida",
+        "",
+        "Antibody test IgG/IgM",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      764.81
+    ],
+    "n_rows": 17,
+    "n_cols": 4,
+    "rows": [
+      [
+        "51.",
+        "M/s Tulip Diagnostics\nPvt Ltd, Goa",
+        "Coviscreen-Rapid\nDouble Antigen test for\ndetection of IgG/IgM/IgA",
+        "Indigenous"
+      ],
+      [
+        "52.",
+        "M/s Roche\nDiagnostics India Pvt.\nLtd. Delhi",
+        "ECLIA\nElecys Anti SARS COV2",
+        "M/s Roche Diagnostics\nGmbH, Germany"
+      ],
+      [
+        "53.",
+        "M/s SidakLifeCare\nPvt. Ltd.",
+        "Antibody test IgG/IgM",
+        "Indigenous"
+      ],
+      [
+        "54.",
+        "M/s S.D Biosensor\nHealthCare Pvt. Ltd.",
+        "Standard Q COVID-19\nIgG/IgM Combo",
+        "Indigenous"
+      ],
+      [
+        "55.",
+        "M/s Diasorin\nHealthcare India Pvt.\nLtd.",
+        "CLIA",
+        "M/s Diasorin S.P.A, Itlay"
+      ],
+      [
+        "56.",
+        "M/s Mindray Medical\nIndia Pvt. Ltd. Mumbai",
+        "CLIA",
+        "M/s Shenzhen Mindray,\nChina"
+      ],
+      [
+        "57.",
+        "M/s Ortho Clinical\nDiagnostics India Pvt.\nLtd.",
+        "Vitros Immunodiagnostic\nTotal Reagent Pack",
+        "M/s Ortho Clinical\nDiagnostics, USA"
+      ],
+      [
+        "58.",
+        "M/s CliniExperts\nServices Pvt. Ltd",
+        "Antibody test IgG/IgM",
+        "M/s Europlaz Technologies,\nU.K"
+      ],
+      [
+        "59.",
+        "M/s Cadila Healthcare\nLtd.",
+        "ELISA",
+        "Indigenous"
+      ],
+      [
+        "60.",
+        "M/s McW Healthcare\nPvt Ltd",
+        "Antibody test IgG/IgM",
+        "M/s TechnogeneticsS.r.l\nItaly"
+      ],
+      [
+        "61.",
+        "M/s Omega Dx (Asia)\nPvt Ltd",
+        "ELISA",
+        "M/s Genesis Diagnostics\nLtd , UK"
+      ],
+      [
+        "62.",
+        "M/s Abbott Healthcare\nPvt Ltd",
+        "CMIA",
+        "M/s Abbott Ireland"
+      ],
+      [
+        "63.",
+        "M/S Ortho Clinical\nDiag.\nIndia Pvt. Ltd",
+        "CLIA, IgG qualitative\nimmunodiagnostic assay\nkit",
+        "M/S Ortho clinical Diag. UK"
+      ],
+      [
+        "64.",
+        "M/s Ortho Clinical\nDiag.India Pvt. Ltd",
+        "VITROS\n(Immunodiagnostics\nAssay Kit) including\nIgG,IgA and IgM",
+        "M/s Ortho clinical Diag. UK"
+      ],
+      [
+        "65.",
+        "M/s Tosoh India Pvt\nLtd",
+        "ELISA IgA, ELISA IgG,\nELISA IgM",
+        "M/s NovaTec GmbH,\nGermany"
+      ],
+      [
+        "66.",
+        "M/s Biorad\nLaboratories (India)\nPvt Ltd",
+        "Platellia SARS-COV2\nTotal Ab",
+        "M/s Biorad , France"
+      ],
+      [
+        "67.",
+        "M/s Novomed Inc Pvt\nLtd",
+        "ELISA IgG/IgM",
+        "M/s Ga Generic Assay\nGmbH Germany"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      766.97
+    ],
+    "n_rows": 20,
+    "n_cols": 4,
+    "rows": [
+      [
+        "68.",
+        "M/s Ortho Clinical\nDiag.India Pvt. Ltd",
+        "CLIA ,Vitros IgG",
+        "M/s Ortho clinical Diag. UK"
+      ],
+      [
+        "69.",
+        "M/s S D Biosensor\nHealthcare Pvt Ltd",
+        "Standard Q COVID-19Ag",
+        "Indigenous"
+      ],
+      [
+        "70.",
+        "M/s. J. Mitra",
+        "COVID IgM+IgG+IgA\nMicrolisa",
+        "Indigenous"
+      ],
+      [
+        "71.",
+        "M/s.Laj Exports Ltd",
+        "Rapid IgG/IgM",
+        "M/s. Biohit Healthcare\n(Hefei)Co Ltd China"
+      ],
+      [
+        "72.",
+        "M/s Siemens\nHealthcare Pvt Ltd",
+        ".ADVIA Centaur SARS-\nCOV-2 (IgG/IgM)",
+        "M/s Siemens Healthcare\nDiag. Inc USA"
+      ],
+      [
+        "73.",
+        "",
+        ".Atellica IM SARS-COV-\n2(IgG/IgM)",
+        ""
+      ],
+      [
+        "74.",
+        "",
+        "Dimension EXL SARS-\nCOV-2(IgG/IgM)",
+        ""
+      ],
+      [
+        "75.",
+        "M/s Inbios India",
+        "Detect IgG ELISA",
+        "M/s Inbios International Inc,\nUSA"
+      ],
+      [
+        "76.",
+        "M/s SirusBiocare Pvt\nLtd",
+        "SCO-2IgG ELISA",
+        "M/s Inbios International Inc,\nUSA"
+      ],
+      [
+        "77.",
+        "M/s Beckman Coulter\nIndia PVt Ltd",
+        "Access SARS-COV-2\nIgGCLIA",
+        "M/s Beckman Coulter\nIreland"
+      ],
+      [
+        "78.",
+        "M/S Karwa\nEnterprises Pvt Ltd",
+        "Karwa SARS CoV-2 IgG\nELISA",
+        "Indigenous"
+      ],
+      [
+        "79.",
+        "M/s POCT Services\nPvt Ltd",
+        "One step Novel (COVID-\n19) IgG antibody test",
+        "Indigenous"
+      ],
+      [
+        "80.",
+        "M/s SirusBiocare Pvt\nLtd",
+        "SCOV-2IgMELISA",
+        "M/s Inbios International Inc,\nUSA"
+      ],
+      [
+        "81.",
+        "M/s Ubio\nBiotechnology\nSystems Pvt Ltd",
+        "Covid IgG/IgM Rapid",
+        "Indigenous"
+      ],
+      [
+        "82.",
+        "M/s Trivitron\nHealthcare Pvt Ltd",
+        "Covid Screen Plus ELISA\nkit IgG/IgM/IgA",
+        "Indigenous"
+      ],
+      [
+        "83.",
+        "M/s Inbios India",
+        "SCOV-2Detect IgM ELISA",
+        "M/s Inbios International Inc\nUSA"
+      ],
+      [
+        "84.",
+        "M/s Lab Care Diag.\nIndia Pvt Ltd",
+        "COVID-19 Antigen Lateral\nFlow Test Device",
+        "Indigenous"
+      ],
+      [
+        "85.",
+        "M/s Vishat Diag. Pvt\nLtd",
+        "COVID-19 Ag Respi-Strip",
+        "M/s CorisBioconcept,\nBelgium"
+      ],
+      [
+        "86.",
+        "M/s Cadila Healthcare\nLtd",
+        "COV-2IgG Antibody\ndetection ELISA (COVID\nKAVACH)",
+        "Indigenous"
+      ],
+      [
+        "87.",
+        "M/s Siemens\nHealthcare Pvt Ltd",
+        "Atellica IM SARS-COV-2\nIgG",
+        "M/s Siemens Healthcare\nDiag. Inc USA"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      739.95
+    ],
+    "n_rows": 15,
+    "n_cols": 4,
+    "rows": [
+      [
+        "88.",
+        "M/s J. Mitra &Co.Pvt\nLtd",
+        "COVID Kawach IgG\nMicrolisa",
+        "Indigenous"
+      ],
+      [
+        "89.",
+        "M/S Biomerieux India\nPvt Ltd",
+        "VIDAS SARS-COV-2 IgM\nVIDAS SARS-COV-2 IgG",
+        "M/s Biomerieux SA France"
+      ],
+      [
+        "90.",
+        "M/s Aspen\nLaboratories Pvt Ltd",
+        "SARS-CoV-2 ELISA IgG\nKit",
+        "Indigenous"
+      ],
+      [
+        "91.",
+        "M/s Trivitron\nHealthcare Pvt Ltd",
+        "SARS-CoV-2 ELISA IgG\nKit",
+        "Indigenous"
+      ],
+      [
+        "92.",
+        "M/s Voxtur Bio Ltd",
+        "Cov -2 IgG ELISA",
+        "Indigenous"
+      ],
+      [
+        "93.",
+        "M/s MerilDiag Pvt Ltd",
+        "Covid -19 IgG/IgM rapid",
+        "Indigenous"
+      ],
+      [
+        "94.",
+        "M/s Oscar Medicare\nPvt Ltd",
+        "Antibody detection kit",
+        "Indigenous"
+      ],
+      [
+        "95.",
+        "M/s Diasure\nImmunodiagnostics",
+        "Covid Rapid Test Cassette",
+        "M/s Biopanda Reagents\nU.K"
+      ],
+      [
+        "96.",
+        "M/s Immunoshop\nIndia Pvt Ltd",
+        "SARS COV-2 Ab ELISA",
+        "M/S Beijing Wantai\nBiological Pharmacy\nEnterprises Co. Ltd"
+      ],
+      [
+        "97.",
+        "M/s Tulip Diag. Pvt Ltd",
+        "Double Antigen Screening\nTest",
+        "Indigenous"
+      ],
+      [
+        "98.",
+        "M/sAthenese Dx Pvt\nLtd",
+        "Covid-19 Ab Rapid test",
+        "Indigenous"
+      ],
+      [
+        "99.",
+        "M/s Nulife",
+        "Covid -19 IgG/IgM\nAntibody rapid test",
+        "Indigenous"
+      ],
+      [
+        "100.",
+        "M/s Trivitron\nHealthcare",
+        "Biocard Pro Covid-19\nAntigen test",
+        "Indigenous"
+      ],
+      [
+        "101.",
+        "M/s. Himedia\nLaboratories Pvt Ltd",
+        "ELISA Antibody Test Kit for\nCOVID-19 Detection",
+        "Indigenous"
+      ],
+      [
+        "102.",
+        "M/s. POCT Services\nPrivate Limited",
+        "Covid ELISA Test for the\nDetection of IgG Antibodies",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      764.69
+    ],
+    "n_rows": 15,
+    "n_cols": 4,
+    "rows": [
+      [
+        "103.",
+        "M/s. MD Next Life\nSciences LLP, New\nDelhi.",
+        "SARS CoV 2 IgG/IgM\nRapid Test Kit",
+        "M/s TBG Biotech\nCorp, Taiwan"
+      ],
+      [
+        "104.",
+        "M/s Beckman Coulter\nIndia Private Limited,\nChennai",
+        "ACCESS SARS-CoV-2 IgM\n(CLIA)",
+        "M/s Beckman Coulter\nIreland Inc, Ireland"
+      ],
+      [
+        "105.",
+        "M/s Vishat Diagnostic\nPvt Ltd, Pune",
+        "GenBody COVID-19 Ag",
+        "M/s GenBody Inc, South\nKorea."
+      ],
+      [
+        "106.",
+        "M/s Angstrom Biotech\nPvt. Ltd, Haryana",
+        "COVID 19 ANTIGEN KIT",
+        "Indigenous"
+      ],
+      [
+        "107.",
+        "M/s. Premier Medical\nCorporation Private\nLimited, Gujarat.",
+        "COVID-19 IgG/IgM Card\nTest",
+        "Indigenous"
+      ],
+      [
+        "108.",
+        "M/s. Premier Medical\nCorporation Private\nLimited, Gujarat.",
+        "COVID-19 Antigen Card\nTest",
+        "Indigenous"
+      ],
+      [
+        "109.",
+        "M/s Alere Medical\nPrivate Limited,\nHaryana",
+        "Panbio SARS-CoV-2 IgG\nELISA",
+        "M/s Axis-Shield Diagnostics\nLtd, UK"
+      ],
+      [
+        "110.",
+        "M/s Meril Diagnostics\nPrivate Limited,\nGujarat",
+        "COVID-19 Antigen\nDetection Test Kit",
+        "Indigenous"
+      ],
+      [
+        "111.",
+        "M/s Thermo Fisher\nScientific India Pvt.\nLtd, Telangana",
+        "COVID-19 Total Antibody\nELISA Test",
+        "M/s Fisher Diagnosticsa\nDivision Of Fisher Scientific\nCompany LLCa Part Of\nThermo Fisher Scientific\nInc, USA"
+      ],
+      [
+        "112.",
+        "M/s Oscar Medicare\nPrivate Limited, Delhi",
+        "CORONA IgG ELISA",
+        "Indigenous"
+      ],
+      [
+        "113.",
+        "M/s Ubio\nBiotechnology\nSystems Private\nLimited, Kerala.",
+        "COVID-19 Ag Test",
+        "Indigenous"
+      ],
+      [
+        "114.",
+        "M/s Fitcare Private\nLimited, Assam.",
+        "COVID-19 Antigen Rapid\nTest",
+        "M/s Genbody Inc, South\nKorea"
+      ],
+      [
+        "115.",
+        "M/s Deep Meditech\nPvt. Ltd. Delhi",
+        "PCL COVID19 Ag Rapid\nFIA",
+        "M/s PCL, Inc, South Korea."
+      ],
+      [
+        "116.",
+        "M/s Oscar Medicare\nPrivate Limited, Delhi",
+        "Corona Antigen test",
+        "Indigenous"
+      ],
+      [
+        "117.",
+        "M/s Alpine\nBiomedicals Private\nLimited, Haryana",
+        "Alpine One Step Novel\nCoronavirus (COVID-19)\nAntigen Rapid Test Kit",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      68.65,
+      64.03,
+      527.76,
+      757.61
+    ],
+    "n_rows": 14,
+    "n_cols": 4,
+    "rows": [
+      [
+        "118.",
+        "M/s Advy Chemical\nPvt Ltd, Mumbai",
+        "EzDx Covid -19 IgG/IgM\nrapid antibody test for\ndetection of IgG and IgM\nantibodies in human\nserum/plasma/Whole blood",
+        "Indigenous"
+      ],
+      [
+        "119.",
+        "M/s Genuine\nBiosystem Private\nLimited, Chennai",
+        "Covid-19 S1 RBD IgG\nELISA kit",
+        "Indigenous"
+      ],
+      [
+        "120.",
+        "M/s Oscar Medicare\nPrivate Limited, Delhi",
+        "Corona IgG antibody\ndetection Test",
+        "Indigenous"
+      ],
+      [
+        "121.",
+        "M/s Roche\nDiagnostics India Pvt.\nLtd, Maharashtra",
+        "Elecsys Anti-SARS-CoV-2\nS (ECLIA)",
+        "M/s Roche Diagnostics\nGmbH, Germany"
+      ],
+      [
+        "122.",
+        "M/s ADVY CHEMICAL\nPVT. LTD,\nMaharashtra",
+        "Covid -19 IgG/IgM antibody\ntest Uncut sheet",
+        "M/s Humasis Co. Ltd.,\nSouth Korea"
+      ],
+      [
+        "123.",
+        "M/s.\nBhartivaishHealthcare,\nJharkhand",
+        "COVID-19 IgM/IgG Rapid\nTest ( INDICAID or\nORAWELL)",
+        "M/s. Jiangsu Well Biotech\nCo., Ltd, China"
+      ],
+      [
+        "124.",
+        "M/s Oscar Medicare\nPrivate Limited, Delhi",
+        "Optra Shield-COVID-19\n(IgG) Rapid Test Kit",
+        "Indigenous"
+      ],
+      [
+        "125.",
+        "M/s Alere Medical\nPrivate Limited,\nHaryana",
+        "Panbio™ COVID-19 Ag\nRapid Test Device\n(Nasopharyngeal)",
+        "M/s Abbott Diagnostics\nKorea Inc, South Korea"
+      ],
+      [
+        "126.",
+        "M/s EDGE PHARMA\nPRIVATE LIMITED,\nMumbai",
+        "EDGEXPRESS - COVID-\n19\nantibody detection test",
+        "Indigenous"
+      ],
+      [
+        "127.",
+        "M/s Promea\nTherapeutics Private\nLimited, Hyderabad",
+        "COVID 19 IgG ELISA",
+        "Indigenous"
+      ],
+      [
+        "128.",
+        "M/s. ZEPHYR\nBIOMEDICALS A\nDIVISION OF TULIP\nDIAGNOSTICS\nPRIVATE LIMITED,\nGoa",
+        "Rapid test for detection of\nSARS-CoV-2 Antigen in\nhuman nasal swab (NS)\nand nasopharyngeal (NP)\nswab specimens\n( PerkinElmer COVID-19\nAntigen Test (NS, NP))",
+        "Indigenous"
+      ],
+      [
+        "129.",
+        "M/s Strumed Solutions\nPrivate Limited,\nChennai",
+        "iNSTAXPLOR COVID 19\nRAPID ANTIGEN TEST",
+        "Indigenous"
+      ],
+      [
+        "130.",
+        "M/s. Tricell Biologics\nPrivate Limited,\nChennai",
+        "COVID-19 Antigen Rapid\nTest Kit",
+        "M/s Panion& BF Biotech\nInc., Taiwan"
+      ],
+      [
+        "131.",
+        "M/s. Immunoscience\nIndia Private Limited,\nPune",
+        "ImmunoQuickRapid Test\nfor Detection of COVID-19\nAntigen-Device &",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      68.65,
+      64.03,
+      527.76,
+      767.09
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "132.",
+        "",
+        "ImmunoQuickRapid Test\nfor Detection of Novel\nCoronavirus (COVID-19)\nIgG AntibodiesDevice",
+        "Indigenous"
+      ],
+      [
+        "133.",
+        "M/s Abbott Healthcare\nPvt. Ltd, Chennai",
+        "SARS-CoV-2 IgG II Quant\nReagent Kit( (CMIA)\n(Used on ARCHITECT i\nSystem)",
+        "M/s Abbott Ireland\nDiagnostics Division,\nIreland."
+      ],
+      [
+        "134.",
+        "M/s Zephyr\nBiomedicals A\nDivision Of Tulip\nDiagnostics Private\nLimited, Goa.",
+        "Anti-SARS Coronavirus\nCOVID-19 IgG ELISA for\nthe qualitative detection of\nIgG\nantibodies to SARS CoV-2\nin human serum/plasma\n( QUALISA COVID 19 IgG\nELISA)",
+        "Indigenous"
+      ],
+      [
+        "135.",
+        "M/s. Ortho Clinical\nDiagnostics India\nPrivate Limited,\nThane, Maharashtra.",
+        "VITROS Immunodiagnostic\nProducts SARS-CoV-2\nAntigen Reagent Pack",
+        "M/s Ortho Clinical\nDiagnostics Inc, USA"
+      ],
+      [
+        "136.",
+        "M/s Siemens\nHealthcare Private\nLimited, Haryana",
+        "Dimension® EXL™\nSARSCoV2 IgG (CV2G)\nAssay",
+        "M/s Siemens Healthcare\nDiagnostics Inc, USA"
+      ],
+      [
+        "137.",
+        "M/s Diagnocure India,\nSolan , HP",
+        "Xamin Covid-19 IgG Rapid\nTest Device",
+        "Indigenous"
+      ],
+      [
+        "138.",
+        "M/s Abbott Healthcare\nPvt. Ltd, Chennai",
+        "SARS-CoV-2 IgG II Quant\nReagent Kit( (CMIA)\n(Used on Alinityi system.)",
+        "M/s Abbott Ireland\nDiagnostics Division,\nIreland."
+      ],
+      [
+        "139.",
+        "M/s ZEPHYR\nBIOMEDICALS A\nDIVISION OF TULIP\nDIAGNOSTICS\nPRIVATE LIMITED,\nGoa",
+        "COVIRAT -Rapid test for\ndetection of SARS-CoV-2\nAntigen in human\nnasopharyngeal swab\nspecimens (Device)",
+        "Indigenous"
+      ],
+      [
+        "140.",
+        "M/s Advy Chemical\nPvt Ltd, Mumbai",
+        "EzDxCovid-19 Rapid\nAntigen test for the\nQualitative detection of\nSARS-CoV-2 antigen from\nnasopharyngeal swab\nSpecimen",
+        "Indigenous"
+      ],
+      [
+        "141.",
+        "M/s Meril Diagnostics\nPrivate Limited,",
+        "COVID-19 Neutralizing\nAntibody ELISA\nTest(Meriscreen)",
+        "Indigenous"
+      ],
+      [
+        "142.",
+        "M/s. Ortho Clinical\nDiagnostics India\nPrivate Limited,\nMumbai",
+        "VITROS Immunodiagnostic\nProducts SARS-CoV-2\nAntigen Reagent Pack",
+        "M/s Ortho Clinical\nDiagnostics, UK"
+      ],
+      [
+        "143.",
+        "M/s Roche\nDiagnostics India Pvt.\nLtd., Mumbai",
+        "SARS-CoV-2 Rapid\nAntigen Test",
+        "M/s SD Biosensor, South\nKorea"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      768.41
+    ],
+    "n_rows": 16,
+    "n_cols": 4,
+    "rows": [
+      [
+        "144.",
+        "M/s Sidak Life Care\nPvt Ltd, New Delhi",
+        "Antigen Test Kit (COVID\n19)",
+        "Indigenous"
+      ],
+      [
+        "145.",
+        "M/s Beckman Coulter\nIndia Private Limited,\nChennai",
+        "ACCESS SARS-CoV-2 IgG\nII Reagent Kit (CLIA)",
+        "M/s Beckman Coulter, Inc.,\nUSA"
+      ],
+      [
+        "146.",
+        "M/s Meril Diagnostics\nPrivate Limited,\nGujarat",
+        "Covid-19 Neutralizing\nAntibody Rapid Test(EVO)\n(Additional brand)",
+        "Indigenous"
+      ],
+      [
+        "147.",
+        "M/s J. MITRA & CO.\nPVT. LTD",
+        "COVID-19 Neutralizing\nAntibody Microlisa",
+        "Indigenous"
+      ],
+      [
+        "148.",
+        "M/s Meril Diagnostics\nPrivate Limited,\nGujarat",
+        "COVID-19 Neutralizing\nAntibody ELISA Test\n(Merilisa)",
+        "Indigenous"
+      ],
+      [
+        "149.",
+        "M/s Oscar Medicare\nPrivate Limited, Delhi",
+        "Corona IgG Antibody\nDetection Test",
+        "Indigenous"
+      ],
+      [
+        "150.",
+        "M/s Trivitron\nHealthcare Pvt. Ltd,\nChennai",
+        "SARS-CoV-2 S-RBD IgG\n(CLIA)",
+        "M/s Shenzhen New\nIndustries Biomedical\nEngineering Co., Ltd, China"
+      ],
+      [
+        "151.",
+        "M/s PREMIER\nMEDICAL\nCORPORATION\nPRIVATE LIMITED,\nGujarat",
+        "COVID-19 Antigen Card\nTest (NC/PC) - Sure Status",
+        "Indigenous"
+      ],
+      [
+        "152.",
+        "",
+        "COVID-19 Antigen Card\nTest (Home Test - Export) -\nSure Status",
+        "Indigenous"
+      ],
+      [
+        "153. \\",
+        "M/s Meril Diagnostics\nPrivate Limited,\nGujarat",
+        "COVID-19 IgG/IgM Rapid\nTest ( EVO) (Additional\nbrand)",
+        "Indigenous"
+      ],
+      [
+        "154.",
+        "",
+        "COVID-19 Antigen\nDetection Test( EVO)\n(Additional brand)",
+        "Indigenous"
+      ],
+      [
+        "155.",
+        "M/s Meril Diagnostics\nPrivate Limited,\nGujarat",
+        "COVID-19 Antigen\nDetection Test\n(MERISCREEN PLUS)",
+        "Indigenous"
+      ],
+      [
+        "156.",
+        "M/s Siemens\nHealthcare Private\nLimited, Gurgaon",
+        "ADVIA Centaur SARS-\nCoV2 IgG (sCOVG) (CLIA)",
+        "M/s Siemens Healthcare\nDiagnostics Inc, USA"
+      ],
+      [
+        "157.",
+        "M/s Biofootprints\nHealthcare Pvt Ltd,\nNew Delhi",
+        "Mytest COVID-19 Ag Test\nKit",
+        "Indigenous"
+      ],
+      [
+        "158.",
+        "M/s Diagnocure India,\nBaddi, Solan",
+        "XAMIN COVID-19 Ag\nRapid Test Device",
+        "Indigenous"
+      ],
+      [
+        "159.",
+        "M/s Oscar Medicare\nPrivate Limited,\nHaridwar, Uttarakhand",
+        "OSCAR Corona Antigen\nTest",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      758.69
+    ],
+    "n_rows": 15,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "(India)",
+        "",
+        ""
+      ],
+      [
+        "160.",
+        "M/s. Meril\nDiagnostics Private\nLimited, Gujarat",
+        "Meril COVID-19 antigen\ndetection test (FIA)",
+        "Indigenous"
+      ],
+      [
+        "161.",
+        "M/s Vanguard\nDiagnostics Pvt. Ltd,\nNew Delhi.",
+        "DIPCOVAN&DIPAS-VDx\nCovid 19 IgG ELISA test kit",
+        "Indigenous"
+      ],
+      [
+        "162.",
+        "M/s Medzome Life\nSciencez Private\nLimited, New Delhi",
+        "FutureCare COVID-19\nAntigen Detection Kit",
+        "Indigenous"
+      ],
+      [
+        "163.",
+        "M/s PATHSHODH\nHEALTHCARE PVT\nLTD, Bangalore",
+        "anuPathCOVID-19 Total\nAntibody (IgM+IgG) Test\nStrips",
+        "Indigenous"
+      ],
+      [
+        "164.",
+        "M/s Roche\nDiagnostics India Pvt.\nLtd, Mumbai",
+        "SARS-CoV-2 Rapid\nAntigen Test Nasal",
+        "M/s SD Biosensor, South\nKorea."
+      ],
+      [
+        "165.",
+        "M/s Roche\nDiagnostics India Pvt.\nLtd, Mumbai",
+        "Elecsys SARS-CoV-2\nAntigen (ECLIA)",
+        "M/s Roche Diagnostics\nGmbH, Germany"
+      ],
+      [
+        "166.",
+        "M/s Alere Medical\nPrivate Limited,\nRewari, Haryana",
+        "Panbio™ COVID-19 Ag\nRapid Test Device (Nasal)",
+        "M/s Abbott Diagnostics\nKorea Inc, South Korea"
+      ],
+      [
+        "167.",
+        "M/s M/s Athenese -Dx\nPrivate Limited,\nChennai",
+        "TRUSTlineCOVID-19 Ag\nRapid Test",
+        "Indigenous"
+      ],
+      [
+        "168.",
+        "M/s Becton Dickinson\nIndia Private Limited,\nChennai",
+        "BD Veritor System For\nRapid Detection of SARS-\nCoV-2 Antigen\n(chromatographic digital\nimmunoassay)",
+        "M/s BD Rapid Diagnostics\n(Suzhou) Co. Ltd., China"
+      ],
+      [
+        "169.",
+        "M/s Becton Dickinson\nIndia Private Limited,\nChennai",
+        "BD Veritor System For\nRapid Detection of SARS-\nCoV-2 (Model no. 256082)",
+        "M/s BD Rapid Diagnostics\n(Suzhou) Co. Ltd, China"
+      ],
+      [
+        "170.",
+        "M/s. Peerless Biotech\nPvt. Ltd. Chennai",
+        "Flowflex SARS-CoV-2\nAntigen Rapid Test",
+        "M/s Acon Biotech\n(Hangzhou) Co. Ltd., China."
+      ],
+      [
+        "171.",
+        "M/s Diasorin\nHealthcare India Pvt.\nLtd, Mumbai",
+        "LIAISON® SARS-CoV-2\nIgM (CLIA)",
+        "M/s DiaSorin S.p.A., Italy"
+      ],
+      [
+        "172.",
+        "M/s Trivitron\nHealthcare Pvt. Ltd,\nChennai",
+        "SARS-CoV-2 Neutralizing\nAntibody (CLIA)",
+        "M/s Shenzhen New\nIndustries Biomedical\nEngineering Co., Ltd, China"
+      ],
+      [
+        "173.",
+        "M/s QIAGEN India\nPvt. Ltd, Delhi",
+        "mo-screen Corona Antigen\nTest",
+        "M/s Zhejiang Orient Gene\nBiotech Co., Ltd, China"
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      763.49
+    ],
+    "n_rows": 19,
+    "n_cols": 4,
+    "rows": [
+      [
+        "174.",
+        "M/s SNIBE\nDIAGNOSTIC (India)\nPrivate Limited,\nGurgaon",
+        "MAGLUMI SARS-CoV-2\nAg (CLIA)",
+        "M/s Shenzhen New\nIndustries Biomedical\nEngineering Co., Ltd.,\nChina"
+      ],
+      [
+        "175.",
+        "",
+        "MAGLUMI SARS-CoV-2\nNeutralizing Antibody\n(CLIA)",
+        ""
+      ],
+      [
+        "176.",
+        "",
+        "MAGLUMI SARS-CoV-2 S-\nRBD IgG (CLIA)",
+        ""
+      ],
+      [
+        "177.",
+        "M/s. Microlyn\nHealthcare Private\nLimited, Chennai",
+        "SARS-COV-2 IgG",
+        "M/s DIALAB Produktion,\nAustria"
+      ],
+      [
+        "178.",
+        "M/s Imperial Life\nSciences Pvt. Ltd,\nGurgaon, Haryana",
+        "BIOCREDIT COVID-19 Ag",
+        "M/s RapiGEN INC., South\nKorea"
+      ],
+      [
+        "179.",
+        "M/s Becton Dickinson\nIndia Private Limited,\nChennai",
+        "BD Kit for Rapid Detection\nof SARS-CoV-2 Antigen",
+        "M/s BD Rapid Diagnostics\n(Suzhou) Co. Ltd., China"
+      ],
+      [
+        "180.",
+        "M/s Biolab\nDiagnostics India Pvt.\nLtd, Mumbai",
+        "Rapid diagnostics kit for\nCovid 19 Antigen",
+        "Indigenous"
+      ],
+      [
+        "181.",
+        "M/s. Ortho Clinical\nDiagnostics India\nPrivate Limited,\nMumbai",
+        "VITROS Immunodiagnostic\nProducts Anti-SARS-CoV-2\nIgG 2 Reagent Pack",
+        "M/s Ortho Clinical\nDiagnostics, UK"
+      ],
+      [
+        "182.",
+        "M/s Immunoshop\nIndia Pvt Ltd, Mumbai",
+        "MAGLUMI - SARS-CoV-2\nS-RBD IgG (CLIA)",
+        "M/s Shenzhen New\nIndustries Biomedical\nEngineering Co., Ltd, China"
+      ],
+      [
+        "183.",
+        "",
+        "MAGLUMI SARS-CoV-2\nNeutralizing Antibody",
+        ""
+      ],
+      [
+        "184.",
+        "M/s Matrix Labs,\nChennai",
+        "SARS-CoV-2 IgG II CLIA\nMicroparticles",
+        "M/s Autobio Diagnostics\nCo. Ltd, China"
+      ],
+      [
+        "185.",
+        "",
+        "SARS-CoV-2 IgM II CLIA\nMicroparticles",
+        ""
+      ],
+      [
+        "186.",
+        "",
+        "Anti-SARS-CoV-2 RBD\nCLIA Microparticles and\nSARS-CoV-2 NAb Q CLIA\nMicroparticles",
+        ""
+      ],
+      [
+        "187.",
+        "M/s Weldon Biotech\nIndia Pvt. Ltd, Delhi",
+        "Ichroma COVID-19 Ag",
+        "M/s Boditech Med Inc.,\nSouth Korea"
+      ],
+      [
+        "188.",
+        "M/s Nulife, Noida",
+        "AbChek Covid-19 Antigen\nRapid test kit",
+        "Indigenous"
+      ],
+      [
+        "189.",
+        "M/s Agappe\nDiagnostics Ltd.\nKerala",
+        "AG-Q COVID-19 N Antigen\nRapid Diagnostic Test Kit",
+        "Indigenous"
+      ],
+      [
+        "190.",
+        "M/s Biotime\nHealthcare Pvt Ltd,\nAhmedabad, Gujarat",
+        "Vazyme Severe Acute\nRespiratory Syndrome\nCoronavirus 2 (SARSCoV-\n2) Antigen",
+        "M/s Nanjing Vazyme\nMedical Technology Co.,\nLtd, China"
+      ],
+      [
+        "191.",
+        "M/s YUVRAJ BIOBIZ\nINCUBATOR INDIA\nPRIVATE LIMITED,\nChennai",
+        "YBIO COVID19 AG TEST",
+        "Indigenous"
+      ],
+      [
+        "192.",
+        "M/s TCM Limited,\nKerala",
+        "fluorecare SARS-CoV-2\nSpike Protein Test Kit\n(Colloidal Gold\nChromatographic",
+        "M/s Shenzhen Microprofit\nBiotech Co. Ltd., China"
+      ]
+    ]
+  },
+  {
+    "page": 13,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      768.89
+    ],
+    "n_rows": 18,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "",
+        "Immunoassay)",
+        ""
+      ],
+      [
+        "193.",
+        "M/s MYLAB\nDISCOVERY\nSOLUTION PVT. LTD,\nPune",
+        "COVID-19 ANTIGEN\nLATERAL FLOW TEST\nDEVICE OTC HOME TEST",
+        "Indigenous"
+      ],
+      [
+        "194.",
+        "M/s Diagnostic\nEnterprises, HP",
+        "COVID 19 ANTIGEN\nCARD",
+        "Indigenous"
+      ],
+      [
+        "195.",
+        "M/s Dia Sure\nImmunodiagnostic\nLLP, Delhi",
+        "DSI Rapid Antigen Test for\nNovel Corona Virus\n(nCOVID-19)",
+        "Indigenous"
+      ],
+      [
+        "196.",
+        "M/s PerkinElmer\nHealth Sciences Pvt.\nLtd, Chennai",
+        "GSP®/DELFIA® Anti-\nSARS-CoV-2 IgG kit",
+        "M/s Wallac Oy, Finland"
+      ],
+      [
+        "197.",
+        "M/s. Ortho Clinical\nDiagnostics India\nPrivate Limited,\nMumbai",
+        "VITROS Immunodiagnostic\nProducts SARS-CoV-2\nAntigen Reagent Pack",
+        "M/s Ortho Clinical\nDiagnostics, UK"
+      ],
+      [
+        "198.",
+        "M/s Matrix Labs,\nChennai",
+        "Finecare™ 2019-nCoV\nAntigen Test",
+        "M/s GUANGZHOU\nWONDFO BIOTECH CO.\nLTD, China"
+      ],
+      [
+        "199.",
+        "M/s J. MITRA & CO.\nPVT. LTD., New Delhi",
+        "COVID 19 Ag Microlisa -\nELISA",
+        "Indigenous"
+      ],
+      [
+        "200.",
+        "M/s BIODX\nHEALTHCARE, New\nDelhi",
+        "SARS-CoV-2 Antigen\nAssay Kit (Colloidal Gold\nMethod)",
+        "M/s Zybio Inc, China"
+      ],
+      [
+        "201.",
+        "M/s INVEX HEALTH\nPRIVATE LIMITED,\nMP",
+        "Wondfo 2019- nCoV\nAntigen Test",
+        "M/s Guangzhou Wondfo\nBiotech Co, Ltd., China"
+      ],
+      [
+        "202.",
+        "M/s POCT Services\nPrivate Limited, New\nDelhi",
+        "Flowflex Sars-COV-2\nAntigen Rapid Test",
+        "M/s Acon Biotech\n(Hangzhou) Co. Ltd. China"
+      ],
+      [
+        "203.",
+        "M/s DEEP\nMEDITECH PVT.\nLTD, New Delhi",
+        "Flowflex Sars-COV-2\nAntigen Rapid Test",
+        "M/s Acon Biotech\n(Hangzhou) Co., Ltd., China"
+      ],
+      [
+        "204.",
+        "M/s Regulatory1,\nBengaluru",
+        "SARS-CoV-2 Antigen Test\nKit (LFIA)",
+        "M/s Jiangsu Medomics\nMedical Technology Co.\nLtd, China"
+      ],
+      [
+        "205.",
+        "M/s Viola Diagnostic\nSystems - A Division\nOf Tulip Diagnostics\nPrivate Limited,,\nPANTNAGAR,\nUttarakhand",
+        "Rapid test for detection of\nSARS-CoV-2 Antigen in\nhuman nasopharyngeal\nswab specimens (Device)",
+        "Indigenous"
+      ],
+      [
+        "206.",
+        "M/s Vishat Diagnostic\nPvt Ltd, Mumbai",
+        "All Test COVID-19 Antigen\nRapid Test",
+        "M/s Hangzhou AllTest\nBiotech Co., Ltd., China"
+      ],
+      [
+        "207.",
+        "M/s PREMIER\nMEDICAL\nCORPORATION\nPRIVATE LIMITED,\nGujarat",
+        "COVID-19 Antigen Card\nTest (Nasal Swab) FOR\nEXPORT ONLY",
+        "Indigenous"
+      ],
+      [
+        "208.",
+        "M/s Meril Diagnostics\nPrivate Limited,\nGujarat",
+        "Covid-19 Antigen Self Test",
+        "Indigenous"
+      ],
+      [
+        "209.",
+        "M/s Alere Medical\nPrivate Limited,",
+        "Panbio COVID-19 Antigen\nSelf Test",
+        "M/s Abbott Diagnostics\nKorea Inc, South Korea"
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      769.37
+    ],
+    "n_rows": 19,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Haryana",
+        "",
+        ""
+      ],
+      [
+        "210.",
+        "M/s Excel Global\nHealth, Karnataka",
+        "V-Strip COVID-19 Rapid\nAntigen Test Kit",
+        "M/s Panion & BF Biotech\nInc., Taiwan"
+      ],
+      [
+        "211.",
+        "M/s PATHKITS\nHEALTHCARE\nPRIVATE LIMITED,\nHaryana",
+        "PathKits SimpleCOVID-19\nAg Rapid Test",
+        "Indigenous"
+      ],
+      [
+        "212.",
+        "M/s Cadila Healthcare\nLimited, Gujarat",
+        "ZyCoRapSARS CoV-2\nAntigen Rapid Test",
+        "Indigenous"
+      ],
+      [
+        "213.",
+        "M/s Lab-Care\nDiagnostics India Pvt.\nLtd., Gujarat",
+        "COVID-19 Neutralizing\nAntibody ELISA Kit",
+        "Indigenous"
+      ],
+      [
+        "214.",
+        "M/s Diasorin\nHealthcare India Pvt.\nLtd, Mumbai",
+        "LIAISON® SARS-CoV-2\nTrimericS IgG",
+        "M/S DIASORIN INC. USA"
+      ],
+      [
+        "215.",
+        "M/s. CPC Diagnostics\nPvt, Ltd, Chennai",
+        "iFlash-2019-nCoV NAb",
+        "M/s. Shenzhen YHLO\nBiotech Co., Ltd , China"
+      ],
+      [
+        "216.",
+        "M/s Hotgen Biotech\nIndia Private Limited,\nMumbai",
+        "Novel Coronavirus 2019-\nnCoV Antibody Test (Up-\nconverting Phosphor\nImmunochromatographic\nTechnology)",
+        "M/s Beijing Hotgen Biotech\nCo., Ltd., China"
+      ],
+      [
+        "217.",
+        "M/s Mylab Discovery\nSolutions Pvt. Ltd.,\nAdditional optional\nSite for Packing,\nPune.",
+        "CoviSelf TM COVID-19\nANTIGEN LATERAL\nFLOW TEST DEVICE OTC\nHOME TEST",
+        "Indigenous"
+      ],
+      [
+        "218.",
+        "M/s Diabetomics\nMedical Private\nLimited, Telangana",
+        "CovAbScreenTM SARS-\nCoV-2 Ab Test",
+        "Indigenous"
+      ],
+      [
+        "219.",
+        "M/s. Ortho Clinical\nDiagnostics India\nPrivate Limited,\nMumbai",
+        "VITROS Immunodiagnostic\nProducts Anti-SARS-CoV-2\nIgG Quantitative Reagent\nPack",
+        "M/s Ortho Clinical\nDiagnostics, UK"
+      ],
+      [
+        "220.",
+        "M/s Athenese -Dx\nPrivate Limited,\nChennai",
+        "TRUSTwell COVID-19 IgG\nELISA Kit",
+        "Indigenous"
+      ],
+      [
+        "221.",
+        "M/s GENES 2ME\nPVT. LTD, Delhi",
+        "RapiCov Rapid Antigen\nTest Kit for COVID-19",
+        "Indigenous"
+      ],
+      [
+        "222.",
+        "M/s Becton Dickinson\nIndia Private Limited,\nChennai",
+        "BD Veritor System For\nRapid Detection of SARS-\nCoV-2\n(Model no. 256089)",
+        "M/s BD Rapid Diagnostics\n(Suzhou) Co. Ltd, China"
+      ],
+      [
+        "223.",
+        "M/s Meril Diagnostics\nPrivate Limited,\nGujarat",
+        "CoviFind Covid-19 Antigen\nTest",
+        "Indigenous"
+      ],
+      [
+        "224.",
+        "M/s Parekh Integrated\nServices Pvt. Ltd,\nRewari, Haryana",
+        "QuickVue® SARS Antigen\nTest",
+        "M/s QUIDEL\nCORPORATION, California,\nUSA."
+      ],
+      [
+        "225.",
+        "M/s Parekh Integrated\nServices Pvt. Ltd,\nRewari, Haryana",
+        "LumiraDx SARS-CoV-2 Ag\nTest Strip Kit",
+        "M/s LumiraDx UK Ltd., UK"
+      ],
+      [
+        "226.",
+        "M/s Oscar Medicare\nPrivate Limited, Delhi",
+        "identi SARS-CoV-2 Rapid\nAntigen Test",
+        "Indigenous"
+      ],
+      [
+        "227.",
+        "M/s Seloi Healthcare",
+        "INSTA COVID Antigen",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      768.41
+    ],
+    "n_rows": 17,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Pvt Ltd, Mumbai",
+        "Rapid\nTest",
+        ""
+      ],
+      [
+        "228.",
+        "M/s SD Biosensor\nHealthcare Pvt. Ltd,\nGurgaon, Haryana",
+        "ULTRA COVID-19 Ag\nOne Step COVID-19\nAntigen Test (Additional\nBrand)",
+        "Indigenous"
+      ],
+      [
+        "229.",
+        "M/s Nulife, Uttar\nPradesh (India) -\n201301",
+        "Home Test -Covid-19\nAntigen Rapid kit",
+        "Indigenous"
+      ],
+      [
+        "230.",
+        "M/s Transasia Bio-\nMedicals Ltd, Mumbai",
+        "EbraQik COVID-19 Antigen\nTest Card",
+        "Indigenous"
+      ],
+      [
+        "231.",
+        "M/s PATANJALI\nPHARMA PRIVATE\nLIMITED, Mumbai",
+        "Cov Ant One Step Covid-\n19 Antigen Test",
+        "Indigenous"
+      ],
+      [
+        "232.",
+        "M/s SD Biosensor\nHealthcare Pvt.Ltd,\nHaryana",
+        "ULTRA Covi-Catch ,\nULTRA\nCoviCatch One Step\nCOVID-19 Antigen Test\n(Self Test)",
+        "Indigenous"
+      ],
+      [
+        "233.",
+        "M/s. NeoDx Biotech\nLabs Pvt Ltd,\nBengaluru",
+        "Cassette - SARS-CoV-2\nAntigen Test",
+        "M/s. ACON Biotech\n(Hangzhou) Co., Ltd., China"
+      ],
+      [
+        "234.",
+        "M/s Advy Chemical\nPvt Ltd, Thane",
+        "EzDx Covid -19\nneutralizing antibody\ndetection rapid test",
+        "Indigenous"
+      ],
+      [
+        "235.",
+        "M/s Transasia\nDiagnostics Private\nLimited, Andhra\nPradesh (India) -\n530031",
+        "Erba Lisa® COVID-19 IgG",
+        "Indigenous"
+      ],
+      [
+        "236.",
+        "M/s.Poly Medicure\nLimited, Faridabad,\nHaryana (India).",
+        "One step COVID-19\nAntigen detection test\ndevice",
+        "Indigenous"
+      ],
+      [
+        "237.",
+        "M/s KOSHBIO\nPRIVATE LIMITED,\nDelhi (India) - 110065",
+        "SARS-CoV-2: Rapid\nAntigen Test",
+        "Indigenous"
+      ],
+      [
+        "238.",
+        "M/s LORVEN\nBIOLOGICS PRIVATE\nLIMITED, Hyderabad",
+        "Lorven Antigen Rapid\nDetection Test Kit",
+        "Indigenous"
+      ],
+      [
+        "239.",
+        "M/s Angstrom Biotech\nPvt. Ltd., Alwar,\nRajasthan.",
+        "ANG CARD COVID - 19\nAntigen - Saliva (Self Test\nKit)",
+        "Indigenous"
+      ],
+      [
+        "240.",
+        "M/s Voxtur Bio Ltd,\nMaharashtra (India)",
+        "Voxpress COVID-19\nNeutralizing Antibody Test",
+        "Indigenous"
+      ],
+      [
+        "241.",
+        "M/s Achira Labs Pvt.\nLtd, Bengaluru",
+        "COVISTAR SARS-CoV-2\nIgG ELISA Kit",
+        "Indigenous"
+      ],
+      [
+        "242.",
+        "M/s SD Biosensor\nHealthcare Pvt. Ltd,\nHaryana (India)",
+        "COVID-19 At-Home Test\n(Additional brand)",
+        "Indigenous"
+      ],
+      [
+        "243.",
+        "M/s Siemens\nHealthcare Private\nLimited, Gurgaon.",
+        "CLINITEST® Rapid\nCOVID- 19 Antigen Self-\nTest",
+        "M/s Healgen Scientific\nLimited Liability Company,\nUSA @ : M/s Zhejiang\nOrient Gene Biotech\nCo.,Ltd, China"
+      ]
+    ]
+  },
+  {
+    "page": 16,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      768.41
+    ],
+    "n_rows": 17,
+    "n_cols": 4,
+    "rows": [
+      [
+        "244.",
+        "M/s J. MITRA & CO.\nPVT. LTD., A - 180 /\n181, Delhi (India) -\n110020",
+        "COVID 19 Ag Card",
+        "Indigenous"
+      ],
+      [
+        "245.",
+        "M/s Roche\nDiagnostics India\nPrivate Limited @\nM/s SD Biosensor\nHealthcare Pvt. Ltd,\nGurgaon, Haryana",
+        "COVID-19 At Home Test",
+        "Indigenous"
+      ],
+      [
+        "246.",
+        "M/S Boditech Med\nIndia Private Limited,\nMumbai",
+        "AFIAS COVID-19 Ag (FIA)",
+        "M/s Boditech\nMed Inc, South korea"
+      ],
+      [
+        "247.",
+        "M/s Bhat Bio Tech\nIndia (P) Ltd,\nBengaluru",
+        "Bhat Bio-Scan :Covid19\nIgG Antibody Elisa Test",
+        "Indigenous"
+      ],
+      [
+        "248.",
+        "M/s Tata Medical And\nDiagnostics Limited at\nNuLife, UP",
+        "TATA MD CHECK COVID-\n19 Antigen Self-Test Kit",
+        "Indigenous"
+      ],
+      [
+        "249.",
+        "M/s Mylab Discovery\nS0lutions Pvt. Ltd,\nPune",
+        "PathoCatch™, Gazelle™\nCOVID-19 FIA Ag Test Kit",
+        "Indigenous"
+      ],
+      [
+        "250.",
+        "M/s. Zephyr\nBiomedicals A\nDivision Of Tulip\nDiagnostics Private\nLimited, Goa",
+        "COVIRAT Rapid test for\ndetection of SARS-CoV-2\nAntigen in Human Nasal\nSwab Specimen at Home\n(Device)",
+        "Indigenous"
+      ],
+      [
+        "251.",
+        "M/s Genes2Me\nPrivate Limited,\nHaryana (India)",
+        "CoviEasy COVID-19 Rapid\nAntigen Self Test",
+        "Indigenous"
+      ],
+      [
+        "252.",
+        "M/s Premier Medical\nCorporation Private\nLimited, Gujarat.",
+        "Sure Status® COVID-19\nAntigen Card Test\n(Home Test)",
+        "Indigenous"
+      ],
+      [
+        "253.",
+        "M/s Kilpest India\nLimited, MP",
+        "TRURAPID® COVID-19 Ag\nTest",
+        "Indigenous"
+      ],
+      [
+        "254.",
+        "M/s Edge Pharma\nPrivate Limited,\nMumbai",
+        "EdgeXpress COVID-19\nAntigen detection test",
+        "Indigenous"
+      ],
+      [
+        "255.",
+        "M/s Nucleus\nDiagnosys LLP,\nAhmedabad, Gujarat.",
+        "Covid-19 Rapid Antigen\nTest",
+        "Indigenous"
+      ],
+      [
+        "256.",
+        "M/s\nViola Diagnostic\nSystems - A Division\nOf Tulip Diagnostics\nPrivate Limited,\nUttarakhand",
+        "PerkinElmer Rapid\nCassette Test for Detection\nof SARS-CoV-2 Antigen in\nHuman Nasal Swab\nSpecimen at Home (FOR\nEXPORT ONLY)",
+        "Indigenous"
+      ],
+      [
+        "257.",
+        "M/s BIOSCI HEALTH\nCARE, MP",
+        "BioSci True-Detect COVID-\n19 Antigen Test Kit",
+        "Indigenous"
+      ],
+      [
+        "258.",
+        "M/s Imgenex India\nPrivate Limited, Orissa",
+        "ImCoV-Ag SARS-CoV-2\nRapid Antigen Test Kit",
+        "Indigenous"
+      ],
+      [
+        "259.",
+        "M/s Recombigen\nLaboratories Private\nLimited, Delhi",
+        "Covid 19 Antigen Test Kit",
+        "Indigenous"
+      ],
+      [
+        "260.",
+        "M/s NeoDx Biotech",
+        "NeoCheck Rapid Antigen",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 17,
+    "bbox": [
+      68.65,
+      64.03,
+      527.75,
+      704.67
+    ],
+    "n_rows": 16,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Labs Private Limited,\nBangalore.",
+        "Self Testing Kit for COVID-\n19",
+        ""
+      ],
+      [
+        "261.",
+        "M/s PREMAS LIFE\nSCIENCES PVT. LTD,\nNew Delhi",
+        "cPass SARS-CoV-2\nNeutralization Antibody\nDetection kit",
+        "M/s Nanjing Genscript\nDiagnostics Technology\nCo., Ltd, China"
+      ],
+      [
+        "262.",
+        "M/s. South India\nSurgical Co Ltd,\nChennai",
+        "GLINE-2019-nCoV Ag\nSaliva",
+        "Indigenous"
+      ],
+      [
+        "263.",
+        "M/S Anamol\nLaboratories Pvt. Ltd.,\nPalghar, Maharashtra",
+        "InstaCOVID Ag Covid-19\nRapid Antigen Test Kit",
+        "Indigenous"
+      ],
+      [
+        "264.",
+        "M/s\nImmunoScience India\nPrivate Limited, Pune",
+        "TruCoV-Flow Ultrasensitive\nCOVID-19 Saliva Based\nRapid Antigen Test-Device\n& Components",
+        "Indigenous"
+      ],
+      [
+        "265.",
+        "M/s Tata Medical And\nDiagnostics Limited at\nM/s. NuLife, Uttar\nPradesh",
+        "TATA MD CHECK Ag Pro\nCOVID-19 Rapid Antigen\ncard test",
+        "Indigenous"
+      ],
+      [
+        "266.",
+        "M/s SD Biosensor\nHealthcare Pvt.Ltd,\nHaryana",
+        "ULTRA COVID-19 Ag\n(Additional brand)",
+        "Indigenous"
+      ],
+      [
+        "267.",
+        "M/s Krishgen Pudgala\nLLP, Thane,\nMaharashtra",
+        "Anti-SARS-CoV-2 (Covid-\n19) IgG Antibody to\nnucleoprotein Qualitative\nELISA",
+        "Indigenous"
+      ],
+      [
+        "268.",
+        "M/s Krishgen Pudgala\nLLP, Thane,\nMaharashtra",
+        "Anti-SARS-CoV-2 (Covid-\n19) IgG Antibody to spike\nprotein RBD Qualitative\nELISA",
+        "Indigenous"
+      ],
+      [
+        "269.",
+        "M/s EDGELABS LLP,\nMumbai",
+        "EdgeXpress Covid 19 IgG\nIgM Antibodies detection\ntest",
+        "Indigenous"
+      ],
+      [
+        "270.",
+        "M/s EDGELABS LLP,\nMumbai",
+        "EdgeXpress Covid 19\nAntigen detection test",
+        "Indigenous"
+      ],
+      [
+        "271.",
+        "M/s Meril Diagnostics\nPrivate Limited,\nGujarat",
+        "Covid-19 Antigen Self Test\n(NanoRepro)",
+        "Indigenous"
+      ],
+      [
+        "272.",
+        "M/s Vanguard\nDiagnostics Private\nLimited, Delhi (India)",
+        "VDx SARS-CoV2\nNeutralizing Antibody Test\nKit",
+        "Indigenous"
+      ],
+      [
+        "273.",
+        "M/s Reckon\nDiagnostics Pvt Ltd,\nGujarat",
+        "Test reagent / kit for\nCOVID-19 AntigenRapid\nTest",
+        "Indigenous"
+      ],
+      [
+        "274.",
+        "M/s. Nanz Med\nScience Pharma\nPrivate Limited,\nHimachal Pradesh",
+        "COVINO Covid-19 Antigen\nTest",
+        "Indigenous"
+      ],
+      [
+        "275.",
+        "M/s Regulatory1,\nBengalaru",
+        "Hotgen Coronavirus (2019-\nnCoV)-Antigen Self-test",
+        "M/s. M/s Beijing Hotgen\nBiotech Co., Ltd, China"
+      ]
+    ]
+  }
+]

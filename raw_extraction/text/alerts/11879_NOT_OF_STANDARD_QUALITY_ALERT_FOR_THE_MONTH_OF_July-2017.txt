@@ -1,0 +1,24 @@
+===== PAGE 1 =====
+S.No.
+Vaccine Name
+Batch No.
+Manufacturing
+Date
+Expiry
+Date
+Manufactured By
+NSQ Result
+Reported by CDSCO Laboratory
+1
+Bio Typh (Vi Polysaccaride
+Typhoid Vaccine) I.P.
+1050411
+Feb'15
+ Feb'16
+Sep'17
+Sep'18
+Spurious
+Identity
+Central Drugs Laboratory, Kasauli
+NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF July 2017.
+A. Central Laboratories

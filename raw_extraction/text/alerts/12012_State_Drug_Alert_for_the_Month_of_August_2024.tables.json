@@ -1,0 +1,181 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      72.23,
+      93.05,
+      793.69,
+      518.38
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "B. State Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No",
+        "Product/Drug\nName",
+        "Batch No.",
+        "Manufacturing\nDate",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by\nCDSCO Laboratory"
+      ],
+      [
+        "1.",
+        "Paziva -40",
+        "GT300234",
+        "05/23",
+        "04-25",
+        "M/s.Gnosis\nPharmaceuticals\nPvt.Ltd, Nahan Road ,\nVillage Moginand ,\nKala-Amb Dist.\nSirmour, HP-173 030",
+        "It fails the test\n‘Dissolution’\nas per IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ],
+      [
+        "2.",
+        "Pantomed -40",
+        "GTEO230\nC",
+        "01/24",
+        "12-25",
+        "Digital Vision 176,\nMauza ogli, Nahan\nRoad, Kala -Amb, Dist\nSirmour - 173 030",
+        "It fails the test\n‘Dissolution’\nas per IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ],
+      [
+        "3.",
+        "Cefixime Oral\nSuspension IP\n(Dry Syrup)",
+        "CADA-02",
+        "09 /23",
+        "08/25",
+        "Nestor\nPharmaceuticals Ltd,\n11, Western Extension\nArea, Faridabad -\n121001",
+        "It fails the test\n‘Assay’ and\n‘water’ as\nper IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ],
+      [
+        "4.",
+        "Moxymed CV",
+        "ABT 23316",
+        "11/23",
+        "04/25",
+        "Alexa Pharmaceuticals\n, Plot No. 20, Ext\nHPSIDC, Indl.Area,\nBaddi, Solan – 173\n205",
+        "The content\nof Amoxycillin\nand\nClavulanic\nacid is not\nwith in the\nlimits of\nschedule ‘V’\nof Drugs and\nCosmetics\nAct & Rules\nas mentioned",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      72.23,
+      35.75,
+      793.69,
+      521.98
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "in the\nLaboratory\nprotocol",
+        ""
+      ],
+      [
+        "5.",
+        "Frusemide\nInjection IP 20\nmg",
+        "FRIB-03",
+        "01/24",
+        "12/25",
+        "Nestor\nPharmaceuticals Ltd,\nFaridabad- 121 001",
+        "It fails the\ntest ‘Sterility’\nas per IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ],
+      [
+        "6.",
+        "Kudajarishtam",
+        "0110",
+        "01/24",
+        "Nil",
+        "Bala Herbals,\nIndustrial Estate,\nEdakkulangara, Kollam",
+        "It fails the\ntests ‘Total\nSolids’ and\n‘Specific\ngravity’ as\nper API.",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ],
+      [
+        "7.",
+        "Tab Nodosis",
+        "SMST-\n24151",
+        "02/24",
+        "01/26",
+        "Steadfast Medishield\npvt.Ltd, At\nkhasra,No.322,\nNanhera , Anantpur,\nBhgwanpur, Roorkee,\nDist. Haridwar",
+        "It fails the test\n‘Assay’ as\nper IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ],
+      [
+        "8.",
+        "Haridrakhanda\nm",
+        "207/23",
+        "03/24",
+        "02/26",
+        "Bhaskara Vilasam\nVaidyasala,\nPanayamuttom,\nNedumangadu,\nThiruvananthapuram -\n695 561",
+        "It fails the test\n‘pH’ as per\nAPI.",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ],
+      [
+        "9.",
+        "Pantoprazole\nInj. BP 40 mg",
+        "D0726/24-\n25",
+        "",
+        "",
+        "Kerala Medical\nServices Corporation\nLtd, Thycaud.P.O,\nThiruvananthapuram",
+        "The sample\ndoes not\ncomply with\nBP. It fails the\ntest\nParticulate\ncontaminatio\nn clarity and\ncolour of\nsolution.",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      72.18,
+      35.75,
+      793.74,
+      243.73
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "10.",
+        "Yogaraja\nGuggulu",
+        "209/21",
+        "03/22",
+        "3 yrs from\nmfg date",
+        "Bhaskara Vilasam\nVaidyasala,\nPanayamuttom,\nNedumangadu,\nThiruvananthapuram -\n695 561",
+        "It fails the test\nAlcohol\nSoluble\nExtractive\nand pH as\nper API",
+        "Drugs Testing\nLaboratory\nThiruvananthapura\nm"
+      ],
+      [
+        "11.",
+        "PANCEF-OF",
+        "T442401",
+        "Jan-24",
+        "Dec-25",
+        "Aglomed Ltd. 51,\nRaipur , Roorkee –\n247661 . H.O : 702-A,\nPoonam Chambers ,\nDr. A.B Road , Worli ,\nMumbai – 400018,\nIndia",
+        "The sample\ndoes not\ncomply with\nrespect to\nthe test\nparameters at\nS.No II d\n(Disintegratio\nn Test)",
+        "Drug Testing\nLaboratory\nSrinagar (J&K) vide\nreport on Form 13\nbearing No.\nL/DA/2024-25/978\nDated: 07.08.2024"
+      ]
+    ]
+  }
+]

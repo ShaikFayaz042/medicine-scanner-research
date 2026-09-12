@@ -1,0 +1,1526 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      53.85,
+      99.81,
+      557.29,
+      488.4
+    ],
+    "n_rows": 8,
+    "n_cols": 4,
+    "rows": [
+      [
+        "S.No",
+        "Name of the Firm",
+        "Type\nof Kit",
+        "Country"
+      ],
+      [
+        "1.",
+        "Roche Diagnostic, Mumbai",
+        "PCR",
+        "USA"
+      ],
+      [
+        "2.",
+        "S.D Biosensor, Delhi",
+        "PCR",
+        "M/s. SD Biosensor Korea,\nCE Approved"
+      ],
+      [
+        "3.",
+        "Matrix, Chennai",
+        "PCR",
+        "M/s GhangzhouWandfo\nBiotech Co.Ltd. China,\nCE Approved"
+      ],
+      [
+        "4.",
+        "Siemens Healthcare Pvt.\nLtd.",
+        "PCR",
+        "M/s. Lab Genomics Co. Ltd.,\nSouth Korea,\nCE Approved"
+      ],
+      [
+        "5.",
+        "Mylab, Pune",
+        "PCR",
+        "Indigenous\napproved by NIV Pune"
+      ],
+      [
+        "6.",
+        "Med Source Ozone\nBiomedical Pvt. Ltd.",
+        "PCR",
+        "M/s. Hangzhon\nBiotechnology Co.\nLtd., China, CE\nApproved"
+      ],
+      [
+        "7.",
+        "Invitrogen Bioservices\n(Thermofisher)",
+        "PCR",
+        "M/s. Life Technologies,\nUSA,\nUS Approved"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      66.61,
+      72.19,
+      545.64,
+      713.06
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "8.",
+        "M/s Athenese Dx Pvt. Ltd.\nChennai",
+        "PCR",
+        "M/S CertestBiotec,\nSpain\nCE approved"
+      ],
+      [
+        "9.",
+        "M/s Altona Diag.Pvt Ltd,\nDelhi",
+        "PCR",
+        "M/S Altona Diag.\nGmbH Germany\nCE approved"
+      ],
+      [
+        "10.",
+        "M/s Apollo Hospital\nEnterprise Ltd, Chennai",
+        "PCR",
+        "M/S Sanscure Biotech\nInc China\nCE approved"
+      ],
+      [
+        "11.",
+        "M/S Gastro Lab Pune",
+        "PCR",
+        "M/S Immunodiagnostic\nIncGermany\nCEapproved"
+      ],
+      [
+        "12.",
+        "Soution One Delhi",
+        "PCR",
+        "M/S Seegene Inc\nSouth Korea\nCE approved"
+      ],
+      [
+        "13.",
+        "M/S Cepheid, Delhi",
+        "PCR",
+        "M/S Cepheid , USA\nApproved by USFDA\nFOR EMERGENCY\nUSE"
+      ],
+      [
+        "14.",
+        "M/S Trivitron Healthcare Pvt\nLtd, Chennai",
+        "PCR",
+        "M/S Shandong\nYingsheng\nBiotechnology Co Ltd ,\nChina\nCE approved"
+      ],
+      [
+        "15.",
+        "M/S Genetix Biotech Asia\nPvt Ltd, Delhi",
+        "PCR",
+        "M/S Primer Design Ltd\n, UK\nCE approved"
+      ],
+      [
+        "16.",
+        "M/s Gland Pharma Ltd ,\nTelangana",
+        "PCR",
+        "M/S Shanghai Fosum\nco Ltd China\nCE approved"
+      ],
+      [
+        "17.",
+        "M/S Perkin Elmer India\nPvt Ltd",
+        "PCR",
+        "M/S Suzhou Sym-Bio\nChina\nCEapproved"
+      ],
+      [
+        "18.",
+        "M/S Fisher Bio Pharma\nServices Ahmedabad",
+        "PCR",
+        "M/S Life Technologies,\nUSA\nApproved by USFDA\nand CE for Emergency\nuse"
+      ],
+      [
+        "19.",
+        "M/S Abbott Healthcare Pvt",
+        "PCR",
+        "M/S Abbott Molecular"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      66.61,
+      72.19,
+      546.11,
+      694.94
+    ],
+    "n_rows": 16,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Ltd",
+        "",
+        "Inc USA\nApproved by USFDA\nand CE for Emergency\nuse"
+      ],
+      [
+        "20.",
+        "M/S POCT Services Pvt Ltd\n, Delhi",
+        "PCR",
+        "M/S Zybo Inc, China"
+      ],
+      [
+        "21.",
+        "M/S 3i Molecular Solutions,\nBanglore",
+        "PCR",
+        "M/s Seegene Inc,\nKorea"
+      ],
+      [
+        "22.",
+        "M/S Cosmic Scientific ,\nChennai",
+        "PCR",
+        "M/S Getein Biotech\nChina"
+      ],
+      [
+        "23.",
+        "M/S Inbios India Delhi",
+        "PCR",
+        "M/S Sanscure Biotech\nInc China\nCE approved"
+      ],
+      [
+        "24.",
+        "M/S Molbio Diag. Pvt Ltd\nGoa",
+        "Truenat Beta\nPCR",
+        "Approved as screening\ntest and not for\nconfirmatory test\nIndigenous"
+      ],
+      [
+        "25.",
+        "M/S Kilpest India Ltd ,\nBhopal",
+        "TruPCR",
+        "Indigenous"
+      ],
+      [
+        "26.",
+        "M/S Imperial Life Sciences\nPvt Ltd",
+        "PCR",
+        "M/S BGI\nBiotechnology\n(Wuhan) co. Ltd\nChina"
+      ],
+      [
+        "27.",
+        "M/S Krishgen Biosystems\nMumbai",
+        "PCR",
+        "M/S Kreative\nTechnolab USA"
+      ],
+      [
+        "28.",
+        "M/s Cosara Diagnostics Pvt.\nLtd.",
+        "PCR",
+        "M/s Co-Diagnostics Inc.\nUSA"
+      ],
+      [
+        "29.",
+        "M/s POCT Services Pvt. Ltd",
+        "PCR",
+        "M/s MicobiomedCo.Ltd.\nSouth Korea"
+      ],
+      [
+        "30.",
+        "M/s POCT Services Pvt. Ltd.",
+        "PCR",
+        "M/s YD Diagnostics\nCorp. South Korea"
+      ],
+      [
+        "31.",
+        "M/s Hemogenomics Pvt. Ltd.\nBangalore",
+        "PCR",
+        "M/s PCL Inc. South\nKorea"
+      ],
+      [
+        "32.",
+        "M/s Medsource Ozone\nBiomedicals Pvt.Ltd.",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "33.",
+        "M/s Medsmart Logistics Pvt.\nLtd.",
+        "PCR",
+        "M/s Sansure Biotech Inc.\nChina"
+      ],
+      [
+        "34.",
+        "M/s ADT India Pvt. Ltd. Delhi",
+        "PCR",
+        "M/s ADT Biotech\nSdnMalaysiap"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      55.54,
+      72.19,
+      548.64,
+      711.5
+    ],
+    "n_rows": 14,
+    "n_cols": 4,
+    "rows": [
+      [
+        "35.",
+        "M/s Trivitron Healthcare Pvt.\nLtd.",
+        "PCR",
+        "M/s Shanghai ZJ Bio\nTech. Co. Ltd.\nChina"
+      ],
+      [
+        "36.",
+        "M/s Qiagen India Pvt. Ltd.",
+        "SARS COV-2 Panel",
+        "M/s Qiagen GmbH\nGermany"
+      ],
+      [
+        "37.",
+        "M/S Life Cell International PVT\nLTD",
+        "PCR",
+        "M/S Osang Healthcare Ltd\n, South Korea"
+      ],
+      [
+        "38.",
+        "M/s Humole Diagnostics Pvt Ltd",
+        "PCR",
+        "M/s SeegeneInc,South\nKorea"
+      ],
+      [
+        "39.",
+        "M/S Krypton Biomedicals Pvt\nLtd",
+        "PCR",
+        "M/s SeegeneInc,South\nKorea"
+      ],
+      [
+        "40.",
+        "M/S Aadivighinesh Chem Pvt\nLtd",
+        "PCR",
+        "M/S Dia Carta Inc USA"
+      ],
+      [
+        "41.",
+        "M/S KDH Biomedical Pvt Ltd",
+        "PCR",
+        "M/s Vircell Spain"
+      ],
+      [
+        "42.",
+        "M/s Advy Chemical Pvt Ltd\nMumbai",
+        "PCR",
+        "M/S Shanghai ZJ Biotech\nCo. Ltd, China"
+      ],
+      [
+        "43.",
+        "M/S Becton Dickinson India Pvt\nLtd",
+        "PCR",
+        "M/S Gene Ohm Sciences\nCanada Inc , Canada"
+      ],
+      [
+        "44.",
+        "M/S Biomeriux India Pvt Ltd",
+        "PCR",
+        "M/S Biomeriux S.A France"
+      ],
+      [
+        "45.",
+        "M/S Elder Projects Ltd Thane",
+        "PCR",
+        "M/S Sanscure\nBiotech Inc China\nCE approved"
+      ],
+      [
+        "46.",
+        "Vinclan Technologies Pvt Ltd",
+        "PCR",
+        "M/S Shanghai Fosun\nLong March Medical\nScience Co. Ltd, China\nCE Approved and\nUSFDA(EUA)"
+      ],
+      [
+        "47.",
+        "M/S MDAAC International Pvt\nLtd",
+        "PCR",
+        "M/S Coyote Biosciences\nCo. Ltd, China"
+      ],
+      [
+        "48.",
+        "M/s Agappe Diagnostics Ltd",
+        "Fluorescent PCR",
+        "M/S Maccuara\nBiotechnology Ltd China"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      55.54,
+      122.85,
+      556.43,
+      690.39
+    ],
+    "n_rows": 15,
+    "n_cols": 4,
+    "rows": [
+      [
+        "49.",
+        "M/s Parekh Integrated Services\nPvt. Ltd. Mumbai",
+        "PCR",
+        "M/s Quidel Corporation,\nUSA,USFDA(EUA)"
+      ],
+      [
+        "50.",
+        "M/S KDH Biomedicals Pvt Ltd\nMumbai",
+        "PCR",
+        "M/s Dynamiker\nBiotechnology (Tianjin)\nCo Ltd China"
+      ],
+      [
+        "51.",
+        "M/S BIODX Healthcare New\nDelhi",
+        "PCR Flourescent Probe\nmethod",
+        "M/S Zybio Inc, China"
+      ],
+      [
+        "52.",
+        "M/S Bharat Parenterals Ltd\nVadodara",
+        "PCR",
+        "M/S Well Bios Inc\nSouth Korea"
+      ],
+      [
+        "53.",
+        "M/s Namoha Bio Pvt. Ltd.\nNew Delhi",
+        "PCR",
+        "M/S Well Bios Inc\nSouth Korea"
+      ],
+      [
+        "54.",
+        "M/s Cosara Diagnostics Pvt.\nLtd.\nAhmedabad",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "55.",
+        "M/s Rihim Pharma\nInternational LLP, Delhi",
+        "PCR",
+        "M/s AIT Biotech PTE\nLtd. Singapore"
+      ],
+      [
+        "56.",
+        "M/s SirusBiocare Pvt. Ltd.\nKolkata",
+        "PCR",
+        "M/s Inbios International\nInc. USA"
+      ],
+      [
+        "57.",
+        "M/S Horiba India Pvt Ltd",
+        "PCR",
+        "M/s Boditech Med Inc\nSouth Korea"
+      ],
+      [
+        "58.",
+        "M/S Huwel Lifesciences Pvt\nLtd,\nTelangana",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "59.",
+        "M/S Cronies Pharma\n&Biosciences Pvt Ltd\nTelangana",
+        "PCR",
+        "M/S DowGene Co Ltd\nSouth Korea"
+      ],
+      [
+        "60.",
+        "M/s Health ARX Technology\nPvt. Ltd. Delhi",
+        "PCR",
+        "M/s SolGent Co. Ltd.\nSouth Korea"
+      ],
+      [
+        "61.",
+        "M/s Invitrogen BioServices\nIndia Pvt. Ltd.",
+        "PCR",
+        "M/s Life Technologies\nUSA"
+      ],
+      [
+        "62.",
+        "M/S Inbios India Delhi",
+        "PCR",
+        "M/S\nInbiosINTERNATIONAL\n,USA"
+      ],
+      [
+        "63.",
+        "M/s Diagnostics Biosystems\n(India) Delhi",
+        "PCR",
+        "M/s Advanced\nMolecular Diag. UK"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      701.78
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "64.",
+        "M/S Helini Biomolecules",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "65.",
+        "M/S Meril Diagnostics Pvt Ltd",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "66.",
+        "M/S Prosper Channel Life\nSciences India Pvt Ltd",
+        "PCR",
+        "M/S Shanghai Fosun\nLong March China"
+      ],
+      [
+        "67.",
+        "M/S 365 Medical",
+        "PCR",
+        "M/S DNA Technology\nResearch and\nProduction Russia"
+      ],
+      [
+        "68.",
+        "M/S Allied Biotechnology India\nPvt Ltd",
+        "PCR",
+        "M/S In-bios\nInternational USA"
+      ],
+      [
+        "69.",
+        "M/S Biotron Healthcare India\nPvt Ltd",
+        "PCR",
+        "M/S AtilaBiosystems\n,USA"
+      ],
+      [
+        "70.",
+        "M/s Jetta Labs",
+        "PCR",
+        "M/S Sansure Biotech\nInc China"
+      ],
+      [
+        "71.",
+        "M/s Siemens Healthcare Pvt.\nLtd.",
+        "PCR",
+        "M/s Lab Genomics Co,\nLtd. South Korea"
+      ],
+      [
+        "72.",
+        "M/s Siemens Healthcare Pvt.\nLtd.",
+        "PCR",
+        "M/s FastTrack\nDiagnostics\nLuxembourg"
+      ],
+      [
+        "73.",
+        "M/S KHC Healthcare India Pvt\nLtd\nN. Delhi",
+        "PCR",
+        "M/S\nBioneerCorporation ,\nSouth Korea"
+      ],
+      [
+        "74.",
+        "M/S BYUNGMAN Electric Pvt\nLtd\nHaryana",
+        "PCR",
+        "M/S Paxgen Bio Co.\nLtd, South Korea"
+      ],
+      [
+        "75.",
+        "M/S Deep Meditech Pvt Ltd\nDelhi",
+        "PCR",
+        "M/S Zybio Inc, China"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      701.78
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "76.",
+        "M/S Perkin Elmer India Pvt Ltd",
+        "PCR",
+        "M/S Wallace Oy,\nFinland"
+      ],
+      [
+        "77.",
+        "M/S InbiosIndia ,N.Delhi",
+        "PCR",
+        "M/S Sentinel S.p.a\nItaly"
+      ],
+      [
+        "78.",
+        "M/S Alpha Agencies ,\nKarnataka",
+        "PCR",
+        "M/S Intron\nBiotechnology Inc,\nSouth Korea"
+      ],
+      [
+        "79.",
+        "M/s Godolo&Godolo Exports\nPvt. Ltd.",
+        "PCR",
+        "M/s RTA, Turkey"
+      ],
+      [
+        "80.",
+        "M/s Holly Drugs Pvt. Ltd.",
+        "PCR",
+        "M/s Wuhan\nEasydiagnosis, China"
+      ],
+      [
+        "81.",
+        "M/s Lab care Diagnostics,\nIndia Pvt. Ltd.",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "82.",
+        "M/s Biohouse Solutions Pvt.\nLtd",
+        "PCR",
+        "M/s Sentinel S.P.A,\nItaly"
+      ],
+      [
+        "83.",
+        "M/S BioGenomics Ltd",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "84.",
+        "M/s Jaya Surgical & Pharma\nPvt. Ltd. Hyderabad",
+        "PCR",
+        "M/s Sansure Biotech\nInc. China"
+      ],
+      [
+        "85.",
+        "M/s Lab X, Kerala",
+        "PCR",
+        "M/s Y.D Diagnostics\nCorp. South Korea"
+      ],
+      [
+        "86.",
+        "M/s Invitrogen Bioservices\nIndia Pvt. Ltd.",
+        "PCR",
+        "M/s Life Technologies\nCorp. USA"
+      ],
+      [
+        "87.",
+        "M/s Cygen Consultancy Pvt.\nLtd., Imphal",
+        "PCR",
+        "M/s Seegene Inc.\nSouth Korea"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      701.78
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "88.",
+        "M/s Bharat Parenterals Ltd.,\nVadodara",
+        "PCR",
+        "M/s K.H Medical Co.\nLtd. South Korea"
+      ],
+      [
+        "89.",
+        "M/s CPC Diagnostics Pvt. Ltd.",
+        "PCR",
+        "M/s Euroimmune AG\nGermany"
+      ],
+      [
+        "90.",
+        "M/s Stag Global Pvt. Ltd,",
+        "PCR",
+        "M/s Osang Healthcare\nCo. Ltd. South Korea"
+      ],
+      [
+        "91.",
+        "M/S Innvolution Healthcare",
+        "PCR",
+        "M/S General Biologicals\nCorp, Taiwan"
+      ],
+      [
+        "92.",
+        "M/S Healthcare Pvt Ltd",
+        "PCR",
+        "M/S RTA, TURKEY"
+      ],
+      [
+        "93.",
+        "M/s Imperial Life Sciences Pvt\nLtd",
+        "PCR",
+        "M/S PCL Inc, Korea"
+      ],
+      [
+        "94.",
+        "M/S Shiva Scientific Company",
+        "PCR",
+        "M/s BAG Diag. GmbH,\nGermany"
+      ],
+      [
+        "95.",
+        "M/S Bilcare Ltd",
+        "PCR",
+        "M/S BioSewoom Inc\nSouth Korea"
+      ],
+      [
+        "96.",
+        "M/S Brinton Pharmaceutical\nLtd",
+        "PCR",
+        "M/S BGI EuropeA/S\nDenmark"
+      ],
+      [
+        "97.",
+        "M/S CliniExperts Services Pvt\nLtd",
+        "PCR",
+        "M/S Progenie Molecular\nSpain"
+      ],
+      [
+        "98.",
+        "M/S Molbio Diagnostics Pvt Ltd",
+        "Truenat",
+        "Indigenous"
+      ],
+      [
+        "99.",
+        "M/S ADT India Pvt Ltd",
+        "PCR",
+        "M/S Gene Proof Czech\nRepublic"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      701.78
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "100.",
+        "M/S Kin Diagnostics, Kolkata",
+        "PCR",
+        "M/s Kogenebiotech Co\nLtd, South Korea"
+      ],
+      [
+        "101.",
+        "M/S Loften India Pvt Ltd",
+        "PCR",
+        "M/S INtRON\nBiotechnology Inc,\nSouth Korea"
+      ],
+      [
+        "102.",
+        "M/s Gravity Global Hospitality\nPvt Ltd",
+        "PCR",
+        "M/S 1drop Inc South\nKorea"
+      ],
+      [
+        "103.",
+        "M/S POCT Services Pvt Ltd",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "104.",
+        "M/S Meridian Biotech",
+        "PCR",
+        "M/S Seegene Inc South\nKorea"
+      ],
+      [
+        "105.",
+        "M/S Angstrom Biotech Pvt Ltd",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "106.",
+        "M/S Kilpest India Ltd",
+        "PCR\nTRUPCR(V-3.2)",
+        "Indigenous"
+      ],
+      [
+        "107.",
+        "M/S Artec Diagnostic System",
+        "PCR",
+        "M/S Seasun\nBiomaterials Inc South\nKorea"
+      ],
+      [
+        "108.",
+        "M/S Hemogenomics Pvt Ltd",
+        "PCR",
+        "M/S Hologic Inc, USA"
+      ],
+      [
+        "109.",
+        "M/S AsvinsLifetechnologies\nPvt Ltd",
+        "PCR",
+        "M/S Seasun\nBiomaterials South\nKorea"
+      ],
+      [
+        "110.",
+        "M/S Topaim Properties Pvt Ltd",
+        "PCR",
+        "M/S Shanghai Fosun\nLong March Medical\nScience Co Ltd China"
+      ],
+      [
+        "111.",
+        "M/S GCC Biotech India Pvt Ltd",
+        "PCR",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      701.78
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "112.",
+        "M/S Siemens Healthcare Pvt\nLtd",
+        "PCR",
+        "M/S Lab Genomics Co.\nLtd, South Korea"
+      ],
+      [
+        "113.",
+        "M/S Avantor Performance\nMaterials India Ltd",
+        "PCR",
+        "M/S Altona Diagnostics\nGmbH Germany"
+      ],
+      [
+        "114.",
+        "M/s Parekh Integrated\nServices Pvt Ltd",
+        "PCR",
+        "M/S Quidal Corp USA"
+      ],
+      [
+        "115.",
+        "M/S Wockhardt Ltd",
+        "PCR",
+        "M/S SNP Biotechnology\nTurkey"
+      ],
+      [
+        "116.",
+        "M/S Mili Healthcare Pvt Ltd",
+        "PCR",
+        "M/S Sansure Biotech\nInc China"
+      ],
+      [
+        "117.",
+        "M/S Oscar Medicare Pvt Ltd",
+        "PCR",
+        "Indigenous"
+      ],
+      [
+        "118.",
+        "M/S Innvolution Healthcare Pvt\nLtd",
+        "PCR",
+        "M/S General Biologicals\nCorp, Taiwan"
+      ],
+      [
+        "119.",
+        "M/S Gene Store India Pvt Ltd",
+        "Expert SARS-COV-2)\nPCR",
+        "Indigenous"
+      ],
+      [
+        "120.",
+        "M/S TrivitronHealthcare Pvt\nLtd",
+        "COVID Sure Multiplex RT-\nPCR",
+        "Indigenous"
+      ],
+      [
+        "121.",
+        "M/S Genes2Me Pvt Ltd",
+        "Multiplex RT-PCR",
+        "Indigenous"
+      ],
+      [
+        "122.",
+        "M/S Nandan Exports &Imports\nPvt Ltd",
+        "I copy COVID –qPCR",
+        "1drop Inc, South Korea"
+      ],
+      [
+        "123.",
+        "M/S Biorad Laboratories (India)\nPvt Ltd",
+        "SARS-CoV-2 ddPCR",
+        "M/S Biorad\nLaboratories USA"
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      701.78
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "124.",
+        "M/S Becton Dickinson India\nPVT Ltd",
+        "BD SARS-CoV-2 for BD\nMax –RTPCR",
+        "M/S Gene Ohm\nSciences Canada INC,\nCanada"
+      ],
+      [
+        "125.",
+        "M/S BI Biotech India Pvt Ltd",
+        "RT-PCR",
+        "M/S Biocore Co. Ltd ,\nSouth Korea"
+      ],
+      [
+        "126.",
+        "M/S Karwa Enterprises Pvt Ltd",
+        "RT-PCR",
+        "Indigenous"
+      ],
+      [
+        "127.",
+        "M/S Genetix Biotech Asia Pvt\nLtd",
+        "RT-PCR",
+        "M/S BioSewoom Inc\nSouth Korea"
+      ],
+      [
+        "128.",
+        "M/S Medipol Pharmaceutical\nIndia Pvt Ltd",
+        "One step TR-qPCR",
+        "Indigenous"
+      ],
+      [
+        "129.",
+        "M/S WrigNanosystems Pvt Ltd",
+        "One step probe freeRT-\nPCR",
+        "Indigenous"
+      ],
+      [
+        "130.",
+        "M/S Eurofins Amar Immuno\nDiagnostics Pvt Ltd",
+        "RT-PCR",
+        "M/S NovaTec\nImmunodiagnostics\nGbbH, Germany"
+      ],
+      [
+        "131.",
+        "M/S Aspen Laboratories Pvt\nLtd",
+        "RT-PCR",
+        "Indigenous"
+      ],
+      [
+        "132.",
+        "M/S Siemens Healthcare Pvt\nLtd",
+        "LabGunExoFast RT-PCR",
+        "M/S Lab Genomics CO.\nLtd South Korea"
+      ],
+      [
+        "133.",
+        "M/S Bhatt Biotech India PVT\nLtd",
+        "RT-PCR",
+        "Indigenous"
+      ],
+      [
+        "134.",
+        "M/S Mylab Discovery Solutions\nPVT Ltd",
+        "Pathodetect PCR kit",
+        "Indigenous"
+      ],
+      [
+        "135.",
+        "M/S Trivitron Healthcare Pvt\nLtd",
+        "Covid Sure Promultiplex\nRT-PCR Kit",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      701.78
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "136.",
+        "True Healthcare India Pvt Ltd",
+        "1copy qPCR Multikit",
+        "M/S 1 drop Inc South\nKorea"
+      ],
+      [
+        "137.",
+        "M/S GCC BIOTECH India Pvt\nLtd",
+        "Diagsure(multiplex RT-\nPCR)",
+        "Indigenous"
+      ],
+      [
+        "138.",
+        "M/S Effibar India Pvt Ltd",
+        "RT-PCR",
+        "M/s Bioneer\nCorporation South\nKorea"
+      ],
+      [
+        "139.",
+        "M/S Perkin Elmer Health\nSciences, Pvt Ltd",
+        "RT-PCR",
+        "M/s Wallace Oy,Finland"
+      ],
+      [
+        "140.",
+        "M/S BI Biotech India Pvt Ltd",
+        "DiaPlexQ RT-PCR",
+        "M/S Solgent Co. Ltd\nSouth Korea"
+      ],
+      [
+        "141.",
+        "M/S POCTServices Pvt Ltd",
+        "Q-Line RT-PCR",
+        "Indigenous"
+      ],
+      [
+        "142.",
+        "M/S Vishat Diagnostics Pvt Ltd",
+        "RT-PCR",
+        "M/S Shenzhen\nUnimedica Technology\nCo Ltd China"
+      ],
+      [
+        "143.",
+        "M/s OSB Agencies Pvt Ltd",
+        "RT-PCR",
+        "M/s Medical and\nBiological Laboratories\nCo Ltd Japan"
+      ],
+      [
+        "144.",
+        "M/s DSS Imagetech Pvt Ltd",
+        "RT-PCR",
+        "M/S Vitros S.A Spain"
+      ],
+      [
+        "145.",
+        "M/S Loften India Pvt Ltd",
+        "RT-PCR",
+        "M/S INtRON\nBiotechnology INC ,\nSouth Korea"
+      ],
+      [
+        "146.",
+        "M/S Helini Biomolecules",
+        "RT-PCR",
+        "Indigenous"
+      ],
+      [
+        "147.",
+        "M/S Alere Medical Pvt Ltd",
+        "ID Now Covid-19",
+        "M/S Abbott Diagnostics\nScarborough Inc USA"
+      ]
+    ]
+  },
+  {
+    "page": 13,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      701.78
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "148.",
+        "M/S Achira Labs Pvt Ltd",
+        "One Tube Multiplex RT-\nqPCR",
+        "Indigenous"
+      ],
+      [
+        "149.",
+        "M/s Premas Life Sciences",
+        "Covid-19 PCR",
+        "M/s Optolane\nTechnology, South\nKorea"
+      ],
+      [
+        "150.",
+        "M/s Nucleus Diagnosys",
+        "Real time PCR",
+        "Indigenous"
+      ],
+      [
+        "151.",
+        "M/s Molbio Diagnostics Pvt Ltd",
+        "Chip based Real Time\nDuplex PCR",
+        "Indigenous"
+      ],
+      [
+        "152.",
+        "M/S Ubio Biotechnology\nSystem Pvt Ltd",
+        "Covid-19 RTPCR",
+        "Indigenous"
+      ],
+      [
+        "153.",
+        "M/S AffigenixBiosolutions Pvt\nLtd",
+        "One step RT-qPCR",
+        "Indigenous"
+      ],
+      [
+        "154.",
+        "M/s Biosystems Diag. Pvt Ltd",
+        "RT-PCR",
+        "Indigenous"
+      ],
+      [
+        "155.",
+        "M/s Tata Medical and\nDiagnostic Ltd",
+        "SARS-COV-2 CRISPR\nKit 1.0",
+        "Indigenous"
+      ],
+      [
+        "156.",
+        "M/s Athenes Dx Pvt Ltd",
+        "RT-PCR",
+        "Indigenous"
+      ],
+      [
+        "157.",
+        "M/S Myotec Surgical Pvt Ltd",
+        "RT-PCR",
+        "M/S Optolane\nTechnologies Inc South\nKorea"
+      ],
+      [
+        "158.",
+        "M/s Wevio Global Pvt Ltd",
+        "RT-PCR",
+        "M/s Bioneer Corp South\nKorea"
+      ],
+      [
+        "159.",
+        "M/s. Biotime Healthcare\nPrivate Limited",
+        "Novel Coronavirus\n(COVID-19) Nucleic Acid\nDetection Kit (PCR-\nfluorescent Probe)",
+        "M/s Guangdong Ardent\nBiomed Co., Ltd, China"
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      685.95
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "160.",
+        "M/s. NeoDx Biotech Labs\nPrivate Limited, Bangalore",
+        "CoviDxTM mPlex-4R\nSARS-CoV-2 RT-PCR\nDetection Kit",
+        "Indigenous"
+      ],
+      [
+        "161.",
+        "M/s. MD Next Life Sciences\nLLP, New Delhi.",
+        "ExProbeTM SARS-CoV-2\nTesting Assay\nRT – PCR Kit",
+        "M/s TBG Biotech\nCorp, Taiwan"
+      ],
+      [
+        "162.",
+        "M/s Anjanajyoti Systems\nPrivate Limited, New Delhi.",
+        "Q Sens nCoV 2019\nDetection Kit\nRT – PCR Kit",
+        "M/s Cancerrop Co. Ltd,\nSouth Korea."
+      ],
+      [
+        "163.",
+        "M/s Shree Venkatesh Medical\nAgencies, Raipur",
+        "Real-Time OneStep RT-\nPCR based assay system\nfor detection of COVID19\n(DiaPlexQ Novel\nCoronavirus (2019-nCoV)\nDetection kit CV-IVD)",
+        "M/s SolGent Co. Ltd,\nSouth Korea"
+      ],
+      [
+        "164.",
+        "M/s Cepheid India Private\nLimited, New Delhi.",
+        "Xpert Xpress SARS-CoV-\n2\nRT - PCR",
+        "Indigenous"
+      ],
+      [
+        "165.",
+        "M/s. Nandan Exports And\nImports Private Limited,\nAndhra Pradesh.",
+        "1copy™ COVID-19 qPCR\nTriplex Kit",
+        "M/s 1drop Inc, South\nKorea."
+      ],
+      [
+        "166.",
+        "M/s Pontika Aerotech Ltd,\nHimachal Pradesh",
+        "One step RT-PCR\nCOVID-19 Diagnostic Kit",
+        "Indigenous"
+      ],
+      [
+        "167.",
+        "M/s Cosara Diagnostics\nPrivate Limited, Gujarat",
+        "Novel Coronavirus (2019-\nnCoV) V.2 Test Kit\nRT – PCR Kit",
+        "Indigenous"
+      ],
+      [
+        "168.",
+        "M/s Premas Life Sciences Pvt.\nLtd, Delhi.",
+        "Advanta Dx SARS-CoV-2\nRT-PCR Assay",
+        "M/s Fluidigm\nCorporation, UK"
+      ],
+      [
+        "169.",
+        "M/s Genetix Biotech Asia Pvt.\nLtd, Delhi",
+        "COVISure (Version 2)\nCOVID-19 Real Time\nPCR Kit",
+        "Indigenous"
+      ],
+      [
+        "170.",
+        "M/s Genetix Biotech Asia Pvt.\nLtd, Delhi",
+        "COVISure (Lyo Mix)\nCOVID-19 Real Time\nPCR Kit",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      684.63
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "171.",
+        "M/s MOLBIO DIAGNOSTICS\nPVT. LTD, Goa",
+        "Truemix™ COVID-19\nReal Time Duplex PCR\nTest for COVID-19",
+        "Indigenous"
+      ],
+      [
+        "172.",
+        "M/s NeoDx Biotech Labs\nPrivate Limited, Bangalore",
+        "CoviDx Assure SARS-\nCoV - 2 RT-PCR\nDetection Kit.\nCoviDx Detect SARS-CoV\n- 2 RT-PCR Detection Kit",
+        "Indigenous"
+      ],
+      [
+        "173.",
+        "M/s EPYGEN BIOTECH\nPRIVATE LIMITED,\nMaharashtra",
+        "GenoCoV One-step\nmultiplex RT-PCR kit",
+        "Indigenous"
+      ],
+      [
+        "174.",
+        "M/s Metadesign Solutions\nPrivate Limited, Haryana",
+        "SARS-COV-2 RT-PCR\nDetection Kit",
+        "Indigenous"
+      ],
+      [
+        "175.",
+        "M/s AB DiagnopathMfg Pvt\nLtd, Rajasthan",
+        "COVID-19 RT-PCR Kit",
+        "Indigenous"
+      ],
+      [
+        "176.",
+        "M/s Biotime Healthcare Pvt\nLtd, Gujarat",
+        "Vazyme - 2019-Novel\nCoronavirus (2019-nCoV)\nTriplex RT-qPCR\nDetection Kit",
+        "M/s Nanjing Vazyme\nMedical Technology\nCo., Ltd., China"
+      ],
+      [
+        "177.",
+        "M/s Metropolis Healthcare Ltd,\nMumbai",
+        "ArtTest COVID-19 test kit\n– RT-PCR",
+        "M/s ArtBioTech LLC,\nBelarus"
+      ],
+      [
+        "178.",
+        "M/s Invitrogen Bioservices\nIndia Private Limited,\nBengaluru",
+        "CoviPath™ COVID-19\nRT-PCR Kit",
+        "Indigenous"
+      ],
+      [
+        "179.",
+        "M/s Invitrogen Bioservices\nIndia Private Limited,\nBengaluru",
+        "TaqPath™ COVID-19 CE-\nIVD RT-PCR Kit",
+        "M/s Life Technologies\nCorporation, USA"
+      ],
+      [
+        "180.",
+        "M/s Himedia Laboratories Pvt\nLtd, Mumbai",
+        "Hi-PCR® Coronavirus\n(COVID-19) Multiplex\nProbe PCR Kit",
+        "Indigenous"
+      ],
+      [
+        "181.",
+        "M/s Genetix Biotech Asia Pvt.\nLtd,\nDelhi",
+        "SMARTCHEK® Novel\nCoronavirus (SARS-CoV-\n2) Detection Kit\nRT PCR Kit",
+        "M/s Genesystem Co.,\nLtd, South Korea"
+      ]
+    ]
+  },
+  {
+    "page": 16,
+    "bbox": [
+      55.54,
+      72.19,
+      556.44,
+      697.82
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "182.",
+        "M/s Transcience Innovative\nTechnologies, Chennai",
+        "TrueScreenCOVID-19\nMultiplex Real Time PCR\ndetection Kit",
+        "Indigenous"
+      ],
+      [
+        "183.",
+        "M/s Roche Diagnostics India\nPvt. Ltd, Mumbai",
+        "Cobas SARS-CoV-2 &\nInfluenza A/B\nMultiplex real-time RT-\nPCR assay",
+        "M/s. Roche\nMolecular Systems, Inc,\nUSA"
+      ],
+      [
+        "184.",
+        "M/s Trivitron Healthcare Pvt.\nLtd, Chennai",
+        "COVIDSure Pro Multiplex\nRT PCR Kit",
+        "Indigenous"
+      ],
+      [
+        "185.",
+        "M/s SvashmiGenotech Private\nLimited, Bangaluru",
+        "Stellence Covid 19 RT Q\nPCR Kit",
+        "Indigenous"
+      ],
+      [
+        "186.",
+        "M/s Trivitron Healthcare Pvt.\nLtd, Chennai",
+        "COVIDSure Multiplex RT\nPCR Kit",
+        "Indigenous"
+      ],
+      [
+        "187.",
+        "M/s Sidak Life Care Pvt Ltd,\nNew Delhi",
+        "Sidak Covid 19 RT-PCR\n(SARS-CoV-2 RNA)",
+        "Indigenous"
+      ],
+      [
+        "188.",
+        "M/s Genome Diagnostics Pvt\nLtd, Delhi (India) - 110058",
+        "Covid-19 Real Time PCR\nKit\n(Geno-Sen’s nCoV-2019\n(RG))",
+        "Indigenous"
+      ],
+      [
+        "189.",
+        "M/s Transasia Bio-Medicals\nLtd,",
+        "ErbaMDx COVID-19 Real\nTime PCR Detection Kit",
+        "Indigenous"
+      ],
+      [
+        "190.",
+        "M/s Meril Diagnostics Private\nLimited, Gujarat",
+        "Meril One-Step COVID-19\nRT-PCR Kit (Lyophilized)\n(Target ORF1ab and N\ngenes)",
+        "Indigenous"
+      ],
+      [
+        "",
+        "",
+        "Meril One-Step COVID-19\nRT-PCR Kit (Lyophilized)\n(Target ORF1ab, E and N\ngenes)",
+        ""
+      ],
+      [
+        "191.",
+        "M/s. KOPRAN\nLABORATORIES LIMITED,\nMaharashtra",
+        "STAT-NAT® COVID-19\nHK (RT-PCR)",
+        "M/s Sentinel Ch S.P.\nA., Italy"
+      ],
+      [
+        "192.",
+        "M/s BioGenomics Limited,\nMumbai",
+        "BioCov-iD-ERN Real Time\nRT-PCR kit for detection\nof Covid-19",
+        "Indigenous"
+      ]
+    ]
+  },
+  {
+    "page": 17,
+    "bbox": [
+      55.55,
+      72.19,
+      556.43,
+      712.1
+    ],
+    "n_rows": 17,
+    "n_cols": 4,
+    "rows": [
+      [
+        "193.",
+        "M/s Vishat Diagnostic Pvt Ltd,\nMumbai",
+        "SARS-CoV-2 Fluorescent\nPCR",
+        "M/s Maccura\nBiotechnology Co. Ltd.,\nChina"
+      ],
+      [
+        "194.",
+        "M/s PerkinElmer India Pvt. Ltd,\nChennai",
+        "PKamp™ Respiratory\nSARS-CoV-2 RT-PCR\nPanel kit",
+        "M/s Wallac Oy, Finland"
+      ],
+      [
+        "195.",
+        "M/s QIAGEN India Pvt. Ltd,\nDelhi",
+        "artus SARS-CoV- 2 Prep&\nUM Kit (RT-PCR)",
+        "M/s QIAGEN GmbH,\nGermany"
+      ],
+      [
+        "196.",
+        "M/s SNIBE DIAGNOSTIC\n(India) Private Limited",
+        "Molecision SARS-CoV-2\nRT-PCR",
+        "M/s Shenzhen New\nIndustries Biomedical\nEngineering Co., Ltd.\nChina"
+      ],
+      [
+        "197.",
+        "M/s. R-BiopharmNeugen Pvt.,\nLtd, Hyderabad",
+        "VivalyticCoV test (RT-\nPCR)",
+        "M/s.Bosch Healthcare\nSolutions GmbH ,\nGermany"
+      ],
+      [
+        "198.",
+        "M/s Thermo Fisher Scientific\nIndia Pvt. Ltd, Hyderabad",
+        "Accula SARS Cov-2 Test\n(RT-PCR)",
+        "M/s Mesa Biotech Inc,\nUSA,"
+      ],
+      [
+        "199.",
+        "M/s DIAGNOSTIC CARE AND\nTRADING PVT LTD, Chennai",
+        "Molecision SARS-CoV-2\nRT-PCR",
+        "M/s Shenzhen New\nIndustries Biomedical\nEngineering Co., Ltd.,\nChina"
+      ],
+      [
+        "200.",
+        "M/s. R-BiopharmNeugen Pvt.,\nLtd, Hyderabad",
+        "BOSCH Vivalytic SARS-\nCoV-2 (RT-PCR)",
+        "M/s.Bosch Healthcare\nSolutions GmbH,\nGermany"
+      ],
+      [
+        "201.",
+        "M/s BioMerieux India Pvt. Ltd,\nRewari, Haryana.",
+        "SARS-COV-2 RESPI R-\nGENE (RT-PCR)",
+        "M/s Biomerieux SA,\nFrance"
+      ],
+      [
+        "202.",
+        "M/s PINKTECH DESIGN\nPRIVATE LIMITED, New Delhi",
+        "96 SARS-CoV-2 Kit (RT-\nPCR)",
+        "M/s Genedrive\nDiagnostics Limited, UK"
+      ],
+      [
+        "203.",
+        "M/s Roche Diagnostics India\nPvt. Ltd, Mumbai",
+        "Cobas® SARS-CoV-2 &\nInfluenza A/B , RT-PCR",
+        "M/s. Roche Molecular\nSystems, Inc. USA"
+      ],
+      [
+        "204.",
+        "M/s CliniExperts Services Pvt.\nLtd, New Delhi",
+        "Cue COVID-19 Test\n(isothermal nucleic acid\namplification)",
+        "M/s Cue Health Inc.,\nUSA"
+      ],
+      [
+        "205.",
+        "M/s DNA XPERTS PVT LTD,\nVishakpatnam",
+        "Covid19 PCR Kit",
+        "Indigenous"
+      ],
+      [
+        "206.",
+        "M/s Edif Medical Systems,\nNew Delhi",
+        "SARS-Cov-2 Fluorescent\nPCR",
+        "M/s Maccura\nBiotechnology Co., Ltd.,\nChina"
+      ],
+      [
+        "207.",
+        "M/s POLY MEDICURE\nLIMITED, Delhi",
+        "POLYMED Q 2019 nCoV\nRT PCR Kit",
+        "Indigenous"
+      ],
+      [
+        "208.",
+        "M/s VIW Vaccine World Private\nLimited, Chennai",
+        "HA TECH SARS-CoV-2\nRT-PCR Multiplex\nDiagnostic Kit",
+        "M/s HA TECH PTY\nLTD, Australia"
+      ],
+      [
+        "209.",
+        "M/s MERIDIAN BIOTECH,\nBengaluru",
+        "Allplex™ 2019-nCoV\nAssay (RT-PCR)",
+        "M/s SEEGENE INC,\nSouth Korea"
+      ]
+    ]
+  },
+  {
+    "page": 18,
+    "bbox": [
+      55.56,
+      72.24,
+      556.42,
+      177.86
+    ],
+    "n_rows": 3,
+    "n_cols": 4,
+    "rows": [
+      [
+        "210.",
+        "M/s MERIDIAN BIOTECH,\nBengaluru",
+        "Allplex™ SARS-CoV-\n2/FluA/FluB/RSV Assay\n(RT-PCR)",
+        "M/s SEEGENE INC,\nSouth Korea"
+      ],
+      [
+        "211.",
+        "M/s MERIDIAN BIOTECH,\nBengaluru",
+        "Allplex™ SARS-CoV-2\nMaster Assay",
+        "M/s SEEGENE INC,\nSouth Korea"
+      ],
+      [
+        "212.",
+        "M/s ADT India Pvt. Ltd,\nNew Delhi.",
+        "LyteStarTM 2019-nCoV\nRT-PCR Kit 2.0",
+        "M/s ADT Biotech Sdn.\nBhd, Malaysia"
+      ]
+    ]
+  }
+]

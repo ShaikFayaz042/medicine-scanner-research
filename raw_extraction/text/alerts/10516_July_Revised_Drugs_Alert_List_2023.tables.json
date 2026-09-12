@@ -1,0 +1,51 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      70.37,
+      108.35,
+      809.47,
+      391.77
+    ],
+    "n_rows": 3,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.No",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch\nNo.",
+        "Date of\nManufacture",
+        "Date\nof\nExpiry",
+        "Manufactured\nBy",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From",
+        "Remarks"
+      ],
+      [
+        "2",
+        "Tamsulosin\nHydrochloride &\nDutasteride Tablets\n(Urimax D)",
+        "GH200\n67",
+        "01/2022",
+        "12/202\n4",
+        "Cipla Ltd.,\nVerna Indl.\nEstate, Goa\n403722, India",
+        "Identification\nand Assay of\nDutasteride and\nAssay of\nTamsulosin\nHydrochloride",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata",
+        "The actual manufacturer (as per label claim) has\ndeclared the impugned batch to be not\nmanufactured by them and that it is a spurious\ndrug. After enquiry, Joint Investigation Team of\nCDSCO (East Zone), CDSCO (Goa Sub Zone)\nand SLA (Goa) have declared the said drug as\nspurious u/s 17B(e) of Drugs & Cosmetics Act,\n1940, however, the same is subject to outcome\nof further investigation."
+      ],
+      [
+        "36",
+        "Rosuvastatin\nTablets IP\n(Rosuvas 10\nTablets)",
+        "SID30\n56A",
+        "11/2022",
+        "04/202\n5",
+        "Sun pharma\nlaboratories\nltd., Plot No.\n107-108, Namli\nBlock, P.O.\nRanipool,\nEast-Skkim-\n737135",
+        "Description and\nAssay of\nRosuvastatin\nCalcium\ncalculated as\nRosuvastatin",
+        "Drug Control\nDepartment\nDelhi",
+        "RDTL\nChandigar\nh",
+        "The actual manufacturer (as per label claim) has\ninformed that the impugned batch of the product\nhas not been manufactured by them and that it\nis a spurious drug. Thus, the product is\npurported to be spurious, however, the same is\nsubject to outcome of investigation."
+      ]
+    ]
+  }
+]

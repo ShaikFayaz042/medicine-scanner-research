@@ -1,0 +1,218 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.28,
+      73.0,
+      582.5,
+      153.7
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "943"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "928"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "015"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "0"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      167.87,
+      582.5,
+      713.29
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.No.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Alora 0.25\n(Alprazolam Tablets\nI.P. 0.25 mg)",
+        "B. No.: 03A19T02\nMfg dt: 11/2019\nExp dt: 10/2022\nMfd by: M/s. Shine\nPharmaceuticals Limited,\nPlot No. 132, Karjan –\nVemardi Road, Juni\nJitherdi, Te. Karjan – 391\n240, Dist. Vadodara,\nGujarat.",
+        "Dissolution",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "2.",
+        "Telmicept – 40\n(Telmisartan Tablets\nI.P. 40 mg)",
+        "B. No.: C21T479003\nMfg dt: 09/2019\nExp dt: 08/2022\nMfd by: M/s. Concept\nPharmaceuticals Ltd., A-\n28/3, MIDC, Chikalthana,\nAurangabad – 431 006\nMaharashtra.",
+        "Dissolution",
+        "CDSCO\nSub-Zone\nGuwahati",
+        "CDL\nKolkata"
+      ],
+      [
+        "3.",
+        "HAND SANITIZER",
+        "B. No.: V20EL011\nMfg dt: 04/2020\nExp dt: 08/2022\nMfd by: M/s. VOWCARE\nPRODUCTS Plot No. 77,\nZone 4th, I.G.C., SIDCO\nLassipora, Dist. Pulwama\nJammu & Kashmir -\n192305.",
+        "Assay of\nIsopropyl\nAlcohol,\nHydrogen\nPeroxide,\nGlycerol",
+        "Drugs Control\nDepartment\nSrinagar",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "4.",
+        "PANTOPRAZOLE\nSODIUM TABLETS\nIP 40 MG",
+        "B. No.: ATPP-2011\nMfg dt: 06/2020\nExp dt: 05/2022\nMfd by: M/s. ANG\nLifesciences India Ltd. At\nKh No. 139/2, Village",
+        "Dissolution",
+        "CDSCO\nSub-Zone\nJammu",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      21.57,
+      582.49,
+      706.09
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Jodhapur, Barotiwala, Dist.\nSolan, (HP).",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "DOCTORS CARE\nHAND SANITIZER",
+        "B. No.: 114D\nMfg dt: 04/2020\nExp dt: 03/2022\nMfd by: M/s. Beaubelle’Z\nHealth & beauty Care,\nNH8, Gujarat.",
+        "Assay of\nEthyl Alcohol",
+        "CDSCO\nNorth-Zone",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "6.",
+        "Paracetamol Tablets\nIP 650 mg PARLIN-\n650 TABLETS",
+        "B. No.: CD505598\nMfg dt: 12/2019\nExp dt: 11/2021\nMfd by: M/s. Unisafe\nBioscience Pvt. Ltd., At\n3726/27, GIDC, Vatwa,\nAhmedabad Gujarat.",
+        "Dissolution",
+        "CDSCO\nNorth-Zone",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "7.",
+        "SULFASALAZINE\nTABLETS B.P. 500 mg",
+        "B. No.: SSZT718\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. Unicure India\nLtd.C-21, 22 & 23, Sector-\n3, Noida-201301 Distt.\nGautam Budh Nagar Uttar\nPradesh.",
+        "Related\nSubstances",
+        "CDSCO\nNorth-Zone",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "8.",
+        "Fluconazole Tablets\nIP 150 mg FLUCOL\nTABLETS",
+        "B. No.: BY20002\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. Ortin\nLaboratories Ltd. 275 &\n278 (Part), I.D.A.\nPashamilaram-502307,\nSanga Reddy Dist.\nTelangana.",
+        "Dissolution\nand Related\nSubstances",
+        "CDSCO\nNorth-Zone",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "9.",
+        "CIPROFLOXACIN\nTABLETS I.P. 500\nmg",
+        "B. No.: DT-281\nMfg dt: 01/2020\nExp dt: 06/2021\nMfd by: M/s. Daffodills\nPharmaceuticals Ltd.\nJawahar Nagar, Rohta\nRoad, Meerut-250001,\nUttar Pradesh.",
+        "Uniformity of\nweight",
+        "CDSCO\nSub-Zone\nJammu",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "10.",
+        "Levofloxacin Tablets\nIP L-FOX-500\nTABLETS",
+        "B. No.: SPTG-20639\nMfg dt: 10/2020\nExp dt: 09/2022\nMfd by: M/s. SPECTRUM\nFORMULATION PVT.",
+        "Uniformity of\nweight",
+        "CDSCO\nNorth-Zone",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.21,
+      21.57,
+      582.49,
+      697.69
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "LTD. Khasra No.12,\nMakhanpur, Bhagwanpur,\nRoorkee, Haridwar-\nUttarakhand.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "11.",
+        "Tramadol Prolonged\nRelease Tablets\n(CORLIVIDOL-100\nSR TABLETS)",
+        "B. No.: PTN-026\nMfg dt: 05/2020\nExp dt: 04/2022\nMfd by: M/s. Perk\nPharmaceuticals Ltd. A-7,\nIndustrial Estate,Partapur-\n250103 Uttar Pradesh.",
+        "Dissolution\nand Related\nSubstances",
+        "Drugs Control\nDepartment\nGovt. of\nN.C.T. of\nDelhi",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "12.",
+        "Calamine,\nDiphenhydramine\nHydrochloride and\nCamphor Lotion\nNANZIDRYL LOTION",
+        "B. No.: NYL-002\nMfg dt: 09/2019\nExp dt: 08/2022\nMfd by: M/s. Nanz Med\nScience Pharma Pvt.Ltd.\n(A unit of Med Science\nCanada Inc.) Rampur\nGhat, Paonta Sahib-\n173205.District-Sirmour\nHimachal Pradesh.",
+        "Assay of\nCamphor",
+        "Drugs Control\nDepartment\nHimachal\nPradesh",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "13.",
+        "Rosuvastain Tablets\nIP 20 mg",
+        "B. No.: T9329\nMfg dt: 09/2019\nExp dt: 08/2022\nMfd by: M/s. Bharat\nParenterals Ltd., Vill\nHaripura, Tal Savli,\nVadodara-391520,\nGujarat.",
+        "Dissolution",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDTL\nMumbai"
+      ],
+      [
+        "14.",
+        "Cystecot-600\n(N - Acetylcysteine\nTablets)",
+        "B. No.: MT191313\nMfg dt: 08/2019\nExp dt: 07/2021\nMfd by: M/s. Mascot\nHealth Series Pvt. Ltd.,\nPlot No. 79, 80, Sector 6\nA, IIE, SIDCUL, Haridwar-\n249403, Uttarakhand.",
+        "Assay",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDTL\nMumbai"
+      ],
+      [
+        "15.",
+        "Pantoprazole Tablets\nIP 40 mg",
+        "B. No.: T9356\nMfg dt: 09/2019\nExp dt: 08/2022\nMfd by: M/s. Bharat\nParenterals Ltd., Vill\nHaripura, Tal Savli,\nVadodara-391520,\nGujarat.",
+        "Dissolution",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDTL\nMumbai"
+      ]
+    ]
+  }
+]

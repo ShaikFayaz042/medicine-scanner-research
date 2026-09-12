@@ -1,0 +1,45 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      50.88,
+      92.3,
+      730.5,
+      149.36
+    ],
+    "n_rows": 3,
+    "n_cols": 8,
+    "rows": [
+      [
+        "A. Central Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No.",
+        "Vaccine Name",
+        "Batch No.",
+        "Manufactu\nring Date",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by CDSCO Laboratory"
+      ],
+      [
+        "1",
+        "Tetanus Vaccine(adsorbed)",
+        "--",
+        "--",
+        "--",
+        "vials Received Without Label",
+        "Container Closer Integrity",
+        "Central Drugs Laboratory, Kasauli"
+      ]
+    ]
+  }
+]

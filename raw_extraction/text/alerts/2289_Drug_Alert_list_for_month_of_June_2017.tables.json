@@ -1,0 +1,387 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      29.38,
+      83.75,
+      575.42,
+      805.95
+    ],
+    "n_rows": 9,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Amlodipine\nTablets IP (Lopin-5\nTablets)",
+        "B. No.: MNT-152913 ,\nMfg dt: 03/2016,\nExp dt: 02/2018,\nMfd by: M/s. Terrace\nPharmaceuticals (P) Ltd., 3-B\n(a), Phase-III, Industrial Area,\nSansar Terrace-176501.",
+        "Related\nSubstances",
+        "CDSCO,\nSub- Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "2.",
+        "Calcium,\nPhosphorous,\nMagnesium, Zinc\nWith Vitamin D3\nTablets (Calibon\nTablets)",
+        "B. No.: 53055,\nMfg dt: 07/2016,\nExp dt: 06/2018,\nMfd by: M/s. Swastik\nFormulations Pvt. Ltd., G.T.\nRoad, Dulhipur, Chandauli-\n232101.",
+        "Assay of\nvitamin D3",
+        "CDSCO,\nSub- Zone,\nJammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "3.",
+        "Prednisolone\nTablets IP 10 mg\n(Actaslone-10\nTablets)",
+        "B. No.: NHT-133,\nMfg dt: 09/2014,\nExp dt: 08/2017,\nMfd by: M/s. Neutec Healthcare\nPvt. Ltd., E-698, DSIDC Narela\nIndustrial Area, Delhi-110040.",
+        "Related\nSubstances",
+        "N.C.T. Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "4.",
+        "Prednisolone\nTablets IP 10 mg\n(Actaslone-10\nTablets)",
+        "B. No.: NHT-118,\nMfg dt: 07/2014,\nExp dt: 06/2017,\nMfd by: M/s. Neutec Healthcare\nPvt. Ltd., E-698, DSIDC Narela\nIndustrial Area, Delhi-110040.",
+        "Related\nSubstances and\nDissolution\n(Prednisolone)",
+        "N.C.T. Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "5.",
+        "Prednisolone\nTablets IP 5 mg\n(Actaslone-5\nTablets)",
+        "B. No.: NHT-140,\nMfg dt: 09/2014,\nExp dt: 08/2017,\nMfd by: M/s. Neutec Healthcare\nPvt. Ltd., E-698, DSIDC Narela\nIndustrial Area, Delhi-110040.",
+        "Related\nSubstances and\nAssay of\nPrednisolone",
+        "N.C.T. Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "6.",
+        "Ofloxacin and\nOrnidazole Tablets\n(OFSTAN-OZ\nTablets)",
+        "B. No.: MT170442,\nMfg dt: 04/2017,\nExp dt: 03/2019\nMfd by: M/s. Medox\nLifescience, Plot no. 222-223,\nPhase-III, Ind-Area, Sansarpur-\nTerrace (H.P).",
+        "Assay of\nOfloxacin and\nOrnidazole",
+        "CDSCO,\nSub-Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "7.",
+        "Cefixime,\nDicloxacillin and\nLactic Acid\nBacillus Tablets\n(Cefiwok-XL 200\nTablets)",
+        "B. No.:WML6003,\nMfg dt: 03/2016,\nExp dt: 02/2018,\nMfd by: M/s. Malik Lifesciences\nPvt. Ltd., Plot No. 16, Vardhman\nIndl. Estate, N.H. 58, Haridwar-\n247667 (Uttarakhand).",
+        "Disintegration",
+        "State Jammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "8.",
+        "Paracetamol\nTablets IP 650 mg\n(PACIPIK-650",
+        "B. No.:AA-246 ,\nMfg dt: 02/2015,\nExp dt: 01/2018,",
+        "Dissolution\n(Paracetamol)",
+        "CDSCO,\nSub-Zone,\nJammu",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      29.37,
+      28.53,
+      575.43,
+      791.67
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "Tablets)",
+        "Mfd by: M/s. AARPIK\nPharmaceutical Pvt. Ltd.,\nC1/306/5, Kerala G.I.D.C.,\nKerala Ta Bavla Road, Distt.\nAhmedabad.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "9.",
+        "Lactulose solution\n(Loozsun solution)",
+        "B. No.:STL-16468 ,\nMfg dt: 01/2017,\nExp dt: 12/2018,\nMfd by: M/s. Terrace\nPharmaceuticals (P) Ltd., 3-B\n(a), Phase-III, Industrial Area,\nSansarpur Terrace-176501.",
+        "Assay of\nLactulose",
+        "CDSCO,\nSub-Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "10.",
+        "Germicide Gargle\nPovidone Iodine\n1% W/V",
+        "B. No.:EPM6001AL ,\nMfg dt: 06/2016,\nExp dt: 11/2017,\nMfd by: M/s. Hindustan\nLaboratories, Plot No. 5-9,\nSurvay No.:38/2, Aliyali\nPallghar-(W) Distt. Palgarh,\n401404 (M.S.).",
+        "Assay of\nPovidone\nIodine\nCalculated as\nAvailable\nIodine",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "11.",
+        "Aciloc only\n(Ranitidine Oral\nLiquid)",
+        "B. No.:16010,\nMfg dt: 10/2016,\nExp dt: 09/2018,\nMfd by: M/s. Cadila\nPharmaceutical Limited, 1389,\nDholka-387810, Dist,\nAhmedabad.",
+        "Test for Assay",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "12.",
+        "Rocap-20\n(Piroxicam\nCapsules)",
+        "B. No.:298114,\nMfg dt: 02/2017,\nExp dt: 01/2021,\nMfd by: M/s. Lesanto\nLaboratories, Plot No. 9, 10, 11\n& 20, Survey No. 53, Manor\nRoad, Palghar (E), Dist Thane,\nMaharashtra.",
+        "Test for Water",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "13.",
+        "Rocap-20\n(Piroxicam\nCapsules)",
+        "B. No.:298113,\nMfg dt: 02/2017,\nExp dt: 01/2021,\nMfd by: M/s. Lesanto\nLaboratories, Plot No. 9, 10, 11\n& 20, Survey No. 53, Manor\nRoad, Palghar (E), Dist Thane,\nMaharashtra.",
+        "Test for Water",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "14.",
+        "Kalcical-500\n(Tablet of Vitamin\nD3 with Elemental\nCalcium)",
+        "B. No.:1508,\nMfg dt: 01/2016,\nExp dt: 06/2017,\nMfd by: M/s. Vintochem\nPharmaceuticals, At: Industrial\nArea, Maxi Road, Ujjain (M.P.).",
+        "Assay of\nCalcium &\nVitamin D3",
+        "CDSCO,\nSub-Zone,\nIndore",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "15.",
+        "Lecetzy\n(Levocetirizine\nDihydrochloride\nTablets I.P. 5 mg)",
+        "B. No.:416-136 ,\nMfg dt: 01/2016,\nExp dt: 12/2018,\nMfd by: M/s. Zee Laboratories\nLtd., Behind 47, Industrial Area,\nPaonta Sahib-173025.",
+        "Test for\nDissolution",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      29.37,
+      28.53,
+      575.43,
+      777.87
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "16.",
+        "Thyrotop-100\n(Thyroxine Sodium\nTablets IP)",
+        "B. No.:TRHY0023,\nMfg dt: 09/2015,\nExp dt: 08/2017,\nMfd by: M/s. Micro Labs\nLimited Unit-III, R.S. No. 63/3\n& 4, Thiruvandar Koil,\nPuducherry-605102.",
+        "Assay",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "17.",
+        "Diethyl\nCarbamazine\nCitrate Tablets I.P.\n50 mg",
+        "B. No.:287,\nMfg dt: 07/2015,\nExp dt: 06/2017,\nMfd by: M/s. Infinitive\nPharmaceutical Industries, Plot\nNo. 63, G.I.D.C., Industrial\nEstate, Disa-385535, Gujarat.",
+        "Description &\nAssay",
+        "CDSCO,\nAhmedabad\nZonal Office",
+        "CDL,\nKolkata"
+      ],
+      [
+        "18.",
+        "Gentamicin\nSulphate Injection\nI.P. 2 ml",
+        "B. No.:GS672,\nMfg dt: 11/2016,\nExp dt: 10/2018,\nMfd by: M/s. Tamman Titoe\nPharma Pvt. Ltd., 56-57, SIDCO\nPharmaceutical Complex,\nAlathur-603110, Tamil Nadu.",
+        "Description &\nParticulate\nMatter",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "19.",
+        "Amikacin Sulphate\nInjection I.P. 100\nmg - 2 ml",
+        "B. No.:AK1663,\nMfg dt: 12/2016,\nExp dt: 11/2018,\nMfd by: M/s. Nandani Medical\nLaboratories Pvt. Ltd., 221/5,\nBicholi Hapsi, Kanadla Road,\nIndore.",
+        "Description,\nParticulate\nMatter &\nSterility",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "20.",
+        "Gentamicin\nSulphate Injection\nI.P. 2 ml",
+        "B. No.:GS630,\nMfg dt: 08/2016,\nExp dt: 07/2018,\nMfd by: M/s. Tamman Titoe\nPharma Pvt. Ltd., 56-57, SIDCO\nPharmaceutical Complex,\nAlathur-603110, Tamil Nadu.",
+        "Description &\nParticulate\nMatter",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "21.",
+        "Amitrust-250\n(Amikacin\nInjection I.P.)",
+        "B. No.:ZCVAB17001,\nMfg dt: 01/2017,\nExp dt: 12/2018,\nMfd by: M/s. Yeluri Formulation\nPvt. Ltd., Sy No. 296/7/6, IDA.,\nBollaram, Hyderabad 502325.",
+        "Description &\nParticulate\nMatter",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "22.",
+        "Gentamicin\nSulphate Injection\nI.P. 2 ml",
+        "B. No.:GS651 ,\nMfg dt: 09/2016,\nExp dt: 08/2018,\nMfd by: M/s. Tamman Titoe\nPharma Pvt. Ltd., 56-57, SIDCO\nPharmaceutical Complex,\nAlathur 603110, Tamil Nadu.",
+        "Description &\nParticulate\nMatter",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "23.",
+        "Absorbent Cotton\nWool I.P.",
+        "B. No.:2489,\nMfg dt: 09/2016,\nExp dt: 08/2019,\nMfd by: M/s. SJD Surgicot Pvt.\nLtd., Bhiwani Road, Jind 126103\n(H.R).",
+        "Surface-active\nSubstances and\nwater soluble\nsubstances",
+        "CDSCO,\nSub-Zone,\nBaddi",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      29.37,
+      28.53,
+      575.43,
+      804.99
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "24.",
+        "Systocillin\nInjection (Oxytocin\nInjection I.P.-1)",
+        "B. No.:SY-1605,\nMfg dt: 02/2016,\nExp dt: 01/2018,\nMfd by: M/s. Systochem\nLaboratories Ltd., B-75, Roop\nNagar Ind. Area, Loni-201102.",
+        "Assay",
+        "CDSCO,\nSub-Zone,\nBaddi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "25.",
+        "Tramajack\n(Tramadol HCl\nInjection)",
+        "B. No.: I-12259,\nMfg dt: 09/2016,\nExp dt: 08/2018,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd., Bye Pass,\nMajitha Road, Khanna Nagar\nP.O., Amritsar-143001.",
+        "Assay",
+        "CDSCO,\nSub-Zone,\nBaddi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "26.",
+        "Forcecef 1gm\n(Ceftrixone\nInjection I.P.)",
+        "(For Powder)\nB. No.:10116054 ,\nMfg dt: 07/2016,\nExp dt: 06/2018,\nMfd by: M/s. Zeiss\nPharmaceutical Pvt. Ltd., 72,\nEPIP, Phase-1, Jharmajri, Baddi,\nSolan, H.P.,\n(For Sterile water for\ninjection)\nB. No.: WB6F21,\nMfg dt: 06/2016,\nExp dt: 05/2019,\nMfd by: M/s. Auraya Healthcare,\nPlot No. 80E, EPIP, Phase-I,\nJharmajri, Baddi, H.P., India for\nsterile water for injection).",
+        "Particulate\nMatter",
+        "CDSCO,\nSub-Zone,\nChandigarh",
+        "CDL,\nKolkata"
+      ],
+      [
+        "27.",
+        "DFZ-6\n(Deflazacort Oral\nSuspension)",
+        "B. No.:HSL-836,\nMfg dt: 12/2016,\nExp dt: 11/2018,\nMfd by: M/s. Himsagar\nLaboratories Limited, Kheri,\nTrilokpur Road, Kala Amb,\nSirmour, (HP).",
+        "Assay",
+        "CDSCO,\nSub-Zone,\nBaddi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "28.",
+        "Artcef-250\n(Cefuroxime Axetil\nTablets I.P.)",
+        "B. No.: DT-0199,\nMfg dt: 06/2016,\nExp dt: 05/2018,\nMfd by: M/s. Ethix Healthcare,\n82/33, Kalka-Shimla Highway,\nDeonghat, Saproon, Solan, HP-\n173211.",
+        "Dissolution",
+        "CDSCO,\nHyderabad\nZonal office",
+        "CDL,\nKolkata"
+      ],
+      [
+        "29.",
+        "Erythromycin\nStearate Tablets\nI.P.500 mg",
+        "B. No.: OB 04,\nMfg dt: 02/2016,\nExp dt: 01/2018,\nMfd by: M/s. Gluconate Health\nLimited, 1, Health Institute\nRoad, Kolkata-700065.",
+        "Dissolution",
+        "CDSCO,\nHyderabad\nZonal office",
+        "CDL,\nKolkata"
+      ],
+      [
+        "30.",
+        "Absorbent Cotton\nWool I.P.",
+        "B. No.:C4/12/14,\nMfg dt: 12/2014,\nExp dt: 11/2019,",
+        "Surface-active\nsubstances &\nSulphated-Ash",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      29.37,
+      28.53,
+      575.43,
+      736.47
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Mfd by: M/s. Shanti Surgicals\nPvt. Ltd. G-28, Panki Indl. Area,\nSite-1, Kanpur-208022.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "31.",
+        "Vomidan-2 ml\n(Ondansetron\nInjection I.P.)",
+        "B. No.:67ONA181,\nMfg dt: 09/2016,\nExp dt: 08/2018,\nMfd by: M/s. SPM Drugs (P)\nLtd., SF 52/1, Main Road, K.R.\nPalayam, Bhavani-638301 (TN).",
+        "Assay,\nParticulate\nMatter &\nRelated\nSubstances",
+        "CDSCO,\nSub-Zone,\nBangalore",
+        "CDL,\nKolkata"
+      ],
+      [
+        "32.",
+        "Paracetamol\nTablets IP 500 mg",
+        "B. No.: 2506714,\nMfg dt: 07/2014,\nExp dt: 06/2017,\nMfd by: M/s. Karnataka\nAntibiotics & Pharmaceuticals\nLtd., Plot No. 14 II Phase,\nPeenya, Bangalore-560058.",
+        "Dissolution",
+        "CDSCO,\nSub-Zone,\nBangalore",
+        "CDTL,\nChennai"
+      ],
+      [
+        "33.",
+        "Ferforte Tablets\n(Ferrous Ascorbate,\nCyanocobalamin,\nFolic Acid with\nZinc Tablets)",
+        "B. No.: CNL-026,\nMfg dt: 11/2016,\nExp dt: 04/2018,\nMfd by: M/s. Coronet Labs Pvt.\nLtd., 176, Mauza Ogli, Nahan\nRoad, Kala-Amb, Distt. Sirmour\n(HP)-173030.",
+        "Description",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDTL,\nChennai"
+      ],
+      [
+        "34.",
+        "Agni (Extra Strong\nBleaching Powder)",
+        "B. No.: Nil,\nMfg dt: 08/2016,\nExp dt: 01/2018,\nMfd by: M/s. Packed by: A.M.\nEnterprise, Guwahati, Assam.",
+        "Misbranded\nand\nAssay",
+        "Drugs\nControl\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "35.",
+        "Bromol Plus Cough\nExpectorant",
+        "B. No.: BT-169,\nMfg dt: 09/2016,\nExp dt: 08/2018,\nMfd by: M/s. Angel Laboratories\nPvt. Ltd., Dakshin Jagaddal,\nKolkata, West Bengal.",
+        "Assay",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "36.",
+        "Vominil Tablets",
+        "B. No.:T-8304 ,\nMfg dt: 01/2016,\nExp dt: 12/2017,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd, Plot No.\n56 & 61, Industrial Area, Phase-\nIII, Sansarpur Terrace, Dist-\nKangra, H.P.-176501.",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "37.",
+        "Cadfen Tablets",
+        "B. No.:CRT-150205,\nMfg dt: 02/2016,\nExp dt: 01/2018,\nMfd by: M/s. Civron\nPharmaceuticals (A GMP\nCertified Company), 13,\nIndustrial Area, Phase-III,\nSansarpur, Terrace, Dist-Kangra,\nH.P.",
+        "Uniformity of\nWeight and\nAssay",
+        "Drugs\nControl\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  }
+]

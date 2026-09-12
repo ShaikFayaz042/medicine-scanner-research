@@ -1,0 +1,121 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      72.43,
+      111.47,
+      744.29,
+      513.85
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S. No.",
+        "Name of\nDrugs/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure with\nreport in\nForm-13/34 No.\n& Date",
+        "Sample Received\nfrom",
+        "Declared by"
+      ],
+      [
+        "1.",
+        "Rantitidine\nHydrochloride\nTablets",
+        "Batch No – C 2009,\nD/Mfg. – 07/2012\nD/Exp. – 06/2015\nMfd. By- M/s Concept\nPharmaceutical Ltd, A-28/3,\nMIDC, Chikalthana Aurangabad-\n431210",
+        "Assay (Content\nof Ranitidine\nHydrochloride\nIP)",
+        "Drugs Controller\nDepartment,\nAssam",
+        "RDTL, Guwahati"
+      ],
+      [
+        "2.",
+        "Zolflomach 200\nTablets (Ofloxacin\nTablets)",
+        "Batch No – LM-574,\nD/Mfg. – 03/2010\nD/Exp. – 02/2013\nMfd. By- M/s NLP Organics Pvt.\nLtd., A-590, RIICO Industrial Area,\nBhiwadi 301019, Rajasthan",
+        "Unniformity of\nWeight,\nDissolution &\nAssay 32-\n9/2013-\nSS/DCA(W)-\n52/675\nDated\n06.05.2013",
+        "CDSCO, West\nZone, Mumbai",
+        "CDL, Kolkata"
+      ],
+      [
+        "3.",
+        "Metonorm\n(Metoclopramide\nInjection IP)",
+        "Batch No – EL-120913,\nD/Mfg. – 09/2012\nD/Exp. – 08/2014\nMfd. By- M/s Ethicare\nLaboratories, 15, Industrial Estate,\nDigiana, Jammu-180010",
+        "Description &\nParticulate\nMatter 32-\n20/2013-\nSS/DCA(J)-\n59/744 Dated\n09/05/2013",
+        "CDSCO, Sub-\nZone, Jammu",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      72.43,
+      72.23,
+      744.29,
+      474.61
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "4.",
+        "P-Min 10%\n(Providone Iodine\nSolution IP)",
+        "Batch No – 1472,\nD/Mfg. – 12/2012\nD/Exp. – 11/2014\nMfd. By- M/s Minil Laboratories\nPvt. Ltd., 26 Indl Estate, Jammu-10",
+        "pH.\n32-20/2013-\nSS/DCA(J)-\n13/1105 Dated\n31/05/2013",
+        "CDSCO, Sub-\nZone, Jammu",
+        "CDL, Kolkata"
+      ],
+      [
+        "5.",
+        "Betni\n(Betamethasone\nSodium Phosphate\nInj.)",
+        "Batch No – IN-BN-177,\nD/Mfg. – 11/2012\nD/Exp. – 04/2014\nMfd. By- M/s Parentral Pharma\nPvt. Ltd., Plot No. 45, Phase III,\nIndustrial Area, Gangyal, Jammu-\n180010",
+        "Description &\nParticulate\nMatter 32-\n20/2013-\nSS/DCA(J)-\n64/1078 Dated\n30/05/2013",
+        "CDSCO, Sub-\nZone, Jammu",
+        "CDL, Kolkata"
+      ],
+      [
+        "6.",
+        "Ondansetron\nHydrochloride\nTablets IP",
+        "Batch No – 456-01,\nD/Mfg. – 09/2011\nD/Exp. – 08/2014\nMfd. By- M/s Hab Pharmaceuticals\n& Research Ltd., 10, Pharmacity,\nSIDCUL, Selaqui, Dehradun-\n248197",
+        "Assay 32-\n10/2013-\nSS/DCA(J)-\n72/998 Dated\n21/05/2013",
+        "CDSCO, South\nZone, Chennai",
+        "CDL, Kolkata"
+      ],
+      [
+        "7.",
+        "Ofloxacin Tablets\nI.P. (ONOFBACT-\n200)",
+        "Batch No – MST-13342,\nD/Mfg. – 02/2013\nD/Exp. – 01/2016\nMfd. By- M/s M. Sea\nPharmaceuticals, Surajpur, Paonta\nSahib, Distt. Sirmour (H.P.)",
+        "Uniformity of\nWeight &\nDissolution Test",
+        "CDSCO, Sub\nZone, Chandigarh",
+        "RDTL, Chandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      72.48,
+      72.26,
+      744.24,
+      294.05
+    ],
+    "n_rows": 2,
+    "n_cols": 6,
+    "rows": [
+      [
+        "8.",
+        "NITROFURANTOI\nN TABLETS I.P.\n(MARTIFUR)",
+        "Batch No – TMFBR-99,\nD/Mfg. – 06/2012\nD/Exp. – 05/2015\nMfd. By- M/S MARTIN AND\nHARRIS LABORATOIES LTD.,\nvillage Libberhedi, Mangalore,\nTehsil Rorkee, Distt. Haridwar,\nUttarakhand",
+        "Disintegration\nTest",
+        "CDSCO, Sub\nZone, Chandigarh",
+        "RDTL, Chandigarh"
+      ],
+      [
+        "9.",
+        "Calcium Carbonate\nTablets\n(MARYCAL-500)",
+        "Batch No – MMT-657,\nD/Mfg. – 06/2012\nD/Exp. – 05/2014\nMfd. By- M/S A. K. Biotech Pvt.\nLtd., Export Promotional Industrial\nPark, Kartholi, Jammu-181133",
+        "Disintegration\nTest",
+        "CDSCO, Sub\nZone, Chandigarh",
+        "RDTL, Chandigarh"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      29.37,
+      83.73,
+      575.43,
+      777.87
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Ozotel Tablets\n(Telmisartan Tablets\nIP 40mg)",
+        "B. No.: GEO-7037,\nMfg dt: 01/2016\nExp dt: 12/2017\nMfd by: M/s. Ozone\nPharmaceutical Ltd, E.P.I.P,\nAmingaon, Guwahati-781031\n(Assam)",
+        "Dissolution",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDTL,\nChennai"
+      ],
+      [
+        "2.",
+        "Diethyl Carbamazine\nTablets IP 100mg",
+        "B. No.: T-563,\nMfg dt: 10/2014\nExp dt: 09/2016\nMfd by: M/s. Carewell Steuart\nPharma Pvt. Ltd., No. 9, Nagi\nReddy Gardens, Guindy,\nChennai-600032",
+        "Description",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDTL,\nChennai"
+      ],
+      [
+        "3.",
+        "Methylcobalamin,\nVitamin B1, B6,\nNiacinamide and D-\nPanthenol injection\n(Mecofar-Plus\nInjection)",
+        "B. No.: A10443,\nMfg dt: 02/2016\nExp dt: 07/2017\nMfd by: M/s. B.M.\nPharmaceuticals, 47-48,\nIndustrial Area, Phase-II,\nChandigarh-160002",
+        "Assay",
+        "UT,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "4.",
+        "Metoprolol Tartrate\nTablets IP 50mg\n(Metopronol-50\nTablets)",
+        "B. No.: HST-15-315,\nMfg dt: 08/2015\nExp dt: 07/2017\nMfd by: M/s. Himsagar\nLaboratories Limited, Kheri,\nTrilokpur Road, Kala Amb,\nSirmour (H.P)",
+        "Identification",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "5.",
+        "Amitraz Dip\nConcentrate Liquid\nIP vet. (Amitraz\n12.5%)",
+        "B. No.: S-1129,\nMfg dt: 01/2016\nExp dt: 12/2018\nMfd by: M/s. Saibliss Drugs &\nPharmaceuticals, 66-67,\nGondpur Ind. Area, Ponta Sahib-\n173025",
+        "Identification\nand Assay",
+        "Ambala-II",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "6.",
+        "Clindamycin\nPhosphate",
+        "B. No.: P-006-WS20140602,\nMfg dt: 06/2014,\nExp dt: 05/2018,\nMfd by: M/s. Zhejiang Hisoar\nPharmaceuticals Co. Ltd.",
+        "Water",
+        "CDSCO,\nAhmedabad\nZone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "Glimikem – 2\n(Glimepiride Tablet\nIP)",
+        "B. No.: GMT/5004C,\nMfg dt: 03/2015\nExp dt: 02/2017\nMfd by: M/s. Alkem\nLaboratories Ltd., At Vill:\nThana, Baddi, Distt: Solan,\nHimachal Pradesh-173205",
+        "Dissolution",
+        "CDSCO,\nAhmedabad\nZone",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      29.37,
+      28.53,
+      575.43,
+      805.47
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "8.",
+        "Glimikem – 2\n(Glimepiride Tablet\nIP)",
+        "B. No.: GMT/5003C,\nMfg dt: 02/2015\nExp dt: 01/2017\nMfd by: M/s. Alkem\nLaboratories Ltd., At Vill:\nThana, Baddi, Distt: Solan,\nHimachal Pradesh 173205",
+        "Dissolution",
+        "CDSCO,\nAhmedabad\nZone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9.",
+        "Citicoline Sodium",
+        "B. No.: 3A22150704,\nMfg dt: 06/2015,\nExp dt: 06/2017\nMfd by: M/s. Sozhou Tianma\nSpecialty Chemical",
+        "Water",
+        "CDSCO,\nAhmedabad\nZone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "10.",
+        "Serra – 10\n(Serratiopeptidase\nTablets I.P.)",
+        "B. No.: 1601,\nMfg dt: 01/2016\nExp dt: 06/2018\nMfd by: M/s. Kamron\nLaboratories Ltd., 737,\nRakanpur, Ta-Kalol (N.G.),\nDistt. Gandhinagar- 382 721,\nGujarat.",
+        "Assay",
+        "CDSCO,\nAhmedabad\nZone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "11.",
+        "Zepoxin\n(i.Pantoprazole for\nInjection\nii.Sodium Chloride\nInjection I.P. 0.9%\nw/v)",
+        "For Injection\nB. No.: 1015354,\nMfg dt: 02/2015\nExp dt: 01/2017\nMfd by: M/s. Neon Laboratories\nLtd., Mahal Industrial Estate,\nAndheri (East), Mumbai.\nB. No.: NB4K09,\nMfg dt: 11/2014\nExp dt: 10/2017\nMfd by: Auraya Healthcare,\nBaddi (H.P.)",
+        "Particulate\nMatter",
+        "CDSCO, East\n-Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "12.",
+        "Tramadol\nHydrochloride\nInjection",
+        "B. No.: 151237,\nMfg dt: 12/2015\nExp dt: 05/2017\nMfd by: M/s. Minopharm\nLaboratories Pvt. Ltd., Opp.\nI.D.A. Pernamitta-523002",
+        "Description &\nParticulate\nMatter",
+        "CDSCO,\nHyderabad\nZone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "13.",
+        "Norfloxacin\nTablets",
+        "B. No.: NR4-198,\nMfg dt: 02/2015\nExp dt: 01/2018,\nMfg. by: M/s. Ghanshyam\nPharmaceuticals D-14, Rani\nIndustrial Area, Kamrup, Assam.",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nSivasagar,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "14.",
+        "Enalapril Maleate\nTablets",
+        "B. No.: T140919,\nMfg dt: 09/2014\nExp dt: 08/2016\nMfd by: M/s. Micron\nPharmaceuticals,2117,A-2,\nPhase-III,GIDC, Vapi-396195",
+        "Assay",
+        "Drugs\nControl\nDepartment,\nTripura.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "15.",
+        "Afon-4\nTablets",
+        "B. No.: TPT-4958,\nMfg dt: 09/2014\nExp dt: 08/2016\nMfd by: M/s. Trugen",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nDhubri,",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      29.4,
+      28.56,
+      575.4,
+      334.25
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Pharmaceuticals (P) Ltd.,\nRoorkee, Dist- Haridwar,\nUttarakhand.",
+        "",
+        "Assam.",
+        ""
+      ],
+      [
+        "16.",
+        "Envafine 2.5\nTablets",
+        "B. No.: NT-150829,\nMfg dt: 08/2015\nExp dt: 07/2017\nMfd by: M/s. Gracure\nPharmaceuticals Ltd. Brahman\nBeli Road, Vill. Belidyod,\nNalagarh, Dist-Solan, H.P",
+        "Assay",
+        "Drugs\nControl\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "17.",
+        "VIT-A\nSyrups",
+        "B. No.: AHP-1079,\nMfg dt: 01/2016\nExp dt: 12/2017\nMfd by: M/s Alice Healthcare\nPvt. Ltd., D-110/A Indl. Area,\nPhase-7, Mohali, Punjab",
+        "Misbranded",
+        "Drugs\nControl\nDepartment,\nSikkim.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "18.",
+        "Primaquine 15mg\n(Primaquine\nPhosphate Tablets\nI.P.)",
+        "B. No. : 1401,\nMfg dt: 06/2014\nExp dt: 05/2016\nMfd by: M/s. Vintochem\nPharmaceuticals, Industrial\nArea, Maxi Road, Ujjain, (M.P.)",
+        "Assay",
+        "CDSCO,\nWest-Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      29.4,
+      98.18,
+      561.12,
+      256.61
+    ],
+    "n_rows": 2,
+    "n_cols": 4,
+    "rows": [
+      [
+        "S. No.",
+        "Name of Drugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Remark"
+      ],
+      [
+        "1.",
+        "Clopitab (Clopidogrel\ntablets IP)",
+        "Batch no. J901640,\nM/D: 10/2019\nE/D: 03/2021\nAlleged to be mfd by: M/s Lupin\nLimited, EPIP Kartholi, SIDCO\nIndustrial Complex, Bari\nBrahmana, Dist. –Samba,\nJammu (J&K) – 181133.",
+        "As informed/clarified by\nM/s Lupin\nLimited."
+      ]
+    ]
+  }
+]

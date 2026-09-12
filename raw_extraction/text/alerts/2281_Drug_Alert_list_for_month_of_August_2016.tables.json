@@ -1,0 +1,217 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.29,
+      83.75,
+      575.43,
+      805.47
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.\nNo\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for failure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Bupivacaine\nHydrochloride in\nDextrose Injection\nU.S.P. 4 ml",
+        "B. No.: N-5987,\nMfg dt: 10/2015\nExp dt: 09/2017\nMfd by: M/s. Kwality\nPharmaceuticals Pvt. Ltd.,\nNag Kalan, Majitha Road,\nAmritsar, India",
+        "Description,\nForeign &\nParticulate Matter",
+        "CDSCO, North\nZone,\nGhaziabad.",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "Gentamicin\nInjection IP",
+        "B. No.: 1034,\nMfg dt: 12/2015,\nExp dt: 11/2017,\nMfd by: M/s. Orissa Drugs &\nChemicals Ltd., 1,\nMancheswar Industrial estate,\nBhubaneswar",
+        "Particulate Matter",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Elpril-5 (Enalapril\nMaleate Tablets\nI.P.)",
+        "B. No.: AP5153,\nMfg dt: 08/2015,\nExp dt: 07/2017,\nMfd by: M/s. Affy\nParenterals, Vill. Gullerwala,\nP.O. Baddi, Dist. Solan 173\n205 (H.P.)",
+        "Dissolution &\nAssay of Enalapril\nMaleate",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "Mac V.I.\n(Multivitamin\nInjection 10 ml)",
+        "B. No.: 741409,\nMfg dt: 09/2014,\nExp dt: 08/2016\nMfd by: M/s. Macin\nRemedies India Ltd., B-21,\nInd. Focal Point – 142001",
+        "Description,\nParticulate Matter,\nAssay of\nRiboflavin Sodium\nPhosphate",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "5.",
+        "Regenta Injection\n(Gentamicin\nInjection I.P.)",
+        "B. No.: RG-361,\nMfg dt: 10/2015,\nExp dt: 09/2017\nMfd by: M/s. Regain\nLaboratories, 134/5, HTM\nRoad, Raipur Lane, Hisar –\n125001.",
+        "Particulate Matter",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "Bioglumin - CT\n(Glucosamin\nSulfate Potassium\nChloride 250 mg &\nChondroitin Sulfate\nSodium 200 mg\nCapsules)",
+        "B. No.: BE14068,\nMfg dt: 09/2014,\nExp dt: 08/2016\nMfd by: M/s. Skymap\nPharmaceuticals, B-3, Dev\nBhoomi Industrial Estate,\nPohana Iqbalpur Road,\nRoorkee - 247 667",
+        "Description",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "Vitamin A Solution",
+        "B. No.: VAS-1501,\nMfg dt: 04/2015,\nExp dt: 03/2017\nMfd by: M/s Kabra Drugs\nLtd.,\nPlot No. 26, Sector-A,\nSanwer Road, Industrial",
+        "Misbranded",
+        "Drugs Control\nDepartment,\nNagaland.",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      22.3,
+      28.53,
+      575.42,
+      804.87
+    ],
+    "n_rows": 9,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Estate, Indore, 452015",
+        "",
+        "",
+        ""
+      ],
+      [
+        "8.",
+        "Vit – A Syrups",
+        "B. No.:AHP-1109,\nMfg dt:05/2016\nExp dt: 04/2018\nMfd by: M/s. Alice\nHealthcare Pvt. Ltd., D-\n110/A, Indl. Area, Phase-7,\nMohali.",
+        "Misbranded",
+        "Drugs Control\nDepartment,\nSikkim.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "9.",
+        "Tobra – DS\nInjections",
+        "B. No.:AM-2020,\nMfg dt:05/2015,\nExp dt: 04/2017\nMfd by: AIMS International,\nDehradun Road, Rampur\nGhat, Paonta Sahib, H.P.",
+        "Misbranded/\nAssay/pH",
+        "Drugs Control\nDepartment,\nMizoram.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "10.",
+        "IFA Syrups",
+        "B. No.:AHP-1073 ,\nMfg dt: 12/2015,\nExp dt: 11/2017\nMfd by: M/s. Alice\nHealthcare Pvt. Ltd., D-\n110/A, Indl. Area, Phase-7,\nMohali.",
+        "Assay",
+        "Drugs Control\nDepartment,\nSikkim.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "11.",
+        "Ibuprofen Tablets",
+        "B. No.: IBBT02-15,\nMfg dt:01/2015\nExp dt: 12/2016\nMfd by: M/s Unicure India\nLtd., C-22 & 23, Sector-3,\nNoida, 201301.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "12.",
+        "Ibuprofen Tablets",
+        "B. No.: JT41118,\nMfg dt:01/2015\nExp dt: 12/2016\nMfd by: M/s Omega Biotech\nLtd., 7th Mile Stone, Roorkee,\nUttarakhand-247667",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "13.",
+        "Metoclopramide\nHydrochloride\nInjections",
+        "B. No.: AM-5501,\nMfg dt:08/2015,\nExp dt: 07/2017\nMfd by: M/s Alchemist\nRemedies Pvt. Ltd., 138-139,\nIndustrial Estate 2, A.B.\nRoad, Dewas.",
+        "pH",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "14.",
+        "MKPAN 40\nTablets",
+        "B. No.:AT-141003 ,\nMfg dt:10/2014,\nExp dt: 09/2016\nMfd by: M/s Avalance\nPharmaceuticals, A66, Eldeco\nSidcul Indl. Park,\nUttarakhand.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "15.",
+        "OLAA-5\n(Olanzapine\nTablets IP)",
+        "B. No.: 214G-5/GS ,\nMfg dt:07/2014,\nExp dt: 06/2017\nMfd by: M/s. S.P.\nPharmaceuticals, G-19,\nM.I.D.C Jalgaon-425003\n(M.S.) India.",
+        "Does not conform\nto IP 2014 standard\nwith respect to the\ntest for Dissolution",
+        "CDSCO, West\nZone, Mumbai",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      22.28,
+      28.53,
+      575.44,
+      588.01
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "16.",
+        "Ceftazidime\nInjection IP\n1000mg",
+        "B. No.: ZA5001 ,\nMfg dt:03/2015,\nExp dt: 02/2017\nMfd by: M/s. Maan\nPharmaceuticals Ltd., Plot\nNo. 1 G.I.D.C., Phase-II,\nModhera Road, Mehsana-\n384002 N. Gujarat.",
+        "Does not conform\nto IP 2014 standard\nwith respect to the\ntest for Clarity of\nsolution &\nParticulate matter",
+        "CDSCO, West\nZone, Mumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "17.",
+        "Mecobalamine,\nVitamin B1,\nVitamin B6, Folic\nAcid and Alpha\nLipoic Acid\nTablets\n(METABIN\nFORTE\nTABLETS)",
+        "B. No.: OLS-15609\nMfg dt: 06/2015\nExp dt: 05/2017\nMfd by: M/s. Ossisko Life\nSciences, F-18, IGC\nIndustrial, Estate-151001",
+        "Uniformity of\nWeight and Assay\nof Mecobalamine",
+        "CDSCO, Sub-\nZone,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "18.",
+        "Misoprostol\nTablets 200mcg\n(PRISTOL\nTABLETS)",
+        "B. No.: 15106402\nMfg dt:03/2015\nExp dt: 02/2017\nMfd by: M/s. Mercury\nLaboratories Limited, Unit:2,\nHalol-Baroda Road, Jarod,\nBaroda (Gujarat)",
+        "Assay of\nMisoprostol",
+        "CDSCO Sub-\nZone, Jammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "19.",
+        "Desogestrel and\nEthinylestradiol\nTablets USP\n(LOCIPIL\nTABLETS)",
+        "B. No.: CH15020\nMfg dt: 09/2015\nExp dt: 05/2018\nMfd by: M/s. Corona\nRemedies Pvt. Ltd., Village\nJatoli, Post Office Oachghat\nTehsil Solan, Dist Solan\n(H.P.)-173223",
+        "Assay of\nUniformity of\ndosage units of\nDesogestrel",
+        "CDSCO Sub-\nZone, Jammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "20.",
+        "Ramipril Tablets IP\n5mg\n(MICROPRIL-5\nTABLETS)",
+        "B. No.: T160572\nMfg dt: 05/2016\nExp dt: 04/2018\nMfd by: M/s. Micron\nPharmaceuticals, 2117, A-2,\nPhase-III, G.I.D.C., Vapi-\n396195",
+        "Assay of Ramipril",
+        "CDSCO,\nNorth-Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

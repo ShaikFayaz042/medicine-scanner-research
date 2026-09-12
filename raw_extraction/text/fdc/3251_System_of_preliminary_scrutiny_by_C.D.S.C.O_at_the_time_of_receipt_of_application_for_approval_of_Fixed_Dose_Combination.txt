@@ -1,0 +1,2206 @@
+===== PAGE 1 =====
+1
+
+
+
+
+
+System of preliminary scrutiny by CDSCO
+at the time of receipt of application for
+approval of Fixed Dose Combinations
+(FDCs)
+
+
+
+
+
+===== PAGE 2 =====
+2
+
+1. TABLE OF CONTENTS
+#
+Contents
+Page No.
+1 TABLE OF CONTENTS
+2
+2 ABBREVIATIONS
+3
+3 GENERAL CONSIDERATIONS
+4
+4 CHECKLIST FOR ACCEPTABILITY OF APPLICATION PERTANINGS  TO
+FIXED DOSE COMBINATIONS (FDCs)
+
+7
+4.1 CATEGORY I:     Not marketed in India & one or more active ingredient(s) is a new
+drug not approved in India.
+
+7
+4.1.1 SUB CATEGORY I:    One of the ingredients of the combination is an Investigational
+New Drug (IND).
+
+7
+4.1.2 SUB CATEGORY II:  One or more of the ingredients of the combination is a New Drug
+not approved individually in the country however the same is
+approved in other country.
+
+
+9
+4.2 CATEGORY II: FDC - Not marketed in India but the active ingredients are approved/
+marketed individually & it is likely to have significant PK/PD
+interactions
+
+
+11
+4.2.1 SUB CATEGORY 1:   FDC - Marketed abroad
+11
+4.2.2
+SUB CATEGORY II:  FDC - Not marketed anywhere but individual components used
+concomitantly
+
+13
+4.2.3 SUB CATEGORY III: FDC - Not marketed and individual components are not used
+concomitantly
+
+14
+4.3 CATEGORY III:   FDC - Marketed in India but some changes are sought
+16
+4.4 CATEGORY IV:   FDC - Only for convenience
+18
+4.5 CATEGORY V:    FDC – Approvals of a FDC already approved in the country
+19
+5 ANNEXURES
+20
+5.1 Annexure A: Format for submitting the results of stability study of new drugs
+20
+5.2 Annexure B: Checklist for clinical trial protocol
+21
+5.3 Annexure C: Chemical and Pharmaceutical information for clinical trial permission
+23
+
+
+
+===== PAGE 3 =====
+3
+
+2. ABBREVIATIONS
+Abbreviations
+API
+Active Pharmaceutical Ingredient
+BA
+Bio-availability
+BE
+Bio-equivalence
+CRF
+Case Record Form
+CT
+Clinical Trial
+FDC
+Fixed Dose Combination
+ICF
+Informed Consent Form
+IND
+Investigational New Drug
+INR
+Indian National Rupee
+LD
+Lethal Dose
+PK / PD
+Pharmacokinetic and Pharmacodynamic
+CV
+Curriculum vitae
+NOC
+No objection certificate
+QC
+Quality control
+
+
+
+===== PAGE 4 =====
+4
+
+3. GENERAL CONSIDERATIONS:
+
+Fixed Dose Combinations (FDCs) refer to products containing two or more active ingredients used for
+a particular indication(s). As per Rule 122-E of Drugs & Cosmetics Rule, A fixed dose combination of
+two or more drugs, individually approved earlier for certain claims, which are now proposed to be
+combined for the first time in a fixed ratio, or if the ratio of ingredients in an already marketed
+combination is proposed to be changed, with certain claims, viz. indications, dosage, dosage form
+(including sustained release dosage form) and route of administration are considered new drugs.
+Further, a new drug shall continue to be considered as new drug for a period of four years from the
+date of its first approval or its inclusion in the Indian Pharmacopoeia, whichever is earlier.
+
+The development of FDCs is becoming increasingly high either to improve compliance or to benefit
+from the added effects of the two or more active drugs given together.  They are being used in the
+treatment of a wide range of conditions and are particularly useful in the management of chronic
+conditions.
+
+Appendix VI of Schedule Y to Drugs & Cosmetics Rules 1945, specifies the requirements for
+approval of various categories of FDCs. Such applications can be  categorized as under:
+
+1.
+FDC - Not marketed in India & one or more active ingredient(s) is a new drug not approved in
+India.
+
+A. Sub Category I: One of the ingredients of the combination is an Investigational New Drug
+(IND).
+
+B. Sub Category II: One or more of the ingredients of the combination is a New Drug not
+approved individually in the country however the same is approved in other country.
+2.
+FDC - Not marketed in India but the active ingredients are approved/ marketed individually & it
+is likely to have significant PK/PD interactions
+A.  Sub Category 1: FDC - Marketed abroad
+B.  Sub Category II:  FDC - Not marketed anywhere but individual components used
+concomitantly
+C.  Sub Category III: FDC - Not marketed and individual components are not used
+concomitantly
+3.
+FDC - Marketed in India but some changes are sought
+4.
+FDC - Only for convenience
+5.
+FDC – Approvals of a FDC already approved in the country
+Documents required for approval of a FDC varies widely depending on the category to which it falls,
+the nature of the drugs, disease for which it is indicated etc. Till date, applicants have used many
+different approaches in organizing the information and the differences in organization of data in each
+
+===== PAGE 5 =====
+5
+
+application has made reviewing more difficult and can also lead to omission of critical data or
+analyses. Such omissions can result in unnecessary delays in approvals.
+
+In order to streamline the submission of such application and their review, it has been decided to
+introduce a system of preliminary scrutiny of such applications at the time of receipt of these
+applications to determine the acceptability for review by CDSCO.
+
+The preliminary scrutiny of the application will be done by CDSCO officer(s) based on checklists
+prepared for each of the above category of FDC, which are attached herewith. During the preliminary
+examination, the CDSCO officer(s) will scrutinize the application to ensure that it contains all the
+required administrative as well as technical information in proper manner as per the checklist. If
+application is not submitted in accordance with the format and the checklist, it will not be accepted by
+CDSCO for further review.
+Once an application is accepted, the adequacy of the data will be reviewed by CDSCO as per the
+specified requirements and guidelines. In case the data submitted is not adequate or satisfactory,
+applicant will be requested to generate/submit adequate data for consideration and approval of the
+FDC.
+ The applicants are requested to prepare the applications in the following manner:
+
+I.
+Before preparing the application, the applicant must categorize their proposal as specified
+above and submit information as per the checklist for that category.
+
+II.
+Application in Form 44 should be complete in all respect and signed by the authorized person
+of the firm with name and designation.
+
+III.
+The TR challan receipt submitted by the applicant should mention the name of the FDC
+including correct head of the account, payable at, bank clearance, etc.
+
+IV.
+The documents must be submitted with indexing and page number. Without indexing or page
+number, no application will be accepted.
+
+V.
+Clear and unequivocal information should be provided alongwith the application.
+
+VI.
+Text and tables should be prepared using margins that allow the document to be printed clearly
+without losing any information and the left-hand margin should be sufficiently large so that
+information is not obscured by the method of binding. The documents printed on both sides of
+a page, can be submitted provided, however, one should take care that the information is not
+obscured when the page is placed in a binder.
+
+VII.
+The proposed fixed dose combination should be based on therapeutic rationale. The applicant
+is required to justify the combination based on the rationale. While submitting the rationale for
+an FDC, the applicant must address the issues like drug-drug interaction between the
+ingredients, food effects and dosage schedule of individual active ingredients vis-a-vis that of
+the FDC. Further, the indication/claim for the FDC should be such that the individual active
+
+===== PAGE 6 =====
+6
+
+ingredients makes a contribution to the claimed effect and the product should be formulated so
+that the dose and proportion of each substance in the FDC is appropriate.
+
+VIII.
+Trial batches of new drugs for test and analysis/clinical trial/BE study purpose should be
+manufactured after obtaining Licence in Form 29 from the concerned State Licensing
+Authority and copy of the licence should be submitted alongwith the application.
+
+IX.
+While submitting reply to a query, the applicant should always enclose with the reply, a copy
+of query letter issued by CDSCO.
+
+X.
+The applicant should submit stability data generated on 3 trial batches manufactured by them
+under Licence in Form 29 issued by State Licensing Authority (SLA). The stability data should
+be submitted as per the format attached at Annexure A.
+
+XI.
+The clinical trial protocol should be submitted as per the format attached at Annexure B
+
+XII.
+In case of clinical trial/ bioequivalence study NOC, the applicant should submit the adequate
+chemical and pharmaceutical information as per Annexure C attached.
+
+XIII.
+The applicant should always submit certificate of analysis, dissolution data (in case of oral
+dosages form, as appropriate), stability study data etc. in respect of formulation, duly signed by
+the In-charge/Manager Q.C.
+
+XIV.
+All items mentioned in the checklist of various categories of FDC may not be applicable to all
+drugs. The items not relevant to a particular new drug should be marked with “Not Applicable
+(NA)”.
+
+
+
+THIS SYSTEM OF PRELIMINARY SCRUTINY TO DETERMINE THE ACCEPTABILITY OF
+THE APPLICATION WILL COME INTO EFFECT FROM 01.01.2011.
+
+
+
+===== PAGE 7 =====
+7
+
+4.
+CHECKLIST FOR ACCEPTABILITY OF APPLICATIONS PERTAINING TO
+FIXED DOSE COMBINATIONS (FDCs)
+
+4.1.
+Category – I: FDC - Not marketed in India & one or more active ingredient(s) is a new drug not
+approved in India
+
+4.1.1. Sub Category I: One of the ingredients of the combination is an Investigational New Drug
+(IND):
+
+#
+Documents required to be submitted
+Status
+Yes
+No
+1
+Application for: (permission for manufacture /import/clinical trial)
+
+
+2
+Name of the applicant
+
+
+3
+Name of the Fixed Dose Combination(FDC)
+
+
+
+a. Composition of the FDC
+
+
+
+b. Dosage Form
+
+
+
+c. Proposed indication for the FDC
+
+
+4
+Application in Form 44 complete in all respect duly signed and stamped by authorized
+person of the firm
+
+
+5
+Treasury Challan of INR 50,000 duly signed and stamped by Bank of Baroda
+
+
+6
+Rationale for combining them in the proposed ratio and therapeutic justification along
+with supporting literature.
+
+
+7
+Approval status of individual drugs  in the country
+
+
+8
+Copy of valid manufacturing license in Form 25/28 along with copy of form 29
+
+
+9
+Source of bulk drugs. For those ingredients which are approved and consider new drug,
+copy of Form 46A.
+
+
+10. Information on active ingredients which are considered  as IND
+
+
+
+a) Physiochemical data (Chemical name and Structure, Physical properties etc.)
+
+
+
+b) Analytical data (elemental analysis, NMR spectrum, IR Spectrum, UV spectrum etc.)
+
+
+
+c) Complete monograph specification including identification, identity/quantification of
+impurities, enantiomeric purity, assay etc.)
+
+
+
+d) Certificate of analysis
+
+
+
+e) Validation [assay method, impurity estimation method, residual solvent/other volatile
+impurities(OVI) estimation method]
+
+
+
+f) Reference standard characterization,
+
+
+
+g) Material safety data sheet.
+
+
+11 Data on Formulation:
+
+
+
+a) Master manufacturing formula
+
+
+
+b) Details of the formulation (including inactive ingredients)
+
+
+
+c) Finished product specification
+
+
+
+d) In process quality control check
+
+
+
+e) Excipient  compatibility study
+
+
+
+f) Process validation
+
+
+
+g) Validation of analytical method
+
+
+
+h) Certificate of analysis including identification, pH, content uniformity,  impurities, assay
+etc.
+
+
+
+i) Comparative evaluation with international brand(s) or approved Indian brands, if
+applicable.
+
+
+
+j) Dissolution data in case of oral dosage forms as appropriate
+
+
+
+k) Stability study evaluation as per requirements of schedule Y
+
+
+
+===== PAGE 8 =====
+8
+
+12 Animal Pharmacology including summary of the study, general pharmacological actions,
+specific pharmacological actions, follow-up and supplemental safety Pharmacology
+Studies, Pharmacokinetics including absorption, distribution; metabolism; excretion
+
+
+13 Animal toxicology data as per Schedule Y.
+
+
+
+a. systemic toxicity studies,
+
+
+
+i. single dose toxicity
+
+
+
+ii. repeated dose toxicity
+
+
+
+b. Male Fertility Study
+
+
+
+c. Female Reproduction and Developmental Toxicity Studies
+
+
+
+d. Local toxicity
+
+
+
+i. Dermal toxicity
+
+
+
+ii. Ocular toxicity
+
+
+
+iii. Inhalation toxicity
+
+
+
+iv. Vaginal toxicity
+
+
+
+v. Photoallergy or dermal phototoxicity
+
+
+
+vi. Rectal tolerance test
+
+
+
+e. Genotoxicity
+
+
+
+f. Allergenicity/Hypersensitivity
+
+
+
+g. carcinogenicity
+
+
+14 Human / Clinical pharmacology (Phase I) including summary of the study and reports
+
+
+
+i.
+Summary
+
+
+
+ii.
+Specific Pharmacological effects
+
+
+
+iii.
+General Pharmacological effects
+
+
+
+iv.
+Pharmacokinetics, absorption, distribution, metabolism,
+v.
+excretion
+
+
+
+vi.
+Pharmacodynamics / early measurement of drug activity
+
+
+15 Therapeutic exploratory trials (Phase II) including summary of the study and reports
+
+
+16 Therapeutic confirmatory trials (Phase III) including summary of the study and
+individual study reports with listing of sites and Investigators.
+
+
+17 Regulatory status in other countries, as appropriate.
+
+
+
+a) Names of the countries where the drug is marketed/approved
+
+
+
+b) Names of the countries where the drug is approved as IND, withdrawn,
+
+
+
+c) Names of the countries where the drug is withdrawn, if any, with reasons
+
+
+
+d) Free sale certificate (FSC) or Certificate of Pharmaceutical Product (COPP), as
+appropriate.
+
+
+18 Copy of proposed Package Insert which should include generic name of all active
+ingredients; composition; dosage form/s, indications; dose and method of administration;
+use in special populations; contraindications; warnings; precautions; drug interactions;
+undesirable effects; overdose; pharmacodynamic and pharmacokinetic properties;
+incompatibilities; shelf-life; packaging information; storage and handling instructions.
+
+
+19 Draft specimen of the label and carton
+
+
+Note:
+1.  All items mentioned above may not be applicable to all drugs. The items not relevant to a particular new
+drug should be marked with “Not Applicable (NA)”.
+
+2.   In case the application is for clinical trial permission , adequate chemical and pharmaceutical information
+should be provided to ensure the proper identity, purity, quality & strength of the investigational product,
+the amount of information needed may vary with the Phase of clinical trials, proposed duration of trials,
+dosage forms and the amount of information otherwise available.
+
+===== PAGE 9 =====
+9
+
+4.1.2 Sub Category II: One or more of the ingredients of the combination is a New Drug not approved
+individually in the country however the same is approved in other country:
+
+#
+Documents required to be submitted
+Status
+Yes
+No
+1
+Application for: (permission for manufacture /import/clinical trial)
+
+
+2
+Name of the applicant
+
+
+3
+Name of the Fixed Dose Combination(FDC)
+
+
+
+a. Composition of the FDC
+
+
+
+b. Dosage Form
+
+
+
+c. Proposed indication for the FDC
+
+
+4
+Application in Form 44 complete in all respect duly signed and stamped by authorized
+person of the firm
+
+
+5
+Treasury Challan of INR 50,000 duly signed and stamped by Bank of Baroda
+
+
+6
+Rationale for combining them in the proposed ratio and therapeutic justification along
+with supporting literature.
+
+
+7
+Copy of valid manufacturing license in Form 25/28 along with copy of form 29
+
+
+8
+Approval status of individual drugs  in the country
+
+
+9
+Source of bulk drugs. For those ingredients which are approved and consider new drug,
+copy of Form 46A.
+
+
+10 Information on active ingredients which are considered  as IND
+
+
+
+a) Physiochemical data (Chemical name and Structure, Physical properties etc.)
+
+
+
+b) Analytical data (elemental analysis, NMR spectrum, IR Spectrum, UV spectrum etc.)
+
+
+
+c) Complete monograph specification including identification, identity/quantification of
+impurities, enantiomeric purity, assay etc.)
+
+
+
+d) Certificate of analysis
+
+
+
+e) Validation [assay method, impurity estimation method, residual solvent/other volatile
+impurities(OVI) estimation method]
+
+
+
+f) Reference standard characterization,
+
+
+
+g) Material safety data sheet.
+
+
+11 Data on Formulation:
+
+
+
+a) Master manufacturing formula
+
+
+
+b) Details of the formulation (including inactive ingredients)
+
+
+
+c) Finished product specification
+
+
+
+d) In process quality control check
+
+
+
+e) Excipient  compatibility study
+
+
+
+f) Process validation
+
+
+
+g) Validation of analytical method
+
+
+
+h) Certificate of analysis including identification, pH, content uniformity,  impurities, assay
+etc.
+
+
+
+i) Comparative evaluation with international brand(s) or approved Indian brands, if
+applicable.
+
+
+
+j) Dissolution data in case of oral dosage forms as appropriate
+
+
+
+k) Stability study evaluation as per requirements of schedule Y
+
+
+12 Animal Pharmacology including summary of the study, general pharmacological
+actions, specific pharmacological actions, follow-up and supplemental safety
+Pharmacology
+Studies,
+Pharmacokinetics
+including
+absorption,
+distribution;
+metabolism; excretion
+
+
+13 Animal toxicology data as per Schedule Y.
+
+
+
+a. systemic toxicity studies
+
+
+
+===== PAGE 10 =====
+10
+
+
+i. single dose toxicity
+
+
+
+ii. repeated dose toxicity(In case of injectable formulation, sub-acute toxicity
+data generated with the applicants’ product has to be provided).
+
+
+
+b. Male Fertility Study
+
+
+
+c. Female Reproduction and Developmental Toxicity Studies
+
+
+
+d. Local toxicity
+
+
+
+i. Dermal toxicity
+
+
+
+ii. Ocular toxicity
+
+
+
+iii. Inhalation toxicity
+
+
+
+iv. Vaginal toxicity
+
+
+
+v. Photoallergy or dermal phototoxicity
+
+
+
+vi. Rectal tolerance test
+
+
+
+e. Genotoxicity
+
+
+
+f. Allergenicity/Hypersensitivity
+
+
+
+g. carcinogenicity
+
+
+14 Human / Clinical pharmacology (Phase I) including summary of the study and reports
+
+
+i.
+Summary
+
+
+
+ii. Specific Pharmacological effects
+
+
+
+iii. General Pharmacological effects
+
+
+
+iv. Pharmacokinetics, absorption, distribution, metabolism,
+v. excretion
+
+
+
+vi. Pharmacodynamics / early measurement of drug activity
+
+
+15 Therapeutic exploratory trials (Phase II) including summary of the study and reports
+
+
+16 Therapeutic confirmatory trials (Phase III) including summary of the study and
+individual study reports with listing of sites and Investigators.
+
+
+17 Regulatory status in other countries, as appropriate.
+
+
+
+a) Names of the countries where the drug is marketed/approved  alongwith package
+insert circulated in those countries
+
+
+
+b) Names of the countries where package insert
+
+
+
+c) Names of the countries where the drug is approved as IND, withdrawn,
+
+
+
+d) Names of the countries where the drug is withdrawn, if any, with reasons
+
+
+
+e) Free sale certificate (FSC) or Certificate of Pharmaceutical Product (COPP), as
+appropriate.
+
+
+18 Copy of proposed Package Insert which should include generic name of all active
+ingredients; composition;
+dosage
+form/s, indications; dose and method
+of
+administration; use in special populations; contraindications; warnings; precautions;
+drug
+interactions;
+undesirable
+effects;
+overdose;
+pharmacodynamic
+and
+pharmacokinetic properties; incompatibilities; shelf-life; packaging information;
+storage and handling instructions.
+
+
+19 Draft specimen of the label and carton
+
+
+Note:
+1. In case, such a combination is not marketed anywhere in the world, clinical trials data right from Phase I
+as appropriate  may be required to be generated and submitted to this office. If such FDC is marketed
+abroad Phase III clinical trials data generated in India are required to be submitted.
+2. All items mentioned above may not be applicable to all drugs. The items not relevant to a particular new
+drug should be marked with “Not Applicable (NA)”.
+3.   In case the application is for clinical trial permission , adequate chemical and pharmaceutical information
+should be provided to ensure the proper identity, purity, quality & strength of the investigational product,
+the amount of information needed may vary with the Phase of clinical trials, proposed duration of trials,
+dosage forms and the amount of information otherwise available.
+
+===== PAGE 11 =====
+11
+
+4.2 Category II : FDC - Not marketed in India but the active ingredients are approved/ marketed
+individually & it is likely to have significant PK/PD interactions
+4.2.1
+ Sub Category I- FDC - Marketed abroad:
+#
+Documents required to be submitted
+Status
+Yes
+No
+1
+Application for: (permission for manufacture /import/clinical trial)
+
+
+2
+Name of the applicant
+
+
+3
+Name of the Fixed Dose Combination(FDC)
+
+
+
+a. Composition of the FDC
+
+
+
+b. Dosage Form
+
+
+
+c. Proposed indication for the FDC
+
+
+4
+Application in Form 44 complete in all respect duly signed and stamped by
+authorized person of the firm
+
+
+5
+Treasury Challan of INR 50,000 duly signed and stamped by Bank of Baroda
+
+
+6
+Rationale for combining them in the proposed ratio and therapeutic justification
+along with supporting literature.
+
+
+7
+Approval status of individual drugs  in the country
+
+
+8
+Names of the countries where the FDC is approved and marketed .(Names of the
+countries where the FDC is Approved / Marketed / Withdrawn etc should be clearly
+stated in the covering letter also)
+
+
+9
+Copy Package Inserts, promotional literatures of FDC circulated in those countries
+where it is marketed
+
+
+10
+Copy of valid manufacturing license in Form 25/28 along with copy of form 29
+
+
+11
+Source of bulk drugs along with current regulatory status of the source with copy of
+Form 46A in case of new drug.
+
+
+
+Information on active ingredients
+
+
+12
+a) Brief Chemical & pharmaceutical data
+
+
+13
+Data on Formulation:
+
+
+
+a) Master manufacturing formula
+
+
+
+b) Details of the formulation (including inactive ingredients)
+
+
+
+c) Finished product specification
+
+
+
+d) In process quality control check
+
+
+
+e) Excipient  compatibility study
+
+
+
+f) Process validation
+
+
+
+g) Validation of analytical method
+
+
+
+h) Certificate of analysis including identification, pH, content uniformity,  impurities,
+assay etc.
+
+
+
+i) Comparative evaluation with international brand(s) or approved Indian brands, if
+applicable.
+
+
+
+j) Dissolution data in case of oral dosage forms as appropriate
+
+
+
+k) Stability study evaluation as per requirements of schedule Y
+
+
+14
+Free sale certificate/ certificate of pharmaceutical product from the country of
+origin (in case of import of the finished form of the FDC).
+
+
+15
+Clinical trials data showing safety and efficacy of the FDC in the same strength
+(that has been carried out in other countries) including published data.
+
+
+16
+Summary of Drug-Drug-Interactions (known and/or expected) among the active
+ingredients present in the FDC, along with its implications. This should be prepared
+and signed by a competent person on behalf of applicant.
+
+
+17
+Animal toxicology study data, as appropriate (In case of injectable formulation,
+
+
+===== PAGE 12 =====
+12
+
+sub-acute toxicity data generated with the applicants’ product has to be provided).
+18
+Copy of proposed Package Insert which should include generic name of all active
+ingredients; composition; dosage form/s, indications; dose and method of
+administration;
+use
+in
+special
+populations;
+contraindications;
+warnings;
+precautions; drug interactions; undesirable effects; overdose; pharmacodynamic
+and
+pharmacokinetic
+properties;
+incompatibilities;
+shelf-life;
+packaging
+information; storage and handling instructions.
+
+
+19
+Draft specimen of the label and carton
+
+
+
+
+
+
+
+===== PAGE 13 =====
+13
+
+4.2.2
+Sub category II: FDC - Not marketed anywhere but individual components used concomitantly
+#
+Documents required to be submitted
+Status
+Yes
+No
+1
+Application for: (permission for manufacture /import/clinical trial)
+
+
+2
+Name of the applicant
+
+
+3
+Name of the Fixed Dose Combination(FDC)
+
+
+
+a. Composition of the FDC
+
+
+
+b. Dosage Form
+
+
+
+c. Proposed indication for the FDC
+
+
+4
+Application in Form 44 complete in all respect duly signed and stamped by
+authorized person of the firm
+
+
+5
+Treasury Challan of INR 15,000 duly signed and stamped by Bank of Baroda
+
+
+6
+Rationale for combining them in the proposed ratio and therapeutic justification
+along with supporting literature.
+
+
+7
+Copy of valid manufacturing license in Form 25/28 along with copy of form 29
+
+
+8
+Approval status of individual drugs  in the country
+
+
+9
+Source of bulk drugs along with current regulatory status of the source with copy
+of Form 46A in case of new drug.
+
+
+10
+Information on active ingredients
+
+
+
+a) Brief Chemical & pharmaceutical data
+
+
+11
+Data on Formulation:
+
+
+
+a) Master manufacturing formula
+
+
+
+b) Details of the formulation (including inactive ingredients)
+
+
+
+c) Finished product specification
+
+
+
+d) In process quality control check
+
+
+
+e) Excipient  compatibility study
+
+
+
+f) Process validation
+
+
+
+g) Validation of analytical method
+
+
+
+h) Certificate of analysis including identification, pH, content uniformity,  impurities,
+assay etc.
+
+
+
+i) Comparative evaluation with international brand(s) or approved Indian brands, if
+applicable.
+
+
+
+j) Dissolution data in case of oral dosage forms as appropriate
+
+
+
+k) Stability study evaluation as per requirements of schedule Y
+
+
+12
+Summary of available pharmacological, toxicological and clinical data on the
+individual ingredients
+
+
+13
+Summary of Drug-Drug-Interactions (known and/or expected) among the active
+ingredients present in the FDC, along with its implications. This should be
+prepared and signed by a competent person on behalf of applicant.
+
+
+14
+Clinical data showing safety and efficacy of the FDC / Concomitant use of the
+ingredients, in the same strength, including published data. If enough supportive
+literatures are not available, then ‘adequate evidence’ on safe and effective
+concomitant use of the ingredients should be provided
+
+
+15
+Animal toxicology study data, as appropriate (In case of injectable formulation,
+sub-acute toxicity data generated with the applicants’ product has to be provided).
+
+
+16
+Copy of proposed Package Insert which should include generic name of all active
+ingredients; composition; dosage form/s, indications; dose and method of
+administration; use in special populations; contraindications; warnings;
+precautions; drug interactions; undesirable effects; overdose; pharmacodynamic
+and
+pharmacokinetic
+properties;
+incompatibilities;
+shelf-life;
+packaging
+information; storage and handling instructions.
+
+
+17
+Draft specimen of the label and carton
+
+
+
+
+
+===== PAGE 14 =====
+14
+
+4.2.3
+Sub Category III: FDC - Not marketed and individual components are not used concomitantly
+
+#
+Documents required to be submitted
+Status
+Yes  No
+1.
+Application for: (permission for manufacture /import/clinical trial)
+
+
+2.
+Name of the applicant
+
+
+3.
+Name of the Fixed Dose Combination(FDC)
+
+
+
+a. Composition of the FDC
+
+
+
+b. Dosage Form
+
+
+
+c. Proposed indication for the FDC
+
+
+4.
+Application in Form 44 duly signed and stamped by authorized personal
+(Application for manufacture and market New FDC, BA/BE study and clinical trial
+application)
+
+
+5.
+Treasury Challan of INR 15,000 if all active ingredients are approved in India for
+more than one year, or INR 50,000 in case any of the active ingredients is approved
+for less than one year duly signed and stamped by Bank of Baroda
+
+
+6.
+Approval status of individual drugs  in the country
+
+
+7.
+Source of bulk drugs /raw materials (for those ingredients which are considered
+new drugs)
+
+
+8.
+Rationale for combining them in the proposed ratio and therapeutic justification
+along with supporting literature.
+
+
+9.
+Information on active ingredients:
+
+
+
+a) Brief Chemical & pharmaceutical data
+
+
+10.
+Data on Formulation:
+
+
+
+a) Master manufacturing formula
+
+
+
+b) Details of the formulation (including inactive ingredients)
+
+
+
+c) Finished product specification
+
+
+
+d) In process quality control check
+
+
+
+e) Excipient  compatibility study
+
+
+
+f) Process validation
+
+
+
+g) Validation of analytical method
+
+
+
+h) Certificate of analysis including identification, pH, content uniformity,  impurities,
+assay etc.
+
+
+
+i) Comparative evaluation with international brand(s) or approved Indian brands, if
+applicable.
+
+
+
+j) Dissolution data in case of oral dosage forms as appropriate
+
+
+
+k) Stability study evaluation as per requirements of schedule Y
+
+
+11.
+Summary of available pharmacological, toxicological and clinical data on the
+individual ingredients
+
+
+12.
+Summary of Drug-Drug-Interactions (known and/or expected) among the active
+ingredients present in the FDC, along with its implications. This should be prepared
+and signed by a competent person on behalf of applicant.
+
+
+13.
+Clinical study protocol as per Annexure attached
+
+
+
+a. Patient Information Sheet and Informed Consent Form (ICF) as per
+Appendix V of Schedule Y,
+
+
+
+b. Copy of ‘Ethics Committee’ approval letters (if available) ,
+
+
+
+c. Case Record Form (CRF), Certificate of analysis of study drug(s)
+
+
+
+d. Undertaking by Investigator(s) as per Appendix VII of Schedule Y and
+CV,
+
+
+14.
+BA/BE study protocol (when applicable), and
+
+
+
+a. Patient Information Sheet and Informed Consent Form (ICF) as per
+Appendix V of Schedule Y,
+
+
+
+b. Copy of ‘Ethics Committee’ approval letters (if available) ,
+
+
+
+c. Case Record Form (CRF), Certificate of analysis of study drug(s)
+
+
+
+d. Undertaking by Investigator(s) as per Appendix VII of Schedule Y and
+CV,
+
+
+
+===== PAGE 15 =====
+15
+
+
+
+
+15.
+Reports of clinical trial carried out with the FDC in the country as per appendix II
+of Schedule Y. In case , the application is for market authorisation,
+
+
+16.
+Reports of Bioequivalence study carried out with the FDC in the country. In case ,
+the application is for market authorisation,
+
+
+17.
+Animal toxicology study data, as appropriate  In case of injectable formulation,
+sub-acute toxicity data generated with the applicants’ product has to be provided).
+
+
+18.
+Copy of proposed Package Insert which should include generic name of all active
+ingredients; composition; dosage form/s, indications; dose and method of
+administration;
+use
+in
+special
+populations;
+contraindications;
+warnings;
+precautions; drug interactions; undesirable effects; overdose; pharmacodynamic
+and
+pharmacokinetic
+properties;
+incompatibilities;
+shelf-life;
+packaging
+information; storage and handling instructions.
+
+
+19.
+Draft specimen of the label and carton
+
+
+
+===== PAGE 16 =====
+16
+
+4.3
+Category III : FDC - Marketed in India but some changes are sought (i.e. change the ratio of
+active ingredients or to make a new therapeutic claim or a new dosage form etc.)
+#
+Documents required to be submitted
+Status
+Yes
+No
+1.
+Application for: (permission for manufacture /import/clinical trial)
+
+
+2.
+Name of the applicant
+
+
+3.
+Name of the Fixed Dose Combination(FDC)
+
+
+
+a. Proposed Composition of the FDC
+
+
+
+b. Proposed Dosage Form
+
+
+
+c. Proposed indication
+
+
+4.
+Details of the approval of the FDC in the country
+
+
+
+a. Approved Dosage Form
+
+
+
+b. Approved composition
+
+
+
+c. Approved indication
+
+
+
+d. Copy of earlier approval obtained from CDSCO (if any)
+
+
+5.
+Application in Form 44 duly signed and stamped by authorized personal
+
+
+7.
+Treasury Challan of INR 15,000 if all active ingredients are approved in India
+for more than one year, or INR 50,000 in case any of the active ingredients is
+approved for less than one year duly signed and stamped by Bank of Baroda
+
+
+8.
+Rationale for new proposed claim(s) along with therapeutic justification with
+supporting literature.
+
+
+9.
+Copy of valid manufacturing license in Form 25/28 along with copy of form 29
+
+10.
+Source of bulk drugs along with current regulatory status of the source with
+copy of Form 46A in case of new drug.
+
+
+11.
+Information on active ingredients:
+
+
+
+a) Brief Chemical & pharmaceutical data
+
+
+12.
+Data on Formulation:
+
+
+
+a) Master manufacturing formula
+
+
+
+b) Details of the formulation (including inactive ingredients)
+
+
+
+c) Finished product specification
+
+
+
+d) In process quality control check
+
+
+
+e) Excipient  compatibility study
+
+
+
+f) Process validation
+
+
+
+g) Validation of analytical method
+
+
+
+h) Certificate of analysis including identification, pH, content uniformity,
+impurities, assay etc.
+
+
+
+i) Comparative evaluation with international brand(s) or approved Indian brands,
+if applicable.
+
+
+
+j) Dissolution data in case of oral dosage form as appropriate
+
+
+
+k) Stability study evaluation as per requirements of schedule Y
+
+
+13.
+Clinical trials data showing safety and efficacy of the FDC with the proposed
+new claims including published data.
+
+
+14.
+Regulatory status of the drug with the proposed new claims in other
+countries, as appropriate:
+
+
+
+a) Names of the countries where the drug is marketed/approved alongwith
+package insert circulated in those countries.
+
+
+
+b) Names of the countries where the drug is withdrawn, if any, with reasons
+
+
+15.
+BE study protocol and /or Clinical study protocol as per Appendix X of
+Schedule Y, as appropriate
+
+
+
+Report of  BE study and /or Clinical trial conducted in the country as
+appropriate( In case the application is for marketing authorisation)
+
+
+16.
+Toxicity data as per Schedule Y, as appropriate. In case of injectable
+formulation, sub-acute toxicity data generated with the applicants’ product
+has to be provided).
+
+
+17.
+Copy of proposed Package Insert which should include generic name of all
+active ingredients; composition; dosage form/s, indications; dose and method
+
+
+
+===== PAGE 17 =====
+17
+
+of administration; use in special populations; contraindications; warnings;
+precautions;
+drug
+interactions;
+undesirable
+effects;
+overdose;
+pharmacodynamic and pharmacokinetic properties; incompatibilities; shelf-
+life; packaging information; storage and handling instructions.
+18.
+Draft specimen of the label and carton
+
+
+
+
+
+
+===== PAGE 18 =====
+18
+
+Category IV : FDC - Only for convenience
+
+#
+Documents required to be submitted
+Status
+Yes
+No
+1.
+Application for: (permission for manufacture /import/clinical trial)
+
+
+2.
+Name of the applicant
+
+
+3.
+Name of the Fixed Dose Combination(FDC)
+
+
+
+a. Composition of the FDC
+
+
+
+b. Dosage Form
+
+
+
+c. Proposed indication for the FDC
+
+
+4.
+Application in Form 44 duly signed and stamped by authorized personal
+
+
+5.
+Treasury Challan of INR 15,000 if all active ingredients are approved in India
+for more than one year, or INR 50,000 in case any of the active ingredients is
+approved for less than one year duly signed and stamped by Bank of Baroda
+
+
+6.
+Rationale for combining them in the proposed ratio and therapeutic
+justification along with supporting literature.
+
+
+6.
+Copy of valid manufacturing license in Form 25/28 along with copy of form 29
+
+7.
+Approval status of individual drugs  in the country
+
+
+8.
+Source of bulk drugs along with current regulatory status of the source with
+copy of Form 46A in case of new drug.
+
+
+9.
+Information on active ingredients
+
+
+
+a) Brief Chemical & pharmaceutical data
+
+
+10.
+Data on Formulation
+
+
+
+a) Master manufacturing formula
+
+
+
+b) Details of the formulation (including inactive ingredients)
+
+
+
+c) Finished product specification
+
+
+
+d) In process quality control check
+
+
+
+e) Excipient  compatibility study
+
+
+
+f) Process validation
+
+
+
+g) Validation of analytical method
+
+
+
+h) Certificate of analysis including identification, pH, content uniformity,
+impurities, assay etc.
+
+
+
+i) Comparative evaluation with international brand(s) or approved Indian brands,
+if applicable.
+
+
+
+l) Dissolution data in case of oral dosage form as appropriate
+
+
+
+j) Stability study evaluation as per requirements of schedule Y
+
+
+11.
+Toxicity data as per Schedule Y, as appropriate. In case of injectable
+formulation, sub-acute toxicity data generated with the applicants’ product
+has to be provided).
+
+
+12.
+Summary of available pharmacological, toxicological and clinical data on the
+individual ingredients
+
+
+13.
+Data showing safety, efficacy and convenience in use of the FDC has to be
+provided. If enough supportive literatures are not available, then ‘adequate
+evidence’ on its convenience to users has to be demonstrated.
+
+
+14.
+Summary of data showing NO significant PK/PD interaction among the
+ingredients. This should be prepared and signed by a competent person on
+behalf of applicant.
+
+
+15.
+Regulatory status in other countries, as appropriate.
+
+
+
+a) Names of countries where the drug is marketed/approved
+
+
+
+b) Names of countries where the drug is approved as IND, withdrawn,
+
+
+
+c) Names of countries where the drug is withdrawn, if any, with reasons
+
+
+16.
+Copy of proposed Package Insert which should include generic name of all active
+ingredients; composition; dosage form/s, indications; dose and method of
+administration; use in special populations; contraindications; warnings; precautions;
+drug
+interactions;
+undesirable
+effects;
+overdose;
+pharmacodynamic
+and
+pharmacokinetic properties; incompatibilities; shelf-life; packaging information;
+storage and handling instructions.
+
+
+17.
+Draft specimen of the label and carton
+
+
+
+===== PAGE 19 =====
+19
+
+Category V: FDC – Approvals of a FDC already approved in the country
+
+
+
+#
+Documents required to be submitted
+Status
+Yes
+No
+1.
+Application for: (permission for manufacture /import/clinical trial)
+
+
+2.
+Name of the applicant
+
+
+3.
+Name of the Fixed Dose Combination(FDC)
+
+
+
+a. Composition of the FDC
+
+
+
+b. Dosage Form
+
+
+
+c. Proposed indication for the FDC
+
+
+4.
+Details of the approval of the FDC in the country
+
+
+
+a. Approved Dosage Form
+
+
+
+b. Approved composition
+
+
+
+c. Approved indication
+
+
+5.
+Application in Form 44 duly signed and stamped by authorized personal
+
+
+6.
+Treasury Challan of INR 15,000 if all active ingredients are approved in India
+for more than one year, or INR 50,000 in case any of the active ingredients is
+approved for less than one year duly signed and stamped by Bank of Baroda
+
+
+7.
+Copy of valid manufacturing license in Form 25/28 along with copy of form 29
+
+8.
+Source of bulk drugs along with current regulatory status of the source with
+copy of Form 46A in case of new drug.
+
+
+9.
+Information on active ingredients:
+
+
+
+a) Brief Chemical & pharmaceutical data
+
+
+10.
+Data on Formulation
+
+
+
+a) Master manufacturing formula
+
+
+
+b) Details of the formulation (including inactive ingredients)
+
+
+
+c) Finished product specification
+
+
+
+d) In process quality control check
+
+
+
+e) Excipient  compatibility study
+
+
+
+f) Process validation
+
+
+
+g) Validation of analytical method
+
+
+
+h) Certificate of analysis including identification, pH, content uniformity,
+impurities, assay etc.
+
+
+
+i) Comparative evaluation with international brand(s) or approved Indian brands,
+if applicable.
+
+
+
+j) Comparative Dissolution data in case oral dosage form as appropriate
+
+
+
+k) Stability study evaluation as per requirements of schedule Y
+
+
+11.
+In case of injectable formulation, sub-acute toxicity data conducted with the
+applicants’ product.
+
+
+12.
+BA/BE study protocol (in case of oral dosage form as appropriate as per
+Appendix X of Schedule Y
+
+
+
+a) Patient Information Sheet and Informed Consent Form (ICF) as per Appendix
+V of Schedule Y.
+
+
+
+b) Copy of ‘Ethics Committee’ approval letters (if available)
+
+
+
+c) Case Record Form (CRF)
+
+
+
+d) Undertaking by Investigator(s) as per Appendix VII of Schedule Y and CV
+
+
+13.
+Copy of proposed Package Insert which should include generic name of all
+active ingredients; composition; dosage form/s, indications; dose and method
+of administration; use in special populations; contraindications; warnings;
+precautions;
+drug
+interactions;
+undesirable
+effects;
+overdose;
+pharmacodynamic and pharmacokinetic properties; incompatibilities; shelf-
+life; packaging information; storage and handling instructions.
+
+
+14.
+Draft specimen of the label and carton
+
+
+
+===== PAGE 20 =====
+20
+
+
+5.
+ANNEXURES:
+
+5.1
+Annexure- A: FORMAT FOR SUBMITTING THE RESULTS OF STABILITY STUDY OF
+NEW DRUGS
+
+Stability testing: Summary sheet
+
+Results of stability testing should be presented as shown below.
+
+A separate form should be completed for each pharmaceutical preparation tested:
+
+Accelerated/real-time studies
+Name of drug product
+Manufacturer
+Address
+Active ingredient (INN)
+Dosage form
+Packaging
+
+Batch Number
+Date of manufacturing  Expiry date
+1.
+2.
+3.
+Shelf-life
+GUIDELINES ON FIXED DOSE COMBINATIONS (FDC): 20.08.2010
+Page 38 of 38
+Batch Size
+
+
+Type of batch (experimental, pilot plant, production)
+1.
+2.
+3.
+
+Samples tested (per batch)
+
+Storage/test conditions:
+
+Temperature C
+Humidity %
+
+
+Results:
+1. Chemical findings
+2. Microbiological and biological findings
+3. Physical findings
+4. Conclusions
+
+Signature of competent / authorized personnel
+Name:……………
+Designation:…………………
+Date:…………
+
+Note: Detailed stability study data / results in tabular form should also be enclosed along with the above
+summary sheet.
+
+
+
+===== PAGE 21 =====
+21
+
+5.2
+Annexure B: CHECKLIST FOR CLINICAL TRIAL PROTOCOL
+
+#
+Particulars
+1
+Title Page
+
+(a) Full title of the clinical study,
+
+(b) Protocol / Study number, and protocol version number with date
+
+(c) The IND name/number of the investigational drug
+
+(d) Complete name and address of the Sponsor and contract research organization if any
+
+(e) List of the Investigators who are conducting the study, their respective institutional
+affiliations and   site locations
+
+(f) Name(s) of clinical laboratories and other departments and/or facilities participating in the
+study.
+2
+Table of Contents (A complete Table of Contents including a list of all Appendices)
+l
+bl
+f
+i
+l di
+li
+f ll
+di
+
+Background and Introduction
+
+Study Rationale
+3
+Study Objective(s) (primary as well as secondary) and their logical relation to the study
+4
+Study Design:( Overview of the Study Design, f low chart of the study,  brief description of the
+methods and procedures to be used during the study, Discussion of Study Design etc.)
+5
+Study Population:
+6
+Subject Eligibility:
+
+(a) Inclusion Criteria
+
+(b) Exclusion Criteria
+7
+Study Assessments – Plan, procedures and methods to be described in detail
+8
+Study Conduct stating the types of study activities that would be included in the study
+viz. (a)Medical history, type of physical examination, blood or urine testing, electrocardiogram
+(ECG), diagnostic testing such as pulmonary function tests, symptom measurement,
+dispensation and retrieval of medication, Subject cohort assignment, adverse event review, etc.
+(b)  Each visit should be described separately as Visit 1, Visit 2, etc.,
+(c) Discontinued Subjects, describes how protocol violations will be treated, including
+conditions where the study will be terminated for non-compliance with the protocol,
+(d) Describes the circumstances for Subject withdrawal, dropouts, or other reasons for
+discontinuation of Subjects,
+(e) Describe the method of handling of protocol waivers, if any
+9
+Study Treatment
+
+(a) Dosing schedule
+
+(b) Study drug supplies and administration
+
+(c) Dose modification for study drug toxicity
+
+(d) Possible drug interactions.
+
+(e) Concomitant therapy
+
+(f) Blinding procedures:
+
+(g) Unblinding procedures
+10 Adverse Events (As per Appendix XI of schedule Y)
+11 Ethical Considerations
+
+(a) Risk/benefit assessment
+
+(b) Ethics Committee review and communications
+
+(c) Informed consent process.
+
+(d) Statement of Subject confidentiality including ownership of data and coding procedures.
+12 Study Monitoring and Supervision:
+13 Investigational Product Management
+14 Data Analysis
+
+(a) Details of the statistical approach to be followed including sample size, how the
+
+===== PAGE 22 =====
+22
+
+sample size was determined, including assumptions made in making this determination,
+efficacy endpoints (primary as well as secondary) and safety endpoints
+
+(b) Statistical analysis
+
+(c) Statistical considerations for Pharmacokinetic (PK) analysis, if applicable
+15 Undertaking by the Investigator as per Appendix VII of schedule Y
+17 Appendices
+
+(a) study synopsis, copies of the informed consent documents (patient information sheet,
+informed consent form etc.); CRF and other data collection forms
+
+
+
+
+
+===== PAGE 23 =====
+23
+
+5.3
+ANNEXURE C: CHEMICAL AND PHARMACEUTICAL INFORMATION FOR CLINICAL
+TRIAL PERMISSION
+
+Information on active ingredients:
+
+Drug information (Generic Name, Chemical Name or INN) & Physicochemical Data including:
+i.  Chemical name and Structure - Empirical formula, Molecular weight
+ii.  Analytical Data: Elemental analysis, Mass spectrum, NMR spectra, IR spectra, UV spectra,
+Polymorphic identification
+iii. Stability Studies: Data supporting stability in the intended container closure system for the
+duration of the clinical trial.
+
+Data on Formulation:
+
+i.  Dosage form,
+ii.  Composition,
+iii.  Master manufacturing formula,
+iv. Details of the formulation (including inactive ingredients),
+v.  In process quality control check,
+vi.  Finished product specification & Method of Analysis,
+vii.  Excipient compatibility study,
+viii. Validation of the analytical method.
+ix.  Stability Studies: Data supporting stability in the intended containerclosure
+system for the duration of the clinical trial.
+
+
+Note: While adequate chemical and pharmaceutical information should be provided to ensure the
+proper identity, purity, quality & strength of the investigational product, the amount of information
+needed may vary with the Phase of clinical trials, proposed duration of trials, dosage forms and the
+amount of information otherwise available.

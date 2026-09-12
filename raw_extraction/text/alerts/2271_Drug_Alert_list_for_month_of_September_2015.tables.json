@@ -1,0 +1,193 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      15.33,
+      98.51,
+      566.19,
+      817.93
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Oral Rehydration\nSalts",
+        "B. No.: 815215\nMfg dt: 06/2015\nExp dt: 11/2016\nMfd by: M/s. Syndicate Pharma,\n188, Sector-F, Sanwer Road,\nIndore.",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2.",
+        "Oral Rehydration\nSalts",
+        "B. No.: WD - 032\nMfg dt: 06/2015\nExp dt: 11/2016\nMfd by: M/s. Wilcure Remedies\nPrivate. Limited,\nP. H. No. 10, Gram Mirjapur,\nIndore-452020, Madhya Pradesh",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3.",
+        "Oral Rehydration\nSalts",
+        "B. No.: 815214\nMfg dt: 06/2015\nExp dt: 11/2016\nMfd by: M/s. Syndicate Pharma,\n188, Sector-F, Sanwer Road,\nIndore.",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4.",
+        "Oral Rehydration\nSalts",
+        "B. No.: WD - 030\nMfg dt: 06/2015\nExp dt: 11/2016\nMfd by: M/s. Wilcure Remedies\nPrivate. Limited,\nP. H. No. 10, Gram Mirjapur,\nIndore-452020, Madhya Pradesh",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5.",
+        "Oral Rehydration\nSalts",
+        "B. No.: 815221\nMfg dt: 06/2015\nExp dt: 11/2016\nMfd by: M/s. Syndicate Pharma,\n188, Sector-F, Sanwer Road,\nIndore. Madhya Pradesh",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "6.",
+        "Oral Rehydration\nSalts",
+        "B. No.: ORS-1800\nMfg dt: 04/2015\nExp dt: 09/2016\nMfd by: M/s. Dusap\nPharmaceuticals,\n115 Dr. B. C. Roy Road, Rajpur,\nSouth 24, Parganas, Kolkata, West\nBengal.",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "7.",
+        "Oral Rehydration\nSalts",
+        "B. No.: 815228\nMfg dt: 06/2015\nExp dt:11/2016\nMfd by: M/s. Syndicate Pharma,\n188, Sector-F, Sanwer Road,\nIndore. Madhya Pradesh.",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.33,
+      27.21,
+      566.19,
+      807.73
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "8.",
+        "Oral Rehydration\nSalts",
+        "B. No.: 815218\nMfg dt: 06/2015\nExp dt:11/2016\nMfd by: M/s. Syndicate Pharma,\nSector-F, Sanwer Road, Indore.\nMadhya Pradesh.",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "9.",
+        "Oral Rehydration\nSalts",
+        "B. No.: ORS-1798\nMfg dt: 04/2015\nExp dt: 09/2016\nMfd by: M/s. Dusap\nPharmaceuticals, 115 Dr. B. C. Roy\nRoad, Rajpur, South 24, Parganas,\nKolkata, 700151, West Bengal",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "10.",
+        "Oral Rehydration\nSalts",
+        "B. No.: ORS-1797\nMfd by: 04/2015\nExp dt: 09/2016\nMfd by: M/s. Dusap\nPharmaceuticals,\n115 Dr. B. C. Roy Road, Rajpur,\nSouth 24, Parganas, Kolkata,\n700151, West Bengal.",
+        "Seal Test",
+        "Drugs\nControl\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "11.",
+        "IBU – 400 Tablets",
+        "B. No.: SMT-925\nMfg dt: 03/2012\nExp dt: 02/2016\nMfd by: M/s. Anrose Pharma,\n147, Mauza, Sansiwala, Tehsil,\nKasuli, Dist.-Solan, Himachal\nPradesh.",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nSikkim",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "12.",
+        "Arpan\n(Pantoprazole\nTablets I.P. 40mg)",
+        "B. No.: 76514\nMfg dt: 05/2014\nExp dt: 04/2016\nMfd by: M/s. Aran\nPharmaceuticals, 49 & 53, Ram\nKala Nagar, Morar, Gwalior-M.P.\n474006",
+        "Does not\nconform to IP\nstandard with\nrespect to for\nDissolution",
+        "CDSCO, West\nZone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "13.",
+        "Fenofibrate\nTablets 200mg",
+        "B. No.: T131205\nMfg dt: 12/2013\nExp dt: 11/2015\nMfd by: M/s. Micron\nPharmaceuticals, 2117, A-2, Phase-\nIII, GIDC, Vapi-396195",
+        "Does not\nconform to USP\nstandard with\nrespect to for\nDissolution",
+        "CDSCO, West\nZone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "14.",
+        "Salbutamol\nSulphate Tablets\nI.P. 4mg",
+        "B. No.: 1 SBL 414\nMfg dt: 03/2014\nExp dt: 02/2017\nMfd by: M/s. IDPL (TN) Ltd., A\nWholly owned subsidiary of IDPL\n(A Government of India\nUndertaking), Nandambakkam,\nChennai-600089",
+        "Does not\nconform to IP\n2010 standard\nwith respect to\nfor Assay",
+        "CDSCO, West\nZone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "15.",
+        "Salbut\n(Salbutamol\nTablets IP)",
+        "B. No.: 130310,\nMfg dt: 11/2013\nExp dt: 10/2015\nMfd by: M/s. Luxmi",
+        "Related\nSubstances &\nAssay",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.36,
+      27.24,
+      566.16,
+      248.54
+    ],
+    "n_rows": 3,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Pharmaceuticals Works, P-18,\nKanungo Park, Kolkata – 700 084",
+        "",
+        "",
+        ""
+      ],
+      [
+        "16.",
+        "Docox\n(Doxycycline\nHyclate Tablets\nU.S.P.)",
+        "B. No.: GHG-14260,\nMfg dt: 10/2014,\nExp dt: 09/2016\nMfd by: M/s. Elfin Drugs Pvt. Ltd.,\nVill: Berson, Nalagarh (H.P.) -\n174101",
+        "Dissolution",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "17.",
+        "Betsone 5\n(Betamethasone\nTablets IP 0.5mg)",
+        "B. No.: 1401036,\nMfg dt: 10/2014\nExp dt: 09/2017\nMfd by: M/s. Modi Lifecare\nIndustrial Ltd., 27, GIDC, Opp.\nCreata Cold Storage, Odhav,\nAhmedabad – 382415.",
+        "Dissolution &\nRelated\nSubstances",
+        "CDSCO, Sub\nZone\nAhmedabad",
+        "CDL,\nKolkata"
+      ]
+    ]
+  }
+]

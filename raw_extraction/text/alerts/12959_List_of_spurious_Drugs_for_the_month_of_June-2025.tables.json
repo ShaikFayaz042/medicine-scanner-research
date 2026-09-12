@@ -1,0 +1,222 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      72.3,
+      80.75,
+      809.32,
+      464.29
+    ],
+    "n_rows": 13,
+    "n_cols": 12,
+    "rows": [
+      [
+        "S.No.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "",
+        "",
+        "Batch No.",
+        "Date of\nManufacture",
+        "Date of\nExpiry",
+        "Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "Firm’s reply",
+        "Remarks"
+      ],
+      [
+        "1.",
+        "",
+        "",
+        "",
+        "24460967",
+        "Jul-2024",
+        "Jun-2026",
+        "Under\nInvestigation",
+        "Identification and\nAssay of Cefixime\nTrihydrate",
+        "Drugs\nInspector, Bihar",
+        "The actual\nmanufacturer (as\nper label claim) has\ninformed that the\nimpugned batch of\nthe product has not\nbeen manufactured\nby them and that it\nis a spurious drug.",
+        "The product is\npurported to be\nspurious, however,\nthe same is subject\nto\noutcome of\ninvestigation."
+      ],
+      [
+        "",
+        "Cefixime Tablets IP",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "(TAXIM-O 200\nTABLETS)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.",
+        "",
+        "",
+        "",
+        "I404138",
+        "Aug-2024",
+        "Jul-2027",
+        "Under\nInvestigation",
+        "Identification and\nAssay of Heparin\nSodium",
+        "Drugs\nInspector, New\nDelhi",
+        "The actual\nmanufacturer (as\nper label claim) has\ninformed that the\nimpugned batch of\nthe product has not\nbeen manufactured\nby them and that it\nis a spurious drug.",
+        "The product is\npurported to be\nspurious, however,\nthe same is subject\nto\noutcome of\ninvestigation."
+      ],
+      [
+        "",
+        "Ointment of Heparin",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Sodium and Benzyl",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Nicotinate",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "(THROMBOPHOB)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "3.",
+        "Rosuvas F 10\nTablets\nRosuvastatin and",
+        "",
+        "",
+        "SIF2676A",
+        "12-2024",
+        "05-2027",
+        "Under\nInvestigation",
+        "Description and\nAssay of\nFenofibrate",
+        "Drugs\nInspector,\nTelangana",
+        "The actual\nmanufacturer (as\nper label claim) has\ninformed that the\nimpugned batch of\nthe product has not\nbeen manufactured\nby them and that it\nis a spurious drug.",
+        "The product is\npurported to be\nspurious, however,\nthe same is subject\nto\noutcome of\ninvestigation."
+      ],
+      [
+        "",
+        "Fenofibrate Tablets",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "IP",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      72.36,
+      72.38,
+      809.26,
+      188.18
+    ],
+    "n_rows": 1,
+    "n_cols": 10,
+    "rows": [
+      [
+        "4.",
+        "Rosuvas F 20\nTablets\nRosuvastatin and\nFenofibrate Tablets\nIP",
+        "SIF2736A",
+        "12-2024",
+        "05-2027",
+        "Under\nInvestigation",
+        "Assay of\nFenofibrate",
+        "Drugs Inspector\nTelangana",
+        "The actual\nmanufacturer (as\nper label claim) has\ninformed that the\nimpugned batch of\nthe product has not\nbeen manufactured\nby them and that it\nis a spurious drug.",
+        "The product is\npurported to be\nspurious, however,\nthe same is subject\nto\noutcome of\ninvestigation."
+      ]
+    ]
+  }
+]

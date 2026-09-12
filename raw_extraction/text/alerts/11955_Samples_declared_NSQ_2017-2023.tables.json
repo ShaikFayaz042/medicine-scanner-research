@@ -1,0 +1,331 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      18.36,
+      54.3,
+      758.8,
+      317.25
+    ],
+    "n_rows": 4,
+    "n_cols": 10,
+    "rows": [
+      [
+        "Detail of samples declared NOT OF STANDARD QUALITY (NSQ) by CDL along with regulatory action of year 2017",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No",
+        "Name of Vaccine",
+        "Manufacturer",
+        "Batch No.",
+        "Mfg Date",
+        "Exp Date",
+        "Sub-Standard in",
+        "Type/ Source of\nSample",
+        "Status",
+        "REGULATORY ACTION/\nCONCLUSION (Including recall status)"
+      ],
+      [
+        "1",
+        "Bio Typh (Vi\nPolysaccaride\nTyphoid Vaccine)\nI.P.",
+        "Spurious",
+        "1050411",
+        "Feb-15\nFeb-16",
+        "Sep-17\nSep-18",
+        "Identity Test",
+        "Drug Inspectors",
+        "Not of Standard\nQuality\n(Spurious)",
+        "Joint investigation conducted at\nmanufacturing site of Bio Med, Ghaziabad\non 25.10.2017 and it was concluded that\nNSQ batch was not manufactured by firm.\nCase filed before Hon'ble Court of District\n& Sessions Judge. The matter is under\ntrial."
+      ],
+      [
+        "2",
+        "Tetanus\nVaccine(adsorbed)\nI.P (AbhayTox)",
+        "M/s Human\nBiological Institute,\n(A division of\nIndian\nImmunologicals\nLimited),\nRakshapuram,\nGachibowli Post,\nHyderabad-\n500032",
+        "Tox 23B/15",
+        "Apr-15",
+        "Mar-18",
+        "Physical aspect",
+        "Drug Inspectors",
+        "Not of Standard\nQuality",
+        "Joint investigation conducted at\nmanufacturing site on 02.11.2017 and it\nwas concluded that NSQ is due to\nimproper storage condition of vials below\nrecommended temperature.\nThis office has sent communication to\nSLA as per procedures."
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      18.42,
+      103.02,
+      752.46,
+      523.12
+    ],
+    "n_rows": 7,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.No",
+        "Name of Vaccine",
+        "Manufacturer",
+        "Batch No.",
+        "Mfg Date",
+        "Exp Date",
+        "Sub-Standard\nin",
+        "Type/ Source\nof Sample",
+        "Status",
+        "REGULATORY ACTION/\nCONCLUSION (Including recall status)"
+      ],
+      [
+        "1",
+        "Diphtheria,Tetanus,Pertus\nsis (Whole cell) ,Hepatitis\nB (rDNA) & Haemophilus\ninfluenzae Type-b\nConjugate\nvaccine (Adsorbed)",
+        "M/s Biological E Ltd, Plot no.\n1, SP Biotech Park, Phase II,\nKolthur (Village), Shameerpet\n(mandal), Ranga Reddy\n(District), Telangana -\n500078",
+        "220103715A",
+        "Feb-16",
+        "Jan-18",
+        "Physical\naspect",
+        "Drugs\nInspector",
+        "Not of Standard\nQuality",
+        "Joint investigation conducted at manufacturing site\non 09.04.2018 & 10.04.2018. The investigation\nteam noted certain observations which was\ncommunicated to the firm for resposne. The firm\nhad submitted the compliance report for the noted\nobservations.\nThe concenrned Drugs Inspector completed the\nprocedures as per the Drugs & Cosmetics Act."
+      ],
+      [
+        "2",
+        "Peda Typh (Vi-Conjugate\nTyphoid Vaccine)",
+        "M/s Bio med., C-96,\nBulandshar Road, Industrial\nArea, Ghaziabad-201009,\nU.P- 201009",
+        "TC010915",
+        "Sep-15",
+        "Aug-18",
+        "VI Polysaccride\ncontent",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality",
+        "The sample was declared as Standard Quality\nunder Form -2 of Drugs Rules."
+      ],
+      [
+        "3",
+        "Peda Typh (Typhoid Vi-\nConjugate Vaccine)",
+        "M/s Bio med., C-96,\nBulandshar Road, Industrial\nArea, Ghaziabad-201009,\nU.P- 201009",
+        "TC010417",
+        "Apr-17",
+        "Mar-20",
+        "VI Polysaccride\ncontent",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality",
+        "The sample was declared as Standard Quality\nunder Form -2 of Drugs Rules."
+      ],
+      [
+        "4",
+        "Tetanus\nVaccine(adsorbed) I.P",
+        "Vials Received Without Label",
+        "--",
+        "--",
+        "--",
+        "Container\nCloser Integrity",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality",
+        "Case filed before Hon'ble Court. Judgement was\npassed wherein the accused were sentenced and\nfined."
+      ],
+      [
+        "5",
+        "Poliomyelitis Vaccine live\noral I.P. Divalent\n(Bivalent/bOPV)",
+        "M/s Bio med., C-96,\nBulandshar Road, Industrial\nArea, Ghaziabad-201009,\nU.P- 201009",
+        "B100318",
+        "Mar-18",
+        "Feb-20",
+        "Identity: Type-2\ndetected",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality",
+        "Joint investigation conducted at manufacturing site\non 03.10.2018 to 06.10.2018 & 08.10.2018.\nThe sample was also declared as Not Standard\nQuality in Form -2 under Drugs Rules.\nCase filed before Honble Court. The matter is\nunder trial."
+      ],
+      [
+        "6",
+        "Poliomyelitis Vaccine live\noral I.P. Divalent\n(Bivalent/bOPV)",
+        "M/s Bio med., C-96,\nBulandshar Road, Industrial\nArea, Ghaziabad-201009,\nU.P- 201009",
+        "B100318",
+        "Mar-18",
+        "Feb-20",
+        "Identity Type-2\ndetected",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality",
+        "Joint investigation conducted at manufacturing site\non 03.10.2018 to 06.10.2018 & 08.10.2018.\nThe sample was also declared as Not Standard\nQuality in Form -2 under Drugs Rules.\nCase filed before Honble Court. The matter is\nunder trial."
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      18.48,
+      67.56,
+      762.18,
+      288.35
+    ],
+    "n_rows": 3,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.No",
+        "Name of Vaccine",
+        "Manufacturer",
+        "Batch No.",
+        "Mfg Date",
+        "Exp Date",
+        "Sub-\nStandard in",
+        "Type/ Source\nof Sample",
+        "Status",
+        "REGULATORY ACTION/\nCONCLUSION (Including recall\nstatus)"
+      ],
+      [
+        "1",
+        "Diphtheria,Tetanus,Pertu\nssis( Whole cell)\n,Hepatitis B (rDNA) &\nHaemophilus influenzae\nType-b Conjugate\nvaccine (Adsorbed)",
+        "M/s Biological E Ltd, Plot\nno. 1, SP Biotech Park,\nPhase II, Kolthur (Village),\nShameerpet (mandal),\nRanga Reddy (District),\nTelangana - 500078",
+        "220106717A",
+        "Oct-17",
+        "Mar-20",
+        "Physical\naspect",
+        "Drug\nInspectors",
+        "Not of\nStandard\nQuality",
+        "Joint investigation conducted at\nmanufacturing site on 18.04.2019.\nThe sample was declared as\nStandard Quality under Form -2 of\nDrugs Rules."
+      ],
+      [
+        "2",
+        "Tetanus Vaccine\n(Adsorbed) I.P.",
+        "M/s DANO Vaccines &\nBiologicals Pvt Ltd., Factory-\n575, Sivaredyguda,\nGhatkesar-501301, (T.S.)",
+        "1641V",
+        "Nov-16",
+        "Oct-19",
+        "Physical\naspect",
+        "Drug\nInspectors",
+        "Not of\nStandard\nQuality",
+        "Administrative action\nrecommended."
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      18.36,
+      66.6,
+      762.28,
+      525.98
+    ],
+    "n_rows": 6,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.No",
+        "Name of Vaccine",
+        "Manufacturer",
+        "Batch No.",
+        "Mfg Date",
+        "Exp Date",
+        "Sub-Standard in",
+        "Type/ Source\nof Sample",
+        "Status",
+        "REGULATORY ACTION/\nCONCLUSION (Including recall status)"
+      ],
+      [
+        "1",
+        "Covishield Vaccine",
+        "Spurious",
+        "4121MC040",
+        "07.07.2021",
+        "06.04.2022",
+        "Spurious",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality\n(Spurious)",
+        "The survey sample of corona virus vaccine\npurported to be manufactured by SIIPL was\ndeclared Spurious by CDL vide report no.:\nCDL/2022/3459 dated 16.06.2022.\nThe police investigated the matter and filed\ncriminal case bearing no. 3087/2021 dated\n04.12.2021 before Hon'ble XXII Judicial\nMagistrate F.C. Aurangabad.\nThe matter is under trial."
+      ],
+      [
+        "2",
+        "Covishield Vaccine",
+        "Spurious",
+        "4121MC019",
+        "14.06.2021",
+        "13.03.2022",
+        "Spurious",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality\n(Spurious)",
+        "The survey sample of corona virus vaccine\npurported to be manufactured by SIIPL was\ndeclared Spurious by CDL vide report no.:\nCDL/2022/3467 dated 16.06.2022..\nThe police has investigated the matter and\nfiled separate criminal case bearing no.\n3087/2021 dated 04.12.2021 before Hon'ble\nXXII Judicial Magistrate F.C. Aurangabad.\nThe matter is under trial."
+      ],
+      [
+        "3",
+        "Unlabelled filled\ntransparent fluid\nvial purported to be\nChAdoX1 nCoV19\ncorona virus\nvaccine",
+        "Spurious",
+        "--",
+        "--",
+        "--",
+        "Identity, Assay,\nBiochemical test,\nSterility Test,\nPhysical aspect and\nLabel review",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality\n(Spurious)",
+        "The sample was declared as NSQ\n(Spurious).\nCase filed before CJM Court & the matter is\nunder trial."
+      ],
+      [
+        "4",
+        "ChAdoX1 nCoV19\ncorona virus\nvaccine\n(Covishiled\nvaccine)",
+        "Spurious",
+        "4121MC034",
+        "01.07.2021",
+        "31.03.2022",
+        "Identity, Assay,\nBiochemical test,\nSterility Test,\nPhysical aspect and\nLabel review",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality\n(Spurious)",
+        "The sample was declared as NSQ\n(Spurious).\nCase filed before CJM Court & the matter is\nunder trial."
+      ],
+      [
+        "5",
+        "Novel Corona\nVirus - nCoV\nVaccine (ZYCOV-\nD)",
+        "Spurious",
+        "I457BH110",
+        "29.09.2021",
+        "28.06.2022",
+        "Identity, Assay,\nBiochemical test,\nSterility Test,\nPhysical aspect and\nLabel review",
+        "Drug\nInspectors",
+        "Not of Standard\nQuality\n(Spurious)",
+        "The sample was declared as NSQ\n(Spurious).\nCase filed before CJM Court & the matter is\nunder trial."
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      18.48,
+      68.4,
+      767.1,
+      198.56
+    ],
+    "n_rows": 2,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.No",
+        "Name of Vaccine",
+        "Manufacturer",
+        "Batch No.",
+        "Mfg Date",
+        "Exp Date",
+        "Sub-Standard\nin",
+        "Type/\nSource of\nSample",
+        "Status",
+        "REGULATORY ACTION/\nCONCLUSION (Including recall\nstatus)"
+      ],
+      [
+        "1",
+        "Typhoid\nPolysaccharide\nVaccine I.P.\n(TYPBAR)",
+        "M/s Bharat\nBiotech,Genome\nValley\nShameerpet,\nHyderabad – 500\n078 Telangana\nINDIA",
+        "54A22001A",
+        "Apr-22",
+        "Mar-25",
+        "O-acetyl\nContent",
+        "Drug\nInspectors",
+        "Not of\nStandard\nQuality",
+        "Joint investigation conducted at\nmanufacturing site on 19.07.2023 &\n20.07.2023.\nThe SLA suspended the product\npermission of Typhoid vaccine for 15\ndays."
+      ]
+    ]
+  }
+]

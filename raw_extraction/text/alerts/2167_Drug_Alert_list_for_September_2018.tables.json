@@ -1,0 +1,169 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.41,
+      77.61,
+      585.13,
+      694.69
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for failure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Oxytocin Injection\nI.P.",
+        "B. No.:17NHI0504,\nMfg dt: 09/2017,\nExp dt: 08/2019,\nMfd by: M/s. Nuclotec\nRemedies Pvt. Ltd., 14 Mile\nStone, Rudrapur, Kashipur Road,\nGadarpur, Dist. US Nagar, U.K.-\n263152.",
+        "pH & Assay",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2.",
+        "Amoxycillin\nCapsules I.P. 500\nmg",
+        "B. No.: AMC 17145,\nMfg dt: 09/2017,\nExp dt: 08/2019,\nMfd by: M/s. Vivek\nPharmachem (India) Ltd. NH-8,\nChimanpura, Amer, Jaipur-\n303102.",
+        "Uniformity of\nWeight & Assay",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3.",
+        "Glimith 2 Tablets",
+        "B. No.: DVTD1500\nMfg dt: 09/2017,\nExp dt: 08/2019,\nMfd by: M/s. Digital Vision\n176, Mauza Ogli, Nahan Road,\nKala Amb, Dist-Sirmour (H.P.)-\n173030.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4.",
+        "Hydrocortisone\nSodium Succinate\nInjection I.P.\n100mg. (Hcort)",
+        "B. No.: UNI-231\nMfg dt: 11/2017,\nExp dt: 10/2019,\nMfd by: M/s. Ultratech\nPharmaceuticals Vill. Tipra, P.O.\nBarotiwala, Dist-Solan (H.P.)",
+        "Sterility &\nParticulate\nContamination",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5.",
+        "PREDNISOLONE\nTABLETS IP 10\nmg",
+        "B. No.: PET1805\nMfg dt: 07/2018,\nExp dt: 06/2020,\nMfd by: M/s. Modern\nLaboratories, 45-47, Sector D-2,\nSanwer Road, Indore, MP-\n452015.",
+        "Identification\n(Spurious)",
+        "CDSCO,\nSub-Zone,\nBangalore",
+        "CDTL ,\nChennai"
+      ],
+      [
+        "6.",
+        "Opicet Tablets\n(Cetirizine\nHydrochloride\nTablets I.P.)",
+        "B. No.: 17-J-T1463,\nMfg dt: 01/2018,\nExp dt: 12/2019,\nMfd by: M/s. Orison Pharma\nInternational Khari, Mauza-Ogli,\nKala Amb-173030(H.P.).",
+        "Related\nSubstances",
+        "CDSCO,\nEast-Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      22.41,
+      36.21,
+      585.13,
+      660.37
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "7.",
+        "Levocetirizine\nTablets I.P. 5mg",
+        "B. No.: 9703117,\nMfg dt: 08/2017,\nExp dt: 07/2020,\nMfd by: M/s. Karnataka\nAntibiotics & Pharmaceuticals\nLimited, Plot No. 14, II Phase,\nPeenya, Bangalore-560058.",
+        "Related\nSubstances",
+        "CDSCO,\nEast-Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "CETFAST – L\n(Levocetirizine\nHydrochloride\nTablets I.P. 5mg)",
+        "B. No.: NV8014,\nMfg dt: 01/2018,\nExp dt: 12/2019,\nMfd by: M/s. Navkar\nLifesciences, Plot No. 76, Lodhi\nMajra, Industrial Area, Baddi,\nDistt: Solan (H.P.).",
+        "Related\nSubstances",
+        "CDSCO,\nEast-Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9.",
+        "FYCAINE – O\n(Oxytocin Injection\nI.P.).",
+        "B. No.: 16AHI1201,\nMfg dt: 12/2016,\nExp dt: 11/2018,\nMfd by: M/s. Anglo-French\nDrugs & Industries Ltd., At. 14\nMilestone, Rudrapur Kashipur\nRoad, Vill- Alakhdevi, Tehsil\nGadarpur, Distt- Udhamsingh\nNagar, Uttarakhand-263152.",
+        "pH & Assay",
+        "CDSCO,\nSub-Zone,\nGoa",
+        "CDL,\nKolkata"
+      ],
+      [
+        "10.",
+        "Atorvastatin\nTablets IP 10 mg",
+        "B. No.: 6300118,\nMfg dt: 02/2018,\nExp dt: 01/2021,\nMfd by: M/s. Karnataka\nAntibiotics & Pharmaceuticals\nLimited. Plot No. 14, II Phase,\nPeenya, Bangalore- 560058.",
+        "Related\nSubstances",
+        "CDSCO,\nWest-Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "11.",
+        "Fexogra-180\n(Fexofenadine\nHydrochloride\nTablets IP)",
+        "B. No.: 858-01,\nMfg dt: 03/2018,\nExp dt: 02/2021,\nMfd by: M/s. HAB\nPharmaceuticals & Research\nLimited, 10, Pharmacity,\nSIDCUL, Selaqui, Dehradun-\n248197.",
+        "Dissolution",
+        "CDSCO,\nWest-Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "12.",
+        "VI-JOHN\nSHAVING\nCREAM WITH\nBACTI-GUARD",
+        "B. No.: MB067,\nMfg dt: 01/2018,\nExp dt: 01/2021,\nMfd by: M/s. MAJA Health Care\nDivision, VI-JOHN Ind. Estate,\nKishanpura, Tehsil Nalagarh,\nDistt.Solan, H.P.-174101. (India)",
+        "Lathering\n(foaming) power",
+        "Drugs Control\nDepartment,\nH.P.",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      22.44,
+      36.24,
+      585.1,
+      327.53
+    ],
+    "n_rows": 3,
+    "n_cols": 6,
+    "rows": [
+      [
+        "13.",
+        "Drotaverine HCl,\nInjection\n(DROTANOL\nINJECTION)",
+        "B. No.: ULN-825,\nMfg dt: 12/2017,\nExp dt: 11/2019,\nMfd by: M/s. Ultratech\nPharmaceuticals, Vill. Tipra,\nP.O. Barotiwala, Distt. Solan\n(H.P.).",
+        "Assay of Absolute\nAlcohol",
+        "Drugs Control\nDepartment,\nSrinagar,\nKashmir",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "14.",
+        "Oxytocin Injection\nIP (SARVOXY\nINJECTION)",
+        "B. No.: 30703,\nMfg dt: 07/2018,\nExp dt: 06/2019,\nMfd by: M/s. SARVEAR\nPHARMACEUTICALS, 49,\nIndustrial Estate, P.O. Rayon\nand Silk Mills, G.T. Road,\nAmritsar.",
+        "Particulate matter",
+        "CDSCO,\nSub-Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "15.",
+        "Oxytocin Injection\nIP (INTOCIN\nINJECTION)",
+        "B. No.: 3251\nMfg dt: 07/2018,\nExp dt: 06/2019,\nMfd by: M/s. Instant\nPharmaceuticals, 48, Industrial\nArea, Amritsar-143104.",
+        "Particulate matter,\nSterility, Bacterial\nendotoxins and\nAssay of Oxytocin\nActivity",
+        "CDSCO,\nSub-Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      50.88,
+      54.5,
+      735.54,
+      150.44
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF April 2023.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "A. Central Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No.",
+        "Vaccine Name",
+        "Batch No.",
+        "Manufacturing\nDate",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by CDSCO Laboratory"
+      ],
+      [
+        "1",
+        "Typhoid\nPolysaccharide\nVaccine I.P.\n(Tybar)",
+        "54A22001A",
+        "Apr'22",
+        "Mar'25",
+        "M/s Bharat\nBiotech,Genome Valley\nShameerpet,\nHyderabad – 500 078\nTelangana INDIA",
+        "O-acetyl Content",
+        "Central Drugs Laboratory, Kasauli"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      50.88,
+      54.48,
+      735.12,
+      151.64
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF JUNE-2022.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "A. Central Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No.",
+        "Vaccine Name",
+        "Batch No.",
+        "Manufacturing\nDate",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by CDSCO\nLaboratory"
+      ],
+      [
+        "1",
+        "Covishield Vaccine",
+        "4121MC040",
+        "07.07.2021",
+        "06.04.2022",
+        "Spurious",
+        "Spurious",
+        "Central Drugs Laboratory,\nKasauli"
+      ],
+      [
+        "2",
+        "Covishield Vaccine",
+        "4121MC019",
+        "14.06.2021",
+        "13.03.2022",
+        "Spurious",
+        "Spurious",
+        "Central Drugs Laboratory,\nKasauli"
+      ]
+    ]
+  }
+]

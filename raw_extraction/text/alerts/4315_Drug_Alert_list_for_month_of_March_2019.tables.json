@@ -1,0 +1,552 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      66.56,
+      134.22,
+      517.6,
+      199.42
+    ],
+    "n_rows": 3,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "2011"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "1888"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality\n/Spurious /Misbranded (under Form-13, Form-34 and Form- MD-32)",
+        "50"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      213.59,
+      582.52,
+      723.73
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.\nN.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Thermol – 500\n(Paracetamol\nTablets IP 500)",
+        "B. No.: CR1116,\nMfgdt: 09/2016,\nExpdt: 08/2019,\nMfd by: M/s.Care\nPharmaceuticals, 48,\nPhase - II, I.D.A. Mallapur,\nHyderabad - 500076.",
+        "Dissolution",
+        "CDSCO,\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "LIGNO 2%\n(Lignocaine HCl\nInjection I.P.)",
+        "B. No.: RLE27,\nMfgdt: 02/2018\nExpdt: 01/2020,\nMfd by: M/s. Rainbow\nLaboratories, 158, New\nIndustrial Area-II,\nMandideep, Distt. Raisen –\n462046.",
+        "Description, pH\nand Particulate\nMatter",
+        "CDSCO,\nAhmedabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Misoprostol Tablets\n200 mcg",
+        "B. No.: T-1638002,\nMfgdt: 03/2017,\nExpdt: 02/2019,\nMfd by: M/s. Centurion\nLaboratories, G/5 & G/6,\nIndustrial Estate, Gorwa,\nBaroda – 390 016.",
+        "Assay",
+        "CDSCO, East\nZone,\nKolkata.",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "Redwell (Ferrous\nAspartoGlycinate, L-\nMethyl Folate\n&Mecobalamin\nTablets),",
+        "B. No.: 1800927,\nMfgdt: 06/2018,\nExpdt: 11/2019,\nMfd by: M/s. Phoenix\nLaboratories, Vill:\nNarayanpur, 105 No.\nKochparaGaonPanchayat,\nDist. –Kamrup (R), Mirza,\nAssam – 781 125.",
+        "Disintegration",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      755.91
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "5.",
+        "STOPVOM\n(Domperidone\nTablets IP 10 mg)",
+        "B. No.: JK17001,\nMfgdt: 01/2017,\nExpdt: 12/2019,\nMfd by: M/s.Cadila\nPharmaceuticals Ltd.,\nIndustrial Growth Centre,\nSamba – 184 121, State of\nJ & K.",
+        "Dissolution",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "PRICHEK-M 2\nFORTE (Metformin\nHydrochloride (SR)\n& Glimepiride\nTablets)",
+        "B. No.: PFL1B83D,\nMfgdt: 02/2018,\nExpdt: 01/2020,\nMfd by: M/s. Swiss Garnier\nBiotech, 21 Indl. Area,\nMehatpur, District – Una,\nHimachal Pradesh -174\n315.",
+        "Assay of\nGlimepiride",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "Moxodin-CV Dry\nSyrup (Amoxycillin\nand Potassium\nClavulanate Oral\nSuspension I.P.)",
+        "B. No.: MMAL9002,\nMfgdt: 07/2018,\nExpdt: 12/2019,\nMfd by: M/s.\nChirosPharma, Vill.\nLoharon , P.O. Ghatti,\nDistt. Solan, Himachal\nPradesh-173211.",
+        "Assay of\nAmoxycillinTrihy\ndrate",
+        "CDSCO, Sub\nZone, Baddi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "VIT-K1 (KENADION\nI) (Phytomenadione\nInjection I.P.)",
+        "B. No.: IPMDA2808,\nMfgdt: 07/2018,\nExpdt: 06/2020,\nMfd by: M/s. Samarth Life\nSciences, Unit-II, Plot No.\n2, Industrial Area,\nLodhimajra, Baddi.",
+        "Description &\nParticulate\nContamination",
+        "CDSCO, Sub\nZone, Baddi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9.",
+        "COLIST\n(Colistmethate\nSodium for Injection\nI.P. 1 Million IU.)",
+        "B. No.: EFUAI17002,\nMfgdt: 10/2017,\nExpdt: 09/2019,\nMfd by: M/s. Aqua Vitoe\nLaboratories, Plot No. 4,\nVill: Kunjhal, Jharmajri,\nBaddi.",
+        "Bacterial\nEndotoxins test",
+        "CDSCO, Sub\nZone, Baddi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "10",
+        "Lookast-LC\n(Montelukast\nSodium\n&Levocetrizine\nHydrochloride\nTablets I.P.)",
+        "B. No.: GT180886,\nMfgdt: 07/2018,\nExpdt: 06/2020,\nMfd by: M/s. Theon\nPharmaceuticals Ltd.,\nVill. Saini Majra, Tehsil\nNalagarh, Distt. Solan\n(H.P.) – 174 101.",
+        "Dissolution of\nMontelukast\nSodium",
+        "CDSCO, Sub\nZone, Baddi",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      729.73
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "11",
+        "Almox-CV 625\n(Amoxycillin and\nPotassium\nClavulanate Tablets\nI.P.)",
+        "B. No.: TDCB8003,\nMfgdt: 12/2017,\nExpdt: 11/2019,\nMfd by: M/s.\nChirosPharma, Vill.\nLoharon, P.O. Ghatti, Dist.\nSolan, Himachal Pradesh\n– 173 211",
+        "Assay of\nPotassium\nClavulanate&Dis\nsulution of\nAmoxicillin\nTrihydrate&\nPotassium\nClavulanate",
+        "CDSCO, Sub\nZone, Baddi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "12",
+        "Oxytetracycline\nHydrochloride BP",
+        "B. No.: 08889078-OH,\nMfgdt: 10/2018,\nExpdt: 09/2022,\nMfd by: M/s. Century\nPharmaceuticals Limited,\n103 to 106, G.I.D.C.\nEstate, Halol, Gujarat.",
+        "Water",
+        "CDSCO,\nAhmadabad",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "13",
+        "Sodium Valproate\nEnteric Coated\nTablets I.P. 200 mg",
+        "B. No.: FG-18043,\nMfgdt: 06/2018,\nExpdt: 05/2020,\nMfd by: M/s. Flourish\nPharm, 24 E, GOA-IDC,\nDaman Industrial Estate,\nSomnath, Dabhel, Daman.",
+        "Disintegration",
+        "CDSCO,\nAhmedabad",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "14",
+        "Cefydoc-AX\n(Cefuroxime Axetil\nOral Suspension\nBP) 12gm/30ml",
+        "B. No.: 1712002,\nMfgdt: 12/2017,\nExpdt: 05/2019,\nMfd by: M/s. Kanha\nBiogenetic Laboratories,\nPlot No.1 B, Export\nPromotional Ind. Park,\nPhase-I, Jharmajri, Baddi,\nDistt. Solan (H.P.).",
+        "Assay",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "15",
+        "Azorid-250\n(Azithromycin\nTablets IP)",
+        "B. No.: AZO-1801,\nMfgdt: 06/2018,\nExpdt: 05/2020,\nMfd by: M/s. Ridley Life\nScience Pvt. Ltd, D-1651,\nDSIDC Indl. Complex,\nNarela, Delhi 110040.",
+        "Assay",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "16",
+        "AARDEX 4 mg/ml\n(Dexamethasone\nSodium Phosphate\nInjection IP)",
+        "B. No.: RD-84,\nMfgdt: 08/2018,\nExpdt: 07/2020,\nMfd by: M/s. Regain\nLaboratories, 134/5, HTM\nRoad, Raipur Lane, Hisar-\n125001.",
+        "Assay",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      752.79
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "17",
+        "Diclopill-100\n(Diclofenac Sodium\nTablets 100 mg)",
+        "B. No.: FD830,\nMfgdt: 04/2018,\nExpdt: 03/2021,\nMfd by: M/s. Fredun\nPharmaceuticals Ltd., 14,\n15, 16, Zorabian Industrial\nComplex, Vevoor, Palghar\n(E) 401 404.",
+        "Disintegration",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "18",
+        "Cetirizine Tablets IP\n10 mg",
+        "B. No.: C2180801,\nMfgdt: 08/2018,\nExpdt: 07/2020,\nMfd by: M/s. CIPCO\nPharmaceuticals 35-36/1,\nAB Road, Gram\nPigdambar Dist. Indore\n453 531.",
+        "Related\nSubstances &\nAssay",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "19",
+        "Lexinet Tablets\n(Bisacodyl Tablets\nIP)",
+        "B. No. : T8050218,\nMfgdt: 05/2018,\nExpdt: 04/2020,\nMfd by: M/s. ION\nHealthcare Pvt. Ltd.,\nBaddiBarotiwala Road,\nBaddi. Dist. Solan,\nH.P.173205.",
+        "Related\nSubstances",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "20",
+        "Atormax-20\n(Atorvastatin\nTablets 20 mg)",
+        "B. No.: FVQ028029,\nMfgdt: 08/2018,\nExpdt: 07/2020,\nMfd by: M/s. IPCA\nLaboratories Ltd.,\nSejavata, Ratlam-457002.",
+        "Dissolution",
+        "CDSCO, Sub\nZone, Indore",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "21",
+        "AMOXYCILLIN &\nCLOXACILLIN\nCAPSULES\n(OPIMOX-CL)",
+        "B. No.: 18A-BC001,\nMfgdt: 04/2018,\nExpdt: 03/2020,\nMfd by: M/s.OrisonPharma\nInternational Khari,\nMauzaogli, Kala-Amb, H.P.\n173030.",
+        "Assay of\nAmoxycillin&\nAssay of\nCloxacillin",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "22",
+        "CIPROFLOXACIN\ntablets I.P. 500 mg.",
+        "B. No.: CT70140,\nMfgdt: 06/2017,\nExpdt: 05/2019,\nMfd by: M/s. Omega\nBiotech Ltd., 7th mile stone,\nDehradun road, Roorkee\nUttarakhand-247667.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      789.15
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "23",
+        "AZITHROMYCIN\ntablets I.P. 500mg.",
+        "B. No.: AS7001,\nMfgdt: 09/2017,\nExpdt: 08/2019,\nMfd by: M/s. Halewood\nLaboratories Pvt. Ltd., 319,\nPhase-II, G.I.D.C, Vatva,\nAhmadabad, Gujarat-\n382445.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "24",
+        "AMOXYCILLIN &\nDICLOXACILLIN\nCAPSULES\n(ELMOX-PLUS)",
+        "B. No.: AB7003,\nMfgdt: 05/2017,\nExpdt: 04/2019,\nMfd by: M/s.Aagya Biotech\nPvt. Ltd., 1.5 km.\nManglour-247656,\nSaharanpur Road,\nRoorkee, Dist-Haridwar.",
+        "Physical\nParameter",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "25",
+        "DEXAMETHASONE\nSODIUM\nPHOSPHATE\nInjection I.P.",
+        "B. No.: I-15826,\nMfgdt: 12/2017,\nExpdt: 11/2019,\nMfd by: M/s.Jackson\nLaboratories Pvt. Ltd., 22,\n24, Majitha Road, Byepass\nAmritsar-143001.",
+        "Spurious",
+        "Drugs Control\nDepartment,\nJharkhand,\n(Spurious)",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "26",
+        "CEFUROXIME\nAXETIL TABLETS\nI.P. (AXTUM-250)",
+        "B. No.: SBT-16732,\nMfgdt: 12/2017,\nExpdt: 11/2019,\nMfd by: M/s.SVR\nHealthcare Vill-Barotiwala,\nPaonta Sahib Dist-Sirmour\n(H.P.)173025.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "27",
+        "CEFUROXIME\nAXETIL TABLETS\nI.P. (AXTUM-500)",
+        "B. No.: BT-1804-06,\nMfgdt: 04/2018,\nExpdt: 03/2020,\nMfd by: M/s. Oscar\nRemedies Johron,\nAdjoining Industrial Area,\nKala-Amb-173030 (H.P.).",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "28",
+        "PANTOPRAZOLE\nGASTRO\nRESISTANT\nTABLETS I.P.",
+        "B. No.: T-6278,\nMfgdt: 01/2018,\nExpdt: 12/2019,\nMfd by: M/s. Kwality\nPharmaceuticals Ltd.\nNagkalan, Majitha Road,\nAmritsar.",
+        "Dissolution (Acid\nStage)",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "29",
+        "GLIMEPIRIDE\nTABLETS I.P. 2mg.\n(GLIMITH 2)",
+        "B. No.: DVTD1500,\nMfgdt: 09/2017,\nExpdt: 08/2019,\nMfd by: M/s. Digital Vision\n176, Mauzaogli, Nahan\nRoad, Kala-Amb, Dist-\nSirmour (H.P.)-173030.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      766.95
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "30",
+        "Iron and Folic Acid\nTablets",
+        "B. No.: T5214,\nMfgdt: 06/2017,\nExpdt: 05/2019,\nMfd by: M/s. Quest\nLaboratories Pvt. Ltd. Plot\nNo-45, Sector-III,\nPithampur, Dist-Dhar-\n454775(M.P.).",
+        "Physical\nParameter,\nAverage Weight\n& Assay",
+        "Drugs Control\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "31",
+        "Hydrocortisone\nSodium Succinate\nInjection I.P.",
+        "B. No.: UNI-390,\nMfgdt: 04/2018,\nExpdt: 03/2020,\nMfd by: M/s.Ultratech\nPharmaceuticals Vill-Tipra,\nP.O. Barotiwala, Dist-\nSolan.",
+        "Particulate\nContamination &\nAssay",
+        "Drugs Control\nDepartment,\nMizoram",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "32",
+        "Metronidazole-400\nTablets",
+        "B. No.: OT-1712025,\nMfgdt: 12/2017,\nExpdt: 11/2020,\nMfd by: M/s.Oshin\nLaboratories Pvt. Ltd.\nIndustrial Area, Narela\nRoad, Plao, Maniyari,\nKundli-131028 (H.P).",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "33",
+        "Cephalexin\nCapsules I.P.\n500mg. (Staphydex\n500mg)",
+        "B. No.: MCC-18014,\nMfgdt: 05/2018,\nExpdt: 04/2020,\nMfd by:\nM/s.MaxmedLifesciences\nPvt. Ltd. Plot No. 54,\nSector IIDC, SIDCUL,\nRudrapur, Uttarakhand.",
+        "Misbranded",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "34",
+        "Paracetamol\nTablets I.P. 500 mg",
+        "B. No.: CT70163,\nMfgdt: 06/2017,\nExpdt: 05/2019,\nMfd by: M/s. Omega\nBiotech Ltd. 7th Mile Stone,\nDehradun Road, Roorkee,\nUttarakhand-247667.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "35",
+        "Paracetamol\nTablets I.P. 500 mg",
+        "B. No.: BT70105,\nMfgdt: 05/2017,\nExpdt: 04/2019,\nMfd by: M/s. Omega\nBiotech Ltd. 7th Mile Stone,\nDehradun Road, Roorkee,\nUttarakhand-247667.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      721.69
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "36",
+        "Ondansetron\nHydrochloride\nTablets I.P. (Emigo\n4)",
+        "B. No.: ZLC1AQ8003,\nMfgdt: 05/2018,\nExpdt: 04/2021,\nMfd by: M/s. Zuventus\nHealthcare Ltd. 5119,\nOberoi Garden Estates D-\nWing, Chandivali, Andheri\n(E), Mumbai-400072.",
+        "Dissolution",
+        "CDSCO,\nSubzone.\nGuwahati",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "37",
+        "Pantoprazole\nTablets IP 40mg.\n(ALPANT-40)",
+        "B. No.: MST-17250,\nMfgdt: 04/2017,\nExpdt: 03/2019,\nMfd by: M/s. M.Sea\nPharmaceuticals Pvt. Ltd.\nSurajpur, Paonta Sahib,\nDist- Sirmour, H.P.-\n173025.",
+        "Dissolution\n(Buffer Stage)",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "38",
+        "Ciprofloxacin\nTablets I.P. 500 mg.",
+        "B. No.: CT70164,\nMfgdt: 06/2017,\nExpdt: 05/2019,\nMfd by: M/s. Omega\nBiotech Ltd. 7th Mile Stone,\nDehradun Road, Roorkee,\nUttarakhand-247667.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "39",
+        "Sodium Alendronate\nTablets (GATOFOS-\n35 TABLETS)",
+        "B. No.: CT-017893,\nMfgdt: 03/2018,\nExpdt: 02/2020,\nMfd by: M/s. CMG Biotech\nPvt.Ltd., 58, Industrial\nArea, Phase III, Sansarpur\nTerrace, H.P.-176501.",
+        "Assay of\nSodium\nAlendronate\ncalculated as\nAlendronic Acid",
+        "(CDSCO,\nSub- Zone,\nBaddi)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "40",
+        "MISOPROSTOL\nTABLETS IP 200\nMCG",
+        "B. No.: TD-13,\nMfgdt: 07/2018,\nExpdt: 12/2019,\nMfd by: M/s. PODDAR\nPHARMACEUTICALS\nPVT.LTD., E-35, Industrial\nArea, Hardwar- 249 401\n(U.K.).",
+        "Assay of\nMisoprostol",
+        "(CDSCO,\nNorth Zone)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "41",
+        "Moxifloxacin with\nDifluprednate Eye\nDrops ( MOXITAK-\nDF STERILE EYE\nDROPS)",
+        "B. No.: PE085,\nMfgdt: 05/2017,\nExpdt: 04/2019,\nMfd by: M/s. Hanuchem\nLaboratories Plot No. 13,\nSector-5, Industrial Area,\nParwanoo, Distt. Solan\n(HP).",
+        "Assay of\nDifluprednate",
+        "(Himachal\nPradesh\nState)",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      708.73
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "42",
+        "Cloxacillin Sodium\nInjection IP (\nCLOXACILLIN\nINJECTION )",
+        "B. No.: I- 16935,\nMfgdt: 05/2018,\nExpdt: 04/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd,\nMajithaRoad,Bye\nPass,Amritsar-143001.",
+        "Assay of\nCloxacillin\nSodium\ncalculated as\nCloxacillin",
+        "(CDSCO,\nSub-Zone,\nBaddi.)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "43",
+        "HYOSCINE BUTYL\nBROMIDE\nINJECTION IP 20\nMG",
+        "B. No.: I-16603,\nMfgdt: 04/2018,\nExpdt: 03/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt Ltd., 22-\n24, Majitha Road,Bye\nPass, Amritsar-143001\n(India).",
+        "Particulate\nmatter and the\nAssay of\nHyoscineButylbr\nomide",
+        "(CDSCO,\nSub-Zone,\nBaddi.)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "44",
+        "Metochlopramide\nHydrochloride\nInjection IP",
+        "B. No.: I-17259,\nMfgdt: 06/2018,\nExpdt: 05/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd, 22-\n24 Majitha Road,Bye Pass,\nAmritsar-143001.",
+        "Particulate\nmatter, Related\nSubstances",
+        "(CDSCO,\nSub-Zone,\nBaddi)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "45",
+        "Enteric Coated\nRabeprazole\nSodium and\nSustained Release\nDomperidone\nCapsules\n(RABMARQU-DSR\nCAPSULES )",
+        "B. No.: AL/B/124,\nMfgdt: 08/2018,\nExpdt: 07/2020,\nMfd by: M/s. Alice\nHealthcare VPO -\nGurumajaraNalagarh Road\nDistt. Solan - 174101,\n(H.P.).",
+        "Assay of\nRabeprazole\nSodium,\nDomperidone",
+        "(CDSCO,\nSub-Zone,\nBaddi)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "46",
+        "Atorvastatin Tablets\nIP (LIPVEN-20\nTABLETS)",
+        "B. No.: VT-17230,\nMfgdt: 12/2017,\nExpdt: 11/2019,\nMfd by: M/s. Sunlife\nSciences 130, Kurdi,\nJhabrera Road, Manglour,\nRoorkee, Distt. Haridwar\n(U.K.).",
+        "Dissolution\n(Atorvastatin\nCalcium\ncalculated as\nAtorvastatin)",
+        "(CDSCO,\nNorth Zone)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "47",
+        "NEOSTIGMINE\nMETHYL\nSULPHATE\nINJECTION IP",
+        "B. No.: I-16336,\nMfgdt: 03/2018,\nExpdt: 02/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd. 22-\n24, Majitha Road, Bye\nPass, Amritsar-\n143001(India)",
+        "Particulate\nmatter, Sterility",
+        "State\nJ & K",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      15.24,
+      56.88,
+      582.48,
+      420.07
+    ],
+    "n_rows": 3,
+    "n_cols": 6,
+    "rows": [
+      [
+        "48",
+        "CefpodoximeProxeti\nl and Potassium\nClavulanate Tablets\n(STOPDOX-CV\nTABLETS)",
+        "B. No.: T180097F,\nMfgdt: 06/2018,\nExpdt: 11/2019,\nMfd by: M/s. Polestar\nPower Industries (Pharma\nDivision) Vill.Damuwala,\nHaripur Road, Barotiwala,\nBaddi, Distt.Solan (H.P.)-\n174 103.",
+        "Assay of\nPotassium\nClavulanate\nDiluted\ncalculated as\nClavulanic Acid",
+        "(CDSCO,\nSub-Zone,\nJammu)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "49",
+        "VITAMIN A\nSUSPENSION IP\n(A to A)",
+        "B. No.: CRS-181010,\nMfgdt: 10/2018,\nExpdt: 03/2020,\nMfd by: M/s. Civron\nPharmaceuticals\n13,Industrial Area,Phase-\nIII,Sansarpur-Terrace Distt.\nKangra(H.P.).",
+        "Assay of Vitamin\nA calculated as\nVitamin A\nPalmitate",
+        "(Himachal\nPradesh)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "50",
+        "Alumina,\nMagnesium\nHydroxide,\nMagnesium\nCarbonate and\nSimethicone Tablets\n(MILUCID\nTABLETS)",
+        "B. No.: T170638,\nMfgdt: 06/2017,\nExpdt: 05/2019,\nMfd by: M/s. MICRON\nPHARMACEUTICALS,\n2117, A-2, Phase III,\nG.I.D.C., VAPI-396 195.",
+        "Assay of\nActivated\nDimethicone",
+        "(CDSCO,\nNorth Zone)",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

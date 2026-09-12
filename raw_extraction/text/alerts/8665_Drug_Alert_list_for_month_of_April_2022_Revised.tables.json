@@ -1,0 +1,45 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      14.22,
+      114.74,
+      571.98,
+      432.7
+    ],
+    "n_rows": 3,
+    "n_cols": 8,
+    "rows": [
+      [
+        "Drug Alert April-2022",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sl.\nNo.",
+        "Name of the\nDrugs",
+        "Product\nDetails",
+        "Manufactured\nBy",
+        "Reason for\nFailure",
+        "Drawn By",
+        "From",
+        "Remarks"
+      ],
+      [
+        "17",
+        "Ursodeoxycholi\nc Acid Tablets\nIP 300 mg\n(UDILIV-300)",
+        "Batch No:\n250923D7\nMfg Dt.-\n01/2021\nExp. Dt.-\n05/2023",
+        "M/s Abbott\nIndia Limited.\nL-18/19,\nVerna\nIndustrial\nArea, Verna,\nSalcette, Goa-\n403722",
+        "Identification\nand Assay",
+        "Drugs\nControl\nDepartment\nAssam",
+        "RDTL\nGuwahati",
+        "The actual\nmanufacturer\n(as per label\nclaim) has\ndeclared the\nimpugned batch\nto be not\nmanufactured\nby them and\nthat it is a\nspurious drug.\nHowever, the\nsame is subject\nto outcome of\nfinal\ninvestigation by\nthe concerned\nInvestigating\nofficial of Drugs\nControl\nDepartment\nAssam"
+      ]
+    ]
+  }
+]

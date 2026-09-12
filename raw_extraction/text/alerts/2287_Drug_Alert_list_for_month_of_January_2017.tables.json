@@ -1,0 +1,201 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      29.37,
+      83.75,
+      575.43,
+      798.75
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Ogap 20\n(Omeprazole Gastro-\nResistant Capsules\nI.P.",
+        "B. No.: F602,\nMfg dt: 06/2016,\nExp dt: 05/2018,\nMfd by: M/s. Indu Drugs\nPrivate Limited., 5-5-35/278,\n279 & 281/1 (Part), Prasanthi\nNagar, IDA, Kukatpally,\nHyderabad 500 072",
+        "Dissolution",
+        "CDSCO,\nHyderabad\nZone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "Pecort S 100\n(Hydrocortisone\nSodium Succinate\nInjection I.P. 100\nmg)",
+        "B. No.: HCS-119A,\nMfg dt: 01/2016,\nExp dt: 06/2017,\nMfd by: M/s. Pushkar Pharma,\nBhandariwala, Kheri, Kala\nAmb HP 173 030 (H.P.)",
+        "Clarity of\nSolution,\nParticulate\nMatter &\nSterility",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Biophen\n(Chlorpheniramine\nMaleate Tablets I.P.\n4 mg)",
+        "B. No.: T1613,\nMfg dt: 04/2016,\nExp dt: 03/2019,\nMfd by: M/s. Biogen\nPharmaceuticals Co., Plot No.\n165 to 169, Patel Ind. Estate,\nDelad Patiya Sayan, Pin -\n394130, Ta. Olpad, Dist. Surat\n(Guj.)",
+        "Assay",
+        "CDSCO,\nAhmadabad\nZone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "Vitamin B Complex\nCapsule\n(Therapeutic)",
+        "B. No.: OSM - 093,\nMfg dt: 02/2016,\nExp dt: 01/2018,\nMfd by: M/s. Maxchem\nPharmaceuticals (P) Ltd. Plot\nNo. 22, Sec-3, IIE, Pantnagar,\nRudrapur, Distt. US Nagar -\n263 153",
+        "Assay of\nCalcium\nPantothenate",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "5.",
+        "Chymoral Forte\n(Trypsin -\nChymotrypsin\nTablets)",
+        "B. No.: WBA96024,\nMfg dt: 01/2016,\nExp dt: 12/2017,\nMfd by: M/s. Windlas Biotech\nLimited, Plant - 2, Khasra No.\n- 141 to 143 & 145,\nMohabewala Indl., Area,\nDehradun 248 110",
+        "Disintegration",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "Heartace 5 (Ramipril\nTablets I.P.)",
+        "B. No.: BD15037,\nMfg dt: 01/2015,\nExp dt: 12/2016,\nMfd by: M/s. Skymap",
+        "Dissolution\n&\nAssay",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      29.37,
+      28.53,
+      575.43,
+      782.67
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Pharmaceuticals, B-3, Deb\nBhoomi Industrial Estate,\nPohana Iqbalpur Road,\nRoorkee 247 667",
+        "",
+        "",
+        ""
+      ],
+      [
+        "7.",
+        "Paracetamol\nTablets",
+        "B. No.:210915,\nMfg dt: 09/2015,\nExp dt: 08/2017,\nMfd by: M/s. Veejay\nLaboratories, EPIP Zone,\nAmingaon, Guwahati-781031",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nKamrup,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "8.",
+        "Paracetamol\nTablets",
+        "B. No.:270915,\nMfg dt: 09/2015,\nExp dt: 08/2017,\nMfd by: M/s. Veejay\nLaboratories, EPIP Zone,\nAmingaon, Guwahati-781031",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nKamrup,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "9.",
+        "Zinc Sulphate\nDispersible Tablets",
+        "B. No.:ZST03-82,\nMfg dt: 08/2015,\nExp dt: 07/2017,\nMfd by: M/s. Unicure India\nLtd., C-22 & 23, Sector-3,\nNoida-201301",
+        "Physical",
+        "Drugs Control\nDepartment,\nJorhat, Assam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "10.",
+        "Ofloxacin and\nOrnidazole Tablets",
+        "B. No.: DVTC-340,\nMfg dt: 05/2016,\nExp dt: 04/2018,\nMfd by: M/s. Digital Vision,\n176, Mauza Ogli, Nahan Road,\nKala Amb, Dist. Sirmour, H.P-\n173030",
+        "Disintegration",
+        "Drugs Control\nDepartment,\nKamrup,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "11.",
+        "Vovefen-MR\nTablets",
+        "B. No.:H51132,\nMfg dt: 08/2015,\nExp dt: 07/2017,\nMfd by: M/s. Arion\nHealthcare, Vill- Kishanpura,\nBaddi, Dist- Solan, H.P-\n174101",
+        "Disintegration",
+        "Drugs Control\nDepartment,\nMizoram.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "12.",
+        "Paracetamol\nTablets",
+        "B. No.: ET60262,\nMfg dt: 08/2016,\nExp dt: 07/2018,\nMfd by: M/s. Omega Bio\nTech., 7th Mile Stone,\nDehradun Road, Roorkee, U.K\n-247667",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nLakhimpur,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "13.",
+        "Rabeprazole Gastro-\nresistant tablets IP\n(RABALKEM-20\nTABLETS)",
+        "B. No.: RBAT15012,\nMfg dt: 06/2015,\nExp dt: 05/2017,\nMfd by: M/s. Ravian Life\nScience Pvt. Ltd., Plot no. 34,\nSector-8A, IIE, SIDCUL,\nHaridwar-249403, Uttarakhand",
+        "Dissolution",
+        "CDSCO, Sub\nZone, Jammu",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      29.36,
+      28.53,
+      575.44,
+      554.86
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "14.",
+        "Frusemide Tablets\nIP 40mg",
+        "B. No.: T6268,\nMfg dt: 04/2016,\nExp dt: 03/2018,\nMfd by: M/s. Zest Pharma,\nPlot No. 275, Sector ‘F’\nSanwer Road, Indore-452015",
+        "Dissolution",
+        "CDSCO, West\nZone, Mumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "15.",
+        "Malariavin\n(Chloroquine\nPhosphate Tablets\nI.P.)",
+        "B. No.: 1602,\nMfg dt: 07/2016,\nExp dt: 03/2018,\nMfd by: M/s. Vintochem\nPharmaceuticals, Industrial\nArea, Maxi Road, Ujjain\n(M.P.)",
+        "Related\nSubstances",
+        "CDSCO, West\nZone, Mumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "16.",
+        "Pantoprazole Tablets\nIP",
+        "B. No.: S056418,\nMfg dt: 06/2016,\nExp dt: 05/2018,\nMfd by: M/s. Scott-Edil\nPharmacia Ltd., 56, E.P.I.P.,\nPhase-I, Jharmajri-173205",
+        "Dissolution",
+        "CDSCO, West\nZone, Mumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "17.",
+        "Anphellin Tablets\n(Etofyline and\nTheophylline\nTablets)",
+        "B. No.: A2-447,\nMfg dt: 04/2016,\nExp dt: 03/2019,\nMfd by: M/s. Anchor Pharma\nPvt. Ltd., Plot No: B-6,\nO.I.D.C. Ringanwada, Daman-\n396210",
+        "Disintegration",
+        "CDSCO, Sub-\nZone,\nBangalore",
+        "CDTL,\nChennai"
+      ],
+      [
+        "18.",
+        "Paracetamol Tablets\nIP 500mg",
+        "B. No.: 621481007,\nMfg dt: 04/2016,\nExp dt: 03/2019,\nMfd by: M/s. Bengal\nChemicals & Pharmaceuticals\nLtd., 84/23, Factory Area,\nFazal Ganj, Kanpur-208012",
+        "Dissolution",
+        "CDSCO, South\nZone, Chennai",
+        "CDTL,\nChennai"
+      ]
+    ]
+  }
+]

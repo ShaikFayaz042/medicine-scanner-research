@@ -1,0 +1,1378 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      42.81,
+      132.74,
+      806.77,
+      544.11
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "B. State Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No",
+        "Product/Dr\nug Name",
+        "Batch\nNo.",
+        "Manufa\ncturing\nDate",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by State\nLaboratory"
+      ],
+      [
+        "1.",
+        "PC-WIN-\n650",
+        "VGT2316\n99C",
+        "09/23",
+        "08/25",
+        "Mfg By: Vrindavan Global Plot\nNo. 23-B & C , Ind. Area\nLodhimajra Baddi Distt. Solan\n(HP) 173205\nMrk. By: In Med Therepeutics\nPlot No. 286, Basement Part-I,\nIndustrial Area , Phase I ,\nPanchkula -134113",
+        "The sample does not\nconform to IP 2022\nwith respect to the test\nfor Dissolution",
+        "Drug Testing Laboratory\nSrinagar (J&K) - Report\nattached as Annexure A"
+      ],
+      [
+        "2.",
+        "Aceclofenac\n&\nDrotaverine\nHydrochlori\nde Tablets\n(100 mg/\n80 mg)",
+        "PRT2401\n-01",
+        "01/2024",
+        "45992",
+        "M/s. Regent Ajanta Biotech,\n86-87, Village Makhiyali Dundi,\nPeerpura Road, Roorkee-\n247667 (U.K)",
+        "Description",
+        "Karnataka"
+      ],
+      [
+        "3.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF231\n9",
+        "Dec/202\n3",
+        "46327",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Bacterial Endotoxins\nTest",
+        "Karnataka"
+      ],
+      [
+        "4.",
+        "Compound\nSodium\nLactate",
+        "03BF224\n1",
+        "45200",
+        "09/2026",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-",
+        "Test for Sterility",
+        "Karnataka"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      42.81,
+      14.37,
+      806.77,
+      528.6
+    ],
+    "n_rows": 7,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "Injection I.P\n(Ringer’s\nLactate I.P)",
+        "",
+        "",
+        "",
+        "31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF226\n0",
+        "Oct/202\n3",
+        "46266",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "6.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF231\n8",
+        "45261",
+        "46327",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Bacterial Endotoxins\nTest” and “Test for\nSterility",
+        "Karnataka"
+      ],
+      [
+        "7.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF225\n6",
+        "45200",
+        "46266",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "8.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF238\n9",
+        "45323",
+        "46388",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "9.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BP005\n7",
+        "Sep/202\n3",
+        "46235",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "10.",
+        "Compound\nSodium\nLactate\nInjection I.P",
+        "03BF232\n8",
+        "45261",
+        "46327",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur",
+        "Bacterial Endotoxin\nTest” and “Test for\nSterility",
+        "Karnataka"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      42.81,
+      14.37,
+      806.77,
+      542.43
+    ],
+    "n_rows": 7,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "(Ringer’s\nLactate I.P)",
+        "",
+        "",
+        "",
+        "HAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "",
+        ""
+      ],
+      [
+        "11.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BP006\n0",
+        "09/2023",
+        "46235",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "12.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF232\n9",
+        "45261",
+        "46327",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Bacterial Endotoxin\nTest” and “Test for\nSterility",
+        "Karnataka"
+      ],
+      [
+        "13.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF221\n0",
+        "Sep/202\n3",
+        "46235",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "14.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BP012\n0",
+        "Jan/202\n4",
+        "46357",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Test for Sterility",
+        "Karnataka"
+      ],
+      [
+        "15.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF234\n2",
+        "45261",
+        "46327",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Sterility Test”",
+        "Karnataka"
+      ],
+      [
+        "16.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF225\n4",
+        "45200",
+        "46266",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Sterility Test",
+        "Karnataka"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      42.79,
+      14.37,
+      806.79,
+      540.99
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "17.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BF236\n9",
+        "Dec/202\n3",
+        "46327",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Bacterial Endotoxin\nTest",
+        "Karnataka"
+      ],
+      [
+        "18.",
+        "Compound\nSodium\nLactate\nInjection I.P\n(Ringer’s\nLactate I.P)",
+        "03BP011\n5",
+        "45261",
+        "46327",
+        "M/s. Paschim Banga\nPharmaceuticals, (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, TIN MILE HAT, Sonapur\nHAT, PS. Chopra Dist. Uttar\nDinajpur-733214 (W.B)",
+        "Test for Sterility and\nBacterial Endotoxins\nTest",
+        "Karnataka"
+      ],
+      [
+        "19.",
+        "Aceclofenac\n,\nParacetamo\nl and\nChlorzoxazo\nne Tablets\n(Megaceclo\nMR)",
+        "AMT2407\n160",
+        "45474",
+        "46174",
+        "M/s. Marine Medicare Pvt. Ltd.,\nVill. Kulhariwala & P.O.\nMandhala, Tehsil-baddi, Distt.\nSolan (H.P) 174 103",
+        "On the received\nsample presence of\nspots observed which\nshould not be present\nAs per DCC\nGuidelines on Not Of\nStandard Quality\n(NSQ) Drugs\nApproved in 1993\n(Annexure A) Tablets\nvide serial No.(i)\nPresence of\nSpot/discoloration-\nNSQ",
+        "puducherry"
+      ],
+      [
+        "20.",
+        "Paracetamo\nl, Cetirizine\nHydrochlori\nde &\nPhenylephri\nne\nHydrochlori\nde Tablets\n(WINCOLD\nZ)",
+        "WNZT-\n3240",
+        "45231",
+        "46296",
+        "M/s Wings Biotech LLP., 43 &\n44, HPSIDC, Industrial Area,\nBaddi-173 205 (H.P)",
+        "On the received\nsample presence of\nspots were observed\nwhich should not be\npresent As per DCC\nGuidelines on Not Of\nStandard Quality\n(NSQ) Drugs\nApproved in 1993\n(Annexure A) Tablets\nvide serial No.(i)\nPresence of",
+        "puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      42.79,
+      14.37,
+      806.79,
+      540.99
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Spot/discoloration -\nNSQ",
+        ""
+      ],
+      [
+        "21.",
+        "Cefpodoxim\ne Proxetil\nTablets IP\n200 MG\n(RIZDOX-\n200)",
+        "VCT/129",
+        "45139",
+        "45839",
+        "M/s Vats Biotech Pvt Ltd,(An\nISO 9001:2015 GMP,GLP\nCertified co) Vill.Kailar, P.O.\nSaproon, Teh & Distt Solan-\n173 211 (H.P)",
+        "On the received\nsample\nDiscoloration,rough\nsurface and picking\ndefects were observed\nwhich should not be\npresent As per DCC\nGuidelines on Not Of\nStandard Quality\n(NSQ) Drugs\nApproved in 1993\n(Annexure A) Tablets\nvide serial No.(i)\nPresence of\nSpot/discoloration\n(iv)Picking and\n(vii)Rough surface. -\nNSQ",
+        "puducherry"
+      ],
+      [
+        "22.",
+        "Calcium\nCarbonate\n& Vitamin\nD3 Tablets\n(VICTOCAL\n– D3)",
+        "MDP -\n746",
+        "45536",
+        "46235",
+        "M/s. MEDINOK HEALTHCARE\nPVT LTD., R.S.No. 2/1, Plot\nNo. 87,88,89, Vazhudhavur\nMain Road, Kurumbapet,\nPuducherry – 605 009.",
+        "The sample received\nis labelled as\nCALCIUM\nCARBONATE &\nVITAMIN D3\nTABLETS, however\nCALCIUM\nCARBONATE &\nVITAMIN D3\nTABLETS is an official\nIP monograph (2022)\nhence should be\nlabelled as CALCIUM\nAND VITAMIN D3\nTABLETS IP. - Label\nissue",
+        "puducherry"
+      ],
+      [
+        "23.",
+        "Pregabalin\n(SR) &",
+        "MP -\n240724",
+        "45566",
+        "46266",
+        "M/s. Medistark Biotech Pvt.\nLtd., R.S.",
+        "The label of the\ncontainer in the drug is",
+        "puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      42.76,
+      14.37,
+      806.82,
+      539.91
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "Methylcobal\namin Tablet\n(Mecoben –\nPG)",
+        "",
+        "",
+        "",
+        "No. 68/4, 68/10, Sri\nSrinivasapuram, Agasampattu,\nVanur Tk, Tamilnadu – 605\n111.",
+        "mentioned as\n'Approved colour used'\nbut the common name\nof the permitted colour\nused in the formulation\nas prescribed under\nrule 127 (2) of the drug\nrule was not\nmentioned. -\nMisbranded",
+        ""
+      ],
+      [
+        "24.",
+        "Thiamine\nHydrochlori\nde Tablets\nIP 100mg\n(KTHAMINE\n-100)",
+        "ZRST-\n1361",
+        "45505",
+        "46023",
+        "M/s. ZRS\nPHARMACEUTICALS INDIA\nPVT LTD., Khasra No 48,\n490/3,562/489/1, Opposite\nSector-6, Tehsil Kasauli,\nParwanoo, Solan, HP-173220",
+        "(i) On the received\nsample, Presence of\nSpot defect was\nobserved which should\nnot be present as per\nDCC Guidelines on\nNot Of Standard\nQuality (NSQ) Drugs\nApproved in 1993\n(Annexure A) Tablets\nvide serial No.(i)\nPresence of\nSpot/discoloration.\n(ii)The label of the\ncontainer in the drug is\nmentioned as\n'Approved colour used'\nbut the common name\nof the permitted colour\nused in the formulation\nas prescribed under\nrule 127 (2) of the drug\nrule was not\nmentioned.\n(iii) The label claim of\nthe drug states\n'Thiamin hydrochloride\nIP 100mg' instead of '",
+        "puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      42.76,
+      14.37,
+      806.82,
+      539.91
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Thiamine\nHydrochoride IP\n100mg' but the proper\nname of the drug\nshould be written as\nprescribed under\n96(1),(i)(A) of The\nDrugs and Cosmetics\nAct.\n(iv) The label claim of\nthe received sample\nstates Thiamin\nHydrochloride IP\n100mg whereas in the\nIP monograph, The\nusual strength of the\nthiamine tablet is\nstated as 5mg, 10mg,\n50mg. Hence,the\nStrength of the sample\nreceived does not\nmatch the usual\nstrength as mentioned\nin the IP monograph.\n- NSQ",
+        ""
+      ],
+      [
+        "25.",
+        "Paracetamo\nl,\nPhenylephri\nne HCl,\nCaffeine &\nDiphenhydr\namine HCl\nTablets\n(CINKOLD)",
+        "SG034B0\n3",
+        "44958",
+        "45658",
+        "M/s. Sharun Pharmaceuticals\nPvt Ltd.,R.S. NO: 195/9 &\n197/4, Pangoor, Ariyur\nRevenue Village, Villianur,\nPuducherry-605102",
+        "NOTE:(i) On the\nreceived sample,\nPresence of Spot\ndefect was observed\nwhich should not be\npresent as per DCC\nGuidelines on Not Of\nStandard Quality\n(NSQ) Drugs\nApproved in 1993\n(Annexure A) Tablets\nvide serial No.(i)\nPresence of",
+        "puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      42.78,
+      14.37,
+      806.8,
+      540.51
+    ],
+    "n_rows": 3,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Spot/discoloration.\n(ii)The label of the\ncontainer in the drug is\nmentioned as\n'Approved colour used'\nbut the common name\nof the permitted colour\nused in the formulation\nas prescribed under\nrule 127 (2) of the drug\nrule was not\nmentioned. vel - NSQ",
+        ""
+      ],
+      [
+        "26.",
+        "BETAHISTI\nNE\nDIHYDROC\nHLORIDE\nTABLETS\nIP (Betahox-\n8)",
+        "T-18946",
+        "44958",
+        "45658",
+        "M/s Jackson Laboratories Pvt\nLtd., Plot No . 56 & 61,\nIndustrial Area, Phase- III,\nSansarpur Terrace, Distt.\nKangra (H.P)-176501",
+        "On the received\nsample presence of\nspots were observed\nwhich should not be\npresent As per DCC\nGuidelines on Not Of\nStandard Quality\n(NSQ) Drugs\nApproved in 1993\n(Annexure A) Tablets\nvide serial No.(i)\nPresence of\nSpot/discolouration. -\nNSQ",
+        "puducherry"
+      ],
+      [
+        "27.",
+        "Aceclofenac\nand\nThiocolchico\nside Tablets\n(Speronac -\nMR)",
+        "P240502",
+        "45413",
+        "46113",
+        "M/s.– Prosilio Pharmaceuticals\nPvt. Ltd., R.S.No. 35/6,\nUruvaiyar Main Road,\nUruvaiyar, Villianur Commune,\nPuducherry – 605 110.",
+        "On the received\nsample presence of\nspots were observed\nwhich should not be\npresent As per DCC\nGuidelines on Not Of\nStandard Quality\n(NSQ) Drugs\nApproved in 1993\n(Annexure A) Tablets\nvide serial No.(i)\nPresence of",
+        "puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      42.76,
+      14.37,
+      806.82,
+      539.91
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Spot/discoloration. -\nNSQ",
+        ""
+      ],
+      [
+        "28.",
+        "Clopidogrel\nTablet I.P\n75 mg\n(Maxgrel -\n75)",
+        "MDP -\n309",
+        "45444",
+        "46143",
+        "M/s. Medinok Healthcare Pvt.\nLtd., (A GMP & ISO 9001:2015\nCertified Company)\nR.S.No. 2/1, Plot No. 87,88,89,\nVazhudhavur Main Road,\nKurumbapet, Puducherry – 605\n009",
+        "(i) On the received\nsample, Presence of\nSpot and discoloration\ndefects were observed\nwhich should not be\npresent as per DCC\nGuidelines on Not Of\nStandard Quality\n(NSQ) Drugs\nApproved in 1993\n(Annexure A) Tablets\nvide serial No.(i)\nPresence of\nSpot/discoloration.\n(ii)The label of the\ncontainer in the drug is\nmentioned as\n'Approved colour used'\nbut the common name\nof the permitted colour\nused in the formulation\nas prescribed under\nrule 127 (2) of the drug\nrule was not\nmentioned.\n(iii) On the received\nsample, The name of\nthe manufacturer and\nthe address of the\npremises of the\nmanufacturer appears\nin an inconspicuous\nmanner on the label\nwhereas they should\nappear in a\nconspicuous manner",
+        "puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      42.78,
+      14.37,
+      806.8,
+      540.51
+    ],
+    "n_rows": 3,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "as prescribed under\n96 (1) (iv) of the Drugs\nand Cosmetics Act.\n(iv) On the received\nsample,the label\ndetails of the primary\npacking does not\nmatch with that of the\nsecondary packing\n(Excipients …q.s is not\nmentioned in primary\npacking)- NSQ",
+        ""
+      ],
+      [
+        "29.",
+        "Mecobalami\nn Sublingual\nTablets\n1500 mcg\n(Re- Xite\nBTX)",
+        "D240601\n9",
+        "45444",
+        "46143",
+        "M/s LINUX LIFE SCIENCES\nPVT LTD., R.S. No.241/1 &\n241/5, Kalitheerthalkuppam,\nMadagadipet Post, Mannadipet\ncommune,Puducherry- 605\n107, India.",
+        "On the received\nsample, Presence of\nSpot defect was\nobserved which should\nnot be present as per\nDCC Guidelines on\nNot Of Standard\nQuality (NSQ) Drugs\nApproved in 1993\n(Annexure A) Tablets\nvide serial No.(i)\nPresence of\nSpot/discoloration.-\nNSQ",
+        "puducherry"
+      ],
+      [
+        "30.",
+        "Amoxycillin\nTrihydrate\nCapsules\n(RIMOXIN)",
+        "RIX-040",
+        "45292",
+        "45992",
+        "M/s RIPPON LABORATORIES\nNo.44,45, Pazaniyappa Nagar,\nOthiyampet, Villianur,\nPuducherry-605 110",
+        "The sample received\nis labelled as\nAMOXYCILLIN\nTRIHYDRATE\nCAPSULES , however\nAMOXYCILLIN\nTRIHYDRATE\nCAPSULES is an\nofficial IP monograph\n(2022) hence should\nbe labelled as\nAMOXYCILLIN",
+        "puducherry"
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      42.8,
+      14.37,
+      806.78,
+      513.84
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "TRIHYDRATE\nCAPSULES IP.- Label\nissue",
+        ""
+      ],
+      [
+        "31.",
+        "Metoprolol\nSuccinate\nExtended\nRelease &\nTelmisartan\nTablets\n(Leaftel\nBeta – 25)",
+        "MP -\n231584",
+        "45352",
+        "46054",
+        "M/s. Medistark Biotech Pvt.\nLtd., R.S.No. 68/4, 68/10, Sri\nSrinivasapuram, Agasampattu,\nVanur (TK), Tamilnadu – 605\n111",
+        "The label of the\ncontainer in the drug is\nmentioned as\n'Approved colour used'\nbut the common name\nof the permitted colour\nused in the formulation\nas prescribed under\nrule 127 (2) of the drug\nrule was not\nmentioned. -\nMisbranded",
+        "puducherry"
+      ],
+      [
+        "32.",
+        "Lucos-LM\nkid\nsuspension",
+        "AMS2341\n6",
+        "12/2023",
+        "11/2025",
+        "Alop Med-Sciences Pvt Ltd,\nShamti, Solan-173212.H.P",
+        "Sample does not\nconform to Label claim\nwith respect to the\ncontent of\nLevocetirizine\nHydrochloride and\nMontelukast in\nMontelukast Sodium.",
+        "Drugs Testing\nLaboratory,\nChennai - 6"
+      ],
+      [
+        "33.",
+        "Spironolacto\nne Tablets\nIP",
+        "T-\n2403993",
+        "03/2024",
+        "02/2026",
+        "Oscar Remedies Pvt. Ltd,\nOscar House, Badi Majra,\nYamuna Nagar(HR) - 135001",
+        "Sample does not\nconform to IP\nspecification for\nSpironolactone\nTablets with respect to\nDissolution",
+        "Drugs Testing\nLaboratory,\nChennai - 6"
+      ],
+      [
+        "34.",
+        "Nozal\nCream",
+        "3447",
+        "03/2024",
+        "02/2026",
+        "Olcare Laboratories, 505/A,\nG.I,D.C, Estate, Wadhwancity-\n363035. Dist. Surendranagar-\n(GUJ)",
+        "Sample does not\nconform to BP\nSpecification for\nKetoconazole Cream\nwith respect to the\ncontent of\nKetoconazole.",
+        "Drugs Testing\nLaboratory,\nChennai - 6"
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      42.81,
+      14.37,
+      806.77,
+      542.43
+    ],
+    "n_rows": 7,
+    "n_cols": 8,
+    "rows": [
+      [
+        "35.",
+        "Gentamicin\nInjection IP-\n2ml",
+        "24BUE74",
+        "05/2024",
+        "04/2026",
+        "SVP Life Sciences, C/10-1,\nSara Industrial Estate, Selequi,\nDehradun",
+        "Sample does not\nconform to the\nrequirement for PH.",
+        "King Institute of\nPreventive Medicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "36.",
+        "Sucralfate\nand\nOxetacain\nSuspension",
+        "SEL2401",
+        "01/2024",
+        "12/2025",
+        "CU-V-Kar Genetic Medicines\nPvt Ltd, 14, Pharmacity,\nSelaqui, Distt. Dehradun,\nUttarakhand-248011.",
+        "Sample does not\nconform to Label claim\nwith respect to content\nof Oxetacaine.",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "37.",
+        "Aspirin\nTablets",
+        "TAS2301\n0AL",
+        "10/2023",
+        "09/2025",
+        "Hindustan Laboratories\nLimited, Plot No, 5-9, Survey\nNO.38/2, Aliyali, Palghar (W),\nDist. Palghar 4041404(MS)",
+        "Sample does not\nconform to IP\nSpecification for\nAspirin Tablets with\nrespect to the content\nof Aspirin.",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "38.",
+        "Nozal",
+        "4246",
+        "10/2024",
+        "09/2026",
+        "Olcare Laboratories, 505/A,\nG.I,D.C, Estate, Wadhwancity-\n363035. Dist. Surendranagar-\n(GUJ)",
+        "Sample does not\nconform to BP\nSpecification for\nKetoconazole cream\nwith respect to the\ncontent of\nKetoconazole",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ],
+      [
+        "39.",
+        "Amoxycillin\nDispersible\nTablets IP\n125 mg",
+        "PGA24-\n001",
+        "01/2024",
+        "12/2025",
+        "Pondchy Pharmaceuticals,\nR.S.No.218/4, 218/5,\nOdiaampet, Manaveli Road,\nVillianur Commune,\nPuducherry, 605110.",
+        "Sample does not\nconform to IP\nSpecification for\nDispersible Tablets\nwith respect to\nuniformity of\nDispersion and\nDisintegration",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ],
+      [
+        "40.",
+        "Povinanz\nGargle",
+        "ES40030",
+        "03/2024",
+        "02/2026",
+        "Nanz med Science Pharma Pvt\nLtd, Rampur Ghat, Paonta\nSahib, District Sirmour (H.P)\nIndia - 173 025",
+        "sample does not\nconform to label with\nrespect to the content\nof available iodine in\npovidone-iodine",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ],
+      [
+        "41.",
+        "Amoxycillin\nDispersible\nTablets IP\n125 mg",
+        "PGA24-\n006",
+        "08/2024",
+        "07/2026",
+        "Pondchy Pharmaceuticals,\nR.S.No.218/4, 218/5,\nOdiaampet, Manaveli Road,",
+        "Sample does not\nconform to IP\nSpecification for\nDispersible Tablets",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ]
+    ]
+  },
+  {
+    "page": 13,
+    "bbox": [
+      42.81,
+      14.37,
+      806.77,
+      528.12
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Villianur Commune,\nPuducherry, 605110.",
+        "with respect to\nuniformity of\nDispersion and\nDisintegration",
+        ""
+      ],
+      [
+        "42.",
+        "Ttocin\nOintment,\nMupirocin\nwith Tea\nTree Oil\nOintment",
+        "MVO-070",
+        "10/2024",
+        "09/2026",
+        "Bonn Schetering Bio Sciences,\nPlot No.64 & 65, 1st Floor,\nElectronic park, Thirubuvanai,\nMannadipet Commune,\nPuducherry, 605107.",
+        "Sample does not\nconform to label claim\nwith respect to the\ncontent of mupirocin.",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ],
+      [
+        "43.",
+        "Flumethrin\n1% Porur-\nOn Solution",
+        "EE-\n240906",
+        "09/2024",
+        "08/2026",
+        "Ethicare Laboratories, 15,\nIndustrial Estate, Digiana,\nJammu-180010",
+        "Sample does not\nconform to Lablel\nClaim with respect to\nthe content of\nFlumethrin.",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "44.",
+        "Sucnol-O\nSuspension",
+        "SCI-2305",
+        "11/2023",
+        "10/2025",
+        "Apple Formulations Pvt Ltd,\nPlot No.208, Kidhsnpur,\nRoorkee-247667(U.K)",
+        "Sample does not\nconform to Label\nClaim with respect to\nthe content of\nOxetacaine",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "45.",
+        "Betamethas\none\nValerate\nOintment IP\n0.1% w/w",
+        "B76",
+        "08/2024",
+        "07/2026",
+        "Syndicate Pharma, 185/B,\n185/B-1, 187/A & 188, sector -\nF, Sanwer Road, Indore-\n452015.",
+        "Sample does not\nconform to IP\nSpecification for\nBetamethasone\nValerate Ointment with\nrespect to the content\nof Betamethasone in\nBetamethasone\nValerate.",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ],
+      [
+        "46.",
+        "Co-\nTrimoxazole\nTablets IP\n480mg",
+        "MT402",
+        "01/2024",
+        "12/2026",
+        "Maxwell Lifescience Pvt Ltd, T-\n53 & T-81, M.I.D.C, Tarapur,\nBoisar, Dist, Palghar, 401506.",
+        "Sample does not\nconform to IP\nSpecification for Co-\nTrimoxazole Tablets\nwith respect to\nDissolution for\nTrimethoprim and\nSulphamethoxazole",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "bbox": [
+      42.82,
+      14.37,
+      806.76,
+      543.51
+    ],
+    "n_rows": 9,
+    "n_cols": 8,
+    "rows": [
+      [
+        "47.",
+        "N-Clin Gel",
+        "M030",
+        "07/2024",
+        "06/2026",
+        "Elegant Cosmed Pvt Ltd, Plot\nNo.32&33, G.I.D.C, Rajkot,\nGujarat, Kuvadva - 360023",
+        "Sample does not\nconform to label claim\nwith respect to the\ncontent Clindamycin in\nClindamycin\nPhosphate",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ],
+      [
+        "48.",
+        "Gentamicin\nInjection IP-\n2ml",
+        "24BUF83",
+        "06/2024",
+        "05/2026",
+        "SVP Life science, C/10-1, Sara\nindustrial Estate, Selequri,\nDehradun",
+        "sample does not\nConform to the\nrequirement for PH",
+        "King Institute of\nPreventive Medicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "49.",
+        "Gentamicin\nInjection IP-\n2ml",
+        "HLI620F",
+        "06/2024",
+        "05/2026",
+        "Himalaya Meditek Private Ltd,\nPlot.No 35&36 Pharmacity,\nSelaquri Industrial Ara,\nDehradun - 248 197",
+        "sample does not\nConform to the\nrequirement for PH",
+        "King Institute of\nPreventive Medicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "50.",
+        "Gentamicin\nInjection IP-\n2ml",
+        "HLI615F",
+        "06/2024",
+        "05/2026",
+        "Himalaya Meditek Private Ltd,\nPlot.No 35&36 Pharmacity,\nSelaquri Industrial Ara,\nDehradun - 248 197",
+        "sample does not\nConform to the\nrequirement for PH",
+        "King Institute of\nPreventive Medicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "51.",
+        "Gentamicin\nInjection IP-\n2ml",
+        "HLI623F",
+        "06/2024",
+        "05/2026",
+        "Himalaya Meditek Private Ltd,\nPlot.No 35&36 Pharmacity,\nSelaquri Industrial Ara,\nDehradun - 248 197",
+        "sample does not\nConform to the\nrequirement for PH",
+        "King Institute of\nPreventive Medicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "52.",
+        "Gentamicin\nInjection IP-\n2ml",
+        "23BUH50",
+        "08/2023",
+        "07/2025",
+        "SVP Life science, C/10-1, Sara\nindustrial Estate, Selequri,\nDehradun",
+        "sample does not\nConform to the\nrequirement for PH",
+        "King Institute of\nPreventive Medicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "53.",
+        "Gentamicin\nInjection IP-\n2ml",
+        "HLI628F",
+        "06/2024",
+        "05/2026",
+        "Himalaya Meditek Private Ltd,\nPlot.No 35&36 Pharmacity,\nSelaquri Industrial Ara,\nDehradun - 248 197",
+        "sample does not\nConform to the\nrequirement for PH",
+        "King Institute of\nPreventive Medicine &\nResearch, Guindy,\nChennai-32"
+      ],
+      [
+        "54.",
+        "Ketoya\nSoap",
+        "MO26",
+        "08/2024",
+        "07/2026",
+        "Elegant Cosmed Pvt Ltd, Plot\nNo.32&33, G.I.D.C, Rajkot,\nKuvadva - 360023,Gujarat,",
+        "sample does not\nconform to label claim\nwith respect to the\ncontent of\nKetoconazole",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ],
+      [
+        "55.",
+        "Betamethas\none\nValerate",
+        "BO6",
+        "05/2024",
+        "04/2026",
+        "Syndicate Pharma, 185/B,\n185/B-1, 187/A & 188, sector -",
+        "Sample does not\nconform to IP\nspecification for",
+        "Drugs Testing\nLaboratory,\nchennai - 6"
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "bbox": [
+      42.81,
+      14.37,
+      806.77,
+      514.32
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "Oilment IP\n0.1% w/w",
+        "",
+        "",
+        "",
+        "F, Sanwer Road, Indore-\n452015.",
+        "Betamethasone\nValerate Ointment with\nrespect to the content\nof Betamethasone in\nBetamethasone\nValerate.",
+        ""
+      ],
+      [
+        "56.",
+        "Mupirocin\nOintment IP",
+        "SO-033",
+        "03/2024",
+        "02/2026",
+        "SB Lifesciences pvt ltd, At.Plot\nNo.45, EPIP, Phase-I,\nJharmajri Baddi, Dist Solan\n(HP)-173205",
+        "Sample does not\nconform to IP\nspecification for\nMupirocin Ointment\nwith respect to the\ncontent of Mupirocin",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "57.",
+        "Mupirocin\nOintment IP",
+        "ME-41",
+        "02/2024",
+        "01/2026",
+        "Maxwell pharma, Plot No.6&7,\nSector-5, Parwanoo, Solan,\nH.P PIN-173220, India",
+        "Sample does not\nconform to IP\nspecification for\nMupirocin Ointment\nwith respect to\nidentification and\ncontent of mupirocin",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "58.",
+        "Lukus",
+        "G198",
+        "06/2024",
+        "05/2026",
+        "INDKUS Biotech India, Vill\nmanuja rampur jattan,\nMoginand, Kala amb,\nSist.sirmour (HP) - 173001",
+        "Sample does not\nconform to IP\nspecification for\nLuliconazole Cream\nwith respect to the\ncontent of\nLuliconazole",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "59.",
+        "Coscopin\nCold Plus",
+        "CSP2300\n1",
+        "06/2023",
+        "05/2025",
+        "Windlas Biotech Limited (Plant-\n2) Khasra No.141 to 143 &\n145, Mohabewala, Indl. Area,\nDehradun-248110.\nUttarakhand.",
+        "Sample does not\nconform to Label claim\nwith respect to the\ncontent of\nPhenylephrine\nHydrochloride",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "60.",
+        "Mobicool\nTM-S\nSuspenion",
+        "RL-\n231203",
+        "02/2024",
+        "01/2026",
+        "Rednex pharmaceuticals,LS\nNo-142, NR, HBS,\nChancharvadi Vasna, Ta:\nsanand Di: Ahmedabad",
+        "Sample does not\nconform to Label claim\nwith respect to content\nOxetacaine",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ]
+    ]
+  },
+  {
+    "page": 16,
+    "bbox": [
+      42.8,
+      14.37,
+      806.78,
+      541.47
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "61.",
+        "Mupirocin\nOintment IP\n2% w/w",
+        "NO33015\n6",
+        "11/2023",
+        "10/2025",
+        "Nanz med Science Pharma Pvt\nLtd, Rampur Ghat, Paonta\nSahib, District Sirmour (H.P)\nIndia - 173 025",
+        "Sample does not\nconform to IP\nspecification for\nMupirocin Ointment\nwith respect to the\ncontent of mupirocin",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "62.",
+        "Luliconazole\nCream IP\n1% w/w",
+        "2946",
+        "05/2024",
+        "04/2026",
+        "Regent Ajanta Biotech, 86-87,\nVillage Makhiyali Dundi,\nPeerpura Road, Roorkee -\n247667 (UK)",
+        "sample does not\nConform to IP\nSpecification for\nLuliconazole Cream\nwith respect to the PH\nof 10% w/v solution.",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "63.",
+        "Cefixime &\nLactic Acid\nBacillus\nDispersible\nTablets",
+        "MLS-\n24506",
+        "07/2024",
+        "06/2026",
+        "Maskon Life sciences pvt ltd,\nKh.No.69/70, Khatakheri,\nBhagwanpur, Roorkee 247667\n(UK) India",
+        "Sample does not\nconform to label claim\nwith respect to the\ncontent of Anhydrous\nCefixime in Cefixime\nTrihydrate",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "64.",
+        "VIP Hair\nColour\nShampoo",
+        "B107C",
+        "06/2024",
+        "05/2026",
+        "VIMAC, #18/C. Noombal\nVillage, SF.No.125/1A, 1B,\nAmbattur, Taluk, Tiruvallur\nDistrict, Chennai-600077.",
+        "Sample does not\nconform to BIS\nspecification for\noxidation hair dye with\nrespect to the content\nof phenyl methyl\npyrazolone and\nResorcinol",
+        "Drugs Testing\nLaboratory,\nChennai - 6"
+      ],
+      [
+        "65.",
+        "B&B Beaute\nBlanc Hair\nColour\nConditioner\nNatural\nBlack",
+        "2201202\n4",
+        "22.01.2\n024",
+        "21.01.2\n027",
+        "Gabt Co Ltd, Guanzhou,\nChina.",
+        "The sample is found to\ncontain m-\nphenylenediamine\nwhich must not form\npart of the conposition\nof cosmetics products\nas per BIS\nspecification 4707\n(Part 2): 2017, under\nAnnex A (clauses 1,2\nand 3.1), serial\nNo.1198.",
+        "Drugs Testing\nLaboratory,\nChennai - 6"
+      ]
+    ]
+  },
+  {
+    "page": 17,
+    "bbox": [
+      42.81,
+      14.37,
+      806.77,
+      541.95
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "66.",
+        "Nyomi Fruit\nVinegar\nBlack Hair\nGel Colour",
+        "2024071\n2",
+        "12.07.2\n024",
+        "11.07.2\n027",
+        "Guangzhou Aocai Bio-\nTechnology Co. Ltd, Address.\nBuilding D.No.10, Shi\nLonggang Industry, Chang\nYaoling Village, Zhong Luotan\nTown, Guangzhou, China.",
+        "Sample does not\nconform to BIS\nSpecification for\nOxidation Hair dye\nwith respect to the\ncontent of Phenyl\nMethyl Pyrazole.",
+        "Drugs Testing\nLaboratory,\nChennai - 6"
+      ],
+      [
+        "67.",
+        "Xputum-LS\nSyrup",
+        "24-XLS-\n010",
+        "02/2024",
+        "07/2025",
+        "Stedman Pharmaceuticals Pvt\nLtd, C-4, SIDCO\nPharmaceuticals Complex,\nAlathur, Thiruporur-603 110,\nTamilnadu.",
+        "Sample does not\nconform to Label\nClaim With respect to\ncontent of\nLevosalbutamol in\nLevosalbutamol\nSulphate.",
+        "Drugs Testing\nLaboratory,\nMadurai -19."
+      ],
+      [
+        "68.",
+        "Podine-M",
+        "PM 04",
+        "04/2024",
+        "03/2026",
+        "Karlin Pharmaceuticals &\nExports Private Limited,\nNo.2/140, Indira Nagar,\nValasaravakkam, Chennai -\n600087",
+        "sample does not\nconform to label claim\nwith respect to the\ncontent of available\niodine in povidone\niodine",
+        "Drugs Testing\nLaboratory,\nChennai - 6"
+      ],
+      [
+        "69.",
+        "Mupirocin\nOintment IP",
+        "DC2437",
+        "03/2024",
+        "08/2025",
+        "Arius Formulation Private\nLimited, R.S.No.141/1, Groud\nfloor, Navarkulam Main Road,\nPattanur, Tamilnadu - 605101",
+        "Sample does not\nconform to IP\nSpecification for\nMupirocin Ointment\nwith respect to the\ncontent of Mupirocin",
+        "Drugs Testing\nLaboratory,\nMadurai-19"
+      ],
+      [
+        "70.",
+        "Cumox 500",
+        "FDCX-\n076",
+        "10/2024",
+        "09/2026",
+        "Firstmed Therapeuticals pvt ltd,\nR.S.No.31/1, Pondy-\nTindivanam Main Road,\nAuroville (PO),\nThiruchitrambalam, Tamilnadu\n- 605 101",
+        "Sample does not\nconform to IP\nspecification for\nAmoxycillin capsules\nwith respect to\nUniformity of Weight\nand to the content of\nAmoxycillin in\nAmoxycillin Trihydrate.",
+        "Drugs Testing\nLaboratory,\nChennai - 6"
+      ],
+      [
+        "71.",
+        "Norfloxacin\nTablets IP\n400mg",
+        "RNFT-\n017",
+        "10/2024\n.",
+        "09/2026\n.",
+        "Mfg By: Revat Laboratories\nPvt.Ltd., 12-321, Opp. I.D.A,\nKurnool Road, Pernamitta,",
+        "NOT OF STANDARD\nQUALITY\nDissolution test does",
+        "State Lab,\nDrugs Control"
+      ]
+    ]
+  },
+  {
+    "page": 18,
+    "bbox": [
+      42.8,
+      14.37,
+      806.78,
+      541.47
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Ongole - 523 002 Andhra\nPradesh.",
+        "not complies for\nNorfloxacin Tablets IP\nat S2 Level as per IP\n2022.",
+        "Laboratory,\nTelangana."
+      ],
+      [
+        "72.",
+        "Cefpodoxim\ne &\nPotassium\nClavulanate\nTablets",
+        "BPT-\n3003",
+        "02/2024\n.",
+        "01/2026\n.",
+        "Mfg By: Geenac Pharma Plot\nNo: 582, Raipur, Bhagwanpur,\nRoorkee, Uttarakhand-247667.\nUttarakhand.\n.\nMrkt: Wellnow Healthcare\nKanal Industrial Estate, Road\nNo. 6, Borivali East, Mumbai -\n400 066.",
+        "NOT OF STANDARD\nQUALITY\nThe sample does not\nmeets the\nSpecifications wrt.\nIdentification test -\nand Assay - for\nCefpodoxime and\nClavulanic Acid as per\nSTP. U/S. 17 B of\nDrugs and Cosmetics\nAct 1940. The Sample\nis deemed to be\nSpurious Drug.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "73.",
+        "Norfloxacin\nTablets IP\n400mg",
+        "RNFT-\n014",
+        "12/2023\n.",
+        "11/2025\n.",
+        "Mfg By: Revat Laboratories\nPvt.Ltd., 12-321, Opp. I.D.A,\nKurnool Road, Pernamitta,\nOngole - 523 002 Andhra\nPradesh.",
+        "NOT OF STANDARD\nQUALITY\nDissolution test does\nnot complies for\nNorfloxacin Tablets IP\nat S2 level as per IP\n2022.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "74.",
+        "Parenteral\npreparations\n, Piperacillin\n&\nTazobactam\nInjection I.P.\n4.5 gm",
+        "24PT41",
+        "11/2024\n.",
+        "10/2026\n.",
+        "Mfg By: Sai parenterals limited\nD1&D4, Survey no. 280, Phase\n- V Survey No. 280, Phase - V,\nIDA, Jeedimetla, Hyderabad -\n500055, Telangana, India\nTelangana.",
+        "NOT OF STANDARD\nQUALITY\nTest for sterility does\nnot complies as per IP\nfor the sample\nPiperacillin and\nTazobactam injection\nIP 4.5 gm",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "75.",
+        "Retibak\n(0.2%\nRetinol)\nFace Serum",
+        "AHO2400\n48",
+        "23-07-\n2024.",
+        "06/2026\n.",
+        "Mfg By: M/s. Aarohee\nhealthcare Private Ltd, Sy.No.\n751 & 757 Burgula (V), Farooq\nNagar (M), Rangareddy\nDistrict.",
+        "NOT OF STANDARD\nQUALITY\nSample does not\nmeets the\nspecifications wrt. to",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ]
+    ]
+  },
+  {
+    "page": 19,
+    "bbox": [
+      42.79,
+      14.37,
+      806.79,
+      540.99
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Manufactured for : M/s. Origo\ncosmeceuticals Pvt.Ltd.,\n.\nMarketed By: Cosmonova\nMedicare Pvt. Ltd., No.\n18/5(A), 1st main S.R. Nagar,\nRichmond Road, Bangalore -\n560 027.",
+        "identification test for\nRetinol as per STP.",
+        ""
+      ],
+      [
+        "76.",
+        "Pantoprazol\ne tablets IP",
+        "P03524",
+        "09/2024\n.",
+        "08/2026\n.",
+        "Mfg By: Spansules\nformulations India Pvt.Ltd, Sy\nNO.172, Plot No. 154/A4, IDA\nbollaram village Jinnaram\nmandal, Sangareddy dist,\nHyderabad - 502 325,\nTelangana.",
+        "NOT OF STANDARD\nQUALITY\nAssay and Dissolution\ntest does not complies\nfor Pantoprazole\ntablets as per IP\n2022.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "77.",
+        "Kaltfer\nDrops\nIron(III)-\nHydroxide\nPolymaltose\nComplex\nDrops.",
+        "EHL-\n3532",
+        "07/2024\n.",
+        "12/2025\n.",
+        "Mfg By: M/s. Exotic Healthcare\nPlot No. 1305, Sector - 82,\nJLPL, Mohali, SAS Nagar,\nPunjab.\n.\nMrkt: M/s. Curezen Pharma\nPvt. Ltd, Pharmaceuticals No.\n2/A/GF/FF/SF, Ground floor,\nVijaynagar colony,\nSecunderabad, Hyd - 500025.",
+        "NOT OF STANDARD\nQUALITY\nThe sample Does not\nmeets the\nSpecifications wrt.\nIdentification Test -\nNegative, Assay - Nil\nas per STP. U/S. 17 B\nof Drugs and\nCosmetics Act 1940.\nThe Sample deemed\nto be Spurious Drug.",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ],
+      [
+        "78.",
+        "Ondansetro\nn orally\ndisintegratin\ng tablets IP\n4 mg",
+        "T-15842",
+        "12/2023\n.",
+        "11/2025\n.",
+        "Mfg By: Karnani\nPharmaceuticals Pvt.Ltd,\nfact:38 Pharma city, Selaqui\nDehradun - 248 011.\nUttarakhand.",
+        "NOT OF STANDARD\nQUALITY\nWhile opening the\nstrip, it is found that\nthe tablets are not in\nintact condition.\nReceived 50 tablets,\nout of 50 tablets, 40\ntablets are not in\nintact condition. Hence\nsample is of Not of",
+        "State Lab,\nDrugs Control\nLaboratory,\nTelangana."
+      ]
+    ]
+  },
+  {
+    "page": 20,
+    "bbox": [
+      42.81,
+      14.37,
+      806.77,
+      542.91
+    ],
+    "n_rows": 8,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Standard Quality with\nrespect to Description\ntest parameter.",
+        ""
+      ],
+      [
+        "79.",
+        "TELMA AM",
+        "5240367",
+        "45352",
+        "46419",
+        "M/s. Glenmark\nPharmaceuticals Ltd., Solan\nH.P.",
+        "Does not confirm to\nI.P.",
+        "State Drugs Testing\nLaboratory, Kolkata,\nWest Bengal."
+      ],
+      [
+        "80.",
+        "CLAVPARK\n-LB 625mg\n(Amoxycillin\n, Potassium\nClavulanate\n& Lactic\nAcid\nBacillus\nTab)",
+        "CHTJ426\n0",
+        "45566",
+        "46266",
+        "M/s. Park Pharmaceuticals,\nVill. Kalujhanda, Solan, H.P",
+        "Does not confirm to\nclaim",
+        "State Drugs Testing\nLaboratory, Kolkata,\nWest Bengal."
+      ],
+      [
+        "81.",
+        "Cetirizine\nSyrup IP",
+        "CE3010",
+        "09/23",
+        "08/25",
+        "Kerala State Drugs and\nPharmaceuticals Limited,\nKalavoor .P.O, Alappuzha -688\n522",
+        "It fails the test ‘Assay’\nas per IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "82.",
+        "Paradolo\n500\n[Paracetam\nol Tab IP\n500 mg]",
+        "AGT4055\n4",
+        "05/24",
+        "04/27",
+        "Alventa Pharma Ltd, Vill,\nKishanpura, Baddi-Nalagarh\nRoad, Tehsil, Baddi, Distt.\nSolan (HP) 174 101",
+        "It fails the test\n‘Dissolution’ as per IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "83.",
+        "Cetirizine\nSyrup IP",
+        "CE 3008",
+        "09/23",
+        "08/25",
+        "Kerala State Drugs and\nPharmaceuticals Limited,\nKalavoor .P.O, Alappuzha -688\n522",
+        "It fails the test Assay\nand content of\npackaged dosage\nforms specified in the\nlaboratory protocol as\nper IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "84.",
+        "Ondem-4\n[Ondansetro\nn Tablets\nIP]",
+        "2444145\n1",
+        "04/24",
+        "03/26",
+        "Alkem Health Science, Unit -2,\nSamardung, Karek Block, P.O\nNamthang District Namchi,\nSikkim – 737 137",
+        "It fails the test\ndissolution specified in\nthe Laboratory\nProtocol as per IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "85.",
+        "Liquid\nParaffin IP\n400 ml",
+        "HP\n24002",
+        "07/24",
+        "06/26",
+        "Multicure Pharma Private\nLimited,Factory 14 A, IAD,\nYadadri Bhongir- 508 116,\nHyderabad",
+        "It fails the tests\n‘Weight per ml and\n‘Light Absortion’ as per\nIP",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ]
+    ]
+  },
+  {
+    "page": 21,
+    "bbox": [
+      42.81,
+      14.37,
+      806.77,
+      528.12
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "86.",
+        "Cetirizine\nSyrup IP",
+        "CE4019",
+        "05/24",
+        "04/26",
+        "Kerala State Drugs and\nPharmaceuticals Limited,\nKalavoor .P.O, Alappuzha -688\n522",
+        "It fails the tests\nMicrobial\ncontamination in non-\nsterile products as per\nIP",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "87.",
+        "Tuclav -CV\n625[\nAmoxycillin\nand\nPotassium\nClavulanate\nTab IP",
+        "MYRTAB\n-618",
+        "08/24",
+        "01/26",
+        "Mayer Lab, Chambaghat,\nAdjacent to Railway Crossing,\nDistrict Solan (HP)- 173 213",
+        "It fails the test\nDissolution and Assay\nas per IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "88.",
+        "Losartan\nPotassium\nTab IP 25\nmg",
+        "D\n2615/24-\n25",
+        "",
+        "",
+        "Kerala Medical Services\nCorporation Ltd, Thycaud P.O,\nThiruvananthapuram-14",
+        "It fails the ‘Descriptive\nPart’ for the tablets as\nper IP , tablets should\nhave sufficient\nhardness for handling\nwithout crumbling and\nbreaking",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "89.",
+        "Fexofenadin\ne\nHydrochlori\nde Tab IP\n180 mg\n[Fexodil-\n180]",
+        "T 3105",
+        "10/24",
+        "09/26",
+        "Jackson Laboratories Pvt Ltd,\n22-24, Majitha Road, Byepass,\nAmritsar -143 001",
+        "It fails the test\n‘Dissolution’ as per IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "90.",
+        "Glimepiride\nTablet IP 1\nmg",
+        "D2505/24\n-25",
+        "",
+        "",
+        "Kerala Medical Services\nCorporation Ltd, Thycaud P.O,\nThiruvananthapuram-14",
+        "It fails the test\ndissolution and\n‘Descriptive Part’\nspecified in the\nLaboratory Protocol as\nper IP",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "91.",
+        "Vitamin B\nComplex\nTablets NFI",
+        "S0016/24\n-25",
+        "",
+        "",
+        "Kerala Medical Services\nCorporation Ltd, Thycaud P.O,\nThiruvananthapuram-14",
+        "The sample does not\nconform to IP\nstandards with respect\nto ‘Descriptive Part’ for\ntablets.",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ]
+    ]
+  },
+  {
+    "page": 22,
+    "bbox": [
+      42.84,
+      14.4,
+      806.74,
+      153.5
+    ],
+    "n_rows": 2,
+    "n_cols": 8,
+    "rows": [
+      [
+        "92.",
+        "Glimepiride\nTablet IP 1\nmg",
+        "D2721/24\n-25",
+        "",
+        "",
+        "Kerala Medical Services\nCorporation Ltd, Thycaud P.O,\nThiruvananthapuram-14",
+        "The sample does not\nconform to IP\nstandards with respect\nto ‘Descriptive Part’ for\ntablets.",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ],
+      [
+        "93.",
+        "Glimepiride\nTablet IP",
+        "D2854/24\n-25",
+        "",
+        "",
+        "Kerala Medical Services\nCorporation Ltd, Thycaud P.O,\nThiruvananthapuram-14",
+        "The sample does not\nconform to IP\nstandards with respect\nto ‘Descriptive Part’ for\ntablets.",
+        "Drugs Testing\nLaboratory\nThiruvananthapuram"
+      ]
+    ]
+  }
+]

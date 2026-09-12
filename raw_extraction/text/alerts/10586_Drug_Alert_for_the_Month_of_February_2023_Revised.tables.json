@@ -1,0 +1,39 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      72.36,
+      111.86,
+      811.08,
+      274.36
+    ],
+    "n_rows": 2,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.No",
+        "Name of\nDrugs/medica\nl\ndevice/cosme\ntics",
+        "Batch No.",
+        "Date of\nManufa\ncture",
+        "Date of\nExpiry",
+        "Manufacture\nd By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From",
+        "Remarks"
+      ],
+      [
+        "34.",
+        "Montek LC\n(Montelukast\nSodium and\nLevocetirizine\nHydrochloride\nTablets IP)",
+        "B. No.:\nSIC3283A",
+        "Mfg dt:\n12/2021",
+        "Exp dt:\n05/2024",
+        "Sun Pharma\nLaboratories\nLtd., Plot No.\n107-108,\nNamli Block,\nP.O.\nRanipool,\nEast Sikkim\n737 135.",
+        "Identification &\nAssay of\nMontelukast\nSodium & Assay\nof Levocetirizine\nHydrochloride",
+        "CDSCO East\nZone Kolkata",
+        "CDL\nKolkata",
+        "The actual manufacturer (as per label claim) has\ninformed that the impugned batch of the product\nhas not been manufactured by them and that it\nis a spurious drug. Thus, the product is\npurported to be spurious, however, the same is\nsubject to outcome of investigation."
+      ]
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "source": "ipc_pvpi",
+  "generated_at": "2026-09-12T13:43:41+00:00",
+  "total_pdfs": 1,
+  "extracted": 1,
+  "skipped": 0,
+  "errors": 0,
+  "total_chars": 43173,
+  "total_tables": 28,
+  "files": [
+    {
+      "pdf": "List-of-Drugs-Safety-Alerts-issued-by-PvPI-from-March-2016-to-till-date---27.07.2026.pdf",
+      "status": "ok",
+      "pages": 28,
+      "chars": 43173,
+      "tables": 28,
+      "txt": "ipc_pvpi\\List-of-Drugs-Safety-Alerts-issued-by-PvPI-from-March-2016-to-till-date---27.07.2026.txt",
+      "tables_json": "ipc_pvpi\\List-of-Drugs-Safety-Alerts-issued-by-PvPI-from-March-2016-to-till-date---27.07.2026.tables.json",
+      "extracted_at": "2026-09-12T13:42:31+00:00"
+    }
+  ]
+}

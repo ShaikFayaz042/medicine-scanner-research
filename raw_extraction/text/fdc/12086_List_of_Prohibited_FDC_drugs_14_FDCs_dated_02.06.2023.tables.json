@@ -1,0 +1,90 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      72.25,
+      72.18,
+      523.2,
+      486.97
+    ],
+    "n_rows": 15,
+    "n_cols": 3,
+    "rows": [
+      [
+        "S. No.",
+        "Drugs Name",
+        "Notification No.\n& Date"
+      ],
+      [
+        "1.",
+        "Nimesulide+ Paracetamol dispersible tablets",
+        "S.O. 2394 (E)\nDated 02.06.2023"
+      ],
+      [
+        "2.",
+        "Amoxicillin+ Bromhexine",
+        "S.O. 2395 (E)\nDated 02.06.2023"
+      ],
+      [
+        "3.",
+        "Pholcodine+ Promethazine",
+        "S.O. 2396 (E)\nDated 02.06.2023"
+      ],
+      [
+        "4.",
+        "Chlorpheniramine maleate + Dextromethorphan +\nGuaiphenesin + Ammonium Chloride + Menthol",
+        "S.O. 2397 (E)\nDated 02.06.2023"
+      ],
+      [
+        "5.",
+        "Chlopheniramine Maleate + Codeine Syrup",
+        "S.O. 2398 (E)\nDated 02.06.2023"
+      ],
+      [
+        "6.",
+        "Ammomium Chloride + Bromhexine + Dextromethorphan",
+        "S.O. 2399 (E)\nDated 02.06.2023"
+      ],
+      [
+        "7.",
+        "Bromhexine + Dextromethorphan + Ammonium Chloride +\nMentho",
+        "S.O. 2400 (E)\nDated 02.06.2023"
+      ],
+      [
+        "8.",
+        "Dextromethorphan + Chlorpheniramine + Guaiphenesin +\nAmmonium Chloride",
+        "S.O. 2401 (E)\nDated 02.06.2023"
+      ],
+      [
+        "9.",
+        "Paracetamol + Bromhexine + Phenylephrine +\nChlorpheniramine + Guaiphenesin",
+        "S.O. 2402 (E)\nDated 02.06.2023"
+      ],
+      [
+        "10.",
+        "Salbutamol + Bromhexine",
+        "S.O. 2403 (E)\nDated 02.06.2023"
+      ],
+      [
+        "11.",
+        "Chlorpheniramine + Codeine Phosphate + Menthol Syrup",
+        "S.O. 2404 (E)\nDated 02.06.2023"
+      ],
+      [
+        "12.",
+        "Phenytoin + Phenobarbitone sodium",
+        "S.O. 2405 (E)\nDated 02.06.2023"
+      ],
+      [
+        "13.",
+        "Ammonium Chloride + Sodium Citrate + Chlorpheniramine\nMaleate + Menthol (100mg + 40mg + 2.5mg + 0.9mg) ,\n(125mg + 55mg + 4mg + 1mg) , (110mg + 46mg + 3mg +\n0.9mg) & (130mg + 55mg + 3mg + 0.5mg) per 5ml syrup",
+        "S.O. 2406 (E)\nDated 02.06.2023"
+      ],
+      [
+        "14.",
+        "Salbutamol + Hydroxyethyltheophylline (Etofylline) +\nBromhexine",
+        "S.O. 2407 (E)\nDated 02.06.2023"
+      ]
+    ]
+  }
+]

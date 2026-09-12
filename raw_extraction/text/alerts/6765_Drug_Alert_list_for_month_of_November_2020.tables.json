@@ -1,0 +1,202 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.28,
+      87.18,
+      582.52,
+      167.86
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "746"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "731"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "14"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "0"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      182.03,
+      603.76,
+      674.17
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.No.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Pheniramine Maleate\nTablets I.P.",
+        "B. No.: TPNM-003\nMfg dt: 12/2018\nExp dt: 11/2020\nMfd by: M/s. Medipol\nPharmaceutical India Pvt. Ltd.,\n1199/3, Bhud, Baddi, Distt,\nSolan, Himachal Pradesh.",
+        "Description",
+        "CDSCO,\nEast Zone\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "Folic Acid Tablets I.P.",
+        "B. No.: FA-1901\nMfg dt: 08/2019,\nExp dt: 01/2021\nMfd by: M/s. HLL Lifecare\nlimited, 11A-1 & 12/C-1,\nSector-E, Industrial Area,\nSanwer road, Indore- 452015.",
+        "Hydrolysis\nProducts &\nAssay",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Levocetrizine Tablets\nI.P. 5mg",
+        "B. No.: 1911\nMfg dt: 10/2019\nExp dt: 09/2021\nMfd by: M/s. Deepin\nPharmaceuticals Pvt. Ltd.,\nVillage: Dharawara, Post:\nKalaria-453001, Tehsil:\nDepalpur (Madhya.Pradesh).",
+        "Description",
+        "CDSCO\nZonal Office\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "Glimas-1,Glimepiride\nTablets I.P. 5mg",
+        "B. No.: MT191240\nMfg dt: 08/2019\nExp dt: 07/2021\nMfd by: M/s. Mascot Health\nSeries Pvt. Ltd. Plot no. 79, 80,\nSec-6A, IIE, Sidcul, Haridwar-\n249403, Uttarakhand.",
+        "Dissolution",
+        "CDSCO\nZonal Office\nHyderabad",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      35.61,
+      603.75,
+      717.73
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "5.",
+        "Erythromycin Stearate\nTablets I.P. 250 mg",
+        "B. No.: ENT1911\nMfg dt: 12/2019\nExp dt: 11/2021\nMfd by: M/s. Modern\nLaboratories 45-47, Sector D-\n2, Sanwer Road, Indore (MP)\n452015.",
+        "Description &\nDissolution",
+        "CDSCO\nSouth Zone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "Ethyl Alcohol,\nIsopropyl Alcohol\n(Xerorub Hand\nSantizer)",
+        "B. No.: S-34520\nMfg dt: 05/2020\nExp dt: 04/2022\nMfd by: M/s. Seamac\nFormulations Pvt. Ltd. Plot No.\n35, Phase 3rd, Industrial Area,\nSansarpur Terrace, Distt.\nKangra (Himachal Pradesh) –\n176501.",
+        "Assay of\nEthyl Alcohol,\nIsopropyl\nAlcohol",
+        "Drugs\nControl\nDepartment\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "7.",
+        "Telmisartan Tablets\nI.P. (Telmimac 40 mg\nTablets)",
+        "B. No.: TC4T-027\nMfg dt: 05/2020\nExp dt: 10/2022\nMfd by: M/s. IOSIS Remedies,\nRajpura road, Village- Khera\nNihla, Tehsil-Nalagarh, District-\nSolan Himachal Pradesh-\n174101.",
+        "Dissolution",
+        "Drugs\nControl\nDepartment\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "8.",
+        "Isopropyl Rubbing\nAlcohol IP Hand\nSanitizer (Pure-hand\nZenitizer)",
+        "B. No.: SRI-331\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. Shri Ramesth\nIndustry Pvt. Ltd. Baddi\nBarotiwala Road Vill. Juddi\nKalan, P.O. & teh Baddi, Distt.\nSolan 173205 (Himachal\nPradesh).",
+        "Specific\nGravity,\nAcidity, Limit\nof non\nVolatile\nresidue and\nAssay of\nIsopropyl\nAlcohol",
+        "Drugs\nControl\nDepartment\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "9.",
+        "Paracetamol\nPaediatric oral\nSuspension IP\n(Parawin –DS\nSuspension)",
+        "B. No.: PWS-1905\nMfg dt: 12/2019\nExp dt: 11/2021\nMfd by: M/s. Apple\nFormulations Pvt. Ltd. plot No.\n208, Kishanpur, Roorkee-\n247667 (U.K.).",
+        "Related\nSubstances",
+        "CDSCO\nSub-Zone\nJammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "10.",
+        "Ranitidine Injection IP\n25mg/ml (ACILOC\nInjection)",
+        "B. No.: RP20139\nMfg dt: 06/2020\nExp dt: 05/2023\nMfd by: M/s. Cadila\nPharmaceuticals Ltd. 1389,",
+        "Particulate\nMatter",
+        "Office\nof the Dy.\nController\nJammu",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.2,
+      35.61,
+      603.76,
+      563.26
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Dholka-382225, Distt.:\nAhmedabad.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "11.",
+        "Pregabalin and\nMethylcobalamin\nCapsules I.P. (Mobil-P\nCapsules)",
+        "B. No.: C9090149C\nMfg dt: 09/2019\nExp dt: 02/2021\nMfd by: M/s. ION Healthcare\nPvt. Ltd. Baddi-Barotiwala\nRoad, Baddi, Distt. Solan\n(H.P.). 173205.",
+        "Description",
+        "Drugs\nControl\nDepartment\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "12.",
+        "Hebose-50 (Acarbose\nTablets IP 50 mg)",
+        "B. No.: MT190814\nMfg dt: 06/2019\nExp dt: 05/2021\nMfd by: M/s. Mascot health\nSeries Pvt. LTD., Plot No. 79,\n80, Sec-6A, IIE, Sidcul,\nHaridwar-249403 Uttarakhand.",
+        "Dissolution &\nAssay",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "13.",
+        "Paracetamol Tablets\nI.P. 500 mg",
+        "B. No.: 251907\nMfg dt: 06/2019\nExp dt: 05/2022\nMfd by: M/s. Goa Antibiotics &\nPharmaceuticals Ltd., Goa,\n(Subsidiary of HLL Lifecare\nLtd. A Government of India\nEnterprise), Near Tuem\nIndustrial Estate, Tuem,\nPernem- Goa- 403512.",
+        "Dissolution",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "14.",
+        "Rosloy ASP 10/75\n(Rosuvastatin &\nAspirin Capsules)",
+        "B. No.: 19ISGC040\nMfg dt: 09/2019\nExp dt: 02/2021\nMfd by: M/s. Synokem\nPharmaceuticals Ltd, Plot No.\n56-57, Sector 6 A. I.I.E.\n(SIDCUL), Ranipur (BHEL),\nHaridwar- 249403\nUttarakhand.",
+        "Assay of\nRosuvastatin",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  }
+]

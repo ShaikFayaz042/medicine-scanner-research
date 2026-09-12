@@ -1,0 +1,580 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      66.57,
+      134.06,
+      823.33,
+      536.76
+    ],
+    "n_rows": 7,
+    "n_cols": 8,
+    "rows": [
+      [
+        "A. CDSCO/Central Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No",
+        "Product/Drug Name",
+        "Batch No.",
+        "Manufactur\ning Date",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by\nCDSCO\nLaboratory"
+      ],
+      [
+        "1.",
+        "Compound Sodium Lactate\nInjection IP (Ringer Lactate\nSolution for Injection)",
+        "DCSL3021",
+        "11/2023",
+        "10/2026",
+        "M/s. Eurolife Healthcare Pvt.\nLtd., K.No-520, Bhagwanpur,\nRoorkee-247667, Uttarakhand",
+        "Particulate\nContamination,\nBacterial endotoxin\ntest, Sterility and\nDescription",
+        "CDL, Kolkata"
+      ],
+      [
+        "2.",
+        "Rabeprazole Tablets IP 20\nmg",
+        "MT-24E30",
+        "05/2024",
+        "10/2025",
+        "M/s. Martin & Brown Bio-\nSciences Pvt. Ltd. K. No.\n918/419, Malkumajra,\nNalagarh Road, Baddi, Distt.\nSolan (H.P.) 173205",
+        "Related\nSubstances,\nDissolution (Buffer\nStage) and Assay\nof Rabeprazole\nSodium",
+        "CDL, Kolkata"
+      ],
+      [
+        "3.",
+        "Haloperidol Injection IP\n(Radipace)",
+        "L2403/2",
+        "03/2024",
+        "02/2026",
+        "M/s. SBS Biotech, Mouza\nRampur Jattan, Nahan Road,\nKala Amb, District Sirmour\n(H.P.)",
+        "Particulate matter\nand Description",
+        "CDL, Kolkata"
+      ],
+      [
+        "4.",
+        "Rabeprazole Sodium\nInjection IP",
+        "MD23H10",
+        "08/2023",
+        "07/2025",
+        "M/s. Martin & Brown Bio-\nSciences K. No. 918/419,\nMalkumajra, Nalagarh Road,\nBaddi, Dist- Solan (H.P)\n173205",
+        "pH, Clarity of\nSolution,\nParticulate matter,\nRelated\nSubstances and\nAssay of\nRabeprazole\nsodium",
+        "CDL, Kolkata"
+      ],
+      [
+        "5.",
+        "Disinfectant Fluid Phenolic\nType (Konark Super\nPhenyle)",
+        "KSP-355",
+        "12/2024",
+        "05/2026",
+        "M/s. Teedeecol (India), Hari\nOm Complex, Behind Sri\nKrishna Goshala, Bangali\nPara, Jharsuguda -768201\nOdisha",
+        "Grade and\nGermicidal Value",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      66.58,
+      35.61,
+      823.32,
+      534.84
+    ],
+    "n_rows": 9,
+    "n_cols": 8,
+    "rows": [
+      [
+        "6.",
+        "Levosalbutamol Sulphate,\nAmbroxol Hydrochloride &\nGuaiphenesin Syrup,\n(Blurex-LS Syrup)",
+        "TBHX0448",
+        "05/2024",
+        "04/2026",
+        "M/s. Three B Healthcare Ltd.,\nOpp. Dental college, Rampur\nRoad, Paonta Sahib, Distt-\nSirmour (HP)-173025",
+        "Assay of Ambroxol\nHydrochloride",
+        "CDL, Kolkata"
+      ],
+      [
+        "7.",
+        "Adrenaline Bitartrate\nInjection I.P. 1ml",
+        "HIAN24005A",
+        "09/2024",
+        "08/2025",
+        "M/s. Health Biotech Ltd.\nVillage Sandoli, Nalagarh\nRoad, Baddi, Distt. Solan (HP)\n173205, India",
+        "Appearance of\nsolution, Particulate\nmatter and\nDescription",
+        "CDL, Kolkata"
+      ],
+      [
+        "8.",
+        "Aminophylline Injection I.P\n.10 ml",
+        "MA23L108",
+        "12/2023",
+        "11/2025",
+        "M/s. Martin and Brown\nBiosciences K.No-918/419,\nMalkumajra, Nalagarh Road,\nBaddi, Dist-Solan (H.P.)-\n173205",
+        "Particulate matter,\nAssay of\nEthylenediamine\nand Theophylline\nand Description",
+        "CDL, Kolkata"
+      ],
+      [
+        "9.",
+        "Bupivaaine Hydrochloride\nin Dextrose Injection USP",
+        "HIBU23010",
+        "09/2023",
+        "08/2025",
+        "M/s Health Biotech Ltd., Vill-\nSandoli, Nalagarh Road,\nBaddi, Dist- Solan, HP-173205",
+        "Particulate Matter\nin Injection and\nDescription",
+        "CDL, Kolkata"
+      ],
+      [
+        "10.",
+        "Compound Sodium Lactate\nInjection I.P. (Ringer\nLactate Solution for\nInjection ) (Hi-\nRing-RL)",
+        "F41746",
+        "11/2024",
+        "10/2027",
+        "M/s. HIGGS HEALTHCARE ,\nKhasra No-480/1, Bhatolikalan\nBaddi, H.P.",
+        "Bacterial\nendotoxins",
+        "CDL, Kolkata"
+      ],
+      [
+        "11.",
+        "Compound Sodium Lactate\nInjection I.P. (Ringer\nLactate Solution for\nInjection )\n(Hi-Ring-RL )",
+        "F41799",
+        "11/2024",
+        "10/2027",
+        "M/s. HIGGS HEALTHCARE ,\nKhasra No-480/1, Bhatolikalan\nBaddi, H.P.",
+        "Bacterial\nendotoxins",
+        "CDL, Kolkata"
+      ],
+      [
+        "12.",
+        "COMPOUND SODIUM\nLACTATE INJECTION IP\n500 ml. (Ringers Lactate\nI.P. ) (RL)",
+        "03BF2442",
+        "03/2024",
+        "02/2027",
+        "M/s.Paschim Banga\nPharmaceuticals (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, Tin Mile Hat, Sonapur Hat,\nPS-Chopra, Dist-Uttar\nDinajpur-733214 (W.B.)",
+        "Bacterial\nendotoxins",
+        "CDL, Kolkata"
+      ],
+      [
+        "13.",
+        "Ciprofloxacin Injection IP\n(0.2%w/v)",
+        "09AF0075",
+        "05/2023",
+        "04/2026",
+        "M/s.Paschim Banga\nPharmaceuticals (A Unit of\nFarista Vanijya Pvt. Ltd), NH-\n31, Tin Mile Hat, Sonapur Hat,\nP.S.-Chopra, Dist-Uttar\nDinajpur-733214 (WB)",
+        "Particulate\ncontamination",
+        "CDL, Kolkata"
+      ],
+      [
+        "14.",
+        "Carboxymethylcellulose\nSodium Eye Drops IP 10 ml",
+        "MO24H19",
+        "08/2024",
+        "07/2026",
+        "M/s. Martin & Brown Bio-\nSciences Pvt. Ltd. K. No.\n918/419 Malkumajra, Nalagarh\nRoad, Baddi, Distt. Solan (HP)\n173205",
+        "pH and Sterility",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      66.58,
+      35.61,
+      823.32,
+      546.84
+    ],
+    "n_rows": 10,
+    "n_cols": 8,
+    "rows": [
+      [
+        "15.",
+        "Drotaverine Hydrochloride\nTablets 40 mg. (Dratovis-40\n)",
+        "12680",
+        "01/2024",
+        "12/2026",
+        "M/s. Syncom Formulations\n(India) Ltd., Factory-256-257,\nSector-1, Pithampur (Dhar )-\n454775 , Madhya Pradesh\nIndia",
+        "Assay of\nDrotaverine\nHydrochloride",
+        "CDL, Kolkata"
+      ],
+      [
+        "16.",
+        "Azithromycin Oral\nSuspension I.P. (Azysafe\nLiquid-100 )",
+        "AZ1-206",
+        "10/2023",
+        "03/2025",
+        "M/s. Overseas Healthcare Pvt.\nLtd., 335KM Milestone,\nNational Highway No.1, P.O.\nBox No.-25, Phillaur-144410\n(Pb)",
+        "Uniformity of\nVolume",
+        "CDL, Kolkata"
+      ],
+      [
+        "17.",
+        "Vitamin B1, Vitamin B2,\nNicotinamide, Vitamin B6,\nVitamin B12 & Calcium D-\nPantothenate Syrup (B-\nComplex Syrup),",
+        "BOB-2423",
+        "06/2024",
+        "11/2025",
+        "M/s. Apple Formulations Pvt.\nLtd., Plot no. 208,\nKishanpur, Roorkee-247667\n(U.K.)",
+        "Assay of Calcium\nD-Pantothenate",
+        "CDL, Kolkata"
+      ],
+      [
+        "18.",
+        "Vitamin B1, Vitamin B2,\nNicotinamide, Vitamin B6,\nVitamin B12 & Calcium D-\nPantothenate Syrup (B-\nComplex Syrup)",
+        "BOB-2424",
+        "06/2024",
+        "11/2025",
+        "M/s. Apple formulations Pvt.\nLtd. Plot no. 208, Kishanpur,\nRoorkee-247667 (U.K.)",
+        "Assay of Calcium\nD-Pantothenate",
+        "CDL, Kolkata"
+      ],
+      [
+        "19.",
+        "Vitamin B1, Vitamin B2,\nNicotinamide, Vitamin B6,\nVitamin B12 & Calcium D-\nPantothenate Syrup (B-\nComplex Syrup)",
+        "BOB-2438",
+        "06/2024",
+        "11/2025",
+        "M/s. Apple formulations Pvt.\nLtd. Plot no. 208, Kishanpur,\nRoorkee-247667 (U.K.)",
+        "Assay of Vitamin\nB12",
+        "CDL, Kolkata"
+      ],
+      [
+        "20.",
+        "Phenytoin Sodium Injection\nUSP",
+        "PTS-225A",
+        "05/2024",
+        "04/2026",
+        "M/s. Pushkar Pharma, Kheri,\nKala-Amb-173030 (H.P.)",
+        "Alcohol Content\nand Propylene\nGlycol content",
+        "CDL, Kolkata"
+      ],
+      [
+        "21.",
+        "Rabeprazole Sodium\nInjection IP",
+        "MD24E30",
+        "05/2024",
+        "04/2026",
+        "M/s. MARTIN & BROWN BIO-\nSCIENCES PVT. LTD., K.No-\n918/419, Malkumajra,\nNalagarh Road, Baddi, Dist-\nSolan (H.P.)-173205",
+        "pH, Clarity of\nSolution,\nParticulate matter\nand Description",
+        "CDL, Kolkata"
+      ],
+      [
+        "22.",
+        "Polywin Vitamin B Complex\nInjection (Polywin)",
+        "MA24H16",
+        "08/2024",
+        "01/2026",
+        "M/s. MARTIN & BROWN BIO-\nSCIENCES PVT. LTD., K.No-\n918/419, Malkumajra,\nNalagarh Road, Baddi, Dist-\nSolan (H.P.)-173205",
+        "Extractable volume,\nParticulate matter,\nAssay of Riboflavin\nSodium Phosphate\nand Description",
+        "CDL, Kolkata"
+      ],
+      [
+        "23.",
+        "Sitagliptin Phoshpate\nTablets I.P. (50 mg)",
+        "MT243714",
+        "11/2024",
+        "10/2026",
+        "M/s. Mascot Health Series Pvt.\nLtd., Plot No. 79,80, Sec-6A,\nIIE, Sidcul, Haridwar 249403",
+        "Assay of Sitagliptin\nPhosphate",
+        "CDL, Kolkata"
+      ],
+      [
+        "24.",
+        "Vitamin B1, Vitamin B2,\nNicotinamide, Vitamin B6,\nVitamin B12 & Calcium D-",
+        "BOB-2452",
+        "06/2024",
+        "11/2025",
+        "M/s. Apple formulation Pvt.\nLtd., Plot no. 208, Kishanpur,\nRoorkee-247667 (U.K.)",
+        "Assay of Vitamin\nB12",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      66.58,
+      35.61,
+      823.32,
+      535.32
+    ],
+    "n_rows": 10,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "Pantothenate Syrup (B-\nComplex Syrup)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "25.",
+        "Sucralfate USP",
+        "LSU2409105",
+        "09/2024",
+        "08/2029",
+        "M/s. LEGEND INDUSTRIES,\nUnit-II, Plot No. C1/200-201/4,\nPhase-II, Opp. Encore Ltd.,\nNaroda, G.I.D.C., Ahmedabad-\n382 330",
+        "Spurious\nIdentification and\nAssay of Sucralfate",
+        "CDL, Kolkata"
+      ],
+      [
+        "26.",
+        "Wholeshield Refire\nPremium Herbal Blend\nCapsule",
+        "EAHC24021",
+        "09/2024",
+        "08/2027",
+        "M/s. Aeron Lifescience Pvt.\nLtd.D 152 & 153 Zaveri Com.\nCo.Op, Road Number 11,\nKathwada GIDC, Ahmedabad,\nGujarat 382430,",
+        "Assay",
+        "CDL, Kolkata"
+      ],
+      [
+        "27.",
+        "Wholeshield Refire\nPremium Herbal Blend\nCapsule",
+        "EAHC24020",
+        "09/2024",
+        "08/2027",
+        "M/s. Aeron Lifescience Pvt.\nLtd.,D 152 & 153 Zaveri Com.\nCo.Op, Road Number 11,\nKathwada GIDC, Ahmedabad,\nGujarat 382430",
+        "Assay",
+        "CDL, Kolkata"
+      ],
+      [
+        "28.",
+        "Co-trimoxazole Tablets I.P.\n(D.S.= Double Strength)",
+        "PT30119",
+        "05/2023",
+        "04/2025",
+        "OMEGA PHARMA,, Khasra\nNo.482, Village Saliyar,\nRoorkee-247667, Distt.\nHaridwar. (Uttarakhand)",
+        "Dissolution\n(Sulphamethoxazol\ne and\nTrimethoprim)",
+        "RDTL, Guwahati"
+      ],
+      [
+        "29.",
+        "Albendazole Tablets IP 400\nmg",
+        "LMT241138",
+        "10/2024",
+        "09/2026",
+        "Life Max Cancer Laboratories,\nPlot No. 106 & 106 A,\nSector6A, IIE, SIDCUL,\nHaridwar249403 (U.K)",
+        "\"Dissolution\" of\nAlbendazole",
+        "RDTL, Guwahati"
+      ],
+      [
+        "30.",
+        "Glimepiride Tablets I.P.\n1mg",
+        "GLI10823",
+        "05/2023",
+        "04/2025",
+        "KARNATAKA ANTIBIOTICS &\nPHARMACEUTICALS\nLIMITED, Arka The Business\nCentre, Plot No. 37, Site No.\n34/4, NTTF Main Road,\nPeenya Industrial Area, 2nd\nPhase, Bengaluru-560058,\nINDIA.",
+        "Dissolution",
+        "RDTL, Guwahati"
+      ],
+      [
+        "31.",
+        "Linezolid Tablets I.P. 600\nmg. (ALINO-600 Tablets)",
+        "VLB-GT-2500",
+        "12/2023",
+        "11/2025",
+        "Vee Laboratories,, Village\nKalier, Subathu, RoadSaproon\n(Post Office) Solan173211,\nHimachal Pradesh",
+        "Dissolution",
+        "RDTL, Guwahati"
+      ],
+      [
+        "32.",
+        "Norfloxacin Tablets I.P.\n400mg.",
+        "NFXT-1002",
+        "06/2023",
+        "05/2026",
+        "WINGS BIOTECH LLP, 43 &\n44, HPSIDC, Industrial Area,\nBaddi - 173205 (H.P.)",
+        "Dissolution",
+        "RDTL, Guwahati"
+      ],
+      [
+        "33.",
+        "Nitrofurantoin Tablets IP\n100mg",
+        "T-2485",
+        "11/2023",
+        "10/2025",
+        "Jackson Laboratories Pvt.Ltd,\n22-24, Majitha Road, Bye\nPass, Amritsar-143 001(India)",
+        "Dissolution",
+        "RDTL, Guwahati"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      66.58,
+      35.61,
+      823.32,
+      547.32
+    ],
+    "n_rows": 11,
+    "n_cols": 8,
+    "rows": [
+      [
+        "34.",
+        "Amoxycillin & Clavulanate\nPotassium for Oral\nSuspension I.P.\n3.6gm/30ml",
+        "724-37",
+        "02/2024",
+        "01/2026",
+        "M/s. ZEE LABORATORIES\nLTD, Behind 47, Industrial\nArea, Paonta Sahib-173025",
+        "Identification and\nAssay/Content of\nClavulanic Acid",
+        "RDTL, Guwahati"
+      ],
+      [
+        "35.",
+        "Telmisartan Tablets IP\n40mg (Savtel 40 Tablets)",
+        "PT-40584",
+        "02/2024",
+        "01/2026",
+        "Pharmaroots Healthcare,\nKhasra No. 411, Village Tipra,\nP.O. Barotiwala, Tehsil Baddi,\nDistt. Solan, H.P.",
+        "Dissolution",
+        "RDTL, Guwahati"
+      ],
+      [
+        "36.",
+        "Telmisartan Tablets IP\n(TELMOPI-40 Tablets)",
+        "23I-T2013",
+        "12/2023",
+        "11/2025",
+        "M/s. Orison Pharma\nInternational, Vill. Khari,\nMauza Ogli, Kala Amb, Distt.\nSirmour - 173030 (H.P.)",
+        "Dissolution",
+        "RDTL, Guwahati"
+      ],
+      [
+        "37.",
+        "Paracetamol & Diclofenac\nSodium Tablets I.P. (IG\nPyrin)",
+        "IGN-2602",
+        "05/2023",
+        "04/2026",
+        "I.G. PHARMA LTD., 12.4KM,\nMEERUT ROAD, ROORKEE,\nDIST. HARIDWAR (UK)",
+        "Dissolution of\nParacetamol &\nDiclofenac Sodium",
+        "RDTL, Guwahati"
+      ],
+      [
+        "38.",
+        "Iron Sucrose Injection USP\n100 mg/ 5 ml",
+        "23IS10",
+        "12/2023",
+        "11/2025",
+        "Sai Parenterals Limited, D1 &\nD4, Survey No. 280, Phase-V,\nIda, Jeedimetla, Hyderabad-\n500055, Telangana, India.",
+        "\"pH\", \"Alkalinity\"\nand \"Particulate\nMatter In Injection\"",
+        "CDTL-Mumbai"
+      ],
+      [
+        "39.",
+        "Linezolid IV Injection 600\nmg/ 300 ml (ABAZOLID)",
+        "A4544004",
+        "04/2024",
+        "03/2026",
+        "Abaris Healthcare Pvt. Ltd.,\nSurvey No. 1407-11, Villate :\nRajpur, Taluka : Kadi, Dist :\nMehsana- 382740.Gujarat",
+        "\"Related\nsubstances\"",
+        "CDTL-Mumbai"
+      ],
+      [
+        "40.",
+        "Bacillus clausii Spores\nSuspension (Bactogermina\nOral Suspension 2 Billion/ 5\nml)",
+        "AFL241415",
+        "10/2024",
+        "09/2026",
+        "AARMED FORMULATIONS\nPVT. LTD., Survey No.431/2,\nPlot No.1, Steel Town,\nMoraiya, Tal. Sanand, Dist.\nAhmedabad, (Gujarat)",
+        "Assay as \"Viability\"\n(Total viable count)",
+        "CDTL-Mumbai"
+      ],
+      [
+        "41.",
+        "Lignocaine Hydrochloride\nGel IP 5 % w/v (30 g)",
+        "G407",
+        "09/2024",
+        "08/2026",
+        "Gnosis Pharmaceuticals Pvt.\nLtd., Nahan Road, Village\nMoginand, Kala- Amb Distt.\nSirmour, H.P. - 173030.",
+        "\"pH\"",
+        "CDTL-Mumbai"
+      ],
+      [
+        "42.",
+        "Ferric Carboxymaltose\nInjection 500 mg/ 10 ml\n(For IV Injection / Infusion)",
+        "SVI-24171A",
+        "08/2024",
+        "07/2026",
+        "Sunvet Healthcare, Village\nShambhuwala, Paonta Road,\nDistt. Sirmour (H.P.) 173001,",
+        "\"Bacterial\nEndotoxins\",\n\"Sterility\" and\n\"Assay\"",
+        "CDTL-Mumbai"
+      ],
+      [
+        "43.",
+        "Ferric Carboxymaltose\nInjection 1 g,/ 20 ml (For IV\nInjection / Infusion)",
+        "SVI-24168B",
+        "08/2024",
+        "07/2026",
+        "Sunvet Healthcare, Village\nShambhuwala, Paonta Road,\nDistt. Sirmour (H.P.) 173001,",
+        "\"Bacterial\nEndotoxins\",\n\"Sterility\" and\n\"Assay\"",
+        "CDTL-Mumbai"
+      ],
+      [
+        "44.",
+        "Levocetirizine\nDihydrochloride Tablets IP\n5 mg (Alercet-5)",
+        "2411110",
+        "11/2024",
+        "10/2026",
+        "M/s. Brij Healthcare Pvt. Ltd,\n51/10, G.I.D.C Esatae,\nMotipura, Himatnagar -\n383001, Gujarat",
+        "Dissolution",
+        "CDTL, Indore"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      66.6,
+      35.64,
+      823.3,
+      186.74
+    ],
+    "n_rows": 3,
+    "n_cols": 8,
+    "rows": [
+      [
+        "45.",
+        "Clonazepam Tablets IP 0.5\nmg (NOZIM-0.5)",
+        "DT40078",
+        "12/2024",
+        "11/2027",
+        "M/s. Elikem Healthcare Private\nLimited, Plot/Survey No. 146,\nNear Sarbhara Beverages,\nVillage - Borisana, Tal. - Kadi,\nDist. - Mehsana - 382 715,\nGujarat, India",
+        "Dissolution",
+        "CDTL, Indore"
+      ],
+      [
+        "46.",
+        "Aceclofenac, Paracetamol\n& Serratiopeptidase Tablets\n(Acemarc-SP Tablets)",
+        "MT-306",
+        "12/2024",
+        "11/2026",
+        "M/s Maha Avtar, Health Care\nPvt. Ltd., D-22, Sector-17, Kavi\nNagar Indl.Area, GZB-201002",
+        "Uniformity of weight",
+        "RDTL, Chandigarh"
+      ],
+      [
+        "47.",
+        "Sodium Bicarbonate\nTablets\nU.S.P. 1000 mg\n(NABOSIS 1000 mg",
+        "T-2307270",
+        "07/2023",
+        "06/2025",
+        "M/s. Rivpra Formulation Pvt.\nLtd., Plot No. 8, Sector-6A, IIE\nSIDCUL, Haridwar-249 403\n(U.K.",
+        "Description",
+        "CDTL, Hyderabad"
+      ]
+    ]
+  }
+]

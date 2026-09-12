@@ -1,0 +1,254 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      31.53,
+      99.47,
+      558.15,
+      803.53
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medica\nl\ndevice/cosmet\nics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for failure\nwith Report No.\n(in Form-13)& Date",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1",
+        "Paracetamol\nSyrups",
+        "B. No. RL-276,\nD/Mfg. Apr, 2014,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Ratnamani Healthcare Pvt.\nLimited,\nSurvey No. 750/1, Ahmedabad-\nMehsana Highway, Vill-Indrad, Tal-\nKadi, 382721, Gujarat.",
+        "Misbranded\nReport No. 09881/2014-\n15\nDated\n25-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2",
+        "Rabcam-20\nTablets",
+        "B. No. RAB-078,\nD/Mfg. Nov, 2013,\nD/Exp. Oct, 2015,\nMfg. By.\nM/s Regent Ajanta Biotech,\n86-87, Vill-Makhiyali Dundi,\nPeerpura Road, Roorkee,\nUttarakhand, 247667.",
+        "Misbranded\nReport No. 09882/2014-\n15\nDated\n25-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3",
+        "Roxycept-150\nTablets",
+        "B. No. V13A-069,\nD/Mfg. Jan, 2013,\nD/Exp. Dec, 2014,\nMfg. By.\nM/s Venus Biosciences Pvt. Ltd.,\n116, Export Promotion Indl Park,\nPhase-I, Jharmajri, Baddi, Dist-Solan,\n173205, Himachal Pradesh.",
+        "Dissolution\nReport No. 09811/2014-\n15\nDated\n07-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4",
+        "Paracetamol\nTablets",
+        "B. No. 060114,\nD/Mfg. Jan, 2014,\nD/Exp. Dec, 2016,\nMfg. By.\nM/s Veejay Laboratories,\nEPIP Zone, Amingaon, Guwahati-\n781031, Assam.",
+        "Dissolution Report No.\n09832/2014-15\nDated\n14-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5",
+        "Paracetamol\nTablets",
+        "B. No. 010114,\nD/Mfg. Jan, 2014,\nD/Exp. Dec, 2016,\nMfg. By.\nM/s Veejay Laboratories,\nEPIP Zone, Amingaon, Guwahati-\n781031, Assam.",
+        "Dissolution\nReport No. 09833/2014-\n15\nDated\n14-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "6",
+        "Fenela – P\nTablet",
+        "B. No. EIG-1307,\nD/Mfg. Jul, 2013,\nD/Exp. Jun, 2015,\nMfg. By.\nM/s Everest Formulations,\nSaproon, Solan, 173211, Himachal\nPradesh.",
+        "Disintegration Report No.\n09866/2014-15\nDated\n20-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "7",
+        "Flexon Tablets",
+        "B. No. MM26K553,\nD/Mfg. Oct, 2013,\nD/Exp. Sep, 2016,\nMfg. By.\nM/s Aristo Pharmaceuticals Pvt.\nLimited,\nPlot No. 208, Dist-Raisen, Madhya\nPradesh.",
+        "Disintegration Report No.\n09867/2014-15\nDated\n20-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      31.53,
+      36.21,
+      558.15,
+      757.45
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "8",
+        "Boss-OZ\nTablets",
+        "B. No. D30145,\nD/Mfg. Apr, 2013,\nD/Exp. Mar, 2015,\nMfg. By.\nM/s Arion Healthcare.\nVill-Kishanpura, Baddi, Dist-Solan,\n174101.",
+        "Disintegration Report No.\n09865/2014-15\nDated\n20-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "9",
+        "PMO-650\nTablets",
+        "B. No. LPMT-13001S,\nD/Mfg. Mar, 2013,\nD/Exp. Feb, 2016,\nMfg. By.\nM/s Indchemie Health Specialities\nPvt. Limited,\nVill-Kumerk, Rangpo, East-Sikkim,\n737132, Sikkim.",
+        "Dissolution Report No.\n09879/2014-15\nDated\n25-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "10",
+        "Oflomin-OZ\nTablets",
+        "B. No. RAB-111,\nD/Mfg. Apr, 2014,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Regent Ajanta Biotech,\n86-87, Vill-Makhiyali Dundi,\nPeerpura Road, Roorkee,\nUttarakhand, 247667.",
+        "Disintegration Report No.\n09883/2014-15\nDated\n25-11-2014",
+        "CDSCO, East\nZone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "11",
+        "Cyanocobalami\nne Injection IP",
+        "B. No.: 46/B\nMfg dt: 01/2014,\nExp dt: 06/2015\nMfd by: M/s. Good Kare Medico (P)\nLtd., E-6, Industrial Estate, Delhi\nRoad, Saharanpur, UP",
+        "Particulate Matter &\nDescription\n32-1/2014-SS/\nDCA(N)-7/1663\nDt. 17.11.2014",
+        "CDSCO,\nNorth Zone",
+        "CDL, Kolkata"
+      ],
+      [
+        "12",
+        "Sulbactomax\n(Ceftriaxone/Sul\nbactum for\nInjection)",
+        "B. No.: DV3G583\nMfg dt: 07/2013\nExp dt: 06/2015\nMfd by: M/s. Venus Remedies Ltd.,\nHill Top Industrial Estate, Jharmajri,\nEPIP, Phase-I\n(Extn.), Bhatoli, Kalan,\nBaddi 173205, HP.",
+        "Appearance after\nreconstitution &\nParticulate Matter\n32-18/2014-SS/DCA(C)-\n28/1664\nDt. 17.11.2014",
+        "CDSCO, Sub\nZone,\nChandigarh",
+        "CDL, Kolkata"
+      ],
+      [
+        "13",
+        "Roller Bandage\n10 cms x 4 mts",
+        "B. No.: 1373\nMfg dt: 09/2013,\nExp dt: 08/2016\nMfd by: M/s. Atin Cottage Industries,\n36-A, Beniapukur Road, Kolkata 700\n014.",
+        "Description, Threads per\ndm, Weight in g/m2,\nLength, Foreign Matter,\nFluorescence\n32-8/2014-SS/\nDCA(E)-141/1678\nDt. 17.11.2014",
+        "CDSCO, East\nZone",
+        "CDL, Kolkata"
+      ],
+      [
+        "14",
+        "Dexon\n(Dexamethasone\nSodium\nPhosphate\nInjection IP)",
+        "B. No.: L13D01007\nMfg dt: 08/2013\nExp dt: 07/2015\nMfd by: M/s. N.I. Pharmaceutical\nWorks (P) Ltd., Boral Main Road,\nPaschim Nischintapur, Bagher Ghole,\nKolkata 700 103",
+        "Assay of Dexamethasone\n32-8/2014-SS/\nDCA(E)-3/1677\nDt. 17.11.2014",
+        "CDSCO, East\nZone",
+        "CDL, Kolkata"
+      ],
+      [
+        "15",
+        "Centradol 100\n(Tramadol\nHydrochloride\nInjection)",
+        "B. No.: TAM3F1\nMfg dt: 04/2013,\nExp dt: 03/2015\nMfd by: M/s. Tablets (India) Ltd.,\n179, T.H. Road, Chennai 600081",
+        "Description & Particulate\nMatter\n32-8/2014-SS/\nDCA(E)-253/1711\nDt. 24.11.2014",
+        "CDSCO, East\nZone",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      31.53,
+      36.21,
+      558.15,
+      751.69
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "16",
+        "Nirsal-BR\nSyrup",
+        "B. No.: 8L20614\nMfg dt: 12/2012\nExp dt: 11/2014\nMfd by: M/s. Nirma Limited\n(Healthcare Division), Sachana,\nGujarat – 382150, India.",
+        "Assay of Bromhexine\nHydrochloride\n32-11/2014-SS/\nDCA(A)-122/1734\nDt. 25.11.2014",
+        "CDSCO,\nZonal Office,\nAhmedabad",
+        "CDL, Kolkata"
+      ],
+      [
+        "17",
+        "Zepara-XT\nTablets\n( Paracetamol\nTablets IP 650\nmg )",
+        "B.No: 414-1247\nMfd. Dt: 07/2014\nExp. Dt: 06/ 2016\nMfd By: Zee Laboratories,\n47, Industrial Area,\nPaonta Sahib, 173 025 (H.P)",
+        "Does not conform with\nrespect to Test For\nDissolution\n( 44.9 % to 73 % of\nClaim)\nRegn.No: CDTL/Form-\n18/D/641/14-15",
+        "CDSCO,\nZonal Office,\nHyderabad",
+        "CDTL,\nChennai"
+      ],
+      [
+        "18",
+        "Cardem-30\n(Ditliazem\nTablets IP)",
+        "B.No: 03402P\nMfd. Dt: March 2014\nExp. Dt: August 2016\nMfd By: AFD Laboratories Pvt. Ltd,\nAt: Plot, No.4, Phase-II,\nPeenya Industrial, Peenya,\nBangalore-560 058.",
+        "Does not conform with\nrespect to Test For\nDissolution\n( 35.03 % to 45.46 % of\nClaim)\nRegn.No: CDTL/Form-\n18/D/703/14-15",
+        "CDSCO,\nZonal Office,\nHyderabad",
+        "CDTL,\nChennai"
+      ],
+      [
+        "19",
+        "Fruron Tablets\n( Frusemide and\nSpironolactone\nTablets)",
+        "B.No: ZT- 6991\nMfd. Dt: 03/2014\nExp. Dt: 02/2016\nMfd By: Zee Laboratories,\n47, Industrial Area,\nPaonta Sahib -173 025 (H.P)",
+        "Does not conform with\nrespect to Assay of\nFrusemide\n( 0.568 % of Claim)\nRegn.No: CDTL/Form-\n18/D/382/14-15",
+        "CDSCO,\nZonal Office,\nHyderabad",
+        "CDTL,\nChennai"
+      ],
+      [
+        "20",
+        "Digestive\nEnzyme B-\nComplex with\nL-Lysine\n(Xzyme Syrup)",
+        "B.No: AK1892\nMfd. Dt:- May/2014\nExp. Dt: -Oct/2015\nMfd By: M/s. Affy Pharma Pvt. Ltd.,\nVillage Thana, Baddi- Distt. Solan,,\n(H.P.)",
+        "Assay of Thiamine\nMononitrate\nReport No.\nLSD/RDTL/0071/14-15\nDate:13-11-14",
+        "CDSCO, Sub\nZone,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "21",
+        "Sodium\nValproate &\nValproic Acid\nControlled\nRelease\nTablets® (SV\nCHRONO-300)",
+        "B.No: LC13-249\nMfd. Dt: -08/2013\nExp. Dt: -07/2016\nMfd By: - M/s. Lifecare Neuro\nProducts Ltd., 70/1, Dharampur, Near\nEPIP-II, Baddi-173205, Himachal\nPradesh.",
+        "Assay of Sodium\nValproate & Valproic\nAcid\nReport No. RDTL/845/13-\n14\nDated:-17-11-14",
+        "CDSCO, Sub\nZone, Jammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "22",
+        "Ondansetron\nTablets IP\n(OND-MIN-8)",
+        "B.No: -1122\nMfd. Dt: -Jul./2013\nExp. Dt: -Jun./2015\nMfd By: - M/s. Minil Laboratories\nPvt. Ltd., 26, Industrial Estate,\nJammu-180010.",
+        "Assay of Ondansetron\nHydrochloride calculated\nas Ondansetron\nReport No.\nLSD/RDTL/0191/14-15\nDated:-28-11-14",
+        "CDSCO, Sub\nZone, Jammu",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      31.56,
+      36.24,
+      558.12,
+      244.22
+    ],
+    "n_rows": 2,
+    "n_cols": 6,
+    "rows": [
+      [
+        "23",
+        "Cefpodoxime\nTablets IP\n(Zextil-200)",
+        "B.No: ZT-14103\nMfd. Dt: -02/14\nExp. Dt: -01/16\nMfd By: - M/s. Zee Laboratories, 47,\nIndustrial Area, Paonta Sahib, Distt.\nSirmour H.P.173025",
+        "Dissolution\nReport No.\nLSD/RDTL/0256/14-15\nDated:-25-11-14",
+        "CDSCO, Sub\nZone,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "24",
+        "Ciprofloxacin\nHydrochloride\nTablets IP\n(Cipmah-500)",
+        "B.No: MAT1349\nMfd. Dt: -10/13\nExp. Dt: -09/15\nMfd By:- M/s. Mediaid Health Care\nPvt. Ltd., Plot No. 88, Sector-7, IIE,\nSIDCUL, Haridwar (U.K.)",
+        "Dissolution & Assay\nLSD/RDTL/0320/14-15\nDated:-26-11-14",
+        "CDSCO,\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

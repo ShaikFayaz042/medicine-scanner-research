@@ -1,0 +1,431 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      36.56,
+      110.15,
+      565.96,
+      757.95
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.\nNo\n.",
+        "Name of the\nDrug/ Medical\nDevice/ Cosmetic",
+        "Batch No./\nDate of\nManufacture/\nDate of\nExpiry/\nManufactured\nBy",
+        "Reason for\nFailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Levori\n(Levocetirizine\nTablets IP)",
+        "Batch No. RT-\n4001\nD/M: 02/2012\nD/E: 01/2015\nMfg. by:\nM/s. Rallis\nHeathcare Pvt.\nLtd., Village,\nBehrampur,\nTehsil,\nNalagarh, Dist.\nSolon (H.P.)",
+        "Does not conforrm\nwith respect to the\ntest for Dissolution\nCDTL-M/FORM-\n18/2013-14/105\ndated 30/1/2014",
+        "CDSCO,\nWest Zone, Mumbai Central,\nMumbai",
+        "CDTL, Mumbai"
+      ],
+      [
+        "2.",
+        "Ranitidine\nHydrochloride\nTablets I.P.150mg\n(CELOCTM150)",
+        "Batch No.-\nMST-13355,\nD/M: 02/2013\nD/E: 01/2015\nMfd. By: M/s.\nM.Sea\nPharmaceutical\ns, Surajpur,\nPaonta Sahib,\nSirmour (H.P.)",
+        "Uniformity of\nWeight & Assay\nRDTL/344/13-14",
+        "CDSCO, Sub Zone,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "3.",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX 095,\nD/Mfg.\nJun,2013,\nD/Exp. May,\n2015,\nMfg. By.\nM/s Hecatomb\nLaboratories\nPvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "Misbranded\nReport No.\n08420/2013-14\nDated\n02-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4.",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX 102,\nD/Mfg.\nAug,2013,\nD/Exp. Jul,\n2015,\nMfg. By.\nM/s Hecatomb\nLaboratories",
+        "Misbranded\nReport No.\n08423/2013-14\nDated\n02-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      36.56,
+      72.21,
+      565.96,
+      757.95
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Pvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX098,\nD/Mfg.\nAug,2013,\nD/Exp. Jul,\n2015,\nMfg. By.\nM/s Hecatomb\nLaboratories\nPvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "Misbranded\nReport No.\n08399/2013-14\nDated\n02-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "6.",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX 095,\nD/Mfg.\nMay,2013,\nD/Exp. Apr,\n2015,\nMfg. By.\nM/s Hecatomb\nLaboratories\nPvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "Misbranded\nReport No.\n08422/2013-14\nDated\n02-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "7.",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX 099,\nD/Mfg.\nAug,2013,\nD/Exp. Jul,\n2015,\nMfg. By.\nM/s Hecatomb\nLaboratories\nPvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "Misbranded\nReport No.\n08424/2013-14\nDated\n02-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "8.",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX 097,\nD/Mfg.\nJun,2013,\nD/Exp. May,\n2015,\nMfg. By.",
+        "Misbranded\nReport No.\n08419/2013-14\nDated\n02-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      36.56,
+      72.21,
+      565.96,
+      757.95
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "M/s Hecatomb\nLaboratories\nPvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "9",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX099,\nD/Mfg.\nAug,2013,\nD/Exp. Jul,\n2015,\nMfg. By.\nM/s Hecatomb\nLaboratories\nPvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "Misbranded\nReport No.\n08443/2013-14\nDated\n09-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "10",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX 101,\nD/Mfg.\nAug,2013,\nD/Exp. Jul,\n2015,\nMfg. By.\nM/s Hecatomb\nLaboratories\nPvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "Misbranded\nReport No.\n08441/2013-14\nDated\n09-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "11",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX 101,\nD/Mfg.\nAug,2013,\nD/Exp. Jul,\n2015,\nMfg. By.\nM/s Hecatomb\nLaboratories\nPvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "Misbranded\nReport No.\n08442/2013-14\nDated\n09-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "12",
+        "AMOXYCILLIN\nCAPSULES",
+        "B. No. AX 102,\nD/Mfg.\nAug,2013,\nD/Exp. Jul,",
+        "Misbranded\nReport No.\n08437/2013-14\nDated",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      36.55,
+      72.21,
+      565.97,
+      744.75
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "2015,\nMfg. By.\nM/s Hecatomb\nLaboratories\nPvt. Ltd.,\nBagharbari,\nPanjabari,\nGuwahati-\n781037,\nAssam.",
+        "08-01-2014",
+        "",
+        ""
+      ],
+      [
+        "13",
+        "ADP – 2.5\nTABLETS",
+        "B. No. MRT\n301,\nD/Mfg.\nApr,2013,\nD/Exp. Mar,\n2015,\nMfg. By.\nM/s Caplet\nIndia Pvt. Ltd.,\nBangur\nAvenue,\nKolkata, West\nBengal,\n700135.",
+        "Description\nReport No.\n08472/2013-14\nDated\n16-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "14",
+        "STOPAIN\nTABLETS",
+        "B. No.\nTGT1102098,\nD/Mfg.\nFeb,2011,\nD/Exp. Jan,\n2014,\nMfg. By.\nM/s T & G\nMedicare, Vill-\nKunjahal, P.O.-\nBaddi, Dist.-\nsolan,\nHimachal\nPradesh",
+        "Disintegration\nReport No.\n08483/2013-14\nDated\n21-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "15",
+        "OFLOXACIN &\nORNIDAZOLE\nSUSPENSIONS",
+        "B. No. CFTS-\n006,\nD/Mfg.\nJul,2012,\nD/Exp. Jun,\n2014,\nMfg. By.\nM/s Laborate\nPharmaceutical\ns India Ltd.,\nRajban Road,\nNariwala,\nPaonta Sahib,\nHimachal\nPradesh",
+        "Assay\nReport No.\n08484/2013-14\nDated\n21-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      36.55,
+      72.21,
+      565.97,
+      757.47
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "16",
+        "OFLOXACIN &\nORNIDAZOLE\nSUSPENSIONS",
+        "B. No. CFTS-\n010,\nD/Mfg.\nJul,2012,\nD/Exp. Jun,\n2014,\nMfg. By.\nM/s Laborate\nPharmaceutical\ns India Ltd.,\nRajban Road,\nNariwala,\nPaonta Sahib,\nHimachal\nPradesh",
+        "Assay\nReport No.\n08485/2013-14\nDated\n21-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "17",
+        "OFLOMIN – OZ\nSUSPENSIONS",
+        "B. No. RAB-\n008,\nD/Mfg.\nJun,2013,\nD/Exp. May,\n2015,\nMfg. By.\nM/s Regent\nAjanta Biotech,\nVill-\nMakhiyaliDund\ni, Roorkee",
+        "Assay\nReport No.\n08500/2013-14\nDated\n24-01-2014",
+        "Drugs Control Department,\nArunachal Pradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "18",
+        "OFLOGYL\nSUSPENSIONS",
+        "B. No. LIN-\n12087,\nD/Mfg.\nMay,2012,\nD/Exp. Apr,\n2014,\nMfg. By.\nM/s Pro\nLaboratories\n(P) Ltd.\nMakkanpur,\nBhagwanpur,\nRoorkee, Dist.-\nHaridwar,\n247661",
+        "Assay\nReport No.\n08496/2013-14\nDated\n24-01-2014",
+        "Drugs Control Department,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "19",
+        "OFLOGYL\nSUSPENSIONS",
+        "B. No. LIN-\n12087,\nD/Mfg.\nMay,2012,\nD/Exp. Apr,\n2014,\nMfg. By.\nM/s Pro\nLaboratories\n(P) Ltd.\nMakkanpur,\nBhagwanpur,",
+        "Assay\nReport No.\n08497/2013-14\nDated\n24-01-2014",
+        "Drugs Control Department,\nNagaland",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      36.56,
+      72.21,
+      565.96,
+      757.95
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Roorkee, Dist.-\nHaridwar,\n247661",
+        "",
+        "",
+        ""
+      ],
+      [
+        "20",
+        "FESTIVE – OZ\nSUSPENSIONS",
+        "B. No. CFTS-\n004,\nD/Mfg.\nJul,2012,\nD/Exp. Jun,\n2014,\nMfg. By.\nM/s Laborate\nPharmaceutical\ns India Ltd.,\nRajban Road,\nNariwala,\nPaonta Sahib,\nHimachal\nPradesh",
+        "Assay\nReport No.\n08495/2013-14\nDated\n24-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "21",
+        "FESTIVE – OZ\nSUSPENSIONS",
+        "B. No. CFTS-\n017,\nD/Mfg.\nJul,2012,\nD/Exp. Jun,\n2014,\nMfg. By.\nM/s Laborate\nPharmaceutical\ns India Ltd.,\nRajban Road,\nNariwala,\nPaonta Sahib,\nHimachal\nPradesh",
+        "Assay\nReport No.\n08502/2013-14\nDated\n24-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "22",
+        "FESTIVE – OZ\nSUSPENSIONS",
+        "B. No. CFTS-\n003,\nD/Mfg.\nJul,2012,\nD/Exp. Jun,\n2014,\nMfg. By.\nM/s Laborate\nPharmaceutical\ns India Ltd.,\nRajban Road,\nNariwala,\nPaonta Sahib,\nHimachal\nPradesh",
+        "Assay\nReport No.\n08499/2013-14\nDated\n24-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "23",
+        "FESTIVE – OZ\nSUSPENSIONS",
+        "B. No. CFTS-\n007,\nD/Mfg.\nJul,2012,\nD/Exp. Jun,\n2014,",
+        "Assay\nReport No.\n08494/2013-14\nDated\n24-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      36.55,
+      72.21,
+      565.97,
+      757.47
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Mfg. By.\nM/s Laborate\nPharmaceutical\ns India Ltd.,\nRajban Road,\nNariwala,\nPaonta Sahib,\nHimachal\nPradesh",
+        "",
+        "",
+        ""
+      ],
+      [
+        "24",
+        "FESTIVE – OZ\nSUSPENSIONS",
+        "B. No. CFTS-\n016,\nD/Mfg.\nJul,2012,\nD/Exp. Jun,\n2014,\nMfg. By.\nM/s Laborate\nPharmaceutical\ns India Ltd.,\nRajban Road,\nNariwala,\nPaonta Sahib,\nHimachal\nPradesh",
+        "Assay\nReport No.\n08498/2013-14\nDated\n24-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "25",
+        "FESTIVE – OZ\nSUSPENSIONS",
+        "B. No. CFTS-\n017,\nD/Mfg.\nJul,2012,\nD/Exp. Jun,\n2014,\nMfg. By.\nM/s Laborate\nPharmaceutical\ns India Ltd.,\nRajban Road,\nNariwala,\nPaonta Sahib,\nHimachal\nPradesh",
+        "Assay\nReport No.\n08501/2013-14\nDated\n24-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "26",
+        "PARA – 500\nTABLETS",
+        "B. No. CPAT-\n003,\nD/Mfg.\nApr,2012,\nD/Exp. Mar,\n2015,\nMfg. By.\nM/s Laborate\nPharmaceutical\ns India Ltd.,\nRajban Road,\nNariwala,\nPaonta Sahib,\nHimachal\nPradesh",
+        "Dissolution\nReport No.\n08528/2013-14\nDated\n30-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      36.56,
+      72.21,
+      565.96,
+      757.95
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "27",
+        "PARACETAMOL\nTABLETS",
+        "B. No.\nAPC1062AL,\nD/Mfg.\nSep,2011,\nD/Exp. Aug,\n2014,\nMfg. By.\nM/s Hindustan\nLaboratories.,\nAliyali, Palghar\n(W), Thane",
+        "Dissolution\nReport No.\n08532/2013-14\nDated\n30-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "28",
+        "OFLOMAC - M\nSUSPENSIONS",
+        "B. No. MEO-\n2014,\nD/Mfg.\nMay,2012,\nD/Exp. Apr,\n2014,\nMfg. By.\nM/s Macleods\nPharmaceutical\ns Ltd., MIDC,\nTarapurBoisar\n(W), Dist.-\nThane, Andheri\n(E), Mumbai",
+        "Assay\nReport No.\n08540/2013-14\nDated\n31-01-2014",
+        "Drugs Control Department,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "29",
+        "RONFLOX – 400\nTABLETS",
+        "B. No.\nRXTF/1003C,\nD/Mfg.\nJun,2011,\nD/Exp. May,\n2014,\nMfg. By.\nM/s Alkem\nLaboratories\nLtd., Vill-\nThana, Baddi,\nDist.-Solan,\nHimachal\nPradesh,\n173205",
+        "Uniformity of Wt.\nReport No.\n08541/2013-14\nDated\n30-01-2014",
+        "Drugs Control Department,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "30",
+        "Angizaar 50\n(Losartan\nPotassium Tablets\nIP 50 mg),",
+        "B. No.:\nANBD0032\nMfgdt: 01/2013\nExpdt: 12/2015\nMfd by: M/s.\nMicro Labs\nLtd., HB-211,\nVill- Katha, PO\nBaddi, Tehsil\nNalagarh,\nSolan, HP",
+        "Description\n32-8/2013-SS/\nDCA(E)-162/4568\nDt. 02.01.2014",
+        "CDSCO, East Zone, Kolkata",
+        "CDL, Kolkata"
+      ],
+      [
+        "31",
+        "Needin SR 20\n(Nifedipine\nSustained Release",
+        "B. No.:\nC11K30\nMfgdt: 02/2011",
+        "Dissolution\n32-13/2013-SS/\nDCA(B)-47/4856",
+        "CDSCO, SubZone Bangalore",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      36.6,
+      72.24,
+      565.92,
+      351.53
+    ],
+    "n_rows": 2,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "Tablets IP),",
+        "Expdt: 01/2014\nMfd by: M/s.\nStadmed\nPrivate Ltd.,\n15, Jawpore\nRoad, Kolkata -\n700 074.",
+        "Dt. 22.01.2014",
+        "",
+        ""
+      ],
+      [
+        "32",
+        "Paracetamol\nTablets IP 500 mg",
+        "TRT-13067\nD/M: Jun.2013\nD/E: May.2015\nCassel\nResearch\nLaboratories\nPvt Ltd.,\nPlot No.54,\nSIDCO\nIndustrial\nEstate ,\nThirumudivakk\nam,\nChennai- 600\n044.",
+        "Test for\nDissolution\nReport\nno.CDTL/Form18/\n355/13-14",
+        "CDSCO, South Zone,\nChennai",
+        "CDTL, Chennai"
+      ]
+    ]
+  }
+]

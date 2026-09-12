@@ -1,0 +1,8215 @@
+[
+  {
+    "page": 4,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      771.09
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 1\nMedicines used in Anaesthesia",
+        "",
+        "",
+        ""
+      ],
+      [
+        "1.1- General Anaesthetics and Oxygen",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "1.1.1",
+        "Halothane",
+        "S,T",
+        "Liquid for inhalation"
+      ],
+      [
+        "1.1.2",
+        "Isoflurane",
+        "S,T",
+        "Liquid for inhalation"
+      ],
+      [
+        "1.1.3",
+        "Ketamine",
+        "P,S,T",
+        "Injection 10 mg/mL\nInjection 50 mg/mL"
+      ],
+      [
+        "1.1.4",
+        "Nitrous oxide",
+        "P,S,T",
+        "As licensed for medical purpose"
+      ],
+      [
+        "1.1.5",
+        "Oxygen*",
+        "P,S,T",
+        "As licensed for medical purpose"
+      ],
+      [
+        "1.1.6",
+        "Propofol",
+        "P,S,T",
+        "Injection 10 mg/mL"
+      ],
+      [
+        "1.1.7",
+        "Sevoflurane",
+        "S,T",
+        "Liquid for inhalation"
+      ],
+      [
+        "1.1.8",
+        "Thiopentone",
+        "P,S,T",
+        "Powder for injection 0.5 g\nPowder for injection 1 g"
+      ],
+      [
+        "*Oxygen is also listed in Section 27.5 - Medicines for COVID 19 management",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      776.52
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "1.2-Local Anaesthetics",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "1.2.1",
+        "Bupivacaine",
+        "S,T",
+        "Injection 0.25 %\nInjection 0.5 %\nInjection 0.5 % with 7.5 %\nglucose"
+      ],
+      [
+        "1.2.2",
+        "Lignocaine*",
+        "P,S,T",
+        "Topical forms 2-5 %\nInjection 1 %\nInjection 2 %\nInjection 5 % with 7.5 % glucose"
+      ],
+      [
+        "1.2.3",
+        "Lignocaine (A) +\nAdrenaline (B)",
+        "P,S,T",
+        "Injection 1% (A) + 1:200000\n(5 mcg/mL) (B)\nInjection 2% (A) + 1:200000\n(5 mcg/mL) (B)"
+      ],
+      [
+        "1.3- Preoperative Medication and Sedation for Short Term Procedures",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "1.3.1",
+        "Atropine**",
+        "P,S,T",
+        "Injection 0.6 mg/mL"
+      ],
+      [
+        "*Lignocaine formulations are also listed in Section 10.2.5 cardiovascular medicines-\nAntiarrhythmic medicines\n**Atropine formulations are also listed in -\nA. Section 4.2.1 - Antidotes and Other Substances used in Management of\nPoisonings/Envenomation - Specific\nB. Section 21.5.1 - Ophthalmological Medicines- Mydriatics",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      771.69
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "1.3.2",
+        "Glycopyrrolate",
+        "S,T",
+        "Injection 0.2 mg/mL"
+      ],
+      [
+        "1.3.3",
+        "Midazolam*",
+        "P,S,T",
+        "Tablet 7.5 mg\nNasal Spray 0.5mg\nNasal Spray 1.25 mg\nInjection 1 mg/mL\nInjection 5 mg/mL"
+      ],
+      [
+        "1.3.4",
+        "Morphine**",
+        "P,S,T",
+        "Injection 10 mg/mL\nInjection 15 mg/mL"
+      ],
+      [
+        "Section 1.4 -Muscle Relaxants and Cholinesterase Inhibitors",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "1.4.1",
+        "Atracurium",
+        "S,T",
+        "Injection 10 mg/mL"
+      ],
+      [
+        "1.4.2",
+        "Baclofen",
+        "S,T",
+        "Tablet 5 mg\nTablet 10 mg\nTablet 20 mg"
+      ],
+      [
+        "*Midazolam formulations are also listed in -\nA. Section 5.1.7- Medicines used in Neurological Disorders Anticonvulsants/ Antiepileptics\nB. Section 7.4.12- Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative Care\n**Morphine formulations are also listed in -\nA. Section 2.2.2- Analgesics, Antipyretics, Non-steroidal Anti-inflammatory Drugs (NSAIDs),\nMedicines used to treat Gout and Disease Modifying Agents used in Rheumatoid Disorders -\nOpioid Analgesics\nB. Section 7.4.13 - Anti-cancer agents including immunosuppressives, and medicines used in\nPalliative Care",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      789.33
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "1.4.3",
+        "Neostigmine*",
+        "S,T",
+        "Tablet 15 mg\nInjection 0.5 mg/mL"
+      ],
+      [
+        "1.4.4",
+        "Succinylcholine",
+        "S,T",
+        "Injection 50 mg/mL"
+      ],
+      [
+        "1.4.5",
+        "Vecuronium",
+        "S,T",
+        "Powder for injection 4 mg\nPowder for injection 10 mg"
+      ],
+      [
+        "Section 2\nAnalgesics, Antipyretics, Non-steroidal Anti-inflammatory\nDrugs (NSAIDs), Medicines used to treat Gout and Disease\nModifying Agents used in Rheumatoid Disorders",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.1 - Non-opioid Analgesics, Antipyretics and Non-steroidal Anti-\ninflammatory Drugs",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "2.1.1",
+        "Acetylsalicylic\nacid**",
+        "P,S,T",
+        "Tablet 300 mg to 500 mg\nEffervescent/ Dispersible/ Enteric\ncoated Tablet 300 mg to 500 mg"
+      ],
+      [
+        "*Neostigmine formulations are also listed in Section 4.2.8 - Antidotes and Other substances\nused in Management of poisoning/Envenomation - Specific\n**Acetylsalicylic acid formulations are also listed in -\nA. Section 5.2.1 - Medicines used in Neurological Disorders Antimigraine medicines\nB. Section 10.5.1 - Cardiovascular medicines -Antithrombotic Medicines (Cardiovascular/\nCerebrovascular) - Antiplatelet and Antithrombotic Medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      778.65
+    ],
+    "n_rows": 9,
+    "n_cols": 5,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)",
+        ""
+      ],
+      [
+        "2.1.2",
+        "Diclofenac",
+        "P,S,T",
+        "Tablet 50 mg\nInjection 25 mg/mL",
+        ""
+      ],
+      [
+        "2.1.3",
+        "Ibuprofen*",
+        "P,S,T",
+        "Tablet 200 mg\nTablet 400 mg\nOral liquid 100 mg/5 mL (p)",
+        ""
+      ],
+      [
+        "2.1.4",
+        "Mefenamic acid",
+        "P,S,T",
+        "Tablet 250 mg\nOral liquid 100 mg/5 mL (p)",
+        ""
+      ],
+      [
+        "2.1.5",
+        "Paracetamol**",
+        "P,S,T",
+        "Tablet 500 mg\nTablet 650 mg\nOral liquid 120 mg/5 mL (p)\nOral Liquid 125 mg/5 mL (p)\nOral Liquid 250 mg/5 mL (p)\nInjection 150 mg/ mL\nSuppository 80 mg\nSuppository 170 mg",
+        ""
+      ],
+      [
+        "2.2-Opioid Analgesics",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "2.2.1",
+        "Fentanyl",
+        "S,T",
+        "",
+        "Injection 50 mcg/mL"
+      ],
+      [
+        "*Ibuprofen formulations are also listed in Section 5.2.2 - Medicines used in Neurological\nDisorders-Antimigraine Medicines\n** Paracetamol formulations are also listed in -\nA. Section 5.2.3 - Medicines used in Neurological Disorders-Antimigraine Medicines\nB. Section 27.4 - Medicines for COVID 19 Management",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      785.61
+    ],
+    "n_rows": 8,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "2.2.2",
+        "Morphine*",
+        "P,S,T",
+        "Tablet 10 mg\nInjection 10 mg/mL\nInjection 15 mg/mL"
+      ],
+      [
+        "2.2.3",
+        "Tramadol**",
+        "S,T",
+        "Capsule 50 mg\nCapsule 100 mg\nInjection 50 mg/mL"
+      ],
+      [
+        "2.3-Medicines used to treat Gout",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "2.3.1",
+        "Allopurinol***",
+        "P,S,T",
+        "Tablet 100 mg\nTablet 300 mg"
+      ],
+      [
+        "2.3.2",
+        "Colchicine",
+        "P,S,T",
+        "Tablet 0.5 mg"
+      ],
+      [
+        "*Morphine formulations are also listed in -\nA. Section 1.3.4 - Medicines used in Anaesthesia - Preoperative medication and sedation for\nshort term procedures\nB. Section 7.4.13 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative Care\n** Tramadol formulations are also listed in\nSection 7.4.15 - Tramadol formulations are also listed in Anti-cancer agents including\nImmunosuppressives, and Medicines used in Palliative Care\n*** Allopurinol formulations are also listed in\nSection 7.4.1 - Allopurinol formulations are also listed in Anti-cancer agents including\nImmunosuppressives, and Medicines used in Palliative Care",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      793.2
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "2.4-Disease Modifying Agents used in Rheumatoid Disorders",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "2.4.1",
+        "Azathioprine*",
+        "S,T",
+        "Tablet 25 mg (p)\nTablet 50 mg"
+      ],
+      [
+        "2.4.2",
+        "Hydroxychloroquine",
+        "P,S,T",
+        "Tablet 200 mg\nTablet 400 mg"
+      ],
+      [
+        "2.4.3",
+        "Methotrexate**",
+        "P,S,T",
+        "Tablet 2.5 mg\nTablet 5 mg\nTablet 10 mg"
+      ],
+      [
+        "2.4.4",
+        "Sulfasalazine",
+        "S,T",
+        "Tablet 500 mg"
+      ],
+      [
+        "Section 3\nAntiallergics and Medicines used in Anaphylaxis",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "3.1",
+        "Adrenaline",
+        "P,S,T",
+        "Injection 1 mg/mL"
+      ],
+      [
+        "3.2",
+        "Cetirizine",
+        "P,S,T",
+        "Tablet 10 mg\nOral liquid 5 mg/5 mL (p)"
+      ],
+      [
+        "* Azathioprine formulations are also listed in Section 7.3.1 - Anti-cancer agents including\nImmunosuppressives, and Medicines used in Palliative Care\n** Methotrexate formulations are also listed in Section 7.1.30 - Anti-cancer agents including\nImmunosuppressives, and Medicines used in Palliative Care",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      93.5,
+      94.47,
+      559.06,
+      732.93
+    ],
+    "n_rows": 6,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "3.3",
+        "Dexamethasone*",
+        "P,S,T",
+        "Tablet 0.5 mg\nTablet 2 mg\nTablet 4 mg\nOral liquid 0.5 mg/5 mL (p)\nInjection 4 mg/mL"
+      ],
+      [
+        "3.4",
+        "Hydrocortisone**",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg\nPowder for Injection 100 mg\nPowder for Injection 200 mg"
+      ],
+      [
+        "3.5",
+        "Pheniramine",
+        "P,S,T",
+        "Injection 22.75 mg/mL"
+      ],
+      [
+        "3.6",
+        "Prednisolone***",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg\nTablet 20 mg\nOral liquid 5 mg/5 mL (p)\nOral liquid 15 mg/5 mL (p)"
+      ],
+      [
+        "*Dexamethasone formulations are also listed in -\nA. Section 7.4.3 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative Care\nB. Section 18.1.1 - Hormones, other Endocrine Medicines and Contraceptives - Adrenal\nHormones and Synthetic Substitutes\nC. Section 27.1 - Medicines for COVID 19 Management\n** Hydrocortisone formulations are also listed in Section 18.1.3 - Hormones, other\nEndocrine Medicines and Contraceptives- Adrenal Hormones and Synthetic Substitutes\n***Prednisolone formulations are also listed in -\nA. Section 7.2.4 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative Care - Hormones and Anti-Hormones used in cancer therapy\nB. Section 18.1.5 - Hormones, other Endocrine Medicines and Contraceptives -Adrenal\nHormones and Synthetic Substitutes\nC. Section 21.2.1 - Ophthalmological Medicines- Anti-inflammatory Medicine",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      776.61
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 4\nAntidotes and Other Substances used in Management of\nPoisonings/Envenomation",
+        "",
+        "",
+        ""
+      ],
+      [
+        "4.1-Nonspecific",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "4.1.1",
+        "Activated Charcoal",
+        "P,S,T",
+        "Powder (as licensed)"
+      ],
+      [
+        "4.2 Specific",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "4.2.1",
+        "Atropine*",
+        "P,S,T",
+        "Injection 0.6 mg/mL"
+      ],
+      [
+        "4.2.2",
+        "Calcium gluconate**",
+        "P,S,T",
+        "Injection 100 mg/mL"
+      ],
+      [
+        "4.2.3",
+        "D- Penicillamine",
+        "P,S,T",
+        "Capsule 150 mg (p)\nCapsule 250 mg"
+      ],
+      [
+        "4.2.4",
+        "Desferrioxamine",
+        "S,T",
+        "Powder for injection 500 mg"
+      ],
+      [
+        "4.2.5",
+        "Methylthioninium\nchloride\n(Methylene blue)",
+        "S,T",
+        "Injection 10 mg/mL"
+      ],
+      [
+        "*Atropine formulations are also listed in -\nA. Section 1.3.1 - Medicines used in Anaesthesia -Preoperative Medication and Sedation for\nshort term procedures\nB. Section 21.5.1 - Ophthalmological Medicines- Mydriatics\n** Calcium gluconate formulations are also listed in Section 26.3 - Vitamins and minerals",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 13,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      737.85
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "4.2.6",
+        "N-acetylcysteine",
+        "P,S,T",
+        "Sachet 200 mg\nInjection 200 mg/mL"
+      ],
+      [
+        "4.2.7",
+        "Naloxone",
+        "P,S,T",
+        "Injection 0.4 mg/mL"
+      ],
+      [
+        "4.2.8",
+        "Neostigmine*",
+        "P,S,T",
+        "Injection 0.5 mg/mL"
+      ],
+      [
+        "4.2.9",
+        "Pralidoxime chloride\n(2-PAM)",
+        "P,S,T",
+        "Injection 25 mg/mL"
+      ],
+      [
+        "4.2.10",
+        "Snake venom\nantiserum**",
+        "P,S,T",
+        "Soluble/ liquid polyvalent -\nAs licensed\nLyophilized polyvalent -\nAs licensed"
+      ],
+      [
+        "4.2.11",
+        "Sodium nitrite",
+        "S,T",
+        "Injection 30 mg/mL"
+      ],
+      [
+        "4.2.12",
+        "Sodium thiosulphate",
+        "S,T",
+        "Injection 250 mg/mL"
+      ],
+      [
+        "* Neostigmine formulations are also listed in Section 1.4.3 - Medicines used in Anaesthesia -\nMuscle relaxants and cholinesterase inhibitors\n** Snake Venom antiserum is also listed in Section 19.2.7. - Immunologicals -\nSera and immunoglobulins (Liquid/ Lyophilized)",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      772.89
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 5\nMedicines used in Neurological Disorders",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 5.1-Anticonvulsants/ Antiepileptics",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "5.1.1",
+        "Carbamazepine*",
+        "P,S,T",
+        "Tablet 100 mg\nTablet 200 mg\nTablet 400 mg\nModified Release -\nTablet 200 mg\nTablet 400 mg\nOral liquid 100 mg/5 mL (p)"
+      ],
+      [
+        "5.1.2",
+        "Clobazam",
+        "S,T",
+        "Tablet 5 mg\nTablet 10 mg"
+      ],
+      [
+        "5.1.3",
+        "Diazepam**",
+        "P,S,T",
+        "Oral liquid 2 mg/5 mL (p)\nInjection 5 mg/mL\nSuppository 5 mg"
+      ],
+      [
+        "5.1.4",
+        "Levetiracetam",
+        "S,T",
+        "Tablet 250 mg\nTablet 500 mg\nTablet 750 mg\nModified Release Tablet 750 mg\nOral liquid 100 mg/mL (p)\nInjection 100 mg/mL"
+      ],
+      [
+        "5.1.5",
+        "Lorazepam",
+        "P,S,T",
+        "Tablet 1 mg\nTablet 2 mg\nInjection 2 mg/mL\nInjection 4 mg/mL"
+      ],
+      [
+        "*Carbamazepine formulations are also listed in Section 23.2.2.3 Medicines used in\ntreatment of Psychiatric disorder - Medicines used in Bipolar disorders\n** Diazepam formulations are also listed in Section 7.4.4 - Anti-cancer agents including\nImmunosuppressives, and Medicines used in Palliative Care - Medicines used in Palliative\nCare",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "bbox": [
+      93.5,
+      94.47,
+      559.06,
+      779.37
+    ],
+    "n_rows": 7,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "5.1.6",
+        "Magnesium sulphate",
+        "S,T",
+        "Injection 500 mg/mL"
+      ],
+      [
+        "5.1.7",
+        "Midazolam*",
+        "P,S,T",
+        "Tablet 7.5 mg\nTablet 15 mg\nNasal Spray 0.5 mg/actuation\nNasal Spray 1.25 mg/actuation\nInjection 1 mg/mL\nInjection 5 mg/mL"
+      ],
+      [
+        "5.1.8",
+        "Phenobarbitone",
+        "P,S,T",
+        "Tablet 30 mg\nTablet 60 mg\nOral liquid 20 mg/5 mL (p)"
+      ],
+      [
+        "",
+        "",
+        "S,T",
+        "Injection 200 mg/mL"
+      ],
+      [
+        "5.1.9",
+        "Phenytoin",
+        "P,S,T",
+        "Tablet 50 mg\nTablet 100 mg\nTablet 300 mg\nModified Release Tablet 300 mg\nOral liquid 30 mg/5 mL (p)\nOral liquid 125 mg/5 mL (p)\nInjection 25 mg/mL\nInjection 50 mg/mL"
+      ],
+      [
+        "*Midazolam formulations are also listed in -\nA. Section 1.3.3 - Medicines used in Anaesthesia - Preoperative Medication and Sedation for\nshort term procedures\nB. Section 7.4.12 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative Care - Medicines used in Palliative Care",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 16,
+    "bbox": [
+      93.5,
+      94.47,
+      559.06,
+      787.17
+    ],
+    "n_rows": 7,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "5.1.10",
+        "Sodium Valproate*",
+        "P,S,T",
+        "Tablet 200 mg\nTablet 300 mg\nTablet 500 mg\nModified Release -\nTablet 300 mg\nTablet 500 mg\nOral liquid 200 mg/5 mL (p)"
+      ],
+      [
+        "",
+        "",
+        "S,T",
+        "Injection 100 mg/mL"
+      ],
+      [
+        "Section 5.2- Antimigraine Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "5.2.1",
+        "Acetylsalicylic\nacid**",
+        "P,S,T",
+        "Tablet 300 mg to 500 mg\nEffervescent/ Dispersible/ Enteric\ncoated Tablet 300 mg to 500 mg"
+      ],
+      [
+        "*Sodium Valproate formulations are also listed in-\nSection 23.2.2.2 - Medicines used in treatment of Psychiatric Disorders -Medicines used in\nBipolar disorders- Medicines used in mood disorders\n**Acetylsalicyclic acid formulations are also listed in -\nA. Section 2.1.1 - Analgesics, Antipyretics, Non-steroidal Anti-inflammatory\nDrugs (NSAIDs), Medicines used to treat Gout and Disease Modifying Agents used in\nRheumatoid Disorders - Non-opioid Analgesics, Antipyretics and Non-steroidal Anti-\ninflammatory Drugs\nB. Section 10.5.1 - Cardiovascular medicines- Antiplatelet and Antithrombotic Medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 17,
+    "bbox": [
+      93.5,
+      94.47,
+      559.06,
+      787.29
+    ],
+    "n_rows": 7,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "5.2.2",
+        "Ibuprofen*",
+        "P,S,T",
+        "Tablet 200 mg\nTablet 400 mg\nOral liquid 100 mg/5 mL (p)"
+      ],
+      [
+        "5.2.3",
+        "Paracetamol**",
+        "P,S,T",
+        "Tablet 500 mg\nTablet 650 mg\nOral liquid 120 mg/5mL (p)\nOral Liquid 125 mg/5mL (p)\nOral Liquid 250 mg/5mL (p)"
+      ],
+      [
+        "5.2.4",
+        "Sumatriptan",
+        "P,S,T",
+        "Tablet 25 mg\nTablet 50 mg"
+      ],
+      [
+        "Section 5.2.1 - For Prophylaxis",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5.2.1.1",
+        "Amitriptyline***",
+        "P,S,T",
+        "Tablet 10 mg\nTablet 25 mg\nTablet 75 mg"
+      ],
+      [
+        "*Ibuprofen formulations are also listed in Section 2.1.3 - Analgesics, Antipyretics, Non-\nsteroidal Anti-inflammatory Drugs (NSAIDs), Medicines used to treat Gout and Disease\nModifying Agents used in Rheumatoid Disorders Non-opioid Analgesics, Antipyretics and\nNon-steroidal Anti- inflammatory Drugs\n**Paracetamol formulations are also listed in -\nA. Section 2.1.5 - Analgesics, Antipyretics, Non-steroidal Anti-inflammatory\nDrugs (NSAIDs), Medicines used to treat Gout and Disease Modifying Agents used in\nRheumatoid Disorders - Non-opioid analgesics, antipyretics and nonsteroidal anti-\ninflammatory medicines\nB. Section 27.4 - Medicines for COVID 19 management\n*** Amitriptyline formulations are also listed in -\nA. Section 7.4.2 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative Care - Medicines used in Palliative Care-\nB. Section 23.2.1.1 - Medicines used in treatment of Psychiatric Disorders -Medicines used in\nmood disorders- Medicines used in depressive disorders",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 18,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      757.92
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "5.2.1.2",
+        "Flunarizine",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg"
+      ],
+      [
+        "5.2.1.3",
+        "Propranolol",
+        "P,S,T",
+        "Tablet 10 mg\nTablet 20 mg\nTablet 40 mg"
+      ],
+      [
+        "Section 5.3- Antiparkinsonism Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "5.3.1",
+        "Levodopa (A) +\nCarbidopa (B)",
+        "P,S,T",
+        "Tablet 100 mg (A) + 10 mg (B)\nTablet 100 mg (A) + 25 mg (B)\nTablet 250 mg (A) + 25 mg (B)\nModified Release -\nTablet 100 mg (A) + 25 mg (B)\nTablet 200 mg (A) + 50 mg (B)"
+      ],
+      [
+        "5.3.2",
+        "Trihexyphenidyl",
+        "P,S,T",
+        "Tablet 2 mg"
+      ],
+      [
+        "Section 5.4-Medicines used in Dementia",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "5.4.1",
+        "Donepezil",
+        "S,T",
+        "Tablet 5 mg\nTablet 10 mg"
+      ]
+    ]
+  },
+  {
+    "page": 19,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      780.21
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 6\nAnti-infective Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.1-Anthelminthics",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.1.1- Intestinal Anthelminthics",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.1.1.1",
+        "Albendazole*",
+        "P,S,T",
+        "Tablet 400 mg\nChewable Tablet 400 mg\nOral liquid 200 mg/5 mL (p)"
+      ],
+      [
+        "6.1.1.2",
+        "Mebendazole",
+        "P,S,T",
+        "Tablet 100 mg\nOral liquid 100 mg/5 mL (p)"
+      ],
+      [
+        "6.1.2 Antifilarial",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.1.2.1",
+        "Albendazole*",
+        "P,S,T",
+        "Tablet 400 mg\nChewable Tablet 400 mg\nOral liquid 200 mg/5 mL (p)"
+      ],
+      [
+        "6.1.2.2",
+        "Diethylcarbamazine\n(DEC)",
+        "P,S,T",
+        "Tablet 50 mg\nTablet 100 mg\nOral liquid 120 mg/5 mL (p)"
+      ],
+      [
+        "* Albendazole formulations are also listed Section 6.1.1.1 - in Anti-infective Medicines-\nAntifilarial",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 20,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      776.64
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.1.2.3",
+        "Ivermectin",
+        "P,S,T",
+        "Tablet 6 mg\nTablet 12 mg"
+      ],
+      [
+        "6.1.3 - Anti-schistosomal and Anti-trematodal Medicine",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.1.3.1",
+        "Praziquantel",
+        "S,T",
+        "Tablet 600 mg"
+      ],
+      [
+        "6.2-Antibacterials",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.2.1 Beta-lactam Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.2.1.1",
+        "Amoxicillin",
+        "P,S,T",
+        "Capsule 250 mg\nCapsule 500 mg\nOral liquid 125 mg/5 mL (p)\nOral liquid 250 mg/5 mL (p)\nPowder for Injection 250 mg\nPowder for Injection 500 mg\nPowder for injection 1000 mg"
+      ],
+      [
+        "6.2.1.2",
+        "Amoxicillin (A) +\nClavulanic acid (B)",
+        "P,S,T",
+        "Tablet 500 mg (A) + 125 mg (B)\nOral liquid 200 mg (A) + 28.5\nmg (B)/5 mL (p)\nDry Syrup 125 mg (A) + 31.25\n(B)/ 5 mL (p)"
+      ],
+      [
+        "",
+        "",
+        "S,T",
+        "Powder for Injection 500 mg (A)\n+ 100 mg (B)\nPowder for Injection 1 g (A) +\n200 mg (B)"
+      ]
+    ]
+  },
+  {
+    "page": 21,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      787.65
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.2.1.3",
+        "Ampicillin",
+        "P,S,T",
+        "Powder for Injection 500 mg\nPowder for Injection 1000 mg"
+      ],
+      [
+        "6.2.1.4",
+        "Benzathine\nbenzylpenicillin",
+        "P,S,T",
+        "Powder for Injection 6 lac units\nPowder for Injection 12 lac units\nPowder for injection 24 lac units"
+      ],
+      [
+        "6.2.1.5",
+        "Benzylpenicillin",
+        "P,S,T",
+        "Powder for injection 5 lac units\nPowder for injection 10 lac units"
+      ],
+      [
+        "6.2.1.6",
+        "Cefadroxil",
+        "P,S,T",
+        "Tablet 500 mg\nTablet 100 mg\nOral liquid 125 mg/5 mL (p)"
+      ],
+      [
+        "6.2.1.7",
+        "Cefazolin",
+        "P,S,T",
+        "Powder for Injection 500 mg\nPowder for Injection 1000 mg"
+      ],
+      [
+        "6.2.1.8",
+        "Cefixime",
+        "S,T",
+        "Tablet 200 mg\nTablet 400 mg\nOral liquid 50 mg/5 mL (p)\nOral liquid 100 mg/5 mL (p)"
+      ],
+      [
+        "6.2.1.9",
+        "Cefotaxime*",
+        "S,T",
+        "Powder for Injection 250 mg\nPowder for Injection 500 mg\nPowder for Injection 1000 mg"
+      ],
+      [
+        "*Cefotaxime formulations are also listed in Section 6.7.5.2 - Anti-infective Medicines-\nAntiviral Medicines- Medicines for treating Opportunistic Infections in People living with\nHIV",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 22,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      797.49
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.2.1.10",
+        "Ceftazidime",
+        "S,T",
+        "Powder for Injection 250 mg\nPowder for Injection 1000 mg"
+      ],
+      [
+        "6.2.1.11",
+        "Ceftriaxone",
+        "S,T",
+        "Powder for Injection 250 mg\nPowder for Injection 500 mg\nPowder for Injection 1000 mg\nPowder for Injection 2000 mg"
+      ],
+      [
+        "6.2.1.12",
+        "Cloxacillin",
+        "P,S,T",
+        "Capsule 250 mg\nCapsule 500 mg\nOral Liquid 125 mg/5 mL (p)\nPowder for Injection 250 mg"
+      ],
+      [
+        "6.2.1.13",
+        "Piperacillin (A) +\nTazobactam (B)",
+        "T",
+        "Powder for Injection 1000 mg\n(A) + 125 mg (B)\nPowder for Injection 2000 mg\n(A) + 250 mg (B)\nPowder for Injection 4000 mg\n(A) + 500 mg (B)"
+      ],
+      [
+        "6.2.1.14",
+        "Meropenem",
+        "T",
+        "Powder for Injection 500 mg (as\ntrihydrate)\nPowder for Injection 1000 mg\n(as trihydrate)"
+      ],
+      [
+        "6.2.2 - Other Antibacterials",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.2.2.1",
+        "Azithromycin*",
+        "P,S,T",
+        "Tablet 250 mg\nTablet 500 mg\nOral liquid 200 mg/5 mL (p)\nPowder for Injection 500 mg"
+      ],
+      [
+        "6.2.2.2",
+        "Cefuroxime",
+        "P,S,T",
+        "Tablet 500 mg\nOral liquid 125 mg/ 5 mL (p)\nInjection 1500 mg"
+      ],
+      [
+        "*Azithromycin formulations are also listed in Section 6.7.6.1 Anti-infective Medicines -\nMedicines used in the management of HIV- Additional Medicines for Syndromic Management\nof Sexually Transmitted Infections",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 23,
+    "bbox": [
+      93.5,
+      94.47,
+      559.06,
+      776.01
+    ],
+    "n_rows": 6,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.2.2.3",
+        "Ciprofloxacin*",
+        "P,S,T",
+        "Tablet 250 mg\nTablet 500 mg\nOral liquid 250 mg/ 5 mL (p)\nInjection 200 mg/ 100 mL"
+      ],
+      [
+        "6.2.2.4",
+        "Clarithromycin**",
+        "S,T",
+        "Tablet 250 mg\nTablet 500 mg\nOral liquid 125 mg/5 mL (p)"
+      ],
+      [
+        "6.2.2.5",
+        "Clindamycin***",
+        "P,S,T",
+        "Capsule 150 mg\nCapsule 300 mg\nInjection 150 mg /mL"
+      ],
+      [
+        "6.2.2.6",
+        "Co-trimoxazole\n[Sulphamethoxazole\n(A) +\nTrimethoprim\n(B)]****",
+        "P,S,T",
+        "Tablet 400 mg (A) + 80 mg (B)\nTablet 800 mg (A) + 160 mg (B)\nOral liquid 200 mg (A) + 40 mg\n(B)/5 mL (p)"
+      ],
+      [
+        "* Ciprofloxacin formulations are also listed in -\nA. Section 16.2 - Ear, Nose and ThroatMedicines,\nB. Section 21.1.2 - Ophthalmological Medicines- Anti-infective Medicines,\n** Clarithromycin formulations are also listed in Section 6.4.3 - Anti-infective medicines-\nAnti-tuberculosis Medicines\n***Clindamycin formulations are also listed in -\nA. Section 6.7.5.3 - Anti-infective Medicines- Antiviral Medicines- Medicines for treating\nOpportunistic Infections in People living with HIV\nB. Section 6.9.3.1 - Anti-infective Medicines- Drugs for amoebiasis and other parasitic\ninfections -Antipneumocystosis and antitoxoplasmosis medicines\nC. Section 6.10.1.5 - Anti-infective Medicines- Antimalarial medicines- For curative\ntreatment\n**** Co-trimoxazole formulations are also listed in Section 6.9.3.2 - Anti-infective\nMedicines- Medicines for amoebiasis and other parasitic infections -Antipneumocystosis and\nantitoxoplasmosis medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 24,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      765.45
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.2.2.7",
+        "Doxycycline*",
+        "P,S,T",
+        "Capsule 100 mg\nDry Syrup 50 mg/5 mL (p)\nPower for Injection 100 mg"
+      ],
+      [
+        "6.2.2.8",
+        "Gentamicin",
+        "P,S,T",
+        "Injection 10 mg/mL\nInjection 40 mg/mL"
+      ],
+      [
+        "6.2.2.9",
+        "Metronidazole**",
+        "P,S,T",
+        "Tablet 200 mg\nTablet 400 mg\nOral liquid 200 mg/5 mL (p)\nInjection 500 mg/100 mL"
+      ],
+      [
+        "6.2.2.10",
+        "Nitrofurantoin",
+        "P,S,T",
+        "Tablet 100 mg\nOral liquid 25 mg/5 mL (p)"
+      ],
+      [
+        "6.2.2.11",
+        "Phenoxymethyl\npenicillin",
+        "P,S,T",
+        "Tablet 250 mg"
+      ],
+      [
+        "6.2.2.12",
+        "Procaine\nBenzylpenicillin",
+        "P,S,T",
+        "Powder for injection\n1000 mg (=1 million IU)"
+      ],
+      [
+        "6.2.2.13",
+        "Vancomycin",
+        "S,T",
+        "Capsule 125 mg\nCapsule 250 mg\nPowder for Injection 250 mg\nPowder for Injection 500 mg\nPowder for Injection 1000 mg"
+      ],
+      [
+        "*Doxycycline formulations are also listed in Section 6.10.2.1 - Anti-infective Medicines-\nAntimalarial medicines- For prophylaxis\n**Metronidazole formulations are also listed in Section 6.9.1.1 - Anti-infective Medicines -\nAntiprotozoal Medicines - Medicines for amoebiasis and other parasitic infections",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 25,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      791.52
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "6.3 - Antileprosy Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.3.1",
+        "Clofazimine*",
+        "P,S,T",
+        "Capsule 50 mg\nCapsule 100 mg"
+      ],
+      [
+        "6.3.2",
+        "Dapsone",
+        "P,S,T",
+        "Tablet 50 mg\nTablet 100 mg"
+      ],
+      [
+        "6.3.3",
+        "Rifampicin**",
+        "P,S,T",
+        "Capsule 150 mg\nCapsule 300 mg"
+      ],
+      [
+        "6.4-Antituberculosis Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.4.1",
+        "Amikacin",
+        "S,T",
+        "Injection 100 mg/mL\nInjection 250 mg/mL\nInjection 500 mg/mL"
+      ],
+      [
+        "6.4.2",
+        "Bedaquiline",
+        "T",
+        "Tablet 100 mg"
+      ],
+      [
+        "6.4.3",
+        "Clarithromycin***",
+        "S,T",
+        "Tablet 250 mg\nTablet 500 mg\nTablet 750 mg"
+      ],
+      [
+        "*Clofazimine formulations are also listed Section 6.4.5 - Anti-infective Medicines -\nAnti-tuberculosis medicines\n**Rifampicin formulations are also listed in Section 6.4.15 - Anti-infective Medicines -\nAnti-tubercular medicine\n***Clarithromycin formulations are also listed in Section 6.2.2.4 - Anti-infective Medicines-\nAntibacterials -Other Antibacterials",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 26,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      744.69
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.4.4",
+        "Clofazimine*",
+        "S,T",
+        "Capsule 50 mg\nCapsule 100 mg"
+      ],
+      [
+        "6.4.5",
+        "Cycloserine",
+        "S,T",
+        "Capsule 125 mg\nCapsule 250 mg"
+      ],
+      [
+        "6.4.6",
+        "Delamanid",
+        "T",
+        "Tablet 50 mg"
+      ],
+      [
+        "6.4.7",
+        "Ethambutol",
+        "P,S,T",
+        "Tablet 200 mg\nTablet 400 mg\nTablet 600 mg\nTablet 800 mg"
+      ],
+      [
+        "6.4.8",
+        "Ethionamide",
+        "S,T",
+        "Tablet 125 mg\nTablet 250 mg"
+      ],
+      [
+        "6.4.9",
+        "Isoniazid",
+        "P,S,T",
+        "Tablet 100 mg\nTablet 300 mg\nOral Liquid 50 mg/5 mL (p)"
+      ],
+      [
+        "6.4.10",
+        "Levofloxacin",
+        "P,S,T",
+        "Tablet 250 mg\nTablet 500 mg\nTablet 750 mg"
+      ],
+      [
+        "6.4.11",
+        "Linezolid",
+        "P,S,T",
+        "Tablet 300 mg\nTablet 600 mg"
+      ],
+      [
+        "6.4.12",
+        "Moxifloxacin",
+        "P,S,T",
+        "Tablet 400 mg"
+      ],
+      [
+        "*Clofazimine formulations are also listed in Section 6.3.1 - Anti-infective Medicines -\nAntileprosy medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 27,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      778.53
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.4.13",
+        "Para-\naminosalicylic acid",
+        "S,T",
+        "Granules (As licensed)"
+      ],
+      [
+        "6.4.14",
+        "Pyrazinamide",
+        "P,S,T",
+        "Tablet 500 mg\nTablet 750 mg\nTablet 1000 mg\nTablet 1500 mg\nOral liquid 250 mg/5 mL (p)"
+      ],
+      [
+        "6.4.15",
+        "Rifampicin*",
+        "P,S,T",
+        "Capsule 150 mg\nCapsule 300 mg\nCapsule 450 mg\nCapsule 600 mg\nOral liquid 100 mg/ 5 mL (p)"
+      ],
+      [
+        "6.4.16",
+        "Streptomycin",
+        "P,S,T",
+        "Powder for Injection 750 mg\nPowder for Injection 1000 mg"
+      ],
+      [
+        "6.5 - Antifungal Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.5.1",
+        "Amphotericin B**",
+        "S,T",
+        "a) Amphotericin B\n(conventional) - Injection 50\nmg/vial\nb) Lipid Amphotericin B -\nInjection 50 mg/vial\nc) Liposomal Amphotericin B -\nInjection 50 mg/vial"
+      ],
+      [
+        "*Rifampicin formulations are also listed in Section 6.3.3 - Anti-infective Medicines-\nAntileprosy medicines\n**Amphotericin B formulations are also listed Section 6.9.2.1 - Anti-infective Medicines\nAntileishmaniasis medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 28,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      782.25
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.5.2",
+        "Clotrimazole*",
+        "P,S,T",
+        "Pessary 100 mg"
+      ],
+      [
+        "6.5.3",
+        "Fluconazole",
+        "P,S,T",
+        "Tablet 50 mg\nTablet 100 mg\nTablet 150 mg\nTablet 200 mg\nTablet 400 mg\nOral liquid 50 mg/ 5 mL (p)"
+      ],
+      [
+        "",
+        "",
+        "S,T",
+        "Injection 200 mg / 100 mL"
+      ],
+      [
+        "6.5.4",
+        "Griseofulvin",
+        "P,S,T",
+        "Tablet 125 mg\nTablet 250 mg\nTablet 375 mg"
+      ],
+      [
+        "6.5.5",
+        "Itraconazole",
+        "S,T",
+        "Capsule 100 mg\nCapsule 200 mg\nOral liquid 10 mg/mL"
+      ],
+      [
+        "6.5.6",
+        "Mupirocin",
+        "P,S,T",
+        "Ointment 2%"
+      ],
+      [
+        "6.5.7",
+        "Nystatin",
+        "S,T",
+        "Pessary 1 Lac IU\nOral Liquid 1 Lac IU/mL (p)"
+      ],
+      [
+        "6.5.8",
+        "Terbinafine",
+        "P,S,T",
+        "Cream 1%"
+      ],
+      [
+        "*Clotrimazole formulations are also listed in -\nA. Section 6.7.5.4 - Anti-infective Medicines Antiviral medicines- Medicines for treating\nOpportunistic Infections in People living with HIV\nB. Section 11.1.1 - Dermatological Medicines (Topical)- Antifungal medicines\nC. Section 16.3 - Ear, Nose and Throat Medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 29,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      794.73
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "6.6 - Antiviral Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.6.1 - Antiherpes Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.6.1.1",
+        "Acyclovir*",
+        "P,S,T",
+        "Tablet 200 mg\nTablet 400 mg\nTablet 800 mg\nPowder for Injection 250 mg\nPowder for Injection 500 mg\nOral liquid 400 mg/5 mL (p)"
+      ],
+      [
+        "6.6.2 - Anti-cytomegalovirus (CMV) medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.6.2.1",
+        "Valganciclovir**",
+        "S, T",
+        "Tablet 450 mg\nPowder for oral solution 50\nmg/mL"
+      ],
+      [
+        "6.7- Medicines used in the Management of HIV",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.7.1 Nucleoside Reverse Transcriptase Inhibitors",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.7.1.1",
+        "Abacavir",
+        "S,T",
+        "Tablet 60 mg (p)\nTablet 300 mg"
+      ],
+      [
+        "*Acyclovir formulations are also listed in -\nA. Section 6.7.5.1 - Anti-infective Medicines -Medicines used in the management of HIV -\nMedicines for treating Opportunistic Infections in People living with HIV\nB. Section 21.1.1 - Ophthalmological Medicines- Anti-infective medicine\n**Valganciclovir formulations are also listed in Section 6.7.5.5 - Anti-infective Medicines-\nAntiviral medicines -Medicines for treating Opportunistic Infections in People living with HIV",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 30,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      786.33
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.7.1.2",
+        "Abacavir (A) +\nLamivudine (B)",
+        "S,T",
+        "Tablet 60 mg (A) + 30 mg (B)\n(p)\nTablet 600 mg (A) + 300 mg (B)"
+      ],
+      [
+        "6.7.1.3",
+        "Lamivudine",
+        "S,T",
+        "Tablet 100 mg\nTablet 150 mg"
+      ],
+      [
+        "6.7.1.4",
+        "Tenofovir Disproxil\nFumarate (TDF)*",
+        "S,T",
+        "Tablet 300 mg"
+      ],
+      [
+        "6.7.1.5",
+        "Tenofovir Disproxil\nFumarate (A) +\nLamivudine (B)",
+        "S,T",
+        "Tablet 300 mg (A) + 300 mg (B)"
+      ],
+      [
+        "6.7.1.6",
+        "Tenofovir Disproxil\nFumarate (A) +\nLamivudine (B) +\nDolutegravir (C)",
+        "P,S,T",
+        "Tablet 300 mg (A) + 300 mg (B)\n+ 50 mg (C)"
+      ],
+      [
+        "6.7.1.7",
+        "Tenofovir Disproxil\nFumarate (A) +\nLamivudine (B) +\nEfavirenz (C)",
+        "S,T",
+        "Tablet 300 mg (A) + 300 mg (B)\n+ 600 mg (C)"
+      ],
+      [
+        "6.7.1.8",
+        "Zidovudine",
+        "S,T",
+        "Tablet 300 mg\nOral liquid 50 mg/5 mL (p)"
+      ],
+      [
+        "6.7.1.9",
+        "Zidovudine (A) +\nLamivudine (B)",
+        "S,T",
+        "Tablet 60 mg (A) + 30 mg (B)\n(p)\nTablet 300 mg (A) + 150 mg (B)"
+      ],
+      [
+        "* Tenofovir Disproxil Fumarate formulations are also listed in Section 6.8.6 -\nAnti-infective Medicines Medicines used in Hepatitis B and Hepatitis C",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 31,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      763.32
+    ],
+    "n_rows": 13,
+    "n_cols": 5,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.7.1.10",
+        "Zidovudine (A) +\nLamivudine (B) +\nNevirapine (C)",
+        "S,T",
+        "",
+        "Tablet 60 mg (A) + 30 mg (B) +\n50 mg (C) (p)\nTablet 300 mg (A) + 150 mg (B)\n+ 200 mg (C)"
+      ],
+      [
+        "6.7.2 Non-nucleoside Reverse Transcriptase Inhibitors",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.7.2.1",
+        "Efavirenz",
+        "S,T",
+        "",
+        "Tablet 200 mg (p)\nTablet 600 mg"
+      ],
+      [
+        "6.7.2.2",
+        "Nevirapine",
+        "P,S,T",
+        "",
+        "Tablet 200 mg\nDispersible Tablet 50 mg (p)\nOral liquid 50 mg/ 5 mL (p)"
+      ],
+      [
+        "6.7.3 Integrase Inhibitors",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)",
+        ""
+      ],
+      [
+        "6.7.3.1",
+        "Dolutegravir",
+        "S,T",
+        "Tablet 50 mg",
+        ""
+      ],
+      [
+        "6.7.3.2",
+        "Raltegravir",
+        "S,T",
+        "Tablet 400 mg",
+        ""
+      ],
+      [
+        "6.7.4 Protease Inhibitors",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)",
+        ""
+      ],
+      [
+        "6.7.4.1",
+        "Atazanavir (A) +\nRitonavir (B)",
+        "S,T",
+        "Tablet 300 mg (A) +\nTablet 100 mg (B)",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 32,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      784.05
+    ],
+    "n_rows": 11,
+    "n_cols": 5,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)",
+        ""
+      ],
+      [
+        "6.7.4.2",
+        "Darunavir",
+        "S,T",
+        "Tablet 600 mg",
+        ""
+      ],
+      [
+        "6.7.4.3",
+        "Darunavir (A) +\nRitonavir (B)",
+        "S,T",
+        "Tablet 600 mg (A) +\nTablet 100 mg (B)",
+        ""
+      ],
+      [
+        "6.7.4.4",
+        "Lopinavir (A) +\nRitonavir (B)",
+        "S,T",
+        "Tablet 100 mg (A) + 25 mg (B)\nTablet 200 mg (A) + 50 mg (B)\nOral Liquid 80 mg (A) +\n20 mg (B) /mL (p)\nCapsule/ Sachet (containing\npellets/granules) 40 mg (A) +\n10 mg (B) (p)",
+        ""
+      ],
+      [
+        "6.7.4.5",
+        "Ritonavir",
+        "S,T",
+        "Tablet 100 mg",
+        ""
+      ],
+      [
+        "6.7.5 Medicines for treating Opportunistic Infections in People living with\nHIV",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.7.5.1",
+        "Acyclovir*",
+        "P,S,T",
+        "",
+        "Injection 250 mg"
+      ],
+      [
+        "6.7.5.2",
+        "Cefotaxime**",
+        "P,S,T",
+        "",
+        "Injection 1000 mg"
+      ],
+      [
+        "6.7.5.3",
+        "Clindamycin***",
+        "P,S,T",
+        "",
+        "Tablet 300 mg"
+      ],
+      [
+        "*Acyclovir formulations are also listed in -\nA. Section 6.6.1.1 - Anti-infective Medicines -Antiviral medicines -Anti-herpes medicines\nB. Section 21.1.1 - Ophthalmological Medicines- Anti-infective Medicine\n** Cefotaxime formulations are also listed in Section 6.2.1.9 - Anti-infective Medicines -\nAntibacterials- Beta-Lactam medicines\n***Clindamycin formulations are also listed in -A. Section 6.2.2.5 - Anti-infective Medicines\n- Antibacterials -Other antibacterials\nB. Section 6.9.3.1 - Anti-infective Medicines - Medicines for amoebiasis and other parasitic\ninfections - Antipneumocystosis and antitoxoplasmosis medicines\nC. Section 6.10.1.5 - Anti-infective Medicines - Antimalarial medicines- For curative treatment",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 33,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      791.01
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.7.5.4",
+        "Clotrimazole*",
+        "P,S,T",
+        "Ointment 1 %"
+      ],
+      [
+        "6.7.5.5",
+        "Valganciclovir**",
+        "S,T",
+        "Tablet/Capsule 450 mg"
+      ],
+      [
+        "6.7.6 Additional Medicines for Syndromic Management of Sexually\nTransmitted Infections",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.7.6.1",
+        "Azithromycin***",
+        "P,S,T",
+        "Tablet 1000 mg"
+      ],
+      [
+        "Section 6.8 -Medicines used in Hepatitis B and Hepatitis C",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.8.1",
+        "Daclatasvir",
+        "S,T",
+        "Tablet 30 mg\nTablet 60 mg"
+      ],
+      [
+        "6.8.2",
+        "Entecavir",
+        "S,T",
+        "Tablet 0.5 mg\nTablet 1 mg\nOral liquid 0.05 mg/mL (p)"
+      ],
+      [
+        "*Clotrimazole formulations are also listed in -\nA. Section 6.5.2 - Anti-infective Medicines -Antifungal medicines\nB. Section 11.1.1 - Dermatological Medicines (Topical)- Antifungal medicines\nC. Section 16.3 - Ear, Nose and Throat Medicines\n**Valganciclovir formulations are also listed in Section 6.6.2.1 - Anti-infective Medicines -\nAntiviral medicines -Anti Cytomegalovirus (CMV) medicines\n***Azithromycin formulations are also listed in Section 6.2.2.1 - Anti-infective Medicines -\nOther antibacterials",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 34,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      793.68
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.8.3",
+        "Ribavirin",
+        "S,T",
+        "Capsule 200 mg"
+      ],
+      [
+        "6.8.4",
+        "Sofosbuvir",
+        "S,T",
+        "Tablet 400 mg"
+      ],
+      [
+        "6.8.5",
+        "Tenofovir\nAlafenamide\nFumarate (TAF)",
+        "S,T",
+        "Tablet 25 mg"
+      ],
+      [
+        "6.8.6",
+        "Tenofovir Disproxil\nFumarate (TDF)*",
+        "S,T",
+        "Tablet 300 mg"
+      ],
+      [
+        "Section 6.9 -Antiprotozoal Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.9.1 - Medicines for Amoebiasis and other Parasitic Infections",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.9.1.1",
+        "Metronidazole**",
+        "P,S,T",
+        "Tablet 200 mg\nTablet 400 mg\nInjection 500 mg/100 mL\nOral liquid 200 mg/5 mL (p)"
+      ],
+      [
+        "* Tenofovir Disproxil Fumarate formulations are also listed in Section 6.7.1.4 -\nAnti-infective Medicines Medicines used in the management of HIV- Nucleoside reverse\ntranscriptase inhibitors\n** Metronidazole formulations are also listed in Section 6.2.2.9 - Anti-infective Medicines -\nAntibacterials Beta-lactam medicines - Other antibacterials",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 35,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      791.85
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "6.9.2 - Antileishmaniasis Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.9.2.1",
+        "Amphotericin B*",
+        "S,T",
+        "a) Amphotericin B\n(conventional)- Injection 50 mg\nb) Lipid Amphotericin B-\nInjection 50 mg\nc) Liposomal Amphotericin B-\nInjection 50 mg"
+      ],
+      [
+        "6.9.2.2",
+        "Miltefosine",
+        "P,S,T",
+        "Capsule 50 mg"
+      ],
+      [
+        "6.9.2.3",
+        "Paromomycin",
+        "P,S,T",
+        "Injection 375 mg/mL"
+      ],
+      [
+        "6.9.3 - Antipneumocystosis and Antitoxoplasmosis Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.9.3.1",
+        "Clindamycin**",
+        "P,S,T",
+        "Capsule 150 mg\nCapsule 300 mg"
+      ],
+      [
+        "*Amphotericin B formulations are also listed in Section 6.5.1 - Anti-infective Medicines-\nAntifungal medicines\n**Clindamycin formulations are also listed in -\nA. Section 6.2.2.5 - Anti-infective Medicines - Antibacterials -Other antibacterials\nB. Section 6.7.5.3 - Anti-infective Medicines - Antiviral medicines- Medicines for treating\nOpportunistic Infections in People living with HIV\nC. Section 6.10.1.5 - Anti-infective Medicines- Antimalarial Medicines - For curative\ntreatment",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 36,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      791.73
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.9.3.2",
+        "Co-trimoxazole*\n[Sulphamethoxazole\n(A) +\nTrimethoprim (B)]",
+        "P,S,T",
+        "Tablet 400 mg (A) + 80 mg (B)\nTablet 800 mg (A) + 160 mg (B)\nOral liquid 200 mg (A) +\n40 mg (B)/5 mL (p)"
+      ],
+      [
+        "6.10-Antimalarial Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.10.1 - For curative treatment",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.10.1.1",
+        "Artemether (A) +\nLumefantrine (B)",
+        "P,S,T",
+        "Tablet 20 mg (A) + 120 mg (B)\nTablet 40 mg (A) + 240 mg (B)\nTablet 80 mg (A) + 480 mg (B)"
+      ],
+      [
+        "6.10.1.2",
+        "Artesunate",
+        "P,S,T",
+        "Powder for Injection 60 mg\nPowder for Injection 120 mg"
+      ],
+      [
+        "6.10.1.3",
+        "Artesunate (A) +\nSulphadoxine -\nPyrimethamine (B)",
+        "P,S,T",
+        "Combi pack (A+B)\n1 Tablet 25 mg (A) + 1 Tablet\n(250 mg + 12.5 mg) (B)\n1 Tablet 50 mg (A) + 1 Tablet\n(500 mg + 25 mg) (B)\n1 Tablet 100 mg (A) + 1 Tablet\n(750 mg + 37.5 mg) (B)\n1 Tablet 150 mg (A) + 2 Tablet\n(500 mg + 25 mg) (B)\n1 Tablet 200 mg (A) + 2 Tablet\n(750 mg + 37.5 mg) (B)"
+      ],
+      [
+        "*Co-trimoxazole formulations are also listed in Section 6.2.2.6 - Anti-infective Medicines-\nAntibacterials - Other antibacterials",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 37,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      794.25
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.10.1.4",
+        "Chloroquine",
+        "P,S,T",
+        "Tablet 150 mg\nOral liquid 50 mg/5 mL"
+      ],
+      [
+        "6.10.1.5",
+        "Clindamycin*",
+        "P,S,T",
+        "Capsule 150 mg\nCapsule 300 mg"
+      ],
+      [
+        "6.10.1.6",
+        "Primaquine",
+        "P,S,T",
+        "Tablet 2.5 mg\nTablet 7.5 mg\nTablet 15 mg"
+      ],
+      [
+        "6.10.1.7",
+        "Quinine",
+        "P,S,T",
+        "Tablet 300 mg\nInjection 300 mg/mL"
+      ],
+      [
+        "6.10.2 - For prophylaxis",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6.10.2.1",
+        "Doxycycline**#",
+        "P,S,T",
+        "Capsule 100 mg\nOral liquid 50 mg/ 5mL\n#for prophylaxis of P. vivax"
+      ],
+      [
+        "6.10.2.2",
+        "Mefloquine#",
+        "T",
+        "Tablet 250 mg\n#Only for use as chemoprophylaxis for\nlong term travellers like military and\ntravel troops, travelling from low\nendemic to high endemic area."
+      ],
+      [
+        "* Clindamycin formulations are also listed in -\nA. Section 6.2.2.5 - Anti-infective Medicines - Antibacterials -Other antibacterials\nB. Section 6.7.5.3 - Anti-infective Medicines - Antiviral medicines- Medicines for treating\nOpportunistic Infections in People living with HIV\nC. Section 6.9.3.1 - Anti-infective Medicines - Antipneumocystosis and antitoxoplasmosis\nmedicines\n** Doxycycline formulations are also listed in Section 6.2.2.7 - Anti-infective Medicines-\nAntibacterials - Other antibacterials",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 38,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      770.64
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 7\nAnti-cancer agents including Immunosuppressives and Medicines\nused in Palliative Care",
+        "",
+        "",
+        ""
+      ],
+      [
+        "7.1 - Antineoplastic medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.1.1",
+        "5-Fluorouracil",
+        "T",
+        "Injection 250 mg/ 5 mL"
+      ],
+      [
+        "7.1.2",
+        "6-Mercaptopurine",
+        "T",
+        "Tablet 50 mg"
+      ],
+      [
+        "7.1.3",
+        "Actinomycin D",
+        "T",
+        "Powder for Injection 0.5 mg"
+      ],
+      [
+        "7.1.4",
+        "All-trans retinoic\nacid",
+        "T",
+        "Capsule 10 mg"
+      ],
+      [
+        "7.1.5",
+        "Arsenic trioxide",
+        "T",
+        "Injection 1mg/ mL"
+      ],
+      [
+        "7.1.6",
+        "Bendamustine\nhydrochloride",
+        "T",
+        "Injection 25 mg/ vial\nInjection 100 mg/vial"
+      ],
+      [
+        "7.1.7",
+        "Bleomycin",
+        "T",
+        "Powder for Injection 15 units"
+      ],
+      [
+        "7.1.8",
+        "Bortezomib",
+        "T",
+        "Powder for Injection 2 mg"
+      ],
+      [
+        "7.1.9",
+        "Calcium folinate",
+        "T",
+        "Tablet 15 mg\nInjection 3 mg/mL"
+      ],
+      [
+        "7.1.10",
+        "Capecitabine",
+        "T",
+        "Tablet 500 mg"
+      ]
+    ]
+  },
+  {
+    "page": 39,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      764.76
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.1.11",
+        "Carboplatin",
+        "T",
+        "Injection 10 mg/mL"
+      ],
+      [
+        "7.1.12",
+        "Chlorambucil",
+        "T",
+        "Tablet 2 mg\nTablet 5 mg"
+      ],
+      [
+        "7.1.13",
+        "Cisplatin",
+        "T",
+        "Injection 1mg/mL"
+      ],
+      [
+        "7.1.14",
+        "Cyclophosphamide",
+        "T",
+        "Tablet 50 mg\nPowder for Injection 500 mg"
+      ],
+      [
+        "7.1.15",
+        "Cytosine arabinoside",
+        "T",
+        "Injection 100 mg/vial\nInjection 500 mg/vial\nInjection 1000 mg/vial"
+      ],
+      [
+        "7.1.16",
+        "Dacarbazine",
+        "T",
+        "Powder for Injection 200 mg\nPowder for Injection 500 mg"
+      ],
+      [
+        "7.1.17",
+        "Daunorubicin",
+        "T",
+        "Injection 5 mg/mL"
+      ],
+      [
+        "7.1.18",
+        "Docetaxel",
+        "T",
+        "Powder for Injection 20 mg\nPowder for Injection 80 mg"
+      ],
+      [
+        "7.1.19",
+        "Doxorubicin",
+        "T",
+        "Injection 2 mg/mL"
+      ],
+      [
+        "7.1.20",
+        "Etoposide",
+        "T",
+        "Capsule 50 mg\nInjection 20 mg/mL"
+      ],
+      [
+        "7.1.21",
+        "Gefitinib",
+        "T",
+        "Tablet 250 mg"
+      ]
+    ]
+  },
+  {
+    "page": 40,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      797.13
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.1.22",
+        "Gemcitabine",
+        "T",
+        "Powder for Injection 200 mg\nPowder for Injection 1000 mg"
+      ],
+      [
+        "7.1.23",
+        "Hydroxyurea*",
+        "T",
+        "Capsule 500 mg"
+      ],
+      [
+        "7.1.24",
+        "Ifosfamide",
+        "T",
+        "Powder for Injection 1000 mg\nPowder for Injection 2000 mg"
+      ],
+      [
+        "7.1.25",
+        "Imatinib",
+        "T",
+        "Tablet 100 mg\nTablet 400 mg"
+      ],
+      [
+        "7.1.26",
+        "Irinotecan HCl\ntrihydrate",
+        "T",
+        "Solution for injection 20 mg/ mL"
+      ],
+      [
+        "7.1.27",
+        "L-Asparaginase",
+        "T",
+        "Powder for Injection 5000 KU\nPowder for Injection 10000 KU"
+      ],
+      [
+        "7.1.28",
+        "Lenalidomide",
+        "T",
+        "Capsule 5 mg\nCapsule 25 mg"
+      ],
+      [
+        "7.1.29",
+        "Melphalan",
+        "T",
+        "Tablet 2 mg\nTablet 5 mg"
+      ],
+      [
+        "7.1.30",
+        "Methotrexate**",
+        "S,T",
+        "Tablet 2.5 mg\nTablet 5 mg\nTablet 10 mg\nInjection 50 mg/mL"
+      ],
+      [
+        "*Hydroxyurea formulations are also listed in Section 8.1.6 - Medicines affecting Blood\nAntianaemia Medicines\n**Methotrexate formulations are also listed in Section 2.4.3 - Analgesics, Antipyretics, Non-\nsteroidal Anti-inflammatory Drugs (NSAIDs), Medicines used to treat Gout and Disease\nModifying Agents used in Rheumatoid Disorders - Disease Modifying Agents used in\nRheumatoid Disorders",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 41,
+    "bbox": [
+      93.53,
+      94.47,
+      559.02,
+      773.88
+    ],
+    "n_rows": 14,
+    "n_cols": 8,
+    "rows": [
+      [
+        "",
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "7.1.31",
+        "",
+        "Oxaliplatin",
+        "T",
+        "I\nI",
+        "njection 5 mg/mL in 10 mL vial",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "njection 5 mg/mL in 20 mL vial",
+        ""
+      ],
+      [
+        "7.1.32",
+        "",
+        "Paclitaxel",
+        "",
+        "T",
+        "Injection 30 mg/5 mL\nInjection 100 mg/16.7 mL",
+        "",
+        ""
+      ],
+      [
+        "7.1.33",
+        "",
+        "Rituximab",
+        "",
+        "T",
+        "Injection 10 mg/mL",
+        "",
+        ""
+      ],
+      [
+        "7.1.34",
+        "",
+        "Temozolomide",
+        "",
+        "T",
+        "Capsule 20 mg\nCapsule 100 mg\nCapsule 250 mg",
+        "",
+        ""
+      ],
+      [
+        "7.1.35",
+        "",
+        "Thalidomide",
+        "",
+        "T",
+        "Capsule 50 mg\nCapsule 100 mg",
+        "",
+        ""
+      ],
+      [
+        "7.1.36",
+        "",
+        "Trastuzumab",
+        "",
+        "T",
+        "Injection 440 mg/50 mL",
+        "",
+        ""
+      ],
+      [
+        "7.1.37",
+        "",
+        "Vinblastine",
+        "",
+        "T",
+        "Injection 1 mg/mL",
+        "",
+        ""
+      ],
+      [
+        "7.1.38",
+        "",
+        "Vincristine",
+        "",
+        "T",
+        "Injection 1 mg/mL",
+        "",
+        ""
+      ],
+      [
+        "7.2-Hormones and Anti-hormones used in Cancer Therapy",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)",
+        "",
+        ""
+      ],
+      [
+        "7.2.1",
+        "",
+        "Bicalutamide",
+        "",
+        "T",
+        "Tablet 50 mg",
+        "",
+        ""
+      ],
+      [
+        "7.2.2",
+        "",
+        "Letrozole",
+        "",
+        "T",
+        "Tablet 2.5 mg",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 42,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      793.44
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.2.3",
+        "Leuprolide acetate",
+        "T",
+        "Powder for injection 3.75 mg\nPowder for injection 11.25 mg\nPowder for injection 22.5 mg"
+      ],
+      [
+        "7.2.4",
+        "Prednisolone*",
+        "S,T",
+        "Tablet 10 mg\nTablet 20 mg\nTablet 40 mg\nOral liquid 5 mg/5 mL (p)\nOral liquid 15 mg/5 mL (p)\nInjection 20 mg/2 mL"
+      ],
+      [
+        "7.2.5",
+        "Tamoxifen",
+        "T",
+        "Tablet 10 mg\nTablet 20 mg"
+      ],
+      [
+        "7.3 - Immunosuppressive Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.3.1",
+        "Azathioprine**",
+        "T",
+        "Tablet 50 mg"
+      ],
+      [
+        "7.3.2",
+        "Cyclosporine",
+        "T",
+        "Capsule 25 mg\nCapsule 50 mg\nCapsule 100 mg\nOral liquid 100 mg/mL (p)\nInjection 50 mg/mL"
+      ],
+      [
+        "*Prednisolone formulations are also listed in -\nA. Section 3.6 - Antiallergics and Medicines used in Anaphylaxis\nB. Section 18.1.5 - Hormones, other Endocrine Medicines and Contraceptives -Adrenal\nHormones and synthetic substitutes\nC. Section 21.2.1 - Ophthalmological Medicines - Antiinflammatory Medicine\n**Azathioprine formulations are also listed in Section 2.4.1 - Analgesics, Antipyretics,\nNon-steroidal Anti-inflammatory Drugs (NSAIDs), Medicines used to treat Gout and\nDisease Modifying Agents used in Rheumatoid Disorders - Disease Modifying Agents used\nin Rheumatoid Disorders",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 43,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      794.73
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.3.3",
+        "Mycophenolate\nmofetil",
+        "T",
+        "Tablet 250 mg\nTablet 500 mg"
+      ],
+      [
+        "7.3.4",
+        "Tacrolimus",
+        "T",
+        "Capsule 0.5 mg\nCapsule 1 mg\nCapsule 2 mg"
+      ],
+      [
+        "7.4-Medicines used in Palliative Care",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.4.1",
+        "Allopurinol*",
+        "S,T",
+        "Tablet 100 mg"
+      ],
+      [
+        "7.4.2",
+        "Amitriptyline**",
+        "S,T",
+        "Tablet 10 mg\nTablet 25 mg"
+      ],
+      [
+        "7.4.3",
+        "Dexamethasone***",
+        "S,T",
+        "Tablet 0.5 mg\nTablet 4 mg\nInjection 4 mg/mL"
+      ],
+      [
+        "*Allopurinol formulations are also listed in Section 2.3.1 - Analgesics, Antipyretics, Non-\nsteroidal Anti-inflammatory Drugs (NSAIDs),Medicines used to treat Gout and Disease\nModifying Agents used in Rheumatoid Disorders - Medicines used to treat Gout\n**Amitriptyline formulations are also listed in A. Section 5.2.5 - Medicines used in\nNeurological Disorders - Anti-migraine medicines -\nFor prophylaxis\nB. Section 23.2.1.1 - Medicines in treatment of Psychiatric Disorders -Medicines used in\nmood disorders- Medicines used in depressive disorders\n***Dexamethasone formulations are also listed in\nA. Section 3.4 - Antiallergics and medicines used in anaphylaxis\nB. Section 18.1.1 - Hormones, other Endocrine Medicines and Contraceptives - Adrenal\nhormones and synthetic substitutes\nC. Section 27.1 - Medicines for COVID 19 management",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 44,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      795.21
+    ],
+    "n_rows": 8,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.4.4",
+        "Diazepam*",
+        "S,T",
+        "Tablet 2 mg\nTablet 5 mg\nInjection 5 mg/mL"
+      ],
+      [
+        "7.4.5",
+        "Filgrastim",
+        "T",
+        "Injection 300 mcg"
+      ],
+      [
+        "7.4.6",
+        "Fluoxetine**",
+        "S,T",
+        "Capsule 20 mg"
+      ],
+      [
+        "7.4.7",
+        "Haloperidol***",
+        "S,T",
+        "Tablet 1.5 mg\nTablet 5 mg\nInjection 5 mg/mL"
+      ],
+      [
+        "7.4.8",
+        "Lactulose****",
+        "S,T",
+        "Oral liquid 10 g/15 mL"
+      ],
+      [
+        "7.4.9",
+        "Loperamide",
+        "S,T",
+        "Tablet 2 mg"
+      ],
+      [
+        "*Diazepam formulations are also listed Section 5.1.3 - Medicines used in Neurological\nDisorders - Anticonvulsants/Antiepileptics\n**Fluoxetine formulations are also listed in\nA. Section 23.2.1.3 - Medicines in used in treatment of Psychiatric Disorders - Medicines\nused in mood disorders - Medicines used in depressive disorders\nB. Section 23.4.2 - Medicines used in treatment of Psychiatric Disorders - Medicines used in\nobsessive compulsive disorders and panic attacks\n***Haloperidol formulations are also listed in Section 23.1.3 -\nMedicines used in treatment of psychiatric Disorders - Medicines used in psychotic disorders\n****Lactulose formulations are also listed in Section 17.5.3 -\nGastrointestinal Medicines - Laxatives",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 45,
+    "bbox": [
+      93.5,
+      94.47,
+      559.06,
+      790.89
+    ],
+    "n_rows": 7,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.4.10",
+        "Metoclopramide*",
+        "S,T",
+        "Tablet 10 mg\nOral liquid 5 mg/5 mL (p)\nInjection 5 mg/mL"
+      ],
+      [
+        "7.4.11",
+        "Mesna",
+        "T",
+        "Injection 100 mg/mL"
+      ],
+      [
+        "7.4.12",
+        "Midazolam**",
+        "S,T",
+        "Injection 1 mg/mL"
+      ],
+      [
+        "7.4.13",
+        "Morphine***",
+        "S,T",
+        "Tablet 10 mg\nModified Release Tablet 30 mg"
+      ],
+      [
+        "7.4.14",
+        "Ondansetron****",
+        "S,T",
+        "Tablet 4 mg\nTablet 8 mg\nOral liquid 2 mg/5 mL (p)\nInjection 2 mg/mL"
+      ],
+      [
+        "*Metoclopramide formulations are also listed in Section 17.2.2 -\nGastrointestinal Medicines Antiemetics\n**Midazolam formulations are also listed in -\nA. Section 1.3.3 - Medicines used in Anaesthesia - Preoperative medication and sedation for\nshort term procedures\nB. Section 5.1.7 - Medicines used in Neurological Disorders -Anticonvulsants/Antiepileptics\n***Morphine formulations are also listed in -\nA. Section 1.3.4 - Medicines used in Anaesthesia - Preoperative medication and sedation for\nshort term procedures\nB. Section 2.2.2 - Analgesics, Antipyretics, Non-steroidal Anti-inflammatory Drugs (NSAIDs),\nMedicines used to treat Gout and Disease Modifying Agents used in Rheumatoid Disorders -\nOpioid Analgesics\n****Ondansetron formulations are also listed Section 17.2.3 - Gastrointestinal Medicines\nanti-ulcer medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 46,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      796.05
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "7.4.15",
+        "Tramadol*",
+        "S,T",
+        "Capsule 50 mg\nCapsule 100 mg\nInjection 50 mg/mL"
+      ],
+      [
+        "7.4.16",
+        "Zoledronic acid",
+        "T",
+        "Powder for Injection 4 mg"
+      ],
+      [
+        "Section 8\nMedicines affecting Blood",
+        "",
+        "",
+        ""
+      ],
+      [
+        "8.1- Antianaemia Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "8.1.1",
+        "Erythropoietin",
+        "S,T",
+        "Injection 2000 IU/mL\nInjection 10000 IU/mL"
+      ],
+      [
+        "8.1.2",
+        "Ferrous salts\n(a) Iron Dextran\n(b) Iron sorbitol\ncitrate complex",
+        "P,S,T",
+        "Tablet equivalent to 60 mg of\nelemental iron\nInjection 50 mg/mL\nInjection 50 mg/mL"
+      ],
+      [
+        "8.1.3",
+        "Ferrous Salt (A)+\nFolic acid (B)",
+        "P,S,T",
+        "Tablet 45 mg elemental iron (A)\n+ 400 mcg (B)\nTablet 100 mg elemental iron\n(A) + 500 mcg (B)\nOral liquid 20 mg elemental iron\n(A) + 100 mcg/mL (B) (p)"
+      ],
+      [
+        "*Tramadol formulations are also listed in Section 2.2.3 - Analgesics, Antipyretics, Non-\nsteroidal Anti-inflammatory Drugs (NSAIDs), Medicines used to treat Gout and disease\nModifying agents used in Rheumatoid Disorders- Opioid Analgesics",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 47,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      786.81
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "8.1.4",
+        "Folic Acid",
+        "P,S,T",
+        "Tablet 1 mg\nTablet 5 mg"
+      ],
+      [
+        "8.1.5",
+        "Hydroxocobalamin",
+        "P,S,T",
+        "Injection 1 mg/mL"
+      ],
+      [
+        "8.1.6",
+        "Hydroxyurea*",
+        "S,T",
+        "Capsule 500 mg"
+      ],
+      [
+        "8.1.7",
+        "Iron sucrose",
+        "S,T",
+        "Injection 20 mg/mL"
+      ],
+      [
+        "8.2 - Medicines affecting Coagulation",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "8.2.1",
+        "Enoxaparin**",
+        "S,T",
+        "Injection 40 mg/ 0.4 mL\nInjection 60 mg/ 0.6 mL"
+      ],
+      [
+        "8.2.2",
+        "Heparin***",
+        "S,T",
+        "Injection 1000 IU/mL\nInjection 5000 IU/mL"
+      ],
+      [
+        "8.2.3",
+        "Phytomenadione\n(Vitamin K )\n1",
+        "P,S,T",
+        "Tablet 10 mg\nInjection 10 mg/mL"
+      ],
+      [
+        "8.2.4",
+        "Protamine Sulphate",
+        "S,T",
+        "Injection 10 mg/mL"
+      ],
+      [
+        "8.2.5",
+        "Tranexamic acid",
+        "P,S,T",
+        "Tablet 500 mg\nInjection 100 mg/mL"
+      ],
+      [
+        "* Hydroxyurea formulations are also listed in Section 7.1.26 - Anti-cancer agents including\nImmunosuppressives, and Medicines used in Palliative Care Antineoplastic medicines\n** Enoxaparin formulations are also listed in\nA. Section 10.5.4 - Cardiovascular Medicines - Antiplatelet and Antithrombotic Medicines\nB. Section 27.2 - Medicines for COVID 19 management\n*** Heparin formulations are also listed in Section 10.5.5 - Cardiovascular Medicines -\nAntiplatelet and Antithrombotic Medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 48,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      752.28
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "8.2.6",
+        "Warfarin",
+        "S,T",
+        "Tablet 1 mg\nTablet 2 mg\nTablet 3 mg\nTablet 5 mg"
+      ],
+      [
+        "Section 9\nBlood products and Plasma substitutes",
+        "",
+        "",
+        ""
+      ],
+      [
+        "9.1 - Blood and Blood components",
+        "",
+        "",
+        ""
+      ],
+      [
+        "All forms of the following as approved by licensing authority are considered as\nincluded in NLEM. However, considering the process, technology and other\nrelevant aspects, they should be considered differently for purposes such as\nprocurement policy, pricing etc.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "9.1.1",
+        "Fresh frozen\nplasma",
+        "S,T",
+        "As licensed"
+      ],
+      [
+        "9.1.2",
+        "Platelet rich plasma/\nPlatelet concentrates",
+        "S,T",
+        "As licensed"
+      ],
+      [
+        "9.1.3",
+        "Red blood cells/\nPacked RBCs",
+        "S,T",
+        "As licensed"
+      ],
+      [
+        "9.1.4",
+        "Whole blood",
+        "S,T",
+        "As licensed"
+      ]
+    ]
+  },
+  {
+    "page": 49,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      709.2
+    ],
+    "n_rows": 9,
+    "n_cols": 5,
+    "rows": [
+      [
+        "9.2 - Plasma substitutes",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)",
+        ""
+      ],
+      [
+        "9.2.1",
+        "Dextran-40",
+        "S,T",
+        "Injection 10 %",
+        ""
+      ],
+      [
+        "9.3 - Plasma fractions for specific use",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "In case of coagulation factors and other blood products, irrespective of\nvariation in source, all forms of these products as approved by licensing\nauthority are considered as included in NLEM. However, considering the\nsource, process, technology and other relevant aspects, they should be\nconsidered differently for purposes such as procurement policy, pricing etc.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "9.3.1",
+        "Coagulation factor\nIX",
+        "S,T",
+        "",
+        "Powder for Injection 600 IU"
+      ],
+      [
+        "9.3.2",
+        "Coagulation factor\nVIII",
+        "S,T",
+        "",
+        "Powder for Injection 250 IU\nPowder for Injection 500 IU"
+      ],
+      [
+        "9.3.3",
+        "Cryoprecipitate",
+        "S,T",
+        "",
+        "As licensed"
+      ]
+    ]
+  },
+  {
+    "page": 50,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      758.64
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 10\nCardiovascular Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10.1-Medicines used in Angina",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "10.1.1",
+        "Diltiazem",
+        "P,S,T",
+        "Tablet 30 mg\nTablet 60 mg\nModified Release Tablet 180 mg"
+      ],
+      [
+        "",
+        "",
+        "S, T",
+        "Injection 5 mg/mL"
+      ],
+      [
+        "10.1.2",
+        "Glyceryl trinitrate",
+        "P,S,T",
+        "Sublingual Tablet 0.5 mg"
+      ],
+      [
+        "",
+        "",
+        "S,T",
+        "Injection 5 mg/mL"
+      ],
+      [
+        "10.1.3",
+        "Isosorbide dinitrate",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg"
+      ],
+      [
+        "10.1.4",
+        "Metoprolol",
+        "P,S,T",
+        "Tablet 25 mg\nTablet 50 mg\nTablet 100 mg\nModified Release Tablet 100 mg"
+      ],
+      [
+        "",
+        "",
+        "S,T",
+        "Injection 1 mg/mL"
+      ]
+    ]
+  },
+  {
+    "page": 51,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      790.89
+    ],
+    "n_rows": 12,
+    "n_cols": 5,
+    "rows": [
+      [
+        "10.2 - Antiarrhythmic medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and\nstrength(s)"
+      ],
+      [
+        "10.2.1",
+        "Adenosine",
+        "S,T",
+        "",
+        "Injection 3 mg/mL"
+      ],
+      [
+        "10.2.2",
+        "Amiodarone",
+        "S,T",
+        "",
+        "Tablet 100 mg\nTablet 200 mg\nInjection 50 mg/mL"
+      ],
+      [
+        "10.2.3",
+        "Digoxin*",
+        "S,T",
+        "",
+        "Tablet 0.25 mg\nOral liquid 0.05 mg/mL\nInjection 0.25 mg/mL"
+      ],
+      [
+        "10.2.4",
+        "Esmolol",
+        "S,T",
+        "",
+        "Injection 10 mg/mL"
+      ],
+      [
+        "10.2.5",
+        "Lignocaine**",
+        "S,T",
+        "Injection 2%",
+        ""
+      ],
+      [
+        "10.2.6",
+        "Verapamil",
+        "S,T",
+        "Tablet 40 mg\nTablet 80 mg\nInjection 2.5 mg/ mL",
+        ""
+      ],
+      [
+        "10.3 - Antihypertensive Medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)",
+        ""
+      ],
+      [
+        "10.3.1",
+        "Amlodipine",
+        "P,S,T",
+        "Tablet 2.5 mg\nTablet 5 mg\nTablet 10 mg",
+        ""
+      ],
+      [
+        "*Digoxin formulations are also listed in Section 10.4.1 - Cardiovascular Medicines -\nMedicines used in Shock and Heart Failure\n**Lignocaine formulations are also listed in Section 1.2.2 - Medicines used in Anaesthesia -\nLocal Anaesthetics",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 52,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      797.37
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "10.3.2",
+        "Enalapril",
+        "P,S,T",
+        "Tablet 2.5 mg\nTablet 5 mg"
+      ],
+      [
+        "10.3.3",
+        "Hydrochlorothiazide\n*",
+        "P,S,T",
+        "Tablet 12.5 mg\nTablet 25 mg"
+      ],
+      [
+        "10.3.4",
+        "Labetalol",
+        "P,S,T",
+        "Tablet 50 mg\nTablet 100 mg"
+      ],
+      [
+        "",
+        "",
+        "P,S,T",
+        "Injection 5 mg/mL"
+      ],
+      [
+        "10.3.5",
+        "Ramipril",
+        "P,S,T",
+        "Tablet 2.5 mg\nTablet 5 mg"
+      ],
+      [
+        "10.3.6",
+        "Sodium\nnitroprusside",
+        "S, T",
+        "Injection 10 mg/mL"
+      ],
+      [
+        "10.3.7",
+        "Telmisartan",
+        "P,S,T",
+        "Tablet 20 mg\nTablet 40 mg\nTablet 80 mg"
+      ],
+      [
+        "10.4 - Medicines used in Shock and Heart failure",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "10.4.1",
+        "Digoxin**",
+        "S,T",
+        "Tablet 0.25 mg\nOral liquid 0.05 mg/mL\nInjection 0.25 mg/mL"
+      ],
+      [
+        "*Hydrochlorothiazide formulations are also listed in Section 15.2 - Diuretics\n**Digoxin formulations are also listed in Section 10.2.3 - Cardiovascular Medicines -\nAntiarrhythmic medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 53,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      786.81
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "10.4.2",
+        "Dobutamine",
+        "S,T",
+        "Injection 50 mg/mL"
+      ],
+      [
+        "10.4.3",
+        "Dopamine",
+        "S,T",
+        "Injection 40 mg/mL"
+      ],
+      [
+        "10.4.4",
+        "Noradrenaline",
+        "S,T",
+        "Injection 2 mg/mL"
+      ],
+      [
+        "10.4.5",
+        "Spironolactone*",
+        "P,S,T",
+        "Tablet 25 mg\nTablet 50 mg"
+      ],
+      [
+        "10.5- Antiplatelet and Antithrombotic Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "10.5.1",
+        "Acetylsalicylic\nacid**",
+        "P,S,T",
+        "Conventional/Effervescent/\nDispersible/ Enteric coated\nTablets 150 mg\nConventional/Effervescent/\nDispersible/ Enteric coated\nTablets 325 mg\nEnteric coated Tablet 75 mg\nEnteric coated Tablet 100 mg"
+      ],
+      [
+        "*Spironolactone formulations are also listed in Section 15.4 - Diuretics\n**Acetylsalicyclic acid formulations are also listed in -\nA. Section 2.1.1 - Analgesics, Antipyretics, Non-steroidal Anti-inflammatory\nDrugs (NSAIDs), Medicines used to treat Gout and Disease Modifying Agents used in\nRheumatoid Disorders - Non-opioid Analgesics, Antipyretics and Non-steroidal Anti-\ninflammatory Drugs\nB. Section 5.2.1 - Medicines used in Neurological Disorders- Antimigraine medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 54,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      796.92
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "10.5.2",
+        "Clopidogrel",
+        "P,S,T",
+        "Tablet 75 mg\nTablet 150 mg"
+      ],
+      [
+        "10.5.3",
+        "Dabigatran",
+        "S, T",
+        "Tablet 110 mg\nTablet 150 mg"
+      ],
+      [
+        "10.5.4",
+        "Enoxaparin*",
+        "S,T",
+        "Injection 40 mg/ 0.4 mL\nInjection 60 mg/ 0.6 mL"
+      ],
+      [
+        "10.5.5",
+        "Heparin**",
+        "S,T",
+        "Injection 1000 IU/mL\nInjection 5000 IU/mL"
+      ],
+      [
+        "10.5.6",
+        "Streptokinase",
+        "S,T",
+        "Injection 750,000 IU\nInjection 15,00,000 IU"
+      ],
+      [
+        "10.5.7",
+        "Tenecteplase",
+        "S,T",
+        "Injection 30 mg/vial\nInjection 40 mg/vial"
+      ],
+      [
+        "10.6 - Hypolipidemic Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "10.6.1",
+        "Atorvastatin",
+        "P,S,T",
+        "Tablet 10 mg\nTablet 20 mg\nTablet 40 mg\nTablet 80 mg"
+      ],
+      [
+        "*Enoxaparin formulations are also listed in -\nA. Section 8.2.1 - Medicines affecting Blood - Medicines affecting coagulation\nB. Section 27.2 - Medicines for COVID 19 management\n**Heparin formulations are also listed in Section 8.2.2 - Medicines affecting Blood -\nMedicines affecting coagulation",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 55,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      779.64
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 11\nDermatological Medicines (Topical)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "11.1 - Antifungal Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "11.1.1",
+        "Clotrimazole*",
+        "P,S,T",
+        "Cream 1 %\nLotion 1 %"
+      ],
+      [
+        "11.2 - Antibacterial Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "11.2.1",
+        "Framycetin",
+        "P,S,T",
+        "Cream 1 %"
+      ],
+      [
+        "11.2.2",
+        "Fusidic acid",
+        "P,S,T",
+        "Cream 2 %"
+      ],
+      [
+        "11.2.3",
+        "Silver sulphadiazine",
+        "P,S,T",
+        "Cream 1 %"
+      ],
+      [
+        "11.3-Antiinflammatory and Antipruritic Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "11.3.1",
+        "Betamethasone\nvalerate",
+        "P,S,T",
+        "Cream 0.05 %\nCream 0.1 %"
+      ],
+      [
+        "*Clotrimazole formulations are also listed in -\nA. Section 6.5.2 - Anti-infective Medicines -Antifungal medicines\nB. Section 6.7.5.4 - Anti-infective Medicines Antiviral medicines- Medicines used in the\nmanagement of HIV\nC. Section 16.3 - Ear, Nose and ThroatMedicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 56,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      775.32
+    ],
+    "n_rows": 14,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "11.3.2",
+        "Calamine",
+        "P,S,T",
+        "Lotion (As per IP)"
+      ],
+      [
+        "11.4 - Keratolytic agents",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "11.4.1",
+        "Benzoyl peroxide",
+        "P,S,T",
+        "Gel 2.5 % - 5 %"
+      ],
+      [
+        "11.4.2",
+        "Coal tar (A) +\nSalicylic Acid (B)",
+        "P,S,T",
+        "Solution 1 % (A) + 3 % (B)"
+      ],
+      [
+        "11.4.3",
+        "Podophyllin resin",
+        "S,T",
+        "Solution 20 %"
+      ],
+      [
+        "11.4.4",
+        "Salicylic acid",
+        "P,S,T",
+        "Ointment 3-6 %"
+      ],
+      [
+        "11.5 - Scabicides and Pediculicides",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "11.5.1",
+        "Permethrin",
+        "P,S,T",
+        "Lotion 1 %\nCream 5 %"
+      ],
+      [
+        "11.6 Miscellaneous",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "11.6.1",
+        "Glycerin/glycerol\n(as mentioned in IP)",
+        "P,S,T",
+        "Topical"
+      ]
+    ]
+  },
+  {
+    "page": 57,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      736.05
+    ],
+    "n_rows": 12,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 12\nDiagnostic agents",
+        "",
+        "",
+        ""
+      ],
+      [
+        "12.1 - Ophthalmic Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "12.1.1",
+        "Fluorescein",
+        "S,T",
+        "Ophthalmic Strips"
+      ],
+      [
+        "12.1.2",
+        "Proparacaine*",
+        "S,T",
+        "Eye Drops 0.5%"
+      ],
+      [
+        "12.1.3",
+        "Tropicamide**",
+        "S,T",
+        "Eye drop 1 %"
+      ],
+      [
+        "12.2 - Radiocontrast Media",
+        "",
+        "",
+        ""
+      ],
+      [
+        "12.2.1",
+        "Barium sulphate",
+        "S,T",
+        "Oral Liquid 95% w/v"
+      ],
+      [
+        "12.2.2",
+        "Gadobenate\ndimeglumine",
+        "T",
+        "Injection 529 mg/mL"
+      ],
+      [
+        "12.2.3",
+        "Iohexol",
+        "S,T",
+        "Injection 140 to 350 mg\niodine/mL"
+      ],
+      [
+        "12.2.4",
+        "Meglumine\ndiatrizoate",
+        "S,T",
+        "Injection 60 % w/v\nInjection 76 % w/v"
+      ],
+      [
+        "* Proparacaine formulations are also listed in Section 21.3.1 - Ophthalmological Medicines-\nLocal Anaesthetics\n** Tropicamide formulations are also listed in Section 21.5.4 - Ophthalmological Medicines\nMydriatics",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 58,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      771.21
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 13\nDialysis components (Haemodialysis and Peritoneal Dialysis)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "13.1",
+        "Haemodialysis\nfluid",
+        "S,T",
+        "As licensed"
+      ],
+      [
+        "13.2",
+        "Peritoneal\ndialysis solution",
+        "S,T",
+        "As licensed"
+      ],
+      [
+        "Section 14\nAntiseptics and Disinfectants",
+        "",
+        "",
+        ""
+      ],
+      [
+        "14.1 Antiseptics",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "14.1.1",
+        "Chlorhexidine",
+        "P,S,T",
+        "Solution 5% (Concentrate)"
+      ],
+      [
+        "14.1.2",
+        "Ethyl alcohol\n(Denatured)",
+        "P,S,T",
+        "Solution 70%"
+      ],
+      [
+        "14.1.3",
+        "Hydrogen peroxide",
+        "P,S,T",
+        "Solution 6 %"
+      ],
+      [
+        "14.1.4",
+        "Methylrosanilinium\nchloride\n(Gentian Violet)",
+        "P,S,T",
+        "Topical preparation 0.25% to 2%"
+      ],
+      [
+        "14.1.5",
+        "Povidone iodine*",
+        "P,S,T",
+        "Solution 4 % to 10 %"
+      ],
+      [
+        "*Povidone Iodine formulations are also listed in Section 21.1.5 - Ophthalmological\nMedicines - Anti-infective medicine",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 59,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      775.77
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "14.2 Disinfectants",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "14.2.1",
+        "Glutaraldehyde",
+        "S,T",
+        "As Licensed"
+      ],
+      [
+        "14.2.2",
+        "Potassium\npermanganate",
+        "P,S,T",
+        "Crystals for topical\nsolution"
+      ],
+      [
+        "Section 15\nDiuretics",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "15.1",
+        "Furosemide",
+        "P,S,T",
+        "Tablet 40 mg\nOral liquid 10 mg/mL\nInjection 10 mg/ mL"
+      ],
+      [
+        "15.2",
+        "Hydrochlorothiazide\n*",
+        "P,S,T",
+        "Tablet 25 mg\nTablet 50 mg"
+      ],
+      [
+        "15.3",
+        "Mannitol",
+        "P,S,T",
+        "Injection 10 %\nInjection 20 %"
+      ],
+      [
+        "15.4",
+        "Spironolactone**",
+        "P,S,T",
+        "Tablet 25 mg\nTablet 50 mg"
+      ],
+      [
+        "* Hydrochlorothiazide formulations are also listed in Section 10.3.3 - Antihypertensive\nMedicines\n**Spironolactone formulations are also listed in Section 10.4.5 - Cardiovascular Medicines -\nMedicines used in shock and heart failure",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 60,
+    "bbox": [
+      93.5,
+      94.47,
+      559.06,
+      741.33
+    ],
+    "n_rows": 7,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 16\nEar, Nose and Throat Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "16.1",
+        "Budesonide*",
+        "P,S,T",
+        "Nasal Spray 50 mcg/dose\nNasal Spray 100 mcg/dose"
+      ],
+      [
+        "16.2",
+        "Ciprofloxacin**",
+        "P,S,T",
+        "Drops 0.3 %"
+      ],
+      [
+        "16.3",
+        "Clotrimazole***",
+        "P,S,T",
+        "Drops 1 %"
+      ],
+      [
+        "16.4",
+        "Xylometazoline",
+        "P,S,T",
+        "Nasal drops 0.05 %\nNasal drops 0.1 %"
+      ],
+      [
+        "*Budesonide formulations are also listed in Section 24.1 - Medicines acting on the\nrespiratory tract - Antiasthmatic Medicines\n**Ciprofloxacin formulations are also listed in\nA. Section 6.2.2.3 - Anti-infective Medicines- Antibacterials -Other Antibacterials\nB. Section 21.1.2 - Ophthalmological Medicines- Anti-infective Medicines\n***Clotrimazole formulations are also listed in -\nA. Section 6.5.2 - Anti-infective Medicines -Antifungal medicines\nB. Section 6.7.5.4 - Anti-infective Medicines Antiviral medicines- Medicines used in the\nmanagement of HIV\nC. Section 11.1.1 - Dermatological Medicines (Topical) -Antifungal medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 61,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      787.41
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 17\nGastrointestinal Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "17.1 - Antiulcer Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17.1.1",
+        "Omeprazole",
+        "P,S,T",
+        "Capsule 10 mg\nCapsule 20 mg\nCapsule 40 mg\nPowder for oral liquid 20 mg"
+      ],
+      [
+        "17.1.2",
+        "Pantoprazole",
+        "S,T",
+        "Injection 40 mg"
+      ],
+      [
+        "17.2 Antiemetics",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17.2.1",
+        "Domperidone",
+        "P,S,T",
+        "Tablet 10 mg\nOral Liquid 1 mg/mL"
+      ],
+      [
+        "17.2.2",
+        "Metoclopramide*",
+        "P,S,T",
+        "Tablet 10 mg\nInjection 5 mg/mL"
+      ],
+      [
+        "17.2.3",
+        "Ondansetron*",
+        "S,T",
+        "Tablet 4 mg\nOral Liquid 2 mg/5 mL (p)\nInjection 2 mg/ mL"
+      ],
+      [
+        "*Metoclopramide formulations are also listed in Section 7.4.10 - Anti-cancer agents\nincluding Immunosuppressives, and Medicines used in Palliative Care Medicines used in\nPalliative Care\n*Ondansetron formulations are also listed in Section 7.4.14 - Anti-cancer agents including\nImmunosuppressives, and Medicines used in Palliative Care Medicines used in Palliative\nCare",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 62,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      765.24
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "17.3 Anti-inflammatory medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17.3.1",
+        "5-aminosalicylic\nacid\n(Mesalazine/\nMesalaine)",
+        "S, T",
+        "Tablet 400 mg\nSuppository 500 mg\nRetention Enema"
+      ],
+      [
+        "17.4 Antispasmodic medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17.4.1",
+        "Dicyclomine",
+        "P,S,T",
+        "Tablet 10 mg\nOral Solution 10 mg/5mL\nInjection 10 mg/ mL"
+      ],
+      [
+        "17.4.2",
+        "Hyoscine\nbutyl bromide",
+        "P,S,T",
+        "Tablet 100 mg\nInjection 20 mg/ mL"
+      ],
+      [
+        "17.5 Laxatives",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17.5.1",
+        "Bisacodyl",
+        "P,S,T",
+        "Tablet 5 mg\nSuppository 5 mg"
+      ],
+      [
+        "17.5.2",
+        "Ispaghula",
+        "P,S,T",
+        "Granules/ Husk/ Powder"
+      ]
+    ]
+  },
+  {
+    "page": 63,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      687.81
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17.5.3",
+        "Lactulose*",
+        "S,T",
+        "Oral Liquid 10 g/15 mL"
+      ],
+      [
+        "17.6 Medicines used in diarrhea",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17.6.1",
+        "Oral rehydration\nsalts**",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "17.6.2",
+        "Zinc Sulphate",
+        "P,S,T",
+        "Dispersible Tablet 20 mg"
+      ],
+      [
+        "17.7 Other medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17.7.1",
+        "Somatostatin",
+        "T",
+        "Powder for Injection 3 mg"
+      ],
+      [
+        "*Lactulose formulations are also listed in Section 7.4.8 - Anti-cancer agents including\nImmunosuppressives, and Medicines used in Palliative Care - Medicines used in Palliative\nCare\n**Oral rehydration salts formulations are also listed in Section 25.3 - Solutions correcting\nwater, electrolyte disturbances and acid-base disturbances",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 64,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      775.77
+    ],
+    "n_rows": 8,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 18\nHormones, other Endocrine Medicines and Contraceptives",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18.1-Adrenal Hormones and Synthetic substitutes",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.1.1",
+        "Dexamethasone*",
+        "S,T",
+        "Tablet 0.5 mg\nInjection 4 mg/mL"
+      ],
+      [
+        "18.1.2",
+        "Fludrocortisone",
+        "S,T",
+        "Tablet 0.1 mg"
+      ],
+      [
+        "18.1.3",
+        "Hydrocortisone**",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg\nTablet 20 mg\nPowder for Injection 100 mg"
+      ],
+      [
+        "18.1.4",
+        "Methylprednisolone\n***",
+        "S,T",
+        "Injection 40mg/mL"
+      ],
+      [
+        "*Dexamethasone formulations are also listed in -\nA. Section 3.4 - Antiallergics and Medicines used in Anaphylaxis\nB. Section 7.4.3 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative Care - Medicines used in Palliative Care\nC. Section 27.1 - Medicines for COVID 19 Management\n** Hydrocortisone formulations are also listed in Section 3.5 - Antiallergics and Medicines\nused in Anaphylaxis\n*** Methylprednisolone formulations are also listed in section 27.3-\nMedicines for COVID - 19 management",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 65,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      771.57
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.1.5",
+        "Prednisolone*",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg\nTablet 20 mg\nOral liquid 5 mg/5 mL (p)\nOral liquid 15 mg/5 mL (p)"
+      ],
+      [
+        "18.2 Contraceptives",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18.2.1 - Hormonal Contraceptives",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.2.1.1",
+        "Ethinylestradiol (A)+\nLevonorgestrel (B)",
+        "P,S,T",
+        "Tablet 0.03 mg (A) +\nTablet 0.15 mg (B)"
+      ],
+      [
+        "18.2.1.2",
+        "Levonorgestrel",
+        "P,S,T",
+        "Tablet 0.75 mg\nTablet 1.5 mg"
+      ],
+      [
+        "18.2.1.3",
+        "Ormeloxifene\n(Centchroman)",
+        "P,S,T",
+        "Tablet 30 mg"
+      ],
+      [
+        "*Prednisolone formulations are also listed in -\nA. Section 3.7 - Antiallergics and Medicines used in Anaphylaxis\nB. Section 7.2.4 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative Care Hormones and anti- hormones used in cancer therapy\nC. Section 21.2.1 - Ophthalmological Medicines - Antiinflammatory medicine",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 66,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      789.72
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "18.2.2 - Intrauterine Devices",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.2.2.1",
+        "Hormone releasing\nIUD",
+        "T",
+        "Contains 52 mg of\nLevonorgestrel"
+      ],
+      [
+        "18.2.2.2",
+        "IUD containing\nCopper",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "18.2.3 - Barrier methods",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.2.3.1",
+        "Condom",
+        "P,S,T",
+        "As Licensed as per the\nstandards of Drugs Rules, 1945"
+      ],
+      [
+        "18.3 - Medicines used in Diabetes Mellitus",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18.3.1 - Insulins and other Antidiabetic agents",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.3.1.1",
+        "Glimepiride",
+        "P,S,T",
+        "Tablet 1 mg\nTablet 2 mg"
+      ],
+      [
+        "18.3.1.2",
+        "Insulin (Soluble)",
+        "P,S,T",
+        "Injection 40 IU/mL"
+      ],
+      [
+        "18.3.1.3",
+        "Insulin\nIntermediate\nActing (NPH)",
+        "P,S,T",
+        "Injection 40 IU/mL"
+      ]
+    ]
+  },
+  {
+    "page": 67,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      786.45
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.3.1.4",
+        "Insulin Glargine",
+        "P,S,T",
+        "Injection 100 IU/mL"
+      ],
+      [
+        "18.3.1.5",
+        "Insulin Premix\nInjection 30:70\n(Regular : NPH)",
+        "P,S,T",
+        "Injection 40 IU/mL"
+      ],
+      [
+        "18.3.1.6",
+        "Metformin",
+        "P,S,T",
+        "Tablet 500 mg\nTablet 1000 mg\nModified release Tablet 1000 mg"
+      ],
+      [
+        "18.3.1.7",
+        "Teneligliptin",
+        "P,S,T",
+        "Tablet 20 mg"
+      ],
+      [
+        "18.3.2 - Medicines used to treat Hypoglycemia",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.3.2.1",
+        "Glucose*",
+        "P,S,T",
+        "Injection 25 %"
+      ],
+      [
+        "18.4-Ovulation Inducers",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.4.1",
+        "Clomiphene citrate",
+        "T",
+        "Tablet 50 mg\nTablet 100 mg"
+      ],
+      [
+        "18.4.2",
+        "Human chorionic\ngonadotropin",
+        "S,T",
+        "Injection 2000 IU\nInjection 5000 IU\nInjection 10000 IU"
+      ],
+      [
+        "*Glucose formulations are also listed in Section 25.1 - Solutions correcting water, electrolyte\ndisturbances and acid-base disturbances",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 68,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      784.29
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "18.5-Progestogens",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.5.1",
+        "Medroxyprogesterone\nacetate",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg\nInjection 150 mg/ mL"
+      ],
+      [
+        "18.5.2",
+        "Norethisterone",
+        "P,S,T",
+        "Tablet 5 mg"
+      ],
+      [
+        "18.6-Thyroid and Antithyroid Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18.6.1",
+        "Carbimazole",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg\nTablet 20 mg"
+      ],
+      [
+        "18.6.2",
+        "Levothyroxine",
+        "P,S,T",
+        "Tablet 12.5 mcg to 150 mcg*\n(*Several strengths are available in\nmarket such as 12.5,25,50,62.5, 75,\n88,100, 112mcg. Therefore, it was\nconsidered to give a range of available\nstrengths)"
+      ],
+      [
+        "Section 19\nImmunologicals",
+        "",
+        "",
+        ""
+      ],
+      [
+        "In case of these biologicals, irrespective of variation in source, composition and\nstrengths, all the products of the same vaccine/ sera/ immunoglobulin, as\napproved by licensing authority are considered as included in NLEM. However,\nconsidering the source, process, technology and other relevant aspects, different\nproducts of the same biological should be considered differently for purposes\nsuch as procurement policy, pricing etc.",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 69,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      791.25
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "19.1-Diagnostic agents",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "19.1.1",
+        "Tuberculin,\nPurified Protein\nderivative",
+        "P,S,T",
+        "As Licensed"
+      ],
+      [
+        "19.2-Sera and Immunoglobulins (Liquid/ Lyophilized)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "19.2.1",
+        "Anti-rabies\nimmunoglobulin",
+        "P,S,T",
+        "As Licensed"
+      ],
+      [
+        "19.2.2",
+        "Anti-tetanus\nimmunoglobulin",
+        "P,S,T",
+        "As Licensed"
+      ],
+      [
+        "19.2.3",
+        "Anti-D\nimmunoglobulin",
+        "S,T",
+        "As Licensed"
+      ],
+      [
+        "19.2.4",
+        "Diphtheria antitoxin",
+        "P,S,T",
+        "As Licensed"
+      ],
+      [
+        "19.2.5",
+        "Hepatitis B\nimmunoglobulin",
+        "S,T",
+        "As Licensed"
+      ],
+      [
+        "19.2.6",
+        "Human normal\nimmunoglobulin",
+        "T",
+        "As Licensed"
+      ],
+      [
+        "19.2.7",
+        "Snake Venom\nAntiserum*",
+        "P,S,T",
+        "a) Soluble/ liquid polyvalent -\nAs Licensed\nb) Lyophilized polyvalent - As\nLicensed"
+      ],
+      [
+        "*Snake Venom antiserum also listed in Section 4.2.12 - Antidotes and Other Substances used\nin Management of Poisonings/Envenomation Specific",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 70,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      764.04
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "19.3-Vaccines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "a) All the vaccines which are under Universal Immunization Program of India\n(UIP) will be deemed included in NLEM. Presently, the UIP has BCG, DPT,\nOPV, measles, Hepatitis B, Japanese encephalitis, Pentavalent Vaccines and\nRota virus vaccine.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "b) The vaccines, which have been approved by National Technical Advisory\nGroup on Immunization (NTAGI) and planned to be given under UIP, will be\ndeemed to be included as and when listed in UIP. These vaccines are inactivated\npolio vaccine (IPV) and Measles Rubella (MR).",
+        "",
+        "",
+        ""
+      ],
+      [
+        "c) In future, the vaccines which are under consideration, if and when included in\nUIP, will also be deemed included from the date of inclusion in UIP. These are\npneumococcal and HPV vaccines.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "For Universal Immunization",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "19.3.1",
+        "BCG vaccine",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "19.3.2",
+        "DPT+ Hib+ Hep\nB vaccine",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "19.3.3",
+        "DPT vaccine",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "19.3.4",
+        "Hepatitis B vaccine",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "19.3.5",
+        "Japanese\nencephalitis vaccine",
+        "P,S,T",
+        "As licensed"
+      ]
+    ]
+  },
+  {
+    "page": 71,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      735.96
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "19.3.6",
+        "Measles vaccine",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "19.3.7",
+        "Oral poliomyelitis\nvaccine",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "19.3.8",
+        "Rotavirus vaccine",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "19.3.9",
+        "Tetanus toxoid",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "19.4 - For Specific Group of Individuals",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "19.4.1",
+        "Rabies vaccine",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "Section 20\nMedicines for Neonatal Care",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "20.1",
+        "Alprostadil",
+        "S,T",
+        "Injection 0.5 mg/mL"
+      ],
+      [
+        "20.2",
+        "Caffeine",
+        "S,T",
+        "Oral liquid 20 mg/mL\nInjection 20 mg/mL"
+      ],
+      [
+        "20.3",
+        "Surfactant",
+        "S,T",
+        "Suspension for intratracheal\ninstillation (As licensed)"
+      ]
+    ]
+  },
+  {
+    "page": 72,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      798.21
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Section 21\nOphthalmological Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "21.1-Anti-infective Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "21.1.1",
+        "Acyclovir*",
+        "P,S,T",
+        "Ointment 3%"
+      ],
+      [
+        "21.1.2",
+        "Ciprofloxacin**",
+        "P,S,T",
+        "Drops 0.3%\nOintment 0.3%"
+      ],
+      [
+        "21.1.3",
+        "Natamycin",
+        "P,S,T",
+        "Drops 5 %"
+      ],
+      [
+        "21.1.4",
+        "Povidone iodine***",
+        "P,S,T",
+        "Drops 5 %"
+      ],
+      [
+        "21.2-Antiinflammatory Medicine",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "21.2.1",
+        "Prednisolone****",
+        "P,S,T",
+        "Drops 1 %"
+      ],
+      [
+        "*Acyclovir formulations are also listed in -\nA. Anti-infective Medicines -Antiviral medicines -Anti-herpes medicines Section 6.6.1.1\nB. Anti-infective Medicines -Medicines used in the management of HIV -Medicines for\ntreating Opportunistic Infections in People living with HIV Section 6.7.5.1\n**Ciprofloxacin formulations are also listed in -\nA. Section 6.2.2.3 - Anti-infective Medicines- Antibacterials - Other Antibacterials\nB. Section 16.2 Ear, Nose and Throat Medicines\n***Povidone Iodine Also listed in Section 14.1.5 - Antiseptics and Disinfectants- Antiseptics\n****Prednisolone formulations are also listed in -\nA. Section 3.7 - Antiallergics and Medicines used in Anaphylaxis\nB. Section 7.2.4 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative Care Hormones and anti-hormones used in cancer therapy\nC. Section 18.1.5 - Hormones, other Endocrine Medicines and Contraceptives- Adrenal\nHormones and synthetic substitutes",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 73,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      798.21
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "21.3- Local Anaesthetic",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "21.3.1",
+        "Proparacaine*",
+        "P,S,T",
+        "Drops 0.5 %"
+      ],
+      [
+        "21.4-Miotics and Antiglaucoma Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "21.4.1",
+        "Acetazolamide",
+        "P,S,T",
+        "Tablet 250 mg"
+      ],
+      [
+        "21.4.2",
+        "Latanoprost",
+        "P,S,T",
+        "Drops 0.005 %"
+      ],
+      [
+        "21.4.3",
+        "Pilocarpine",
+        "P,S,T",
+        "Drops 2 %\nDrops 4 %"
+      ],
+      [
+        "21.4.4",
+        "Timolol",
+        "P,S,T",
+        "Drops 0.25 %\nDrops 0.5 %"
+      ],
+      [
+        "21.5-Mydriatics",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "21.5.1",
+        "Atropine**",
+        "P,S,T",
+        "Drops 1%\nOintment 1%"
+      ],
+      [
+        "*Proparacaine formulations are also listed in listed in Section 12.1.2 -\nDiagnostic agents- Ophthalmic Medicines\n**Atropine formulations are also listed in -\nA. Section 1.3.1 - Medicines used in Anaesthesia -Preoperative medication and sedation for\nshort term procedures\nB. Section 4.2.1 - Antidotes and Other substances used in Management of\npoisoning/Envenomation - specific",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 74,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      798.69
+    ],
+    "n_rows": 14,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "21.5.2",
+        "Homatropine",
+        "P,S,T",
+        "Drops 2%"
+      ],
+      [
+        "21.5.3",
+        "Phenylephrine",
+        "P,S,T",
+        "Drops 5 %\nDrops 10 %"
+      ],
+      [
+        "21.5.4",
+        "Tropicamide*",
+        "P,S,T",
+        "Drops 1 %"
+      ],
+      [
+        "21.6-Miscellaneous",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "21.6.1",
+        "Carboxymethyl\ncellulose",
+        "P,S,T",
+        "Drops 0.5%\nDrops 1%"
+      ],
+      [
+        "21.6.2",
+        "Hydroxypropyl\nmethylcellulose",
+        "T",
+        "Injection 2%"
+      ],
+      [
+        "Section 22\nOxytocics and Antioxytocics",
+        "",
+        "",
+        ""
+      ],
+      [
+        "22.1 - Oxytocics and Abortifacient",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "22.1.1",
+        "Dinoprostone",
+        "S,T",
+        "Tablet 0.5 mg\nGel 0.5 mg"
+      ],
+      [
+        "22.1.2",
+        "Methylergometrine",
+        "P,S,T",
+        "Tablet 0.125 mg\nInjection 0.2 mg/mL"
+      ],
+      [
+        "*Tropicamide formulations are also listed in Section 12.1.3 - Diagnostic agents - Ophthalmic\nMedicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 75,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      791.52
+    ],
+    "n_rows": 13,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "22.1.3",
+        "Mifepristone",
+        "P,S,T",
+        "Tablet 200 mg"
+      ],
+      [
+        "22.1.4",
+        "Misoprostol",
+        "P,S,T",
+        "Tablet 100 mcg\nTablet 200 mcg"
+      ],
+      [
+        "22.1.5",
+        "Oxytocin",
+        "P,S,T",
+        "Injection 5 IU/mL\nInjection 10 IU/mL"
+      ],
+      [
+        "22.2 - Medicines used in Preterm Labour",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "22.2.1",
+        "Betamethasone",
+        "P,S,T",
+        "Injection 4 mg/mL"
+      ],
+      [
+        "22.2.2",
+        "Nifedipine",
+        "S,T",
+        "Tablet 10 mg"
+      ],
+      [
+        "Section 23\nMedicines used in treatment of Psychiatric Disorders",
+        "",
+        "",
+        ""
+      ],
+      [
+        "23.1 - Medicines used in Psychotic Disorders",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23.1.1",
+        "Clozapine",
+        "T",
+        "Tablet 25 mg\nTablet 50 mg\nTablet 100 mg"
+      ],
+      [
+        "23.1.2",
+        "Fluphenazine",
+        "P,S,T",
+        "Injection 25 mg/mL"
+      ]
+    ]
+  },
+  {
+    "page": 76,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      792.81
+    ],
+    "n_rows": 8,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23.1.3",
+        "Haloperidol*",
+        "S,T",
+        "Tablet 2 mg\nTablet 5 mg\nTablet 10 mg\nTablet 20 mg\nOral liquid 2 mg/5 mL\nInjection 5 mg/mL"
+      ],
+      [
+        "23.1.4",
+        "Risperidone",
+        "P,S,T",
+        "Tablet 1 mg\nTablet 2 mg\nTablet 4 mg\nOral liquid 1 mg/mL\nInjection (Long acting) 25 mg\nInjection (Long acting) 37.5 mg"
+      ],
+      [
+        "23.2 - Medicines used in Mood Disorders",
+        "",
+        "",
+        ""
+      ],
+      [
+        "23.2.1 - Medicines used in Depressive Disorders",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23.2.1.1",
+        "Amitriptyline**",
+        "P,S,T",
+        "Tablet 10 mg\nTablet 25 mg\nTablet 50 mg\nTablet 75 mg"
+      ],
+      [
+        "*Haloperidol formulations are also listed in Section 7.4.7 - Anti-cancer agents including\nImmunosuppressives, and Medicines used in Palliative are- Medicines used in Palliative Care\n**Amitriptyline formulations are also listed in -\nA. Section 5.2.5 - Medicines used in Neurological Disorders - Anti-migraine medicines-\nFor prophylaxis\nB. Section 7.4.2 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative are- Medicines used in Palliative Care",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 77,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      792.24
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23.2.1.2",
+        "Escitalopram",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg\nTablet 20 mg"
+      ],
+      [
+        "23.2.1.3",
+        "Fluoxetine*",
+        "P,S,T",
+        "Capsule 10 mg\nCapsule 20 mg\nCapsule 40 mg\nCapsule 60 mg"
+      ],
+      [
+        "23.2.2 - Medicines used in Bipolar Disorders",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23.2.2.1",
+        "Lithium",
+        "S,T",
+        "Tablet 300 mg"
+      ],
+      [
+        "23.2.2.2",
+        "Sodium valproate**",
+        "P,S,T",
+        "Tablet 200 mg\nTablet 300 mg\nTablet 500 mg\nModified Release -\nTablet 300 mg\nTablet 500 mg"
+      ],
+      [
+        "23.2.2.3",
+        "Carbamazepine***",
+        "P,S,T",
+        "Tablet 100 mg\nTablet 200 mg\nTablet 400 mg\nModified Release -\nTablet 200 mg\nTablet 400 mg\nOral liquid 100 mg/5 mL (p)"
+      ],
+      [
+        "*Fluoxetine formulations are also listed in -\nA. Section 7.4.6 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative are- Medicines used in Palliative Care\nB. Section 7.4.6 - Medicines used in treatment of psychiatric Disorders - Medicines used in\nobsessive compulsive disorders and panic attacks\n** Sodium Valproate formulations are also listed in Section 5.1.10 - Medicines used in\nNeurological Disorders -Anticonvulsants /antiepileptics\n***Carbamazepine formulations are also listed in Section 5.1.1 - Medicines used in\nNeurological Disorders- Anticonvulsants/antiepileptics",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 78,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      778.65
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "23.3 - Medicines used in Generalized Anxiety and Sleep Disorders",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23.3.1",
+        "Clonazepam",
+        "P,S,T",
+        "Tablet 0.25 mg\nTablet 0.5 mg\nTablet 1 mg"
+      ],
+      [
+        "23.3.2",
+        "Zolpidem",
+        "P,S,T",
+        "Tablet 5 mg\nTablet 10 mg"
+      ],
+      [
+        "23.4 - Medicines used in Obsessive Compulsive Disorders and Panic attacks",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23.4.1",
+        "Clomipramine",
+        "P,S,T",
+        "Capsule 10 mg\nCapsule 25 mg\nCapsule 75 mg"
+      ],
+      [
+        "23.4.2",
+        "Fluoxetine*",
+        "S,T",
+        "Capsule 10 mg\nCapsule 20 mg\nCapsule 40 mg\nCapsule 60 mg"
+      ],
+      [
+        "*Fluoxetine formulations are also listed in -\nA. Section 7.4.6 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative are- Medicines used in Palliative Care\nB. Section 23.2.1.3 Medicines used in treatment of Psychiatric Disorders - Medicines used\nin mood disorders - Medicines used in depressive disorders",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 79,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      787.41
+    ],
+    "n_rows": 10,
+    "n_cols": 4,
+    "rows": [
+      [
+        "23.5 Medicines used in Disorders due to Psychoactive substance abuse",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23.5.1",
+        "Buprenorphine",
+        "P,S,T",
+        "Tablet (Sub-lingual) 0.4 mg"
+      ],
+      [
+        "23.5.2",
+        "Buprenorphine (A) +\nNaloxone (B)",
+        "P,S,T",
+        "Tablet (Sub-lingual) 0.4 mg (A)\n+ 0.1 mg (B)\nTablet (Sub-lingual) 2 mg (A) +\n0.5 mg (B)"
+      ],
+      [
+        "23.5.3",
+        "Nicotine\n(for nicotine\nreplacement therapy)",
+        "P,S,T",
+        "Oral Dosage forms 2 mg\nOral Dosage forms 4 mg"
+      ],
+      [
+        "Section 24\nMedicines acting on the Respiratory tract",
+        "",
+        "",
+        ""
+      ],
+      [
+        "24.1 - Antiasthmatic Medicines",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "24.1.1",
+        "Budesonide*",
+        "P,S,T",
+        "Inhalation (MDI/DPI) 100\nmcg/dose\nInhalation (MDI/DPI) 200\nmcg/dose\nRespirator solution for use in\nnebulizer 0.5 mg/mL\nRespirator solution for use in\nnebulizer 1 mg/mL"
+      ],
+      [
+        "*Budesonide formulations are also listed in Section 16.1 - Ear, Nose and Throat Medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 80,
+    "bbox": [
+      93.5,
+      94.47,
+      559.06,
+      773.52
+    ],
+    "n_rows": 7,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "24.1.2",
+        "Budesonide (A) +\nFormoterol (B)",
+        "P,S,T",
+        "Inhalation (MDI/DPI) 100 mcg\n(A)\n+ 6 mcg (B)\nInhalation (MDI/DPI) 200 mcg\n(A)\n+ 6 mcg (B)\nInhalation (MDI/DPI) 400 mcg\n(A)\n+ 6 mcg (B)"
+      ],
+      [
+        "24.1.3",
+        "Hydrocortisone*",
+        "P,S,T",
+        "Powder for Injection 100 mg\nPowder for Injection 200 mg"
+      ],
+      [
+        "24.1.4",
+        "Ipratropium",
+        "P,S,T",
+        "Inhalation (MDI/DPI) 20\nmcg/dose\nRespirator solution for use\nin nebulizer 250 mcg/mL"
+      ],
+      [
+        "24.1.5",
+        "Montelukast",
+        "S,T",
+        "Tablet 4 mg\nTablet 5 mg\n(including chewable tablets)\nTablet 10 mg"
+      ],
+      [
+        "24.1.6",
+        "Salbutamol",
+        "P,S,T",
+        "Tablet 2 mg\nTablet 4 mg\nOral liquid 2 mg/5 mL\nInhalation (MDI/DPI*) 100\nmcg/dose\nRespirator Solution\n(Solution for Nebulizer 5 mg/mL)"
+      ],
+      [
+        "*Hydrocortisone formulations are also listed in -\nA. Section 3.5 - Antiallergics and Medicines used in Anaphylaxis\nB. Section 18.1.3 - Hormones, other Endocrine Medicines and Contraceptives-\nAdrenal hormones and synthetic substitutes",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 81,
+    "bbox": [
+      93.52,
+      94.47,
+      559.05,
+      787.8
+    ],
+    "n_rows": 11,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "24.1.7",
+        "Tiotropium",
+        "P,S,T",
+        "Inhalation (MDI) 9 mcg/dose\nInhalation (DPI) 18 mcg/dose"
+      ],
+      [
+        "MDI- Metered Dose Inhaler\nDPI- Dry Powder Inhaler",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 25\nSolutions correcting Water, Electrolyte disturbances\nand Acid-base disturbances",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "25.1.1",
+        "Glucose*",
+        "P,S,T",
+        "Injection 5 %\nInjection 10 %\nInjection 25 %\nInjection 50 %"
+      ],
+      [
+        "25.1.2",
+        "Glucose(A) +\nSodium chloride (B)",
+        "P,S,T",
+        "Injection 5% (A) + 0.9 % (B)"
+      ],
+      [
+        "25.1.3",
+        "Oral rehydration\nsalts**",
+        "P,S,T",
+        "As licensed"
+      ],
+      [
+        "25.1.4",
+        "Potassium chloride",
+        "P,S,T",
+        "Oral liquid 500 mg/5 mL"
+      ],
+      [
+        "",
+        "",
+        "S,T",
+        "Injection 150 mg/mL"
+      ],
+      [
+        "*Glucose formulations are also listed in Section 18.4.2.1 - Hormones, other Endocrine\nMedicines and Contraceptives - Medicines used in diabetes mellitus - Medicines used to treat\nhypoglycemia\n**Oral rehydration salts are also listed in Section 17.6.1 - Gastrointestinal Medicines -\nMedicines used in diarrhea",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 82,
+    "bbox": [
+      93.52,
+      94.47,
+      559.04,
+      790.65
+    ],
+    "n_rows": 15,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "25.1.5",
+        "Ringer lactate",
+        "P,S,T",
+        "Injection (as per IP)"
+      ],
+      [
+        "25.1.6",
+        "Sodium bicarbonate",
+        "P,S,T",
+        "Injection (as per IP)"
+      ],
+      [
+        "25.1.7",
+        "Sodium chloride",
+        "P,S,T",
+        "Injection 0.9%"
+      ],
+      [
+        "",
+        "",
+        "S,T",
+        "Injection 3%"
+      ],
+      [
+        "25.2-Miscellaneous",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "25.2.1",
+        "Water for Injection",
+        "P,S,T",
+        "Injection"
+      ],
+      [
+        "Section 26\nVitamins and Minerals",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "26.1",
+        "Ascorbic acid\n(Vitamin C)",
+        "P,S,T",
+        "Tablet 100 mg\nTablet 500 mg"
+      ],
+      [
+        "26.2",
+        "Calcium carbonate",
+        "P,S,T",
+        "Tablet 625 mg (equivalent to\nelemental calcium 250 mg)\nTablet 1250 mg (equivalent to\nelemental calcium 500 mg)"
+      ],
+      [
+        "26.3",
+        "Calcium gluconate*",
+        "P,S,T",
+        "Injection 100 mg/mL"
+      ],
+      [
+        "26.4",
+        "Cholecalciferol",
+        "P,S,T",
+        "Solid oral dosage form 1000 IU\nSolid oral dosage form 60000 IU\nOral liquid 400 IU/mL"
+      ],
+      [
+        "*Calcium Gluconate formulations are also listed in Section 4.2.2 - Antidotes and Other\nsubstances used in poisoning/Envenomation Specific",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 83,
+    "bbox": [
+      93.51,
+      94.47,
+      559.05,
+      790.41
+    ],
+    "n_rows": 9,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "26.5",
+        "Pyridoxine",
+        "P,S,T",
+        "Tablet 10 mg\nTablet 50 mg\nTablet 100 mg"
+      ],
+      [
+        "26.6",
+        "Riboflavin",
+        "P,S,T",
+        "Tablet 10 mg"
+      ],
+      [
+        "26.7",
+        "Thiamine",
+        "P,S,T",
+        "Tablet 100 mg\nInjection 100 mg/mL"
+      ],
+      [
+        "26.8",
+        "Vitamin A",
+        "P,S,T",
+        "Capsule/Tablet 50000 IU\n(including Chewable Tablet)\nOral liquid 100000 IU/mL\nInjection 50000 IU/mL"
+      ],
+      [
+        "Section 27\nMedicines for COVID 19 management",
+        "",
+        "",
+        ""
+      ],
+      [
+        "27.1",
+        "Dexamethasone*",
+        "P,S,T",
+        "Tablet 0.5 mg\nTablet 2 mg\nTablet 4 mg\nOral liquid 0.5 mg/5 mL (p)\nInjection 4 mg/mL"
+      ],
+      [
+        "27.2",
+        "Enoxaparin**",
+        "S,T",
+        "Injection 40 mg/ 0.4 mL\nInjection 60 mg/ 0.6 mL"
+      ],
+      [
+        "*Dexamethasone is also listed in -\nA. Section 3.4 - Antiallergics and Medicines used in Anaphylaxis\nB. Section 7.4.3 - Anti-cancer agents including Immunosuppressives, and Medicines used in\nPalliative are- Medicines used in Palliative Care\nC. Section 18.1.1 - Hormones, other Endocrine Medicines and Contraceptives - Adrenal\nhormones and synthetic substitutes\n**Enoxaparin is also listed in -\nA. Section 8.2.1 - Medicines affecting Blood - Medicines affecting coagulation\nB. Section 10.5.4 - Cardiovascular medicines - Antiplatelet and Antithrombotic Medicines",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 84,
+    "bbox": [
+      93.47,
+      94.47,
+      559.1,
+      575.37
+    ],
+    "n_rows": 5,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "27.3",
+        "Methylprednisolone\n*",
+        "S,T",
+        "Injection 40 mg/mL"
+      ],
+      [
+        "27.4",
+        "Paracetamol**",
+        "P,S,T",
+        "Tablet 500 mg\nTablet 650 mg\nOral liquid 120 mg/5 mL (p)\nOral Liquid 125 mg/5 mL (p)\nOral Liquid 250 mg/5 mL (p)"
+      ],
+      [
+        "27.5",
+        "Oxygen***",
+        "P,S,T",
+        "As licensed for medical purpose"
+      ],
+      [
+        "*Methylprednisolone is also listed in Section 18.1.4 - Hormones, other Endocrine medicines\nand Contraceptives- Adrenal Hormones and synthetic substitutes\n**Paracetamol is also listed in\nA. Section 2.1.5 - Analgesics, antipyretics, non steroidal anti-inflammatory medicines,\nmedicines used to treat Gout and disease Modifying agents used in Rheumatoid Disorders-\nNon-opioid analgesics, antipyretics and nonsteroidal anti-inflammatory medicines\nB. Section 5.2.3 - Medicines used in Neurological Disorders-Antimigraine medicines\n*** Oxygen is also listed in Medicines used in Section 1.1.5 - Anaesthesia- General\nAnaesthetics and Oxygen",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 104,
+    "bbox": [
+      86.44,
+      94.47,
+      571.76,
+      787.08
+    ],
+    "n_rows": 13,
+    "n_cols": 7,
+    "rows": [
+      [
+        "Section 6\nAnti-infective medicines",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.1.2 -Antifilarial",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "1",
+        "6.1.5",
+        "Ivermectin",
+        "",
+        "P,S,T",
+        "",
+        "Tablet 6 mg\nTablet 12 mg"
+      ],
+      [
+        "6.2-Antibacterials",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.2.1 Beta-lactam Medicines",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2",
+        "6.2.1.14",
+        "Meropenem",
+        "",
+        "T",
+        "",
+        "Powder for Injection 500 mg (as\ntrihydrate)\nPowder for Injection 1000 mg\n(as trihydrate)"
+      ],
+      [
+        "6.2.2 - Other antibacterials",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "3",
+        "6.2.2.2",
+        "",
+        "Cefuroxime",
+        "",
+        "P,S,T",
+        "Tablet 500 mg\nSyrup 125 mg/ 5 mL (p)\nInjection 1500 mg"
+      ],
+      [
+        "4",
+        "6.2.2.11",
+        "",
+        "Phenoxymethyl\npenicillin",
+        "",
+        "P,S,T",
+        "Tablet 250 mg"
+      ],
+      [
+        "5",
+        "6.2.2.12",
+        "",
+        "Procaine\nBenzylpenicillin",
+        "",
+        "P,S,T",
+        "Powder for injection\n1000 mg (=1 million IU)"
+      ],
+      [
+        "6.4-Antituberculosis medicines",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 105,
+    "bbox": [
+      86.44,
+      94.47,
+      571.76,
+      744.83
+    ],
+    "n_rows": 12,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "6",
+        "6.4.1",
+        "",
+        "Amikacin",
+        "S,T",
+        "Injection 100 mg/mL\nInjection 250 mg/mL\nInjection 500 mg/mL"
+      ],
+      [
+        "7",
+        "6.4.2",
+        "",
+        "Bedaquiline",
+        "T",
+        "Tablet 100 mg"
+      ],
+      [
+        "8",
+        "6.4.7",
+        "",
+        "Delamanid",
+        "T",
+        "Tablet 50 mg"
+      ],
+      [
+        "6.5-Antifungal medicines",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "9",
+        "6.5.5",
+        "Itraconazole",
+        "",
+        "S,T",
+        "Capsule 100 mg\nCapsule 200 mg\nOral liquid 10 mg/mL"
+      ],
+      [
+        "10",
+        "6.5.6",
+        "Mupirocin",
+        "",
+        "P,S,T",
+        "Ointment 2%"
+      ],
+      [
+        "11",
+        "6.5.8",
+        "Terbinafine",
+        "",
+        "P,S,T",
+        "Cream 1%"
+      ],
+      [
+        "6.6.2 - Anti-Cytomegalovirus (CMV) medicines",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "12",
+        "6.6.2.1",
+        "Valganciclovir",
+        "",
+        "S, T",
+        "Tablet 450 mg\nPowder for oral solution 50\nmg/mL"
+      ]
+    ]
+  },
+  {
+    "page": 106,
+    "bbox": [
+      86.44,
+      94.47,
+      571.76,
+      776.75
+    ],
+    "n_rows": 12,
+    "n_cols": 5,
+    "rows": [
+      [
+        "6.7- Medicines used in the Management of HIV",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "13",
+        "6.7.1.3",
+        "Lamivudine",
+        "S,T",
+        "Tablet 100 mg\nTablet 150 mg"
+      ],
+      [
+        "14",
+        "6.7.1.5",
+        "Tenofovir (A) +\nLamivudine (B) +\nDolutegravir (C)",
+        "P,S,T",
+        "Tablet 300 mg (A) +\n300 mg (B) + 50 mg (C)"
+      ],
+      [
+        "6.7.3 - Integrase inhibitors",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "15",
+        "6.7.3.1",
+        "Dolutegravir",
+        "S,T",
+        "Tablet 50 mg"
+      ],
+      [
+        "6.7.4-Protease inhibitors",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "16",
+        "6.7.4.3",
+        "Darunavir (A) +\nRitonavir (B)",
+        "S,T",
+        "Tablet 600 mg (A) + Tablet 100\nmg (B)"
+      ],
+      [
+        "6.8 - Medicines for hepatitis B and hepatitis C",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17",
+        "6.8.1",
+        "Daclatasvir",
+        "S,T",
+        "Tablet 60 mg\nTablet 30 mg"
+      ]
+    ]
+  },
+  {
+    "page": 107,
+    "bbox": [
+      86.43,
+      94.47,
+      571.77,
+      764.25
+    ],
+    "n_rows": 10,
+    "n_cols": 5,
+    "rows": [
+      [
+        "18",
+        "6.8.5",
+        "Tenofovir\nAlafenamide\nFumarate (TAF)",
+        "S,T",
+        "Tablet 25 mg"
+      ],
+      [
+        "Section 7\nAntimigraine medicines\n(Now in Section 5 Medicines used in Neurological Disorders)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 8\nAnti-cancer agents including Immunosuppressives and Medicines used in\nPalliative Care\n(Now in Section 7)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "7.1- Antineoplastic Medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "19",
+        "7.1.6",
+        "Bendamustine\nHydrochloride",
+        "T",
+        "Injection 25 mg\nInjection 100 mg/vial"
+      ],
+      [
+        "20",
+        "7.1.26",
+        "Irinotecan HCI\nTrihydrate",
+        "T",
+        "Solution for injection 20 mg/ mL"
+      ],
+      [
+        "21",
+        "7.1.28",
+        "Lenalidomide",
+        "T",
+        "Capsule 5 mg\nCapsule 25 mg"
+      ],
+      [
+        "7.2-Hormones and anti-hormones used in cancer therapy",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 108,
+    "bbox": [
+      86.43,
+      94.47,
+      571.76,
+      774.69
+    ],
+    "n_rows": 11,
+    "n_cols": 5,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "22",
+        "7.2.3",
+        "Leuprolide\nacetate",
+        "T",
+        "Powder for injection 3.75 mg\nPowder for injection 11.25 mg\nPowder for injection 22.5 mg"
+      ],
+      [
+        "Section 8\nMedicines affecting Blood",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 9\nAntiparkinsonism medicines\n(Now in Section 5.3 Medicines used in Neurological Disorders)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 10\nMedicines affecting Blood",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 11\nBlood products and Plasma substitutes",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 12\nCardiovascular Medicines\n(Now in Section 10)",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 109,
+    "bbox": [
+      86.44,
+      94.47,
+      571.47,
+      782.97
+    ],
+    "n_rows": 12,
+    "n_cols": 5,
+    "rows": [
+      [
+        "10.5- Antiplatelet and Antithrombotic Medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23",
+        "10.5.3",
+        "Dabigatran",
+        "S, T",
+        "Tablet 110 mg\nTablet 150 mg"
+      ],
+      [
+        "24",
+        "10.5.7",
+        "Tenecteplase",
+        "S,T",
+        "Injection 30 mg/vial\nInjection 40 mg/vial"
+      ],
+      [
+        "Section 13\nDermatological medicines (Topical)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 14\nDermatological medicines (Topical)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 15\nDiagnostic Agents",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 16\nDialysis solutions",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 110,
+    "bbox": [
+      86.44,
+      94.47,
+      571.76,
+      793.19
+    ],
+    "n_rows": 16,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Section 17\nDisinfectants and Antiseptics and",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 18\nDiuretics",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 19\nEar, Nose and Throatmedicines",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 20\nGastrointestinal medicines",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 21\nHormones, other Endocrine Medicines and Contraceptives\n(Now in Section 18)",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18.1-Adrenal Hormones and Synthetic substitutes",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "25",
+        "18.1.2",
+        "Fludrocortisone",
+        "",
+        "S,T",
+        "Tablet 100 mcg"
+      ],
+      [
+        "18.2 - Contraceptives",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18.2.1 - Hormonal Contraceptives",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "26",
+        "18.2.3",
+        "",
+        "Ormeloxifene",
+        "P,S,T",
+        "Tablet 30 mg"
+      ]
+    ]
+  },
+  {
+    "page": 111,
+    "bbox": [
+      86.43,
+      94.47,
+      571.76,
+      759.93
+    ],
+    "n_rows": 11,
+    "n_cols": 5,
+    "rows": [
+      [
+        "",
+        "",
+        "(Centchroman)",
+        "",
+        ""
+      ],
+      [
+        "18.3 Medicines used in diabetes mellitus",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18.3.1 Insulins and other antidiabetic agents",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "27",
+        "18.3.1.4",
+        "Insulin\nGlargine",
+        "P,S,T",
+        "Injection 100 IU/mL"
+      ],
+      [
+        "28",
+        "18.3.1.7",
+        "Teneligliptin",
+        "P,S,T",
+        "Tablet 20 mg"
+      ],
+      [
+        "Section 22\nImmunologicals\n(Now in Section 19)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "For universal immunization",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "29",
+        "19.4.8",
+        "Rotavirus\nvaccine",
+        "P, S, T",
+        "As licensed"
+      ],
+      [
+        "Section 23\nMuscle relaxants and cholinesterase inhibitors\n(Now in Section 1- Medicines used in Anaesthesia)\n(sub-section 1.4 - Muscle relaxants and cholinesterase inhibitors)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 112,
+    "bbox": [
+      86.43,
+      94.47,
+      571.76,
+      780.96
+    ],
+    "n_rows": 11,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Section 24 Medicines for neonatal care",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 25\nOphthalmological Medicines\n(Now in Section 21)",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "21.4-Miotics and Antiglaucoma Medicines",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "30",
+        "21.4.2",
+        "Latanoprost",
+        "P,S,T",
+        "",
+        "Drops 0.005 %"
+      ],
+      [
+        "Section 26 Oxytocics and Antioxytocic",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 27\nMedicines used in treatment of Psychiatric Disorders\n(Now in Section 23)",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "23.5-Medicines for disorders due to psychoactive substance abuse",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ]
+    ]
+  },
+  {
+    "page": 113,
+    "bbox": [
+      86.43,
+      94.47,
+      571.76,
+      798.69
+    ],
+    "n_rows": 11,
+    "n_cols": 5,
+    "rows": [
+      [
+        "31",
+        "23.5.1",
+        "Buprenorphine",
+        "P,S,T",
+        "Tablet (Sub-lingual)\n0.4 mg"
+      ],
+      [
+        "32",
+        "23.5.2",
+        "Buprenorphine\n(A) +\nNaloxone (B)",
+        "P,S,T",
+        "Tablet (Sub-lingual) 0.4 mg (A) +\n0.1 mg (B)\nTablet (Sub-lingual) 2 mg (A) +\n0.5 mg (B)"
+      ],
+      [
+        "33",
+        "23.5.3",
+        "Nicotine\n(for nicotine\nreplacement\ntherapy)",
+        "P,S,T",
+        "Oral Dosage forms 2 mg\nOral Dosage forms 4 mg"
+      ],
+      [
+        "Section 28\nMedicines acting on the respiratory tract\n(Now in Section 24)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "24.1-Antiasthmatic Medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "34",
+        "24.1.8",
+        "Montelukast",
+        "S,T",
+        "Tablet 4 mg\nTablet 5 mg\n(including chewable tablets)\nTablet 10 mg"
+      ],
+      [
+        "Section 29\nSolutions correcting Water, Electrolyte disturbances\nand Acid-base disturbances\n(Now in Section 25)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 30\nVitamins and minerals\n(Now in Section 26)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 118,
+    "bbox": [
+      86.44,
+      94.47,
+      586.1,
+      784.56
+    ],
+    "n_rows": 13,
+    "n_cols": 5,
+    "rows": [
+      [
+        "Medicines Deleted from Therapeutic category wise NLEM 2015",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 1 Anaesthetic Agents",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "1",
+        "1.2.4",
+        "Prilocaine (A) +\nLignocaine (B)",
+        "T",
+        "Cream 2.5% (A) + 2.5% (B)"
+      ],
+      [
+        "Section 2-Analgesics, antipyretics, non-steroidal anti-inflammatory medicines,\nmedicines used to treat Gout and disease Modifying agents used in Rheumatoid\nDisorders",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "2",
+        "2.4.3",
+        "Leflunomide",
+        "S,T",
+        "Tablet 10 mg\nTablet 20 mg"
+      ],
+      [
+        "Section 3-Antiallergics and medicines used in anaphylaxis",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "3",
+        "3.3",
+        "Chlorpheniramine",
+        "P,S,T",
+        "Tablet 4 mg\nOral liquid 2 mg/5 ml"
+      ],
+      [
+        "Section 4-Antidotes and Other substances used in poisoning treatment",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "4.2 Specific",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of",
+        "Dosage form(s) and strength(s)"
+      ]
+    ]
+  },
+  {
+    "page": 119,
+    "bbox": [
+      86.44,
+      94.47,
+      586.1,
+      770.51
+    ],
+    "n_rows": 13,
+    "n_cols": 7,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Healthcare",
+        ""
+      ],
+      [
+        "4",
+        "4.2.4",
+        "Dimercaprol",
+        "",
+        "",
+        "S,T",
+        "Injection 50 mg/ml"
+      ],
+      [
+        "Section 5 Medicines used in Neurological Disorders",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 6-Anti-infective medicines",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.2.4-Antituberculosis medicines",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "5",
+        "6.2.4.1",
+        "",
+        "Capreomycin",
+        "",
+        "P,S,T",
+        "Powder for Injection 1 g"
+      ],
+      [
+        "6",
+        "6.2.4.6",
+        "",
+        "Kanamycin",
+        "",
+        "P,S,T",
+        "Powder for Injection 500 mg\nPowder for Injection 750 mg\nPowder for Injection 1 g"
+      ],
+      [
+        "7",
+        "6.2.4.12",
+        "",
+        "Rifabutin",
+        "",
+        "S,T",
+        "Capsule 150 mg"
+      ],
+      [
+        "6.4.2-Anti Cytomegalovirus (CMV) medicines",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "8",
+        "6.4.2.1",
+        "",
+        "Ganciclovir",
+        "S,T",
+        "",
+        "Capsule 250 mg\nPowder for Injection 500\nmg"
+      ]
+    ]
+  },
+  {
+    "page": 120,
+    "bbox": [
+      86.43,
+      94.47,
+      586.1,
+      774.45
+    ],
+    "n_rows": 10,
+    "n_cols": 5,
+    "rows": [
+      [
+        "6.4.3-Medicines used in the management of HIV",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.4.3.1 -Nucleoside reverse transcriptase inhibitors",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "9",
+        "6.4.3.1.3",
+        "Lamivudine\n(A) +\nNevirapine\n(B) +\nStavudine (B)",
+        "S,T",
+        "Dispersible Tablet 30mg\n(A) + 50mg (B) + 6mg (C)\nTablet 150mg (A) + 200mg\n(B) + 30mg (C)"
+      ],
+      [
+        "10",
+        "6.4.3.1.5",
+        "Stavudine (A) +\nLamivudine (B)",
+        "S,T",
+        "Dispersible Tablet 6 mg (A)\n+ 30 mg (B) (p)\nTablet 30 mg (A) + 150 mg\n(B)"
+      ],
+      [
+        "6.4.4-Medicines for hepatitis B and hepatitis C",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "11",
+        "6.4.4.2",
+        "Pegylated\ninterferon alfa 2a",
+        "S,T",
+        "Injection 180 mcg"
+      ],
+      [
+        "",
+        "",
+        "Pegylated\ninterferon alfa 2b",
+        "S,T",
+        "Injection 80 mcg\nInjection 100 mcg\nInjection 120 mcg"
+      ],
+      [
+        "6.5.1 Antiamoebic and antigiardiasis medicines",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 121,
+    "bbox": [
+      86.44,
+      94.47,
+      586.1,
+      783.21
+    ],
+    "n_rows": 13,
+    "n_cols": 5,
+    "rows": [
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "12",
+        "6.5.1.1",
+        "Diloxanide\nfuroate",
+        "P,S,T",
+        "Tablet 500 mg"
+      ],
+      [
+        "6.5.4-Antipneumocystosis and antitoxoplasmosis medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "13",
+        "6.5.4.2",
+        "Pentamidine",
+        "S,T",
+        "Powder for Injection 200 mg"
+      ],
+      [
+        "Section 7 Antimigraine medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 8 Anti-cancer agents including Immunosuppressives, and Medicines\nused in Palliative Care",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "14",
+        "8.1.30",
+        "Procarbazine",
+        "T",
+        "Capsule 50 mg"
+      ],
+      [
+        "Section 9 Antiparkinsonism medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 10 Medicines affecting blood",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 122,
+    "bbox": [
+      86.44,
+      94.47,
+      586.1,
+      780.35
+    ],
+    "n_rows": 13,
+    "n_cols": 6,
+    "rows": [
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10.3-Antihypertensive Medicines",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "15",
+        "12.3.6",
+        "Methyldopa",
+        "",
+        "P,S,T",
+        "Tablet 250 mg\nTablet 500 mg"
+      ],
+      [
+        "Section 11 Blood products and Plasma substitutes",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 12- Cardiovascular Medicines",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "12.3-Antihypertensive medicines",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "16",
+        "12.3.2",
+        "Atenolol",
+        "P,S,T",
+        "",
+        "Tablet 50 mg\nTablet 100 mg"
+      ],
+      [
+        "12.5-Antithrombotic medicine (Cardiovascular/ Cerebrovascular)",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "17",
+        "12.5.2",
+        "Alteplase",
+        "T",
+        "",
+        "Powder for Injection 20 mg\nPowder for Injection 50 mg"
+      ]
+    ]
+  },
+  {
+    "page": 123,
+    "bbox": [
+      86.44,
+      94.47,
+      586.1,
+      758.88
+    ],
+    "n_rows": 13,
+    "n_cols": 8,
+    "rows": [
+      [
+        "Section 13 Dermatological medicines (Topical)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 14 Dermatological medicines (Topical)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "14.6 Miscellaneous",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "",
+        "",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "18",
+        "14.6.2",
+        "",
+        "White\nPetrolatum",
+        "P,S,T",
+        "",
+        "",
+        "Jelly 100%"
+      ],
+      [
+        "Section 15 Diagnostic agents",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 16 Dialysis solutions",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 17 Antiseptics and Disinfectants",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "17.1- Antiseptics",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 124,
+    "bbox": [
+      86.43,
+      94.47,
+      586.1,
+      749.28
+    ],
+    "n_rows": 10,
+    "n_cols": 8,
+    "rows": [
+      [
+        "19",
+        "17.1.1",
+        "",
+        "Cetrimide",
+        "P,S,T",
+        "",
+        "Solution 20 %\n(Concentrate for dilution)",
+        ""
+      ],
+      [
+        "17.2 Disinfectants",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "20",
+        "17.2.1",
+        "",
+        "Bleaching\npowder",
+        "P,S,T",
+        "",
+        "Containing not less than\n30%w/w of available chlorine\n(as per I.P)",
+        ""
+      ],
+      [
+        "Section 18 Diuretics",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 19 Ear, Nose and Throatmedicines",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 20 Gastrointestinal medicines",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "20.1 Antiulcer medicines",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Medicine",
+        "",
+        "",
+        "Level of\nHealthcare",
+        "",
+        "Dosage form(s) and strength(s)"
+      ]
+    ]
+  },
+  {
+    "page": 125,
+    "bbox": [
+      86.43,
+      94.47,
+      586.1,
+      785.25
+    ],
+    "n_rows": 10,
+    "n_cols": 5,
+    "rows": [
+      [
+        "21",
+        "20.1.4",
+        "Sucralfate",
+        "S,T",
+        "Oral liquid 1g"
+      ],
+      [
+        "22",
+        "20.1.3",
+        "Ranitidine",
+        "P,S,T",
+        "Tablet 150 mg\nOral liquid 75 mg/5 mL\nInjection 25 mg/mL"
+      ],
+      [
+        "Section 21 Hormones, other Endocrine Medicines and Contraceptives",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "21.2.1 Hormonal contraceptives",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "23",
+        "21.2.1.2",
+        "Ethinylestradiol\n(A) +\nNorethisterone\n(B)",
+        "P,S,T",
+        "Tablet 0.035 mg (A) +1 mg (B)"
+      ],
+      [
+        "21.3 Estrogens",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "24",
+        "21.3.1",
+        "Ethinylestradiol",
+        "P,S,T",
+        "Tablet 0.01 mg\nTablet 0.05 mg"
+      ],
+      [
+        "Section 22 Immunologicals",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 126,
+    "bbox": [
+      86.43,
+      94.47,
+      586.1,
+      781.53
+    ],
+    "n_rows": 11,
+    "n_cols": 5,
+    "rows": [
+      [
+        "Section 23 Muscle relaxants and cholinesterase inhibitors",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 24 Medicines for neonatal care",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 25 Ophthalmological Medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "25.1-Anti-infective medicines",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "25",
+        "25.1.3",
+        "Erythromycin",
+        "P,S,T",
+        "Ointment 0.5 %"
+      ],
+      [
+        "Section 26 Oxytocics and Antioxytocics",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 27 Medicines in treatment of Psychiatric Disorders",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 127,
+    "bbox": [
+      86.43,
+      94.47,
+      586.11,
+      595.79
+    ],
+    "n_rows": 8,
+    "n_cols": 5,
+    "rows": [
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 28 Medicines acting on the respiratory tract",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 29 Solutions correcting water, electrolyte disturbances and acid-base\ndisturbances",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "NIL",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Section 30 Vitamins and minerals",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Medicine",
+        "",
+        "Level of\nHealthcare",
+        "Dosage form(s) and strength(s)"
+      ],
+      [
+        "26",
+        "30.5",
+        "Nicotinamide",
+        "P,S,T",
+        "Tablet 50 mg"
+      ]
+    ]
+  }
+]

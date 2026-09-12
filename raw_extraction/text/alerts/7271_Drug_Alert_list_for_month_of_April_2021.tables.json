@@ -1,0 +1,292 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      108.66,
+      596.68,
+      191.5
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "931"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "908"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "22(Legal)+01(Survey)"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "0"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      208.07,
+      582.52,
+      718.45
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.No.",
+        "Name of\nDrugs/medical\ndevice/cosmetic\ns",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "INSTANT\nSTERILE\nMOPPING PAD\n(Absorbent\nGauze- BP Type\n13 with X-Ray\nDetectable\nThread)",
+        "B. No.:1017/20\nMfg dt: 03/2020\nExp dt: 02/2023\nMfd by: M/s.The Ramaraju\nSurgical Cotton Mills Ltd.,\n2/318 - 2/321,\nSankarankovil Road,\nPerumalpatti - 627 753\nTamil Nadu.",
+        "Threads per\nstated length",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "RUTIN\n(RutosideTrihydra\nte 95%) (as per\nF.M)",
+        "B. No.:20181126\n(as per F.M)\nMfg dt: 11/2018\n(as per F.M)\nExp dt: 11/2021\n(as per F.M)\nMfd by: M/s.Ningbo Hi-\nTech Biochemicals Co.,\nLtd, China (as per F.M).",
+        "Water, Related\nSubstances and\nAssay",
+        "CDSCO,\nSub Zone\nBaddi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "REALHIM-10\n(Tadalafil Tablets\nI.P. 10 mg)",
+        "B. No.:LC9L225\nMfg dt: 12/2019\nExp dt: 11/2021\nMfd by: M/s.LifecareNeuro\nProducts Limited, 70/1,\nDharampur, Nr. EPIP\nPhase-II, Baddi-173 205,\nHimachal Pradesh.",
+        "Dissolution",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "SPINOBAK-10\n(Baclofen Tablets\nI.P. 10 mg)",
+        "B. No.:K3ALT001\nMfg dt: 06/2020\nExp dt: 05/2022\nMfd by: M/s. Sirmour\nRemedies (P) Ltd., Village\n- Layarda, P.O.",
+        "Assay",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      42.81,
+      582.51,
+      708.25
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Missarwala, Paonta Sahib,\nDistt . Sirmour (HP) -173\n205.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "PANTOWEL - 40\n(Pantoprazole\nSodium Tablets\nI.P. 40 mg)",
+        "B. No.:OBYA01\nMfg dt: 02/2020\nExp dt: 07/2022\nMfd by: M/s. Akums Drugs\n& Pharmaceuticals Ltd.,\n19, 20, 21 Sector-6A, I.I.E,\nSIDCUL, Ranipur,\nHaridwar-249403\nUttarakhand.",
+        "Dissolution",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "L-CETAM 500\n(Levetiracetam\nTablets I.P. 500\nmg)",
+        "B. No.:20S1GTA508\nMfg dt: 11/2020\nExp dt: 10/2022\nMfd by: M/s.Synokem\nPharmaceuticals Ltd., Plot\nNo: 35-36, Sector-6A, I.I.E.\n(SIDCUL). Ranipur\n(BHEL), Haridwar -249403\nUttarakhand.",
+        "Dissolution",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "MISOPROSTOL\nTablets I.P. 200\nmcg",
+        "B. No.:UHT20096\nMfg dt: 07/2020\nExp dt: 06/2022\nMfd by: M/s.Unimark\nHealthcare Ltd., Plot No.\n24, 25 & 37 Sector 6A,\nSIDCUL, Haridwar 249\n403 Uttarakhand.",
+        "Assay",
+        "CDSCO\nHyderabad\nZone",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "GLUCORID\n(Metformin\nHydrochloride\nSustained\nRelease Tablets\nI.P. 500 mg)",
+        "B. No.:GLU-2009\nMfg dt: 08/2020\nExp dt: 07/2022\nMfd by: M/s.\nRidley Life Science Pvt.\nLtd., D-1651, DSIDC Indl.\nComplex, Narela, New\nDelhi-110 040.",
+        "Dissolution",
+        "CDSCO\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9.",
+        "TLM-80\n(Telmisartan\nTablets I.P. 80\nmg)",
+        "B. No.:31T20T02\nMfg dt: 08/2020\nExp dt: 07/2022\nMfd by: M/s.\nShine Pharmaceuticals\nLtd., Plot No. 132, Karjan-\nVemardi Road,\nJuniJitherdi, Ta. Karjan –\n391 240, Dist.: Vadodara\n(Gujarat).",
+        "Dissolution",
+        "CDSCO\nHyderabad",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.2,
+      42.81,
+      582.52,
+      684.97
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "10.",
+        "OLANZAPINE\nTablets I.P. 5 mg",
+        "B. No.:T0434\nMfg dt: 08/2020\nExp dt: 07/2023\nMfd by: M/s.\nBharat Parenterals Ltd.,\nVill. Haripura Ltd, Ta.\nSavli, Dist. Vadodara -\n391520, Gujrat.",
+        "Dissolution",
+        "CDSCO\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "11.",
+        "ULTRAFLOX-500\n(Ciprofloxacin\nTablets I.P.)",
+        "B. No.:190112A\nMfg dt: 01/2019\nExp dt: 12/2021\nMfd by: M/s. Bal Pharma\nLimited, Plot No. 1, 2, 3 &\n69, Sector-4, IIE, SIDCUL,\nPantnagar, Rudrapur,\nDistt.-Udham Singh Nagar,\nUttarakhand.",
+        "Dissolution",
+        "CDSCO\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "12.",
+        "ORVASTIN-20\n(Atorvastatin\nTablets IP 20 mg)",
+        "B. No.: P-0H0440\nMfg dt: 08/2020\nExp dt: 01/2023\nMfd by: M/s.Morepen\nLaboratories Ltd., Plot\nNo.12-B, Sector-2,\nParwanoo, Dist. Solan,\nHimachal Pradesh -\n173220.",
+        "Dissolution",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "13.",
+        "REVOL-CC\n(Calcium\nCarbonate,\nMagnesium\nOxide,\nManganese\nSulphate, Zinc &\nVitamin D3\nTablets)",
+        "B. No.:MT191326\nMfg dt: 08/2019\nExp dt: 07/2021\nMfd by: M/s.Mascot Health\nSeries Pvt Ltd., Plot No.\n79, 80, Sector 6A, IIE,\nSidcul, Haridwar 249 403,\nUttarakhand.",
+        "Assay of Vitamin\nD3",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "14.",
+        "Aceclofenac,\nParacetamol and\nSerratiopeptidase\nTablets\n(ACEPRO-SP\nTABLETS)",
+        "B. No.:SST-0657\nMfg dt: 01/2021\nExp dt: 12/2022\nMfd by: M/s. SHRI SAI\nBALAJI PHARMATECH\nPVT. LTD. Plot No.20,\nExt. HPSIDC Industrial\nArea, Baddi, Distt. Solan\nHimachal Pradesh 173205.",
+        "Assay of\nSerratiopeptidase",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      15.2,
+      42.81,
+      582.52,
+      629.41
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "15.",
+        "Paracetamol\nTablets IP 650\nmg (MECIPAR\n650 TABLETS)",
+        "B. No.:SP20641\nMfg dt: 07/2020\nExp dt: 06/2022\nMfd by: M/s. Sotac\nPharmaceuticals Pvt. Ltd.\nPlot No. PF/21 Nr. Acme\nPharma Opp. Teva\nPharma, GIDC-II, Sanad,\nAhmedabad, Gujarat.",
+        "Dissolution",
+        "CDSCO,\nSub-Zone,\nJammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "16.",
+        "TELMISARTAN\nTABLETS IP 40\nMG",
+        "B. No.:CLT-14747\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. CAREMAX\nFORMULATIONS Plot\nNo.56 & 61, Industrial\nArea, Phase-III, Sansarpur\nTerrace, Distt. Kangra\nHimachal Pradesh -\n176501.",
+        "Uniformity of\nweight &\nDissolution",
+        "CDSCO\nNorthZone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "17.",
+        "Chlorhexidine\nGluconate and\nEthyl Alcohol\nAntiseptic\nSolution\n(CORUB)",
+        "B. No.:G-215\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. Gag\nPharmaceuticals V.P.O.\nMubarkpur-Shaikhan-\n144025 Punjab.",
+        "Identification",
+        "Drug Control\nDepartment\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "18.",
+        "TRANEXAMIC\nACID TABLETS\nIP",
+        "B. No.:T2002047\nMfg dt: 02/2020\nExp dt: 01/2022\nMfd by: M/s.Rhydburg\nPharmaceuticals Ltd., C-2\n& 3, S.I.E.L, Selaqui,\nDehradun, Uttarakhand.",
+        "Related\nSubstances",
+        "CDSCO\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "19.",
+        "Progesterone\nSustained-\nRelease Tablets\n(FULGEST SR\n200 TABLETS)",
+        "B. No.:GFSM008\nMfg dt: 06/2019\nExp dt: 05/2021\nMfd by: M/s. Synokem\nPharmaceuticals LTD.\nPlot No. 56-57, Sector-6A,\nIIE, (SIDCUL), Ranipur\n(BHEL), Haridwar-249403,\nUttarakhand.",
+        "Dissolution",
+        "CDSCO,\nSub-Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      15.24,
+      42.84,
+      582.48,
+      389.33
+    ],
+    "n_rows": 3,
+    "n_cols": 6,
+    "rows": [
+      [
+        "20.",
+        "Tranexamic Acid\nTablets IP 250\nmg\n(TYRODIN\nTABLETS )",
+        "B. No.:T0164\nMfg dt: 12/2020\nExp dt: 11/2022\nMfd by: M/s.Canixa Life\nSciences Pvt. Ltd.\nK.No.313, Raipur Industrial\nArea, Bhagwanpur,\nRoorkee, Dist. Haridwar,\nUttarakhand-247667.",
+        "Related\nSusbtances",
+        "CDSCO,\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "21.",
+        "70% Isopropyl\nAlcohol Hand\nRub (ICANDY)",
+        "B. No.: I010520\nMfg dt: 05/2020\nExp dt: 04/2022\nMfd by:*RGG\nCOSMETICS PVT. LTD.\n(Complete address of the\nmanufacturer not\nmentioned on the label).",
+        "Identification",
+        "Drug Control\nDepartment\nHimachal\nPradesh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "22.",
+        "ZINC SULPHATE\nDISPERSIBLE\nTABLETS IP 20\nmg",
+        "B. No.: TAC0006AL\nMfg dt: 06/2020\nExp dt: 05/2022\nMfd by: M/s. Hindustan\nLaboratories, Plot No.5-9,\nSurvey No. 38/2, Aliyali,\nPalghar-(W), Dist-Palghar-\n401404 Maharashtra.",
+        "Disintegration\nTest",
+        "CDSCO Sub-\nZone,\nGuwahati",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      66.65,
+      125.99,
+      803.47,
+      469.69
+    ],
+    "n_rows": 3,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.No.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No.",
+        "Date of\nManufacture",
+        "Date of\nExpiry",
+        "Manufactured\nBy",
+        "Reason for\nfailure",
+        "Drawn By",
+        "Firm’s reply",
+        "Remarks"
+      ],
+      [
+        "1.",
+        "Telmisartan\nTablets I.P. 40mg\n(Telma 40)",
+        "05240226",
+        "Feb-2024",
+        "Jan-2027",
+        "Under\nInvestigation",
+        "Dissolution",
+        "Drugs\nInspector,\nBihar",
+        "The actual\nmanufacturer (as\nper label claim)\nhas informed that\nthe impugned\nbatch of the\nproduct has not\nbeen\nmanufactured by\nthem and that it is\na spurious drug.",
+        "The product is\npurported to be\nspurious, however,\nthe same is subject\nto\noutcome of\ninvestigation."
+      ],
+      [
+        "2.",
+        "Telmisartan\nTablets IP 40mg\n(Telma 40)",
+        "K18230707",
+        "Jun-2024",
+        "May-2027",
+        "Under\nInvestigation",
+        "Identification\nand Assay of\nTelmisartan",
+        "Drugs\nInspector,\nBihar",
+        "The actual\nmanufacturer (as\nper label claim)\nhas informed that\nthe impugned\nbatch of the\nproduct has not\nbeen\nmanufactured by\nthem and that it is\na spurious drug.",
+        "The product is\npurported to be\nspurious, however,\nthe same is subject\nto\noutcome of\ninvestigation."
+      ]
+    ]
+  }
+]

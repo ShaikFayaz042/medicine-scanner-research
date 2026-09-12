@@ -1,0 +1,894 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      89.94,
+      575.44,
+      171.94
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "1375"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "1305"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "70"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "-"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "-"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      183.71,
+      575.44,
+      768.75
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.No",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured\nBy",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "OFLOWIND-OZ\n(Ofloxacin &\nOrnidazole Tablets\nIP)",
+        "B. No.: G-T388\nMfg dt: 07/2021\nExp dt: 06/2023\nMfd by: M/s. Globin\nPharmaceuticals Pvt.\nLtd., Puhana Chowk,\nDehradun Road,\nRoorkee, Dist. Haridwar,\nUttarakhand - 247667.",
+        "Dissolution\n“(Ofloxacin and\nOrnidazole)”",
+        "Drug\nControl\nDepartment\nBihar",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "2.",
+        "VOVEZAL-3\n(Diclofenac Sodium\nInjection I.P.)",
+        "B. No.: GI-049\nMfg dt: 04/2021\nExp dt: 03/2023\nMfd by: M/s. Globin\nPharmaceuticals Pvt.\nLtd. Puhana Chowk,\nDehradun Rd, Roorkee\nUttarakhand.",
+        "pH and Assay\nContent of\nDiclofenac\nSodium",
+        "Drug\nControl\nDepartment\nAssam",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "3.",
+        "Glimepiride Tablets\nI.P. 1mg",
+        "B. No.: TGT12213097\nMfg dt: 12/2021\nExp dt: 11/2023\nMfd by: M/s. T & G\nMedicare, Village\nKunjahal PO Baddi,\nDistt. Solan, Himachal\nPradesh.",
+        "Dissolution",
+        "Drug\nControl\nDepartment\nNagaland",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "4.",
+        "KOOCAL-500\nTablets\n(Calcium with\nVitamin D Tablets\nIP)",
+        "B. No.: TG21-2346\nMfg dt: 09/2021\nExp dt: 02/2023\nMfd by: M/s. Athens Life\nSciences Mauza\nRampur Jattan, Nahan\nRoad, Kala Amb, Distt.\nSirmour Himachal",
+        "Identification and\nAssay of “Vitamin\nD3”",
+        "Drug\nControl\nDepartment\nMizoram",
+        "RDTL\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      758.31
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Pradesh-173030.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Calcium with\nVitamin D Tablets IP\nKOOCAL-500",
+        "B. No.: TG21-2539\nMfg dt: 10/2021\nExp dt: 03/2023\nMfd by: M/s. Athens Life\nSciences, Mauza\nRampur Jattan, Nahan\nRoad, Kala Amb, Distt.\nSirmour, Himachal\nPradesh.- 173030.",
+        "“Identification and\nAssay/Content of\nVitamin D3”",
+        "Drug\nControl\nDepartment\nMizoram",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "6.",
+        "Levocetirizine\nDihydrochloride\nSyrup",
+        "B. No.: LZR-2204\nMfg dt: 01/2022\nExp dt: 12/2023\nMfd by: M/s. Apple\nFormulations Pvt. Ltd.\nPlot No. 208, Kishanpur,\nRoorkee-247667\nUttarakhand.",
+        "pH",
+        "Drug\nControl\nDepartment\nBihar",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "7.",
+        "Calcium and\nVitamin D3 Tablets\nIP\n(CALBICIN-D\nFORTE Tablets)",
+        "B. No.: TGT12213182\nMfg dt: 12/2021\nExp dt: 06/2023\nMfd by: M/s. T & G\nMedicare, Village\nKunjahal, PO Baddi,\nDistt. Solan, Himachal\nPradesh.",
+        "Identification as\nwell as Assay of\n“Vitamin D3”",
+        "Drug\nControl\nDepartment\nNagaland",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "8.",
+        "Atenolol &\nAmlodipine Tablets\nI.P. 50mg/5mg",
+        "B. No.: Z22-013\nMfg dt: 01/2022\nExp dt: 12/2023\nMfd by: M/s. Zee\nLaboratories Ltd.\nBehind 47, Industrial\nArea, Paonta Sahib-\n173025, Himachal\nPradesh.",
+        "Dissolution\n(Amlodipine) and\nAssay/Content of\nAmlodipine",
+        "Drug\nControl\nDepartment\nBihar",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "9.",
+        "KOOCAL-500\nTablets\n(Calcium with\nVitamin D Tablets\nIP)",
+        "B. No.: TG21-2565\nMfg dt: 10/2021\nExp dt: 03/2023\nMfd by: M/s. Athens Life\nSciences, Mauza\nRampur Jattan, Nahan\nRoad,\nKala Amb, Distt.\nSirmour, Himachal",
+        "Assay of “Vitamin\nD3”",
+        "Drug\nControl\nDepartment\nMizoram",
+        "RDTL\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      758.31
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Pradesh – 173 030",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10.",
+        "Lomolok\n(Loperamide\nHydrochloride\nTablets I.P.)",
+        "B. No.: T8842\nMfg dt: 07/2021\nExp dt: 06/2024\nMfd by: M/s. Quest\nLaboratories Pvt. Ltd.,\nPlot No.-45, Sector-III,\nIndl. Area, Pithampur,\nDistt. Dhar-454775,\nMadhya Pradesh.",
+        "Assay",
+        "Drug\nControl\nDepartment\nAssam",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "11.",
+        "CIPROFLOXACIN\n250\n(CIPROFLOXACIN\nHYDROCHLORIDE\nTABLETS I.P.\n250 mg)",
+        "B. No.: 0600822\nMfg dt: 05/2022\nExp dt: 04/2025\nMfd by: M/s.\nKARNATAKA\nANTIBIOTICS &\nPHARMACEUTICALS\nLIMITED, Plot No. 14, II\nPhase, Peenya,\nBengaluru – 560 058.",
+        "Dissolution",
+        "Drug\nControl\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "12.",
+        "Omirid-10\n(Omeprazole\nCapsules IP)",
+        "B. No.: OMI-2101\nMfg dt: APR.2021\nExp dt: MAR.2023\nMfd by: M/s. RIDLEY\nLIFE SCIENCE PVT.\nLTD., D-1651, DSIDC\nIndl. Complex, Narela,\nDelhi -110 040.",
+        "Dissolution",
+        "Drug\nControl\nDepartment\nMeghalaya",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "13.",
+        "Rabeprazole Gastro\nResistant Tablets IP\n20 mg",
+        "B. No.: RRZT-016\nMfg dt: 12/2021\nExp dt: 11/2023\nMfd by: M/s. Revat\nLaboratories Pvt. Ltd.\n12-321, Opp. I.D.A.\nKurnool Road,\nPernamitta, Ongole-\n523002, Andhra\nPradesh.",
+        "Dissolution\n(Buffer stage),\nAssay of\nRabeprazole\nSodium and\nDescription",
+        "Drug\nControl\nDepartment\nBihar",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "14.",
+        "Iron & Folic Acid\nSyrup IP, 50 ml",
+        "B. No.: AHL21034\nMfg dt: 05/2021\nExp dt: 04/2023\nMfd by: M/s. ALVES\nHEALTHCARE\nPRIVATE LIMITED,",
+        "‘pH’ and\n‘Identification &\nAssay of Folic\nAcid’",
+        "Drug\nControl\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      15.2,
+      56.85,
+      575.44,
+      764.79
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Nangal Uparla,\nSwarghat Road,\nNalagarh, Dist. Solan-\n174 101, Himachal\nPradesh, INDIA.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "15.",
+        "Calcium with\nVitamin D Tablets IP\nKOOCAL-500",
+        "B. No.: TG21-2564\nMfg dt: 10/2021\nExp dt: 03/2023\nMfd by: M/s. Athens Life\nSciences Mauza\nRampur Jattan, Nahan\nRoad, Kala Amb, Distt.\nSirmour, Himachal\nPradesh – 173 030",
+        "“Identification and\nAssay of Vitamin\nD3”",
+        "Drug\nControl\nDepartment\nMizoram",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "16.",
+        "Iron & Folic Acid\nSyrup IP, 50 ml.",
+        "B. No.: AHL21015\nMfg dt: 05/2021\nExp dt: 04/2023\nMfd by: M/s. Alves\nHealthcare Private\nLimited, Nangal\nUparla,a, Swarghat\nRoad, Nalagarh,\nDist. Solan- 174 101\nHimachal Pradesh,\nIndia.",
+        "“pH”\nand\nIdentification &\nAssay of “Folic\nAcid”",
+        "Drug\nControl\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "17.",
+        "Levocetirizine\nDihydrochloride\nSyrup",
+        "B. No.: LZR-2208\nMfg dt: 01/2022\nExp dt: 12/2023\nMfd by: M/s. Apple\nFormulations Pvt. Ltd.\nPlot No. 204, Kishanpur,\nRoorkee-247667 (U.K.).",
+        "‘pH’",
+        "Drug\nControl\nDepartment\nBihar",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "18.",
+        "Iron & Folic Acid\nSyrup IP (50 ml)",
+        "B. No.: AHL21012\nMfg dt: 05/2021\nExp dt: 04/2023\nMfd by: M/s. ALVES\nHEALTHCARE\nPRIVATE LIMITED,\nNangal Uparla,\nSwarghat Road,\nNalagarh, Distt. Solan-\n174 101 Himachal\nPradesh, INDIA.",
+        "‘pH’,\nIdentification &\nAssay of ‘Folic\nAcid’",
+        "Drug\nControl\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      15.2,
+      56.85,
+      575.44,
+      757.83
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "19.",
+        "GALPARA\nSUSPENSION\n(PARACETAMOL\nPAEDIATRIC ORAL\nSUSPENSION IP),\n60m",
+        "B. No.: LGL-22157\nMfg dt: 03/2022\nExp dt: 02/2024\nMfd by: M/s. Prochem\nPharmaceuticals Pvt.\nLtd., 140-141,\nMakkanpur\nBhagwanpur, Roorkee,\nDist Haridwar-247661\nUttarakhand, India.",
+        "Assay of\nParacetamol",
+        "Drug\nControl\nDepartment\nMeghalaya",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "20.",
+        "GALPARA\nSUSPENSION\n(Paracetamol\nPaediatric Oral\nSuspension I.P.)",
+        "B. No.: LGL-22157\nMfg dt: 03/2022\nExp dt: 02/2024\nMfd by: M/s. Prochem\nPharmaceuticals Pvt.\nLtd., 140-141,\nMakkanpur\nBhagwanpur, Roorkee,\nDist Haridwar-247661\nUttarakhand India.",
+        "Assay of\nParacetamol",
+        "Drug\nControl\nDepartment\nMeghalaya",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "21.\n.",
+        "Levocetirizine\nDihydrochloride\nSyrup, 30ml",
+        "B. No.: LZR-2204\nMfg dt: 01/2022\nExp dt: 12/2023\nMfd by: M/s. Apple\nFormulations Pvt. Ltd.\nPlot No. 208, Kishanpur,\nRoorkee-247667\nUttarakhand.",
+        "pH",
+        "Drug\nControl\nDepartment\nBihar",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "22.",
+        "Cifazime-AZ\n(Cefixime &\nAzithromycin\nTablets)",
+        "B. No.: CZT-2101\nMfg dt: 02/2021\nExp dt: 01/2023\nMfd by: M/s. Fantasy\nDrugs Private Limited\nC-66 to 69, Industrial\nArea, Hajipur-844101,\nBihar (India).",
+        "Identification of\nAzithromycin\n& Assay of\nCefixime &\nAzithromycin",
+        "Drug\nControl\nDepartment\nBihar",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "23.",
+        "DSP (Diclofenac\nPotassium\nSerratiopeptidase &\nParacetamol\nTablets)",
+        "B. No.: LSAT-016\nMfg dt: 06/2021\nExp dt: 05/2023\nMfd by: M/s.\nLABORATE\nPHARMACEUTICALS\nINDIA LTD, (Unit-II)\n#31, Rajban Road,",
+        "Description",
+        "Drug\nControl\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      758.31
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Nariwala Paonta Sahib,\nHimachal Pradesh.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "24.",
+        "Co-trimoxazole\nTablets IP SS",
+        "B. No.: CM-122\nMfg dt: 05/2022\nExp dt: 04/2024\nMfd by: M/s. High Tech\nPharma, 49, Khandelwal\nCompound, Plada,\nIndore Madhya\nPradesh.",
+        "Disintegration",
+        "Drug\nControl\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "25.",
+        "Moxiion-CV Dry\nSyrup (Amoxycillin\n& Potassium\nClavulanate Oral\nSuspension),\n3.3gm/30ml. with\nwater",
+        "B. No.: WJD-092C\nMfg dt: 08/2021\nExp dt: 01/2023\nMfd by: M/s. WELCURE\nREMEDIES Nahan\nRoad, Vill Moginand,\nDistt. Sirmour - 173030\nHimachal Pradesh.",
+        "Assay/\nContent’ of\nClavulanic Acid",
+        "Drug\nControl\nDepartment\nJharkhand",
+        "RDTL\nGuwahati"
+      ],
+      [
+        "26.",
+        "Amikacin Injection\nIP",
+        "B. No.: 21 AM02\nMfg dt: 03/2021\nExp dt: 02/2023\nMfd by: M/s. Sai\nParenterals Pvt. Ltd.,\nD4, Phase V, IDA,\nJeedimetla, Hyderabad\n– 500055.",
+        "Description &\nParticulate Matter",
+        "Drug\nControl\nDepartment\nAndhra\nPradesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "27.",
+        "Sodium Valproate\nTablets I.P. 200 mg",
+        "B. No.: T2282\nMfg dt: 08/2022\nExp dt: 07/2024\nMfd by: M/s. Bharat\nParenterals Ltd., Survey\nNo. 144 & 146, Jarod\nSamlaya Road Tal.\nSavli City, Haripura,\nVadodara, Gujarat –\n391 520.",
+        "Related\nSubstances",
+        "CDSCO\nZonal Office\nAhmedabad",
+        "CDL\nKolkata"
+      ],
+      [
+        "28.",
+        "Sodium Valproate\nTablets I.P. 200 mg",
+        "B. No.: T2283\nMfg dt: 08/2022\nExp dt: 07/2024\nMfd by: M/s. Bharat\nParenterals Ltd., Survey\nNo. 144 & 146, Jarod\nSamlaya Road Tal.\nSavli City, Haripura,",
+        "Related\nSubstances",
+        "CDSCO\nZonal Office\nAhmedabad",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      758.31
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Vadodara, Gujarat –\n391 520.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "29.",
+        "Paracetamol\nTablets I.P. 500 mg",
+        "B. No.: 9717\nMfg dt: 03/2021\nExp dt: 02/2024\nMfd by: M/s. Orissa\nDrugs & Chemicals\nLimited, 1, Mancheswar\nIndustrial Estate,\nBhubaneswar (Odisha).",
+        "Dissolution",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "30.",
+        "RamiRav Tablets\n(Ramipril Tablets\nI.P. 1.25 mg)",
+        "B. No.: NKT22116A\nMfg dt: 05/2022\nExp dt: 04/2024\nMfd by: M/s. Nexkem\nBiotech Pvt. Ltd., Plot\nNo. 64, HPSIDC,\nIndustrial Area, Baddi,\nDistt. Solan Himachal\nPradesh –\n173 205.",
+        "Dissolution\n&\nAssay",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "31.",
+        "Ridtas – S\n(S(-)Amlodipine\nTablets I.P.)",
+        "B. No.: RT220619\nMfg dt: 08/2022\nExp dt: 07/2024\nMfd by: M/s. Ridley Life\nSciences Pvt. Ltd., D-\n1651, DSIDC, Indl.\nComplex, Narela, Delhi\n– 110040.",
+        "Dissolution\n&\nAssay",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "32.",
+        "Fenosky - 200\n(Fenofibrate Tablets\nI.P. 200 mg)",
+        "B. No.: T220209\nMfg dt: 02/2022\nExp dt: 01/2024\nMfd by: M/s. Medisky\nPharmaceuticals, Plot\nNo. 260, GIDC, Talod –\n383215, Dist.\nSabarkantha (Gujarat).",
+        "Dissolution",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "33.",
+        "Prednisolone\nTablets I.P. 5 mg",
+        "B. No.: PNT5-22-221\nMfg dt: 04/2022\nExp dt: 03/2024\nMfd by: M/s. Ornate\nLabs Pvt. Ltd., Bela\nIndustrial Estate,\nMuzaffarpur-842005.\nBihar.",
+        "Description",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      763.83
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "34.",
+        "Prednisolone\nTablets I.P. 10 mg",
+        "B. No.: PNT10-22-221\nMfg dt: 04/2022\nExp dt: 03/2024\nMfd by: M/s. Ornate\nLabs Pvt. Ltd., Bela\nIndustrial Estate,\nMuzaffarpur-842005,\nBihar.",
+        "Description",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "35.",
+        "Atorvadoc 20\n(Atorvastatin\nTablets I.P. 20 mg)",
+        "B. No.: MFT720\nMfg dt: 06/2022\nExp dt: 05/2024\nMfd by: M/s. Amster\nLabs, Unit-II, Hilltop,\nInd. Estate, Vill. Bhatauli\nKalan, Baddi, Distt.\nSolan Himachal\nPradesh.",
+        "Dissolution",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "36.",
+        "Telmistad – 40\n(Telmisartan Tablets\nIP 40 mg)",
+        "B. No.: C23D7\nMfg dt: 07/2022\nExp dt: 06/2024\nMfd by: M/s. Statmed\nPrivate Limited, 15,\nJawpore Road, Kolkata\n– 700074.",
+        "Description",
+        "CDSCO\nEast Zone\nKolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "37.",
+        "Astyfer XT (Ferrous\nAscorbate with\nAminoacids, Zinc\nand Vitamins Tablet\nI.P.)",
+        "B. No.: TTQ2P5\nMfg dt: 08/2022\nExp dt: 07/2024\nMfd by: M/s. Tablets\n(India) Limited, 179,\nT.H. Road, Chennai –\n600 081.",
+        "Disintegration",
+        "CDSCO\nSub-Zone\nGuwahati",
+        "CDL\nKolkata"
+      ],
+      [
+        "38.",
+        "MYLOMAX\n(Methylcobalamin,\nAlpha Lipoic Acid,\nFolic Acid,\nPyridoxine\nHydrochloride &\nVitamin D3 Tablets)",
+        "B. No.: R2295307G\nMfg dt: 07/2022\nExp dt: 12/2023\nMfd by: M/s. Reltsen\nHealth Care, Spl. Plot\nNo. 9-11, PIPDIC\nElectronic Park,\nThirubuvanai,\nPuducherry – 605 107.",
+        "Assay of Alpha\nLipoic Acid",
+        "CDSCO\nSouth Zone\nChennai",
+        "CDL\nKolkata"
+      ],
+      [
+        "39.",
+        "MECOBROOK-AT\n(Methylcobalamin,\nAlpha Lipoic Acid,\nFolic Acid,\nPyridoxine",
+        "B. No.: T2205148\nMfg dt: 05/2022\nExp dt: 04/2024\nMfd by: M/s. Healing",
+        "Disintegration,\nAssay of Alpha\nLipoic Acid &\nVitamin D3",
+        "CDSCO\nSouth Zone\nChennai",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      758.31
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "Hydrochloride &\nVitamin D3 Tablets)",
+        "Pharma India Pvt. Ltd.,\nMfg At. 81/10, GIDC,\nNear Vadsar Bridge,\nMakarpura, Vadodara -\n10, Gujarat.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "40.",
+        "Paracetamol\nTablets I.P. 500 mg",
+        "B. No.: 220124\nMfg dt: 01/2022\nExp dt: 12/2024\nMfd by: M/s. Modi\nAntibiotics, Plot No. 28,\nG.I.D.C., Ahmedabad\n382 415, Gujarat.",
+        "Dissolution",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDL\nKolkata"
+      ],
+      [
+        "41.",
+        "CSP (Cough Syrup\nfor Throat & Chesty\nCoughs) 100 ml",
+        "B. No.: LOCG21-85\nMfg dt: 08/2021\nExp dt: 07/2024\nMfd by: M/s. Maiden\nPharmaceuticals,\nVillage Manpura, Tehsil\nNalagarh, Distt. Solan,\nHimachal Pradesh,\nNalagarh – 174101.",
+        "Assay of\nDiphenhydramine\nHydrochloride,\nCodeine\nPhosphate,\nSodium Citrate &\nMenthol",
+        "Drug\nControl\nDepartment\nHimachal\nPradesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "42.",
+        "CSP (Cough Syrup\nfor Throat & Chesty\nCoughs) 100 ml",
+        "B. No.: LOCG21-94\nMfg dt: 08/2021\nExp dt: 07/2024\nMfd by: M/s. Maiden\nPharmaceuticals,\nVillage Manpura, Tehsil\nNalagarh, Distt. Solan,\nHimachal Pradesh,\nNalagarh – 174101.",
+        "Assay of\nDiphenhydramine\nHydrochloride,\nCodeine\nPhosphate,\nSodium Citrate &\nMenthol",
+        "Drug\nControl\nDepartment\nHimachal\nPradesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "43.",
+        "CSP (Cough Syrup\nfor Throat & Chesty\nCoughs) 100 ml",
+        "B. No.: LOCG21-95\nMfg dt: 08/2021\nExp dt: 07/2024\nMfd by: M/s. Maiden\nPharmaceuticals,\nVillage Manpura, Tehsil\nNalagarh, Distt. Solan,\nHimachal Pradesh,\nNalagarh – 174101.",
+        "Assay of\nDiphenhydramine\nHydrochloride,\nCodeine\nPhosphate,\nSodium Citrate &\nMenthol",
+        "Drug\nControl\nDepartment\nHimachal\nPradesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "44.",
+        "CSP (Cough Syrup\nfor Throat & Chesty\nCoughs) 100 ml",
+        "B. No.: LOCG21-84\nMfg dt: 08/2021\nExp dt: 07/2024\nMfd by: M/s. Maiden\nPharmaceuticals,",
+        "Assay of Codeine\nPhosphate\n&\nMenthol",
+        "Drug\nControl\nDepartment\nHimachal\nPradesh",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      761.79
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Village Manpura, Tehsil\nNalagarh, Distt. Solan,\nHimachal Pradesh,\nNalagarh – 174101.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "45.",
+        "CSP (Cough Syrup\nfor Throat & Chesty\nCoughs) 100 ml",
+        "B. No.: LOCG21-96\nMfg dt: 08/2021\nExp dt: 07/2024\nMfd by: M/s. Maiden\nPharmaceuticals,\nVillage Manpura, Tehsil\nNalagarh, Distt. Solan,\nHimachal Pradesh,\nNalagarh – 174101.",
+        "Assay of Codeine\nPhosphate,\nSodium Citrate &\nMenthol",
+        "Drug\nControl\nDepartment\nHimachal\nPradesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "46.",
+        "Orthorium - MSM\n(Diacerein,\nGlucosamine\nSulphate & Methyl\nSulfonyl Methane\nTablets)",
+        "B. No.: Not Mentioned\nMfg dt: Not Mentioned,\nExp dt: Not Mentioned\nMfd by: M/s. L.V. Life\nSciences, VPO,\nGurumajra, Baddi, Distt.\nSolan Himachal\nPradesh – 174 101.",
+        "Description and\nMisbranded",
+        "Drug\nControl\nDepartment\nHimachal\nPradesh",
+        "CDL\nKolkata"
+      ],
+      [
+        "47.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection IP\n(Ringer Lactate\nSolution for Injection\nI.P.)",
+        "B. No.: S2FBV28\nMfg dt: 02/2022\nExp dt: 01/2024\nMfd by: M/s. Swaroop\nPharmaceuticals Pvt.\nLtd., A-10, Tala Nagari\nIndustrial Area, Aligarh\n– 202 001, Uttar\nPradesh.",
+        "Bacterial\nEndotoxins\n&\nSterility",
+        "Drug\nControl\nDepartment\nOdisha",
+        "CDL\nKolkata"
+      ],
+      [
+        "48.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection IP\n(Ringer Lactate\nSolution for Injection\nI.P.)",
+        "B. No.: 203124\nMfg dt: 03/2022\nExp dt: 02/2024\nMfd by: M/s. Ives Drugs\n(India) Pvt. Ltd., Works:\nGhatabillod, Distt. Dhar\nH.O. 504, Chetak\nCenter, R.N.T. Marg,\nIndore -1 (India).",
+        "Bacterial\nEndotoxins\n&\nSterility",
+        "Drug\nControl\nDepartment\nOdisha",
+        "CDL\nKolkata"
+      ],
+      [
+        "49.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection IP\n(Ringer Lactate\nSolution for Injection\nI.P.)",
+        "B. No.: 203121\nMfg dt: 03/2022\nExp dt: 02/2024\nMfd by: M/s. Ives Drugs\n(India) Pvt. Ltd., Works:",
+        "Sterility",
+        "Drug\nControl\nDepartment\nOdisha",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      763.83
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Ghatabillod, Distt. Dhar.\nH.O. 504, Chetak\nCenter, R.N.T. Marg,\nIndore -1 (India).",
+        "",
+        "",
+        ""
+      ],
+      [
+        "50.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection IP\n(Ringer Lactate\nSolution for Injection\nI.P.)",
+        "B. No.: 110051\nMfg dt: 10/2021\nExp dt: 09/2023\nMfd by: M/s. Ives Drugs\n(India) Pvt. Ltd., Works:\nGhatabillod, Distt. Dhar\nH.O. 504, Chetak\nCenter, R.N.T. Marg,\nIndore -1 (India).",
+        "Description,\nParticulate\nContamination\n&\nSterility",
+        "Drug\nControl\nDepartment\nOdisha",
+        "CDL\nKolkata"
+      ],
+      [
+        "51.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection IP\n(Ringer Lactate\nSolution for Injection\nI.P.)",
+        "B. No.: 204002\nMfg dt: 04/2022\nExp dt: 03/2024\nMfd by: M/s. Ives Drugs\n(India) Pvt. Ltd., Works:\nGhatabillod, Distt. Dhar\nH.O. 504, Chetak\nCenter, R.N.T. Marg,\nIndore -1 (India).",
+        "Sterility",
+        "Drug\nControl\nDepartment\nOdisha",
+        "CDL\nKolkata"
+      ],
+      [
+        "52.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection IP\n(Ringer Lactate\nSolution for Inj.)",
+        "B. No.: S2FBV20\nMfg dt: 02/2022\nExp dt: 01/2024\nMfd by: M/s. Swaroop\nPharmaceuticals Pvt.\nLtd., A-10, Tala Nagari\nIndustrial Area, Aligarh\n– 202 001, Uttar\nPradesh.",
+        "Bacterial\nEndotoxins",
+        "Drug\nControl\nDepartment\nOdisha",
+        "CDL\nKolkata"
+      ],
+      [
+        "53.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection I.P.\n(Ringer Lactate\nSolution for Injection\nI.P.)",
+        "B. No.: 203119\nMfg dt: 03/2022\nExp dt: 02/2024\nMfd by: M/s. Ives Drugs\n(India) Pvt. Ltd., Works:\nGhatabillod, Distt. Dhar\nH.O. 504, Chetak\nCenter, R.N.T. Marg,\nIndore -1 (India).",
+        "Particulate\nContamination\n&\nSterility",
+        "Drug\nControl\nDepartment\nOdisha",
+        "CDL\nKolkata"
+      ],
+      [
+        "54.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection I.P.\n(Ringer Lactate\nSolution for Injection",
+        "B. No.: 112085\nMfg dt: 12/2021\nExp dt: 11/2023\nMfd by: M/s. Ives Drugs",
+        "Sterility",
+        "Drug\nControl\nDepartment\nOdisha",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      758.31
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "I.P.)",
+        "(India) Pvt. Ltd., Works:\nGhatabillod, Distt. Dhar\nH.O. 504, Chetak\nCenter, R.N.T. Marg,\nIndore -1 (India).",
+        "",
+        "",
+        ""
+      ],
+      [
+        "55.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection I.P.\n(Ringer Lactate\nSolution for Injection\nI.P.)",
+        "B. No.: 203047\nMfg dt: 03/2022\nExp dt: 02/2024\nMfd by: M/s. Ives Drugs\n(India) Pvt. Ltd., Works:\nGhatabillod, Distt. Dhar\nH.O. 504, Chetak\nCenter, R.N.T. Marg,\nIndore -1 (India).",
+        "Sterility",
+        "Drug\nControl\nDepartment\nCuttack",
+        "CDL\nKolkata"
+      ],
+      [
+        "56.",
+        "RL 500 ml,\nCompound Sodium\nLactate Injection IP\n(Ringer Lactate\nSolution for\nInjection)",
+        "B. No.: S2FBV38\nMfg dt: 02/2022\nExp dt: 01/2024\nMfd by: M/s. Swaroop\nPharmaceuticals Pvt.\nLtd., A-10, Tala Nagari\nIndustrial Area, Aligarh\n– 202 001 Uttar\nPradesh.",
+        "Bacterial\nEndotoxins",
+        "Drug\nControl\nDepartment\nCuttack",
+        "CDL\nKolkata"
+      ],
+      [
+        "57.",
+        "Ampholis Injection –\n10 ml (Amphotericin\nB Emulsion\nInjection)",
+        "B. No.: SI-515\nMfg dt: 06/2021\nExp dt: 05/2023\nMfd by: M/s. Shivam\nEnterprises, Suketi\nRoad, Kala-Amb, Distt.\nSirmour Himachal\nPradesh – 173 030.",
+        "pH, Bacterial\nendotoxins and\nSterility",
+        "Drug\nControl\nDepartment\nRajasthan",
+        "CDL\nKolkata"
+      ],
+      [
+        "58.",
+        "Zinc Sulphate\nDispersible Tablets\nIP 20 mg",
+        "B. No.: ZST903\nMfg dt: 01/2022\nExp dt: 12/2023\nMfd by: M/s. Unicure\nIndia Ltd.,C-21, 22 & 23,\nSector -3, Noida –\n201301, Distt. Gautam\nBudh Nagar, Uttar\nPradesh.",
+        "Assay",
+        "CDSCO\nSubzone\nBangalore",
+        "CDTL\nChennai"
+      ],
+      [
+        "59.",
+        "Metronidazole\nTablets IP 400 mg",
+        "B. No.: 3000521\nMfg dt: 03/2021\nExp dt: 02/2024\nMfd by: M/s. Karnataka",
+        "Dissolution",
+        "CDSCO\nSubzone\nBangalore",
+        "CDTL\nChennai"
+      ]
+    ]
+  },
+  {
+    "page": 13,
+    "bbox": [
+      15.2,
+      56.85,
+      575.44,
+      762.63
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Antibiotics and\nPharmaceuticals Ltd.,\nPlot No.14, II Phase,\nPeenya, Bengaluru-\n560058.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "60.",
+        "Junior Lanzol 15 mg\n(Lansoprazole\nOrally Disintegrating\nTablets 15 mg)",
+        "B. No.: BA12571\nMfg dt: 08/2021\nExp dt: 07/2023\nMfd by: M/s. Cipla Ltd.,\nMalpur, Dist. Solan\n173205, Himachal\nPradesh.",
+        "Hardness",
+        "CDSCO\nSub-Zone\nIndore",
+        "CDTL\nMumbai"
+      ],
+      [
+        "61.",
+        "Decmax 4 mg\n(Dexmethasone\nTablets IP 4 mg)",
+        "B. No.: ST-21286\nMfg dt: 06/2021\nExp dt: 05/2024\nMfd by: M/s. Supermax\nDrugs & Pharmaceutical\nPvt. Ltd., (Unit-II,\nKhasra No. 322,\nNanheda Anantpur,\nBhagwanpur, Roorkee-\n247668, Haridwar,\nUttarakhand.",
+        "Related\nsubstances.",
+        "CDSCO\nWest- Zone\nMumbai",
+        "CDTL\nMumbai"
+      ],
+      [
+        "62.",
+        "FERROUS\nASCORBATE &\nFOLIC ACID\nCAPSULES",
+        "B. No.: 1013\nMfg dt: 12/2021\nExp dt: 11/2023\nMfd by: M/s. Vivimed\nLabs Limited, D-125 &\n128, Phase III, I.D.A.,\nJeedimetla, Medchal-\nMalkajgiri (Dist)\nTelangana State-\n500055.",
+        "AVERAGE FILL\nAND ASSAY\nFOLIC ACID",
+        "CDSCO\nZonal office\nHyderabad",
+        "CDTL\nHyderabad"
+      ],
+      [
+        "63.",
+        "Ceftriaxone and\nSulbactam for\nInjection (Metifex SL\n1500 Injection)",
+        "B. No.: 322-797\nMfg dt: 08/2022\nExp dt: 07/2024\nMfd by: M/s. Zee\nLaboratories Limited\nBehind 47, Industrial\nArea, Paonta Sahib-\n173205, Himachal\nPradesh.",
+        "Identification of\nCeftriaxone\nSodium and\nSulbcatam\nSodium, pH and\nAssay of\nCeftriaxone\nSodium\ncalculated as\nCeftriaxone and\nSulbactam\nSodium\ncalculated as",
+        "CDSCO\nSub-Zone\nBaddi",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "bbox": [
+      15.21,
+      56.85,
+      575.43,
+      759.75
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "Sulbactam",
+        "",
+        ""
+      ],
+      [
+        "64.",
+        "Ramipril Tablets IP\n(Ramichek 5\nTablets)",
+        "B. No.: MT214919\nMfg dt: 11/2021\nExp dt: 10/2023\nMfd by: M/s. Mascot\nHealth Series Pvt. Ltd.,\nPlot No. 79,80, Sector-\n6A, IIE, Sidcul,\nHaridwar-249403,\nUttarakhand.",
+        "Assay and\nDissolution of\nRamipril Tablets\nIP (Ramichek 5\nTablets)",
+        "CDSCO\nSub-Zone\nBaddi",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "65.",
+        "Paediatric\nParacetamol Oral\nSuspension BP\n(PARA 120\nSUSPENSION)",
+        "B. No.: D10086\nMfg dt: 10/2021\nExp dt: 09/2024\nMfd by: M/s. DM\nPHARMA PVT. LTD.,\nVill-Bhud, NH-21A,\nBaddi, Distt - Solan,\nHimachal Pradesh-\n173205, INDIA.",
+        "Related\nSubstances and\nAssay of\nParacetamol",
+        "CDSCO\nSub-Zone\nBaddi",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "66.",
+        "Paediatric\nParacetamol Oral\nSuspension BP\n(PARA 120\nSUSPENSION)",
+        "B. No.: D10085\nMfg dt: 10/2021\nExp dt: 09/2024\nMfd by: M/s. DM\nPHARMA PVT. LTD.,\nVill-Bhud, NH-21A,\nBaddi, Distt-Solan,\nHimachal Pradesh -\n173205, INDIA.",
+        "Related\nSubstances and\nAssay of\nParacetamol",
+        "CDSCO\nSub-Zone\nBaddi",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "67.",
+        "Betamethasone and\nClioquinol Cream\nBP (BETNOVATE-C\nSKIN CREAM)",
+        "B. No.: NH1118\nMfg dt: 01/2021\nExp dt: 12/2022\nMfd by: M/s.\nGlaxoSmithKline\nPharmaceuticals\nLimited, At. A-10,\nM.I.D.C., Ambad-\nPathardi Block, Nashik\n422010, Maharashtra,\nINDIA.",
+        "Identification (A),\n(B), (C) and\nAssay of\nBetamethasone\nValerate\ncalculated as\nBetamethasone\nand Clioquinol",
+        "Drug\nControl\nDepartment\nDelhi",
+        "RDTL\nChandigarh\n*Remark: The\nfirm M/s. GSK\nnotified this\noffice regarding\navailability of\nSpurious/\nCounterfeit of\nthe said batch of\ndrug.\nInvestigation is\nunder process."
+      ],
+      [
+        "68.",
+        "Telmisartan and\nHydrochlorothiazide\nTablets IP\n(SARTAN-H\nTABLETS)",
+        "B. No.: 012259\nMfg dt: 01/2022\nExp dt: 12/2023\nMfd by: M/s. Biolgics\nInc., Suketi Road, Kala-",
+        "Dissolution of\nTelmisartan",
+        "Drug\nControl\nDepartment\nLadakh",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "bbox": [
+      15.24,
+      56.88,
+      575.4,
+      407.59
+    ],
+    "n_rows": 3,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Amb, Distt. Sirmour,\nHimachal Pradesh -\n173030.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "69.",
+        "Hydroquinone,\nTretinoin and\nMometasone\nFuroate Cream\n(Melamet Cream)",
+        "B. No.: A191070\nMfg dt: 12/2020\nExp dt: 01/2023\nMfd by: M/s. Universal\nTwin Labs, Village\nGullarwala, Near Sai\nRoad, Baddi, Dist.-\nSolan, Himachal\nPradesh.",
+        "pH, Identification\nand Assay of\nHydroquinone,\nTretinoin and\nMometasone\nFuroate",
+        "Drug\nControl\nDepartment\nDelhi",
+        "RDTL\nChandigarh"
+      ],
+      [
+        "70.",
+        "Steptococcus\nFaecalis,\nClostridium\nButyricum, Bacillus\nmesentericus and\nLactic Acid Bacillus\nCapsules",
+        "B. No.: CHC-1054\nMfg dt: 11/2021\nExp dt: 10/2023\nMfd by: M/s. Cotec\nHealthcare Pvt. Ltd.,\nNH. No.74, Roorkee-\nDehradun Highway,\nKishanpur, Roorkee-\n247667 Haridwar\n(Uttrakhand).",
+        "Identification and\nAssay of\nStreptococcus\nfaecalis",
+        "CDSCO\nNorth Zone",
+        "RDTL\nChandigarh"
+      ]
+    ]
+  }
+]

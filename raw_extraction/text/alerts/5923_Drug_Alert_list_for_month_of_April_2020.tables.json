@@ -1,0 +1,727 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      22.28,
+      87.18,
+      582.5,
+      183.1
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "460"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "401"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality",
+        "59"
+      ],
+      [
+        "Total number of samples declared as Spurious",
+        "0"
+      ],
+      [
+        "Total number of samples declared as Misbranded",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      15.2,
+      211.07,
+      596.68,
+      709.21
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.\nNo.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for failure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Ramizim – 5\n(Ramipril Tablets\nI.P. 5 mg)",
+        "B. No.: EO82G801\nMfg dt: 07/2018,\nExp dt: 06/2020,\nMfd by: M/s. ZIM\nLaboratories Limited\n(Unit-II), A-8/14, MIDC\nArea, Kalmeshwar 441\n501, Dist. Nagpur, (M.S.)",
+        "Description,\nDissolution and\nAssay",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "Pure – Handrub\nAlcohol Hand\nSanitizer\n(Chlorhexidine and\nIsopropyl Alcohol\nHandrub)",
+        "B. No.: EHX-117,\nMfg dt: 03/2020,\nExp dt: 02/2022,\nMfd by: M/s. Dr. Edwin\nLab, Plot No. 517, Indl.\nArea, Phase IX, SAS\nNagar – 160 059\n(Punjab).",
+        "Assay",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Enaril-2.5 mg\n(Enalapril Maleate\nTablets I.P.).",
+        "B. No.: T - 19831,\nMfg dt: 06/2019,\nExp dt: 05/2021,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd.,\n22-24, Majitha Road, Bye\nPass, Amritsar – 143001\n(India).",
+        "Dissolution and\nAssay",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "CDPIN 10\n(Cilnidipine Tablets\nI.P. 10 mg)",
+        "B. No.: 549J001,\nMfg dt: 10/2019,\nExp dt: 03/2021,\nMfd by: M/s. Ravenbhel\nHealthcare Pvt. Ltd. 16-",
+        "Assay",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      35.61,
+      596.67,
+      708.97
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "17, EPIP, SIDCO,\nKartholi, Bari Brahmana,\nJammu - 181133.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Riboflavine Tablets\nI.P. 10 mg",
+        "B. No.: 2308,\nMfg dt: 10/2019,\nExp dt: 03/2021,\nMfd by: M/s. Abicee\nPharmaceuticals Pvt.\nLtd., AT: 217,\nMancheswar Industrial\nEstate, Sector - A, Zone -\nB, Bhubaneswar.",
+        "Description",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "Prednisolone\nTablets I.P.",
+        "B. No.: TPR5-033,\nMfg dt: 04/2019,\nExp dt: 03/2021,\nMfd by: M/s. Medipol\nPharmaceutical India Pvt.\nLtd., 1199/3, Bhud,\nBaddi, Dist. Solan, H.P.\nIndia.",
+        "Related Substances\nand Assay",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "ROSE MED\n(Sterile Surgical\nGloves Pre\nPowdered)",
+        "Lot. No.: 1904A/02,\nMfg dt: 02/2019,\nExp dt: 01/2022,\nMfd by: M/s. Mariya\nHealthcare Pvt. Ltd.,\nMunnekkar P.O.\nKarimba, Palakkad,\nKerala – 678597",
+        "Sterility",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "Calcium with\nVitamin D Tablets\n3",
+        "B. No.: TAK8109AL,\nMfg dt: 05/2018,\nExp dt: 04/2020,\nMfd by: M/s. Hindustan\nLaboatories, Plot No. 5-9,\nSurvey No. 38/2, Aliyali,\nPalghar (W), Dist.\nPalghar, 401 404\nMaharashtra",
+        "Assay of Vitamin D\n3",
+        "CDSCO\nSub Zone,\nGuwahati",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9.",
+        "Salbutamol\nSulphate Tablets\nI.P.",
+        "B. No.: 7193\nMfg dt: 12/2018,\nExp dt: 11/2020,\nMfd by: M/s. Adroit\nPharmaceuticals Pvt.\nLtd., 46, Garoba Maidan,\nNagpur -8.",
+        "Related Substances",
+        "CDSCO,\nHyderabad.",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.21,
+      35.61,
+      596.67,
+      714.97
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "10.",
+        "Povidone -Iodine\nOintment U.S.P.\n20 gm",
+        "B. No.: 005\nMfg dt: 02/2019,\nExp dt: 01/2021,\nMfd by: M/s. Deep\nPharma, Unit -2, Survey\nNo 293/3, Behind\nJalaram Mandir, Kalikund\n– Kheda Road, Dholka –\n382225, Dist.\nAhmedabad",
+        "Assay of Available\nIodine",
+        "CDSCO,\nAhmedabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "11.",
+        "Ofloxacin Tablet\nI.P. 200 mg",
+        "B. No.: BT4348\nMfg dt: 11/2019,\nExp dt: 10/2021,\nMfd by: M/s. Brilliant Life\nSciences Pvt. Ltd.,\nChuval Dangarwa, Teh.\nDetroj, Distt. Ahmedabad\n, Gujarat, India",
+        "Dissolution & Assay",
+        "CDSCO,\nAhmedabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "12.",
+        "Clopidogrel &\nAspirin Tablets\n75/75 mg",
+        "Batch No.: T8090229\nMfg. dt: 09/18\nExp. dt: 08/20\nMfd. By: M/s. Rhydburg\nPharmaceuticals Ltd, C2\n& 3, S.I.E.L, Selaqui,\nDehradun, UK",
+        "Dissolution of\nAspirin",
+        "CDSCO,\nSub Zone,\nIndore",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "13.",
+        "Alumina, Magnesia\n& Simethicone\nOral Suspension\nIP",
+        "Batch No.:AME-1901\nMfg. dt: 04/19\nExp. dt: 03/21\nMfd. By: M/s. Apple\nFormulations Pvt. Ltd.\nPlot No. 208, Kishanpur,\nRoorkee-247667 (U.K.)",
+        "Assay of\nDimethicone",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "14.",
+        "Alumina, Magnesia\n& Simethicone\nOral Suspension\nIP",
+        "Batch No.:AME-1902\nMfg. dt: 04/19\nExp. dt: 03/21\nMfd. By: M/s. Apple\nFormulations Pvt. Ltd.\nPlot No. 208, Kishanpur,\nRoorkee-247667 (U.K)",
+        "Assay of\nDimethicone",
+        "CDSCO\nWest Zone\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "15.",
+        "Norfloxacin Tablet\nI.P. 400mg",
+        "Batch No.: T-9457\nMfg. dt : 10/19\nExp. dt: 09/21\nMfd. By: Zest Pharma\nPlot No. 275, Sector F,",
+        "Dissolution",
+        "CDSCO,\nSub Zone,\nIndore",
+        "CDTL,\nMumbai"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      15.21,
+      35.61,
+      596.67,
+      715.45
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Sanwer Road,\nIndore-452015, Madhya\nPradesh",
+        "",
+        "",
+        ""
+      ],
+      [
+        "16.",
+        "Tranexamic Acid\nTablets I.P. 500mg",
+        "Batch No.: TAT607\nMfg. dt : 10/2018\nExp. dt: 09/2020\nMfd. By: M/s. Unicure\nIndia Ltd., C-21, 22 & 23,\nSector-3, Noida- 201301,\nDist. Gautam Budh\nNagar, Uttar Pradesh",
+        "Disintegration",
+        "CDSCO,\nSub Zone,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "17.",
+        "Albendazole\nTablets I.P.400mg",
+        "Batch No.: ABT18036\nMfg. dt: 08/2018\nExp. dt: 07/2020\nMfd. By: M/s. Vivek\nPharmachem (India) Ltd.,\nNH-8, Chimanpura,\nAmer, Jaipur-303102",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "18.",
+        "Alprazolam\nTablets\nI.P.(ZOCALM-0.5)",
+        "Batch No: NB/180845\nMfg. dt : 08/2018\nExp. dt: 07/2021\nMfd. By: M/s. SBS\nBiotech Mouza Rampur,\nJattan, Nahan Road,\nKala-Amb, Dist-\nSirmour(H.P)",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nBihar",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "19.",
+        "Montelukast\nSodium &\nLevocetirizine\nHydrochloride\nTablets I.P.",
+        "Batch No.: TMNL-018\nMfg. dt: 01/2019\nExp. dt:12/2020\nMfd. By: M/s. Medipol\nPharmaceutical India Pvt.\nLtd.1199/3, Bhud, Baddi,\nDist. Solan, H.P.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "20.",
+        "Montelukast\nSodium &\nLevocetirizine\nHydrochloride\nTablets I.P.",
+        "Batch No.: TMNL-018\nMfg. dt: 01/2019\nExp. dt:12/2020\nMfd. By: M/s. Medipol\nPharmaceutical India Pvt.\nLtd.1199/3, Bhud, Baddi,\nDist. Solan, H.P.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "21.",
+        "Levocetirizine\nHydrochloride\nTablets I.P.\n(ALECET)",
+        "Batch No.: 18H-T1108H\nMfg. dt: 11/2018\nExp. dt: 10/2020",
+        "Assay",
+        "Drugs Control\nDepartment,\nMizoram",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      15.21,
+      35.61,
+      596.67,
+      708.97
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Mfd. By: M/s. Orison\nPharma International\nKhari, Mauza Ogli, Kala\nAmb-173030 (H.P)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "22.",
+        "Amoxycillin and\nPotassium\nClavulanate Oral\nSuspension I.P.",
+        "Batch No.:D-2533\nMfg. dt: 04/2019\nExp. dt :09/2020\nMfd. by: M/s. Kwality\nPharmaceuticals Ltd. Nag\nKalan, Majitha Road,\nAmritsar",
+        "Assay",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "23.",
+        "Ferrous Sulphate\n& Folic Acid\nTablets I.P.\n(Large)",
+        "Batch No.: B80854\nMfg.dt: 09/2018\nExp.dt: 08/2020\nMfd. by: M/s. Bochem\nHealthcare Pvt. Ltd., 83-\n84, Industrial Area,\nDewas Road, Nagziri,\nUjjain, M.P.-456010",
+        "Disintegration",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "24.",
+        "Cefpodoxime\nTablets I.P. 200mg",
+        "B. No.: NPSM2T19001\nMfg dt: 04/2019,\nExp dt: 09/2021,\nMfd by: M/s. Nootan\nPharamaceuticals Tipra,\nBarotiwala, Kalka Road,\nBarotiwala, Dist. Solan,\nH.P.-174103",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "25.",
+        "Levocetirizine &\nMontelukast\nTablets I.P.",
+        "B. No.: TMNL-008,\nMfg dt: 12/2018,\nExp dt: 11/2020,\nMfd by: M/s. Medipol\nPharmaceuticals India\nPvt. Ltd. 1199/3, Bhud,\nBaddi, Dist. Solan, H.P.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "26.",
+        "Cefpodoxime\nProxetil Tablets\nI.P. 200mg (CEF-\nDP 200)",
+        "B. No.: BST-1296\nMfg dt: 01/2019,\nExp dt: 12/2020,\nMfd by: M/s.Bonn\nSchtering Bio Sciences,\nPlot No. 64 & 65, First\nFloor, Electronic Park,\nThirubuvanai,\nMannadipet Commune,\nPuducherry-605107",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nTamilnadu",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      15.21,
+      35.61,
+      596.67,
+      714.97
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "27.",
+        "Calcium with\nVitamin D3 Tablets\n(DEECAL)",
+        "B. No.: WT-048,\nMfg dt: 06/2018,\nExp dt: 05/2020,\nMfd by: M/s. Wilcure\nRemedies Pvt. Ltd. Plot\nNo. 10, Gram Mirzapur,\nKhandwa Road, Bye\nPass, Amritsar-143004",
+        "Assay",
+        "Drugs Control\nDepartment,\nMeghalaya",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "28.",
+        "Cefuroxime Axetil\nTablets I.P.\n(CEFUROX-S-\n500)",
+        "B. No.: T-16940,\nMfg dt: 05/2018,\nExp dt: 04/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd. 22-\n24, Majitha Road, Bye\nPass, Amritsar-143001",
+        "Assay and\nDissolution",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "29.",
+        "Chloramphenicol\nCapsules I.P.\n(LABCHLOR 500)",
+        "B. No.: JLGC-003,\nMfg dt: 05/2019,\nExp dt: 04/2021,\nMfd by: M/s. Laborate\nPharmaceuticals India\nLtd, Unit-II, #31, Rajban\nRoad, Nariwala, Paonta\nSahib, H.P.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nMizoram.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "30.",
+        "Glimepiride\nTablets I.P. 2 mg",
+        "B. No.: TPT-0317,\nMfg dt: 03/2019,\nExp dt: 02/2021,\nMfd by: M/s. Tanpal\nPharmaceuticals D-12-\n13, Focal Point, Nabha-\n147201, Punjab",
+        "Assay and\nDissolution",
+        "Drugs Control\nDepartment\nMizoram",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "31.",
+        "Compound\nSodium Lactate\nInjections 500ml\n(RL)",
+        "B. No.:03BF0799,\nMfg dt: 01/2019,\nExp dt: 12/2021,\nMfd by: M/s. Paschim\nBanga Pharmaceuticals\nNH-31, Tinmile Hat,\nSonapur Hat,\nP.S.Chopra, Dist. Uttar,\nDinajpur-733214 (W.B)",
+        "BET",
+        "Drugs Control\nDepartment\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "32.",
+        "Dicyclomine\nHydrochloride\nTablets\nI.P.(Bargan)",
+        "B. No.: NT-17300,\nMfg dt: 09/2017,\nExp dt: 08/2020,\nMfd by: M/s. Neutec\nHealthcare Pvt. Ltd. E-",
+        "Assay",
+        "Drugs Control\nDepartment\nNagaland",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      15.2,
+      35.61,
+      596.68,
+      717.25
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "698, DSIIDC, Industrial\nArea, Narela, Delhi-\n110040.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "33.",
+        "Primaquine\nPhosphate Tablets\nI.P. (PRIMELIFE)",
+        "B. No.: LGT-1739,\nMfg dt: 06/2018,\nExp dt: 05/2020,\nMfd by: M/s. Globin\nPharmaceuticals Pvt.\nLtd., Puhana Chowk,\nDehradun Roorkee (U.K)",
+        "Assay",
+        "Drugs Control\nDepartment\nMizoram",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "34.",
+        "Alex Hand\nSanitizer 1.01\nFLOZ/30ML\nEBELE 9",
+        "B. No.: EC/03/20\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: Voda Chemicals\nPvt. Ltd At: - M-158,\nSec.5, Bawana Indl.\nArea, Delhi- 110039",
+        "Identification of\nEthyl Alcohol and\nChlorhexidine\nGluconate\nRemark- Sample\ncontains 42.45%v/v\nmethanol and\n0.875%v/v Iso\npropyl alcohol\nwhere as the label\nclaims is Ethyl\nAlcohol IP 70%v/v",
+        "Drugs Control\nDepartment\nGovt. of NCT\nof Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "35.",
+        "Limon Cello Hand\nSanitizer 1.69\nFLOZ/50ML\nEBELE 9",
+        "B. No.: EC/03/20\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: Voda Chemicals\nPvt. Ltd Sec.5, Bawana\nIndl. Area, Delhi- 39",
+        "Identification of\nEthyl Alcohol and\nChlorhexidine\nGluconate\nRemarks:- Sample\ncontains 45.10%v/v\nmethanol and\n0.283%v/v\nIsopropyl alcohol\nwhere as the label\nclaim is Ethyl\nAlcohol IP 70%v/v",
+        "Drugs Control\nDepartment\nGovt. of NCT\nof Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "36.",
+        "Bond Instant Hand\nSanitizer",
+        "B. No.: A02\nMfg dt: 02/2020\nExp dt: 01/2022\nMfd by: Not Mentioned on\nthe label\nMktd By: - ASM\nEnterprises, M-27,\nSector-5 Bawana, Indl.\nArea Delhi- 110039",
+        "Identification of\nEthyl Alcohol\nPropylene Glycol\nand Vitamin E\nAcetate\nRemarks:- Sample\ncontains 53.05%v/v\nmethanol where as\nthe label claim\nstated 95%v/v Ethyl\nAlcohol",
+        "Govt of NCT\nof Delhi,",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      15.19,
+      35.61,
+      596.69,
+      717.61
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "37.",
+        "Chlorhexidine\nGluconate\n0.5%w/v Isopropyl\nAlcohol\n(FEEL GOOD\nINSTANT HAND\nSANITIZING GEL)",
+        "B. No.: EMB-0001\nMfg dt: 03/2020\nExp dt: 02/2022\nMfd by: M/s. Voda\nChemicals Pvt. Ltd At:-\nM-158, Sec.5, Bawana\nIndl. Area, Delhi- 110039",
+        "Identification of\nEthyl Alcohol and\nChlorhexidine\nGluconate\nRemarks:-\n1) Sample contains\n47.17%v/v methanol\nwhere as the label\nclaim under\ningredient is 70%v/v\nEthyl Alcohol IP\n2) Isopropyl Alcohol\nis also claim on\nanother side of label",
+        "Drugs Control\nOfficer,\nFDA\nGurugram",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "38.",
+        "Viro-Rub Hand\nSanitizer Alcohol\nHand Rub",
+        "B. No.: Not Mentioned\nMfg dt: 03/2020\nExp dt: 03/2024\nMfd by: M/s. Hi Tech\ninternational, 18, Sector 6\nManesar, Gurugram\n122001, India",
+        "Identification of\nEthyl Alcohol\nRemarks:-\n1) Sample contains\n54.54%v/v Isopropyl\nAlcohol where as\nthe label claim\nstated more than\n75%v/v Ethyl\nAlcohol IP\n2) There is colour\nvariation in bottles\nfrom dark blue to\nlight blue",
+        "Drugs Control\nOfficer,\nFDA\nGurugram",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "39.",
+        "Viro-Rub Hand\nSanitizer Alocohol\nHand Rub",
+        "B. No.: 20208878\nMfg dt: 03/2020\nExp dt: 03/2024\nMfd by: M/s. Hi Tech\nInternational,18, Sector 6\nManesar, Gurgoan, India",
+        "Identification of\nEthyl Alcohol\nRemarks:-\nSample contains\n08.52%v/v Methanol\nand 54.33%v/v of\nisopropyl alcohol\nwhere as the label\nclaim is more than\n75%v/v Ethyl\nAlcohol IP",
+        "Drugs Control\nOfficer,\nFDA\nGurugram",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "40.",
+        "Viro-Rub Hand\nSanitizer Alocohol\nHand Rub",
+        "B. No.: 20208878\nMfg dt: 03/2020\nExp dt: 03/2024\nMfd by: M/s. Hi Tech\nInternational,18, Sector 6\nManesar, Gurugram,\nIndia",
+        "Identification of\nEthyl Alcohol\nRemarks:-\n1) Sample contains\n10.11%v/v Methanol\nand 46.17%v/v of\nisopropyl alcohol",
+        "Drugs Control\nOfficer,\nFDA\nGurugram",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      15.2,
+      35.61,
+      596.68,
+      716.29
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "where as the label\nclaim is more than\n75%v/v Ethyl\nAlcohol IP\n2) Color is not\nstable, it\ndisappearing on\nstorage\n3) Few bottles are\nmentioned marketed\nby Hi Tech\nInternational, 18,\nSector 6 Manesar\nGurgaon, India\ninstead of mfd by.",
+        "",
+        ""
+      ],
+      [
+        "41.",
+        "Good Clean Hand\nSanitizer With Aloe\nand Moisturizers",
+        "B. No.: 01\nMfg dt: 03/2020\nExp dt: 02/2023\nMfd by: M/s. JR & Co.,\nDLF Ind. Area, Kirti\nNagar, New Delhi 15",
+        "Assay of Isopropyl\nAlcohol",
+        "Drugs Control\nOfficer,\nFDA\nGurugram",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "42.",
+        "Paracetamol,\nPhenylephrine\nHydrochloride and\nChlorpheniramine\nMaleate Syrup\n(COLDBEST-PC\nSYRUP)",
+        "B. No.: DL4302\nMfg dt: 06/2019\nExp dt: 05/2021\nMfd by: M/s. Digital\nVision, 176, Mauza Ogli,\nNahan Road, Kala Amb,\nDistt. Sirmour (H.P.)-\n173030",
+        "pH and Assay of\nPhenylephrine\nHydrochloride",
+        "Drugs Control\nOfficer,\nFDA Bhiwani,\nHaryana",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "43.",
+        "Paracetamol,\nPhenylephrine\nHCL and\nChlorpheniramine\nMaleate Drops\n(COLDBEST-PC\nDROPS)",
+        "B. No.: DVLD785\nMfg dt: 08/2019\nExp dt: 07/2021\nMfd by: M/s. Digital\nVision, 176, Mauza Ogli,\nNahan Road, Kala Amb,\nDistt. Sirmour (H.P.)-\n173030",
+        "Assay of\nPhenylephrine\nHydrochloride",
+        "Drugs Control\nOffice\nZone IV,\nMuthi,\nJammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "44.",
+        "Paracetamol,\nPhenylephrine\nHydrochloride and\nChlorpheniramine\nMaleate Syrup\n(COLDBEST-PC\nSYRUP)",
+        "B. No.: DL5872\nMfg dt: 01/2020\nExp dt: 12/2021\nMfd by: M/s. Digital\nVision, 176, Mauza Ogli,\nNahan Road, Kala Amb,\nDistt. Sirmour (H.P.)-\n173030",
+        "pH and the Assay of\nPhenylephrine\nHydrochloride",
+        "Drugs Control\nOfficer,\nFDA,\nAmbala,\nHaryana",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      15.21,
+      35.61,
+      596.67,
+      714.97
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "45.",
+        "Paracetamol,\nPhenylephrine\nHydrochloride and\nChlorpheniramine\nMaleate Syrup\n(COLDBEST-PC\nSYRUP)",
+        "B. No.: DL5872\nMfg dt: 01/2020\nExp dt: 12/2021\nMfd by: M/s. Digital\nVision, 176, Mauza Ogli,\nNahan Road, Kala Amb,\nDistt. Sirmour (H.P.)-\n173030",
+        "pH and the Assay of\nPhenylephrine\nHydrochloride",
+        "Drugs Control\nOfficer,\nFDA,\nKurukshetra,\nHaryana",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "46.",
+        "Paracetamol,\nPhenylephrine\nHydrochloride and\nChlorpheniramine\nMaleate Syrup\n(COLDBEST-PC\nSYRUP)",
+        "B. No.: DL5872\nMfg dt: 01/2020\nExp dt: 12/2021\nMfd by: M/s. Digital\nVision, 176, Mauza Ogli,\nNahan Road, Kala Amb,\nDistt. Sirmour (H.P.)-\n173030",
+        "pH and the Assay of\nPhenylephrine\nHydrochloride",
+        "Drugs Control\nOfficer,\nFDA,\nPanipat,\nHaryana",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "47.",
+        "Paracetamol,\nPhenylephrine\nHydrochloride and\nChlorpheniramine\nMaleate Syrup\n(COLDBEST-PC\nSYRUP)",
+        "B. No.: DL5872\nMfg dt: 01/2020\nExp dt: 12/2021\nMfd by: M/s. Digital\nVision, 176, Mauza Ogli,\nNahan Road, Kala Amb,\nDistt. Sirmour (H.P.)-\n173030",
+        "pH and the Assay of\nPhenylephrine\nHydrochloride",
+        "Drugs Control\nOffice\nZone IV,\nMuthi,\nJammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "48.",
+        "Paracetamol,\nPhenylephrine\nHCL and\nChlorpheniramine\nMaleate Drops\n(COLDBEST-PC\nDROPS)",
+        "B. No.: DVLD933\nMfg dt: 11/2019\nExp dt: 10/2021\nMfd by: M/s. Digital\nVision, 176, Mauza Ogli,\nNahan Road, Kala Amb,\nDistt. Sirmour (H.P.)-\n173030",
+        "Assay of\nPhenylephrine\nHydrochloride,\nChlorpheniramine\nMaleate",
+        "Drugs Control\nOfficer\nZone IV,\nMuthi,\nJammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "49.",
+        "Betamethasone\nSodium Phosphate\nTablets IP\n(BETACONE\nTABLETS)",
+        "B. No.: BSP-1080\nMfg dt: 09/2019\nExp dt: 02/2021\nMfd by: M/s. Theramax\nLaboratories, 63-D,\nKailash Nagar, Ambala\nCity – 134003.",
+        "Assay",
+        "CDSCO\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "50.",
+        "Paracetamol,\nPhenylephrine\nHydrochloride and\nChlorpheniramine\nMaleate Syrup",
+        "B. No.: DL5028\nMfg dt: 08/2019\nExp dt: 07/2021\nMfd by: M/s. Digital\nVision, 176, Mauza Ogli,",
+        "pH and the Assay of\nPhenylephrine\nHydrochloride",
+        "Drugs Control\nOfficer,\nFDA Bhiwani,\nHaryana",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      15.21,
+      35.61,
+      596.67,
+      718.45
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "(COLDBEST-PC\nSYRUP)",
+        "Nahan Road, Kala Amb,\nDistt. Sirmour (H.P.)-\n173030",
+        "",
+        "",
+        ""
+      ],
+      [
+        "51.",
+        "Ketoconazole\nShampoo\n(TRANS-KT\nANTIDANDRUFF\nSHAMPOO)",
+        "B. No.: E1137\nMfg dt: 08/2019\nExp dt: 07/2021\nMfd by: M/s. Swisskem\nHealthcare, Khasra No.\n77/3, bathri, Teh. Haroli,\nDistt. Una, (H.P.)",
+        "Assay",
+        "Drugs Control\nDepartment\nDistt. –\nGanderbal,\nJ&K",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "52.",
+        "Cefotaxime\nInjection IP",
+        "B. No.: AB029001A\nMfg dt: 02/2019\nExp dt: 01/2021\nMfd by: M/s. ANG\nLifesciences India Ltd.,\nVillage Kishanpura,\nNalagarh Road, Tehsil:\nBaddi, Distt.: Solan, HP-\n174101",
+        "Related Substances",
+        "Drug and\nFood Control\nOrganisation,\nUdhampur\nJ&K",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "53.",
+        "Permethrine Soap\n(PERMITOP\nANTISCABIES\nBATHING BAR )",
+        "B. No.: E650\nMfg dt: 05/2019\nExp dt: 04/2021\nMfd.by: M/s. Swisskem\nHealthcare, Khasra No.\n77/3, bathri, Teh. Haroli,\nDistt. Una, (H.P.)",
+        "Total fatty matter",
+        "Drugs Control\nDepartment\nDistt. –\nGanderbal,\nJ&K",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "54.",
+        "Lignocaine With\nAdrenaline\nInjection IP",
+        "B. No.: LAN-113A\nMfg dt: 07/2019\nExp dt: 12/2020\nMfd by: M/s. Pushkar\nPharma, Bhandariwala,\nKheri, Kala-Amb –\n173030 (H.P.)",
+        "Assay of Adrenaline\nBitartrate",
+        "CDSCO\nSub Zone\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "55.",
+        "Rosuvastatin\nTablets IP 10mg\n(ROSUSOFT-10\nTABLETS)",
+        "B. No.: HBT-9393\nMfg dt: 10/2019\nExp dt: 09/2021\nMfd by: M/s. Haustus\nBiotech Pvt. Ltd., 44-45,\nIndl. Area, Tahliwal,\nDistt.Una (HP)",
+        "Dissolution",
+        "CDSCO\nSub Zone\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "56.",
+        "Rosuvastatin\nTablets IP 20mg\n(ROZUDOC-20\nTABLETS)",
+        "B. No.: RTE1901\nMfg dt: 06/2019\nExp dt: 05/2021\nMfd by: M/s. Maneesh",
+        "Dissolution",
+        "CDSCO\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      15.19,
+      35.61,
+      596.69,
+      490.78
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Pharmaceuticals Ltd,\nVillage Balyana,\nBarotiwala, Tehsil\nKasaouli, Dist. Solan\n(HP)-174103",
+        "",
+        "",
+        ""
+      ],
+      [
+        "57.",
+        "Rosuvastatin\nTablets IP 10mg\n(ROZUDOC-10\nTABLETS)",
+        "B. No.: RAE1901\nMfg dt: 03/2019\nExp dt: 02/2021\nMfd by: M/s. Maneesh\nPharmaceuticals Ltd,\nVillage Balyana,\nBarotiwala, Tehsil\nKasaouli, Dist. Solan\n(HP)-174103",
+        "Dissolution",
+        "CDSCO\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "58.",
+        "Metoclopramide\nInj. USP\n10MG/2ML",
+        "B. No.: HLI933A\nMfg dt: 01/2019\nExp dt: 12/2020\nMfd by: M/s. Himalaya\nMeditek Pvt.Ltd., Plot no.\n35 & 36 Pharmacity,\nSelaqui, Industrial Area\nDehradun- 248197",
+        "Organic impurities\nand Assay",
+        "CDSCO,\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "59.",
+        "Enalapril Maleate\nTablets IP 5 mg\n(ENARIL-5\nTABLETS )",
+        "B. No.: T-20140\nMfg dt: 08/2019\nExp dt: 07/2021\nMfd by: M/s. Jackson\nLaboratories Pvt.Ltd., 22-\n24, Majitha Road, Bye\nPass, Amritsar – 143001\n(India)",
+        "Assay",
+        "CDSCO\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,651 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      51.8,
+      387.09,
+      543.52,
+      539.07
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sr. No",
+        "Material Name",
+        "Spec",
+        "Target\nconcentration",
+        "Qty/batch",
+        "Used as"
+      ],
+      [
+        "Active raw material",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "1.",
+        "DNA plasmid construct with\nspike protein gene region from\nSARS-CoV-2 virus.",
+        "I.H.",
+        "1.0 mg/0.1 mL",
+        "7000\nmL/batch",
+        "Antigen"
+      ],
+      [
+        "Inactive raw material",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.",
+        "Phosphate Buffered saline",
+        "I.H",
+        "--",
+        "q.s.",
+        "Buffer"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      51.8,
+      610.05,
+      543.52,
+      767.43
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sr. No",
+        "Material Name",
+        "Spec",
+        "Target\nconcentration",
+        "Qty/batch",
+        "Used as"
+      ],
+      [
+        "Active raw material",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "1.",
+        "DNA plasmid construct with\nspike protein gene region from\nSARS-CoV-2 virus.",
+        "I.H.",
+        "1.0 mg/0.1 mL",
+        "2500\nmL/batch",
+        "Antigen"
+      ],
+      [
+        "Inactive raw material",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.",
+        "Phosphate Buffered saline",
+        "I.H",
+        "--",
+        "q.s.",
+        "Buffer"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      72.22,
+      129.36,
+      561.38,
+      492.76
+    ],
+    "n_rows": 11,
+    "n_cols": 5,
+    "rows": [
+      [
+        "Phase I: 48 adult subjects",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Arm 1, 1 mg\n(0.1 mL needle\nand syringe)",
+        "Arm 2, 1 mg\n(0.1 mL\nPharmajet)",
+        "Arm 3, 2 mg\n(0.2 mL needle\nand syringe)",
+        "Arm 4, 2 mg\n(0.2 mL\nPharmajet)"
+      ],
+      [
+        "Adult subjects\n(Male)",
+        "12",
+        "12",
+        "12",
+        "12"
+      ],
+      [
+        "Mean Age\n(Years)",
+        "35.4",
+        "31.8",
+        "35.1",
+        "37.2"
+      ],
+      [
+        "Phase II: 1000 subjects",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Arm 1, 1 mg\n(0.1 mL needle\nand syringe)",
+        "Arm 2, 1 mg\n(0.1 mL\nPharmajet)",
+        "Arm 3, 2 mg\n(0.2 mL needle\nand syringe)",
+        "Arm 4, 2 mg\n(0.2 mL\nPharmajet)"
+      ],
+      [
+        "N",
+        "251",
+        "249",
+        "250",
+        "250"
+      ],
+      [
+        "Male",
+        "188",
+        "186",
+        "179",
+        "177"
+      ],
+      [
+        "Female",
+        "63",
+        "63",
+        "71",
+        "73"
+      ],
+      [
+        "Adolescent",
+        "04",
+        "06",
+        "06",
+        "02"
+      ],
+      [
+        "Mean Age\n(Years)",
+        "35.0 ± 11.83",
+        "34.2 ± 12.11",
+        "35.4 ± 10.46",
+        "34.6 ± 10.43"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      72.24,
+      134.13,
+      552.6,
+      746.58
+    ],
+    "n_rows": 29,
+    "n_cols": 7,
+    "rows": [
+      [
+        "",
+        "ZyCoV-D n(%)",
+        "",
+        "",
+        "Placebo n(%)",
+        "",
+        ""
+      ],
+      [
+        "AE Terms",
+        "Dose I\n(N = 200)\nn(%)",
+        "Dose II\n(N = 197)\nn(%)",
+        "Dose III\n(N = 194)\nn(%)",
+        "Dose I\n(N = 50)\nn(%)",
+        "Dose II\n(N = 49)\nn(%)",
+        "Dose III\n(N = 48)\nn(%)"
+      ],
+      [
+        "Solicited Local AEs",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Pain at injection site",
+        "7 (3.50)",
+        "9 (4.57)",
+        "6 (3.09)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Redness at injection\nsite",
+        "9 (4.50)",
+        "10 (5.08)",
+        "9 (4.64)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Swelling at injection\nsite",
+        "5 (2.50)",
+        "6 (3.05)",
+        "5 (2.58)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Itching at injection\nsite",
+        "1 (0.50)",
+        "7 (3.55)",
+        "2 (1.03)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Muscle pain",
+        "1 (0.50)",
+        "0 (0.00)",
+        "1 (0.52)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Solicited Systemic AEs",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Fatigue",
+        "3 (1.50)",
+        "1 (0.51)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "1 (2.08)"
+      ],
+      [
+        "Fever",
+        "2 (1.00)",
+        "1 (0.51)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Headache",
+        "3 (1.50)",
+        "1 (0.51)",
+        "0 (0.00)",
+        "1 (2.00)",
+        "0 (0.00)",
+        "1 (2.08)"
+      ],
+      [
+        "Nausea",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "1 (2.08)"
+      ],
+      [
+        "Un Solicited Systemic AEs",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Covid-19",
+        "2 (1.00)",
+        "0 (0.00)",
+        "2 (1.03)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "1 (2.08)"
+      ],
+      [
+        "Nasal Dryness",
+        "1 (0.50)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "High Blood Pressure",
+        "1 (0.50)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Arthralgia",
+        "0 (0.00)",
+        "1 (0.51)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Body ache",
+        "0 (0.00)",
+        "3 (1.52)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Chikungunya virus\ninfection",
+        "0 (0.00)",
+        "1 (0.51)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Cough",
+        "0 (0.00)",
+        "2 (1.02)",
+        "1 (0.52)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Pyrexia",
+        "0 (0.00)",
+        "5 (2.54)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Headache",
+        "0 (0.00)",
+        "2 (1.02)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Myalgia",
+        "0 (0.00)",
+        "1 (0.51)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Rhinorrhoea",
+        "0 (0.00)",
+        "1 (0.51)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Asthenia",
+        "0 (0.00)",
+        "1 (0.51)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Dysuria",
+        "0 (0.00)",
+        "0 (0.00)",
+        "1 (0.52)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "Fatigue",
+        "0 (0.00)",
+        "0 (0.00)",
+        "1 (0.52)",
+        "0 (0.00)",
+        "0 (0.00)",
+        "0 (0.00)"
+      ],
+      [
+        "N = number of subjects in the specified treatment arm; n = Number of participants with the\nspecified event",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      72.47,
+      366.12,
+      518.53,
+      689.86
+    ],
+    "n_rows": 16,
+    "n_cols": 4,
+    "rows": [
+      [
+        "Phase III: 27703 subjects (Data at the time of interim analysis), Total sample size: 28216",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Vaccine, 2 mg\n(0.2 mL Pharmajet)",
+        "Placebo",
+        "Total"
+      ],
+      [
+        "Age (in Years) Mean",
+        "36.4",
+        "36.6",
+        "36.5"
+      ],
+      [
+        "Age (12-17)",
+        "448",
+        "487",
+        "935"
+      ],
+      [
+        "Age ( 18-60)",
+        "12364",
+        "12338",
+        "24702"
+      ],
+      [
+        "Age (above 60)",
+        "1039",
+        "1027",
+        "2066"
+      ],
+      [
+        "Gender",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Female",
+        "4506",
+        "4605",
+        "9111"
+      ],
+      [
+        "Male",
+        "9345",
+        "9247",
+        "18592"
+      ],
+      [
+        "Subjects at risk(Co-morbidities)",
+        "709",
+        "740",
+        "1449"
+      ],
+      [
+        "Stable Chronic Heart Disease",
+        "167",
+        "155",
+        "322"
+      ],
+      [
+        "Stable Chronic Lung Disease",
+        "13",
+        "7",
+        "20"
+      ],
+      [
+        "Controlled Diabetic",
+        "275",
+        "289",
+        "564"
+      ],
+      [
+        "Stable Liver Disease",
+        "2",
+        "3",
+        "5"
+      ],
+      [
+        "Severe Obesity",
+        "18",
+        "14",
+        "32"
+      ],
+      [
+        "Other Stable Co-morbid",
+        "295",
+        "293",
+        "588"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      72.21,
+      554.8,
+      504.39,
+      742.8
+    ],
+    "n_rows": 6,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Parameter",
+        "Data"
+      ],
+      [
+        "Seroconversion rate based on IgG* (%)",
+        "91.28%"
+      ],
+      [
+        "Seroconversion rate based on Neutralizing Antibody\nresponse^ (%)",
+        "88.89%"
+      ],
+      [
+        "GMT based on Neutralizing Antibody response^",
+        "131.32 (63.50, 271.58)$"
+      ],
+      [
+        "GMFR based on Neutralizing Antibody response^",
+        "22.56 (10.57, 48.16) $"
+      ],
+      [
+        "*by S1 antigen ELISA\n^Wild type virus neutralization assay (PRNT )\n50\n$ data presented as Geometric Mean (95% CI)",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      72.2,
+      110.68,
+      490.24,
+      241.56
+    ],
+    "n_rows": 5,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Parameter",
+        "Data"
+      ],
+      [
+        "Seroconversion rate based on IgG* (%)",
+        "93.33%"
+      ],
+      [
+        "GMT based on IgG*",
+        "952.67 (707.9, 1282.0) $"
+      ],
+      [
+        "GMFR based on IgG*",
+        "136.09 (101.11, 183.1) $"
+      ],
+      [
+        "*by S1 antigen ELISA\n$ data presented as Geometric Mean (95% CI)",
+        ""
+      ]
+    ]
+  }
+]

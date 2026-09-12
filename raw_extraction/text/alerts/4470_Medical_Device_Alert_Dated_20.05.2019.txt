@@ -1,0 +1,117 @@
+===== PAGE 1 =====
+F.No.29/Misc/03/2019-DC (100)
+Government of India
+Directorate General of Health Services
+Central Drugs Standard Control Organization
+(Medical Devices & Diagnostics Division)
+Food & Drugs Administration Bhawan,
+Kotla Road, New Delhi
+Date: 20.05.2019
+MEDICAL DEVICE ALERT
+Safety Communication to Alert Providers and Patients to Check for
+Premature Battery Depletion in Certain Medtronic Pacemakers has
+been issued by US FDA, which is attached herewith for taking
+necessary precautions & actions by health care providers, patients
+& other stakeholders etc. as indicated in it.
+Contact details in India for further information are as following:
+M/s India Medtronic Pvt. Ltd.,
+4th Floor, Tower A & B, SAS Tower, the Medicity Complex,
+Sec-38, Gurugram-122001
+Direct line: +91-0124-470 9800
+
+===== PAGE 2 =====
+
+IN THIS SECTION
+
+FDA Alerts Providers and Patients to Check for Premature Battery Depletion in Certain Medtronic Pacemakers:
+FDA Safety Communication
+Date Issued:
+May 7, 2019
+Audience:
+Patients with a Medtronic pacemaker or cardiac resynchronization therapy pacemaker (CRT-P)
+Caregivers of patients with a Medtronic pacemaker or CRT-P
+Cardiologists, electrophysiologists, cardiac surgeons, and primary care physicians treating patients with heart failure or heart rhythm problems using a Medtronic
+pacemaker or CRT-P
+Medical Specialties:
+Cardiac Electrophysiology, Cardiology, Cardiothoracic Surgery, Heart Failure
+Purpose:
+The U.S. Food and Drug Administration (FDA) is issuing this safety communication to alert health care providers and patients about issues that may cause batteries in certain
+Medtronic implantable pacemakers or cardiac resynchronization therapy pacemakers (CRT-Ps) to drain more quickly than expected without warning patients or health care
+providers.
+Devices:
+Medtronic’s implantable pacemakers or cardiac resynchronization therapy pacemakers (CRT-Ps) are devices that provide pacing for slow heart rhythms and heart failure.
+Pacemakers and CRT-Ps are both implanted under the skin in the upper chest area with connecting insulated wires called leads that go into the heart. A patient may need a
+pacemaker or CRT-P if their heartbeat is too slow (bradycardia) or needs coordination to treat heart failure.
+Implanted pacemakers and CRT-Ps have electronics and are powered by lithium-ion batteries. One of the key electronic components is a capacitor, which stores electrical energy.
+Patients can use remote monitoring systems, such as Medtronic’s MyCareLink Monitor, to help their health care providers monitor battery status and general functioning of their
+implanted pacemaker or CRT-P. Health care providers receive CareAlert notifications through manual transmissions from the patient or wirelessly connecting to the patient’s
+implanted pacemaker or CRT-P when the patient’s device has CareAlerts programmed “ON.” The patient and health care provider receive an Elective Replacement Indicator
+(ERI) CareAlert notification when the battery level drops below a certain limit.
+Affected Medtronic implantable pacemaker and CRT-P device models include:
+Azure models: W1DR01, W2DR01, W3DR01, W1SR01, W2SR01, W3SR01
+Astra models: X1DR01, X2DR01, X3DR01, X1SR01, X2SR01, X3SR01
+Percepta models: W1TR01, W1TR04, W4TR01, W4TR04
+Serena models: W1TR02, W1TR05, W4TR02, W4TR05
+Solara models: W1TR03, W1TR06, W4TR03, W4TR06
+Summary of Problem and Scope:
+The FDA is aware of three medical device reports in which a Medtronic implantable pacemaker or CRT-P battery had fully drained because of a crack in the device’s capacitor,
+without any warning to the patient or health care provider. As of April 10, 2019, 131,889 have been sold in the U.S.
+If a capacitor in an implanted pacemaker or CRT-P is cracked, it can create an electric short, which can cause a battery to drain earlier than expected. If the battery is completely
+drained, the device will no longer deliver pacing therapy. The patients who rely heavily on pacing or who are pacemaker dependent may be most at risk for having an adverse
+outcome.
+In all three medical device reports the FDA received, Medtronic reported that health care providers were unable to communicate with the device due to battery depletion,
+resulting in loss of pacemaker function. Medtronic also reported these events occurred within one year after the patient was implanted with the pacemaker or CRT-P, on average
+within seven months of getting the device implanted. The devices are designed to last between approximately 7.5 and 15 years or 6 and 10 years before requiring battery
+replacement, depending on the device and the amount of pacing. One of the reported events resulted in the death of a pacemaker-dependent patient. In a second reported event,
+the patient experienced dizziness during follow-up and the health care provider was unable to communicate with the device, which resulted in the patient getting their device
+replaced. In the third reported event, there was no harm to the patient because the device was not implanted when the health care provider became aware that a connection with
+the device could not be established.
+Steps Taken for Newly-Manufactured Devices
+This year, Medtronic received the FDA’s approval for a new step in the manufacturing process developed to better detect capacitor failures and for a different capacitor to reduce
+the risk of rapid battery depletion in newly-manufactured devices.
+Recommendations for Health Care Providers:
+Prophylactic removal and replacement of affected devices is NOT recommended, but the FDA recognizes that some patients who depend on pacing for survival may
+determine, in consultation with you, that device replacement is appropriate for their needs. Consider whether elective device replacement is warranted for any of your
+pacemaker patients due to pacemaker dependent status or other high-risk features.
+Be aware of sudden battery level drops during follow up visits and remote transmissions. Watch for decreases in battery level out of proportion to the life of the device from
+the time of implant even if the level remains within the normal range.
+Advise your patients to continue to use their remote monitors.
+For Azure, Percepta, Serena, and Solara devices:
+
+===== PAGE 3 =====
+These devices have wireless CareAlerts programmed by the health care provider. The monitor must remain powered on to ensure automatically scheduled
+transmissions are sent. CareAlerts should be programmed to “ON.”
+For Astra devices:
+These devices do not have wireless capability and require manual transmission by the patient. To ensure timely transmission of any CareAlerts done manually
+by the patient, the patient should have a transmission schedule and CareAlerts should be programmed “ON.”
+Replace the pacemaker or CRT-P immediately at the time of an ERI alert. Currently, there is not a factor, method, or test to identify when devices with this form of
+premature battery depletion are approaching ERI, or to accurately predict remaining battery life once ERI appears. Once ERI is reached, an affected device is unlikely to
+have the standard three months of battery life remaining.
+Treat pacemaker-dependent patients with a device that has reached ERI as a medical emergency.
+Recommendations for Patients and Caregivers:
+Check that home monitoring transmissions are successful and occurring at the prescribed times so health care providers receive notifications of battery level drops to help
+inform care decisions.
+Always keep the remote monitor plugged in.
+The remote monitor must remain plugged in to ensure any wireless CareAlerts programmed by your health care provider and any automatically scheduled remote
+transmissions occur on time.
+If you have an Astra device, do the manual transmission according to the schedule provided.
+Monitor your MyCareLink Heart App on your smart phone to check for changes to your battery level.
+Seek immediate medical care if you feel lightheaded, dizzy, chest pain, severe shortness of breath or if you are caring for someone who has lost consciousness. These may be
+signs your device’s battery has had a sudden drop or has drained.
+Talk to your health care provider about whether your device is affected, how best to manage your medical condition and what actions to take with your device.
+Contact Medtronic Technical Services Monday through Friday at 1-800-505-4636 if you have any questions.
+FDA Actions:
+The FDA will continue to work with Medtronic to monitor affected pacemakers and CRT-Ps for any adverse events related to premature battery depletion. The FDA will keep the
+public informed as new information becomes available.
+Reporting Problems to the FDA:
+Prompt reporting of adverse events can help the FDA identify and better understand the risks related to the use of medical devices. If you suspect or experience a problem with
+these devices, we encourage you to file a voluntary report through MedWatch, the FDA Safety Information and Adverse Event Reporting program
+(https://www.accessdata.fda.gov/scripts/medwatch/index.cfm?action=reporting.home). Health care personnel employed by facilities that are subject to the FDA's user facility
+reporting requirements should follow the reporting procedures established by their facilities.
+Additional Resources:
+Medtronic Performance Note
+(http://wwwp.medtronic.com/productperformance/document.html;JSESSIONID_productperformance=L0tRcRlWJLg2CYmw1pjw6KpzkQTtB2RrpttvT9GWghKsFW3tVKg1!-
+id=1125278)  (http://www.fda.gov/about-fda/website-policies/website-disclaimer)
+Contact Information:
+If you have questions about this communication, please contact the Division of Industry and Consumer Education (DICE) at DICE@FDA.HHS.GOV
+(mailto:DICE@FDA.HHS.GOV), 800-638-2041 or 301-796-7100.

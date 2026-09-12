@@ -1,0 +1,55 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      50.88,
+      82.34,
+      700.26,
+      185.99
+    ],
+    "n_rows": 4,
+    "n_cols": 8,
+    "rows": [
+      [
+        "NOT OF STANDARD QUALITY ALERT FOR THE MONTH OF July 2017.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "A. Central Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No.",
+        "Vaccine Name",
+        "Batch No.",
+        "Manufacturing\nDate",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by CDSCO Laboratory"
+      ],
+      [
+        "1",
+        "Bio Typh (Vi Polysaccaride\nTyphoid Vaccine) I.P.",
+        "1050411",
+        "Feb'15\nFeb'16",
+        "Sep'17\nSep'18",
+        "Spurious",
+        "Identity",
+        "Central Drugs Laboratory, Kasauli"
+      ]
+    ]
+  }
+]

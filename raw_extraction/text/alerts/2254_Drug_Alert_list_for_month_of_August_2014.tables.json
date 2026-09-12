@@ -1,0 +1,251 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      31.53,
+      141.83,
+      571.71,
+      752.17
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo\n.",
+        "Name of\nDrugs/medical\ndevice/cosmeti\ncs",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure with\nReport No.\n(in Form-\n13)& Date",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1",
+        "ERYTHROMY\nCIN\nESTOLATE\nTABLETS",
+        "B. No. EE009,\nD/Mfg. Jul, 2013 ,\nD/Exp. Jun, 2015,\nMfg. By.\nM/s Hecatomb Laboratories Pvt.\nLtd.,\nBagharbori, Panjabari, Guwahati-\n37, Assam.",
+        "Disintegration\n09494/2014-15\nDated\n04-08-2014",
+        "CDSCO,\nEast Zone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2",
+        "R-ZONE 20\nTABLETS",
+        "B. No. RAB-113,\nD/Mfg. Apr, 2014,\nD/Exp. Mar, 2016,\nMfg. By.\nM/s Regent Ajanta Biotech,\nIndl Site:86-87,Village-\nMakhiyali Dundi, Peerpura\nRoad, Roorkeee, Uttarakhand.",
+        "Dissolution\n09534/2014-15\nDated\n13-08-2014",
+        "CDSCO,\nEast Zone.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3",
+        "ERYRAB\nSUSPENSION\nS",
+        "B. No. RAB-068,\nD/Mfg. Jun, 2013,\nD/Exp. May, 2015,\nMfg. By.\nM/s Regent Ajanta Biotech,\n86-87, Village-Makhiyali Dundi,\nPeerpura Road, Roorkeee,\nUttarakhand.",
+        "Description,\nPhysical\n09555/2014-15\nDated\n19-08-2014",
+        "CDSCO,\nEast Zone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4",
+        "TINIDAZOLE\nWITH\nNORFLOXACI\nN DT\nTABLETS",
+        "B. No. NT-193,\nD/Mfg. Feb, 2012,\nD/Exp. Jan, 2015,\nMfg. By.\nM/s Bee Dee Pharmaceuticals,,\nKalapahar Industrial Area,\nGuwahati-781026, Assam.",
+        "Disintegration\n09571/2014-15\nDated\n26-08-2014",
+        "CDSCO,\nEast Zone",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5",
+        "Metron\n(Metronidazole\nTablets IP)",
+        "B.No. MRT-13003S,\nD/Mfg. Feb, 2013,\nD/Exp. Jan, 2016\nMfg. By.\nM/s. Indchemie Health\nSpecialities Pvt. Ltd., Village-\nKumrek, Rangpo, East Sikkim-\n737132",
+        "Dissolution",
+        "CDSCO,\nWest Zone",
+        "CDTL, Mumbai"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      31.53,
+      45.21,
+      571.71,
+      760.33
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "6",
+        "Chloroquine\nPhosphate\nTablets I.P.",
+        "B.No. A2/190,\nD/Mfg. Jan, 2014,\nD/Exp. Dec, 2016\nMfg. By.\nM/s. Anchor Pharma Pvt. Ltd.,\nB-6, O.I.D.C., Ringanwada,\nDaman-396210",
+        "Assay of\nChloroquine\nPhosphate",
+        "CDSCO,\nWest Zone",
+        "CDTL, Mumbai"
+      ],
+      [
+        "7",
+        "Doxycycline\nHydrochloride\nCapsules IP\n100mg",
+        "B.No. GC73405,\nD/Mfg. Aug, 2013,\nD/Exp. July, 2016\nMfg. By.\nM/s. Globela Pharma Pvt. Ltd.,\n357, G.I.D.C., Sachin Surat-\n394230, Gujarat",
+        "Uniformity of\nWeight",
+        "CDSCO,\nWest Zone",
+        "CDTL, Mumbai"
+      ],
+      [
+        "8",
+        "Ibuprofen\nTablets IP 400\nmg",
+        "B.No:15033-BG137\nD/Mfg. Mar, 2013\nD/Exp. Feb, 2016/\nMfg. By.\nBiogenetic Drugs Pvt.Ltd,\nJharmazri Baddi-174 103, Dist-\nSolan",
+        "Dissolution\n18/11/330/14-\n15/",
+        "CDSCO,\nHyderabad",
+        "CDTL, Chennai"
+      ],
+      [
+        "9",
+        "Sumol Plus\nSuspension",
+        "B.No : SULS3010IB, D/Mfg.\n08.2013, D/Exp. 07.2015\nMfg. By.-Alkem Laboratories\nLtd, At.Village Thana, Baddi,\nHimachal Pradesh-173 205.",
+        "Assay Content\nof Mefenamic\nAcid\n18/D/201/14-\n15",
+        "CDSCO,\nSouth Zone",
+        "CDTL, Chennai"
+      ],
+      [
+        "10",
+        "Dinac-50\nTablets\n(Diclofenac\nSodium Tablets\nIP)",
+        "B. No.: TNT-010, Mfg dt:\n05/2013, Exp dt: 04/2016, Mfd\nby: M/s. Tanmed\nPharmaceuticals, New No.1/429,\nMulti Industrial Nagar,\nGerugambakkam, Chennai\n600122",
+        "Disintegration\n32-10/2014-\nSS/\nDCA(S)-\n02/1078\nDt. 12.08.2014",
+        "CDSCO,\nSouth Zone.",
+        "CDL, Kolkata"
+      ],
+      [
+        "11",
+        "Diclofenac\nSodium IP,",
+        "B. No.: DS/01/13/085, Mfg dt:\n29/07/13, Exp dt: 27/07/2018,\nMfd by: M/s. Kairav Chemicals\nLtd., Block No 2221, Vill:\nSantej, Tal: Kalol, Distt.\nGandhinagar, Gujarat",
+        "Loss on\nDrying\n32-9/2014-SS/\nDCA(W)-\n78/1118\nDt. 19.08.2014",
+        "CDSCO,\nWest Zone,",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      31.51,
+      45.21,
+      571.73,
+      780.37
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "12",
+        "Lignocaine\nHydrochloride\nand Adrenaline\nInjection IP",
+        "B. No.: LA 2106A, Mfg dt:\n09/2012, Exp dt: 08/2014, Mfd\nby: M/s. Sara Pharmaceuticals, #\n4 & 15, Industrial Estate,\nNagercoil, Tamil Nadu.",
+        "Description,\nParticulate\nMatter &\nAssay\n32-21/2014-\nSS/\nDCA(G)-\n06/1007\nDt. 04.08.2014",
+        "CDSCO,\nSubzone,\nGoa",
+        "CDL, Kolkata"
+      ],
+      [
+        "13",
+        "MAHACEF-\n500\n(Ceftriaxone\nInjection IP &\nSterile Water\nfor Injection IP\n5 ml)",
+        "B.No: C3AAM003, R120076,\nMfg dt: 12/2013, 11/2012, Exp\ndt: 11/2015, 10/2016, Mfd by:\nM/s. Mankind Pharma Limited,\nKishanpura, Jamniwala, Teh:\nPaonta Sahib, Distt. Sirmour\n173025, H.P & M/s. R.K\nLaboratories (P) Ltd., Village –\nManpura, Nalagarh, Distt. Solan\n(H.P.) – 174 101.",
+        "Clarity of\nSolution\n32-18/2014-\nSS/\nDCA(C)-\n40/1079\nDt. 12.08.2014",
+        "CDSCO,\nChandigarh",
+        "CDL, Kolkata"
+      ],
+      [
+        "14",
+        "Rabfess\nInjection\n(Rabeprazole\nSodium 20 mg\nLyophillized\nPowder for\nInjection &\nSterile Water\nfor Injection\nBP),",
+        "B.No: VI0201, DEE01, Mfg dt:\n06/2013, 05/2012, Exp dt:\n06/2015, 04/2018, Mfd by: M/s.\nBiomed Life Sciences, 5 Dewan\n& Sons, Lokmanya Nagar,\nPalghar (W), Thane – 401 404,\nIndia.",
+        "Clarity of\nSolution &\nParticulate\nMatter\n32-18/2014-\nSS/\nDCA(C)-\n02/1031\nDt. 08.08.2014",
+        "CDSCO,\nChandigarh",
+        "CDL, Kolkata"
+      ],
+      [
+        "15",
+        "Cetriax – 1gram\n(Ceftriaxone for\nInjection USP\n& Sterilised\nWater for\nInjection BP 10\nml),",
+        "B.No: 4404913, 3502272 Mfg dt:\n10/2013, 02/2013 Exp dt:\n09/2016, 01/2018, Mfd by: M/s.\nKarnataka Antibiotics &\nPharmaceuticals Ltd., Plot No.\n14, II Phase, Peenya, Bangalore\n560058 & M/s. Nirma Ltd.,\nSachana, Gujrat – 382150",
+        "Clarity of\nSolution,\nCompleateness\n& Particulate\nMatter\n32-13/2014-\nSS/\nDCA(B)-\n74/1080\nDt. 12.08.2014",
+        "CDSCO,\nSubZone\nBangalore",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      31.52,
+      45.21,
+      571.72,
+      763.33
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "16",
+        "Ramipril\nTablets IP\n2.5mg (Eldapril\n2.5),",
+        "B. No.: ARKB 3054, Mfg dt:\n04/2013, Exp dt: 03/2015, Mfd\nby: M/s. Kanha Biogenetic\nLaboratories, Pl.No. 1-B, EPIP,\nPhase-I, Jharmajri, Baddi, Solan\n(HP).",
+        "Assay\n32-8/2014-SS/\nDCA(E)-\n327/1088\nDt. 14.08.2014",
+        "CDSCO,\nEast Zone",
+        "CDL, Kolkata"
+      ],
+      [
+        "17",
+        "SALBUTAMO\nL TABLETS\nI.P. 2 mg",
+        "Batch No – AT-13121, D/Mfg.\n– SEP./2013, D/Exp. –\nAUG./2015, Mfd. By- M/s.\nARBRO PHARMACEUTICAL\nLTD., 6/14, Kirti Nagar,\nIndustrial Area, New Delhi-\n110015.",
+        "Assay\nRDTL/757/13-\n14\nDate:- 08-08-\n14",
+        "CDSCO,,\nNorth Zone",
+        "RDTL,\nCHandigarh"
+      ],
+      [
+        "18",
+        "SALBUTAMO\nL TABLETS\nI.P. 4 mg",
+        "Batch No – SSMT-1004, D/Mfg.\n– JUL./2013, D/Exp. –\nJUN./2015, Mfd. By- M/s.\nWINGS PHARMACEUTICAL\nLTD, 35, HPSIDC, Industrial\nArea, Baddi-173205.",
+        "Assay\nRDTL/768/13-\n14\nDate:- 08-08-\n14",
+        "CDSCO,\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "19",
+        "Ranitidine\nHydrochloride\nTablets B.P.\n(MANTEK-\n150)",
+        "Batch No – MT13-011, D/Mfg.\n– APR./2013, D/Exp. –\nMAR./2016, Mfd. By- M/s.\nMAIDEN\nPHARMACEUTICALS\nLIMITED, 81, H.S.I.D.C,\nIndustrial Area, Kundli, 131 028\n(HR)",
+        "Uniformity of\nweight and\nAssay\nRDTL/893/13-\n14\nDate:- 08-08-\n14",
+        "CDSCO,\nNorth Zone",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "20",
+        "Diclofenac\nSodium Gel 1%\n(SPORT GEL)",
+        "Batch No – BO-2, D/Mfg. –\nMAR./2014, D/Exp. –\nFEB./2017, Mfd. By- M/s.\nCaplin Laboratories Ltd.,\nAt.Argus Salud Pharma LLP,\nKhasra No.380, Village Suraj\nMajra, NH-21A, Baddi, H.P.",
+        "Assay of\nDiclofenac\nDiethylamine\nLSD/RDTL/00\n17/14-15\nDate:- 27-08-\n14",
+        "CDSCO,\nSub Zone,\nChandigarh.",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      31.56,
+      45.24,
+      571.68,
+      279.17
+    ],
+    "n_rows": 2,
+    "n_cols": 6,
+    "rows": [
+      [
+        "21",
+        "Serratiopeptidas\ne, DIclofenac\nSodium and\nParacetamol\nTablets (Sendic\nPlus)",
+        "Batch No – 7030\nD/Mfg. – AUG./2013\nD/Exp. – JUL./2015\nMfd. By-\nM/s. Santo Formulation,\nDeonghat, P.O. Saproon,\nDistt.Solan-173211(H.P.)",
+        "Assay of\nSerratiopeptida\nse\nLSD/RDTL/00\n38/14-15\nDate:- 27-08-\n14",
+        "CDSCO, J&\nK,",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "22",
+        "Rabeprazole\nand\nDomperidone\nSustained\nRelease Caps\n(Rabela DSR\nCaps)",
+        "Batch No – DMC-81\nD/Mfg. – MAR./2014\nD/Exp. – AUG./2015\nMfd. By-\nM/s. Dallas Formulations P Ltd.,\n144, DIC, Industrial Area, Sai\nRoad, Baddi. (HP)",
+        "Assay of\nRabeprazole\nSodium\nLSD/RDTL/00\n1/14-15\nDate:- 29-08-\n14",
+        "CDSCO,\nSub Zone,\nChandigarh.",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

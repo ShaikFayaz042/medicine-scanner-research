@@ -1,0 +1,45 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      50.88,
+      92.3,
+      700.74,
+      188.51
+    ],
+    "n_rows": 3,
+    "n_cols": 8,
+    "rows": [
+      [
+        "A. Central Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.No.",
+        "Vaccine Name",
+        "Batch No.",
+        "Manufacturing\nDate",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported by CDSCO\nLaboratory"
+      ],
+      [
+        "1",
+        "Diphtheria,Tetanus,Pertussis(\nWhole cell) ,Hepatitis B (rDNA) &\nHaemophilus influenzae Type-b\nConjugate vaccine (Adsorbed)",
+        "220103715A",
+        "Feb'16",
+        "Jan'18",
+        "M/s Biological E Ltd, Plot no. 1, SP\nBiotech Park, Phase II, Kolthur (Village),\nShameerpet (mandal), Ranga Reddy\n(District), Telangana - 500078",
+        "Physical aspect",
+        "Central Drugs Laboratory,\nKasauli"
+      ]
+    ]
+  }
+]

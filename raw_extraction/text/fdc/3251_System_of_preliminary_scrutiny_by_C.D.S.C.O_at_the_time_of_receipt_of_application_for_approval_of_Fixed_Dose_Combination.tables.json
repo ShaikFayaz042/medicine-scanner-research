@@ -1,0 +1,2667 @@
+[
+  {
+    "page": 3,
+    "bbox": [
+      126.46,
+      138.88,
+      525.38,
+      565.28
+    ],
+    "n_rows": 14,
+    "n_cols": 2,
+    "rows": [
+      [
+        "API",
+        "Active Pharmaceutical Ingredient"
+      ],
+      [
+        "BA",
+        "Bio-availability"
+      ],
+      [
+        "BE",
+        "Bio-equivalence"
+      ],
+      [
+        "CRF",
+        "Case Record Form"
+      ],
+      [
+        "CT",
+        "Clinical Trial"
+      ],
+      [
+        "FDC",
+        "Fixed Dose Combination"
+      ],
+      [
+        "ICF",
+        "Informed Consent Form"
+      ],
+      [
+        "IND",
+        "Investigational New Drug"
+      ],
+      [
+        "INR",
+        "Indian National Rupee"
+      ],
+      [
+        "LD",
+        "Lethal Dose"
+      ],
+      [
+        "PK / PD",
+        "Pharmacokinetic and Pharmacodynamic"
+      ],
+      [
+        "CV",
+        "Curriculum vitae"
+      ],
+      [
+        "NOC",
+        "No objection certificate"
+      ],
+      [
+        "QC",
+        "Quality control"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      93.6,
+      451.68,
+      558.24,
+      481.04
+    ],
+    "n_rows": 2,
+    "n_cols": 2,
+    "rows": [
+      [
+        "THIS SYSTEM OF PRELIMINARY SCRUTINY TO DETERMINE THE ACCEPTABILITY OF",
+        ""
+      ],
+      [
+        "THE APPLICATION WILL COME INTO EFFECT FROM 01.01.2011.",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      66.95,
+      173.22,
+      573.13,
+      759.41
+    ],
+    "n_rows": 34,
+    "n_cols": 4,
+    "rows": [
+      [
+        "#",
+        "Documents required to be submitted",
+        "Status",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Yes",
+        "No"
+      ],
+      [
+        "1",
+        "Application for: (permission for manufacture /import/clinical trial)",
+        "",
+        ""
+      ],
+      [
+        "2",
+        "Name of the applicant",
+        "",
+        ""
+      ],
+      [
+        "3",
+        "Name of the Fixed Dose Combination(FDC)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Composition of the FDC",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Proposed indication for the FDC",
+        "",
+        ""
+      ],
+      [
+        "4",
+        "Application in Form 44 complete in all respect duly signed and stamped by authorized\nperson of the firm",
+        "",
+        ""
+      ],
+      [
+        "5",
+        "Treasury Challan of INR 50,000 duly signed and stamped by Bank of Baroda",
+        "",
+        ""
+      ],
+      [
+        "6",
+        "Rationale for combining them in the proposed ratio and therapeutic justification along\nwith supporting literature.",
+        "",
+        ""
+      ],
+      [
+        "7",
+        "Approval status of individual drugs in the country",
+        "",
+        ""
+      ],
+      [
+        "8",
+        "Copy of valid manufacturing license in Form 25/28 along with copy of form 29",
+        "",
+        ""
+      ],
+      [
+        "9",
+        "Source of bulk drugs. For those ingredients which are approved and consider new drug,\ncopy of Form 46A.",
+        "",
+        ""
+      ],
+      [
+        "10.",
+        "Information on active ingredients which are considered as IND",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Physiochemical data (Chemical name and Structure, Physical properties etc.)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Analytical data (elemental analysis, NMR spectrum, IR Spectrum, UV spectrum etc.)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Complete monograph specification including identification, identity/quantification of\nimpurities, enantiomeric purity, assay etc.)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) Certificate of analysis",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Validation [assay method, impurity estimation method, residual solvent/other volatile\nimpurities(OVI) estimation method]",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Reference standard characterization,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Material safety data sheet.",
+        "",
+        ""
+      ],
+      [
+        "11",
+        "Data on Formulation:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Master manufacturing formula",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Details of the formulation (including inactive ingredients)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Finished product specification",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) In process quality control check",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Excipient compatibility study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Process validation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Validation of analytical method",
+        "",
+        ""
+      ],
+      [
+        "",
+        "h) Certificate of analysis including identification, pH, content uniformity, impurities, assay\netc.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i) Comparative evaluation with international brand(s) or approved Indian brands, if\napplicable.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "j) Dissolution data in case of oral dosage forms as appropriate",
+        "",
+        ""
+      ],
+      [
+        "",
+        "k) Stability study evaluation as per requirements of schedule Y",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      66.95,
+      58.75,
+      573.13,
+      744.6
+    ],
+    "n_rows": 33,
+    "n_cols": 4,
+    "rows": [
+      [
+        "12",
+        "Animal Pharmacology including summary of the study, general pharmacological actions,\nspecific pharmacological actions, follow-up and supplemental safety Pharmacology\nStudies, Pharmacokinetics including absorption, distribution; metabolism; excretion",
+        "",
+        ""
+      ],
+      [
+        "13",
+        "Animal toxicology data as per Schedule Y.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. systemic toxicity studies,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i. single dose toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "ii. repeated dose toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Male Fertility Study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Female Reproduction and Developmental Toxicity Studies",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d. Local toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i. Dermal toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "ii. Ocular toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "iii. Inhalation toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "iv. Vaginal toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "v. Photoallergy or dermal phototoxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "vi. Rectal tolerance test",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e. Genotoxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f. Allergenicity/Hypersensitivity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g. carcinogenicity",
+        "",
+        ""
+      ],
+      [
+        "14",
+        "Human / Clinical pharmacology (Phase I) including summary of the study and reports",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i. Summary",
+        "",
+        ""
+      ],
+      [
+        "",
+        "ii. Specific Pharmacological effects",
+        "",
+        ""
+      ],
+      [
+        "",
+        "iii. General Pharmacological effects",
+        "",
+        ""
+      ],
+      [
+        "",
+        "iv. Pharmacokinetics, absorption, distribution, metabolism,\nv. excretion",
+        "",
+        ""
+      ],
+      [
+        "",
+        "vi. Pharmacodynamics / early measurement of drug activity",
+        "",
+        ""
+      ],
+      [
+        "15",
+        "Therapeutic exploratory trials (Phase II) including summary of the study and reports",
+        "",
+        ""
+      ],
+      [
+        "16",
+        "Therapeutic confirmatory trials (Phase III) including summary of the study and\nindividual study reports with listing of sites and Investigators.",
+        "",
+        ""
+      ],
+      [
+        "17",
+        "Regulatory status in other countries, as appropriate.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Names of the countries where the drug is marketed/approved",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Names of the countries where the drug is approved as IND, withdrawn,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Names of the countries where the drug is withdrawn, if any, with reasons",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) Free sale certificate (FSC) or Certificate of Pharmaceutical Product (COPP), as\nappropriate.",
+        "",
+        ""
+      ],
+      [
+        "18",
+        "Copy of proposed Package Insert which should include generic name of all active\ningredients; composition; dosage form/s, indications; dose and method of administration;\nuse in special populations; contraindications; warnings; precautions; drug interactions;\nundesirable effects; overdose; pharmacodynamic and pharmacokinetic properties;\nincompatibilities; shelf-life; packaging information; storage and handling instructions.",
+        "",
+        ""
+      ],
+      [
+        "19",
+        "Draft specimen of the label and carton",
+        "",
+        ""
+      ],
+      [
+        "Note:\n1. All items mentioned above may not be applicable to all drugs. The items not relevant to a particular new\ndrug should be marked with “Not Applicable (NA)”.\n2. In case the application is for clinical trial permission , adequate chemical and pharmaceutical information\nshould be provided to ensure the proper identity, purity, quality & strength of the investigational product,\nthe amount of information needed may vary with the Phase of clinical trials, proposed duration of trials,\ndosage forms and the amount of information otherwise available.",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      66.95,
+      96.42,
+      564.73,
+      761.81
+    ],
+    "n_rows": 37,
+    "n_cols": 4,
+    "rows": [
+      [
+        "#",
+        "Documents required to be submitted",
+        "Status",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Yes",
+        "No"
+      ],
+      [
+        "1",
+        "Application for: (permission for manufacture /import/clinical trial)",
+        "",
+        ""
+      ],
+      [
+        "2",
+        "Name of the applicant",
+        "",
+        ""
+      ],
+      [
+        "3",
+        "Name of the Fixed Dose Combination(FDC)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Composition of the FDC",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Proposed indication for the FDC",
+        "",
+        ""
+      ],
+      [
+        "4",
+        "Application in Form 44 complete in all respect duly signed and stamped by authorized\nperson of the firm",
+        "",
+        ""
+      ],
+      [
+        "5",
+        "Treasury Challan of INR 50,000 duly signed and stamped by Bank of Baroda",
+        "",
+        ""
+      ],
+      [
+        "6",
+        "Rationale for combining them in the proposed ratio and therapeutic justification along\nwith supporting literature.",
+        "",
+        ""
+      ],
+      [
+        "7",
+        "Copy of valid manufacturing license in Form 25/28 along with copy of form 29",
+        "",
+        ""
+      ],
+      [
+        "8",
+        "Approval status of individual drugs in the country",
+        "",
+        ""
+      ],
+      [
+        "9",
+        "Source of bulk drugs. For those ingredients which are approved and consider new drug,\ncopy of Form 46A.",
+        "",
+        ""
+      ],
+      [
+        "10",
+        "Information on active ingredients which are considered as IND",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Physiochemical data (Chemical name and Structure, Physical properties etc.)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Analytical data (elemental analysis, NMR spectrum, IR Spectrum, UV spectrum etc.)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Complete monograph specification including identification, identity/quantification of\nimpurities, enantiomeric purity, assay etc.)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) Certificate of analysis",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Validation [assay method, impurity estimation method, residual solvent/other volatile\nimpurities(OVI) estimation method]",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Reference standard characterization,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Material safety data sheet.",
+        "",
+        ""
+      ],
+      [
+        "11",
+        "Data on Formulation:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Master manufacturing formula",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Details of the formulation (including inactive ingredients)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Finished product specification",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) In process quality control check",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Excipient compatibility study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Process validation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Validation of analytical method",
+        "",
+        ""
+      ],
+      [
+        "",
+        "h) Certificate of analysis including identification, pH, content uniformity, impurities, assay\netc.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i) Comparative evaluation with international brand(s) or approved Indian brands, if\napplicable.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "j) Dissolution data in case of oral dosage forms as appropriate",
+        "",
+        ""
+      ],
+      [
+        "",
+        "k) Stability study evaluation as per requirements of schedule Y",
+        "",
+        ""
+      ],
+      [
+        "12",
+        "Animal Pharmacology including summary of the study, general pharmacological\nactions, specific pharmacological actions, follow-up and supplemental safety\nPharmacology Studies, Pharmacokinetics including absorption, distribution;\nmetabolism; excretion",
+        "",
+        ""
+      ],
+      [
+        "13",
+        "Animal toxicology data as per Schedule Y.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. systemic toxicity studies",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      66.95,
+      58.75,
+      564.73,
+      745.8
+    ],
+    "n_rows": 31,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "i. single dose toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "ii. repeated dose toxicity(In case of injectable formulation, sub-acute toxicity\ndata generated with the applicants’ product has to be provided).",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Male Fertility Study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Female Reproduction and Developmental Toxicity Studies",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d. Local toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i. Dermal toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "ii. Ocular toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "iii. Inhalation toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "iv. Vaginal toxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "v. Photoallergy or dermal phototoxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "vi. Rectal tolerance test",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e. Genotoxicity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f. Allergenicity/Hypersensitivity",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g. carcinogenicity",
+        "",
+        ""
+      ],
+      [
+        "14",
+        "Human / Clinical pharmacology (Phase I) including summary of the study and reports",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i. Summary",
+        "",
+        ""
+      ],
+      [
+        "",
+        "ii. Specific Pharmacological effects",
+        "",
+        ""
+      ],
+      [
+        "",
+        "iii. General Pharmacological effects",
+        "",
+        ""
+      ],
+      [
+        "",
+        "iv. Pharmacokinetics, absorption, distribution, metabolism,\nv. excretion",
+        "",
+        ""
+      ],
+      [
+        "",
+        "vi. Pharmacodynamics / early measurement of drug activity",
+        "",
+        ""
+      ],
+      [
+        "15",
+        "Therapeutic exploratory trials (Phase II) including summary of the study and reports",
+        "",
+        ""
+      ],
+      [
+        "16",
+        "Therapeutic confirmatory trials (Phase III) including summary of the study and\nindividual study reports with listing of sites and Investigators.",
+        "",
+        ""
+      ],
+      [
+        "17",
+        "Regulatory status in other countries, as appropriate.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Names of the countries where the drug is marketed/approved alongwith package\ninsert circulated in those countries",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Names of the countries where package insert",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Names of the countries where the drug is approved as IND, withdrawn,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) Names of the countries where the drug is withdrawn, if any, with reasons",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Free sale certificate (FSC) or Certificate of Pharmaceutical Product (COPP), as\nappropriate.",
+        "",
+        ""
+      ],
+      [
+        "18",
+        "Copy of proposed Package Insert which should include generic name of all active\ningredients; composition; dosage form/s, indications; dose and method of\nadministration; use in special populations; contraindications; warnings; precautions;\ndrug interactions; undesirable effects; overdose; pharmacodynamic and\npharmacokinetic properties; incompatibilities; shelf-life; packaging information;\nstorage and handling instructions.",
+        "",
+        ""
+      ],
+      [
+        "19",
+        "Draft specimen of the label and carton",
+        "",
+        ""
+      ],
+      [
+        "Note:\n1. In case, such a combination is not marketed anywhere in the world, clinical trials data right from Phase I\nas appropriate may be required to be generated and submitted to this office. If such FDC is marketed\nabroad Phase III clinical trials data generated in India are required to be submitted.\n2. All items mentioned above may not be applicable to all drugs. The items not relevant to a particular new\ndrug should be marked with “Not Applicable (NA)”.\n3. In case the application is for clinical trial permission , adequate chemical and pharmaceutical information\nshould be provided to ensure the proper identity, purity, quality & strength of the investigational product,\nthe amount of information needed may vary with the Phase of clinical trials, proposed duration of trials,\ndosage forms and the amount of information otherwise available.",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      88.31,
+      116.82,
+      553.45,
+      756.53
+    ],
+    "n_rows": 34,
+    "n_cols": 4,
+    "rows": [
+      [
+        "#",
+        "Documents required to be submitted",
+        "Status",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Yes",
+        "No"
+      ],
+      [
+        "1",
+        "Application for: (permission for manufacture /import/clinical trial)",
+        "",
+        ""
+      ],
+      [
+        "2",
+        "Name of the applicant",
+        "",
+        ""
+      ],
+      [
+        "3",
+        "Name of the Fixed Dose Combination(FDC)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Composition of the FDC",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Proposed indication for the FDC",
+        "",
+        ""
+      ],
+      [
+        "4",
+        "Application in Form 44 complete in all respect duly signed and stamped by\nauthorized person of the firm",
+        "",
+        ""
+      ],
+      [
+        "5",
+        "Treasury Challan of INR 50,000 duly signed and stamped by Bank of Baroda",
+        "",
+        ""
+      ],
+      [
+        "6",
+        "Rationale for combining them in the proposed ratio and therapeutic justification\nalong with supporting literature.",
+        "",
+        ""
+      ],
+      [
+        "7",
+        "Approval status of individual drugs in the country",
+        "",
+        ""
+      ],
+      [
+        "8",
+        "Names of the countries where the FDC is approved and marketed .(Names of the\ncountries where the FDC is Approved / Marketed / Withdrawn etc should be clearly\nstated in the covering letter also)",
+        "",
+        ""
+      ],
+      [
+        "9",
+        "Copy Package Inserts, promotional literatures of FDC circulated in those countries\nwhere it is marketed",
+        "",
+        ""
+      ],
+      [
+        "10",
+        "Copy of valid manufacturing license in Form 25/28 along with copy of form 29",
+        "",
+        ""
+      ],
+      [
+        "11",
+        "Source of bulk drugs along with current regulatory status of the source with copy of\nForm 46A in case of new drug.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Information on active ingredients",
+        "",
+        ""
+      ],
+      [
+        "12",
+        "a) Brief Chemical & pharmaceutical data",
+        "",
+        ""
+      ],
+      [
+        "13",
+        "Data on Formulation:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Master manufacturing formula",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Details of the formulation (including inactive ingredients)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Finished product specification",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) In process quality control check",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Excipient compatibility study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Process validation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Validation of analytical method",
+        "",
+        ""
+      ],
+      [
+        "",
+        "h) Certificate of analysis including identification, pH, content uniformity, impurities,\nassay etc.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i) Comparative evaluation with international brand(s) or approved Indian brands, if\napplicable.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "j) Dissolution data in case of oral dosage forms as appropriate",
+        "",
+        ""
+      ],
+      [
+        "",
+        "k) Stability study evaluation as per requirements of schedule Y",
+        "",
+        ""
+      ],
+      [
+        "14",
+        "Free sale certificate/ certificate of pharmaceutical product from the country of\norigin (in case of import of the finished form of the FDC).",
+        "",
+        ""
+      ],
+      [
+        "15",
+        "Clinical trials data showing safety and efficacy of the FDC in the same strength\n(that has been carried out in other countries) including published data.",
+        "",
+        ""
+      ],
+      [
+        "16",
+        "Summary of Drug-Drug-Interactions (known and/or expected) among the active\ningredients present in the FDC, along with its implications. This should be prepared\nand signed by a competent person on behalf of applicant.",
+        "",
+        ""
+      ],
+      [
+        "17",
+        "Animal toxicology study data, as appropriate (In case of injectable formulation,",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "bbox": [
+      88.32,
+      58.8,
+      553.44,
+      158.64
+    ],
+    "n_rows": 3,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "sub-acute toxicity data generated with the applicants’ product has to be provided).",
+        "",
+        ""
+      ],
+      [
+        "18",
+        "Copy of proposed Package Insert which should include generic name of all active\ningredients; composition; dosage form/s, indications; dose and method of\nadministration; use in special populations; contraindications; warnings;\nprecautions; drug interactions; undesirable effects; overdose; pharmacodynamic\nand pharmacokinetic properties; incompatibilities; shelf-life; packaging\ninformation; storage and handling instructions.",
+        "",
+        ""
+      ],
+      [
+        "19",
+        "Draft specimen of the label and carton",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 13,
+    "bbox": [
+      88.31,
+      80.1,
+      553.45,
+      715.25
+    ],
+    "n_rows": 34,
+    "n_cols": 4,
+    "rows": [
+      [
+        "#",
+        "Documents required to be submitted",
+        "Status",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Yes",
+        "No"
+      ],
+      [
+        "1",
+        "Application for: (permission for manufacture /import/clinical trial)",
+        "",
+        ""
+      ],
+      [
+        "2",
+        "Name of the applicant",
+        "",
+        ""
+      ],
+      [
+        "3",
+        "Name of the Fixed Dose Combination(FDC)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Composition of the FDC",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Proposed indication for the FDC",
+        "",
+        ""
+      ],
+      [
+        "4",
+        "Application in Form 44 complete in all respect duly signed and stamped by\nauthorized person of the firm",
+        "",
+        ""
+      ],
+      [
+        "5",
+        "Treasury Challan of INR 15,000 duly signed and stamped by Bank of Baroda",
+        "",
+        ""
+      ],
+      [
+        "6",
+        "Rationale for combining them in the proposed ratio and therapeutic justification\nalong with supporting literature.",
+        "",
+        ""
+      ],
+      [
+        "7",
+        "Copy of valid manufacturing license in Form 25/28 along with copy of form 29",
+        "",
+        ""
+      ],
+      [
+        "8",
+        "Approval status of individual drugs in the country",
+        "",
+        ""
+      ],
+      [
+        "9",
+        "Source of bulk drugs along with current regulatory status of the source with copy\nof Form 46A in case of new drug.",
+        "",
+        ""
+      ],
+      [
+        "10",
+        "Information on active ingredients",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Brief Chemical & pharmaceutical data",
+        "",
+        ""
+      ],
+      [
+        "11",
+        "Data on Formulation:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Master manufacturing formula",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Details of the formulation (including inactive ingredients)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Finished product specification",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) In process quality control check",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Excipient compatibility study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Process validation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Validation of analytical method",
+        "",
+        ""
+      ],
+      [
+        "",
+        "h) Certificate of analysis including identification, pH, content uniformity, impurities,\nassay etc.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i) Comparative evaluation with international brand(s) or approved Indian brands, if\napplicable.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "j) Dissolution data in case of oral dosage forms as appropriate",
+        "",
+        ""
+      ],
+      [
+        "",
+        "k) Stability study evaluation as per requirements of schedule Y",
+        "",
+        ""
+      ],
+      [
+        "12",
+        "Summary of available pharmacological, toxicological and clinical data on the\nindividual ingredients",
+        "",
+        ""
+      ],
+      [
+        "13",
+        "Summary of Drug-Drug-Interactions (known and/or expected) among the active\ningredients present in the FDC, along with its implications. This should be\nprepared and signed by a competent person on behalf of applicant.",
+        "",
+        ""
+      ],
+      [
+        "14",
+        "Clinical data showing safety and efficacy of the FDC / Concomitant use of the\ningredients, in the same strength, including published data. If enough supportive\nliteratures are not available, then ‘adequate evidence’ on safe and effective\nconcomitant use of the ingredients should be provided",
+        "",
+        ""
+      ],
+      [
+        "15",
+        "Animal toxicology study data, as appropriate (In case of injectable formulation,\nsub-acute toxicity data generated with the applicants’ product has to be provided).",
+        "",
+        ""
+      ],
+      [
+        "16",
+        "Copy of proposed Package Insert which should include generic name of all active\ningredients; composition; dosage form/s, indications; dose and method of\nadministration; use in special populations; contraindications; warnings;\nprecautions; drug interactions; undesirable effects; overdose; pharmacodynamic\nand pharmacokinetic properties; incompatibilities; shelf-life; packaging\ninformation; storage and handling instructions.",
+        "",
+        ""
+      ],
+      [
+        "17",
+        "Draft specimen of the label and carton",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "bbox": [
+      88.31,
+      101.46,
+      549.85,
+      761.81
+    ],
+    "n_rows": 39,
+    "n_cols": 4,
+    "rows": [
+      [
+        "#",
+        "Documents required to be submitted",
+        "Status",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Yes",
+        "No"
+      ],
+      [
+        "1.",
+        "Application for: (permission for manufacture /import/clinical trial)",
+        "",
+        ""
+      ],
+      [
+        "2.",
+        "Name of the applicant",
+        "",
+        ""
+      ],
+      [
+        "3.",
+        "Name of the Fixed Dose Combination(FDC)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Composition of the FDC",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Proposed indication for the FDC",
+        "",
+        ""
+      ],
+      [
+        "4.",
+        "Application in Form 44 duly signed and stamped by authorized personal\n(Application for manufacture and market New FDC, BA/BE study and clinical trial\napplication)",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Treasury Challan of INR 15,000 if all active ingredients are approved in India for\nmore than one year, or INR 50,000 in case any of the active ingredients is approved\nfor less than one year duly signed and stamped by Bank of Baroda",
+        "",
+        ""
+      ],
+      [
+        "6.",
+        "Approval status of individual drugs in the country",
+        "",
+        ""
+      ],
+      [
+        "7.",
+        "Source of bulk drugs /raw materials (for those ingredients which are considered\nnew drugs)",
+        "",
+        ""
+      ],
+      [
+        "8.",
+        "Rationale for combining them in the proposed ratio and therapeutic justification\nalong with supporting literature.",
+        "",
+        ""
+      ],
+      [
+        "9.",
+        "Information on active ingredients:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Brief Chemical & pharmaceutical data",
+        "",
+        ""
+      ],
+      [
+        "10.",
+        "Data on Formulation:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Master manufacturing formula",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Details of the formulation (including inactive ingredients)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Finished product specification",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) In process quality control check",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Excipient compatibility study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Process validation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Validation of analytical method",
+        "",
+        ""
+      ],
+      [
+        "",
+        "h) Certificate of analysis including identification, pH, content uniformity, impurities,\nassay etc.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i) Comparative evaluation with international brand(s) or approved Indian brands, if\napplicable.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "j) Dissolution data in case of oral dosage forms as appropriate",
+        "",
+        ""
+      ],
+      [
+        "",
+        "k) Stability study evaluation as per requirements of schedule Y",
+        "",
+        ""
+      ],
+      [
+        "11.",
+        "Summary of available pharmacological, toxicological and clinical data on the\nindividual ingredients",
+        "",
+        ""
+      ],
+      [
+        "12.",
+        "Summary of Drug-Drug-Interactions (known and/or expected) among the active\ningredients present in the FDC, along with its implications. This should be prepared\nand signed by a competent person on behalf of applicant.",
+        "",
+        ""
+      ],
+      [
+        "13.",
+        "Clinical study protocol as per Annexure attached",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Patient Information Sheet and Informed Consent Form (ICF) as per\nAppendix V of Schedule Y,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Copy of ‘Ethics Committee’ approval letters (if available) ,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Case Record Form (CRF), Certificate of analysis of study drug(s)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d. Undertaking by Investigator(s) as per Appendix VII of Schedule Y and\nCV,",
+        "",
+        ""
+      ],
+      [
+        "14.",
+        "BA/BE study protocol (when applicable), and",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Patient Information Sheet and Informed Consent Form (ICF) as per\nAppendix V of Schedule Y,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Copy of ‘Ethics Committee’ approval letters (if available) ,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Case Record Form (CRF), Certificate of analysis of study drug(s)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d. Undertaking by Investigator(s) as per Appendix VII of Schedule Y and\nCV,",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "bbox": [
+      88.32,
+      58.8,
+      549.84,
+      215.76
+    ],
+    "n_rows": 5,
+    "n_cols": 4,
+    "rows": [
+      [
+        "15.",
+        "Reports of clinical trial carried out with the FDC in the country as per appendix II\nof Schedule Y. In case , the application is for market authorisation,",
+        "",
+        ""
+      ],
+      [
+        "16.",
+        "Reports of Bioequivalence study carried out with the FDC in the country. In case ,\nthe application is for market authorisation,",
+        "",
+        ""
+      ],
+      [
+        "17.",
+        "Animal toxicology study data, as appropriate In case of injectable formulation,\nsub-acute toxicity data generated with the applicants’ product has to be provided).",
+        "",
+        ""
+      ],
+      [
+        "18.",
+        "Copy of proposed Package Insert which should include generic name of all active\ningredients; composition; dosage form/s, indications; dose and method of\nadministration; use in special populations; contraindications; warnings;\nprecautions; drug interactions; undesirable effects; overdose; pharmacodynamic\nand pharmacokinetic properties; incompatibilities; shelf-life; packaging\ninformation; storage and handling instructions.",
+        "",
+        ""
+      ],
+      [
+        "19.",
+        "Draft specimen of the label and carton",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 16,
+    "bbox": [
+      88.31,
+      92.01,
+      549.85,
+      752.93
+    ],
+    "n_rows": 40,
+    "n_cols": 4,
+    "rows": [
+      [
+        "#",
+        "Documents required to be submitted",
+        "Status",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Yes",
+        "No"
+      ],
+      [
+        "1.",
+        "Application for: (permission for manufacture /import/clinical trial)",
+        "",
+        ""
+      ],
+      [
+        "2.",
+        "Name of the applicant",
+        "",
+        ""
+      ],
+      [
+        "3.",
+        "Name of the Fixed Dose Combination(FDC)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Proposed Composition of the FDC",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Proposed Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Proposed indication",
+        "",
+        ""
+      ],
+      [
+        "4.",
+        "Details of the approval of the FDC in the country",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Approved Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Approved composition",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Approved indication",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d. Copy of earlier approval obtained from CDSCO (if any)",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Application in Form 44 duly signed and stamped by authorized personal",
+        "",
+        ""
+      ],
+      [
+        "7.",
+        "Treasury Challan of INR 15,000 if all active ingredients are approved in India\nfor more than one year, or INR 50,000 in case any of the active ingredients is\napproved for less than one year duly signed and stamped by Bank of Baroda",
+        "",
+        ""
+      ],
+      [
+        "8.",
+        "Rationale for new proposed claim(s) along with therapeutic justification with\nsupporting literature.",
+        "",
+        ""
+      ],
+      [
+        "9.",
+        "Copy of valid manufacturing license in Form 25/28 along with copy of form 29",
+        "",
+        ""
+      ],
+      [
+        "10.",
+        "Source of bulk drugs along with current regulatory status of the source with\ncopy of Form 46A in case of new drug.",
+        "",
+        ""
+      ],
+      [
+        "11.",
+        "Information on active ingredients:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Brief Chemical & pharmaceutical data",
+        "",
+        ""
+      ],
+      [
+        "12.",
+        "Data on Formulation:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Master manufacturing formula",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Details of the formulation (including inactive ingredients)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Finished product specification",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) In process quality control check",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Excipient compatibility study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Process validation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Validation of analytical method",
+        "",
+        ""
+      ],
+      [
+        "",
+        "h) Certificate of analysis including identification, pH, content uniformity,\nimpurities, assay etc.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i) Comparative evaluation with international brand(s) or approved Indian brands,\nif applicable.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "j) Dissolution data in case of oral dosage form as appropriate",
+        "",
+        ""
+      ],
+      [
+        "",
+        "k) Stability study evaluation as per requirements of schedule Y",
+        "",
+        ""
+      ],
+      [
+        "13.",
+        "Clinical trials data showing safety and efficacy of the FDC with the proposed\nnew claims including published data.",
+        "",
+        ""
+      ],
+      [
+        "14.",
+        "Regulatory status of the drug with the proposed new claims in other\ncountries, as appropriate:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Names of the countries where the drug is marketed/approved alongwith\npackage insert circulated in those countries.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Names of the countries where the drug is withdrawn, if any, with reasons",
+        "",
+        ""
+      ],
+      [
+        "15.",
+        "BE study protocol and /or Clinical study protocol as per Appendix X of\nSchedule Y, as appropriate",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Report of BE study and /or Clinical trial conducted in the country as\nappropriate( In case the application is for marketing authorisation)",
+        "",
+        ""
+      ],
+      [
+        "16.",
+        "Toxicity data as per Schedule Y, as appropriate. In case of injectable\nformulation, sub-acute toxicity data generated with the applicants’ product\nhas to be provided).",
+        "",
+        ""
+      ],
+      [
+        "17.",
+        "Copy of proposed Package Insert which should include generic name of all\nactive ingredients; composition; dosage form/s, indications; dose and method",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 17,
+    "bbox": [
+      88.32,
+      58.8,
+      549.84,
+      119.04
+    ],
+    "n_rows": 2,
+    "n_cols": 4,
+    "rows": [
+      [
+        "",
+        "of administration; use in special populations; contraindications; warnings;\nprecautions; drug interactions; undesirable effects; overdose;\npharmacodynamic and pharmacokinetic properties; incompatibilities; shelf-\nlife; packaging information; storage and handling instructions.",
+        "",
+        ""
+      ],
+      [
+        "18.",
+        "Draft specimen of the label and carton",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 18,
+    "bbox": [
+      88.31,
+      82.5,
+      549.85,
+      761.09
+    ],
+    "n_rows": 38,
+    "n_cols": 4,
+    "rows": [
+      [
+        "#",
+        "Documents required to be submitted",
+        "Status",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Yes",
+        "No"
+      ],
+      [
+        "1.",
+        "Application for: (permission for manufacture /import/clinical trial)",
+        "",
+        ""
+      ],
+      [
+        "2.",
+        "Name of the applicant",
+        "",
+        ""
+      ],
+      [
+        "3.",
+        "Name of the Fixed Dose Combination(FDC)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Composition of the FDC",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Proposed indication for the FDC",
+        "",
+        ""
+      ],
+      [
+        "4.",
+        "Application in Form 44 duly signed and stamped by authorized personal",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Treasury Challan of INR 15,000 if all active ingredients are approved in India\nfor more than one year, or INR 50,000 in case any of the active ingredients is\napproved for less than one year duly signed and stamped by Bank of Baroda",
+        "",
+        ""
+      ],
+      [
+        "6.",
+        "Rationale for combining them in the proposed ratio and therapeutic\njustification along with supporting literature.",
+        "",
+        ""
+      ],
+      [
+        "6.",
+        "Copy of valid manufacturing license in Form 25/28 along with copy of form 29",
+        "",
+        ""
+      ],
+      [
+        "7.",
+        "Approval status of individual drugs in the country",
+        "",
+        ""
+      ],
+      [
+        "8.",
+        "Source of bulk drugs along with current regulatory status of the source with\ncopy of Form 46A in case of new drug.",
+        "",
+        ""
+      ],
+      [
+        "9.",
+        "Information on active ingredients",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Brief Chemical & pharmaceutical data",
+        "",
+        ""
+      ],
+      [
+        "10.",
+        "Data on Formulation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Master manufacturing formula",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Details of the formulation (including inactive ingredients)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Finished product specification",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) In process quality control check",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Excipient compatibility study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Process validation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Validation of analytical method",
+        "",
+        ""
+      ],
+      [
+        "",
+        "h) Certificate of analysis including identification, pH, content uniformity,\nimpurities, assay etc.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i) Comparative evaluation with international brand(s) or approved Indian brands,\nif applicable.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "l) Dissolution data in case of oral dosage form as appropriate",
+        "",
+        ""
+      ],
+      [
+        "",
+        "j) Stability study evaluation as per requirements of schedule Y",
+        "",
+        ""
+      ],
+      [
+        "11.",
+        "Toxicity data as per Schedule Y, as appropriate. In case of injectable\nformulation, sub-acute toxicity data generated with the applicants’ product\nhas to be provided).",
+        "",
+        ""
+      ],
+      [
+        "12.",
+        "Summary of available pharmacological, toxicological and clinical data on the\nindividual ingredients",
+        "",
+        ""
+      ],
+      [
+        "13.",
+        "Data showing safety, efficacy and convenience in use of the FDC has to be\nprovided. If enough supportive literatures are not available, then ‘adequate\nevidence’ on its convenience to users has to be demonstrated.",
+        "",
+        ""
+      ],
+      [
+        "14.",
+        "Summary of data showing NO significant PK/PD interaction among the\ningredients. This should be prepared and signed by a competent person on\nbehalf of applicant.",
+        "",
+        ""
+      ],
+      [
+        "15.",
+        "Regulatory status in other countries, as appropriate.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Names of countries where the drug is marketed/approved",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Names of countries where the drug is approved as IND, withdrawn,",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Names of countries where the drug is withdrawn, if any, with reasons",
+        "",
+        ""
+      ],
+      [
+        "16.",
+        "Copy of proposed Package Insert which should include generic name of all active\ningredients; composition; dosage form/s, indications; dose and method of\nadministration; use in special populations; contraindications; warnings; precautions;\ndrug interactions; undesirable effects; overdose; pharmacodynamic and\npharmacokinetic properties; incompatibilities; shelf-life; packaging information;\nstorage and handling instructions.",
+        "",
+        ""
+      ],
+      [
+        "17.",
+        "Draft specimen of the label and carton",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 19,
+    "bbox": [
+      88.31,
+      93.78,
+      544.57,
+      718.13
+    ],
+    "n_rows": 38,
+    "n_cols": 4,
+    "rows": [
+      [
+        "#",
+        "Documents required to be submitted",
+        "Status",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Yes",
+        "No"
+      ],
+      [
+        "1.",
+        "Application for: (permission for manufacture /import/clinical trial)",
+        "",
+        ""
+      ],
+      [
+        "2.",
+        "Name of the applicant",
+        "",
+        ""
+      ],
+      [
+        "3.",
+        "Name of the Fixed Dose Combination(FDC)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Composition of the FDC",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Proposed indication for the FDC",
+        "",
+        ""
+      ],
+      [
+        "4.",
+        "Details of the approval of the FDC in the country",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Approved Dosage Form",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Approved composition",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c. Approved indication",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Application in Form 44 duly signed and stamped by authorized personal",
+        "",
+        ""
+      ],
+      [
+        "6.",
+        "Treasury Challan of INR 15,000 if all active ingredients are approved in India\nfor more than one year, or INR 50,000 in case any of the active ingredients is\napproved for less than one year duly signed and stamped by Bank of Baroda",
+        "",
+        ""
+      ],
+      [
+        "7.",
+        "Copy of valid manufacturing license in Form 25/28 along with copy of form 29",
+        "",
+        ""
+      ],
+      [
+        "8.",
+        "Source of bulk drugs along with current regulatory status of the source with\ncopy of Form 46A in case of new drug.",
+        "",
+        ""
+      ],
+      [
+        "9.",
+        "Information on active ingredients:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Brief Chemical & pharmaceutical data",
+        "",
+        ""
+      ],
+      [
+        "10.",
+        "Data on Formulation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Master manufacturing formula",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Details of the formulation (including inactive ingredients)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Finished product specification",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) In process quality control check",
+        "",
+        ""
+      ],
+      [
+        "",
+        "e) Excipient compatibility study",
+        "",
+        ""
+      ],
+      [
+        "",
+        "f) Process validation",
+        "",
+        ""
+      ],
+      [
+        "",
+        "g) Validation of analytical method",
+        "",
+        ""
+      ],
+      [
+        "",
+        "h) Certificate of analysis including identification, pH, content uniformity,\nimpurities, assay etc.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "i) Comparative evaluation with international brand(s) or approved Indian brands,\nif applicable.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "j) Comparative Dissolution data in case oral dosage form as appropriate",
+        "",
+        ""
+      ],
+      [
+        "",
+        "k) Stability study evaluation as per requirements of schedule Y",
+        "",
+        ""
+      ],
+      [
+        "11.",
+        "In case of injectable formulation, sub-acute toxicity data conducted with the\napplicants’ product.",
+        "",
+        ""
+      ],
+      [
+        "12.",
+        "BA/BE study protocol (in case of oral dosage form as appropriate as per\nAppendix X of Schedule Y",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a) Patient Information Sheet and Informed Consent Form (ICF) as per Appendix\nV of Schedule Y.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b) Copy of ‘Ethics Committee’ approval letters (if available)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "c) Case Record Form (CRF)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "d) Undertaking by Investigator(s) as per Appendix VII of Schedule Y and CV",
+        "",
+        ""
+      ],
+      [
+        "13.",
+        "Copy of proposed Package Insert which should include generic name of all\nactive ingredients; composition; dosage form/s, indications; dose and method\nof administration; use in special populations; contraindications; warnings;\nprecautions; drug interactions; undesirable effects; overdose;\npharmacodynamic and pharmacokinetic properties; incompatibilities; shelf-\nlife; packaging information; storage and handling instructions.",
+        "",
+        ""
+      ],
+      [
+        "14.",
+        "Draft specimen of the label and carton",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 21,
+    "bbox": [
+      88.31,
+      83.2,
+      548.17,
+      754.88
+    ],
+    "n_rows": 37,
+    "n_cols": 2,
+    "rows": [
+      [
+        "#",
+        "Particulars"
+      ],
+      [
+        "1",
+        "Title Page"
+      ],
+      [
+        "",
+        "(a) Full title of the clinical study,"
+      ],
+      [
+        "",
+        "(b) Protocol / Study number, and protocol version number with date"
+      ],
+      [
+        "",
+        "(c) The IND name/number of the investigational drug"
+      ],
+      [
+        "",
+        "(d) Complete name and address of the Sponsor and contract research organization if any"
+      ],
+      [
+        "",
+        "(e) List of the Investigators who are conducting the study, their respective institutional\naffiliations and site locations"
+      ],
+      [
+        "",
+        "(f) Name(s) of clinical laboratories and other departments and/or facilities participating in the\nstudy."
+      ],
+      [
+        "2",
+        "Table of Contents (A complete Table of Contents including a list of all Appendices)"
+      ],
+      [
+        "",
+        "l bl f i l di li f ll di\nBackground and Introduction"
+      ],
+      [
+        "",
+        "Study Rationale"
+      ],
+      [
+        "3",
+        "Study Objective(s) (primary as well as secondary) and their logical relation to the study"
+      ],
+      [
+        "4",
+        "Study Design:( Overview of the Study Design, f low chart of the study, brief description of the\nmethods and procedures to be used during the study, Discussion of Study Design etc.)"
+      ],
+      [
+        "5",
+        "Study Population:"
+      ],
+      [
+        "6",
+        "Subject Eligibility:"
+      ],
+      [
+        "",
+        "(a) Inclusion Criteria"
+      ],
+      [
+        "",
+        "(b) Exclusion Criteria"
+      ],
+      [
+        "7",
+        "Study Assessments – Plan, procedures and methods to be described in detail"
+      ],
+      [
+        "8",
+        "Study Conduct stating the types of study activities that would be included in the study\nviz. (a)Medical history, type of physical examination, blood or urine testing, electrocardiogram\n(ECG), diagnostic testing such as pulmonary function tests, symptom measurement,\ndispensation and retrieval of medication, Subject cohort assignment, adverse event review, etc.\n(b) Each visit should be described separately as Visit 1, Visit 2, etc.,\n(c) Discontinued Subjects, describes how protocol violations will be treated, including\nconditions where the study will be terminated for non-compliance with the protocol,\n(d) Describes the circumstances for Subject withdrawal, dropouts, or other reasons for\ndiscontinuation of Subjects,\n(e) Describe the method of handling of protocol waivers, if any"
+      ],
+      [
+        "9",
+        "Study Treatment"
+      ],
+      [
+        "",
+        "(a) Dosing schedule"
+      ],
+      [
+        "",
+        "(b) Study drug supplies and administration"
+      ],
+      [
+        "",
+        "(c) Dose modification for study drug toxicity"
+      ],
+      [
+        "",
+        "(d) Possible drug interactions."
+      ],
+      [
+        "",
+        "(e) Concomitant therapy"
+      ],
+      [
+        "",
+        "(f) Blinding procedures:"
+      ],
+      [
+        "",
+        "(g) Unblinding procedures"
+      ],
+      [
+        "10",
+        "Adverse Events (As per Appendix XI of schedule Y)"
+      ],
+      [
+        "11",
+        "Ethical Considerations"
+      ],
+      [
+        "",
+        "(a) Risk/benefit assessment"
+      ],
+      [
+        "",
+        "(b) Ethics Committee review and communications"
+      ],
+      [
+        "",
+        "(c) Informed consent process."
+      ],
+      [
+        "",
+        "(d) Statement of Subject confidentiality including ownership of data and coding procedures."
+      ],
+      [
+        "12",
+        "Study Monitoring and Supervision:"
+      ],
+      [
+        "13",
+        "Investigational Product Management"
+      ],
+      [
+        "14",
+        "Data Analysis"
+      ],
+      [
+        "",
+        "(a) Details of the statistical approach to be followed including sample size, how the"
+      ]
+    ]
+  },
+  {
+    "page": 22,
+    "bbox": [
+      88.32,
+      58.8,
+      548.16,
+      165.36
+    ],
+    "n_rows": 6,
+    "n_cols": 2,
+    "rows": [
+      [
+        "",
+        "sample size was determined, including assumptions made in making this determination,\nefficacy endpoints (primary as well as secondary) and safety endpoints"
+      ],
+      [
+        "",
+        "(b) Statistical analysis"
+      ],
+      [
+        "",
+        "(c) Statistical considerations for Pharmacokinetic (PK) analysis, if applicable"
+      ],
+      [
+        "15",
+        "Undertaking by the Investigator as per Appendix VII of schedule Y"
+      ],
+      [
+        "17",
+        "Appendices"
+      ],
+      [
+        "",
+        "(a) study synopsis, copies of the informed consent documents (patient information sheet,\ninformed consent form etc.); CRF and other data collection forms"
+      ]
+    ]
+  }
+]

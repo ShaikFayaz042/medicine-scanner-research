@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-09-12T13:43:41+00:00",
+  "analysis_csv": "downloads\\_analysis\\pdf_analysis.csv",
+  "statuses_processed": [
+    "TEXT"
+  ],
+  "scan_all": false,
+  "sources": {
+    "alerts": {
+      "total_pdfs": 219,
+      "extracted": 214,
+      "skipped": 5,
+      "errors": 0,
+      "total_chars": 1944420,
+      "total_tables": 1237,
+      "manifest_file": "alerts/_manifest.json"
+    },
+    "banned_drugs": {
+      "total_pdfs": 1,
+      "extracted": 1,
+      "skipped": 0,
+      "errors": 0,
+      "total_chars": 44252,
+      "total_tables": 27,
+      "manifest_file": "banned_drugs/_manifest.json"
+    },
+    "fdc": {
+      "total_pdfs": 11,
+      "extracted": 11,
+      "skipped": 0,
+      "errors": 0,
+      "total_chars": 967081,
+      "total_tables": 120,
+      "manifest_file": "fdc/_manifest.json"
+    },
+    "gazette": {
+      "total_pdfs": 34,
+      "extracted": 34,
+      "skipped": 0,
+      "errors": 0,
+      "total_chars": 3306383,
+      "total_tables": 26,
+      "manifest_file": "gazette/_manifest.json"
+    },
+    "ipc_pvpi": {
+      "total_pdfs": 1,
+      "extracted": 1,
+      "skipped": 0,
+      "errors": 0,
+      "total_chars": 43173,
+      "total_tables": 28,
+      "manifest_file": "ipc_pvpi/_manifest.json"
+    },
+    "public_notices": {
+      "total_pdfs": 11,
+      "extracted": 11,
+      "skipped": 0,
+      "errors": 0,
+      "total_chars": 348368,
+      "total_tables": 317,
+      "manifest_file": "public_notices/_manifest.json"
+    }
+  },
+  "totals": {
+    "total_pdfs": 277,
+    "extracted": 272,
+    "skipped": 5,
+    "errors": 0,
+    "total_chars": 6653677,
+    "total_tables": 1755
+  }
+}

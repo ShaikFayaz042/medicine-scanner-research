@@ -1,0 +1,208 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      72.26,
+      148.22,
+      797.76,
+      491.73
+    ],
+    "n_rows": 5,
+    "n_cols": 10,
+    "rows": [
+      [
+        "S.N\no",
+        "Name of\nDrugs/medi\ncal\ndevice/cos\nmetics",
+        "Batch No.",
+        "Date\nof\nManuf\nacture",
+        "Date of\nExpiry",
+        "Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From",
+        "Firm reply"
+      ],
+      [
+        "1.",
+        "Pulmosil\n(Sildenafil\nInjection)",
+        "KFA0300",
+        "06/2023",
+        "05/2025",
+        "M/s Sun\nPharmaceuticals Ind.,\nLtd., Halol-Baroda\nHighway, Halol-\n389350, Dist-\nPanchmahal, Gujarat,\nAt Survey No. 250-\n252,Turkapally-Village-\nShameerpet Mandal,\nRanga Reddy District-\n500078, Telangana",
+        "Test for\nDescription,\nVolume in\ncontainer,\nParticulate\nmatter, sterility\nand Assay of\nSildenafil\nCitrate\nequivalent to\nSildenafil.",
+        "Drugs\nInspector,\nEast\nZone,CDSCO",
+        "NRS\nMedical\nCollege 138\nAJC Bose\nRoad,\nKolkata\n700014",
+        "The actual manufacturer (as per\nlabel claim) has informed that the\nimpugned batch of the product has\nnot been manufacturer by them and\nthat it is a spurious drug. The\nproduct is purported to be spurious,\nhowever, the same is subjected to\noutcome of investigation."
+      ],
+      [
+        "2.",
+        "Pantocid",
+        "SID2041A",
+        "07/2022",
+        "06/2025",
+        "M/s Sunpharma\nlaboratories ltd. Plot no.\n107-108, Namli Block,\nP.O. Ranipool, East\nSikkim-737135",
+        "Identification\nand Assay",
+        "Drugs\nInspector,\nEast\nZone,CDSCO",
+        "",
+        "The actual manufacturer (as per\nlabel claim) has informed that the\nimpugned batch of the product has\nnot been manufacturer by them and\nthat it is a spurious drug. The\nproduct is purported to be spurious,\nhowever, the same is subjected to\noutcome of investigation."
+      ],
+      [
+        "",
+        "(Pantoprazole",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Tablets IP)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      72.29,
+      72.24,
+      797.73,
+      402.05
+    ],
+    "n_rows": 10,
+    "n_cols": 10,
+    "rows": [
+      [
+        "(\n3.",
+        "",
+        "GTE1350A",
+        "06/2023",
+        "05/2025",
+        "M/s Sun Pharma\nLaboratories Ltd. Vill.\nKokjhar, Mirza\nPalashbari Road, P.O.\nPalashbari, Guwahati,\nDist. Kamrup, Assam-\n781128",
+        "Assay of\nursodeoxycholi\nc Acid,\nDescription",
+        "Drugs\nInspector,\nEast\nZone,CDSCO",
+        "",
+        "The actual manufacturer (as per\nlabel claim) has informed that the\nimpugned batch of the product has\nnot been manufacturer by them and\nthat it is a spurious drug. The\nproduct is purported to be spurious,\nhowever, the same is subjected to\noutcome of investigation."
+      ],
+      [
+        "",
+        "Ursocol 300",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Ursodeoxych",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "olic Acid\nTablets IP)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "4.",
+        "Telma H",
+        "t 18230080",
+        "02/2023",
+        "01/2026",
+        "Glenmark\nPharmaceuticals Ltd,\nVillage-Kishanpura,\nBaddi, Himachal\nPradesh 1732025",
+        "Dissolution &\nAssay of\nTelmisartan",
+        "Drugs\nInspector,\nEast\nZone,CDSCO",
+        "",
+        "The actual manufacturer (as per\nlabel claim) has informed that the\nimpugned batch of the product has\nnot been manufacturer by them and\nthat it is a spurious drug. The\nproduct is purported to be spurious,\nhowever, the same is subjected to\noutcome of investigation."
+      ],
+      [
+        "",
+        "(Telmisartan",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "40 mg and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Hydrochloro",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "hiazide\n12.5mg\nTablets IP)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5.",
+        "Deflazacort\nTablets\n( Defcort 6\nTablets)",
+        "GDB23041A",
+        "05/2023",
+        "04/2026",
+        "Macleods\nPharmaceuticals Ltd.,\n367/7, Kabra Industrial\nEstate, Kanchigam,\nDaman-396 210 (U.T)",
+        "Test of\nIdentification\nand Assay of\nDeflazacort",
+        "Drugs\nInspector,\nSLA Delhi",
+        "",
+        "The actual manufacturer (as per\nlabel claim) has informed that the\nimpugned batch of the product has\nnot been manufacturer by them and\nthat it is a spurious drug. The\nproduct is purported to be spurious,\nhowever, the same is subjected to\noutcome of investigation."
+      ]
+    ]
+  }
+]

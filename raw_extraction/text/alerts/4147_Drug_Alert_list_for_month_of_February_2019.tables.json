@@ -1,0 +1,405 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      15.21,
+      112.07,
+      582.51,
+      787.35
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Cefpodoxime Oral\nSuspension I.P.\n(MONOPOD)",
+        "B. No.: 17J-BD502,\nMfg dt: 01/2018,\nExp dt: 06/2019,\nMfd by: M/s. Orison\nPharma International\nKhari, Mauza Ogli, Kala-\nAmb, H.P.-173030.",
+        "Assay",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2.",
+        "Paracetamol\nTablets I.P.\n(LARKIN)",
+        "B. No.: E-10,\nMfg dt: 08/2017,\nExp dt: 07/2019,\nMfd by: M/s. Lark\nLaboratories (India) Ltd.\nPhase-IV, RIICO Industrial\nArea, Bhiwadi, Dist.-\nAlwar, Rajasthan-301019.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nMizoram",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3.",
+        "Cefixime & Lactic\nAcid Bacillus\nTablets (Tixi-200\nLB)",
+        "B. No.: FSP17159A,\nMfg dt: 10/2017,\nExp dt: 09/2019,\nMfd by: M/s. Salus\nPharmaceuticals 480/211,\nHarraipur, Gurumajra,\nBaddi, Solan. H.P.-\n173205.",
+        "Uniformity of\nWeight",
+        "Drugs Control\nDepartment,\nMizoram",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4.",
+        "Ceftriaxone &\nTazobactam For\nInjection\n(VEGACEF-TZ)",
+        "B. No.: CFTN17008F,\nMfg dt: 04/2017,\nExp dt: 03/2019,\nMfd by: M/s. Theon\nPharmaceuticals Ltd. Vill-\nSaini Majra, Teh,\nNalagarh, Dist. Solan,\nH.P.-174101.",
+        "Particulate\nContamination",
+        "Drugs Control\nDepartment,\nMizoram",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5.",
+        "Omeprazole\nCapsules I.P. 20\nmg. (OMEP)",
+        "B. No.: UOME1801,\nMfg dt: 02/2018,\nExp dt: 01/2020,\nMfd by: M/s. Bal Pharma\nLimited Plot No. 1,2,3 &\n69, Sector-4, IIE, Sidcul,\nPantnagar, Rudrapur, Dist.\nUdham Singh Nagar,\nUttarakhand.",
+        "Dissolution",
+        "Drugs Control\nDepartment,\nTripura",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      760.47
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "6.",
+        "Pantoprazole\nInjection",
+        "B. No.: PZD-046,\nMfg dt: 07/2018,\nExp dt: 06/2020,\nMfd by: M/s. Daffodills\nPharmaceuticals Ltd.\nJawahar Nagar, Rohta\nRoad, Meerut-250001.",
+        "Particulate\nContamination",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "7.",
+        "Ceftazidime &\nTazobactam For\nInjection (Cefazid-T)",
+        "B. No.: CT-1801,\nMfg dt: 04/2018,\nExp dt: 03/2020,\nMfd by: M/s. Systochem\nLaboratories Ltd. B-75,\nRoonagar Indl. Area, Loni-\n201102 (H.P.).",
+        "Particulate\nContamination",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "8.",
+        "Amoxycillin\nCapsules IP\n(Amoxytor-250)",
+        "B. No.: HCB709L,\nMfg dt: 11/2017,\nExp dt: 10/2020,\nMfd by: M/s. Himalaya\nMeditek Pvt. Ltd. Plot No.\n35 & 36, Selaqui, Indl.\nArea, Dehradun – 248197.",
+        "Assay",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "9.",
+        "Dexamethasone\nTablets I.P. 0.5 mg",
+        "B. No.: GSM-17332,\nMfg dt: 05/2017,\nExp dt: 04/2019,\nMfd by: M/s. Max Chem\nPharmaceuticals Pvt. Ltd.,\nPlot No. 22, Sector-3,\nSidcul-IIE, Rudrapur, Distt.\nUS Nagar (Uttarakhand) –\n263153.",
+        "Related\nSubstances",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL\nKolkata"
+      ],
+      [
+        "10",
+        "Menadione Sodium\nBisulphite Injection\n1 ml",
+        "B. No.: 51,\nMfg dt: 02/2018,\nExp dt: 01/2020 ,\nMfd by: M/s. Hindustan\nMedicines Pvt. Ltd.,\nBarauni-851112.",
+        "Description and\nParticulate\nMatter",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL\nKolkata"
+      ],
+      [
+        "11",
+        "Esopen – 20\n(Esomeprazole\nTablets I.P.)",
+        "B. No.: NT-171147 ,\nMfg dt: 11/2017,\nExp dt: 10/2019 ,\nMfd by: M/s. Gracure\nPharmaceuticals Ltd.,\nBrahman Beli Road, Vill -\nBelidyod, Nalagarh, Distt -\nSolan (H.P.).",
+        "Dissolution",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      15.2,
+      56.85,
+      582.52,
+      704.77
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "12",
+        "AZTEC (Ranitidine\nInjection I.P. 2 ml)",
+        "B. No.: BATC-245,\nMfg dt: 01/2018,\nExp dt: 12/2019,\nMfd by: M/s. Ind-Swift Ltd.,\n(Unit-III), Village\nMalkumajra, Tehsil-\nNalagarh, Distt. Solan\n173205 (H.P.).",
+        "pH",
+        "CDSCO,\nSubZone Goa",
+        "CDL\nKolkata"
+      ],
+      [
+        "13",
+        "Absorbent Gauze\nSch. F(II)",
+        "B. No.: 83,\nMfg dt: 07/2017,\nExp dt: 06/2019,\nMfd by: M/s. K.\nRamakrishnan & Sons,\nChatrapatti-626 102.",
+        "Weight in g/m2",
+        "CDSCO,\nSubZone Goa",
+        "CDL\nKolkata"
+      ],
+      [
+        "14",
+        "Misoprostol Tablets\nI.P. 200 mcg,",
+        "B. No.: 18SGCT012,\nMfg dt: 03/2018,\nExp dt: 02/2020,\nMfd by: M/s. Synokem\nPharmaceuticals Limited,\nPlot No. 35-36, Sector-6A,\nIntegrated Industrial Estate\n(SIDCUL), Ranipur\n(BHEL), Haridwar 249 403\n(UK).",
+        "Assay",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "15",
+        "Ketorolac\nTromethamine\nInjection I.P. 1 ml,",
+        "B. No.: I-4754,\nMfg dt: 03/2017,\nExp dt: 02/2019,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd., Plot\nNo. 56 & 61 Industrial\nArea, Phase III, Sansarpur\nTerrace, Dist. Kangra\n(H.P.) 176 501.",
+        "Description and\nParticulate\nMatter",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL\nKolkata"
+      ],
+      [
+        "16",
+        "Leucovorin Calcium\nInjection I.P.",
+        "B. No.: 887YY042,\nMfg dt: 12/2017,\nExp dt: 11/2019,\nMfd by: M/s. Fresenius\nKabi Oncology Ltd., 19,\nHPSIDC, Industrial Area,\nBaddi-173205.",
+        "Description and\nParticulate\nMatter",
+        "CDSCO, Sub\nZone, Baddi",
+        "CDL\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      781.11
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "17",
+        "MAANZEN CR 400\nTablets\n(Carbamazepine\nControlled Release\nTablets 400 mg)",
+        "B. No.: CCT/6005,\nMfg dt: 10/2016,\nExp dt: 09/2019,\nMfd by: M/s. Maan\nPharmaceuticals Ltd., Plot\nNo. 1, GIDC, Phase II,\nModhera Road, Mehsana -\n384 002, Gujarat, India.",
+        "Dissolution",
+        "CDSCO,\nSub zone,\nBangalore",
+        "CDL\nKolkata"
+      ],
+      [
+        "18",
+        "Ranitac 150\n(Ranitidine\nHydrochloride\nTablets I.P. 150mg)",
+        "B. No.: M-9805\nMfg dt: 07/2018,\nExp dt: 06/2020,\nMfd by: M/s. Herb Edge\nHealthcare Pvt. Ltd.,\n81,82,86,87, Industrial\nArea, Nagziri, Dewas\nRoad, Ujjain -456 010.",
+        "Description &\nAssay",
+        "CDSCO,\nAhmedabad",
+        "CDL\nKolkata"
+      ],
+      [
+        "19",
+        "Sodium Chloride\n(0.45%) & Dextrose\n(5.0%) Inj. I.P 5 D ½\nNS)",
+        "B. No.: P8220003,\nMfg dt: 02/2018,\nExp dt: 01/2021,\nMfd by: M/s. Albert David\nLtd., B-12,13, Meerut Road\nIndl. Area, Ghaziabad -\n201003.",
+        "Assay of\nDextrose",
+        "CDSCO,\nHyderabad",
+        "CDL\nKolkata"
+      ],
+      [
+        "20",
+        "THIAMIN 2ml\n(THIAMINE HCl\nInjection I.P. 100\nmg/ml)",
+        "B. No.: 18AA004,\nMfg dt: 01/2018,\nExp dt: 06/2019,\nMfd by: M/s.\nPharmafabrikon, Unit II,\n91-1, Sivagangai Road,\nVilathur, Madurai-625020.",
+        "pH",
+        "CDSCO,\nHyderabad",
+        "CDL\nKolkata"
+      ],
+      [
+        "21",
+        "PHENOBARBITAL\nORAL SOLUTION\nUSP",
+        "B. No.: SY-17200,\nMfg dt: 06/2018,\nExp dt: 05/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd,\nMajitha Road,Bye\nPass,Amritsar-143001.",
+        "Alcohol\nDetermination.",
+        "Drug Control\nJammu &\nKashmir",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "22",
+        "Cefpodoxime\nProxetil Tablets IP\n(EUROPOD-200\nTABLETS)",
+        "B. No.: FCFT-206,\nMfg dt: 01/2018,\nExp dt: 06/2019,\nMfd by: M/s. Crystal\nPharmaceuticals 365,\nModel Town,Ambala City-\n134003.",
+        "Dissolution\n(Cefpodoxime\nProxetil\ncalculated as\nCefpodoxime)\nand the Assay of\nCefpodoxime\nProxetil",
+        "CDSCO, North\nZone, GZB",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      765.63
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "calculated as\nCefpodoxime.",
+        "",
+        ""
+      ],
+      [
+        "23",
+        "Chloroquine\nPhosphate Tablets\nIP 250 mg",
+        "B. No.: 170819,\nMfg dt: 08/2017,\nExp dt: 07/2020,\nMfd by: M/s. Modi\nAntibiotics Plot No. 28,\nG.I.D.C Estate, Odhav,\nAhmedabad-382415\n(Gujarat).",
+        "Dissolution\n(Chloroquine\nPhosphate).",
+        "CDSCO, North\nZone, GZB",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "24",
+        "Primaquine Tablets\nIP 7.5 mg ( P-\nQUINE TABLETS )",
+        "B. No.: KTQ1342,\nMfg dt: 12/2017,\nExp dt: 11/2019,\nMfd by: M/s. Pro-pharma\nCare Pvt. Ltd., Khasra\nNo.68, 69, 71, Village:\nSikandarpur, Bhaiswal,\nNear Bhagwanpur,\nRoorkee, Dist. Haridwar,\nUttarakhand- 247661.",
+        "Dissolution\n(Primaquine\nPhosphate\ncalculated as\nPrimaquine) and\nthe Assay of\nPrimaquine\nPhosphate\ncalculated as\nPrimaquine.",
+        "CDSCO, North\nZone, GZB",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "25",
+        "Fexofenadine\nHydrochloride Tablets\nIP (FEXOFINE-180\nTABLETS)",
+        "B. No.: AT/3083,\nMfg dt: 07/2018,\nExp dt: 06/2020,\nMfd by: M/s. Apple Biotech\nVill. Deep Nagar, Teh\nPayal, Ludhiana-\n141421(Pb) India.",
+        "Dissolution\n(After 10 Min),\n(After 30 min).",
+        "CDSCO, Sub\nZone, Baddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "26",
+        "Letrozole Tablets\nUSP 2.5 mg\n(BREXOL-2.5 TABLETS)",
+        "B. No.: EN1804140T,\nMfg dt: 04/2018,\nExp dt: 03/2020,\nMfd by: M/s. Enrico\nPharmaceuticals 131-132,\nEPIP, Phase-1, Jharmajri\nBaddi, Distt.Solan(H.P)-\n173205.",
+        "Dissolution\n(Letrozole).",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "27",
+        "Doxycycline and\nLactic Acid Bacillus\nCapsules\n(DOXYGUARD\nCAPSULES )",
+        "B. No.: SOC-615F,\nMfg dt: 01/2018,\nExp dt: 12/2019,\nMfd by: M/s. Symbiosis\nPharmaceuticals Pvt. Ltd.\n(Unit-III) Plant at : Trilokpur\nRoad, Kala Amb-173030\n(HP).",
+        "Assay of Lactic\nAcid Bacillus",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      15.21,
+      56.85,
+      582.51,
+      773.55
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "28",
+        "Cefixime And Lactic\nAcid Bacillus\nDispersible Tablets (\nEUROX-200 LB\nTABLETS )",
+        "B. No.: T180064F,\nMfg dt: 04/2018,\nExp dt: 03/2020,\nMfd by: M/s. Polestar\nPower Industries (Pharma\nDivision) Vill.Damuwala,\nHaripur Road, Barotiwala,\nBaddi, Distt.Solan (H.P.)-\n174 103.",
+        "Assay of Lactic\nAcid Bacillus",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "29",
+        "Nitroglycerin\nInjection USP\n(GLICIN INJECTION)",
+        "B. No.: BIO-17441,\nMfg dt: 05/2017,\nExp dt: 04/2019,\nMfd by: M/s. Health\nBiotech Ltd Unit-II,\nNalagarh Road, Baddi-\n173205. Distt.Solan (HP).",
+        "Description ,\nParticulate\nmatter , Alcohol\nDetermination\nand the Assay of\nDiluted\nNitroglycerin\ncalculated as\nNitroglycerin",
+        "CDSCO, North\nZone, GZB",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "30",
+        "(CALCIUM\nGLUCONATE\nINJECTION IP 10%\nW/V)",
+        "B. No.: I-17933,\nMfg dt: 10/2018,\nExp dt: 09/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd,\nMajitha Road,Bye Pass\nAmritsar-143001.",
+        "Bacterial\nendotoxins",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "31",
+        "(CALCIUM\nGLUCONATE\nINJECTION IP 10%\nW/V)”,",
+        "B. No.: I-17041,\nMfg dt: 05/2018,\nExp dt: 04/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd.,\nMajitha Road, Bye Pass,\nAmritsar-143001(India).",
+        "Particulate\nmatter",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "32",
+        "Azithromycin Oral\nSuspension IP\n(AZM-200\nSUSPENSION)",
+        "B. No.: 17SGDL002,\nMfg dt: 04/2017,\nExp dt: 03/2019,\nMfd by: M/s. Synokem\nPharmaceuticals Ltd . Plot\nNo. 35-36, Sector-6A,\nIntegrated Industrial Estate\n(SIDCUL), Raipur (Bhel),\nHaridwar-249403,\n(Uttarakhand), India.",
+        "Related\nsubstances and\nthe Assay of\nAzithromycin\ncalculated as\nAnhydrous\nAzithromycin",
+        "N.C.T. of Delhi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "33",
+        "(DOBUTAMINE\nINJECTION USP)",
+        "B. No.: N-10123,\nMfg dt: 10/2017,\nExp dt: 09/2019,\nMfd by: M/s. KWALITY\nPHARMACEUTICALS\nLTD. Nag Kalan, Majitha\nRoad, Amritsar-India.",
+        "Particulate\nmatter",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      15.19,
+      56.85,
+      582.53,
+      487.54
+    ],
+    "n_rows": 4,
+    "n_cols": 6,
+    "rows": [
+      [
+        "34",
+        "Aceclofenac,\nParacetamol and\nSerratiopeptidase\nTablets (HIFEIN-SP\nTABLETS)",
+        "B. No.: AHT-6615,\nMfg dt: 03/2018,\nExp dt: 02/2020,\nMfd by: M/s. Algen\nHealthcare Limited 134/2,\nVill. Khara Khari, Sadhaura\nRoad, Kala Amb, Distt.\nSirmour (H.P.-173030.",
+        "Disintegration\nTest and Assay\nof Aceclofenac",
+        "Jammu &\nKashmir",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "35",
+        "Ramipril Tablets IP\n5 mg (RIMPRIL-5\nTABLETS)",
+        "B. No.: KT/262,\nMfg dt: 01/2018,\nExp dt: 12/2019,\nMfd by: M/s. Magbro\nHealthcare Pvt. Ltd. Village\nMehsa Tibba, P.O.\nManjholi, Tehsil Nalagarh,\nDistt. Solan-174101 (H.P.).",
+        "Assay of\nRamipril",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "36",
+        "Clopidogrel and\nAspirin Tablets\n(CLOPIJACK-A\nTABLETS)",
+        "B. No.: T-16413,\nMfg dt: 03/2018,\nExp dt: 02/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd.\n22-24, Majitha Road, Bye\nPass, Amritsar-\n143001(India).",
+        "Salicylic acid\nand Assay of\nClopidogrel\nBisulphate\ncalculated as\nClopidogrel,\nAspirin",
+        "CDSCO,\nSub Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "37",
+        "Dobutamine\nInjection USP\n(CARDIOTONIC\nINJECTION)",
+        "B. No.: N-10085,\nMfg dt: 09/2017,\nExp dt: 08.2019,\nMfd by: M/s. KWALITY\nPHARMACEUTICALS\nLTD. Nag Kalan, Majitha\nRoad, Amritsar-India.",
+        "Particulate\nmatter",
+        "CDSCO, North\nZone, GZB",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

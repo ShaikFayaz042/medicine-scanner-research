@@ -1,0 +1,393 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      66.56,
+      98.82,
+      517.6,
+      164.02
+    ],
+    "n_rows": 3,
+    "n_cols": 2,
+    "rows": [
+      [
+        "Total number of samples tested",
+        "821"
+      ],
+      [
+        "Total number of samples declared as of Standard Quality",
+        "788"
+      ],
+      [
+        "Total number of samples declared as Not of Standard Quality\n/Spurious /Misbranded (under Form-13, Form-34 and Form- MD-32)",
+        "33"
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "bbox": [
+      8.13,
+      178.19,
+      581.91,
+      797.55
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.\nN.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "FURAZOLIDONE\nORAL\nSUSPENSION IP",
+        "B. No.: 1803,\nMfg dt: 06/2018,\nExp dt: 05/2020,\nMfd by: M/s. Deepin\nPharmaceuticals Pvt. Ltd.,\nVillage: Dharwara, Post:\nKalaria – 453001, Tehsil:\nDepalpur (MP).",
+        "Assay",
+        "CDSCO, S.R.\nNagar,\nHyderabad",
+        "CDTL,\nChennai"
+      ],
+      [
+        "2.",
+        "Misoprostol Tablets\nI.P. 200 mcg MST",
+        "B. No.: 18SGET035,\nMfg dt: 05/2018,\nExp dt: 04/2020,\nMfd by: M/s. Synokem\nPharmaceuticals Ltd., Plot\nNo. 35-36, Sector-6A,\nIntegrated Industrial Estate\n(SIDCUL), Ranipur (BHEL),\nHaridwar 249403,\nUttarakhand.",
+        "Assay",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Erythromycin\nStearate Tablets I.P.\n250mg",
+        "B. No.: GPT005,\nMfg dt: 10/2018,\nExp dt: 09/2020,\nMfd by: M/s. Omega\nPharma, Khasra No. 482,\nVillage-Saliyar, Roorkee-\n247667, Distt. Haridwar,\nUttarakhand.",
+        "Dissolution",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "Erythromycin\nStearate Tablets I.P.\n250mg",
+        "B. No.: GPT003,\nMfg dt: 10/2018,\nExp dt: 09/2020,\nMfd by: M/s. Omega\nPharma, Khasra No. 482,\nVillage-Saliyar, Roorkee-\n247667, Distt. Haridwar,\nUttarakhand.",
+        "Dissolution",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "5.",
+        "Valate 200 (Sodium\nValproate Gastro-\nResistant Tablets\nI.P. 200 mg)",
+        "B. No.: ACJ28001,\nMfg dt: 06/2018,\nExp dt: 05/2020,\nMfd by: M/s. Psychotropics\nIndia Limited, Plot No. 46 &\n49, Sector-6A, IIE Sidcul,",
+        "Related\nsubstances",
+        "CDSCO, Sub-\nZone,\nHyderabad",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      8.13,
+      21.57,
+      581.91,
+      795.51
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Ranipur, Haridwar -\n249403, Uttarakhand.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.",
+        "NORSHOT (Sterile\nNoradrenaline\nConcentrate I.P. 2\nmg/ml, 2ml)",
+        "B. No.: 17200,\nMfg dt: 11/2017,\nExp dt: 10/2019,\nMfd by: M/s. Swiss\nParenterals Ltd., 809,\nKerala G.I.D.C., Nr. Bavla\nDist. Ahmedabad-382220,\nGujarat.",
+        "Description &\nParticulate\nMatter",
+        "CDSCO, Sub-\nZone,\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "MARIAGO\n(Methylergometrine\nMaleate Injection\nI.P.)",
+        "B. No.: P7274,\nMfg dt: 06/2017,\nExp dt: 05/2019,\nMfd by: M/s. Bharat\nParenterals Ltd., Vill.\nHaripura, Ta. Savli, Dist.\nVadodara -391520,\nGujarat.",
+        "Assay",
+        "CDSCO, Sub-\nZone,\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "Herzovir Lyophillized\nPowder (Aciclovir\nIntravenous Infusion\nI.P.)",
+        "B. No.: GN1310A,\nMfg dt: 11/2017,\nExp dt: 10/2019,\nMfd by: M/s. MMG\nHealthcare, Trilokpur Road,\nKala Amb, Distt. Sirmour,\n173030, Himachal\nPradesh.",
+        "Particulate\nMatter",
+        "CDSCO, Sub\nZone, Baddi",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9.",
+        "COMBit (Tablets of\nBotin, Iron, Lysine,\nN-Acetyl Cysteine,\nVitamin B12 &\nMinerals)",
+        "B. No.: 1801820,\nMfg dt: 06/2018,\nExp dt: 11/2019,\nMfd by: M/s. Phoenix\nLaboratories, Vill.\nNarayanpur, 105 No.\nKochpara Gaon Panchyat,\nDist.- Kamrup, Mirza,\nAssam -781125.",
+        "Assay of ‘N-\nAcetyl Cysteine’\nand ‘Zinc\nSulphate\nMonohydrate’",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "10.",
+        "Calcium and Vitamin\nD3 Tablets I.P.",
+        "B. No.: KTB8010AL,\nMfg dt: 07/2018,\nExp dt: 06/2020,\nMfd by: M/s. Karnataka\nAntibiotics &\nPharmaceuticals Limited,\nAt: Plot No-5-9, Survey\nNo.38/2, Aliyali Palghar\n(W), Dist. Palghar 401 404,\nMaharashtra.",
+        "Assay of\n‘Vitamin D3’",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "11.",
+        "Betahistine Tablets\nI.P. 16 mg",
+        "B. No.: 767-02,\nMfg dt: 07/2017,\nExp dt: 12/2019,\nMfd by: M/s. Hab\nPharmaceuticals &\nResearch Limited, 10,\nPharmacity, SIDCUL,\nSelaqui, Dehradun-\n248197, Uttarakhand.",
+        "Assay &\nUniformity of\nContent",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      8.13,
+      21.57,
+      581.91,
+      797.31
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "12.",
+        "Clopican* A\n(Clopidogrel\nBisulphate and\nAspirin Tablets)",
+        "B. No.: CCAT-018,\nMfg dt: 10/2018,\nExp dt: 09/2020,\nMfd by: M/s. Iosis\nRemedies, Rajpura Road,\nViII. Khera Nihla, Teh.\nNalagarh, Dist. Solan, H.P.\n174 101.",
+        "Free Salicylic\nAcid Test",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "13.",
+        "Atriflam\n(Aceclofenac,\nParacetamol &\nSerratiopeptidase\nTablets)",
+        "B. No.: SAMT1803,\nMfg dt: 10/2018,\nExp dt: 09/2020,\nMfd by: M/s. Goodman\nPharmaceuticals, Plot No.\nB3-B8, PIPDIC Electronic\nPark, Thirubhuvanai,\nPuducherry 605107.",
+        "Assay of\nSerratiopeptidase",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "14.",
+        "Serratiopeptidase\nTablets I.P. 10 mg",
+        "B. No.: EST13,\nMfg dt: 07/2017,\nExp dt: 06/2019,\nMfd by: M/s. Elegant Drugs\nPvt. Ltd., R.S. No. 59/3A,\nChalmatti -581196 Dist.\nDharwad State, Karnataka.",
+        "Assay &\nDisintegration",
+        "CDSCO, Sub\nZone,\nBangalore",
+        "CDL,\nKolkata"
+      ],
+      [
+        "15.",
+        "Frusemide Tablets\nI.P. 40 mg",
+        "B. No.: 7127,\nMfg dt: 06/2017,\nExp dt: 05/2020,\nMfd by: M/s. Ramson\nRemedies 186-187,\nIndustrial Focal Points,\nAmritsar, A.O., 2G Floor,\nBaktawar, Malbar Hill,\nMumbai-6.",
+        "Dissolution",
+        "Drugs Control\nDepartment\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "16.",
+        "Artesunate Injection\n(Neosunate)",
+        "B. No.: 115825,\nMfg dt: 06/2018,\nExp dt: 05/2020,\nMfd by: M/s.Neon\nLaboratories Ltd., 28,\nMahal Ind. Est. M. Caves\nRD. Andheri (East),\nMumbai-400093.",
+        "Particulate\nContamination",
+        "Drugs Control\nDepartment\nTripura",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "17.",
+        "Paracetamol Tablets\nI.P. 500 mg.",
+        "B. No.: CT70154,\nMfg dt: 06/2017,\nExp dt: 05/2019,\nMfd by: M/s. Omega\nBiotech Ltd. 7th Mile Stone,\nDehradun Road, Roorkee,\nUttrakhand-247667.",
+        "Dissolution",
+        "Drugs Control\nDepartment\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "18.",
+        "Telmisartan Tablets\nI.P. 20 mg.\n(Ezisartan 20)",
+        "B. No.: VT17-4089,\nMfg dt: 11/2017,\nExp dt: 10/2019,\nMfd by: M/s. Athens Life\nsciences Mauza, Rampur\nJattan, Nahan Road, Kala-\nAmb, Dist. Sirmour, H.P.-",
+        "Dissolution",
+        "Drugs Control\nDepartment\nMizoram",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      8.13,
+      21.57,
+      581.91,
+      793.59
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "173030",
+        "",
+        "",
+        ""
+      ],
+      [
+        "19.",
+        "Ofloxacin Tablets\nI.P. (DRFLOX-200)",
+        "B. No.: DRB-009,\nMfg dt: 07/2017,\nExp dt: 06/2019,\nMfd by: M/s. Park\nPharmaceuticals Vill-\nKalujhanda, Near\nNanakpur, Teh. Baddi, Dist.\nSolan, (H.P.)-174103.",
+        "Dissolution",
+        "Drugs Control\nDepartment\nMizoram",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "20.",
+        "Chlorpheniramine\nMaleate Tablets IP 4\nmg (CPM)",
+        "B. No.: 1809,\nMfg dt: 11/2018,\nExp dt: 10/2020,\nMfd by: M/s.Vintochem\nPharmaceuticals, Industrial\nArea, Maxo Road, Ujjain,\n456010 (M.P.).",
+        "Related\nSubstances",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "21.",
+        "Parazim-20\n(Omeprazole\nGastro-Resistant\nCapsules IP 20 mg)",
+        "B. No.: FZ04B802,\nMfg dt: 02/2018,\nExp dt: 01/2021,\nMfd by: M/s.Zim\nLaboratories Limited, B-\n21/22, MIDC Area,\nKalmeshwar-441501, Dist.\nNagpur, Maharashtra.",
+        "Dissolution",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "22.",
+        "Menadione Sodium\nBisulphate Injection\nIP (1966) 10mg/ml\n(VITAMIN K3\nINJECTION)",
+        "B. No.: I-17549,\nMfg dt: 08/2018,\nExp dt: 07/2020,\nMfd by: M/s.Jackson\nLaboratories Pvt. Ltd,\nMajitha Road, Bye Pass,\nAmritsar-143001, Punjab.",
+        "Particulate\nmatter",
+        "CDSCO,\nSouth.Zone,\nBaddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "23.",
+        "Atorvastatin Tablets\nIP (LIPVEN-20\nTABLETS)",
+        "B. No.: VT-17230,\nMfg dt: 12/2017,\nExp dt: 11/2019,\nMfd by: M/s. Sunlife\nSciences 130, Kurdi,\nJhabrera Road, Manglour,\nRoorkee, Distt. Haridwar\n(U.K.).",
+        "Dissolution\n(Atorvastatin\nCalcium\ncalculated as\nAtorvastatin)",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "24.",
+        "PRIMAQUINE\nPHOSPHATE\nTABLETS IP 2.5\nMG)",
+        "B. No.: T-17648,\nMfg dt: 08/2018,\nExp dt: 07/2020,\nMfd by: M/s. Jackson\nLaboratories Pvt. Ltd.\nMajitha Road, Bye Pass,\nAmritsar-143001(India).",
+        "Dissolution",
+        "Drug\nController\nJammu &\nKashmir",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "25.",
+        "Loperamide\nHydrochloride\nTablets IP\n(LOPSOL TABLETS)",
+        "B. No.: BT-391,\nMfg dt: 08/2018,\nExp dt: 07/2020,\nMfd by: M/s. Boffin Biotech\nPvt. Ltd., Vill. Behral,\nPaonta Sahib, Distt.\nSirmour-173025 (H.P.).",
+        "Dissolution",
+        "H.P. State",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      8.13,
+      21.57,
+      581.91,
+      797.91
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "26.",
+        "Ramipril Tablets IP\n2.5 mg (RAMIZIM-\n2.5 TABLETS)",
+        "B. No.: EH97F801,\nMfg dt: 06/2018,\nExp dt: 05/2020,\nMfd by: M/s. ZIM\nLaboratories Limited (Unit-\nII) A-8/14, MIDC Area,\nKalmeshwar-441501, Dist.\nNagpur, Maharashtra.",
+        "Assay",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "27.",
+        "Fluconazole Tablets\nIP (FLUTIS-150\nTABLETS)",
+        "B. No.: SDS874,\nMfg dt: 05/2018,\nExp dt: 04/2020,\nMfd by: M/s. Scott-Edil\nPharmacia Ltd. 56,\nE.P.I.P., Phase-1,\nJharmajri, Baddi, Distt.\nSolan-173205 (H.P.)\nINDIA.",
+        "Dissolution",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "28.",
+        "Chloramphenicol\nand Dexamethasone\nSodium Eye Drops\n(POLYMICIN EYE\nDROPS)",
+        "B. No.: POLY-07,\nMfg dt: 07/2018,\nExp dt: 06/2020,\nMfd by: M/s. VADSP\nPHARMACEUTICALS Plot\nNo.: 124, E.P.I.P. Ind.\nArea, Phase-1, Jharmajri,\nBaddi (H.P.).",
+        "Assay of\nChloramphenicol,\nand\nDexamethasone\nSodium\nPhosphate",
+        "CDSCO, Sub-\nZone, Baddi",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "29.",
+        "Hyaluronidase\nInjection IP (Ovine)\n(HYNIDASE\nINJECTION)",
+        "B. No.: SA1812059,\nMfg dt: 06/2018,\nExp dt: 05/2021,\nMfd by: M/s. Shreya Life\nSciences Pvt Ltd, B-9/2,\nM.I.D.C. Waluj- 431136\n(Dist.- Aurangabad),\nMaharashtra.",
+        "Particulate\nmatter",
+        "State\nHaryana",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "30.",
+        "Hyaluronidase\nInjection IP (Ovine)\n(HYNIDASE\nINJECTION)",
+        "B. No.: SA1812060,\nMfg dt: 06/2018,\nExp dt: 05/2021,\nMfd by: M/s. Shreya Life\nSciences Pvt. Ltd, B-9/2,\nM.I.D.C. Waluj- 431136\n(Dist.-Aurangabad),\nMaharashtra.",
+        "Particulate\nmatter",
+        "State\nHaryana",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "31.",
+        "Hyaluronidase\nInjection IP (Ovine)\n(HYNIDASE\nINJECTION)",
+        "B. No.: SA1812059,\nMfg dt: 06/2018,\nExp dt: 05/2021,\nMfd by: M/s. Shreya Life\nSciences Pvt Ltd, B-9/2,\nM.I.D.C. Waluj- 431136\n(Dist.- Aurangabad),\nMaharashtra.",
+        "Particulate\nmatter",
+        "State\nHaryana",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "32.",
+        "Nitrofurantoin\nCapsules USP\n100mg (URIFAST\nCAPSULES)",
+        "B. No.: BA82286,\nMfg dt: 07/2018,\nExp dt: 06/2020,\nMfd by: M/s. CIPLA LTD\nMalpur, Distt. Solan\n173205 INDIA, Himachal\nPradesh.",
+        "Dissolution",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      8.16,
+      21.6,
+      581.88,
+      187.7
+    ],
+    "n_rows": 1,
+    "n_cols": 6,
+    "rows": [
+      [
+        "33.",
+        "Amlodipine Tablets\nIP 10 mg\n(AMLOSAFE 10\nTABLETS)",
+        "B. No.: M129L018,\nMfg dt: 11/2018,\nExp dt: 10/2020,\nMfd by: M/s. ARISTO\nPharmaceuticlas Pvt. Ltd.\nPlot No. 208, New\nIndustrial Area No.2,\nMandideep, Distt.: Raisen\n(M.P.) At: Plot No. 209,\nNew Industrial Area No. 2,\nMandideep, Distt. Raisen\n(M.P.).",
+        "Dissolution",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

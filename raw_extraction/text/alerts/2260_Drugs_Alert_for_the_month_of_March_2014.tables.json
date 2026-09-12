@@ -1,0 +1,368 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      31.53,
+      59.61,
+      576.15,
+      822.75
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1",
+        "LEVOCETIRIZI\nNE\nDIHYDROCHLO\nRIDE TABLETS",
+        "B. No. LVT-2001B,\nD/Mfg. Apr, 2012,\nD/Exp. Sep, 2014,\nMfg. By.\nM/s Galpha Laboratories Ltd.,\nThane, Baddi-173205,\nHimachal Pradesh",
+        "Dissolution\nReport No.\n08748/2013-\n14\nDated\n05-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "2",
+        "MEGARAB-20\nTABLETS",
+        "B. No. S753777,\nD/Mfg. Jun, 2013,\nD/Exp. May, 2015,\nMfg. By.\nM/s Scott-Edil Pharmacia Ltd.\n,\n56, EPIP, Phase I, Jharmajri-\n173205",
+        "Dissolution,\nAssay\nReport No.\n08762/2013-\n14\nDated\n07-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "3",
+        "MEGARAB-20\nTABLETS",
+        "B. No. S752886,\nD/Mfg. Jul , 2012 ,\nD/Exp. Jun, 2014,\nMfg. By.\nM/s Scott-Edil Pharmacia Ltd.\n,\n56, EPIP, Phase I, Jharmajri-\n173205",
+        "Dissolution,\nAssay\nReport No.\n08763/2013-\n14\nDated\n07-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "4",
+        "RANITIDINE\nHYDROCHLORI\nDE TABLETS",
+        "B. No. C3016,\nD/Mfg. Aug , 2013,\nD/Exp. July, 2016,\nMfg. By.\nM/s Concept Pharmaceuticals\nLtd.\nA-28/3, M.I.D.C, Chikalthana,\nAurangabad - 431006",
+        "Assay\nReport No.\n08846/2013-\n14\nDated\n14-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5",
+        "RANITIDINE\nTABLETS",
+        "B. No. RNIT-002,\nD/Mfg. Jul, 2013,\nD/Exp. Jun, 2015,\nMfg. By.\nM/s Laborate Pharmaceuticals\nIndia Ltd., Rajban Road,\nNariwala, Paonta Sahib,\nHimachal Pradesh",
+        "Assay\nReport No.\n08847/2013-\n14\nDated\n14-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "6",
+        "METRONIDAZO\nLE BENZOATE\nORAL\nSUSPENSIONS",
+        "B. No. MB143,\nD/Mfg. Jun,2013,\nD/Exp. May, 2015,\nMfg. By.\nM/s Lolyds Pharmaceuticals,\nKalapahar Industrial Area,\nGuwahati-781016, Assam",
+        "Assay\nReport No.\n08848/2013-\n14\nDated\n14-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "7",
+        "OFOXO – OZ\nSUSPENSIONS",
+        "B. No. OXZ-1202,\nD/Mfg. May,2012,\nD/Exp. Apr, 2014,\nMfg. By.\nM/s Apple Formulations Pvt.\nLtd.,",
+        "Assay\nReport No.\n08871/2013-\n14\nDated\n19-03-2014",
+        "Drugs Control\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      31.53,
+      18.21,
+      576.15,
+      751.09
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Plot 208, Kishanpur, Roorkee,\nUttarakhand-247667",
+        "",
+        "",
+        ""
+      ],
+      [
+        "8",
+        "ZENCAL\nTABLETS",
+        "B. No. BZT2001,\nD/Mfg. Oct,2012,\nD/Exp. Sep, 2014,\nMfg. By.\nM/s Creative Healthcare Pvt.\nLtd.,\nPlot 25, Kundeshwari,\nKashipur, US Nagar,\nUttarakhand.",
+        "Disintegration\nReport No.\n08872/2013-\n14\nDated\n19-03-2014",
+        "Drugs Control\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "9",
+        "OFOXO\nSUSPENSIONS",
+        "B. No. CBL-0892,\nD/Mfg. Sep,2012,\nD/Exp. Aug, 2014,\nMfg. By.\nM/s CB Healthcare,\nVill. Messa Tibba, Nalagarh,\nSolan, Himachal Pradesh",
+        "Assay\nReport No.\n08874/2013-\n14\nDated\n19-03-2014",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "10",
+        "OFLOXACIN &\nORNIDAZOLE\nSUSPENSIONS",
+        "B. No. DOSL-010,\nD/Mfg. Aug,2013,\nD/Exp. Jul, 2015,\nMfg. By.\nM/s Laborate Pharmaceuticals\nIndia Ltd., Rajban Road,\nNariwala, Paonta Sahib,\nHimachal Pradesh",
+        "Assay\nReport No.\n08875/2013-\n14\nDated\n19-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "11",
+        "OFRIVID-OR\nSUSPENSIONS",
+        "B. No. S752527,\nD/Mfg. May, 2012,\nD/Exp. Apr, 2014,\nMfg. By.\nM/s Scott-Edil Pharmacia Ltd.\n,\n56, EPIP, Phase I, Jharmajri-\n173205",
+        "Assay\nReport No.\n08873/2013-\n14\nDated\n19-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "12",
+        "CC-GO NF\nTABLETS",
+        "B. No. T 1209029,\nD/Mfg. Sep, 2012,\nD/Exp. Aug, 2014,\nMfg. By.\nM/s GS Pharmaceuticals Pvt.\nLtd.,\n1.5KM, Mangour, Saharanpur\nRoad, Roorkee, Haridwar,\nUttarakhand-247658",
+        "Disintegration\nReport No.\n08915/2013-\n14\nDated\n20-03-2014",
+        "Drugs Control\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "13",
+        "RINOSTAT +\nTABLETS",
+        "B. No. 2832006,\nD/Mfg. Oct, 2012,\nD/Exp. Sep, 2015,\nMfg. By.\nM/s Innova Cap Tab,\nJharmajri, Baddi-173205",
+        "Disintegration\nReport No.\n08912/2013-\n14\nDated\n21-03-2014",
+        "Drugs Control\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      31.53,
+      18.21,
+      576.15,
+      811.09
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "14",
+        "MEBENDAZOL\nE TABLETS",
+        "B. No. MB125,\nD/Mfg. Oct, 2012,\nD/Exp. Sep, 2014,\nMfg. By.\nM/s Danish Laboratories,\n13, Dadabhai Naoroji Marg,\nUjjain-456001",
+        "Disintegration\nReport No.\n08914/2013-\n14\nDated\n21-03-2014",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "15",
+        "RAB-GENTA\nINJECTIONS",
+        "B. No. RGT-01,\nD/Mfg. Jul, 2013 ,\nD/Exp. Jun, 2015,\nMfg. By.\nM/s Argon Remedies Pvt. Ltd.,\nSaverkhera Moradabad Road,\nKashipur, Uttarakhand-244713",
+        "BET Test\nReport No.\n08931/2013-\n14\nDated\n24-03-2014",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "16",
+        "GEENOR – 400\nTABLETS",
+        "B. No. NR4-182,\nD/Mfg. Jul, 2012,\nD/Exp. Jun, 2015,\nMfg. By.\nM/s Ghanshyam\nPharmaceuticals,\nD-14, Rani Industrial Area,\nKamrup-781131",
+        "Disintegration\n, Assay\nReport No.\n08982/2013-\n14\nDated\n27-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "17",
+        "MATIPHYLLINE\nTABLETS",
+        "B. No.MTT01-34,\nD/Mfg. Jul, 2013,\nD/Exp. Jun, 2015,\nMfg. By.\nM/s Unicure(India) Pvt. Ltd.,\nC-22,Sector-3, Noida-201301",
+        "Assay\nReport No.\n08983/2013-\n14\nDated\n27-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "18",
+        "MATIPHYLLINE\nTABLETS",
+        "B. No.MTT29-71 ,\nD/Mfg. Jul, 2012 ,\nD/Exp. Jun, 2014,\nMfg. By.\nM/s Unicure(India) Pvt. Ltd.,\nC-22,Sector-3, Noida-201301",
+        "Assay\nReport No.\n08984/2013-\n14\nDated\n27-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "19",
+        "ERYTHROMYCI\nN ESTOLATE\nTABLETS",
+        "B. No. EE002,\nD/Mfg. Jul , 2013,\nD/Exp. Jun, 2015,\nMfg. By.\nM/s Hecatomb Laboratory Pvt.\nLtd.,\nBagharbari, Panjabari,\nGuwahati-781037",
+        "Disintegration\nReport No.\n08995/2013-\n14\nDated\n27-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "20",
+        "ERYTHROMYCI\nN ESTOLATE\nTABLETS",
+        "B. No. EE007,\nD/Mfg. Jul , 2013,\nD/Exp. Jun, 2015,\nMfg. By.\nM/s Hecatomb Laboratory Pvt.\nLtd.,\nBagharbari, Panjabari,\nGuwahati-781037",
+        "Disintegration\nReport No.\n08993/2013-\n14\nDated\n27-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "21",
+        "OMEPRAZOLE\nCAPSULES",
+        "B. No. OZC01-22A,\nD/Mfg. Jul, 2013,\nD/Exp. Jun, 2015,\nMfg. By.\nM/s Unicure(India) Pvt. Ltd.,\nC-22,Sector-3, Noida-201301",
+        "Dissolution\nReport No.\n09010/2013-\n14\nDated\n28-03-2014",
+        "Drugs Control\nDepartment,\nAssam",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      31.53,
+      18.21,
+      576.15,
+      810.13
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "22",
+        "RIDNOR-400\nTABLETS",
+        "B. No. TNF-1215,\nD/Mfg. Jan, 2013,\nD/Exp. Dec, 2015,\nMfg. By.\nM/s Ridley Life Sciences Pvt.\nLtd.,\nD-1651, DSIDC Industrial\nComplex, Narela-110040,\nDelhi",
+        "Dissolution\nReport No.\n09048/2013-\n14\nDated\n28-03-2014",
+        "Drugs Control\nDepartment,\nArunachal\nPradesh",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "23",
+        "Diclofenac\nSodium &\nNimesulide\nCapsules\n(TOREX)",
+        "Batch No – IE-313\nD/Mfg. – MAY/2013\nD/Exp. – APR./2015\nMfd. By- M/s TORQUE\nPHARMACEUTICALS\nPVT.LTD.,\n13B-14, EPIP-1, Jharmajri-\n173205.",
+        "Uniformity of\nWeight\nReport No.\nRDTL/461/13\n-14",
+        "CDSCO, Sub\nZone,\nChandigarh",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "24",
+        "Serratiopeptidase\n& Diclofenac\nPotassium Tablets",
+        "Batch No – SN-355\nD/Mfg. – APR./2013\nD/Exp. – MAR./2015\nMfd. By-\nM/s Proceed Formulations,\n17, Ind.Area, Village\nMorthikri,\nRamgarh, Derabassi Road,\nDerabassi (Pb.)",
+        "Disintegration\nTest\nReport No.\nRDTL/519/13\n-14",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "25",
+        "Nicardia Retard\n20 Tablets\n(Nifedipine\nSustained Release\nTablets IP 20 mg)",
+        "B. No.: AKG2015\nMfg dt: 12/2012\nExp dt: 11/2015\nMfd by: M/s. J.B. Chemicals\n& Pharmaceuticals Ltd., 128/1,\nGIDC, Ankleshwar 393 002.",
+        "Dissolution\n32-8/2013-SS/\nDCA(E)-\n158/5361\nDt.\n28.03.2014",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL, Kolkata"
+      ],
+      [
+        "26",
+        "Sterodin Injection",
+        "B. No.: 167/13\nMfg dt: 01/2013\nExp dt: 12/2014\nMfd by: M/s. Union Drug\nCompany Ltd., 182, Rai\nBahadur Road, Kolkata 34",
+        "pH,\nParticulate\nMatter,\nAssay,\nDescription\n32-1/2013-SS/\nDCA(N)-\n66/5371\nDt.\n21.03.2014",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "CDL, Kolkata"
+      ],
+      [
+        "27",
+        "Sterodin Injection",
+        "B. No.: 167/13\nMfg dt: 01/2013\nExp dt: 12/2014\nMfd by: M/s. Union Drug\nCompany Ltd., 182, Rai\nBahadur Road, Kolkata 34",
+        "pH,\nParticulate\nMatter,\nAssay,\nDescription\n32-1/2013-SS/\nDCA(N)-\n68/5372\nDt.\n21.03.2014",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      31.53,
+      18.21,
+      576.15,
+      761.17
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "28",
+        "Eprin 150 Tablets\n(Aspirin Delayed\nRelease Tablets\nUSP)",
+        "B. No.: NE0172011I\nMfg dt: 04/2012\nExp dt: 03/2014\nMfd by: M/s. Elder\nPharmaceuticals Ltd., D-220,\nTTC Industrial Area, Navi\nMumbai 400706",
+        "Dissolution\n32-9/2013-SS/\nDCA(W)-\n108/5364\nDt.\n20.03.2014",
+        "CDSCO, West\nZone, Mumbai",
+        "CDL, Kolkata"
+      ],
+      [
+        "29",
+        "Glimepiride\nTablets IP 1mg",
+        "B. No.: GM 1202\nMfg dt: 11/2012\nExp dt: 10/2014\nMfd by: M/s. LA-Chemico\nPvt. Ltd., Taki Road,\nKadambagachi, Barasat 743\n221.",
+        "Dissolution\n32-8/2013-SS/\nDCA(E)-\n21/5273\nDt.\n19.03.2014",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL, Kolkata"
+      ],
+      [
+        "30",
+        "Donica-SR\nCapsules\n(Indomethacin\nExtended Release\nCapsules USP)",
+        "B. No.: 020711\nMfg dt: 07/2011\nExp dt: 03/2014\nMfd by: M/s. BDH Industries\nLtd., Akurli Road, Mumbai\n400 101.",
+        "Dissolution\n32-8/2013-SS/\nDCA(E)-\n55/5238\nDt.\n14.03.2014",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL, Kolkata"
+      ],
+      [
+        "31",
+        "Sterodin Injection",
+        "B. No.: 152/12\nMfg dt: 08/2012\nExp dt: 07/2014\nMfd by: M/s. Union Drug\nCompany Ltd., 182, Rai\nBahadur Road, Kolkata 34",
+        "pH,\nParticulate\nMatter,\nSterility,\nAssay,\nDescription\n32-1/2013-SS/\nDCA(N)-\n65/5202\nDt.\n12.03.2014",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "CDL, Kolkata"
+      ],
+      [
+        "32",
+        "Multiple\nElectrolytes &\nDextrose Injection\nIP Type I, 500 ml",
+        "B. No.: 21F-005\nMfg dt: 02/2012\nExp dt: 01/2015\nMfd by: M/s. PDPL Parenteral\nDrugs (India) Ltd., Vill-\nAsarawad, Dudhia, Indore\n453331",
+        "Assay of\nPotassium\n32-1/2013-SS/\nDCA(N)-\n44/5185\nDt.\n11.03.2014",
+        "CDSCO, North\nZone,\nGhaziabad",
+        "CDL, Kolkata"
+      ],
+      [
+        "33",
+        "Orapaste Oral\nPaste\n(Triamcinolone\nAcetonide Oral\nPaste)",
+        "B. No.: A00512\nMfg dt: 10/2012\nExp dt: 03/2014\nMfd by: M/s. Palsons Drugs\nPvt. Ltd., E7-92/New, Biren\nRoy Road (West), Kolkata\n700061",
+        "Assay\n32-8/2013-SS/\nDCA(E)-\n203/5173\nDt.\n10.03.2014",
+        "CDSCO, East\nZone, Kolkata",
+        "CDL, Kolkata"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      31.56,
+      18.24,
+      576.12,
+      198.26
+    ],
+    "n_rows": 1,
+    "n_cols": 6,
+    "rows": [
+      [
+        "34",
+        "DICLOFENAC\nSODIUM\nTABLETS IP 50\nmg\n(ENTERIC\nCOATED\nTABLETS)",
+        "TDT-13012\nSample No:PD/TN/47/2013\nD/M: MAY.2013\nD/E: APR.2015\nCassel Research Laboratories\nPvt Ltd.,\nPlot No.54, SIDCO Industrial\nEstate , Thirumudivakkam,\nChennai- 600 044.",
+        "Disintegration\nTest",
+        "CDSCO, South\nZone, Chennai",
+        "CDTL,\nChennai"
+      ]
+    ]
+  }
+]

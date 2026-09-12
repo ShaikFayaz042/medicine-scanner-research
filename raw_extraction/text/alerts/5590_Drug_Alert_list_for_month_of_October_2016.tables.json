@@ -1,0 +1,246 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      28.59,
+      83.08,
+      582.45,
+      801.58
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo\n.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for failure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Trypsin-\nChymotrypsin\nTablets",
+        "B. No.: 415-95,\nMfg dt: 01/2015\nExp dt: 12/2016\nMfd by: M/s. Zee Laboratories,\n47, Industrial Area, Paonta\nSahib-173 025",
+        "Assay",
+        "CDSCO,\nEast-Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2.",
+        "Primaquine 7.5 mg\n(Primaquine\nPhosphate Tablets\nI.P.)",
+        "B. No.: 1403,\nMfg dt: 03/2015\nExp dt: 02/2017\nMfd by: M/s. Vintochem\nPharmaceuticals Industrial\nArea, Maxi Road, Ujjian\n(M.P).",
+        "Dissolution\n& Assay",
+        "CDSCO,\nEast-Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3.",
+        "Primaquine 2.5 mg\n(Primaquine\nPhosphate Tablets\nI.P.)",
+        "B. No.: 1403,\nMfg dt: 03/2015\nExp dt: 02/2017\nMfd by: M/s. Vintochem\nPharmaceuticals.\nIndustrial Area, Maxi Road,\nUjjian (M.P).",
+        "Dissolution\n& Assay",
+        "CDSCO,\nEast-Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4.",
+        "Omey (Omeprazole\nCapsules I.P.)",
+        "B. No.: IPC160502,\nMfg dt: 05/2016\nExp dt: 04/2018\nMfd by: M/s. Pro Laboratories\n(P) Ltd., 140-141, Makkanpur,\nBhagwanpur, Roorkee, Dist.\nHaridwar - 247 661.",
+        "Dissolution",
+        "CDSCO,\nEast-Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "5.",
+        "Vitamin B2 Tablets\n(Riboflavin Tablets\nI.P. 5 mg)",
+        "B. No.: 1523,\nMfg dt: 07/2015\nExp dt: 06/2017\nMfd by: M/s. Axo Reserch\nLaboratories, 234/B, Rambali\nNagar Industrial Estate, Indore\n452006",
+        "Assay",
+        "CDSCO,\nEast-Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6.",
+        "Ondansetron\nInjection I.P.",
+        "B. No.: 160139,\nMfg dt: 01/2016\nExp dt: 06/2017\nMfd by: M/s. Minopharm\nLaboratories Pvt. Ltd., Opp.\nIDA, Pernamitta 523002",
+        "Particulate Matter",
+        "CDSCO,\nSub-Zone\nHyderabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "Nefdyl Cough\nFormula Syrup\n(Diphenhydramine\nHydrochloride,\nTerpine Hydrate,\nAmmonium\nChloride, Sodium\nCitrate & Menthol)",
+        "B. No.: NP-015,\nMfg dt: 01/2015\nExp dt: 12/2016\nMfd by: M/s. Noel Pharma\n(India) Pvt. Ltd., Khasra No.\n66/3 & 67/2, Juddikalan, Baddi\n173205, Distt. Solan, H.P.",
+        "Assay of\nDiphenhydramine\nHydrochloride",
+        "CDSCO,\nSub-Zone\nHyderabad",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      28.59,
+      28.58,
+      582.45,
+      809.26
+    ],
+    "n_rows": 8,
+    "n_cols": 6,
+    "rows": [
+      [
+        "8.",
+        "Mbkacin® 500\n(Amikacin Sulphate\nInjection I.P.)",
+        "B. No.: NLB0002,\nMfg dt: 01/2016\nExp dt: 12/2017\nMfd by: M/s. Nitin\nLifesciences Ltd., 92-93,\nSector 3, HSIDC, Industrial\nArea, Karnal 132001, Haryana,\nIndia.",
+        "Particulate Matter",
+        "CDSCO,\nNorth-Zone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9.",
+        "PARACETAMOL\nTABLETS IP 500\nmg",
+        "B.No. : 5481010\nMfg.Dt : 09/2015\nExp.Dt : 08/2018\nMfd.By: Bengal Chemicals &\nPharmaceuticals Ltd\n164, Maniktala Main Road,\nKolkata -70054",
+        "Dissolution",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDTL,\nChennai"
+      ],
+      [
+        "10.",
+        "IBF-200 TABLETS\n(IBUPROFEN\nTABLETS IP 200\nmg)",
+        "B.No. : 2IP-0214\nMfg.Dt : 01/2014\nExp.Dt : 12/2016\nMfd.By: Indian Drugs &\nPharmaceuticals Ltd,\nDundahera, Gurgaon- 122 016\n(HR)",
+        "Dissolution",
+        "CDSCO,\nSouth Zone,\nChennai",
+        "CDTL,\nChennai"
+      ],
+      [
+        "11.",
+        "E-Mycin\n(Erythromycin\nEstolate Oral\nSuspension USP)",
+        "B. No. : L-820\nMfg. Dt : 03/2016\nExp. Dt : 02/2019\nMfd. By: M/s. Medista\noverseas, 416, Shankar Colony,\nSant Marg, Gandhi Nagar,\nIndore-452001 (M.P.)\nIndia",
+        "Misbranded",
+        "CDSCO,\nWest Zone,\nMumbai",
+        "CDTL,\nMumbai"
+      ],
+      [
+        "12.",
+        "Neostigmine\nMethyl Sulphate\nInjections",
+        "B.No. : NS-1501\nMfg.Dt : 09/2015\nExp.Dt : 08/2017\nMfd. By: M/s Systochem\nLaboratories Ltd., B-75, Roop\nNagar Indl. Area, Loni-\n201102.",
+        "Assay",
+        "Drugs\nControl\nDepartment,\nArunachal\nPradesh.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "13.",
+        "Pentafrench- P40\nTablets",
+        "B. No. : AFK-14024,\nMfg. Dt : 11/2014\nExp. Dt : 10/2016\nMfd. By : M/s Anglo French\nDrugs & Industries Limited,\nAT Plot No-18, EPIP Phase-1,\nJharmajri, Baddi, H.P.",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nKolkata,\nWest\nBengal.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "14.",
+        "Rabipro\nTablets",
+        "B. No. : RG1512409T,\nMfg. Dt. : 12/2015\nExp. Dt. : 11/2017\nMfd. By.: M/s Rescuers Life\nSciences Ltd., 131-132, EPIP\nPhase-I, Jharmajri, Baddi,\nSolan, H.P-173205",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nCachar,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "15.",
+        "Combipain\nTablets",
+        "B. No. : 5754818,\nMfg. Dt : 07/2014\nExp. Dt. : 06/2017\nMfd. By.: M/s Scott-Edil",
+        "Disintegration,\nAssay",
+        "Drugs\nControl\nDepartment,\nArunachal",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      28.58,
+      28.58,
+      582.46,
+      680.6
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "Pharmacia Ltd., 56, EPIP\nPhase-I, Jharmajri-173205",
+        "",
+        "Pradesh.",
+        ""
+      ],
+      [
+        "16.",
+        "Doxycycline\nCapsules",
+        "B. No. : NDXC-14,\nMfg. Dt : 11/2015\nExp. Dt : 10/2017\nMfd. By.: M/s Nezone\nMedicines Pvt. Ltd.,\nAmerigog, Guwahati, Assam-\n781023",
+        "Uniformity of\nWeight",
+        "Drugs\nControl\nDepartment,\nLakhimpur,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "17.",
+        "Tranexamic Acid\nTablets",
+        "B. No. : J J -1454, Mfd.\nDt : 02/ 2015 Ex p. Dt :\n01/ 2018 M fg. B y.: M/ s\nP s ychot ropi cs Indi a\nLt d., P l ot No.46 & 49,\nSector - 6A, IIE. Sidcul,\nRanipur, Haridwar, U.K-\n249403",
+        "Disintegration",
+        "Drugs\nControl\nDepartment,\nSonitpur,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "18.",
+        "Norfloxacin\nTablets",
+        "B. No. : NR4-214,\nMfg. Dt : 07/2015\nExp. Dt : 06/2018\nMfd. By.: M/s Ghanshyam\nPharmaceuticals, D-14, Rani\nIndustrial Area, Rani, Kamrup,\nAssam-781131",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nNogaon,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "19.",
+        "Pezole- D\nTablets",
+        "B. No. : GTN-142060,\nMfg Dt : 12/2014\nExp. Dt : 11/2016\nMfd. By.: M/s GMH\nLaboratories, Plot No-13,\nIndustrial Township, Bhatoli-\nKalan, Baddi, Dist- Solan, H.P",
+        "Disintegration,\nAssay",
+        "Drugs\nControl\nDepartment,\nMangaldoi,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "20.",
+        "Norfloxacin\nTablets",
+        "B. No. : NR4-212,\nMfg. Dt : 07/2015\nExp. Dt : 06/2018\nMfd. By.: M/s Ghanshyam\nPharmaceuticals, D-14, Rani\nIndustrial Area, Rani, Kamrup,\nAssam-781131",
+        "Dissolution",
+        "Drugs\nControl\nDepartment,\nDarrang,\nAssam.",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "21",
+        "Alphaipoic Acid,\nMecobalamin,\nVitamin B1, Vitamin\nB6 & Folic Acid\nCapsules\n(MECO-OD\nCAPSULES )",
+        "B. No. : C-4067,\nMfg. Dt : 10/2015\nExp. Dt : 09/2017\nMfd. By.: M/s Anrose Pharma,\n147,Mauza Sansiwala, Post\nBarotiwals, Tehsil- Kasauli,\nDist. Solan, H.P",
+        "Identification and\nAssay of\nMecobalamin\nAssay of\nAlphalipoic Acid,\nVitamin B6 &\nFolic Acid",
+        "CDSCO,\nSub-Zone\nBaddi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      28.62,
+      40.74,
+      582.42,
+      138.2
+    ],
+    "n_rows": 1,
+    "n_cols": 6,
+    "rows": [
+      [
+        "22",
+        "Calcium Carbonate\nand Vitamin D3\nTablets ( P-CAL\nTABLETS )",
+        "B. No. : DET-5432\nMfg. Dt : 09/2016\nExp. Dt : 02/2018\nMfd. By.\nM/s Dr. Edwin Lab Plot\nNo.517, Indl. Area, phase IX ,\nSAS Nagar- 160059(Pb)",
+        "Uniformity of\nweight,\nIdentification and\nAssay of Vitamin\nD3",
+        "CDSCO,\nSub-Zone\nBaddi",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  }
+]

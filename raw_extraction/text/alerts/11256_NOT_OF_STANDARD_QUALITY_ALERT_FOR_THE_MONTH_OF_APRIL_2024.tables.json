@@ -1,0 +1,821 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      74.25,
+      101.42,
+      815.93,
+      454.93
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "A. CDSCO/Central Laboratories",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.\nN.",
+        "Product/Drug Name",
+        "Batch No.",
+        "Manufa\ncturing\nDate",
+        "Expiry\nDate",
+        "Manufactured By",
+        "NSQ Result",
+        "Reported\nby CDSCO\nLaboratory"
+      ],
+      [
+        "1",
+        "Pemolate Suspension\n(Paracetamol,\nPhenylephrine\nHydrochloride &\nChlorpheniramine\nMaleate Suspension)",
+        "407",
+        "10/2023",
+        "09/2025",
+        "M/s. Pulse Pharma MFG. Co., S. No.\n553, Lala Estate, Idar Highway Road,\nSavgadh, Himatnagar, Gujarat, India",
+        "Assay of\nParacetamol &\nPhenylephrine\nHydrochloride",
+        "CDL,\nKolkata"
+      ],
+      [
+        "2",
+        "Senocartine\n(Levocarnitine Injection\nUSP 1g / 5ml)",
+        "RS23049",
+        "08/2023",
+        "01/2026",
+        "M/s. Ratnatris Pharmaceuticals Pvt.\nLtd., Survey No. 416, At Indrad, Tal-\nKadi, Dist. Mehsana 382715 Gujarat,\nIndia",
+        "Description &\nParticulate\nMatter in\nInjections",
+        "CDL,\nKolkata"
+      ],
+      [
+        "3",
+        "Frusemide Injection IP\n10mg / ml (Senfuro)",
+        "RS23037",
+        "08/2023",
+        "07/2025",
+        "M/s. Ratnatris Pharmaceuticals Pvt.\nLtd., Survey No. 416, At Indrad, Tal-\nKadi, Dist. Mehsana 382715 Gujarat,\nIndia",
+        "Particulate\nMatter",
+        "CDL,\nKolkata"
+      ],
+      [
+        "4",
+        "Dextromethorphan\nHBr, Phenylephrine\nHCl &\nChlorpheniramine\nMaleate Syrup (DEX\nHS Syrup)",
+        "S24B045",
+        "02/2024",
+        "01/2026",
+        "M/s. Shri hari Pharmaceuticals,\nVasdsar-Motibhoyan Road, Village:\nVadsar - 382 721, Kalol District,\nGandhinagar, Gujarat",
+        "Assay of\nDextromethorph\nan Hydrobromide",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      74.25,
+      72.23,
+      815.55,
+      483.13
+    ],
+    "n_rows": 7,
+    "n_cols": 8,
+    "rows": [
+      [
+        "5",
+        "Ofloxacin and\nOrnidazole Tablets IP",
+        "6001523",
+        "06/2023",
+        "05/2026",
+        "M/s. Karnataka Antibiotics and\nPharmaceuticals Limited, Plot No-14,\nPeenya-II, Phase, Bengalluru-\n560058, Karnataka.",
+        "Description",
+        "CDL,\nKolkata"
+      ],
+      [
+        "6",
+        "Ambroxol,\nGuaiphenesin,\nTerbutaline and\nMenthol (Bromodex - T)",
+        "BDT-1257",
+        "12/2023",
+        "05/2025",
+        "M/s. Aurio Pharma Laboratories Pvt.\nLtd., Rabindra Sarani, Namita,\nKolkata-700049",
+        "Assay of Menthol",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7",
+        "Human Growth\nHormone Inj.\n(Norditropin Nordiflex\n15mg / 1.5ml)",
+        "MC76638",
+        "05/2022",
+        "04/2024",
+        "M/s. Novo Nordisk A/S Novo Alle,\nDK-2880 Bagsvaerd, Denmark,\nImported by: Novo Nordisk India\nPrtivate Limited, Plot No. 32, 47-50,\nEPIP Area, Whitefield, Bangalore-\n560066,",
+        "Description",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8",
+        "Cilnidipine Tablets IP\n(Cinatab -10)",
+        "MT223472A",
+        "07/2022",
+        "06/2024",
+        "M/s. Mascot Health Series Private\nLimited, Plot No. 79, 80, Sector-6A,\nIIE, SIDCUL, Haridwar 249 403.",
+        "Dissolution",
+        "CDL,\nKolkata"
+      ],
+      [
+        "9",
+        "Atropine Sulphate\nInjection IP",
+        "23UJ85",
+        "10/2023",
+        "09/2025",
+        "M/s. SVP Life Sciences, C/10/1, Sara\nIndustrial Estate, Selaqui, Dehradun,\nUttarakhand",
+        "pH, Particulate\nMatter & Assay",
+        "CDL,\nKolkata"
+      ],
+      [
+        "10",
+        "Metoclopramide\nInjection IP 10mg / 2ml",
+        "23DQE20",
+        "05/2023",
+        "04/2025",
+        "M/s. SVP Life Sciences, C/10/1, Sara\nIndustrial Estate, Selaqui, Dehradun,\nUttarakhand",
+        "Assay",
+        "CDL,\nKolkata"
+      ],
+      [
+        "11",
+        "Ambroxol\nHydrochloride,\nTerbutaline Sulphate,\nGuaiphenesin Menthol\nSyrup (Luzicough-T)",
+        "JL-231248",
+        "12/2023",
+        "11/2025",
+        "M/s. Jineka Healthcare Private\nLimited, Khasra No. 507-525, Bedpur\nCrossing Bhagwanpur Bypass,\nRoorkee, Distt. Haridwar (U.K.) 247\n667",
+        "Identification &\nAssay of Menthol\nand Assay of\nTerbutaline\nSulphate",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      74.24,
+      72.23,
+      815.56,
+      451.69
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "12",
+        "Gabapentin Tablets IP\n(Gabon-300)",
+        "MT225040",
+        "11/2022",
+        "10/2024",
+        "M/s. Mascot Health Series Private\nLimited, Plot No. 79, 80, Sector-6A,\nIIE, SIDCUL, Haridwar 249 403.",
+        "Related\nSubstances",
+        "CDL,\nKolkata"
+      ],
+      [
+        "13",
+        "Promethazine\nHydrochloride Syrup IP\n(Phena Kid Syrup)",
+        "DEML-\n304269",
+        "02/2023",
+        "01/2025",
+        "M/s. Dr. Edwin Medilabs Pvt. Ltd.,\nPlot No. B-29, Industrial Area, Focal\nPoint Chanalon, Kurali, SAS Nagar -\n140 103 (pb)",
+        "Assay",
+        "CDL,\nKolkata"
+      ],
+      [
+        "14",
+        "★Cefixime Trihydrate\nwith Lactic Acid\nBacillus Tablets I.P.\n(Presef-200 LB\nTablets)",
+        "BHCJ-009",
+        "11/2022",
+        "10/2024",
+        "M/s. Pragti Remedies, Plot No. 143,\nG. S. Road Link, Ulubari Guwahati,\nAssam-781008",
+        "Identification &\nAssay of\nCefixime and\nGram Positive\nendospore\nbearing rod\nshaped\nbacterium.\nThe sample\ndeemed to be\nSpurious.",
+        "CDL,\nKolkata\nRefer Sr No\n05 of\nspurious\nalert April\n2024"
+      ],
+      [
+        "15",
+        "Telmisartan Tables IP\n(Telwide 80 Tablets)",
+        "GT3F32",
+        "06/2023",
+        "05/2025",
+        "M/s. Ritual Drugs Pvt. Ltd., Plot No.\n271-272, Phase-I, HSIIDC, Barhi\nIndustrial Area, Sonepat (HR) - 131\n101",
+        "Description &\nDissolution",
+        "CDL,\nKolkata"
+      ],
+      [
+        "16",
+        "Quinine Sulphate\nTablets IP 300 mg\n(REZ-Q* 300)",
+        "R22417106",
+        "09/2022",
+        "08/2024",
+        "M/s. Shreya Life Sciences Pvt. Ltd.,\n13, 14, 15, Raipur, PO Bhagwanpur,\nRoorkee- 247 661, Uttarakhand.",
+        "Description",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      74.25,
+      72.23,
+      815.55,
+      477.37
+    ],
+    "n_rows": 14,
+    "n_cols": 12,
+    "rows": [
+      [
+        "17",
+        "Cefixime Dispersible\nTablets IP (Vixif-100\nTablets)",
+        "",
+        "",
+        "SBT136B",
+        "02/2023",
+        "01/2025",
+        "M/s. Amster Labs, Unit-II Hilltop, Ind.\nEstate, Vill. Bhatauli Kalan, Baddi,\nDist. Solan (H.P.)",
+        "",
+        "",
+        "Disintegration",
+        "CDL,\nKolkata"
+      ],
+      [
+        "18",
+        "Amoxycillin and\nPottasium Clavulanate\nwith Lactic Acid\nBacillus Tablets\n(Yamox-CL)",
+        "",
+        "",
+        "SEB-23122",
+        "09/2022",
+        "02/2025",
+        "M/s. Supermax Laboratories, Plot\nNo. 40, Pharmacity, Selaqui\nIndustrial Area, Dehradun - 248 011",
+        "",
+        "",
+        "Assay / Content\nof Gram Positive\nendospore\nbearing rod\nshaped\nbacterium",
+        "CDL,\nKolkata"
+      ],
+      [
+        "19",
+        "Thyroxine Sodium\nTablets I.P. (THYROX-\n75)",
+        "",
+        "",
+        "MTC2338A",
+        "04/2023",
+        "03/2025",
+        "M/s. Macleods Pharmaceuticals Ltd.,\nPlot No. 2209, GIDC, Sarigam, Dist.\nValsad 396 155",
+        "",
+        "",
+        "Dissolution",
+        "CDL,\nKolkata"
+      ],
+      [
+        "20",
+        "",
+        "Cyclosporine Capsules",
+        "",
+        "RDCPH230\n02",
+        "10/2023",
+        "09/2025",
+        "",
+        "M/s. Johnlee Pharmaceuticals Pvt.",
+        "",
+        "Water",
+        "CDL,\nKolkata"
+      ],
+      [
+        "",
+        "",
+        "IP 25 mg (Cycloclean-",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Ltd., Plot No. 10, 11, Sector 6B, IIE,",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "25)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIDCUL, Haridwar, 249403",
+        "",
+        "",
+        ""
+      ],
+      [
+        "21",
+        "",
+        "Dextromethorphan",
+        "",
+        "23CH0250",
+        "12/2023",
+        "11/2026",
+        "M/s. Enicar Pharmaceuticals Pvt.\nLtd., Plot No. J-214, 215, 216, MIDC,\nTarapur, Boisar, Dist. Palghar-\n401506",
+        "M/s. Enicar Pharmaceuticals Pvt.",
+        "",
+        "Assay of Menthol",
+        "CDL,\nKolkata"
+      ],
+      [
+        "",
+        "",
+        "Hydrobromide,",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Ltd., Plot No. J-214, 215, 216, MIDC,",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Phenylephrine",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Tarapur, Boisar, Dist. Palghar-",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Hydrochloride,",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "401506",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Chlorphenamine",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Maleate & Menthol",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Syrup (Tuspress)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "22",
+        "Tranexamic Acid\nInjection IP\n(GYNAEPIL Injection)",
+        "",
+        "",
+        "ANO43004\nR",
+        "08/2023",
+        "07/2025",
+        "M/s. Psychotropics India Ltd., Plot\nNo. 12, 12A, Industrial Park-2,\nPhase-1, Salempur, Mehdood-2,\nHaridwar-249403 (Uttarakhand)",
+        "",
+        "",
+        "Description,\nRelated\nSubstances &\nParticulate\nMatter",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      74.25,
+      72.23,
+      815.55,
+      453.13
+    ],
+    "n_rows": 6,
+    "n_cols": 8,
+    "rows": [
+      [
+        "23",
+        "Carvedilol Tablets IP\n6.25 mg (Carviv-6.5\nTABLETS)",
+        "VDT-23931",
+        "Oct-\n2023",
+        "Sep-\n2025",
+        "M/s. Vidhyasha Pharmaceuticals, 28,\nIndustrial Area, Johron Trilokpur\nRoad, Kala Amb, Distt. Sirmour, H.P.-\n173030",
+        "Dissolution",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "24",
+        "Terbutaline Sulphate,\nAmbroxol,\nGuaiphenesin and\nMenthol Syrup (Cufrish\nEXPECTORANT)",
+        "S-2245",
+        "Nov-\n2023",
+        "Oct-\n2025",
+        "M/s. Northern India Chemical Works\nPvt.Ltd., V.Dantal, MRT-250001",
+        "pH",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "25",
+        "Clindamycin and\nAdapalene Gel (CLON-\nA Gel)",
+        "YEX-463",
+        "Jan-\n2024",
+        "Dec-\n2025",
+        "M/s. Yaxon Biocare Pvt.Ltd., Plot No.\n6, HSIIDC, Industrial Area Rai,\nSonipat-131029 (HR).",
+        "Assay of\nClindamycin\nPhosphate\ncalculated as\nClindamycin",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "26",
+        "Neostigmine\nMehtysulphate\nInjection IP (N-MINE\nInjection)",
+        "HINM23002\nB",
+        "Feb-\n2023",
+        "Jan-\n2025",
+        "M/s. Health Biotech Ltd., Village\nSandoli, Nalagarh Road, Baddi,\nDistt.Solan (H.P.) India-173205",
+        "Identification (A)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "27",
+        "Diphenhydramine\nHydrochloride\nCapsules IP (XL Dryl-D\nCapsules)",
+        "CPD240100\n6",
+        "Jan-\n2024",
+        "Dec-\n2025",
+        "M/s. Caspian Pharmaceuticals,\nMauza Ogli, Suketi Road, Kala-Amb,\nSirmaur-173030",
+        "Dissolution and\nAssay of\nDiphenhydramin\ne Hydrochloride",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "28",
+        "Cloxacillin Sodium Oral\nSuspension USP\n125mg/5ml",
+        "RD220020",
+        "Jul-2022",
+        "Jun-\n2024",
+        "M/s. RIDLEY LIFE SCIENCE PVT.\nLTD., D-1651, DSIDC Indl.Complex,\nNarela, Delhi-110040",
+        "Assay of\nCloxacillin\nSodium\ncalculated as\nCloxacillin",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      74.24,
+      72.23,
+      815.56,
+      374.74
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "29",
+        "Enteric Coated\nRabeprazole Sodium\nand Domperidone\n(Sustained Release)\nCapsules\n(STOMCOOL DSR\nCAPSULES)",
+        "SCDSR240\n01",
+        "Feb-\n2024",
+        "Jan-\n2026",
+        "M/s. VIP Pharmaceuticals Pvt. Ltd.,\nVillage, Manpura, Tehsil Nalagarh,\nDistt. Solan-174101 (H.P.)",
+        "Dissolution of\nDomperidone\n(8th hours) and\nDissolution of\nDomperidone\n(12th hours)",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "30",
+        "AMOXYCILLIN\nTRIHYDRATE I.P.\n(MARKMOX ORAL\nSUSPENSION I.P.)",
+        "OD-598",
+        "Apr-2023",
+        "Mar-\n2025",
+        "M/s. J.R.S. ORYX\nPHARMACEUTICALS (P) LTD., 217-\n218, Sector-3, H.S.I.I.D.C., KARNAL-\n132001 (India)",
+        "Assay",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "31",
+        "Amoxycillin Oral\nSuspension IP",
+        "RD220034",
+        "Oct-2022",
+        "Sep-\n2024",
+        "M/s. Ridley Life Science Pvt. Ltd., D-\n1651, DSIDC, Indl. Complex, Narela,\nDelhi- 110040",
+        "Assay/Content of\nAmoxycillin",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "32",
+        "Telmisartan Tablets IP 40\nmg. (Tzil 40)",
+        "189TTF002",
+        "Jan-2023",
+        "Dec-\n2024",
+        "M/s. Swiss Garniers Biotech Pvt. Ltd.,\n21, Industrial Area, Mehatpur, District-\nUna, Himachal Pradesh-174 315, INDIA.",
+        "Dissolution",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "33",
+        "Amlodipine Besylate\nTablets IP 5 mg",
+        "1125",
+        "Nov-\n2023",
+        "Oct-\n2026",
+        "M/s.Brilliant Lifesciences Pvt Ltd.,\nAt Chuval Dangarwa, Ta : Detroj\nDist: Ahmedabad (Guj) India",
+        "Dissolution",
+        "CDTL,\nIndore"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      71.96,
+      72.14,
+      796.12,
+      430.18
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "B. STATE LABORATORIES",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "S.N\no",
+        "Product / Drug\nName",
+        "Batch No.",
+        "Mfg Dt",
+        "Exp Dt",
+        "Manufactured By",
+        "NSQ Results",
+        "Reported By\nCDSCO /\nState Lab"
+      ],
+      [
+        "1",
+        "Ceftriaxone\nInjection IP 250 mg\n(JKMSCL Hospital\nSupply)",
+        "HD1607F",
+        "June, 2023",
+        "May-25",
+        "M/s. Himalaya Meditek Pvt\nLtd Plot No. 35 & 36\nPharmacity Selaqui Ind. Area\nDehradun - 248197",
+        "The sample fails in\nUniformaity of\nweights &\nAssay/Contents are\nfound less than the\nlabel claim",
+        "State Drugs\nTesting\nLaboratory\nSrinagar\n(Jammu &\nKashmir)"
+      ],
+      [
+        "2",
+        "Exudase DP",
+        "03023118",
+        "Sep-23",
+        "Aug-25",
+        "M/s. Ravenbhel Healthcare\nPvt Ltd . 16-17, EPIP, SIDCO\nKartholi Bari Brahmana\nJammu -1881133 Mrk. By:\nRavenbhel Pharmaceuticals\n(P) Ltd 7-A, Baba Budha\nAvenue G.T Road Amritsar-\n143001",
+        "The sample fails in\nthe test, “Description\nof tablets”.",
+        "State Drugs\nTesting\nLaboratory\nSrinagar\n(Jammu &\nKashmir)"
+      ],
+      [
+        "3",
+        "Rabeprazole\nSodium Tablets IP\n20mg (RAB 20mg)",
+        "UTGRBB3\n04",
+        "Aug-23",
+        "Jul-26",
+        "M/s. Khandelwal\nLaboratories Pvt. Ltd., Plot\nNo. 20, Sector-6, IIE, Sidcul,\nPantnagar, U. S. Nagar-\nUttarakhand, 263153",
+        "does not comply to IP\nStandards with\nrespect to dissolution\ntest",
+        "State Food &\nDrugs\nLaboratory,\nBambolim,\nGoa"
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "bbox": [
+      71.96,
+      72.23,
+      796.12,
+      478.81
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "4",
+        "Rabeprazole\nSodium Tablets IP\n(CYRA)",
+        "CA21880",
+        "Aug-23",
+        "Jul-25",
+        "M/s. Mepro Pharmaceuticals\nPvt. Ltd.; (Unit II), Q Road,\nPhase IV, GIDC, hwan-\n363035, Dist. Surendranagar,\nGujarat.",
+        "does not conform to\nIP Standards with\nrespect to the test for\ndissolution",
+        "State Food &\nDrugs\nLaboratory,\nBambolim,\nGoa"
+      ],
+      [
+        "5",
+        "Metronidazole\nTablets IP 200 mg",
+        "2869A",
+        "07/23",
+        "06/25",
+        "M/s. Arco Pharma Pvt Ltd,\n1,2,3, Akshay Industrial\nEstate, Vasai, Palghar (M.S)",
+        "It fails the test\n‘Dissolution’ as per IP",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ],
+      [
+        "6",
+        "Ciprofloxacin\nTablets IP 500 mg",
+        "CPT\n23022",
+        "09/23",
+        "08/26",
+        "M/s. Vivek Pharmachem\n(India) Ltd, NH-8,\nChimanpura, Amer, Jaipur-\n303102",
+        "It fails the test\n‘Dissolution’ as per IP",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ],
+      [
+        "7",
+        "Bimatoprost Eye\nDrops 3 ml",
+        "CHE-3036",
+        "04/23",
+        "03/25",
+        "M/s. Cotec Healthcare\nPvt.Ltd, K.H.No. 593/1\nRoorkee , Dehradun , High\nway, Kishanpur, Roorkee-\n247667 Uttarakhand",
+        "It fails the test\n‘Sterility’ as per IP",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ],
+      [
+        "8",
+        "Frusemide Injection\nIP 20 mg",
+        "FRIA-11",
+        "11/23",
+        "10/25",
+        "M/s. Nestor Pharmaceuticals\nLtd, 11, Western Extension\nArea, Faridabad -121001",
+        "It fails the test\n‘Sterility’ as per IP",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "bbox": [
+      71.96,
+      72.23,
+      796.12,
+      488.89
+    ],
+    "n_rows": 5,
+    "n_cols": 8,
+    "rows": [
+      [
+        "9",
+        "Salbutamol\nNebuliser Solution\nBP",
+        "D 2259/23-\n24",
+        "06/23",
+        "05/25",
+        "Supplied by M/s. Kerala\nMedical services Corporation\nLimited, Thycaud P.O,\nThiruvananthapuram",
+        "It fails the test Acidity\npH as per BP",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ],
+      [
+        "10",
+        "Warfarin sodium\nTablet IP 5 mg",
+        "TW250004",
+        "07/23",
+        "06/26",
+        "M/s. Centurion Remedies\npvt.Ltd, G/5, G/6, Idl.Estate,\nGorwa, Vadodara 390016",
+        "It fails the\n‘Description’.",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ],
+      [
+        "11",
+        "Amloheart-AT\n[Amlodipine\nBesylate and\nAtenolol Tablets]",
+        "LE 223030",
+        "03/23",
+        "02/25",
+        "M/s. Lividus\nPharmaceuticals pvt.Ltd,\nikeva level 2, Agnito Tech\nPark, 141, Kandanchavadi,\nNear Perungudi, OMR,\nChennai- 600096",
+        "It fails the test ‘Assay’\nas per IP",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ],
+      [
+        "12",
+        "Bupivacaine\nHydrochloride in\nDextrose Inj. USP\n0.50% 4 ml Amp",
+        "D2258/23-\n24",
+        "09/23",
+        "08/25",
+        "Supplied by M/s. Kerala\nMedical services Corporation\nLimited, Thycaud P.O,\nThiruvananthapuram",
+        "It fails the test Sterility\nas per USP",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ],
+      [
+        "13",
+        "Mucoid-A [Acetyl\nCysteine &\nAmbroxol HCL\nTablets ]",
+        "MTT-6856",
+        "12/23",
+        "11/25",
+        "M/s. MDC Pharmaceuticals\nLtd, Unit-II, sai Road, Baddi-\n173 205",
+        "The content of active\ningredients is not\nwithin the limits of\nSchedule V of Drugs\nand cosmetic act and\nrules there under",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "bbox": [
+      71.94,
+      72.23,
+      796.14,
+      376.06
+    ],
+    "n_rows": 3,
+    "n_cols": 8,
+    "rows": [
+      [
+        "14",
+        "Sallaki Tablets",
+        "AB 23055",
+        "11/23",
+        "10/26",
+        "M/s. Gufic Biosciences\nLimited, 703, Udayambag,\nBelgaum, Karnataka",
+        "The sample fails the\ntest Disintegration as\nper API",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ],
+      [
+        "15",
+        "Panion Tablets",
+        "7964",
+        "04/23",
+        "03/27",
+        "M/s. Win Trust\nPharmaceuticals Ltd. Dugri,\nDhandra Road, Ludhiana",
+        "The sample is an\nAyurvedic\npreparation It gives\npositive result for the\npresence of\nDiclofenac Sodium\n(Allopathic drug) and\nhence declared as\nNot of Standard\nQuality. The sample\nis a spurious drug.",
+        "State Drugs\nTesting\nLaboratory\nThiruvananth\napuram,\nKerala"
+      ],
+      [
+        "16",
+        "Paracetamo\nPaediatric Oral\nSuspension IP 125\nmg/ml",
+        "L-0475",
+        "Oct-22",
+        "Sep-24",
+        "Quest laboratories Pvt. Ltd.,\nPlot No. 45, Sector III,\nPithampur, Dist. Dhar- 454\n775",
+        "The Sample failed in\ndescription",
+        "MP State lab\nreported on\n19.04.2024"
+      ]
+    ]
+  },
+  {
+    "page": 11,
+    "bbox": [
+      72.0,
+      72.26,
+      796.08,
+      192.77
+    ],
+    "n_rows": 1,
+    "n_cols": 8,
+    "rows": [
+      [
+        "17",
+        "Paracetamo\nPaediatric Oral\nSuspension IP 250\nmg/ml",
+        "21350",
+        "Sep-22",
+        "Aug-24",
+        "Zenith Drugs Pvt. Ltd. , 75/5,\nMuradpura(Orangepura),\nDhar Road , Near Kalaria,\nIndore 453 001",
+        "The Sample failed in\ndescription",
+        "MP State lab\nreported on\n19.04.2024"
+      ]
+    ]
+  }
+]

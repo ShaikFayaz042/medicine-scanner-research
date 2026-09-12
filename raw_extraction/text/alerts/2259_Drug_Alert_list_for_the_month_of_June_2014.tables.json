@@ -1,0 +1,437 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      52.17,
+      99.47,
+      555.49,
+      730.83
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "S.No.",
+        "Name of the Drug/Medical\nDevice/Cosmetic",
+        "B.No., D/M, D/E,\nName of the Mfg. &\nAddress",
+        "Reason for\nFailure with\nreport in Form\n13/34 No. &\nDate",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1",
+        "Tapentadol & Paracetamol\nTablets (PROXYVON® Forte)",
+        "Batch No – WAL2004\nD/Mfg. – 12/2012\nD/Exp. – 11/2014\nMfd. By- M/s. Acme\nFormulation Pvt. Ltd.\nRopar Road, Nalagarh,\nDist. Solan\nHimachal Pradesh –\n174101",
+        "Assay of\nTapentadol\nHydrochloride\nRDTL/327/13-\n14\nDate:- 26-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "2",
+        "Ofloxacin Tablets IP\n(Zevid ® 200)",
+        "Batch No – ZT-8946\nD/Mfg. – 03/2013\nD/Exp. – 08/2015\nMfd. By- M/s. ZEE\nLaboratories,\n47, Industrial Area,\nPaonta Sahib – 173205",
+        "Dissolution\nRDTL/484/13-\n14\nDate:- 12-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "3",
+        "Amoxicillin & Dicloxacillin\nCapcules (STANLAC-D)",
+        "Batch No – MCB09-01\nD/Mfg. – 09/2012\nD/Exp. – 08/2014\nMfd. By- M/s. Medox\nLifesciences,\nPlot No 222-223, Phase\n– III, Ind.Area,\nSansarpur-Terrace\n(H.P.)",
+        "Assay of\nDicloxacillin\nSodium\nRDTL/549/13-\n14\nDate:- 24-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "4",
+        "Misoprostol Tablets (MESOPOL\n- 100)",
+        "Batch No – TMSL-003\nD/Mfg. – 02/2013\nD/Exp. – 07/2014\nMfd. By- M/s.\nMedipol\nPharmaceuticals India\nPvt. Ltd.,\n1199/3 Bhud , Baddi\nDistt. Solan (HP) India",
+        "Assay\nRDTL/539/13-14\nDate:- 24-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "5",
+        "Amoxicillin & Potassium\nClavulanate Tablet IP625 mg",
+        "Batch No – T-2625\nD/Mfg. – 05/2012\nD/Exp. – 04/2015\nMfd. By-\nM/s. Kwality\nPharmaceuticalS (P)\nLTD\nNag Kalan, Majitha\nRoad, Amritsar India",
+        "Assay of\nPotassium\nClavulanate\nRDTL/615/13-\n14\nDate:- 10-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      52.17,
+      99.47,
+      555.49,
+      763.11
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "6",
+        "Amoxycillin & Potassium\nClavulanate Tablet IP\n(MONAMOX – CL625)",
+        "Batch No – ZT-11564\nD/Mfg. – 02/2013\nD/Exp. – 07/2014\nMfd. By- M/s. ZEE\nLaboratories,\n47, Industrial Area,\nPaonta Sahib – 173205",
+        "Assay of\nPotassium\nClavulanate\nRDTL/671/13-\n14\nDate:- 10-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "7",
+        "Salbutamol Sulphate Tablets IP 2\nmg (Asthalin 2)",
+        "Batch No – ADF3025\nD/Mfg. – 05/2013\nD/Exp. – 04/2016\nMfd. By-\nM/s. CIPLA LTD.,\n47, Industrial Area, T-\n82 , MIDC, Bhosari,\nPune 411026 INDIA",
+        "Assay,\nRDTL/707/13-\n14\nDate:- 13-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "8",
+        "Salbutamol Tablets IP\n(SALBETOL 2)",
+        "Batch No – STT3014\nD/Mfg. – 01/2013\nD/Exp. – 12/2015\nMfd. By-\nM/s. FDC Limited ,\nAT : Plot No. L121B\nVerna Industrial Estate\n,\nVerna Salcete Goa\n403722",
+        "Assay,\nRDTL/769/13-\n14\nDate:- 13-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "9",
+        "Salbutamol Sulphate tablets IP\n2mg",
+        "Batch No – SST-1002\nD/Mfg. – 12/2012\nD/Exp. – 11/2014\nMfd. By-\nM/s. Wings\nPharmaceuticalS Pvt.\nLtd.,\n35, HPSIDC Industrial\nArea,\nBaddi – 173205 (H.P.)",
+        "Assay,\nRDTL/774/13-\n14\nDate:- 13-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "10",
+        "Cefuroxime Axetil Tablets IP\n(MAC-CEF™ -250)",
+        "Batch No – 12T518\nD/Mfg. – 12/2013\nD/Exp. – 11/2015\nMfd. By-\nM/s. Orison Pharma\nInternational\nKhari Mauza - Ogli,\nKala Amb-173030 H.P.",
+        "Dissolution,\nRDTL/794/13-\n14\nDate:- 13-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "11",
+        "Escitalopram Oxalate Tablets IP\n(STALOPAM 5)",
+        "Batch No – J400453\nD/Mfg. – 02/2014\nD/Exp. – 01/2016\nMfd. By-\nM/s. Lupin Ltd.,\nEPIP, SIDCO,\nKartholi,\nBari Brahmana,\nJammu, J & K-181133",
+        "Dissolution,\nRDTL/873/13-\n14\nDate:- 27-06-14",
+        "CDSCO,N.Z.\nGhaziabad",
+        "RDTL,\nChandigarh"
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "bbox": [
+      52.17,
+      99.47,
+      555.49,
+      695.05
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "12",
+        "Norfloxacin Tablets",
+        "B. No. 560613,\nD/Mfg. 06- 2013 ,\nD/Exp. 05- 2015,\nMfg. By.\nM/s Veejay\nLaboratories Pvt. Ltd.,\nUnit of Grace\nLaboratories Pvt. Ltd.,\nEPIP Zone, Amingaon,\nGuwahati, Assam-\n781031.",
+        "Dissolution\n09252/2014-15\nDated\n04-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "13",
+        "Norfloxacin Tablets",
+        "B. No. 040113,\nD/Mfg. 01- 2013,\nD/Exp. 12- 2015,\nMfg. By.\nM/s Veejay\nLaboratories Pvt. Ltd.,\nUnit of Grace\nLaboratories Pvt. Ltd.,\nEPIP Zone, Amingaon,\nGuwahati, Assam-\n781031.",
+        "Dissolution\n09253/2014-15\nDated\n04-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "14",
+        "Megarab - 20 Tablets",
+        "B. No. S753775,\nD/Mfg. 06- 2013,\nD/Exp. 05- 2015,\nMfg. By.\nM/s Scott-Edil\nPharmacia Ltd.,\n56, EPIP, Phase-I,\nJhamajri-173205.",
+        "Dissolution and\nAssay\n09258/2014-15\nDated\n06-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "15",
+        "Albendazole Tablets",
+        "B. No. ZW-2012,\nD/Mfg. 08- 2012,\nD/Exp. 07- 2014,\nMfg. By.\nM/s Vardhman\nPharma,\n32 Industrial Area,\nTrilokpur Road, Kala-\nAmb, Dist-Sirmour,\nHimachal Pradesh.",
+        "Uniformity of\nWeight and\nAssay\n09271/2014-15\nDated\n10-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "16",
+        "Omeprazole Capsules",
+        "B. No. OZC29-03,\nD/Mfg. 08- 2012,\nD/Exp. 07- 2014,\nMfg. By.\nM/s Unicure (India)\nPvt. Ltd.,\nC-22, Sector 3, Noida,\nDelhi-201301.",
+        "Dissolution\n09316/2014-15\nDated\n20-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "bbox": [
+      52.17,
+      99.47,
+      555.49,
+      729.49
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "17",
+        "Omeprazole Capsules",
+        "B. No. OZC29-04,\nD/Mfg. 08- 2012,\nD/Exp. 07- 2014,\nMfg. By.\nM/s Unicure (India)\nPvt. Ltd.,\nC-22, Sector 3, Noida,\nDelhi-201301.",
+        "Dissolution\n09318/2014-15\nDated\n20-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "18",
+        "Omeprazole Capsules",
+        "B. No. OZC01-22,\nD/Mfg. 07- 2013,\nD/Exp. 06- 2015,\nMfg. By.\nM/s Unicure (India)\nPvt. Ltd.,\nC-22, Sector 3, Noida,\nDelhi-201301.",
+        "Dissolution\n09332/2014-15\nDated\n23-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "19",
+        "Omeprazole Capsules",
+        "B. No. OZC29-03,\nD/Mfg. 08- 2012,\nD/Exp. 07- 2014,\nMfg. By.\nM/s Unicure (India)\nPvt. Ltd.,\nC-22, Sector 3, Noida,\nDelhi-201301.",
+        "Dissolution\n09327/2014-15\nDated\n20-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "20",
+        "Omeprazole Capsules",
+        "B. No. OZC01-22,\nD/Mfg. 07- 2013,\nD/Exp. 06- 2015,\nMfg. By.\nM/s Unicure (India)\nPvt. Ltd.,\nC-22, Sector 3, Noida,\nDelhi-201301.",
+        "Dissolution\n09329/2014-15\nDated\n23-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "21",
+        "Pantest Tablets",
+        "B. No. ERT-310,\nD/Mfg. 01- 2014,\nD/Exp. 12- 2015,\nMfg. By.\nM/s Ester\nFormulations,\n1611, Gotri, Vadodara,\nGujarat.",
+        "Dissolution\n09328/2014-15\nDated\n23-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "22",
+        "Absorbent Gauze Cloth",
+        "B. No. Nil,\nD/Mfg. Nil,\nD/Exp. Nil,\nMfg. By. Nil",
+        "Misbranded\nRDTL/05/2014-\n15\nDated\n06-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "23",
+        "Bleaching Powder",
+        "B. No. (K) 382,\nD/Mfg. 09- 2013,\nD/Exp. 02- 2015,\nMfg. By. NIL.",
+        "Misbranded\nRDTL/01/2014-\n15\nDated\n06-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "bbox": [
+      52.17,
+      99.47,
+      555.49,
+      673.57
+    ],
+    "n_rows": 7,
+    "n_cols": 6,
+    "rows": [
+      [
+        "24",
+        "Handloom Cotton Cloth (Non-\nSterilised)",
+        "B. No. 11,\nD/Mfg. 03-2013,\nD/Exp. NIL,\nMfg. By. NIL.",
+        "Misbranded\nRDTL/07/2014-\n15\nDated\n06-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "25",
+        "Handloom Cotton Cloth",
+        "B. No. 13,\nD/Mfg. 12- 2013,\nD/Exp. NIL,\nMfg. By. NIL.",
+        "Misbranded\nRDTL/02/2014-\n15\nDated\n06-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "26",
+        "Absorbent Gauze Cloth Super\nSpecial 90 cm.",
+        "B. No. NIL,\nD/Mfg. NIL,\nD/Exp. NIL,\nMfg. By. NIL.",
+        "Misbranded\nRDTL/06/2014-\n15\nDated\n06-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "27",
+        "Handloom Cotton Cloth (Non-\nSterilised)",
+        "B. No. 85,\nD/Mfg. NIL,\nD/Exp. NIL,\nMfg. By. NIL.",
+        "Misbranded\nRDTL/04/2014-\n15\nDated\n06-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "28",
+        "Rolled Bandage (Non-Sterilised)",
+        "B. No. 10,\nD/Mfg. NIL,\nD/Exp. NIL,\nMfg. By. M/S Sen\nEnterprises,\nBongaon, Gaipukur,\nNorth 24 Parganas,\nWest Bengal.",
+        "Misbranded\nRDTL/03/2014-\n15\nDated\n06-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "29",
+        "Sodium Chloride and Dextrose\nInjections",
+        "B. No. F13F048,\nD/Mfg. 06- 2013,\nD/Exp. 05- 2015,\nMfg. By. M/s D. J.\nLaboratories Pvt. Ltd.,\n255, Sector-I,\nIndustrial Area,\nPithampur-454775.",
+        "BET Test\n09349/2014-15\nDated\n26-06-2014",
+        "CDSCO,E.Z.\nKolkata",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "30",
+        "Cefixi-DT (Cefixime Dispersible\nTablets),",
+        "B. No.: DTBA-428\nMfg dt: 09/2012\nExp dt: 08/2014\nMfd by: M/s. Digital\nVision, 176, Mauza\nOgli, Nahan Road,\nKala Amb, Sirmour\n(HP) 173030",
+        "Uniformity of\nDispersion\n32-8/2014-SS/\nDCA(E)-\n237/730\nDt. 30.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "bbox": [
+      52.17,
+      99.47,
+      555.49,
+      723.25
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "31",
+        "Monotax 1 gm,",
+        "B. No.: EA9132023\nMfg dt: 03/2013\nExp dt: 02/2015\nMfd by: M/s. Biochem\nPharmaceuticals\nIndustries Ltd., Survey\nNo. 49/3,51/1,51/2,\nRinganwada, Daman\n396210.",
+        "Particulate\nMatter & Clarity\nof Solution\n32-8/2014-SS/\nDCA(E)-\n220/400\nDt. 09.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "32",
+        "Absorbent Cotton Wool IP,",
+        "B. No.: 29\nMfg dt: 11/2013\nExp dt: 3 years from\nthe date of mfg.\nMfd by: M/s. SN\nSurgicare & Healthcare\nScience Pvt. Ltd.,\nJalsukha, Nilqunjbazar,\nKolkata",
+        "Acidity\nAlkalinity,\nSurface Active\nSubstances,\nWater Soluble\nSubstances,\nSulphated ash\n32-8/2014-SS/\nDCA(E)-\n365/403\nDt. 09.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "33",
+        "Wohinral (Trypsin Chymotrypsin\nTablets),",
+        "B. No.: WA2K05F\nMfg dt: 11/2012\nExp dt: 10/2014\nMfd by: M/s. Acme\nFormulations Pvt. Ltd.,\nRopar Road, Nalagarh,\nSolan, HP",
+        "Assay\n32-12/2014-SS/\nDCA(H)-02/535\nDt. 13.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "34",
+        "Glimepiride Tablets IP 2mg,",
+        "B. No.: T6-12306\nMfg dt: 06/2012\nExp dt: 05/2014\nMfd by: M/s.\nRhydburg\nPharmaceuticals Ltd.,\nC-2 & 3, SIEL, Selaqui\nDehradun 248197",
+        "Dissolution\n32-13/2014-SS/\nDCA(B)-\n129/341\nDt. 03.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "35",
+        "Ceftricor 1g,",
+        "B. No.: C0043008\nMfg dt: 10/2013\nExp dt: 09/2015\nMfd by: M/s. Dhruv\nLife Sciences Pvt. Ltd.,\nHill Top Industrial\nArea, Phase-I, Baddi\n173205.",
+        "Particulate\nMatter & Clarity\nof Solution\n32-18/2014-SS/\nDCA(C)-34/307\nDt. 03.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "36",
+        "Weltrox - SB 1500 (Ceftriaxone\n& Sulbactam for Injection),",
+        "B. No.: UDD-3543F\nMfg dt: 10/2013\nExp dt: 09/2015\nMfd by: M/s. Ultra\nDrugs Pvt. Ltd.,\nManpura, Nalagarh,\nSolan (HP)",
+        "Particulate\nMatter & Clarity\nof Solution\n32-18/2014-SS/\nDCA(C)-38/311\nDt. 03.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "bbox": [
+      52.16,
+      99.47,
+      555.5,
+      595.57
+    ],
+    "n_rows": 5,
+    "n_cols": 6,
+    "rows": [
+      [
+        "37",
+        "Amoxycillin & Potassium\nClavulanate Oral Suspension.",
+        "B. No.: OBAK59\nMfg dt: 04/2012\nExp dt: 03/2014\nMfd by: M/s. Akums\nDrugs &\nPharmaceuticals Ltd.,\n19, 20, 21, Sector 6A,\nIIE, SIDCUL, Ranipur,\nHaridwar 249403.",
+        "Assay,\nIdentification &\npH\n32-9/2013-SS/\nDCA(W)-4/367\nDt. 05.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "38",
+        "Gencin 80mg/2ml Injection,",
+        "B. No.: MV3D03\nMfg dt: 04/2013,\nExp dt: 03/2015\nMfd by: M/s. Martin &\nBrown Biosciences, K.\nNo.918/419,\nMalkumajra, Nalagarh\nRoad, Baddi, Solan\n(HP)",
+        "Particulate\nMatter\n32-1/2014-SS/\nDCA(N)-69/395\nDt. 09.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "39",
+        "Nirgent 10 ml (Gentamycin\nInjection IP)",
+        "B. No.: 5L20980\nMfg dt: 12/2012\nExp dt: 11/2014\nMfd by: M/s. Nirma\nLimited (Healthcare\nDivision), Sachana,\nGujarat.",
+        "Particulate\nMatter\n32-11/2014-SS/\nDCA(A)-\n101/398\nDt. 09.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "40",
+        "Brakke (Ofloxacin & Ornidazole\nTablets),",
+        "B. No.: V12021\nMfg dt: 12/2012\nExp dt: 11/2014\nMfd by: M/s. Vapi\nCare Pharma Pvt. Ltd.,\nPlot No. 225/3, GIDC,\nVapi 396195.",
+        "Disintegration\n32-11/2013-SS/\nDCA(A)-99/377\nDt. 06.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "41",
+        "Atorvastatin Tablets 10mg,",
+        "B. No.: T3415\nMfg dt: 08/2013\nExp dt: 07/2015\nMfd by: M/s. Stallion\nLaboratories Pvt. Ltd.,\nC-1B, 305/2 &3, GIDC\nKerala, Ahmedabad\n382220",
+        "Dissolution\n32-11/2014-SS/\nDCA(A)-\n109/347\nDt. 03.06.2014",
+        "CDSCO,E.Z.\nKolkata",
+        "CDL,\nKolkata"
+      ]
+    ]
+  }
+]

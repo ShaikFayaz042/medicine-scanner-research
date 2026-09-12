@@ -1,0 +1,227 @@
+===== PAGE 1 =====
+Page 1 of 2
+
+Central Drugs Standard Control Organization
+Directorate General of Health Services
+Ministry of Health and Family Welfare
+Government of India
+(Medical Devices and Diagnostics Division)
+Email: ddcimd-cdsco@nic.in
+Food & Drugs Administration Bhawan,
+Kotla Road, New Delhi.
+F.No.29/Misc/03/2021-DC(316)
+
+
+
+
+     Date: 17th Sep 2021
+
+MEDICAL DEVICE ALERT
+
+
+HeartWare™ HVAD System
+
+
+The HeartWare Ventricular Assist Device (HVAD) System is used to help the heart
+continue to pump blood to the rest of the body. The HVAD systemis used as a bridge
+to cardiac transplants in patients who are at risk of death from end-stage left
+ventricular heart failure, for heart tissue recovery, oras destination therapy (DT) in
+patients for whom heart transplants are not planned.
+
+
+Medtronic is stopping the distribution and sale of the Heartware HVAD System because:
+• There is an increased risk of neurological adverse events and mortality associated
+with the internal pump.
+• If the internal pump stops, it may delay restarting or fail to restart.
+•
+
+• Field representatives may assist customers with the return of unused product (sold)
+and the timely return of the customer signed Customer Confirmation Form.
+• Field representatives may assist customers with the timely return of the customer
+signed Customer Confirmation Form.
+• Other associated Corrective/Preventive Actions established in associated CAPA.
+• Further, the firm is deploying a permanent corrective action to address the two
+issues described in the recall notice.
+
+Important Note: CDSCO have not received any complaints from the market on this issue.
+
+
+DEVICE
+BACKGROUND
+Reason for Recall
+IMMEDIATE ACTION TO BE TAKEN BY USER
+
+===== PAGE 2 =====
+Page 2 of 2
+
+
+
+
+
+M/s India Medtronic Pvt. Ltd, Gurugram, Haryana had issued a Field Safety Notice
+which is attached herewith this alert.
+
+M/s India Medtronic Pvt. Ltd.
+4th Floor, Tower A & B SAS Tower
+Medanta The Medicity Complex
+Sector 38, Gurugram 122001
+Haryana, India
+www.medtronic.co.in
+Tel +91-124-4709800
+Fax +91-124-4206850
+
+FURTHER DETAILS & CONTACTS
+
+===== PAGE 3 =====
+9/17/21, 3:47 PM
+Medtronic Stops Distribution and Sale of HeartWare HVAD System Due to Risk of Neurological Adverse Events, Mortality, and Pot…
+https://www.fda.gov/medical-devices/medical-device-recalls/medtronic-stops-distribution-and-sale-heartware-hvad-system-due-risk-neurological-adver…
+1/3
+Medtronic Stops Distribution and Sale of HeartWare HVAD System Due to Risk of
+Neurological Adverse Events, Mortality, and Potential Failure to Restart
+The recall described in this notice is the same one that was announced in the Stop New Implants of the Medtronic HVAD System – Letter to Health Care Providers
+(/medical-devices/letters-health-care-providers/stop-new-implants-medtronic-hvad-system-letter-health-care-providers) on June 3, 2021.
+The FDA has identified this as a Class I recall, the most serious type of recall. Use of these devices may cause serious injuries or death.
+The recall described in this notice is the same one that was announced in the Stop New Implants of the Medtronic HVAD System – Letter to Health
+Care Providers (/medical-devices/letters-health-care-providers/stop-new-implants-medtronic-hvad-system-letter-health-care-providers) on June 3,
+2021.
+Recalled Product
+HeartWare HVAD System
+Model Numbers: See Full List of Affected Devices
+Distribution Dates: August 30, 2016 to June 3, 2021
+Devices Recalled in the U.S.: 4,620
+Date Initiated by Firm: June 3, 2021
+Device Use
+The HeartWare Ventricular Assist Device (HVAD) System is used to help the heart continue to pump blood to the rest of the body. The HVAD system
+is used as a bridge to cardiac transplants in patients who are at risk of death from end-stage left ventricular heart failure, for heart tissue recovery, or
+as destination therapy (DT) in patients for whom heart transplants are not planned.
+Reason for Recall
+Medtronic is stopping the distribution and sale of the Heartware HVAD System because:
+There is an increased risk of neurological adverse events and mortality associated with the internal pump.
+If the internal pump stops, it may delay restarting or fail to restart.
+Both problems may lead to death or serious patient harm including stroke, heart attack, worsening heart failure, the need for additional procedures
+and hospitalizations.
+There is a growing body of observational clinical comparisons showing a higher frequency of neurological adverse events and mortality among
+HVAD System patients as compared to those who receive other commercially available durable left ventricular assist devices (LVAD).
+Medtronic reports there are over 100 complaints involving a delay or failure to restart of the HVAD internal pump, which led to a total of 14 deaths
+and 13 pump removals.
+Who May be Affected
+Health care providers using the Heartware HVAD System
+DEVICE
+
+What to Do
+BACKGROUND
+
+Stop new implants of the HeartWare HVAD System.
+Reason for Recall
+AC/DC Adapters, Carrying Case)
+IMMEDIATE ACTION TO BE TAKEN BY USER
+rs.cfqfca@medtronic.com (mailto:rs.cfqfca@medtronic.com)
+The communication offered several patient management recommendations, including:
+For existing patients on HVAD support:
+
+===== PAGE 4 =====
+9/17/21, 3:47 PM
+Medtronic Stops Distribution and Sale of HeartWare HVAD System Due to Risk of Neurological Adverse Events, Mortality, and Pot…
+https://www.fda.gov/medical-devices/medical-device-recalls/medtronic-stops-distribution-and-sale-heartware-hvad-system-due-risk-neurological-adver…
+2/3
+Do not remove already implanted HVAD devices. Risks associated with removing the devices may outweigh the potential benefits. The
+decision regarding removal and exchange of the HVAD pump should be made on a case-by-case basis, considering the patient’s clinical
+condition and surgical risks.
+Continue to follow instructions provided in the instructions for use (IFU) and adhere to current best clinical practices, including strict
+management of blood pressure and International Normalized Ratio (INR), and the use of system log files to support clinical decision
+making related to pump performance. Specific details about these clinical practices can be found in the Urgent Medical Device
+Communicatio (https://www.medtronic.com/content/dam/medtronic-com/global/HCP/Documents/hvad-urgent-medical-device-
+notice-june-2021.pdf)  (http://www.fda.gov/about-fda/website-policies/website-disclaimer)n
+Patients should continue normal use of the HVAD System peripherals (for example: Pioneer controllers, batteries, AC/DC adapters, and
+carrying case) consistent with the IFU and should contact their clinic for replacement as needed.
+Patients also should be reminded to never disconnect the pump from two power sources at the same time and to always have a back-up
+controller and fully charged spare batteries available.
+For patients in need of LVAD placement
+Use an alternative commercial LVAD, such as the Abbott HeartMate 3 LVAD.
+If no alternative commercial LVAD is available for patients in urgent need, physicians and patient must complete a Patient Information
+FURTHER DETAILS & CONTACTS
+For “HVAD only” implanting centers, Medtronic is available to facilitate training on an alternative device, such as the Abbott HeartMate
+3 LVAD. Medtronic will also work with these centers to develop a transition plan to an alternative LVAD.
+On July 7, 2021, Medtronic issued a follow up Urgent Medical Device Communication (https://www.medtronic.com/content/dam/medtronic-
+com/global/HCP/Documents/hvad-urgent-medical-device-notice-july-2021.pdf)  (http://www.fda.gov/about-fda/website-policies/website-
+disclaimer) to provide instructions for returning some HVAD inventory including pump implant kits and accessories, outflow grafts, and driveline
+extension cables. The company noted that peripherals and HVAD surgical tools should be kept and used to manage patients currently on support, if
+any. If not, those items should also be returned. Clinical sites should follow the instructions in Medtronic’s follow up Urgent Medical Device
+Communication (https://www.medtronic.com/content/dam/medtronic-com/global/HCP/Documents/hvad-urgent-medical-device-notice-july-
+2021.pdf)  (http://www.fda.gov/about-fda/website-policies/website-disclaimer) issued on July 7, 2021 and only return certain components of the
+HeartWare HVAD System at this time.
+On August 10, 2021, Medtronic issued a letter to healthcare professionals to inform them that Medtronic will be issuing a separate communication
+about the decision to Halt HVAD Distribution to all Medtronic HVAD™ patients.
+The FDA also recommends:
+Follow all instructions provided in Medtronic’s Urgent Medical Device Communication Notification Letter
+(https://www.medtronic.com/content/dam/medtronic-com/global/HCP/Documents/hvad-urgent-medical-device-notice-june-2021.pdf) 
+(http://www.fda.gov/about-fda/website-policies/website-disclaimer)
+For new LVAD implants, use an alternative, such as the Abbott HeartMate 3 LVAD instead of the Medtronic HVAD System.
+Discuss with patients that elective removal of an implanted Medtronic HVAD System is not recommended at this time. In general, the risks
+associated with explant will outweigh the potential benefits. Decisions about removing and/or exchanging the Medtronic HVAD System should
+be made by health care providers and patients on a case-by-case basis, considering the patient’s clinical status and surgical risks.
+Contact Information
+Patients with questions should contact their doctor and review is the information available at www.Medtronic.com/HVADsafety
+(//www.Medtronic.com/HVADsafety)  (http://www.fda.gov/about-fda/website-policies/website-disclaimer).
+Healthcare providers with questions  about this recall should contact:
+Medtronic Customer Service (mailto:rs.mcscustomerservice@medtronic.com), 1-877-367-4823 for product return questions.
+Medtronic Office of Medical Affairs (mailto:rs.mcsmedicalaffairs@medtronic.com) for medical questions, including help finding an alternative
+device for a patient during the transition.
+Full List of Affected Devices
+All HeartWare HVAD Systems are affected by this recall.
+The following unused HeartWare HVAD System components in your inventory should be returned to Medtronic at this time:
+Model Number
+Product Description
+1103
+HVAD Pump Implant Kit
+
+===== PAGE 5 =====
+9/17/21, 3:47 PM
+Medtronic Stops Distribution and Sale of HeartWare HVAD System Due to Risk of Neurological Adverse Events, Mortality, and Pot…
+https://www.fda.gov/medical-devices/medical-device-recalls/medtronic-stops-distribution-and-sale-heartware-hvad-system-due-risk-neurological-adver…
+3/3
+1104
+HVAD Pump Implant Kit
+1104JP
+HVAD Pump Implant Kit
+MCS1705PU
+HVAD Pump Implant Kit
+1125
+HVAD Pump Outflow Graft
+MCS1725OG
+HVADPump Outflow Graft
+1153
+HVAD Pump Implant Accessories
+MCS1753AK
+HVAD Pump Implant Accessories
+100
+Driveline Extension Cable
+100US
+Driveline Extension Cable
+Additional Resources:
+Medtronic Patient Information Regarding the HVAD System (https://www.medtronic.com/us-en/e/hvad-system-transition.html?
+cmpid=vanity_url_medtronic_com_hvadsafety_CVG_MCS_FY22)  (http://www.fda.gov/about-fda/website-policies/website-disclaimer)
+Medtronic Urgent Medical Device Communication to Healthcare Providers (https://www.medtronic.com/content/dam/medtronic-
+com/global/HCP/Documents/hvad-urgent-medical-device-notice-june-2021.pdf)  (http://www.fda.gov/about-fda/website-
+policies/website-disclaimer)
+Stop New Implants of the Medtronic HVAD System – Letter to Healthcare Providers (/medical-devices/letters-health-care-providers/stop-
+new-implants-medtronic-hvad-system-letter-health-care-providers)
+Medical Device Recall Database Entries: (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?
+start_search=1&event_id=&productdescriptiontxt=Heartware&productcode=&IVDProducts=&rootCauseText=&recallstatus=&centerclassificationt
+HeartWare HVAD Outflow Graft, REF MCS1725OG (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=188077)
+HeartWare HVAD Implant Kit, REF MCS1705PU (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=188076)
+HeartWare HVAD Implant Kit, REF 1104JP (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=188075)
+HeartWare HVAD Driveline Extension Cable, REF 100US (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?
+id=188074)
+HeartWare HVAD Pump Accessories, REF MCS1753AK (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?
+id=188078)
+HeartWare HVAD Pump Implant Kit, REF 1153 (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=188072)
+HeartWare HVAD Pump Implant Kit, REF 1125 (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=188071)
+HeartWare HVAD Pump Implant Kit, REF 1104 (https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=188069)
+HeartWare HVAD Pump Implant Kit, REF 1103HeartWare HVAD Driveline Extension Cable, REF 100
+(https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=188073)
+How do I report a problem?
+Health care professionals and consumers may report adverse reactions or quality problems
+(https://www.accessdata.fda.gov/scripts/medwatch/index.cfm?action=reporting.home) they experienced using these devices to MedWatch: The
+FDA Safety Information and Adverse Event Reporting Program using an online form, regular mail, or FAX.

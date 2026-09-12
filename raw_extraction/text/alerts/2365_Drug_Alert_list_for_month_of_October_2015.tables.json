@@ -1,0 +1,148 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      13.78,
+      110.03,
+      567.72,
+      818.41
+    ],
+    "n_rows": 9,
+    "n_cols": 6,
+    "rows": [
+      [
+        "Sl.\nNo.",
+        "Name of\nDrugs/medical\ndevice/cosmetics",
+        "Batch No./Date of\nManufacture/Date of\nExpiry/Manufactured By",
+        "Reason for\nfailure",
+        "Drawn By",
+        "From"
+      ],
+      [
+        "1.",
+        "Clopidogrel\nTablets IP 75mg",
+        "B. No.: T5006\nMfg dt: 01/2015\nExp dt: 12/2017\nMfd by: M/s. Bharat Parenterals Ltd.,\nVill. Haripura, Ta. Savli, Dist.\nVadodara-391520, Gujarat.",
+        "Does not\nconform with\nrespect to Test\nfor\nDissolution",
+        "CDSCO\nSouth Zone,\nChennai",
+        "CDTL,\nChennai"
+      ],
+      [
+        "2.",
+        "Paracetamol\nTablets IP",
+        "B. No.: PMTG-14249\nMfg dt: 02/2014\nExp dt: 01/17\nMfd by: M/s. Seeko Biotics, Krishna\nNagar-522502",
+        "Does not\nconform with\nrespect to Test\nfor\nDissolution",
+        "CDSCO,\nZonal-\nOffice,\nHyderabad",
+        "CDTL,\nChennai"
+      ],
+      [
+        "3.",
+        "Aceclofenac\n100mg Tablets\nIP (ACIMENT-\nC TABLETS)",
+        "B. No.: BT-9655,\nMfg dt: 11/2012,\nExp dt: 10/2015\nMfd by: M/s. Knox Life Sciences, Vill.\nGullarwala, Sai Road, Baddi, Dist.\nSolan (HP)",
+        "Dissolution",
+        "CDSCO,\nSub-Zone,\nJammu",
+        "RDTL,\nChandigarh"
+      ],
+      [
+        "4.",
+        "Dextrose\nInjections",
+        "B. No.: P204261,\nMfg dt: 12/2012,\nExp dt: 11/2015\nMfd by: M/s. Albert David Limited, B-\n12/13, Meerot Road Industrial Area,\nGhaziabad-201003",
+        "Test of\nSterility and\nBET Test",
+        "Drugs\nControl\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "5.",
+        "Dextrose\nInjections",
+        "B. No.: P504048,\nMfg dt: 04/2015,\nExp dt: 03/2018\nMfd by: M/s. Albert David Limited, B-\n12/13, Meerot Road Industrial Area,\nGhaziabad-201003",
+        "Test of\nSterility and\nBET Test",
+        "Drugs\nControl\nDepartment,\nNagaland",
+        "RDTL,\nGuwahati"
+      ],
+      [
+        "6.",
+        "Channel-SR 90\nCapsules\n(Diltiazem\nHydrochloride\nExtended\nRelease Capsules\nUSP)",
+        "B. No.: CH 037,\nMfg dt: 10/2013\nExp dt: 09/2015\nMfd by: M/s. Srushti Pharmaceuticals\nPvt. Ltd., No. 154, 10th Main Road,\nPeenya 3rd. Phase, Bangalore",
+        "Dissolution",
+        "CDSCO,\nSub-Zone\nBangalore",
+        "CDL,\nKolkata"
+      ],
+      [
+        "7.",
+        "Felixine - ER 75\n(Venlafaxine\nHydrochloride\nExtended\nRelease Capsules\n75 mg)",
+        "B. No.: RP 1401,\nMfg dt: 12/2014,\nExp dt: 11/2016\nMfd by: M/s. Genpharma International\nPvt. Ltd, C-7-8 (2), MIDC, Bhosari,\nPune- 411026",
+        "Dissolution",
+        "CDSCO,\nWest-Zone,\nMumbai",
+        "CDL,\nKolkata"
+      ],
+      [
+        "8.",
+        "Ibuprofen\nTablets I.P. 400\nmg",
+        "B. No.: 23IBF40014,\nMfg dt: 08/2014\nExp dt: 07/2016\nMfd by: M/s. IDPL (TN) Ltd.,\nNandambakkam, Chennai- 600089",
+        "Dissolution &\nAssay",
+        "CDSCO,\nSouth Zone\nChennai",
+        "CDL,\nKolkata"
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "bbox": [
+      13.77,
+      27.21,
+      567.73,
+      582.34
+    ],
+    "n_rows": 6,
+    "n_cols": 6,
+    "rows": [
+      [
+        "9.",
+        "Oxytocin\nInjection Vet",
+        "B. No.: Not Mentioned,\nMfg dt: Not Mentioned\nExp dt: Not Mentioned\nMfd by: M/s. Not Mentioned",
+        "Description,\nParticulate\nMatter, pH &\nAssay",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "10.",
+        "Oxytocin\nInjection Vet",
+        "B. No.: Not Mentioned,\nMfg dt: Not Mentioned\nExp dt: Not Mentioned\nManufactured in India by Gaya (as per\nlabel)",
+        "Description,\nParticulate\nMatter &\nAssay",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "11.",
+        "Mazetol SR 200\nTablets\n(Carbamazepine\nExtended\nRelease Tablets\nIP)",
+        "B. No.: FALG 3013,\nMfg dt: 11/2013\nExp dt: 10/2015\nMfd by: M/s. Abbott Healthcare Pvt.\nLtd., Plot No. 225/3, G.I.D.C., Vapi\n396195, Valsad, Gujarat",
+        "Dissolution",
+        "CDSCO,\nEast Zone,\nKolkata",
+        "CDL,\nKolkata"
+      ],
+      [
+        "12.",
+        "Ceftalic\n(Ceftazidime &\nTazobactum for\nInjection)",
+        "For Powder B. No.: I140031,\nMfg dt: 05/2014\nExp dt: 04/2016\nMfd by: M/s. Cosmos Research Lab\nLtd., Vill- Gaunspura, P.O. Noorpur\nBet, Hambran, Ludhiana\n&\nFor Water B. No.: WB4D07,\nMfg dt: 04/2014\nExp dt: 03/2017\nMfd by: M/s. Auraya Healthcare, Plot\nNo. 80E, EPIP, Phase 1, Jharmajri,\nBaddi, HP",
+        "Clarity of\nSolution &\nParticulate\nMatter",
+        "CDSCO,\nSub-Zone,\nChandigarh",
+        "CDL,\nKolkata"
+      ],
+      [
+        "13.",
+        "Oxytocin\nInjection I.P.",
+        "B. No.: OXY 001,\nMfg dt: 07/2014,\nExp dt: 06/2016\nMfd by: M/s. Priya Pharma, 823002,\nB.O. Kanpur.",
+        "Description,\nParticulate\nMatter,\nSterility &\nAssay",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ],
+      [
+        "14.",
+        "Oxytocin\nInjection B.P.\n(Vet),",
+        "B. No.: 10,\nMfg dt: 01/2014,\nExp dt: 2 Years\nMfd by: M/s. S. Pharmaceuticals, B.O.\nKanpur.",
+        "Acidity,\nSterility,\nAssay&\nDescription",
+        "CDSCO,\nNorth Zone,\nGhaziabad",
+        "CDL,\nKolkata"
+      ]
+    ]
+  }
+]
