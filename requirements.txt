@@ -10,3 +10,11 @@ apscheduler
 python-multipart
 psycopg2-binary
 tqdm
+pdfplumber
+pymupdf
+pymupdf4llm
+pymupdf-layout
+rapidocr
+onnxruntime
+pillow
+img2table[rapidocr]

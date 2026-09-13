@@ -5,3 +5,7 @@ __pycache__/
 
 # Downloaded artefacts (large, regenerable)
 downloads/
+
+raw_extraction/text/
+ocr/
+ocr_tesseract/
