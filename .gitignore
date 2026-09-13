@@ -5,9 +5,8 @@ __pycache__/
 
 # Downloaded artefacts (large, regenerable)
 downloads/
-
 ocr/
 ocr_tesseract/
 text/
-
 type_classification/
+structured_raw/

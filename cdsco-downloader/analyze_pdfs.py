@@ -1,18 +1,26 @@
 #!/usr/bin/env python3
 """
 Analyse every PDF under downloads/<source>/important/ and classify it as:
-    - TEXT     : born-digital PDF with extractable text / tables
-    - SCANNED  : image-only PDF with little/no extractable text
-    - MIXED    : some pages have text, some are scanned
+    - TEXT     : born-digital PDF, ≥80% pages have extractable text
+    - SCANNED  : image-only PDF, ≥80% pages look scanned
+    - MIXED    : genuinely mixed (neither bucket reaches 80%)
     - EMPTY    : no pages or zero bytes
     - ERROR    : could not be opened / parsed
 
-Sampling: reads up to SAMPLE_PAGES pages per PDF (default: all, capped at 10)
-for speed. For a typical 1-5 page CDSCO notice this reads the whole file.
+Key change (2026-09): ratio-based classification. Previously a single
+odd page (e.g. a 1-char footer) forced the whole document into MIXED,
+creating a pipeline gap where TEXT extraction skipped it (status != TEXT)
+and OCR also skipped it (status != SCANNED).
+
+Sampling: reads up to SAMPLE_PAGES pages per PDF (default: all, capped at 10).
 
 Thresholds (tunable):
     TEXT_CHARS_PER_PAGE   >= 100   → page contributes as TEXT
-    SCANNED_IMG_COVERAGE  >= 0.5   → page counted as scanned-looking
+    NEAR_EMPTY_CHARS      <  10    → page is empty-ish (ignored in ratio)
+    SCANNED_IMG_COVERAGE  >= 0.5   → page looks scanned
+    TEXT_RATIO_MIN        >= 0.80  → whole PDF is TEXT
+    SCAN_RATIO_MIN        >= 0.80  → whole PDF is SCANNED
+    Otherwise → MIXED
 
 Outputs (in downloads/_analysis/):
     pdf_analysis.csv            - one row per PDF
@@ -20,9 +28,9 @@ Outputs (in downloads/_analysis/):
     pdf_analysis.txt            - human-readable summary per source
 
 Usage:
-    python cdsco-downloader/analyze_pdfs.py
-    python cdsco-downloader/analyze_pdfs.py --sample-pages 5
-    python cdsco-downloader/analyze_pdfs.py --sources alerts fdc gazette
+    python raw_extraction/analyze_pdfs.py
+    python raw_extraction/analyze_pdfs.py --sample-pages 5
+    python raw_extraction/analyze_pdfs.py --sources alerts fdc gazette
 """
 
 import argparse
@@ -32,14 +40,23 @@ import logging
 import sys
 import time
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 
-import fitz  # PyMuPDF
+try:
+    import pymupdf as fitz
+except ImportError:
+    import fitz
+
 from tqdm import tqdm
 
-# Make cdsco_utils importable
+# Make cdsco_utils importable if present
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import cdsco_utils as cu  # noqa: E402
+try:
+    import cdsco_utils as cu
+    DOWNLOADS_ROOT = cu.DOWNLOADS_ROOT
+except Exception:
+    DOWNLOADS_ROOT = Path(__file__).resolve().parent.parent / "downloads"
 
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s %(message)s")
@@ -47,11 +64,19 @@ log = logging.getLogger(__name__)
 
 
 # ---------------------------------------------------------------------------
-# Tunable thresholds
+# Tunables
 # ---------------------------------------------------------------------------
-TEXT_CHARS_PER_PAGE = 100      # >= this many chars → page is "text"
-SCANNED_IMG_COVERAGE = 0.5     # >= this fraction of page is image → "scanned"
-DEFAULT_SAMPLE_PAGES = 10      # max pages to inspect per PDF
+TEXT_CHARS_PER_PAGE = 100
+NEAR_EMPTY_CHARS = 10
+SCANNED_IMG_COVERAGE = 0.5
+TEXT_RATIO_MIN = 0.80
+SCAN_RATIO_MIN = 0.80
+DEFAULT_SAMPLE_PAGES = 10
+
+
+# ---------------------------------------------------------------------------
+def utcnow() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
 # ---------------------------------------------------------------------------
@@ -59,14 +84,27 @@ DEFAULT_SAMPLE_PAGES = 10      # max pages to inspect per PDF
 # ---------------------------------------------------------------------------
 def analyse_pdf(pdf_path: Path, sample_pages: int) -> dict:
     """
-    Return a dict describing the PDF:
-        status      : TEXT | SCANNED | MIXED | EMPTY | ERROR
-        pages       : total page count
-        sampled     : pages actually inspected
-        text_chars  : total extractable chars in sampled pages
-        avg_chars   : text_chars / sampled
-        avg_img_cov : average image coverage of sampled pages
-        err         : error message if status == ERROR
+    Return a dict describing the PDF.
+
+    Per page, classify as:
+        near_empty  : chars < NEAR_EMPTY_CHARS and img_cov < 0.1
+        text        : chars >= TEXT_CHARS_PER_PAGE
+        scanned     : chars == 0 and img_cov >= SCANNED_IMG_COVERAGE
+        text        : small text, small image  (still counts as text)
+        scanned     : no text, no big image    (posters, blanks)
+
+    Whole-PDF:
+        near_empty pages are EXCLUDED from the ratio (a 1-page footer
+        on page 9 of 9 shouldn't drag a clean PDF into MIXED).
+
+        effective = sampled - near_empty_count
+        text_ratio = text_count / effective
+        scan_ratio = scan_count / effective
+
+        if effective == 0          → EMPTY
+        elif text_ratio >= 0.80    → TEXT
+        elif scan_ratio >= 0.80    → SCANNED
+        else                       → MIXED
     """
     result = {
         "path": str(pdf_path),
@@ -76,6 +114,9 @@ def analyse_pdf(pdf_path: Path, sample_pages: int) -> dict:
         "text_chars": 0,
         "avg_chars": 0.0,
         "avg_img_cov": 0.0,
+        "text_pages": 0,
+        "scanned_pages": 0,
+        "near_empty_pages": 0,
         "status": "ERROR",
         "err": "",
     }
@@ -94,28 +135,25 @@ def analyse_pdf(pdf_path: Path, sample_pages: int) -> dict:
             result["status"] = "EMPTY"
             return result
 
-        # Decide which pages to inspect (first N, evenly spread for large PDFs)
         if total_pages <= sample_pages:
             pages_to_check = list(range(total_pages))
         else:
             step = max(1, total_pages // sample_pages)
             pages_to_check = list(range(0, total_pages, step))[:sample_pages]
 
-        text_pages = 0
-        scanned_pages = 0
+        text_count = 0
+        scanned_count = 0
+        near_empty_count = 0
         total_chars = 0
         total_img_cov = 0.0
 
         for pno in pages_to_check:
             page = doc.load_page(pno)
 
-            # --- text extraction ---
             text = page.get_text("text") or ""
-            # collapse whitespace to avoid counting blank characters
             chars = len("".join(text.split()))
             total_chars += chars
 
-            # --- image coverage ---
             img_cov = 0.0
             try:
                 page_area = page.rect.width * page.rect.height
@@ -134,26 +172,34 @@ def analyse_pdf(pdf_path: Path, sample_pages: int) -> dict:
                 img_cov = 0.0
             total_img_cov += img_cov
 
-            if chars >= TEXT_CHARS_PER_PAGE:
-                text_pages += 1
+            # --- per-page classification ---
+            if chars < NEAR_EMPTY_CHARS and img_cov < 0.1:
+                near_empty_count += 1
+            elif chars >= TEXT_CHARS_PER_PAGE:
+                text_count += 1
             elif img_cov >= SCANNED_IMG_COVERAGE:
-                scanned_pages += 1
+                scanned_count += 1
             elif chars == 0:
-                # No text, no big image — treat as scanned (posters, blanks)
-                scanned_pages += 1
+                scanned_count += 1
             else:
-                # Small text, small image — call it text (has *some* info)
-                text_pages += 1
+                text_count += 1
 
         sampled = len(pages_to_check)
         result["sampled"] = sampled
         result["text_chars"] = total_chars
         result["avg_chars"] = total_chars / sampled if sampled else 0.0
         result["avg_img_cov"] = total_img_cov / sampled if sampled else 0.0
+        result["text_pages"] = text_count
+        result["scanned_pages"] = scanned_count
+        result["near_empty_pages"] = near_empty_count
 
-        if text_pages == sampled:
+        effective = sampled - near_empty_count
+
+        if effective == 0:
+            result["status"] = "EMPTY"
+        elif text_count / effective >= TEXT_RATIO_MIN:
             result["status"] = "TEXT"
-        elif scanned_pages == sampled:
+        elif scanned_count / effective >= SCAN_RATIO_MIN:
             result["status"] = "SCANNED"
         else:
             result["status"] = "MIXED"
@@ -164,8 +210,6 @@ def analyse_pdf(pdf_path: Path, sample_pages: int) -> dict:
         doc.close()
 
 
-# ---------------------------------------------------------------------------
-# Reporting
 # ---------------------------------------------------------------------------
 def discover_sources(downloads_root: Path,
                      only: list[str] | None = None) -> list[Path]:
@@ -184,7 +228,9 @@ def discover_sources(downloads_root: Path,
 def write_csv(records: list[dict], out_path: Path) -> None:
     fields = [
         "source", "filename", "status", "pages", "sampled",
-        "text_chars", "avg_chars", "avg_img_cov", "size_bytes", "err",
+        "text_chars", "avg_chars", "avg_img_cov",
+        "text_pages", "scanned_pages", "near_empty_pages",
+        "size_bytes", "err",
     ]
     with out_path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=fields)
@@ -205,8 +251,6 @@ def write_txt_summary(records: list[dict], out_path: Path,
     lines.append("=" * 78)
     lines.append(f"Analysed {len(records)} PDFs in {elapsed:.1f}s")
     lines.append("")
-
-    # -------- summary table --------
     lines.append(
         f"{'SOURCE':<20} {'TOTAL':>6} {'TEXT':>6} {'SCANNED':>8} "
         f"{'MIXED':>6} {'EMPTY':>6} {'ERROR':>6}"
@@ -234,22 +278,22 @@ def write_txt_summary(records: list[dict], out_path: Path,
     lines.append("")
     lines.append("")
 
-    # -------- per-source file lists --------
     for source in sorted(by_source.keys()):
         recs = by_source[source]
-        text_pdfs = sorted(r["filename"] for r in recs if r["status"] == "TEXT")
-        scan_pdfs = sorted(r["filename"] for r in recs if r["status"] == "SCANNED")
-        mixed_pdfs = sorted(r["filename"] for r in recs if r["status"] == "MIXED")
-        empty_pdfs = sorted(r["filename"] for r in recs if r["status"] == "EMPTY")
-        err_pdfs = sorted(r["filename"] for r in recs if r["status"] == "ERROR")
+        groups = {
+            "TEXT": [], "SCANNED": [], "MIXED": [],
+            "EMPTY": [], "ERROR": [],
+        }
+        for r in recs:
+            groups[r["status"]].append(r["filename"])
 
         lines.append("=" * 78)
         lines.append(f"### {source}  ({len(recs)} files)")
         lines.append("=" * 78)
         lines.append("")
-
-        def block(title: str, items: list[str]) -> None:
-            lines.append(f"  {title} ({len(items)})")
+        for status in ("TEXT", "SCANNED", "MIXED", "EMPTY", "ERROR"):
+            items = sorted(groups[status])
+            lines.append(f"  {status} ({len(items)})")
             lines.append("  " + "-" * 74)
             if not items:
                 lines.append("    (none)")
@@ -258,48 +302,22 @@ def write_txt_summary(records: list[dict], out_path: Path,
                     lines.append(f"    - {f}")
             lines.append("")
 
-        block("TEXT PDFs", text_pdfs)
-        block("SCANNED PDFs", scan_pdfs)
-        block("MIXED PDFs", mixed_pdfs)
-        block("EMPTY PDFs", empty_pdfs)
-        block("ERROR PDFs", err_pdfs)
-
     lines.append("=" * 78)
     lines.append("END OF REPORT")
     lines.append("=" * 78)
-    lines.append("")
-
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
 
 # ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
 def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Classify PDFs as text/tables vs scanned."
-    )
-    parser.add_argument(
-        "--sample-pages",
-        type=int,
-        default=DEFAULT_SAMPLE_PAGES,
-        help=f"Max pages to inspect per PDF (default: {DEFAULT_SAMPLE_PAGES}).",
-    )
-    parser.add_argument(
-        "--sources",
-        nargs="+",
-        default=None,
-        help="Only analyse these source folders (e.g. alerts fdc).",
-    )
-    parser.add_argument(
-        "--output-dir",
-        type=Path,
-        default=None,
-        help="Where to write reports (default: downloads/_analysis/).",
-    )
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--sample-pages", type=int,
+                        default=DEFAULT_SAMPLE_PAGES)
+    parser.add_argument("--sources", nargs="+", default=None)
+    parser.add_argument("--output-dir", type=Path, default=None)
     args = parser.parse_args()
 
-    downloads_root: Path = cu.DOWNLOADS_ROOT
+    downloads_root = DOWNLOADS_ROOT
     if not downloads_root.is_dir():
         raise SystemExit(f"[!] Downloads root not found: {downloads_root}")
 
@@ -310,10 +328,18 @@ def main() -> None:
     if not sources:
         raise SystemExit("[!] No <source>/important/ folders found.")
 
+    # pymupdf-layout exposes its feature via pymupdf.layout, not a top-level pymupdf_layout module.
+    try:
+        import pymupdf.layout  # noqa: F401
+        layout_ok = True
+    except Exception:
+        layout_ok = False
+
     print(f"[*] Downloads root : {downloads_root}")
     print(f"[*] Output dir     : {out_dir}")
     print(f"[*] Sample pages   : {args.sample_pages}")
-    print(f"[*] Sources        : {[p.parent.name for p in sources]}")
+    print(f"[*] pymupdf_layout : "
+          f"{'installed (better table detection)' if layout_ok else 'NOT installed'}")
     print()
 
     records: list[dict] = []
@@ -322,7 +348,6 @@ def main() -> None:
     for important_dir in sources:
         source = important_dir.parent.name
         pdfs = sorted(important_dir.glob("*.pdf"))
-
         if not pdfs:
             print(f"[*] {source}: no PDFs, skipping")
             continue
@@ -336,7 +361,6 @@ def main() -> None:
 
     elapsed = time.time() - started
 
-    # Save CSV + JSON
     csv_path = out_dir / "pdf_analysis.csv"
     json_path = out_dir / "pdf_analysis.json"
     txt_path = out_dir / "pdf_analysis.txt"
@@ -348,7 +372,6 @@ def main() -> None:
     )
     write_txt_summary(records, txt_path, elapsed)
 
-    # Console summary
     by_source: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     for r in records:
         by_source[r["source"]][r["status"]] += 1
