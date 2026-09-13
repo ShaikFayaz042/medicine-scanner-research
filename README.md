@@ -2,10 +2,7 @@
 
 Research and prototype tooling for collecting, extracting, classifying, and searching medicine-safety and regulatory information published by CDSCO and IPC/PvPI.
 
-The repository currently contains two related parts:
-
-1. A reproducible document research pipeline covering CDSCO Alerts, FDC notifications, public notices, Gazette notifications, banned drugs, NSQ/spurious records, and IPC/PvPI safety alerts.
-2. A FastAPI-based CDSCO Alerts monitor that stores discovered documents in PostgreSQL, downloads PDFs, serves a small browser UI, and can poll on a schedule.
+The repository contains an automated scraper application, source-research notes, and a large PDF processing pipeline. The parts are related, but they can be run and developed independently.
 
 ## Current Status
 
@@ -21,28 +18,75 @@ These are raw extractions. Dates, names, and values are intentionally preserved 
 
 ## Sources
 
-| Source | Collection method | Main value |
-| --- | --- | --- |
-| CDSCO Alerts | HTML table and wrapped PDF links | Regulatory safety and enforcement documents |
-| CDSCO FDC | HTML tables and PDFs | Fixed-dose combination notifications |
-| CDSCO Public Notices | HTML tables and PDFs | Public regulatory notices |
-| CDSCO Gazette | HTML tables and PDFs | Legal notifications |
-| CDSCO Banned Drugs | Iframe PDF and SHA-256 tracking | Prohibition list |
-| CDSCO NSQ and Spurious | Public JSON endpoints | Batch-level quality and suspicion records |
-| IPC/PvPI | Static pages and direct PDFs | Drug safety alerts and adverse reactions |
+| Source                 | Collection method                | Main value                                  |
+| ---------------------- | -------------------------------- | ------------------------------------------- |
+| CDSCO Alerts           | HTML table and wrapped PDF links | Regulatory safety and enforcement documents |
+| CDSCO FDC              | HTML tables and PDFs             | Fixed-dose combination notifications        |
+| CDSCO Public Notices   | HTML tables and PDFs             | Public regulatory notices                   |
+| CDSCO Gazette          | HTML tables and PDFs             | Legal notifications                         |
+| CDSCO Banned Drugs     | Iframe PDF and SHA-256 tracking  | Prohibition list                            |
+| CDSCO NSQ and Spurious | Public JSON endpoints            | Batch-level quality and suspicion records   |
+| IPC/PvPI               | Static pages and direct PDFs     | Drug safety alerts and adverse reactions    |
 
 The research found that the sources can be collected with ordinary HTTP requests. Browser automation, proxies, and Scrapy are not currently required.
+
+## Repository Parts
+
+### 1. Automated scraper app: `app/`
+
+The FastAPI application monitors the CDSCO Alerts website and stores discovered documents in PostgreSQL. It includes:
+
+- Web scraping and PDF downloading for new alerts
+- SQLAlchemy models and database initialization
+- A scheduled polling job
+- A browser UI and JSON API for documents
+- Inline serving of downloaded PDFs
+
+Start it with `uvicorn app.main:app --reload` after configuring PostgreSQL. This is the application path for ongoing monitoring; it is separate from the batch research pipeline below.
+
+### 2. Website scraping research: `websites/`
+
+This folder contains the research for all supported public sources and the evidence used to choose each scraping method. It covers:
+
+- CDSCO Alerts
+- CDSCO FDC notifications
+- CDSCO Public Notices
+- CDSCO Gazette notifications
+- CDSCO Banned Drugs
+- CDSCO NSQ and Spurious records
+- IPC/PvPI Drug Safety Alerts
+
+The research records source URLs, HTTP/HTML/API behavior, extraction approaches, deduplication keys, legal caveats, and sample outputs. The main findings are summarized in `websites/README.md`.
+
+### 3. PDF download and processing pipeline
+
+The remaining folders implement the batch workflow from downloaded source files to structured records and CSV exports:
+
+| Stage                         | Folder or file                       | Output                                                                                   |
+| ----------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------- |
+| Download source files         | `cdsco-downloader/`                | PDFs and NSQ API JSON under`downloads/`                                                |
+| List exact PDF names          | `cdsco-downloader/lists_pdfs.py`   | `downloads/pdf_list.txt`                                                               |
+| Classify by filename priority | `scripts/classify_pdf_priority.py` | `downloads/priority_lists/` important/unimportant lists                                |
+| Classify PDF content          | `cdsco-downloader/analyze_pdfs.py` | `downloads/_analysis/pdf_analysis.csv` with `TEXT`, `SCANNED`, or `MIXED` status |
+| Extract raw content           | `raw_extraction/`                  | Text, OCR, tables, Markdown, and manifests                                               |
+| Classify document type        | `scripts/type_classification.py`   | Type assignments and classification reports                                              |
+| Parse records                 | `scripts/parse_*.py`               | Per-type JSON records in`structured_raw/`                                              |
+| Validate records              | `scripts/validate_records.py`      | Record-level validation reports                                                          |
+| Finalize dataset              | `scripts/finalize.py`              | Unified indexes, NDJSON, checksums, and version metadata                                 |
+| Export tabular data           | `scripts/export_csv.py`            | CSV files in`structured_raw/csv/` and `downloads/nsq_json/csv/`                      |
+
+The pipeline keeps raw source wording and extraction output available for audit while producing structured and tabular views for later search or analysis.
 
 ## Repository Layout
 
 ```text
-cdsco-downloader/  Source-specific PDF and API downloaders
-downloads/         Downloaded PDFs, API responses, and PDF analysis
+cdsco-downloader/  Source downloaders, PDF analysis, and PDF listing
+downloads/         PDFs, API responses, manifests, priority lists, and analysis
 raw_extraction/    Text, OCR, table, and Markdown extraction outputs
-scripts/           Classification, parsing, validation, finalization, and CSV export
-structured_raw/    Per-type JSON records plus unified manifests and exports
-websites/          Source research notes, samples, and findings
-app/               FastAPI monitor, PostgreSQL models, scheduler, and UI
+scripts/           Priority/type classification, parsers, validation, and exports
+structured_raw/    Per-type JSON records plus unified manifests and CSV exports
+websites/          All source scraping research, samples, and findings
+app/               Automated FastAPI scraper, database, scheduler, and UI
 docs/              Schema notes and examples
 ```
 
@@ -58,9 +102,13 @@ python -m pip install -r requirements.txt
 
 The extraction tooling may also require Tesseract OCR to be installed separately for scanned PDFs. `pymupdf-layout`, `pymupdf4llm`, RapidOCR, and Pillow are included for the available extraction paths.
 
-## Research Pipeline
+## Complete PDF-to-CSV Pipeline
 
-Run commands from the repository root. The numbered downloaders correspond to the source inventory in `cdsco-downloader/`:
+Run the following sequence from the repository root. Each stage consumes the output from the previous stage. Individual scripts support narrower runs and dry-run options; use `--help` when processing only one source or a subset of files.
+
+### Step 1: Download source PDFs and API data
+
+Run the source downloaders required for the research batch:
 
 ```powershell
 python cdsco-downloader/01_download_cdsco_alerts.py
@@ -72,24 +120,130 @@ python cdsco-downloader/06_download_ipc_pvpi.py
 python cdsco-downloader/07_fetch_cdsco_nsq_json.py
 ```
 
-Then analyze and extract the downloaded material. The extraction scripts support narrower runs; use `--help` for the current options.
+The PDF downloaders write source folders under `downloads/`. The NSQ downloader also writes structured API JSON under `downloads/nsq_json/`.
+
+### Step 2: Create the PDF name manifest
+
+Create the exact PDF inventory used by later classification steps:
+
+```powershell
+python cdsco-downloader/lists_pdfs.py
+```
+
+Output: `downloads/pdf_list.txt`, grouped by source and preserving the original filenames.
+
+### Step 3: Classify PDFs as important or unimportant
+
+There are two supported approaches:
+
+1. Generate filename-based priority lists using source and filename rules:
+
+   ```powershell
+   python scripts/classify_pdf_priority.py
+   ```
+
+   Output: `downloads/priority_lists/*_important.txt` and `*_unimportant.txt`.
+2. Apply the reviewed classification CSV to move files into source-level `important/` and `unimportant/` folders:
+
+   ```powershell
+   python cdsco-downloader/classify_pdfs.py Medicine_PDF_Classification.csv
+   ```
+
+   Output: `downloads/<source>/important/` and `downloads/<source>/unimportant/`. The input CSV must contain `File Name`, `Classification`, and `webpage source` columns.
+
+### Step 4: Classify PDFs as text, scanned, or mixed
+
+Analyze the important PDFs and identify the extraction path:
 
 ```powershell
 python cdsco-downloader/analyze_pdfs.py
+```
+
+Output: `downloads/_analysis/pdf_analysis.csv`. Its status values determine whether a file should use direct text extraction, OCR, or both. `downloads/_analysis/` also contains summary reports.
+
+### Step 5: Extract raw text, tables, and OCR
+
+Run the relevant extraction commands:
+
+```powershell
 python raw_extraction/extract_text.py
 python raw_extraction/extract_ocr.py
+python raw_extraction/extract_ocr_tesseract.py
 python raw_extraction/analyze_extraction.py
 ```
 
-Classify PDFs and parse the source-specific records with the scripts in `scripts/`. The exact parser to run depends on the source and classification result. The final dataset steps are:
+Outputs are written under `raw_extraction/text/`, `raw_extraction/ocr/`, and `raw_extraction/ocr_tesseract/`. They include page-marked text, table JSON, OCR blocks, optional Markdown, manifests, and extraction quality reports. Use the script options to limit extraction to `TEXT`, `SCANNED`, or `MIXED` files and to skip existing outputs.
+
+### Step 6: Classify document types
+
+Classify extracted documents into regulatory types such as NSQ, spurious, drug alert, FDC, Gazette, PvPI, recall, medical device, circular, and guideline:
+
+```powershell
+python scripts/type_classification.py --report
+```
+
+Output: `type_classification/`, including `_index.json`, `_manifest.json`, `_report.csv`, and type-specific folders. Manual corrections can be recorded in `type_classification/_overrides.json` and the classifier rerun.
+
+### Step 7: Parse records into `structured_raw/`
+
+Run the parser that matches each document type. A complete batch normally uses:
+
+```powershell
+python scripts/parse_nsq.py
+python scripts/parse_spurious.py
+python scripts/parse_drug_alert.py
+python scripts/parse_fdc.py
+python scripts/parse_prose.py
+```
+
+The parsers read the type-classification manifests and raw extraction outputs, then write one JSON file per document plus `_manifest.json` files under `structured_raw/<type>/`. Each record retains `raw_data` and a canonical view; normalization is intentionally deferred.
+
+### Step 8: Validate and finalize the structured dataset
+
+Validate record-level contracts, then build the unified dataset artifacts:
 
 ```powershell
 python scripts/validate_records.py
 python scripts/finalize.py --version 0.1.0
+```
+
+Outputs include `structured_raw/_record_validation.json`, `structured_raw/_validation.json`, `structured_raw/_master.json`, `structured_raw/_all_documents.json`, `structured_raw/_all_records.ndjson`, and `structured_raw/_VERSION.json`.
+
+### Step 9: Export CSV files
+
+Create flat CSV files from every structured type and from the NSQ API JSON:
+
+```powershell
 python scripts/export_csv.py
 ```
 
-`finalize.py` creates the unified manifests, validation reports, version metadata, and the streamable NDJSON export. `export_csv.py` creates one flat CSV per structured type and exports NSQ API JSON to CSV.
+Outputs:
+
+- `structured_raw/csv/<type>.csv` - one CSV per structured document type
+- `downloads/nsq_json/csv/*.csv` - CSV exports of NSQ API JSON files
+
+This is the final batch output for spreadsheet analysis or loading into a downstream database.
+
+### Step 10: Freeze and verify CSV files
+
+After CSV generation, freeze both CSV output directories with SHA-256 hashes, row counts, file sizes, and headers:
+
+```powershell
+python scripts/freeze_csv.py --freeze --version 0.1.0
+```
+
+This writes `_FREEZE.json` next to the CSV files in both output directories. Before normalization or database loading, verify that the frozen CSV files have not changed:
+
+```powershell
+python scripts/freeze_csv.py --verify
+```
+
+### CSV Freeze Rule
+
+- `structured_raw/csv/*.csv` and `downloads/nsq_json/csv/*.csv` are **FROZEN at v0.1.0**.
+- Do not edit them in place.
+- Any regeneration must create a new frozen version and a new `_FREEZE.json`.
+- Run `python scripts/freeze_csv.py --verify` before normalization or DB load.
 
 ## Running the CDSCO Monitor
 
