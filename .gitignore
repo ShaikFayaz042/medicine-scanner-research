@@ -9,3 +9,5 @@ downloads/
 ocr/
 ocr_tesseract/
 text/
+
+type_classification/
