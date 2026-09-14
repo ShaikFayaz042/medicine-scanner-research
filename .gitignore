@@ -10,3 +10,6 @@ ocr_tesseract/
 text/
 type_classification/
 structured_raw/
+
+
+normalization/output/*

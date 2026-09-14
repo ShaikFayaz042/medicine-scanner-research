@@ -1,0 +1,199 @@
+{
+  "_comment": "Maps parsed records to normalized slots. Parser produces TABLE, PROSE, and HYBRID shapes. Folder/document context is authoritative for document type.",
+  "version": "0.4.0",
+  "precedence": [
+    "document.document_type or folder alias",
+    "folder alias consistency check",
+    "record_type as validation signal",
+    "raw_data/canonical/detected for field extraction"
+  ],
+  "folder_name_aliases": {
+    "nsq": "NSQ_ALERT",
+    "spurious": "SPURIOUS_ALERT",
+    "drug_alert": "DRUG_ALERT",
+    "fdc_prohibited": "FDC_PROHIBITED",
+    "fdc_notification": "FDC_NOTIFICATION",
+    "gazette_legal": "GAZETTE_LEGAL",
+    "pvpi_safety": "PVPI_SAFETY",
+    "theft_recall": "THEFT_RECALL",
+    "medical_device": "MEDICAL_DEVICE",
+    "ivd_alert": "IVD_ALERT",
+    "circular": "CIRCULAR",
+    "guideline": "GUIDELINE",
+    "other": "OTHER"
+  },
+  "record_type_aliases": {
+    "NSQ": "NSQ_ALERT",
+    "SPURIOUS": "SPURIOUS_ALERT",
+    "DRUG_ALERT": "DRUG_ALERT",
+    "DRUG_ALERT_NARRATIVE": "DRUG_ALERT",
+    "FDC": null,
+    "GAZETTE_LEGAL": "GAZETTE_LEGAL",
+    "PVPI_SAFETY": "PVPI_SAFETY",
+    "THEFT_RECALL": "THEFT_RECALL",
+    "MEDICAL_DEVICE": "MEDICAL_DEVICE",
+    "IVD_ALERT": "IVD_ALERT",
+    "CIRCULAR": "CIRCULAR",
+    "GUIDELINE": "GUIDELINE",
+    "OTHER": "OTHER"
+  },
+  "record_shapes": {
+    "TABLE": {
+      "required_keys": ["record_type", "raw_data", "canonical"],
+      "optional_keys": ["section", "prose"],
+      "structured_source": "canonical",
+      "audit_source": "raw_data"
+    },
+    "PROSE": {
+      "required_keys": ["record_type", "raw_text"],
+      "optional_keys": ["detected"],
+      "structured_source": null,
+      "audit_source": "raw_text"
+    },
+    "HYBRID": {
+      "required_keys": ["record_type", "raw_data", "canonical", "detected"],
+      "structured_source": "canonical",
+      "audit_source": "raw_data"
+    }
+  },
+  "detected_shape": {
+    "known_keys": ["subject", "dates", "notification_numbers", "actions", "quality_flags"],
+    "preserve_in": "additional_data.detected",
+    "do_not_map_directly_to_event_status": true
+  },
+  "by_document_type": {
+    "NSQ_ALERT": {
+      "record_shape": "TABLE",
+      "canonical_to_slot": {
+        "product_name": "product_name_raw",
+        "batch_no": "batch_number_raw",
+        "mfg_date": "mfg_date_raw",
+        "exp_date": "expiry_date_raw",
+        "manufacturer": "manufacturer_name_raw",
+        "nsq_result": "reason_raw",
+        "reported_by": "sample_collected_by_raw"
+      },
+      "canonical_to_additional_data": ["s_no"]
+    },
+    "SPURIOUS_ALERT": {
+      "record_shape": "TABLE",
+      "canonical_to_slot": {
+        "product_name": "product_name_raw",
+        "batch_no": "batch_number_raw",
+        "manufacturer": "manufacturer_name_raw",
+        "remarks": "remarks_raw"
+      },
+      "canonical_to_additional_data": ["s_no"],
+      "empty_records_handling": "EMIT_DOCUMENT_ONLY_EVENT"
+    },
+    "DRUG_ALERT": {
+      "record_shape": "TABLE",
+      "canonical_to_slot": {
+        "product_name": "product_name_raw",
+        "batch_no": "batch_number_raw",
+        "nsq_result": "reason_raw",
+        "drawn_by": "sample_collected_by_raw",
+        "from_place": "source_place_raw"
+      },
+      "canonical_to_additional_data": ["s_no"]
+    },
+    "FDC_PROHIBITED": {
+      "record_shape": "TABLE",
+      "canonical_to_slot": {
+        "composition": "composition_raw",
+        "notification_number": "legal_reference_raw"
+      },
+      "canonical_to_additional_data": ["s_no"]
+    },
+    "FDC_NOTIFICATION": {
+      "record_shape": "TABLE",
+      "prose_flag_field": "prose",
+      "prose_flag_fallback_to": "PROSE",
+      "canonical_to_slot": {
+        "composition": "composition_raw",
+        "notification_number": "legal_reference_raw",
+        "notification_date": "effective_date_raw",
+        "status": "status_raw"
+      },
+      "prose_policy": {
+        "scope": "COMBINATION",
+        "event_type_fallback": "FDC_NOTIFICATION",
+        "status": null,
+        "review_required": true
+      }
+    },
+    "GAZETTE_LEGAL": {
+      "record_shape": "PROSE",
+      "prose_policy": {
+        "scope": "DOCUMENT",
+        "event_type_fallback": "DOCUMENT_ISSUANCE",
+        "status": null,
+        "review_required": true
+      }
+    },
+    "PVPI_SAFETY": {
+      "record_shape": "HYBRID",
+      "canonical_to_slot": {
+        "issue_date": "issue_date_raw",
+        "suspected_drug": "suspected_drug_raw",
+        "indication": "indication_raw",
+        "adr": "adverse_reaction_raw"
+      },
+      "canonical_to_additional_data": ["s_no"]
+    },
+    "THEFT_RECALL": {
+      "record_shape": "PROSE",
+      "prose_policy": {
+        "scope": "DOCUMENT",
+        "event_type_fallback": "THEFT_RECALL",
+        "status": "RECALLED",
+        "review_required": true
+      }
+    },
+    "MEDICAL_DEVICE": {
+      "record_shape": "PROSE",
+      "prose_policy": {
+        "scope": "DOCUMENT",
+        "event_type_fallback": "MEDICAL_DEVICE_ALERT",
+        "status": "ALERT",
+        "review_required": true
+      }
+    },
+    "IVD_ALERT": {
+      "record_shape": "PROSE",
+      "prose_policy": {
+        "scope": "DOCUMENT",
+        "event_type_fallback": "IVD_ALERT",
+        "status": "ALERT",
+        "review_required": true
+      }
+    },
+    "CIRCULAR": {
+      "record_shape": "PROSE",
+      "prose_policy": {
+        "scope": "DOCUMENT",
+        "event_type_fallback": "DOCUMENT_ISSUANCE",
+        "status": null,
+        "review_required": false
+      }
+    },
+    "GUIDELINE": {
+      "record_shape": "PROSE",
+      "prose_policy": {
+        "scope": "DOCUMENT",
+        "event_type_fallback": "DOCUMENT_ISSUANCE",
+        "status": null,
+        "review_required": false
+      }
+    },
+    "OTHER": {
+      "record_shape": "PROSE",
+      "prose_policy": {
+        "scope": "DOCUMENT",
+        "event_type_fallback": "DOCUMENT_ISSUANCE",
+        "status": null,
+        "review_required": true
+      }
+    }
+  }
+}

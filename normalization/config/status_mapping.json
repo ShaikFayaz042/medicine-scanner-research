@@ -1,0 +1,253 @@
+{
+  "_comment": "Priority-based matching. Evaluate DESCENDING priority; first match wins. document_type, event_type, status, legal_status, investigation_status, scope are separate dimensions.",
+  "version": "0.3.0",
+  "match_policy": {
+    "order": "priority DESC, then longest matched phrase",
+    "case": "case-insensitive",
+    "whitespace": "collapsed",
+    "tie_breaker": "longer match wins"
+  },
+  "rules": [
+    {
+      "priority": 100,
+      "match": ["fdc prohibition", "prohibition of fdc", "fdc prohibited", "prohibition of fixed dose combination"],
+      "event_type": "FDC_PROHIBITION",
+      "status": "PROHIBITED",
+      "legal_status": "PROHIBITED",
+      "investigation_status": null,
+      "scope": "COMBINATION"
+    },
+    {
+      "priority": 100,
+      "match": ["fdc restriction", "fdc restricted", "restriction of fdc"],
+      "event_type": "FDC_RESTRICTION",
+      "status": "RESTRICTED",
+      "legal_status": "RESTRICTED",
+      "investigation_status": null,
+      "scope": "COMBINATION"
+    },
+    {
+      "priority": 95,
+      "match": ["theft", "stolen", "pilferage"],
+      "event_type": "THEFT_RECALL",
+      "status": "RECALLED",
+      "legal_status": null,
+      "investigation_status": "UNDER_INVESTIGATION",
+      "scope": "BATCH"
+    },
+    {
+      "priority": 92,
+      "match": ["ivd alert", "in-vitro diagnostic", "in vitro diagnostic"],
+      "event_type": "IVD_ALERT",
+      "status": "ALERT",
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "PRODUCT"
+    },
+    {
+      "priority": 90,
+      "match": ["suspected spurious", "under investigation for spurious"],
+      "event_type": "SPURIOUS_ALERT",
+      "status": "SUSPECTED_SPURIOUS",
+      "legal_status": null,
+      "investigation_status": "UNDER_INVESTIGATION",
+      "scope": "BATCH"
+    },
+    {
+      "priority": 90,
+      "match": ["confirmed spurious"],
+      "event_type": "SPURIOUS_ALERT",
+      "status": "SPURIOUS",
+      "legal_status": null,
+      "investigation_status": "CONFIRMED",
+      "scope": "BATCH"
+    },
+    {
+      "priority": 88,
+      "match": ["falsified"],
+      "event_type": "SPURIOUS_ALERT",
+      "status": "FALSIFIED",
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "BATCH"
+    },
+    {
+      "priority": 85,
+      "match": ["spurious"],
+      "event_type": "SPURIOUS_ALERT",
+      "status": "SPURIOUS",
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "BATCH"
+    },
+    {
+      "priority": 80,
+      "match": ["not of standard quality", "declared as not of standard", "quality not of standard", "nsq"],
+      "event_type": "QUALITY_FAILURE",
+      "status": "NOT_OF_STANDARD_QUALITY",
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "BATCH"
+    },
+    {
+      "priority": 80,
+      "match": ["voluntary recall", "forced recall", "recalled", "recall"],
+      "event_type": "RECALL",
+      "status": "RECALLED",
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "BATCH"
+    },
+    {
+      "priority": 75,
+      "match": ["fdc notification", "fdc approval", "fdc permitted", "fixed dose combination notification"],
+      "event_type": "FDC_NOTIFICATION",
+      "status": null,
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "COMBINATION"
+    },
+    {
+      "priority": 70,
+      "match": ["revoked with conditions", "revoked-with-conditions"],
+      "event_type": "PROHIBITION",
+      "status": "REVOKED_WITH_CONDITIONS",
+      "legal_status": "REVOKED_WITH_CONDITIONS",
+      "investigation_status": null,
+      "scope": "PRODUCT"
+    },
+    {
+      "priority": 70,
+      "match": ["quashed"],
+      "event_type": "PROHIBITION",
+      "status": "QUASHED",
+      "legal_status": "QUASHED",
+      "investigation_status": null,
+      "scope": "PRODUCT"
+    },
+    {
+      "priority": 70,
+      "match": ["stayed"],
+      "event_type": "PROHIBITION",
+      "status": "STAYED",
+      "legal_status": "STAYED",
+      "investigation_status": null,
+      "scope": "PRODUCT"
+    },
+    {
+      "priority": 60,
+      "match": ["restricted"],
+      "event_type": "RESTRICTION",
+      "status": "RESTRICTED",
+      "legal_status": "RESTRICTED",
+      "investigation_status": null,
+      "scope": "PRODUCT"
+    },
+    {
+      "priority": 60,
+      "match": ["pharmacovigilance", "adverse drug reaction", "adr", "safety alert"],
+      "event_type": "PHARMACOVIGILANCE_SAFETY_ALERT",
+      "status": "SAFETY_ALERT",
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "PRODUCT"
+    },
+    {
+      "priority": 55,
+      "match": ["medical device alert", "medical device"],
+      "event_type": "MEDICAL_DEVICE_ALERT",
+      "status": "ALERT",
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "PRODUCT"
+    },
+    {
+      "priority": 50,
+      "match": ["drug alert", "alert"],
+      "event_type": "DRUG_ALERT",
+      "status": "ALERT",
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "PRODUCT"
+    },
+    {
+      "priority": 50,
+      "match": ["prohibited", "banned"],
+      "event_type": "PROHIBITION",
+      "status": "PROHIBITED",
+      "legal_status": "PROHIBITED",
+      "investigation_status": null,
+      "scope": "PRODUCT"
+    },
+    {
+      "priority": 30,
+      "match": ["circular"],
+      "event_type": "DOCUMENT_ISSUANCE",
+      "status": null,
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "DOCUMENT"
+    },
+    {
+      "priority": 30,
+      "match": ["guideline", "guidelines"],
+      "event_type": "DOCUMENT_ISSUANCE",
+      "status": null,
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "DOCUMENT"
+    },
+    {
+      "priority": 30,
+      "match": ["gazette notification", "notification"],
+      "event_type": "DOCUMENT_ISSUANCE",
+      "status": null,
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "DOCUMENT"
+    },
+    {
+      "priority": 0,
+      "match": ["*"],
+      "event_type": "DOCUMENT_ISSUANCE",
+      "status": null,
+      "legal_status": null,
+      "investigation_status": null,
+      "scope": "DOCUMENT",
+      "note": "Fallback for unmatched records, including OTHER and empty records. event_type NOT NULL constraint satisfied."
+    }
+  ],
+  "scope_values": ["BATCH", "PRODUCT", "COMBINATION", "INDUSTRY", "DOCUMENT"],
+  "event_type_values": [
+    "QUALITY_FAILURE",
+    "SPURIOUS_ALERT",
+    "PROHIBITION",
+    "RESTRICTION",
+    "FDC_PROHIBITION",
+    "FDC_RESTRICTION",
+    "FDC_NOTIFICATION",
+    "RECALL",
+    "THEFT_RECALL",
+    "DRUG_ALERT",
+    "PHARMACOVIGILANCE_SAFETY_ALERT",
+    "MEDICAL_DEVICE_ALERT",
+    "IVD_ALERT",
+    "DOCUMENT_ISSUANCE"
+  ],
+  "status_values": [
+    "NOT_OF_STANDARD_QUALITY",
+    "SPURIOUS",
+    "SUSPECTED_SPURIOUS",
+    "FALSIFIED",
+    "PROHIBITED",
+    "QUASHED",
+    "STAYED",
+    "REVOKED_WITH_CONDITIONS",
+    "RESTRICTED",
+    "RECALLED",
+    "SAFETY_ALERT",
+    "ALERT"
+  ],
+  "legal_status_values": ["PROHIBITED", "RESTRICTED", "QUASHED", "STAYED", "REVOKED_WITH_CONDITIONS"],
+  "investigation_status_values": ["CONFIRMED", "UNDER_INVESTIGATION", "CLOSED"]
+}

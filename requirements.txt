@@ -1,20 +1,31 @@
+# HTTP and HTML scraping
 requests
 beautifulsoup4
-pymupdf
-pdfplumber
+
+# FastAPI application
 fastapi
 uvicorn
 jinja2
+pydantic
 sqlalchemy
 apscheduler
-python-multipart
 psycopg2-binary
-tqdm
-pdfplumber
+
+# Database loader
+psycopg[binary]
+
+# PDF extraction and OCR
 pymupdf
-pymupdf4llm
 pymupdf-layout
+pymupdf4llm
+pdfplumber
+numpy
+pillow
+pytesseract
 rapidocr
 onnxruntime
-pillow
-img2table[rapidocr]
+
+# Normalization and progress reporting
+python-dateutil
+rapidfuzz
+tqdm

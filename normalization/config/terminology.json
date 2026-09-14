@@ -1,0 +1,83 @@
+{
+  "_comment": "Controlled vocabulary. Aligned with actual classifier output in type_classification/_index.json.",
+  "version": "0.3.0",
+  "alignment_source": "type_classification/_index.json @ 2026-09-13T13:29:33+00:00",
+
+  "source_org": {
+    "cdsco": "CDSCO",
+    "central drugs standard control organisation": "CDSCO",
+    "central drugs standard control organization": "CDSCO",
+    "ipc": "IPC",
+    "indian pharmacopoeia commission": "IPC",
+    "pvpi": "PvPI",
+    "pharmacovigilance programme of india": "PvPI"
+  },
+
+  "source_category": {
+    "alerts": "ALERTS",
+    "fdc": "FDC",
+    "banned_drugs": "BANNED_DRUGS",
+    "public_notices": "PUBLIC_NOTICES",
+    "gazette": "GAZETTE",
+    "ipc_pvpi": "IPC_PVPI"
+  },
+
+  "document_type": {
+    "_comment": "Exactly matches type_classification keys. Do not rename or drop any without updating the classifier.",
+    "nsq_alert":        "NSQ_ALERT",
+    "spurious_alert":   "SPURIOUS_ALERT",
+    "drug_alert":       "DRUG_ALERT",
+    "fdc_prohibited":   "FDC_PROHIBITED",
+    "fdc_notification": "FDC_NOTIFICATION",
+    "gazette_legal":    "GAZETTE_LEGAL",
+    "pvpi_safety":      "PVPI_SAFETY",
+    "theft_recall":     "THEFT_RECALL",
+    "medical_device":   "MEDICAL_DEVICE",
+    "ivd_alert":        "IVD_ALERT",
+    "circular":         "CIRCULAR",
+    "guideline":        "GUIDELINE",
+    "other":            "OTHER"
+  },
+
+  "dosage_form": {
+    "tablet": "TABLET",
+    "tablets": "TABLET",
+    "tab": "TABLET",
+    "capsule": "CAPSULE",
+    "capsules": "CAPSULE",
+    "cap": "CAPSULE",
+    "syrup": "SYRUP",
+    "suspension": "SUSPENSION",
+    "injection": "INJECTION",
+    "inj": "INJECTION",
+    "cream": "CREAM",
+    "ointment": "OINTMENT",
+    "gel": "GEL",
+    "drops": "DROPS",
+    "solution": "SOLUTION",
+    "powder": "POWDER",
+    "granules": "GRANULES",
+    "sachet": "SACHET"
+  },
+
+  "unit": {
+    "mg": "mg", "milligram": "mg", "milligrams": "mg",
+    "mcg": "mcg", "ug": "mcg", "microgram": "mcg",
+    "g": "g", "gm": "g", "gram": "g", "grams": "g",
+    "ml": "ml", "millilitre": "ml", "milliliter": "ml",
+    "iu": "IU", "iu.": "IU",
+    "%": "%", "w/w": "w/w", "w/v": "w/v", "v/v": "v/v"
+  },
+
+  "basis": {
+    "as elemental": "ELEMENTAL",
+    "elemental": "ELEMENTAL",
+    "equivalent to": "EQUIVALENT_TO",
+    "as sustained release": "SUSTAINED_RELEASE",
+    "sustained release": "SUSTAINED_RELEASE",
+    "sr": "SUSTAINED_RELEASE",
+    "as base": "BASE",
+    "per 5ml": "PER_5ML",
+    "per ml": "PER_ML"
+  }
+}
