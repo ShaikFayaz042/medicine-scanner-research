@@ -8,10 +8,10 @@ After seeding, the DB contains rows 5-6 only.
 When the scheduler runs later, it will detect rows 1-4 as NEW
 and download them — that's the automation proof.
 """
-from app.database import SessionLocal
-from app.models import Document
-from app.pdf_handler import download_pdf
-from app.scraper import scrape_alerts
+from automated_scraper.database import SessionLocal
+from automated_scraper.models import Document
+from automated_scraper.pdf_handler import download_pdf
+from automated_scraper.scraper import scrape_alerts
 
 # --- Demo configuration ---
 FETCH_LIMIT = 6    # fetch top 6 so we can see the full demo window

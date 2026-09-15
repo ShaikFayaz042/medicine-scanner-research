@@ -5,7 +5,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from app.config import CDSCO_ALERTS_URL, USER_AGENT
+from automated_scraper.config import CDSCO_ALERTS_URL, USER_AGENT
 
 BASE_URL = "https://cdsco.gov.in"
 

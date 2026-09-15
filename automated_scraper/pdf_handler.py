@@ -5,7 +5,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from app.config import PDF_DIR, USER_AGENT
+from automated_scraper.config import PDF_DIR, USER_AGENT
 
 
 def _fetch_pdf_bytes(url: str, referer: str | None = None) -> bytes:

@@ -17,10 +17,10 @@ Watermark rule:
 """
 from datetime import datetime
 
-from app.database import SessionLocal
-from app.models import Document
-from app.pdf_handler import download_pdf
-from app.scraper import scrape_alerts
+from automated_scraper.database import SessionLocal
+from automated_scraper.models import Document
+from automated_scraper.pdf_handler import download_pdf
+from automated_scraper.scraper import scrape_alerts
 
 
 # ---------------------------------------------------------------------------

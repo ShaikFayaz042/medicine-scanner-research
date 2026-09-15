@@ -10,9 +10,9 @@ from datetime import datetime
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 
-from app.database import SessionLocal
-from app.jobs import run_scraper_job
-from app.models import SchedulerConfig
+from automated_scraper.database import SessionLocal
+from automated_scraper.jobs import run_scraper_job
+from automated_scraper.models import SchedulerConfig
 
 JOB_ID = "cdsco_scraper"
 

@@ -5,7 +5,7 @@ from sqlalchemy import (
     Column, Integer, String, DateTime, BigInteger, Boolean, Index
 )
 
-from app.database import Base
+from automated_scraper.database import Base
 
 
 class Document(Base):

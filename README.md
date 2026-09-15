@@ -32,7 +32,7 @@ The research found that the sources can be collected with ordinary HTTP requests
 
 ## Repository Parts
 
-### 1. Automated scraper app: `app/`
+### 1. Automated scraper app: `automated_scraper/`
 
 The FastAPI application monitors the CDSCO Alerts website and stores discovered documents in PostgreSQL. It includes:
 
@@ -42,7 +42,21 @@ The FastAPI application monitors the CDSCO Alerts website and stores discovered 
 - A browser UI and JSON API for documents
 - Inline serving of downloaded PDFs
 
-Start it with `uvicorn app.main:app --reload` after configuring PostgreSQL. This is the application path for ongoing monitoring; it is separate from the batch research pipeline below.
+The app modules are used as follows:
+
+- `automated_scraper/main.py` - FastAPI application, routes, UI, and scheduler lifespan
+- `automated_scraper/config.py` - environment, database, and storage configuration
+- `automated_scraper/database.py` - SQLAlchemy engine, sessions, and FastAPI database dependency
+- `automated_scraper/models.py` - document and scheduler ORM models
+- `automated_scraper/scraper.py` - CDSCO Alerts page scraper
+- `automated_scraper/pdf_handler.py` - wrapped/iframe PDF resolution and storage
+- `automated_scraper/jobs.py` - incremental scrape and download job
+- `automated_scraper/scheduler.py` - APScheduler lifecycle and configuration
+- `automated_scraper/init_db.py` - creates the app's SQLAlchemy tables
+- `automated_scraper/seed.py` - demonstration seed and download run
+- `automated_scraper/__init__.py` - package marker
+
+Start it with `uvicorn automated_scraper.main:app --reload` after configuring PostgreSQL. This is the application path for ongoing monitoring; it is separate from the batch research pipeline below.
 
 ### 2. Website scraping research: `websites/`
 
@@ -58,30 +72,45 @@ This folder contains the research for all supported public sources and the evide
 
 The research records source URLs, HTTP/HTML/API behavior, extraction approaches, deduplication keys, legal caveats, and sample outputs. The main findings are summarized in `websites/README.md`.
 
+The website research scripts are standalone discovery and validation tools; they are not imported by the production batch pipeline. Their associated research flows are:
+
+- **CDSCO Alerts:** `websites/cdsco-alerts/http-requests/test.py` probes access, `websites/cdsco-alerts/html-extraction/parse_alerts.py` parses saved HTML, and `websites/cdsco-alerts/pdf-download/download_one.py` downloads sample wrapped PDFs. These are historical research tools; production downloading uses `cdsco-downloader/01_download_cdsco_alerts.py`.
+- **CDSCO FDC:** `websites/cdsco-fdc/http-requests/fdc_test.py` -> `websites/cdsco-fdc/html-extraction/parse_fdc.py` -> `websites/cdsco-fdc/pdf-download/download_fdc.py`. Production downloading uses `cdsco-downloader/02_download_cdsco_fdc.py`.
+- **CDSCO Public Notices:** `websites/cdsco-public-notices/http-requests/pn_test.py` -> `websites/cdsco-public-notices/html-extraction/parse_pn.py`. Production downloading uses `cdsco-downloader/03_download_cdsco_public_notices.py`.
+- **CDSCO Gazette:** `websites/cdsco-gazette-notifications/http-requests/gazette_test.py` -> `websites/cdsco-gazette-notifications/html-extraction/parse_gazette.py`. Production downloading uses `cdsco-downloader/04_download_cdsco_gazette.py`.
+- **CDSCO Banned Drugs:** `websites/cdsco-banned-drugs/http-requests/homepage_links.py` discovers links; `websites/cdsco-banned-drugs/http-requests/banned_test.py` probes the page and iframe; `websites/cdsco-banned-drugs/pdf-download/download_banned.py` downloads candidate PDFs. Production downloading uses `cdsco-downloader/05_download_cdsco_banned_drugs.py`.
+- **CDSCO NSQ and Spurious:** `websites/cdsco-nsq/http-requests/nsq_test.py` and `nsq_iframe_test.py` probe the portal; `websites/cdsco-nsq/api-endpoint/probe_api.py` -> `discover_months.py` -> `pilot_filtered_api.py` -> `backfill_all.py` investigate and backfill the JSON API. `verify_num_id_linkage.py` is a separate negative-control experiment. Production fetching uses `cdsco-downloader/07_fetch_cdsco_nsq_json.py`.
+- **IPC/PvPI:** `websites/ipc-pvpi/http-requests/ipc_test.py` -> `websites/ipc-pvpi/html-extraction/parse_ipc_pvpi.py`. Production downloading uses `cdsco-downloader/06_download_ipc_pvpi.py`.
+
+The research scripts may contain sample outputs or source-specific findings, but the downloader scripts above are the supported repeatable batch entry points.
+
 ### 3. PDF download and processing pipeline
 
 The remaining folders implement the batch workflow from downloaded source files to structured records and CSV exports:
 
-| Stage                         | Folder or file                                                | Output                                                                                   |
-| ----------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Download source files         | `cdsco-downloader/`                                         | PDFs and NSQ API JSON under`downloads/`                                                |
-| List exact PDF names          | `cdsco-downloader/lists_pdfs.py`                            | `downloads/pdf_list.txt`                                                               |
-| Classify by filename priority | `scripts/classify_pdf_priority.py`                          | `downloads/priority_lists/` important/unimportant lists                                |
-| Classify PDF content          | `cdsco-downloader/analyze_pdfs.py`                          | `downloads/_analysis/pdf_analysis.csv` with `TEXT`, `SCANNED`, or `MIXED` status |
-| Extract raw content           | `raw_extraction/`                                           | Text, OCR, tables, Markdown, and manifests                                               |
-| Classify document type        | `scripts/type_classification.py`                            | Type assignments and classification reports                                              |
-| Parse records                 | `scripts/parse_*.py`                                        | Per-type JSON records in`structured_raw/`                                              |
-| Validate records              | `scripts/validate_records.py`                               | Record-level validation reports                                                          |
-| Finalize dataset              | `scripts/finalize.py`                                       | Unified indexes, NDJSON, checksums, and version metadata                                 |
-| Export tabular data           | `scripts/export_csv.py`                                     | CSV files in`structured_raw/csv/` and `downloads/nsq_json/csv/`                      |
-| Normalize document metadata   | `normalization/normalize_documents.py`                      | `normalization/output/documents.jsonl`                                                 |
-| Backfill document provenance  | `normalization/backfill_document_metadata.py`               | `normalization/output/documents_with_provenance.jsonl`                                 |
-| Normalize events and entities | `normalization/`                                            | Candidate JSONL files under`normalization/output/`                                     |
+| Stage                         | Folder or file                                                              | Output                                                                                   |
+| ----------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Download source files         | `cdsco-downloader/`                                                       | PDFs and NSQ API JSON under`downloads/`                                                |
+| List exact PDF names          | `cdsco-downloader/lists_pdfs.py`                                          | `downloads/pdf_list.txt`                                                               |
+| Classify by filename priority | `scripts/classify_pdf_priority.py`                                        | `downloads/priority_lists/` important/unimportant lists                                |
+| Classify PDF content          | `cdsco-downloader/analyze_pdfs.py`                                        | `downloads/_analysis/pdf_analysis.csv` with `TEXT`, `SCANNED`, or `MIXED` status |
+| Extract raw content           | `raw_extraction/`                                                         | Text, OCR, tables, Markdown, and manifests                                               |
+| Classify document type        | `scripts/type_classification.py`                                          | Type assignments and classification reports                                              |
+| Parse records                 | `scripts/parse_*.py`                                                      | Per-type JSON records in`structured_raw/`                                              |
+| Validate records              | `scripts/validate_records.py`                                             | Record-level validation reports                                                          |
+| Finalize dataset              | `scripts/finalize.py`                                                     | Unified indexes, NDJSON, checksums, and version metadata                                 |
+| Export tabular data           | `scripts/export_csv.py`                                                   | CSV files in`structured_raw/csv/` and `downloads/nsq_json/csv/`                      |
+| Freeze and verify CSV files   | `scripts/freeze_csv.py`                                                   | `_FREEZE.json` manifests with hashes, sizes, row counts, and headers                   |
+| Normalize document metadata   | `normalization/normalize_documents.py`                                    | `normalization/output/documents.jsonl`                                                 |
+| Backfill document provenance  | `normalization/backfill_document_metadata.py`                             | `normalization/output/documents_with_provenance.jsonl`                                 |
+| Normalize events and entities | `normalization/`                                                          | Candidate JSONL files under`normalization/output/`                                     |
 | Resolve and remap entities    | `normalization/resolve_entities.py`, `normalization/remap_canonical.py` | Canonical entities and maps                                                              |
-| Build provenance links        | `normalization/build_entity_sources.py`                     | `normalization/output/entity_sources.jsonl`                                            |
-| Load PostgreSQL database      | `database/schema.sql`, `database/load.py`                 | `medicine_scanner` schema and tables                                                   |
+| Build provenance links        | `normalization/build_entity_sources.py`                                   | `normalization/output/entity_sources.jsonl`                                            |
+| Load PostgreSQL database      | `database/schema.sql`, `database/load.py`                               | `medicine_scanner` schema and tables                                                   |
 
 The pipeline keeps raw source wording and extraction output available for audit while producing structured and tabular views for later search or analysis.
+
+The downloader scripts share `cdsco-downloader/cdsco_utils.py`, which provides the HTTP session, wrapped/iframe PDF resolution, filename handling, hashing, and source metadata helpers. It is imported by the source downloaders and by the PDF inventory/classification utilities.
 
 ## Repository Layout
 
@@ -94,7 +123,7 @@ structured_raw/    Per-type JSON records plus unified manifests and CSV exports
 normalization/     Candidate normalization, entity resolution, canonical remapping, and provenance outputs
 database/          PostgreSQL schema, migration, normalized-data loader, and integrity checks
 websites/          All source scraping research, samples, and findings
-app/               Automated FastAPI scraper, database, scheduler, and UI
+automated_scraper/ Automated FastAPI scraper, database, scheduler, and UI
 docs/              Schema notes and examples
 ```
 
@@ -128,7 +157,7 @@ python cdsco-downloader/06_download_ipc_pvpi.py
 python cdsco-downloader/07_fetch_cdsco_nsq_json.py
 ```
 
-The PDF downloaders write source folders under `downloads/`. The NSQ downloader also writes structured API JSON under `downloads/nsq_json/`.
+The seven downloaders use `cdsco-downloader/cdsco_utils.py` for shared HTTP sessions, wrapped/iframe PDF resolution, hashing, filenames, and source metadata. They write source folders under `downloads/`. The NSQ downloader also writes structured API JSON under `downloads/nsq_json/`.
 
 ### Step 2: Create the PDF name manifest
 
@@ -139,6 +168,8 @@ python cdsco-downloader/lists_pdfs.py
 ```
 
 Output: `downloads/pdf_list.txt`, grouped by source and preserving the original filenames.
+
+This command uses `cdsco-downloader/cdsco_utils.py` for source-aware file and metadata handling.
 
 ### Step 3: Classify PDFs as important or unimportant
 
@@ -204,7 +235,7 @@ python scripts/parse_fdc.py
 python scripts/parse_prose.py
 ```
 
-The parsers read the type-classification manifests and raw extraction outputs, then write one JSON file per document plus `_manifest.json` files under `structured_raw/<type>/`. Each record retains `raw_data` and a canonical view; normalization is intentionally deferred.
+The parser entry points are `parse_nsq.py`, `parse_spurious.py`, `parse_drug_alert.py`, `parse_fdc.py`, and `parse_prose.py`. They read the type-classification manifests and raw extraction outputs, then write one JSON file per document plus `_manifest.json` files under `structured_raw/<type>/`. Each record retains `raw_data` and a canonical view; normalization is intentionally deferred.
 
 ### Step 8: Validate and finalize the structured dataset
 
@@ -269,6 +300,8 @@ python normalization/normalize_events.py
 
 Outputs include `documents.jsonl`, `documents_with_provenance.jsonl`, and `events.jsonl`. The provenance backfill creates a separate file and leaves `documents.jsonl` unchanged.
 
+These scripts use `normalization/common.py` for shared configuration, normalization, parsing, key generation, JSONL I/O, and source-record helpers.
+
 ### Step 12: Create product, manufacturer, ingredient, and batch candidates
 
 ```powershell
@@ -279,7 +312,7 @@ python normalization/normalize_batches.py
 python normalization/validate_normalized.py
 ```
 
-These commands write candidate entities and product-ingredient links to `normalization/output/`. `validate_normalized.py` checks that generated `source_record_id` values resolve back to `structured_raw/` records.
+The candidate entry points are `normalize_manufacturers.py`, `normalize_products.py`, `normalize_ingredients.py`, `normalize_batches.py`, and `validate_normalized.py`. They use `normalization/common.py` for shared configuration, normalization, parsing, key generation, JSONL I/O, and source-record helpers. These commands write candidate entities and product-ingredient links to `normalization/output/`. `validate_normalized.py` checks that generated `source_record_id` values resolve back to `structured_raw/` records.
 
 For a small test run, limit event generation per classified folder:
 
@@ -300,7 +333,7 @@ python normalization/build_entity_sources.py
 python normalization/validate_remap.py
 ```
 
-Important outputs are `normalization/output/canonical/*.jsonl`, `normalization/output/events_canonical.jsonl`, and `normalization/output/entity_sources.jsonl`. Review `normalization/output/entity_review.jsonl` and any `review_required` rows before treating merges as final.
+The entity-resolution entry points are `resolve_entities.py`, `remap_canonical.py`, `build_entity_sources.py`, and `validate_remap.py`. Important outputs are `normalization/output/canonical/*.jsonl`, `normalization/output/events_canonical.jsonl`, and `normalization/output/entity_sources.jsonl`. Review `normalization/output/entity_review.jsonl` and any `review_required` rows before treating merges as final.
 
 ### Step 14: Create the PostgreSQL schema
 
@@ -350,9 +383,9 @@ $env:DB_NAME = "cdsco_monitor"
 $env:DB_USER = "postgres"
 $env:DB_PASSWORD = "<your-password>"
 
-python -m app.init_db
-python -m app.seed
-uvicorn app.main:app --reload
+python -m automated_scraper.init_db
+python -m automated_scraper.seed
+uvicorn automated_scraper.main:app --reload
 ```
 
 Open `http://127.0.0.1:8000/`. Useful endpoints include:
@@ -364,7 +397,7 @@ Open `http://127.0.0.1:8000/`. Useful endpoints include:
 - `GET /api/scheduler` and `PUT /api/scheduler` - inspect or update scheduling
 - `GET /static-pdf/{document_id}.pdf` - serve a local PDF inline
 
-`app.seed` is a demonstration seed: it inserts and downloads two of the six fetched alerts, reserving the newest four for the scheduler demo. It is not a production ingestion command.
+`automated_scraper.seed` is a demonstration seed: it inserts and downloads two of the six fetched alerts, reserving the newest four for the scheduler demo. It is not a production ingestion command.
 
 ## Data and Legal Handling
 
@@ -403,36 +436,36 @@ The `medicine_scanner` schema currently has eight populated tables. Below is one
 
 #### 1. `regulatory_documents`
 
-| id | source_org | document_type | title | pdf_filename |
-|---:|---|---|---|---|
-| 4346 | CDSCO | NSQ_ALERT | 11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024 | 11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.pdf |
-| 4347 | CDSCO | NSQ_ALERT | 11372_NSQ_May_2024_CDSCO_Labs | 11372_NSQ_May_2024_CDSCO_Labs.pdf |
+|   id | source_org | document_type | title                                                           | pdf_filename                                                        |
+| ---: | ---------- | ------------- | --------------------------------------------------------------- | ------------------------------------------------------------------- |
+| 4346 | CDSCO      | NSQ_ALERT     | 11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024 | 11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.pdf |
+| 4347 | CDSCO      | NSQ_ALERT     | 11372_NSQ_May_2024_CDSCO_Labs                                   | 11372_NSQ_May_2024_CDSCO_Labs.pdf                                   |
 
 Original government documents, source PDFs, and URLs.
 
 #### 2. `manufacturers`
 
-| id | name | normalized_name | match_status |
-|---:|---|---|---|
-| 5787 | pulse pharma mfg co s no 553 lala estate idar highway road savgadh himatnagar gujarat india | pulse pharma mfg co s no 553 lala estate idar highway road savgadh himatnagar gujarat india | UNREVIEWED |
-| 5788 | ratnatris pharmaceuticals pvt ltd survey no 416 at indrad tal kadi dist mehsana 382715 gujarat india | ratnatris pharmaceuticals pvt ltd survey no 416 at indrad tal kadi dist mehsana 382715 gujarat india | UNREVIEWED |
+|   id | name                                                                                                 | normalized_name                                                                                      | match_status |
+| ---: | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------ |
+| 5787 | pulse pharma mfg co s no 553 lala estate idar highway road savgadh himatnagar gujarat india          | pulse pharma mfg co s no 553 lala estate idar highway road savgadh himatnagar gujarat india          | UNREVIEWED   |
+| 5788 | ratnatris pharmaceuticals pvt ltd survey no 416 at indrad tal kadi dist mehsana 382715 gujarat india | ratnatris pharmaceuticals pvt ltd survey no 416 at indrad tal kadi dist mehsana 382715 gujarat india | UNREVIEWED   |
 
 Manufacturers referenced by products or batches.
 
 #### 3. `products`
 
-| id | product_name | normalized_search_name | manufacturer_id |
-|---:|---|---|---:|
-| 37094 | Pemolate Suspension | pemolate suspension | NULL |
-| 37095 | Senocartine | senocartine | NULL |
+|    id | product_name        | normalized_search_name | manufacturer_id |
+| ----: | ------------------- | ---------------------- | --------------: |
+| 37094 | Pemolate Suspension | pemolate suspension    |            NULL |
+| 37095 | Senocartine         | senocartine            |            NULL |
 
 Main medicine/product lookup table.
 
 #### 4. `ingredients`
 
-| id | name | normalized_name |
-|---:|---|---|
-| 9038 | Paracetamol | paracetamol |
+|   id | name                                                              | normalized_name                                                 |
+| ---: | ----------------------------------------------------------------- | --------------------------------------------------------------- |
+| 9038 | Paracetamol                                                       | paracetamol                                                     |
 | 9039 | Phenylephrine Hydrochloride & Chlorpheniramine Maleate Suspension | phenylephrine hydrochloride chlorpheniramine maleate suspension |
 
 Salt/API lookup table.
@@ -440,36 +473,36 @@ Salt/API lookup table.
 #### 5. `product_ingredients`
 
 | product_id | ingredient_id | strength_text | unit | sequence_no |
-|---:|---:|---|---|---:|
-| 37094 | 9038 | NULL | NULL | 1 |
-| 37094 | 9039 | NULL | NULL | 2 |
+| ---------: | ------------: | ------------- | ---- | ----------: |
+|      37094 |          9038 | NULL          | NULL |           1 |
+|      37094 |          9039 | NULL          | NULL |           2 |
 
 Relationship linking product 37094 to its two ingredient records.
 
 #### 6. `batches`
 
-| id | product_id | manufacturer_id | batch_number | expiry_date |
-|---:|---:|---:|---|---|
-| 45796 | 37094 | 5787 | 407 | NULL |
-| 45797 | 37095 | 5788 | RS23049 | NULL |
+|    id | product_id | manufacturer_id | batch_number | expiry_date |
+| ----: | ---------: | --------------: | ------------ | ----------- |
+| 45796 |      37094 |            5787 | 407          | NULL        |
+| 45797 |      37095 |            5788 | RS23049      | NULL        |
 
 Batch-specific lookup, including product, manufacturer, and expiry data.
 
 #### 7. `regulatory_events`
 
-| id | document_id | product_id | batch_id | scope | event_type | status |
-|---:|---:|---:|---:|---|---|---|
-| 113833 | 4346 | 37094 | 45796 | BATCH | QUALITY_FAILURE | NOT_OF_STANDARD_QUALITY |
-| 113834 | 4346 | 37095 | 45797 | BATCH | QUALITY_FAILURE | NOT_OF_STANDARD_QUALITY |
+|     id | document_id | product_id | batch_id | scope | event_type      | status                  |
+| -----: | ----------: | ---------: | -------: | ----- | --------------- | ----------------------- |
+| 113833 |        4346 |      37094 |    45796 | BATCH | QUALITY_FAILURE | NOT_OF_STANDARD_QUALITY |
+| 113834 |        4346 |      37095 |    45797 | BATCH | QUALITY_FAILURE | NOT_OF_STANDARD_QUALITY |
 
 Regulatory result, status, reason, and event scope. The full event also contains the reason `Assay of Paracetamol & Phenylephrine Hydrochloride` for event 113833.
 
 #### 8. `entity_sources`
 
-| id | entity_table | entity_id | source_record_id | document_id |
-|---:|---|---:|---|---:|
-| 106533 | products | 37094 | nsq/11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.json#0 | 4346 |
-| 106534 | products | 37095 | nsq/11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.json#1 | 4346 |
+|     id | entity_table | entity_id | source_record_id                                                           | document_id |
+| -----: | ------------ | --------: | -------------------------------------------------------------------------- | ----------: |
+| 106533 | products     |     37094 | nsq/11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.json#0 |        4346 |
+| 106534 | products     |     37095 | nsq/11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.json#1 |        4346 |
 
 Provenance links from database entities to original structured source records.
 
@@ -624,4 +657,5 @@ products
 ```
 
 `ingredients` and `product_ingredients` are therefore required for salt/composition search, but they are not required for a normal exact medicine-plus-batch lookup. `entity_sources` is the audit/provenance layer, not a primary product search table. FDC combination events may have `product_id=NULL` and `scope=COMBINATION`, so those require a separate composition-based event query.
+
 - `classify_report.txt` and `downloads/_analysis/` - PDF classification and analysis artifacts

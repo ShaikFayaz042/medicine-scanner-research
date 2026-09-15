@@ -8,11 +8,11 @@ from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel, Field
 
-from app.config import PDF_DIR
-from app.database import SessionLocal
-from app.jobs import run_scraper_job, _parse_cdsco_date
-from app.models import Document
-from app import scheduler as sched_mod
+from automated_scraper.config import PDF_DIR
+from automated_scraper.database import SessionLocal
+from automated_scraper.jobs import run_scraper_job, _parse_cdsco_date
+from automated_scraper.models import Document
+from automated_scraper import scheduler as sched_mod
 
 
 # --- Lifespan ---
