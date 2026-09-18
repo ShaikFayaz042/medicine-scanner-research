@@ -1,0 +1,51 @@
+{
+  "source_organization": "CDSCO",
+  "source_document_id": "NSQ_2026_09_TEST",
+  "document_title": "Drug Alert No. 09/2026 - Not of Standard Quality Drugs",
+  "publication_date": "2026-09-01",
+  "document_type": "NSQ_CDSCO",
+  "records": [
+    {
+      "page_number": 1,
+      "table_number": 1,
+      "product_name": "Paracetamol Tablets IP 500mg",
+      "dosage_form": "Tablet",
+      "strength": "500mg",
+      "batch_number": "T-501",
+      "manufacturing_date": "2025-01-01",
+      "expiry_date": "2027-12-31",
+      "manufactured_by": "M/s Alpha Laboratories Pvt. Ltd.",
+      "state": "Himachal Pradesh",
+      "reporting_organization": "Central Drugs Laboratory Kolkata",
+      "nsq_result": "Fails dissolution test",
+      "reason": "Dissolution test failure at 45 minutes",
+      "status": "NSQ"
+    },
+    {
+      "page_number": 1,
+      "table_number": 1,
+      "product_name": "Amoxicillin Capsules 250mg",
+      "dosage_form": "Capsule",
+      "strength": "250mg",
+      "batch_number": "AMX-8092",
+      "manufacturing_date": "2024-11-01",
+      "expiry_date": "2026-10-31",
+      "manufactured_by": "Beta Pharma Ltd.",
+      "state": "Gujarat",
+      "reporting_organization": "CDTL Mumbai",
+      "nsq_result": "Assay content low (82.5%)",
+      "reason": "Sub-standard active ingredient assay content",
+      "status": "NSQ"
+    },
+    {
+      "page_number": 2,
+      "table_number": 1,
+      "product_name": "",
+      "batch_number": "UNKNOWN-99",
+      "manufactured_by": "Gamma Formulations",
+      "state": "Maharashtra",
+      "reason": "Missing drug name on label",
+      "status": "NSQ"
+    }
+  ]
+}

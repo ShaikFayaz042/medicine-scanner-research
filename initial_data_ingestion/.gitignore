@@ -1,0 +1,55 @@
+# Python source files are tracked
+# (do not ignore .py files)
+
+# Generated output folders and files
+01_downloads/**
+!01_downloads/*.py
+!01_downloads/*.md
+!01_downloads/*.txt
+!01_downloads/*.json
+
+02_light_extraction/output/
+02_light_extraction/**/*.txt
+02_light_extraction/**/*.json
+
+!03_ai_classification/*.json
+!03_ai_classification/*.txt
+
+04_classified_documents/**/
+!04_classified_documents/.gitkeep
+
+05_type_classification/text/
+05_type_classification/scanned/
+05_type_classification/mixed/
+05_type_classification/output/
+
+06_raw_extraction/**/*.txt
+06_raw_extraction/**/*.json
+06_raw_extraction/**/*.zip
+
+07_raw_extraction_output/**
+!07_raw_extraction_output/.gitkeep
+
+08_json_conversion/output/
+08_json_conversion/**/*.json
+08_json_conversion/**/*.txt
+
+09_normalization/01_staging/**
+!09_normalization/01_staging/.gitkeep
+!09_normalization/implementation_plan.md
+!09_normalization/**/*.md
+09_normalization/**/*.csv
+09_normalization/**/*.json
+09_normalization/**/*.txt
+09_normalization/**/output/
+09_normalization/**/reports/
+
+# Common generated artifacts
+**/*.log
+**/__pycache__/
+**/.pytest_cache/
+**/.coverage
+**/.DS_Store
+*.zip
+*.bak
+*.tmp

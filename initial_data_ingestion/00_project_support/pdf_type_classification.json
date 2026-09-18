@@ -1,0 +1,6067 @@
+{
+  "total_pdfs": 603,
+  "summary": {
+    "text": 382,
+    "mixed": 25,
+    "scanned": 196
+  },
+  "by_category": {
+    "alerts": {
+      "text": 228,
+      "mixed": 4,
+      "scanned": 34
+    },
+    "banned_drugs": {
+      "text": 1
+    },
+    "fdc": {
+      "scanned": 25,
+      "text": 10,
+      "mixed": 1
+    },
+    "gazette": {
+      "text": 91,
+      "scanned": 18
+    },
+    "ipc_pvpi": {
+      "text": 1
+    },
+    "public_notices": {
+      "scanned": 119,
+      "text": 51,
+      "mixed": 20
+    }
+  },
+  "details": [
+    {
+      "filename": "10069_Drug_Alert_list_for_month_of_March_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 11,
+      "text_pages": 11,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10154_Drug_Alert_list_for_month_of_April_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10182_Medical_Device_Alert_dated_08_May_2023.pdf",
+      "category": "alerts",
+      "type": "mixed",
+      "pages": 12,
+      "text_pages": 5,
+      "scanned_pages": 7,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10246_Drug_Alert_list_for_month_of_February_2023_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10248_Drug_Alert_list_for_month_of_May_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10354_Alert_on_Pholcodine_containing_cough_and_cold_remedies.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10359_Drug_Alert_list_for_month_of_June_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10417_Alert_on_Suspected_Faisified_Versions_of_Glucagon-Like_Peptide_1_Receptor_Agonist_GLP_1_RA_Products.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10425_Drug_Alert_list_for_month_of_July_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10426_June_Revised_Drugs_Alert_List_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10494_Voluntary_Recall_of_Digene_Gel_manufactured_by_Ms_Abbott_India_Limited_L-1819_Verna_Industrial_Estate_Salcette_Goa-40372.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10504_Alert_on_falsified_versions_of_Adcetris_Injection_Brentuximab_Vedotin_Manufactured_by_Ms_Takeda_Pharmaceuticals_Company_.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10505_WHO_Alert_on_falsified_DEFITELIO_DEFIBROTIDE_80_mgml_concentrate_for_solution_for_infusion_B._No._20G20A_Exp_date_082024.pdf",
+      "category": "alerts",
+      "type": "mixed",
+      "pages": 3,
+      "text_pages": 2,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10515_Drug_Alert_list_for_month_of_August_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10516_July_Revised_Drugs_Alert_List_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10583_Drug_Alert_for_the_Month_of_September_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 13,
+      "text_pages": 13,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10585_Drug_Alert_for_the_Month_of_March_2023_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10586_Drug_Alert_for_the_Month_of_February_2023_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10666_Drug_Alert_for_the_Month_of_October_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10784_Drug_Alert_for_the_Month_of_November_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 14,
+      "text_pages": 14,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10785_Drug_Alert_for_the_Month_of_May_\u00e2_2022_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10851_Drug_Alert_for_the_Month_of_December_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 12,
+      "text_pages": 12,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10939_Drug_Alert_for_the_Month_of_January_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10940_Drug_Alert_for_the_Month_of_Revised_Dec_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10941_Drug_Alert_for_the_Month_of_Revised_March_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11013_Drug_Alert_for_the_Month_of_February_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 12,
+      "text_pages": 12,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11014_Drug_Alert_for_the_Month_of_Revised_Jan_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11115_Drug_Alert_for_the_Month_of_March_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11255_SPURIOUS_ALERT_FOR_THE_MONTH_OF_APRIL_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11256_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 11,
+      "text_pages": 11,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11372_NSQ_May_2024_CDSCO_Labs.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11373_NSQ_May_2024_State_Labs.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11467_State_NSQ_ALERT_FOR_THE_MONTH_OF_JUNE_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11468_NSQ_ALERT_FOR_THE_MONTH_OF_JUNE_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11600_NSQ_ALERT_FOR_THE_MONTH_OF_JUlY-2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 11,
+      "text_pages": 11,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11601_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_July-2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11874_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11875_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11876_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_APRIL-2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11878_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_JAN-2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11879_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_July-2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11882_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_MARCH-2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11884_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_SEP-2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11941_NSQ_of_Typhoid_Polysaccharide_Vaccine_TYPBAR.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11942_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_SEP-2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11943_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_FEB-2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11944_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_MAR-2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11945_NOT_OF_STANDARD_QUALITY_ALERT_FOR_THE_MONTH_OF_JUNE-2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11955_Samples_declared_NSQ_2017-2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12002_ZyCoV-D_SmPc_and_Factsheet.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 14,
+      "text_pages": 14,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12010_Drug_Alert_for_the_Month_of_August_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12011_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_Adulterated_Misbranded_for_the_Month_of_August-.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12012_State_Drug_Alert_for_the_Month_of_August_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12082_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_September_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12083_State_Drug_Alert_for_the_Month_of_September_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12084_Drug_Alert_for_the_Month_of_September_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12202_State_Drug_Alert_for_the_Month_of_October_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12203_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_October_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12204_Drug_Alert_for_the_Month_of_October_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12290_State_Drug_Alert_for_the_Month_of_November_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 18,
+      "text_pages": 18,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12291_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_November_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12292_Drug_Alert_for_the_Month_of_November_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12393_Drug_Alert_for_the_Month_of_December_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12394_State_Drug_Alert_for_the_Month_of_December_2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 18,
+      "text_pages": 18,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12555_NSQ_ALERT_FOR_THE_MONTH_OF_JANUARY-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 10,
+      "text_pages": 10,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12556_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_JANUARY-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 22,
+      "text_pages": 22,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12612_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_February-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12613_NSQ_ALERT_FOR_THE_MONTH_OF_Feb-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12614_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_FEBRUARY-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 16,
+      "text_pages": 16,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12667_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_March-_2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12668_State_NSQ_Alert_For_The_Month_March-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12669_NOT_OF_STANDARD_QUALITY_NSQ_ALERT_FOR_THE_MONTH_OF_MARCH-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "12670_Revise_list_drug_alert_November-2024.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12671_Revise_list_drug_alert_January-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12737_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_for.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12738_Not_Of_Standard_of_Quality_NSQ_ALERT_FOR_THE_MONTH_OF_April-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12739_State_NSQ_Alert_For_The_Month_April-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 22,
+      "text_pages": 22,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12740_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_April-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12845_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_May-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12846_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_MAY-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 19,
+      "text_pages": 19,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12847_NSQ_ALERT_FOR_THE_MONTH_OF_MAY-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12926_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 15,
+      "text_pages": 15,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12927_CDSCO_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12959_List_of_spurious_Drugs_for_the_month_of_June-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12960_Revise_list_drug_alert_May-2025.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13174_Alert_on_theft_of_multiple_drug_products_of_Ms._Novo_Nordisk_during_transit.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13245_Availability_of_Not_Standard_Quality_NSQ_Alert_on_New_Link_in_CDSCO_Website.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1420_Action_in_pursuance_to_the_investigation_Denvax_Clinic.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1423_Action_in_pursuance_to_the_investigation_carried_out_at_Ms_Nichi-In_Centre_for_Regenerative_Medicine_facility_for_admini.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1424_Action_in_pursuance_to_the_investigation_carried_out_at_facility_Ms_Wellness_Solution_for_administration_of_Dendritic_ce.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1457_Sub_Standard_Quality_of_Human_Albumin_IPEP_Albiomin_Solution_for_infusion.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1458_NSQ_Vi-Conjugate_Typhoid_Vaccine_Batch_No.TC010915_and_Batch_No._TC010417_of_Ms_Bio_Med_Pvt_Ltd_dated_14-03-2018.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1459_Oxytocin_Drug_Alert.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1666_Drug_Alert_for_the_month_of_April2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1717_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "177_IVD_Diagnostic_Kit_Alert_for_Comipack_ABD.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "178_In-VitroDdiagnostic_alert_for_product_BBLTM_MGITTM_Mycobacteria_Growth_Indicator_Tube.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1795_Drug_Alert_for_the_month_of_June2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1796_Drug_Alert_for_the_month_of_May2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1797_Drug_Alert_for_the_month_of_April_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1906_Drug_Alert_list_for_July_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "192_ONYX_Liquid_Embolic_System.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "193_LPS_Lower_Extremity_Dovetail_IntercalaryComponent.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "194_Cancellous_Bone_Screws_A_Component_of_the_Hip_System.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1950_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "195_ASR_XL_Acetabular_System_DePuy_ASR_Hip_Resurfacing_System.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "196_Confidence_Spinal_Cement_System.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "197_ECHELON_Endoscopic_Liner_Cutter_Reloads_BlackECR60T.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "198_HT_Connect_Peripheral_Guidewire.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2035_NOC_of_Medical_Devices_2011.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 10,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 6,
+      "error": null
+    },
+    {
+      "filename": "2037_NOC_update_list_of_Medical_Devices_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2038_NOC_update_list_of_Medical_Devices_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "2039_NOC_update_list_of_Medical_Devices_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 33,
+      "text_pages": 21,
+      "scanned_pages": 0,
+      "empty_pages": 12,
+      "error": null
+    },
+    {
+      "filename": "2040_NOC_update_list_of_Medical_Devices_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2041_NOC_update_list_of_Medical_Devices_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1372,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 1368,
+      "error": null
+    },
+    {
+      "filename": "2042_NOC_update_list_of_Medical_Devices_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 37,
+      "text_pages": 12,
+      "scanned_pages": 0,
+      "empty_pages": 25,
+      "error": null
+    },
+    {
+      "filename": "2058_Recall_of_OZURDEX_Dexamethasone_Intravitreal_Implant_0.7mg.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2166_Drug_Alert_list_for_October_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2167_Drug_Alert_list_for_September_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2238_Drug_Alert_list_for_November_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2243_Drug_Alert_list_for_month_of_August_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2244_Drugs_Alert_for_the_month_of_April_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2245_Drug_Alert_list_for_month_of_December_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2247_Drug_Alert_list_for_month_of_July_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2248_Drug_Alert_list_for_month_of_June_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2249_Drug_Alert_list_for_month_of_March_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2250_Drugs_Alert_for_the_month_of_November_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "2251_Drugs_Alert_for_the_month_of_September_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "2253_Drug_Alert_list_for_month_of_April_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "2254_Drug_Alert_list_for_month_of_August_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2255_Drugs_Alert_for_the_month_of_December_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2256_Drugs_Alert_for_the_month_of_February_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2257_Drug_Alerts_for_the_month_of_January_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2258_Drug_Alert_list_for_month_of_July_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2259_Drug_Alert_list_for_the_month_of_June_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2260_Drugs_Alert_for_the_month_of_March_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2262_Drugs_Alert_for_the_month_of_November_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2263_Drugs_alert_for_the_month_of_October_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2264_Drug_Alert_list_for_the_month_of_September_2014.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2265_Drug_Alert_list_for_month_of_April_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2266_Drug_Alert_list_for_month_of_August_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2267_Drug_Alert_list_for_month_of_December_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2268_Drugs_Alert_for_the_month_of_February_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2269_Drugs_Alert_for_the_month_of_March_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2270_Drug_Alert_list_for_month_of_May_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2271_Drug_Alert_list_for_month_of_September_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2275_Drugs_Alert_for_the_month_of_February_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2276_Drugs_Alert_for_the_month_of_July_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2277_Drug_Alert_list_for_month_of_June_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2278_Drugs_Alert_for_the_month_of_March_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2279_Drugs_Alert_for_the_month_of_May_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2280_Drug_Alert_list_for_month_of_December_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2281_Drug_Alert_list_for_month_of_August_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2282_Drug_Alert_list_for_month_of_April_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2283_Drug_Alert_list_for_month_of_April_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2284_Drug_Alert_list_for_month_of_August_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2285_Drug_Alert_list_for_month_of_December_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2286_Drug_Alert_list_for_month_of_February_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2287_Drug_Alert_list_for_month_of_January_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2288_Drugs_Alert_for_the_month_of_July_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2289_Drug_Alert_list_for_month_of_June_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2290_Drug_Alert_list_for_month_of_March_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2291_Drug_Alert_list_for_month_of_May_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2292_Drugs_Alert_for_the_month_of_November_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2293_Drug_Alert_list_for_month_of_October_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2294_Drug_Alert_list_for_month_of_September_2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2295_Drug_Alert_list_for_month_of_February_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2296_Drug_Alert_list_for_month_of_January_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2297_Drug_Alert_list_for_month_of_March_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2361_Drug_Alert_list_for_month_of_August_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2362_Drug_Alert_list_for_month_of_May_2013.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2363_Drug_Alert_list_for_month_of_January_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2364_Drug_Alert_list_for_month_of_November_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2365_Drug_Alert_list_for_month_of_October_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2367_Drug_Alert_list_for_month_of_September_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2369_Drug_Alert_list_for_month_of_June_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2370_Drug_Alert_list_for_month_of_November_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2371_Drug_Alert_list_for_month_of_January_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2372_Drug_Alert_list_for_month_of_July_2015.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3145_Medical_Devices_alert_07.04.2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3146_Medical_Devices_alert_02.06.2017.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3147_Medical_Devices_alert_21.10.2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3241_Updated_Package_Insert_PI_for_empagliflozin_Tablets_10mg_and_25mg_based_on_company_Core_Data_Sheet_CCDS.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3246_Approved_for_Marketing_in_India.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3249_Draft_Guidance_for_Industry_on_requirement_of_Chemical_Pharmaceutical_Information_including_Stability_Study_data_before_.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 14,
+      "text_pages": 14,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3252_Twelve_New_Drug_Advisory_Committees_NDAC_27_Jul_2012.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 24,
+      "text_pages": 0,
+      "scanned_pages": 24,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3253_Drugs_banned_in_the_Country.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 28,
+      "text_pages": 28,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3257_Report_on_countrywide_survey_for_Spurious_Drugs.pdf",
+      "category": "alerts",
+      "type": "mixed",
+      "pages": 164,
+      "text_pages": 127,
+      "scanned_pages": 19,
+      "empty_pages": 18,
+      "error": null
+    },
+    {
+      "filename": "3258_Guidelines_for_taking_action_on_samples_of_drugs_declared_spurious_or_not_of_standard.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 13,
+      "text_pages": 13,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3259_Surveillance_of_Drugs_Manufactured_in_the_Country_by_CDSCO.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "3260_IVD_Diagnostic_Kit_Alert_for_Mediclone_D.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3262_MEDICAL_DEVICE_ALERT_FOR_Beacon_Tip_Torcon_NB_Advantage_Catheter.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3263_MEDICAL_DEVICE_ALERT_FOR_Absorb_Bioresorbale_Vascular_Scaffold_BVS_and_Absorb_GT1_Bioresorbale_Vascular_Scaffold_BVS.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3264_Destroy_of_the_product_demaged_due_to_fire.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3265_IN-VITRO_DIAGNOSTIC_ALERT_FOR_PRODUCT_BBLTM_MGITTM_Mycobacteria_Growth_Indicator_Tube.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3266_MEDICAL_DEVICE_ALERT_FOR_PRODUCT_HT_Connect_Peripheral_Guidewire.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3769_Drug_Alert_list_for_month_of_January_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4147_Drug_Alert_list_for_month_of_February_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4315_Drug_Alert_list_for_month_of_March_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4391_Drug_Alert_list_for_month_of_April_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4470_Medical_Device_Alert_Dated_20.05.2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4493_Drug_Alert_list_for_month_of_May_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4496_Drug_Alert_January_2019_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "44_17list_of_vaccine_manufacturing_units_inspected-rotated_2.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 4,
+      "text_pages": 0,
+      "scanned_pages": 4,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4540_Medical_Devices_alert_july_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4584_Drug_Alert_list_for_month_of_June_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4800_Drug_Alert_list_for_month_of_July_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5189_Drug_Alert_list_for_month_of_August_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5190_Drug_Alert_list_for_month_of_September_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5224_Drug_Alert_list_for_month_of_October_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5349_Drug_Alert_list_for_month_of_November_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5547_Drug_Alert_list_for_month_of_January_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5590_Drug_Alert_list_for_month_of_October_2016.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "56_newdrug_advisory_commitee.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 24,
+      "text_pages": 0,
+      "scanned_pages": 24,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5713_Drug_Alert_list_for_month_of_Feb_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5872_Drug_Alert_list_for_month_of_March_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5923_Drug_Alert_list_for_month_of_April_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 12,
+      "text_pages": 12,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5986_Drug_Alert_list_for_month_of_May_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6091_Drug_Alert_list_for_month_of_June_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6390_Drug_Alert_list_for_month_of_July_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6469_Drug_Alert_list_for_month_of_August_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6487_Drug_Alert_list_for_month_of_December_2018.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6554_Drug_Alert_list_for_month_of_September_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6628_Drug_Alert_list_for_month_of_October_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6765_Drug_Alert_list_for_month_of_November_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6840_Drug_Alert_list_for_month_of_December_2019.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6851_Drug_Alert_list_for_month_of_December_2020.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6973_Drug_Alert_list_for_month_of_January_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7005_Drug_Alert_list_for_month_of_Feb_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7032_Drug_Alert_list_for_month_of_February_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7149_Drug_Alert_list_for_month_of_March_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7271_Drug_Alert_list_for_month_of_April_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7357_Drug_Alert_list_for_month_of_May_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7494_Drug_Alert_list_for_month_of_June_2021.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 7,
+      "text_pages": 0,
+      "scanned_pages": 7,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7571_Medical_Devices_alert_for_Ventilator_of_Philips_August_2021.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7576_Drug_Alert_list_for_month_of_July_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7656_Drug_Alert_list_for_month_of_August_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7684_Alert_FSN-Medtronic_Heartware_HVAD.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7770_Medical_Devices_Alert_on_MiniMed_620G_Insulin_PumpPump_Kits_MiniMed_640G_Insulin_PumpPump_kit_of_India_Medtronic_Ltd.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 6,
+      "text_pages": 0,
+      "scanned_pages": 6,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7819_Drug_Alert_list_for_month_of_September_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7841_Drug_Alert_list_for_month_of_May_2021_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7881_Medical_Devices_Alert_8_November_2021.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 7,
+      "text_pages": 0,
+      "scanned_pages": 7,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7888_Drug_Alert_list_for_month_of_October_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7999_Drug_Alert_list_for_month_of_November_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8086_Drug_Alert_list_for_month_of_December_2021.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8123_Drug_Alert_list_for_month_of_January_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8277_Drug_Alert_list_for_month_of_February_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8326_Drug_Alert_list_for_month_of_March_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 10,
+      "text_pages": 10,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8573_Drug_Alert_list_for_month_of_May_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 10,
+      "text_pages": 10,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8616_Medical_Device_Alert_date_14_June_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 8,
+      "text_pages": 8,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8618_Drug_Alert_list_for_month_of_April_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8658_Medical_Device_Alert_date_21_June_2022.pdf",
+      "category": "alerts",
+      "type": "scanned",
+      "pages": 17,
+      "text_pages": 0,
+      "scanned_pages": 17,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8665_Drug_Alert_list_for_month_of_April_2022_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8771_Drug_Alert_list_for_month_of_June_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8825_Medical_Device_Alert_date_21_July_2022.pdf",
+      "category": "alerts",
+      "type": "mixed",
+      "pages": 5,
+      "text_pages": 2,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8878_Drug_Alert_list_for_month_of_July_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 11,
+      "text_pages": 11,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8983_Drug_Alert_list_for_month_of_May_2022_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9010_Drug_Alert_list_for_month_of_August_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 10,
+      "text_pages": 10,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9122_Drug_Alert_list_for_month_of_September_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 13,
+      "text_pages": 13,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9187_Drug_Alert_list_for_month_of_October_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 11,
+      "text_pages": 11,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9286_Drug_Alert_list_for_month_of_October_2022_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9609_Drug_Alert_list_for_month_of_November_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 19,
+      "text_pages": 19,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9675_Drug_Alert_list_for_month_of_Feb_2022_Revised.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9811_Drug_Alert_list_for_month_of_December_2022.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 15,
+      "text_pages": 15,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9889_Drug_Alert_list_for_month_of_January_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 15,
+      "text_pages": 15,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9985_Drug_Alert_list_for_month_of_February_2023.pdf",
+      "category": "alerts",
+      "type": "text",
+      "pages": 12,
+      "text_pages": 12,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "banneddrugs.pdf",
+      "category": "banned_drugs",
+      "type": "text",
+      "pages": 28,
+      "text_pages": 28,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10006_Evaluation_of_16_Fixed_Dose_Combinations_FDCs_by_DTAB_Sub-Committee_which_were_earlier_considered_as_irrational_in_the_E.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 6,
+      "text_pages": 0,
+      "scanned_pages": 6,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10045_Clarification_w.r.t._the_new_drug_status_of_FDCs_Fixed_Dose_Combinations_which_were_scrutinized_w.r.t._letter_dated_15.1.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 98,
+      "text_pages": 0,
+      "scanned_pages": 98,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10778_To_update_package_insertPromotional_Literature_of_FDC_of_Chlorpheniramine_Maleate_IP_2mg_Phenylephrine_HCl_IP_5mg_drop_m.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10847_Evaluation_of_certain_pre_1988_permitted_Fixed_Dose_Combinations_FDCs_de_novo_for_manufacture_for_sale_in_the_country_wi.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 5,
+      "text_pages": 0,
+      "scanned_pages": 5,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10992_Manufacturing_and_marketing_of_unapproved_drug_Meropenem_Disodium_EDTA_for_Injection.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11024_LIST_OF_DRUGS_PROHIBITED_FOR_MANUFACTURE_AND_SALE_THROUGH_GAZETTE_NOTIFICATIONS_UNDER_SECTION_26A_OF_DRUGS_COSMETICS_ACT.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 34,
+      "text_pages": 34,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11114_Manufacturing_and_marketing_of_unapproved_drug_Meropenam_1gm_EDTA_for_Injection.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11238_DTAB_Sub-Committee_to_examine_the_proposal_to_regulate_antibiotic_and_its_irrational_use_date_16_may_2024.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12085_List_of_02_Restricted_FDC_drugs_dated_12.08.2024.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12086_List_of_Prohibited_FDC_drugs_14_FDCs_dated_02.06.2023.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12087_List_of_Prohibited_FDC_drugs_156_FDCs_dated_02.08.2024.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 7,
+      "text_pages": 7,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12088_List_of_Prohibited_FDC_S_Etodolac_Paracetamol_12.08.2024.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12543_Evaluation_of_certain_pre_1988_permitted_Fixed_Dose_Combinations_FDCs_de_novo_for_manufacture_for_sale_in_the_country_wi.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 4,
+      "text_pages": 0,
+      "scanned_pages": 4,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12646_Manufacturing_and_marketing_of_unapproved_FDCs_regarding.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 4,
+      "text_pages": 0,
+      "scanned_pages": 4,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14514_List_of_16_FDCs_banned_dated_11.06.2026.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14519_2026.06.11_S.O._3068E_to_S.O._3083E__Prohibition_of_16_FDCs.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 26,
+      "text_pages": 26,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2237_List_of_FDCs_under_category_c_permitted_for_continu_ed_manufacturing_and_marketing_under_18_month_policy_decision_dated_.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 43,
+      "text_pages": 43,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3170_2019.01.11_S.O._180E_to_S.O.259E_Prohibition_of_certain_FDCs_appeared_in_the_list_of_294_FDCs_under_Section_26A.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 130,
+      "text_pages": 130,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3197_Prohibition_of_80_fixed_Dose_combinations_by_the_Central_Government_vide_Gazette_notification_nos_S.O_180_E_to_S.O_259_E.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4113_Manufacture_and_market_FDC_of_AtenololLosartanHydrochlorthaizide.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 4,
+      "text_pages": 0,
+      "scanned_pages": 4,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "413_Notice_regarding_consideration_of_the_directions_of_Honble_SC_India_in_the_Case_of_344_FDCs05_FDCs_probibited_Vide_S.O_N.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4274_Condition_for_supply_of_Buprenorphine_2mg0.4mg_sublingual_tablet_and_FDC_of_BuprenorphineNaloxone_sublingual_tablets.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4469_Notice_regarding_Evaluation_of_FDC_by_DTAB_Sub-Committee_which_were_ealier_Considered_as_irrational_in_the_assessment_re.pdf",
+      "category": "fdc",
+      "type": "mixed",
+      "pages": 22,
+      "text_pages": 21,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5010_Manufacturing_and_marketing_of_FDC_of_Aceclofenac_100mg_Drotaverine_Hydrochloride_80mg_tablet-regarding.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "512_Office_memorandum_regarding_approval_of_the_safety_and_efficacy_of_FDCs.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "514_Notice_Order_regarding_Examination_of_Safety_and_efficacy_of_FDCs_licensed_for_manufacture_for_sale_in_the_country_witho.pdf",
+      "category": "fdc",
+      "type": "text",
+      "pages": 10,
+      "text_pages": 10,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "585_Prohibition_of_Fixed_Dose_Combination_of_drugs_for_human_use_under_Section_26A_of_Drugs_Cosmetics_Act_1940.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7067_Meeting_of_DTAB_Sub_Committee_through_WebEx_Video_Conference_w.e.f._19.04.2021_to_07.05.2021_for_examining_the_Fixed_Dos.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 21,
+      "text_pages": 0,
+      "scanned_pages": 21,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7457_Notice_Evaluation_of_Certain_pre_1988_permitted_FDC_de_novo_for_manufacture_of_Sale_in_the_Country_without_due_approval_.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7609_Procedure_to_be_follow_for_regularisation_of_19_FDCs_out_of_294_FDCs_which_required_further_generation_of_data_which_wer.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7617_Manufacturing_and_marketing_of_FDC_of_Tolperisone_HCL_150mg_Paracetamol_IP_500mg_tablet.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8002_Evaluation_of_certain_pre_1988_permitted_Fixed_Dose_Combinations_FDCs_de_novo_for_manufacture_for_sale_in_the_country_wi.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8034_Evaluation_of_certain_pre_1988_permitted_Fixed_Dose_Combinations_FDCs_de_novo_for_manufacture_for_sale_in_the_country_wi.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "845_Public_Notice_regarding_Meeting_of_DTAB_sub_Committee_w.ef_05.06.2018_to_22.06.2018_in_the_office_of_DCGI_to_examine_the.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 36,
+      "text_pages": 0,
+      "scanned_pages": 36,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "851_Notice_regarding_consideration_of_the_directions_of_Honble_SC_India_in_the_Case_of_344_FDCs05_FDCs_probibited_Vide_S.O_N.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "856_Meeting_of_DTAB_sub_Committee_for_examining_the_344_FDCs05FDCs_and_to_provide_hearing_to_the_petitionerappellants_includ.pdf",
+      "category": "fdc",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1017_January_17_2017_GSR_44E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10543_DR__Draft_G.S.R._686_E_dt_25.09.2023_Inclusion_of_Oseltamivir_and_Zanamivir_in_Schedule_H1.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10567_2023.05.15_CR_Draft_G.S.R._371E_Certain_amendments_in_Cosmetics_Rule_2020.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10569_2023.06.02_DR_S.O._2394E_to_2407E_Banning_of_14_FDCs.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 20,
+      "text_pages": 20,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10571_2023.07.31_DR_S.O._3448E_Prohibition_of_Veterinary_Drugs_Ketoprofen_and_its_formulation_and_Aceclofenac_its_Formulation.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1061_March_10_2016_S.O_705E_TO_1048E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 295,
+      "text_pages": 295,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1080_June_16_2015_S.O_1597E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10904_2024.02.05_DR_G.S.R._95E_Inclusion_of_Oseltamivir_and_Zanamivir_in_Schedule_H1.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10980_2024.02.05_S.O._476E_Revoke_of_notification_GSR_144E_dated_17.02.2017_Oseltamivir_and_Zanamivir.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1121_Dec_22_2014_GSR_908E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11225_G.S.R_46E_dated_22.01.2009_Drugs_and_Cosmetics_First_Amendment_Rules_2009.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1124_Sep_29_2014_GSR_701E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1130_30th_June_2005GSR_431_E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 9,
+      "text_pages": 0,
+      "scanned_pages": 9,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1140_16th_March_2006GSR_160_E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 7,
+      "text_pages": 0,
+      "scanned_pages": 7,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1158_Sept_152009G.S.R_677_E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11593_2024.08.12_S.O._3284E_Notification_reg_Prohibiton_of_Etodolac.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1162_Sept_92009G.S.R_651E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1165_Oct_292009G.S.R_790E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11870_2024.08.12__DR_S.O._3266E_to_3267E__Restriction_of_FDC_Naproxen_Esomeprazole_and_Naproxen_Pantoprazole.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11871_2024.08.12__DR_S.O._3285E_to_3440E__Prohibition_of_156_FDCs.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 158,
+      "text_pages": 158,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1193_Jan_24_2011_G.S.R_45_E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1194_Drugs_Prohibited_vide_Gazette_notification_Feb_10_2011_G.S.R.82E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1206_May_30_2011_GSR_418_E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12323_2024.12.30_S.O._5633E_Notification_regarding_Banning_Nimesulide_for_animal_use.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12581_2025.03.12_S.O._1158E_Banning_of_Chloramphenicol_and_Nitrofurans_in_food_rearing_animal_systems.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12673_S.O._1717E_dt_15.04.2025_Restriction_of_the_Fixed_Dose_Combination_of_Chlorpheniramine_Maleate_and_Phenylephrine_Hydroch.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12742_2025.05.22_S.O._2298E_Notification_to_prohibit_the_import_manufacture_sale_and_distribution_of_certain_antimicrobial_pro.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13246_2025.08.27_G.S.R._587E_Draft_Notification_for_application_of_unapproved_drugs_for_conduct_of_BA_BE_studies_for_export_pu.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13409_2025.09.23_S.O._4338E_prohibit_the_import_manufacture_sale_and_distribution_of_certain_antimicrobial_products_for_animal.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1344_August_30.08.2013_GSR_588_E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 8,
+      "text_pages": 0,
+      "scanned_pages": 8,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13518_2025.10.16__G.S.R._757E__Amendment_under_Drugs_Rules_to_include_more_categories_under_Schedule_H2.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13696_2025.12.04__G.S.R._883E_Draft_Notification_for_amendment_in_Medical_Device_Rules_2017.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13750_2025.12.29__S.O._6091E_Notification_regarding_Nimesulide_above_100_mg_in_immediate_release_dosage_form.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1377_Jan_17.01.2014_G.S.R._29_E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13821_2026.01.20_G.S.R._46E_Notification_about_changes_to_requirements_of_Test_license_under_NDCT_Rules_2019_\u00e2.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13831_2026.01.21_G.S.R._54E_Draft_Notification_for_amendment_in_Schedule_H1_for_inclusion_of_Pregabalin_and_its_drug_formulati.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13839_2026.01.28_G.S.R._65E_Draft_notification_of_Chaudhary_Charan_Singh_National_Institute_of_Animal_Health_Baghpat_UP_as_a_C.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1397_May_5_2014_G.S.R_311E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1402_May_21_2014_G.S.R_346E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "14053_2026.04.10__G.S.R._270E_Draft_Notification_to_amend_certain_provisions_under_Medical_Devices_Rules_2017_EU.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1408_July_14_2014_GSR_502E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1413_July_14_2014_GSR_503E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14205_2026.05.13_G.S.R._377E_Notification_for_amendment_in_Schedule_H1_for_inclusion_of_Pregabalin_and_its_drug_formulations.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14396_2026.06.18_G.S.R._496E_Notification_of_Chaudhary_Charan_Singh_National_Institute_of_Animal_Health_Baghpat_UP_as_a_CDL_fo.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14397_2026.06.11_S.O._3068E_to_S.O._3083E__Prohibition_of_16_FDCs.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 26,
+      "text_pages": 26,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14405_2026.06.22_G.S.R._506E_Notification_regarding_amendment_under_Drugs_Rules_to_include_more_categories_under_Schedule_H2\u00e2.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14457_2026.07.08_G.S.R._607E_Notification_regarding_restriction_of_sale_of_drug_products_containing_alcohol_content_under_Drug.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14519_2026.06.11_S.O._3068E_to_S.O._3083E__Prohibition_of_16_FDCs.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 26,
+      "text_pages": 26,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14654_2026.08.14_G.S.R._743E_Amendment_in_MD_Rules_2017_for_introduction_of_Ninth_Schedule_and_labelling_requirements_for_ster.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14656_2026.08.18_S.O._4595E_Prohibition_of_all_formulations_of_FDC_containing_Chlorpheniramine_Maleate_and_Phenylephrine_HCl_i.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "173_Animal_Testing_Ban-GSR_346E.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "174_Import_Animal_Testing_Ban-G.S.R.718E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1830_2018.07.17_Draft_GSR_654E_Notifcation_of_Chaudhary_Charan_Singh_National_Institute_of_Animal_Health_UP_for_testing_of_Ve.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1907_2018.08.10_Draft_GSR_763E_Inclusion_of_Oxytocin_under_Schedule_H1.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1925_2018.08.21_Final_GSR_794E_and_795E_Mfg_of_Oxytocin_Formulation_Scheduling_of_Oxytocin_in_Sch_H1_omittion_from_Sch_H.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1951_2018.09.07_S.O._4379E_to_S.O.4712_E_Prohibition_and_Restriction_of_FDC_drugs_Section_26A.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 537,
+      "text_pages": 537,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2018_2018-09-25_Draft_GSR_922E_Hydroquinone_included_in_Note_to_Sch_H.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2373_018.12.13_S.O.6161E_Restriction_of_Buclizine_and_its_formulations_as_appetite_stimulant_under_Section_26A.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3170_2019.01.11_S.O._180E_to_S.O.259E_Prohibition_of_certain_FDCs_appeared_in_the_list_of_294_FDCs_under_Section_26A.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 130,
+      "text_pages": 130,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3181_G.S.R._103E_dated_02.02.2017.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3183_G.S.R._908_E_dated_22.12.2014.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3771_2019.02.05_S.O._697E_Revoke_of_FDC_banned_notification_S.O._4616E_dated_07.09.2018_Section_26A.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4145_2019.03.06_Final_G.S.R.186E_Hydroquinone_included_in_Note_to_Schedule_H_of_D_C_Rules_1945.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4152_2019.03.11_Final_G.S.R.213E_Notifcation_of_Chaudhary_Charan_Singh_National_Institute_of_Animal_Health_UP_for_testing_of_.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4678_2019.07.17_Final_G.S.R._499_EConsesquential_amendments_to_GSR_1337E_Dt._27.10.2017.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4680_2019.07.19_S.O._2607_Prohibition_of_Colistin_for_food_producing_animals_poultry_aqua_farming_and_animal_feed_supplements.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "47_List_of_PUSR_meeting17.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4849_Advisory_on_labeling_requirements_for_combi_kit_of_Misoprostol_and_Mifepristone_tablets_for_Medical_Termination_of_Pregn.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5500_2020.01.27_G.S.R._52E_Exemption_of_Import_of_Oxytocin_reference_standards_from_Prohibition.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5760_2020-16-03_GSR_180_E_banning_of_Chenodeoxycholic_acidUrsodeoxycholic_acid_extracted_and_prepareunder_Section_10A.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5973_2020.06.05_Draft_GSR_354_E_compassionate_use_of_new_drug.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 22,
+      "text_pages": 22,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6327_GSR_219E_Dt._26.03.2020_Sale_of_Hydroxychloroquine_as_per_Schedule_H1_Section_26B.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6331_S.O.1511E_Dt._18.05.2020_Regulations_for_manufacture_and_stock_of_vaccines_for_COVID-19_Section_26B.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6608_2020.10.21_Draft_GSR_656E_Inclusion_of_Tapentadol_in_Sch_H1.pdf.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6719_2020.11.24_S.O._4206E_Notifying_of_NIB_Noida_for_testing_COVID-19_Vaccine.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6957_2021.02.04_S.O._529E_Notification_of_Dr._Sandeep_Singh_Dr._Sweta_Raghuvanshi_for_Scepticemia_and_Rankhet_Vaccines.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7059_2021.03.12_S.O._1170E_Notifying_Amar_jyoti_Dilip_Kr_Rinku_Arun_Kr_at_RDTL_Guwahati_as_Govt._analyst.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7060_2021.03.19_S.O.1260E_Notification_of_Debasis_Maitti_and_Hitesh_Khare_as_Govt._Analysts_at_RDTL_Chandigarh.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7139_2021.04.07_S.O._1520E_Notification_of_Raghuram_Reddy_Adidala_CDTL_Hyderabad.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7140_2021.04.07_GSR_258E__Inclusion_of_Tapentadol_in_Sch_H1_at_S.No._48.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7141_2021.04.07_GSR_255E_For_substitution_at_entry_no_14._of_GSR_578E_dt_23.07.1983_reg_FDC_of_tamsulosinDeflazacort.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7330_2021.06.22_SO_2451ENotification_of_Sumir_Rai_Bhalla_as_GA_for_CDL_Kasauli.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7359_2021.06.28_SO_2609E_Notification_of_NCCS_Pune_for_COVID_Vaccine_testing_valid_till_one_year.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7590_2021.08.17_S.O._3364E_Notification_of_National_Institute_of_Animal_Biotechnology_NIAB_Hyderabad_for_COVID_vaccines.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7836_2021.10.27_Final_GSR_762E_reg_Oxytocin_API_import_exclusivelyfor_mfg_for_export_purpose_only.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7952_2021.11.29__Draft_GSR_840E_Amendment_of_rule_127_of_the_Drugs_Rules_1945_for_adding_allura_red_in_coal_tar_colour_List_o.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7972_2021.12.10_S.O._5139E_Renotification_of_NIB_Noida_as_CDL_for_testing_and_lot_release_of_COVID_19_vaccine.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8085_2022.01.21_Draft_GSR_32E_Insertion_of_Provisions_for_deemed_approvals_in_various_rules_under_NDCTR_2019.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 16,
+      "text_pages": 16,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8091_2022.02.01__Draft_GSR_75E_Inclusion_of_Acitretin_in_Sch_H_of_Drugs_Rules_1945.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8211_2022.02.24_Final_GSR_158E_Inclusion_of_allura_red_colour_in_rule_127_of_the_Drugs_Rules_1945.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8223_2022.02.24_Final_GSR_158_Inclusion_of_allura_red_colour_in_rule_127_of_the_Drugs_Rules_1945.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8458_2022.05.18_Final_GSR_357E_Inclusion_of_Acitretin_in_Sch_H_of_Drugs_Rules_1945.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8951_Extract_of_the_New_Drugs_and_Clinical_Trials_Rules_2019_relevant_to_Ethics_Committee_for_Clinical_Trial_Bioavailability_.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9134_2022.10.14_Final_GSR_778E_Insertion_of_Provisions_for_deemed_approvals_in_various_rules_under_NDCTR_2019.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 18,
+      "text_pages": 18,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9139_G.S.R_778_E_dated_14_Oct_2022_regarding_the_New_Drugs_and_Clinical_Trials_Third_Amendment_Rules_2022.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 18,
+      "text_pages": 18,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "922_GSR_411E_dt_27.04.2018_Manufacture_Prohibition_of_Oxytocin_with_conditions_under_Section_26A.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "930_GSR_390E_dated_24.04.2018_Import_banning_of_Oxytocin_under_Section_10A.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "940_April_12th_2018_GSR_366E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "949_March_23rd_2018_GSR_277E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "954_February_1st_2018_GSR_104E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 251,
+      "text_pages": 251,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9622_2012.03.29_S.O._652E_Dr._M.F.A._Beg_SSO_CDL_Kolkata_Signing_Authority_COA.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9623_2012.10.19_S.O._2527E_Notification_of_Subrat_Kumar_CDL_kolkata.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9624_2012.11.30_S.O._2810E_Notification_of_GA_of_CDL_Kolkata.pdf",
+      "category": "gazette",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9626_2020.01.31_S.O._481E_Sushil_Kumar_Sahu_GA_CDL_Kasauli.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "966_November_1st_2017_GSR_1357E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "970_June_8th_2017_S.O_1851E1852_E_1853_E1854_E_1855E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "992_March_15_2017_GSR_250E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "997_February_17_2017_GSR_144E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "998_February_2nd_2017_GSR_103E.pdf",
+      "category": "gazette",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "List-of-Drugs-Safety-Alerts-issued-by-PvPI-from-March-2016-to-till-date---27.07.2026.pdf",
+      "category": "ipc_pvpi",
+      "type": "text",
+      "pages": 28,
+      "text_pages": 28,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10006_Evaluation_of_16_Fixed_Dose_Combinations_FDCs_by_DTAB_Sub-Committee_which_were_earlier_considered_as_irrational_in_the_E.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 6,
+      "text_pages": 0,
+      "scanned_pages": 6,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10045_Clarification_w.r.t._the_new_drug_status_of_FDCs_Fixed_Dose_Combinations_which_were_scrutinized_w.r.t._letter_dated_15.1.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 98,
+      "text_pages": 0,
+      "scanned_pages": 98,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10276_Daily_Updation_of_No.of_Batches_of_Cough_syrup_sample_for_Export_at_Different_Laboratories_for_testing_Request_not_to_su.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10329_Daily_Updation_of_No.of_Batches_of_Cough_syrup_sample_for_Export_at_Different_Laboratories_for_testing_Request_not_to_su.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10331_Daily_Updation_of_No._of_Batches_of_Cough_syrup_sample_for_Export_at_Different_Laboratories_for_testing.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10382_Receipt_of_Cough_Syrup_of_same_batch_No.by_two_different_NABL_Accredited_Government_Laboratories_Manufactured_by_the_sam.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10493_Voluntary_Recall_of_Digene_Gel_manufactured_by_Ms_Abbott_India_Limited_L-1819_Verna_Industrial_Estate_Salcette_Goa-40372.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10712_Advisory_to_all_manufacturer_of_cough_syrup_various_critical_excipients.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10778_To_update_package_insertPromotional_Literature_of_FDC_of_Chlorpheniramine_Maleate_IP_2mg_Phenylephrine_HCl_IP_5mg_drop_m.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10847_Evaluation_of_certain_pre_1988_permitted_Fixed_Dose_Combinations_FDCs_de_novo_for_manufacture_for_sale_in_the_country_wi.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 5,
+      "text_pages": 0,
+      "scanned_pages": 5,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "10992_Manufacturing_and_marketing_of_unapproved_drug_Meropenem_Disodium_EDTA_for_Injection.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11114_Manufacturing_and_marketing_of_unapproved_drug_Meropenam_1gm_EDTA_for_Injection.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11144_NOCs_for_manufacture_of_UnapprovedBannedNew_Drugs_Solely_for_Export_Purpose.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11228_List_of_meetings_of_Expert_Committee_for_examination_of_vaccine_PSUR_2023-24.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11238_DTAB_Sub-Committee_to_examine_the_proposal_to_regulate_antibiotic_and_its_irrational_use_date_16_may_2024.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11269_Withdrawal_of_indication_for_Olaparib_Tablets_100mg_and_150mg_in_the_treatment_of_patient_with_gBRCA_mutution_and_advanc.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11647_Month_wise_Tentative_Schedule_of_SEC_Vaccine_meetings_of_the_Year_2024.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11648_Month_wise_Tentative_Schedule_of_SEC_Vaccine_meetings_of_the_Year_2023.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "11755_Baxter_recall_letter_for_Product_Fibrin_Sealant_Kit_Brand_name_Tisseel_Lyo_manufactured_in_Vienna_Austria.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 4,
+      "text_pages": 0,
+      "scanned_pages": 4,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12229_Reconstitution_of_Central_Expert_Committee_to_determine_the_quantum_of_compensation_in_respect_of_faulty_ASR_Hip_implant.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12535_Prohibits_to_manufacture_sale_and_distribution_and_use_of_drug_Nimesulide_and_its_formulation_for_animal_use_with_immedi.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12543_Evaluation_of_certain_pre_1988_permitted_Fixed_Dose_Combinations_FDCs_de_novo_for_manufacture_for_sale_in_the_country_wi.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 4,
+      "text_pages": 0,
+      "scanned_pages": 4,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12623_Draft_risk_based_classification_list_Cardiovascular_and_Neurological_dated_01_04_2025_for_stakeholder_comments.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 81,
+      "text_pages": 80,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12624_Prohibits_to_import_manufacture_sale_and_distribution_and_use_in_any_food_producing_animal_rearing_system_of_drug_formul.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12646_Manufacturing_and_marketing_of_unapproved_FDCs_regarding.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 4,
+      "text_pages": 0,
+      "scanned_pages": 4,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12741_Cancellation_of_products_under_RCCOS-003211_for_import_of_Cosmetics_under_Cosmetics_Rules_2020.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "12970_Issues_related_to_safety_of_Ranitidine_drug_due_to_presence_of_NDMA_impurity.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13128_COVID-19_vaccines_approved_in_the_country_as_on_11.08.2025.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13182_Cancellation_of_products_under_RCCOS-003827_for_import_of_Cosmetics_under_Cosmetics_Rules_2020.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13244_Availability_of_Not_Standard_Quality_NSQ_Alert_on_New_Link_in_CDSCO_Website.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13526_Digital_Monitoring_System_on_the_ONDLS_portal_for_monitoring_the_supply_chain_of_high-risk_solvents.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13569_Risk_based_classification_list_of_Class_Anon-sterile_and_non-measuring_medical_device.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 103,
+      "text_pages": 102,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13651_Risk_classification_list_of_medical_devices_pertaining_to_Radiotherapy.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 15,
+      "text_pages": 14,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13676_MedTech_Mitras_In-Vitro_Diagnostic_Innovators_Handbook.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 144,
+      "text_pages": 144,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13733_Cancellation_of_registration_of_cosmetic_product_QR_678-_Neo_issued_under_RCCOS-OO1410_for_import_of_Cosmetics_under_the.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13833_Cancellation_of_products_underRCCOS-001655_for_import_of_Cosmetics_under_Cosmetics_Rules_2020.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13868_Doxycycline_related_CNS_Side_Effects_Restlessness_Anxiety_Irritability_Nervousness_and_Dizziness_-_Recommendations_for_t.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13870_Carbimazole_related_agranulocytosis_-_Recommendations_for_the_change_in_Prescribing_Information_Leaflets_PILs.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13931_Alert_on_theft_of_Lantus\u00c2_SoloStar\u00c2_Insulin_Glargine_Injection_IP_r\u00e2DNA_origin_100_IUmL_Batch_No._5F0347B_of_Ms_Sanofi_I.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13970_Cancellation_of_products_under_RCCOS-005358_for_import_of_Cosmetics_under_Cosmetics_Rules_2020_Ms._Beauty_Garage_India_P.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "13972_Manufacturing_and_marketing_of_unapproved_drug_product_Sodium_Hyaluronate_Eye_Drops_0.3_wv.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14107_COVID-19_vaccines_approved_in_the_country_as_on_22.04.2026.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14171_Strengthening_Enforcement_against_Unauthorized_Promotion_and_Distribution_of_GLP-1_Based_Drugs.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14174_Use_of_Cosmetics.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14282_Prohibits_to_Import_manufacture_sale_distribution_and_use_in_any_food_producing_animal_rearing_system_of_drug_formulatio.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14404_Submission_of_Post_Approval_Changes_Applications_of_Registration_Certificate_and_Import_Licence_of_Human_Vaccines_and_An.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14489_NOTICE_regarding_Not_of_Standard_Quality_Combipack_ABD.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14490_NOTICE_regarding_not_of_Standard_Quality_of_Mediclone_D.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14602_Manufacturing_and_marketing_of_un-approved_drug_products_containing_Enclomiphene_and_its_combinations.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14638_Stem_Cell_Treatment_and_Advertisements_for_various_diseases.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14665_cancellation_order_dated_24.08.2026_Skintle_Enterprises_Pvt_Ltd.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "14668_Drug_Regulatory_and_Law_Enforcement_Agencies_Intensify_Coordinated_Action_Against_Illegal_Manufacture_and_Distribution_o.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 10,
+      "text_pages": 2,
+      "scanned_pages": 8,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1517_Speical_operation_to_prevent_and_detect_illegal_manufacturing_of_API_formulations_and_Import_of_oxytocin_in_India.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1721_Revised_List_of_Oxytocin_Manufacturer.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1874_Strict_regulatory_actions_to_prevent_illegal_manufacturing_sale_distribution_and_import_of_Oxytocin_in_India_-All_Port_o.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1875_Strict_regulatory_actions_to_prevent_illegal_manufacturing_sale_distribution_and_import_of_Oxytocin_in_India_-All_ZonalS.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1877_Strict_regulatory_actions_to_prevent_illegal_manufacturing_sale_distribution_and_import_of_Oxytocin_in_India_-All_StateU.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1940_Faulty_ASR_Hip_Implant_Manufactured_by_Ms_DePuy_International_Limited_U.K.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1941_Constitution_of_Central_Expert_Committee_to_determine_the_quantum_of_compensation_in_respect_of_faulty_ASR_Hip_Implants_.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1946_Renaming_of_Central_Drugs_Standard_Control_Organization_dated_06.09.2018.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1949_Public_notice_related_to_ASR_Hip_Implants.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1952_Prohibition_of_328_fixed_dose_combinations_by_the_central_Government_vide_Gazette_notification_nos._S.O._4379_E_to_S.O._.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "1972_Notice-27.09.2018_Draft_Pharmacovigilance_System_Inspection_Guideline.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 21,
+      "text_pages": 20,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2143_Application_Form_for_Compensation-DePuy_J_J_ASR_Hip_Implant.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2192_Presentation_for_Rabies_Vaccine.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2193_Notice_regarding_Preparation_for_global_switch_from_tOPV_to_bOPV_2016.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2196_List_of_meetings_of_Expert_Committee_for_examination_of_vaccine_PSUR.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2338_Office_Memorandum_dated_14.12.2018_Ms._Galderma_India.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "2419_Safety_guidelines_for_Isotretinoin_dated_19.12.2018.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 10,
+      "text_pages": 7,
+      "scanned_pages": 2,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "2680_Meeting_Notice_regarding_8th_meeting_of_Central_Expert_Committee_to_determine_quantum_of_compensation_in_respect_of_faul.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3006_Specification_and_criteria_for_acceptance_for_test_performed_on_syphilis_raid_and_ELISA_kits.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 5,
+      "text_pages": 0,
+      "scanned_pages": 5,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3008_Constitution_of_In_Vitro_Diagnostic_Device_Advisory_Committee.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 21,
+      "text_pages": 0,
+      "scanned_pages": 21,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3101_Application_form_for_Compensation-DePuy_Johnson.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "3103_Health_Ministry_approves_compensation_formula_for_Hip_implant_cases.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 6,
+      "text_pages": 6,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3104_To_provide_guidance_and_advertisement_for_compensation_to_patients_implanted_with_ASR_Hip_Implants.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3134_Constitution_of_State_level_Committee_Regarding_the_Faulty_ASR_HIP_Implant_manufatured_by_Ms_DePuy_International_Ltd_U_K.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3157_Regulation_of_import_and_manufacture_of_certain_medical_devices_covered_under_the_Categories_of_notified_Medical_devices.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 2,
+      "text_pages": 2,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3158_Report_of_the_Expert_Committee_to_address_the_Issue_of_Faulty_ASR\u00e2_Hip_Implants_Dr._Arun_Kumar_Aggarwal_The_Chairman_of_.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 121,
+      "text_pages": 4,
+      "scanned_pages": 117,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3197_Prohibition_of_80_fixed_Dose_combinations_by_the_Central_Government_vide_Gazette_notification_nos_S.O_180_E_to_S.O_259_E.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3231_Requirement_of_Obtaining_Approval_from_the_Office_of_Drugs_Controller_General_of_India_DCGI_Prior_to_Initiation_of_activ.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "3393_Notice_Expansion_of_panel_of_experts_for_evaluation_of_applications_of_New_Drugs_Clinical_Trials_and_Medical_Devices.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 6,
+      "text_pages": 0,
+      "scanned_pages": 6,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "406_Office_Memorandum_regarding_speical_operation_to_prevent_and_detect_illegal_manufacturing_of_API_formulations_and_Import.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4113_Manufacture_and_market_FDC_of_AtenololLosartanHydrochlorthaizide.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 4,
+      "text_pages": 0,
+      "scanned_pages": 4,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "413_Notice_regarding_consideration_of_the_directions_of_Honble_SC_India_in_the_Case_of_344_FDCs05_FDCs_probibited_Vide_S.O_N.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "419_Public_Notice_regarding_Restriction_on_Import_manufacture_sale_and_distribution_of_Oxytocin_to_curb_its_misuse.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "425_Notice_regarding_Meeting_of_CDSCO_with_manufacturers_of_Oxytocin_Formulation_to_discuss_issue_ralted_to_misuse_of_Oxytoc.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4262_Safety_warning_for_SGLT2_Inhibitors.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4274_Condition_for_supply_of_Buprenorphine_2mg0.4mg_sublingual_tablet_and_FDC_of_BuprenorphineNaloxone_sublingual_tablets.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "427_Office_Memorandum_regarding_Sampling_of_imported_insuline_formulations_at_port_offices.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4325_Cancellation_of_Registration_Certificate_No._SVH-9_and_Import_License_SVH-9-131.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4326_Cancellation_of_Registration_Certificate_No._SVH-101_and_Import_License_SVH-101-112.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4340_Frequently_Asked_Questions_FAQs_on_New_Drugs_and_Clinical_Trials.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 34,
+      "text_pages": 33,
+      "scanned_pages": 0,
+      "empty_pages": 1,
+      "error": null
+    },
+    {
+      "filename": "439_Notice_regarding_Invitation_for_Inclusion_of_Professionals_in_the_Subject_Expert_Committee_Panels_under_CDSCO.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 9,
+      "text_pages": 0,
+      "scanned_pages": 9,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4469_Notice_regarding_Evaluation_of_FDC_by_DTAB_Sub-Committee_which_were_ealier_Considered_as_irrational_in_the_assessment_re.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 22,
+      "text_pages": 21,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "446_NOTICE_regarding_Strict_regulatory_control_over_manufacture_sale_and_distribution_of_oxytocin_and_to_curb_its_misuse.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "447_NOTICE_regarding_Not_of_Standard_Quality_Combipack_ABD.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4505_National_List_of_Essential_Medicines_2015.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 117,
+      "text_pages": 117,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "466_Notice_Order_regarding_Streamlining_the_regulatory_procedures.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 4,
+      "text_pages": 4,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "470_Notice_regarding_Draft_SOP_for_handling_of_NSQ_samples.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "481_Public_Notice_regarding_Strict_regulatory_control_over_manufacture_sale_and_distribution_of_oxytocin_and_to_curb_its_mis.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "482_Office_memorandum_regarding_Strict_regulatory_control_over_manufacture_sale_and_distribution_of_oxytocin_and_to_curb_its.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "4853_Advisory_on_labeling_requirements_for_combi_kit_of_Misoprostol_and_Mifepristone_tablets_for_Medical_Termination_of_Pregn.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "499_Office_Memorandum_Avoiding_multiple_inspections_of_a_facility_using_Risk_Based_Approach.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "500_Circular_NOC_for_export_of_biological_products_Vaccine_r-DNA_products_under_form_29_License_to_manufacture_drugs_for_pur.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5010_Manufacturing_and_marketing_of_FDC_of_Aceclofenac_100mg_Drotaverine_Hydrochloride_80mg_tablet-regarding.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "501_Office_Memorandum_Form_29_license_to_manufacture_drugs_for_examination_test_or_analysis_for_biological_products_Vaccine_.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "509_Notice_Order_regarding_Oseltamivir_and_Zanamivir.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 4,
+      "text_pages": 0,
+      "scanned_pages": 4,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "512_Office_memorandum_regarding_approval_of_the_safety_and_efficacy_of_FDCs.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5145_External_Performance_evaluation_of_IVDs_under_MDR_further_guidance.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "514_Notice_Order_regarding_Examination_of_Safety_and_efficacy_of_FDCs_licensed_for_manufacture_for_sale_in_the_country_witho.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 10,
+      "text_pages": 10,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5169_Expansion_of_testing_of_IVDs_for_Clinical_Chemistry_reagentsKits_at_NIB_Noida_under_the_provision_of_Medical_Device_Rule.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "519_Meeting_notice_of_Vaccine_manufacturers_to_discuss_upon_forthcoming_NRA_assesment_and_its_tools.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "521_Presentation_for_Rabies_Vaccine-_regarding.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "538_Alert_Notice.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "547_Notice_regarding_documents_for_applying_as_subject_experts_in_various_panels_of_CDSCO.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 9,
+      "text_pages": 6,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5492_Notice_regarding_List_of_Reference_Products_for_conduct_of_BE_Study.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 10,
+      "text_pages": 9,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5545_Draft_of_the_Drugs_and_Magic_Remedies_objectional_Advertisments_Amendment_Bill_2020.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 5,
+      "text_pages": 5,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5588_Notice_regarding_New_Drugs_dated_18.02.2020.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5636_Revised_Guidance_list_of_Laboratories_on_Performance_Evluation_of_IVDm_dated-24022020.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 12,
+      "text_pages": 12,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5707_NoticesCircular_Advisory_regarding_schedule_H_H1_C_X.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 12,
+      "text_pages": 12,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5769_Notice_regarding_Regulatory_pathway_for_RD_of_Drug_or_vaccine_for_COVID-19.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "577_Notice_dated_23.03.2016_regarding_Preparation_for_global_switch_from_tOPV_to_bOPV_2016.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5783_OM_on_Rapid_Response_Regulatory_Framework_for_COVID-19.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5788_Release_of_consignments_of_Vaccine_and_critical_IVDs-certain_instructions_issued.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5789_Notice_regarding_the_FAQs_on_New_Drugs_and_Clinical_Trial_dated_1822020.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5855_Advisory_issued_by_Ministry_of_Health_and_Family_Welfare_Govt._of_India_to_spread_awareness_to_general_public_for_the_us.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "585_Prohibition_of_Fixed_Dose_Combination_of_drugs_for_human_use_under_Section_26A_of_Drugs_Cosmetics_Act_1940.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5863_Clinical_trial_of_convalescent_plasma_in_COVID-19_Patients.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 17,
+      "text_pages": 16,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5884_amended_Clinical_Trial_protocol_version_1.4_by_ICMR_dated_2020-04-22_on_convalescent_plasma_protocol_v1.4.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 20,
+      "text_pages": 20,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5918_Targeted_interanl_timeline_for_processing_and_disposal_of_application_by_CDSCO.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5954_Radpid_Response_Regulatory_Framework_for_COVID-19_vaccine_development.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 9,
+      "text_pages": 9,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "5965_ICMR_Convalescent_plasma__protocol_v1.5.pdf.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 22,
+      "text_pages": 22,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "609_Sale_of_Drugs_over_Internet_contravening_the_provisions_of_Drugs_and_Cosmetics_Rules_1945.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6213_Approval_of_Favipiravir_Tablets_to_Glenmark_Pharmaceuticals_and_Remdesivir_Injection_to_Cipla_Ltd_Hetero_Drugs_and_Mylan.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "640_Office_Order_18.08.2015_regarding_delegation_of_Power_to_grant_NOC_for_Manufacture_of_unapprovedapproved_and_banned_drug.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6499_Notice_for_Vaccine_Guidelines_dated_21_Sept_2020.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "6500_Regulatory_guidelines_for_development_of_Vaccine_21.09.2020.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 40,
+      "text_pages": 40,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "656_Reminder.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "667_Office_Memorandum_Grant_of_NOC_for_procuring_unapprovedApproved_New_Drug.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 10,
+      "text_pages": 0,
+      "scanned_pages": 10,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "688_Meeting_of_all_Vaccine_Manufacutres_Importers_on_15th_January_2015.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7021_Notice-Online_Application_for_the_issuance_of_Form_41_Registration_certificate_and_Form_10_Import_License_for_Veterinary.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7025_Month_wise_Tentative_schedule_of_SEC_Vaccine_meetings_of_the_year_2021.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7067_Meeting_of_DTAB_Sub_Committee_through_WebEx_Video_Conference_w.e.f._19.04.2021_to_07.05.2021_for_examining_the_Fixed_Dos.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 21,
+      "text_pages": 0,
+      "scanned_pages": 21,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7112_Monitoring_to_ensure_availability_of_Remdesivir_and_prevent_its_hoarding_and_black_marketing.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7113_Enforcement_activities_to_stop_hoardingback_marketingovercharging_of_COVID_Managment_drug_Remdesivir.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "712_Letter_for_States_regarding_Regulatory_Inspection_Procedure.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7143_Notice_regarding_Guidance_for_approval_Covid-19_vaccine_in_India_for_restricted_use_in_emergency_situation_which_are_alr.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7177_SOP_Guidance_for_import_of_vaccine_by_private_sector_or_any_person.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "717_Office_Order_dated_03.07.2014_-_Procedure_for_review_of_application_of_CT_and_New_drugs.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "719_Office_Order_dated_03.07.2014_-_Clinical_Trial_on_Medical_Device.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7282_Guidance_for_approval_COVID-19_Vaccines_in_India_for_restricted_use_in_emergency_situation_which_are_already_approved_fo.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7453_Classification_of_Medical_Device_Pertaining_to_Dermatological_and_Plastic_Surgery_under_the_Provisions_of_Medical_Devcie.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 8,
+      "text_pages": 7,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7457_Notice_Evaluation_of_Certain_pre_1988_permitted_FDC_de_novo_for_manufacture_of_Sale_in_the_Country_without_due_approval_.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7566_Classification_of_Medical_Device_Pertaining_to_Radiotherapy_under_the_Provisions_of_Medical_Devcies_Rules_2017_dated_6_A.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 14,
+      "text_pages": 13,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7592_Classification_of_Medical_Device_Pertaining_to_Urology_Under_the_provision_of_Medical_Devices_Rules_2017.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 10,
+      "text_pages": 9,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7596_PCR_Kits_approved_for_testing_of_Covid-19_as_on_23.08.2021.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 18,
+      "text_pages": 18,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7610_Procedure_to_be_follow_for_reqularisation_of_19_FDCs_out_of_294_FDCs_which_required_further_generation_of_data_which_wer.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 3,
+      "text_pages": 0,
+      "scanned_pages": 3,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7617_Manufacturing_and_marketing_of_FDC_of_Tolperisone_HCL_150mg_Paracetamol_IP_500mg_tablet.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7659_Classification_of_Medical_Device_pertaining_to_Software_under_the_provisions_of_Medical_Devices_Rules_2017.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 8,
+      "text_pages": 7,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7663_Classification_of_Medical_Device_pertaining_to_Nephrology_and_Renal_Care_under_the_provisions_of_Medical_Devices_Rules_2.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 5,
+      "text_pages": 4,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7725_Classification_of_Medical_Device_pertaining_to_Neurological_under_the_provisions_of_Medical_Devices_Rules_2017.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 11,
+      "text_pages": 10,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7727_Classification_of_Medical_Device_pertaining_to_Gastroenterology_under_the_provisions_of_Medical_Devices_Rules_2017.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 18,
+      "text_pages": 17,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "794_Notice_dated_08.07.2013-_Revision_of_CDSCO_Guidance_for_industry_for_biological_products_for_applications_under_post_app.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7955_List_of_approved_veterinary_vaccines.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 33,
+      "text_pages": 33,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "7966_PCR_Kits_approved_for_testing_of_Covid-19_as_on_09.12.2021.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 19,
+      "text_pages": 19,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "797_Delegation_of_powers_of_Licensing_Authority_under_Rule_22_of_Drugs_Cosmetics_Rules.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8025_Vigil_on_the_activities_of_distribution_sale_of_suspected_spurious_Tocilizumab_400_mg20_ml_Injections_in_India.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8034_Evaluation_of_certain_pre_1988_permitted_Fixed_Dose_Combinations_FDCs_de_novo_for_manufacture_for_sale_in_the_country_wi.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "803_Notice_dated_10.04.2013_regarding_prioritisation_of_activities_at_CDSCO.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "806_Delegation_of_powers_to_the_officers_in_the_DCGI_Office_to_sign_certain_licences_under_Rule_22_of_Drugs_Cosmetics_Rule_1.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "811_Notice_-_clarification_and_requirements_related_to_post_approval_changes_as_per_CDSCO_Guidance_for_industry_for_biologic.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "812_Notice-dated_13.12.2012_DRUG_ALERT.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8141_Rapid_CLIA_ELISA_Kits_approved_for_testing_of_Covid-19_as_on_11.02.2022.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 16,
+      "text_pages": 16,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "818_Office_Order-dated_21.11.12_Delegation_of_power_to_CDSCO_NZ_Ghaziabad..pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8190_Month_wise_Tentative_Schedule_of_SEC_Vaccine_meetings_of_the_Year_2022.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "825_Notice-dated_12.10.2012_Directions_issued_under_Section_33P_of_D_C_Act_1940..pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 5,
+      "text_pages": 0,
+      "scanned_pages": 5,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "830_Notice-dated_14.09.2012_Fake_drug_menace_in_India..pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 2,
+      "text_pages": 1,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "833_Notice-dated_28.08.2012_Expansion_of_Experts_panel_for_evaluation_of_application_of_New_Drugs_etc..pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 6,
+      "text_pages": 0,
+      "scanned_pages": 6,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8368_List_of_laboratories_for_conducting_Performance_evaluation_of_IVD_analyzers_instruments_and_software.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 3,
+      "text_pages": 3,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "843_Office_Order-dated_01.06.2011_regarding_delegation_of_powers_to_Zonal_Officer_of_CDSCO..pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "845_Public_Notice_regarding_Meeting_of_DTAB_sub_Committee_w.ef_05.06.2018_to_22.06.2018_in_the_office_of_DCGI_to_examine_the.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 36,
+      "text_pages": 0,
+      "scanned_pages": 36,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "851_Notice_regarding_consideration_of_the_directions_of_Honble_SC_India_in_the_Case_of_344_FDCs05_FDCs_probibited_Vide_S.O_N.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8548_Classification_of_Medical_Device_Pertaining_to_Obstetrical_and_Gynecological_Under_the_provision_of_Medical_Devices_Rule.pdf",
+      "category": "public_notices",
+      "type": "mixed",
+      "pages": 10,
+      "text_pages": 9,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "856_Meeting_of_DTAB_sub_Committee_for_examining_the_344_FDCs05FDCs_and_to_provide_hearing_to_the_petitionerappellants_includ.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "870_Notice_regarding_Human_Vaccines_dated_15.02.2017.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 1,
+      "text_pages": 1,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "8793_Notice_regarding_Draft_of_New_Drugs_Medical_Devices_and_Cosmetics_Bill_2022.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 83,
+      "text_pages": 83,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9056_Strengthening_of_Medical_Products_Safety_Surveillance_System_in_North_Eastern_States_of_India_on_October_19_2022_at_Gove.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 2,
+      "text_pages": 0,
+      "scanned_pages": 2,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9735_InspectionAudits_of_PharmacovigilanePV_system_of_importers_and_manufactures_of_human_vaccine.pdf",
+      "category": "public_notices",
+      "type": "scanned",
+      "pages": 1,
+      "text_pages": 0,
+      "scanned_pages": 1,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9824_PCR_Kits_approved_for_testing_of_Covid-19_as_on_25.01.2023.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 21,
+      "text_pages": 21,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    },
+    {
+      "filename": "9825_Rapid_CLIA_ELISA_Kits_approved_for_testing_of_Covid-19_as_on_25.01.2023.pdf",
+      "category": "public_notices",
+      "type": "text",
+      "pages": 17,
+      "text_pages": 17,
+      "scanned_pages": 0,
+      "empty_pages": 0,
+      "error": null
+    }
+  ]
+}

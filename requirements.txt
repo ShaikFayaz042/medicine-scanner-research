@@ -15,6 +15,7 @@ psycopg2-binary
 psycopg[binary]
 
 # PDF extraction and OCR
+opencv-python
 pymupdf
 pymupdf-layout
 pymupdf4llm

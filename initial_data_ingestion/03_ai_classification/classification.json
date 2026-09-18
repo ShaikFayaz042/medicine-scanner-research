@@ -1,0 +1,101 @@
+[
+  {
+    "filename": "10069_Drug_Alert_list_for_month_of_March_2023.pdf",
+    "category": "process_queue",
+    "reason": "Monthly drug alert explicitly lists medicines, batches, manufacturers, and quality failures.",
+    "has_specific_drug_or_mfg": true,
+    "detected_entities": {
+      "drug_names": ["Telmirid-40", "Domperidone", "Pioglitazone Hydrochloride"],
+      "manufacturers": ["Ridley Life Sciences Pvt. Ltd.", "Karnataka Antibiotics & Pharmaceuticals Limited", "Skymap Pharmaceuticals Pvt. Ltd."],
+      "alert_type": "NSQ Alert"
+    }
+  },
+  {
+    "filename": "10494_Voluntary_Recall_of_Digene_Gel_manufactured_by_Ms_Abbott_India_Limited_L-1819_Verna_Industrial_Estate_Salcette_Goa-40372.pdf",
+    "category": "process_queue",
+    "reason": "Official notice reports a voluntary recall of specific Digene Gel batches manufactured by Abbott India.",
+    "has_specific_drug_or_mfg": true,
+    "detected_entities": {
+      "drug_names": ["Digene Gel"],
+      "manufacturers": ["Abbott India Limited"],
+      "alert_type": "Voluntary Recall"
+    }
+  },
+  {
+    "filename": "10504_Alert_on_falsified_versions_of_Adcetris_Injection_Brentuximab_Vedotin_Manufactured_by_Ms_Takeda_Pharmaceuticals_Company_.pdf",
+    "category": "process_queue",
+    "reason": "Safety alert identifies falsified Adcetris Injection batches and names the manufacturer Takeda.",
+    "has_specific_drug_or_mfg": true,
+    "detected_entities": {
+      "drug_names": ["Adcetris Injection", "Brentuximab Vedotin"],
+      "manufacturers": ["Takeda Pharmaceutical Company Ltd."],
+      "alert_type": "Falsified Product Alert"
+    }
+  },
+  {
+    "filename": "11022_Meeting_through_WebEx_Video-conference_of_the_DTAB-sub_Committee_on_05.04.2024_at_11.00_a.m._to_600_p.m._to_Evaluation_o.pdf",
+    "category": "junk",
+    "reason": "WebEx committee meeting notice is administrative and does not itself provide an actionable medicine alert.",
+    "has_specific_drug_or_mfg": false,
+    "detected_entities": {
+      "drug_names": [],
+      "manufacturers": [],
+      "alert_type": "Meeting Notice"
+    }
+  },
+  {
+    "filename": "4473_Minutes_of_meeting_of_CDSCO_with_stakeholders_for_obtaining_Import_License_without_Registration_Certificate_for_Radiopha.pdf",
+    "category": "junk",
+    "reason": "The document is an administrative stakeholder meeting record without a specific drug safety or quality alert.",
+    "has_specific_drug_or_mfg": false,
+    "detected_entities": {
+      "drug_names": [],
+      "manufacturers": [],
+      "alert_type": "Administrative Meeting Record"
+    }
+  },
+  {
+    "filename": "3297_Non-conviction_Certificate.pdf",
+    "category": "junk",
+    "reason": "A non-conviction certificate is administrative documentation rather than actionable medicine data.",
+    "has_specific_drug_or_mfg": false,
+    "detected_entities": {
+      "drug_names": [],
+      "manufacturers": [],
+      "alert_type": "Administrative Certificate"
+    }
+  },
+  {
+    "filename": "3243_Draft_guidance_on_approval_of_clinical_trials_new_drug.pdf",
+    "category": "manual_review",
+    "reason": "The extracted document is explicitly draft guidance awaiting feedback and possible finalization.",
+    "has_specific_drug_or_mfg": false,
+    "detected_entities": {
+      "drug_names": [],
+      "manufacturers": [],
+      "alert_type": "Draft Guidance"
+    }
+  },
+  {
+    "filename": "13292_Corrigendum_to_the_letter_dated_11.04.2025_on_manufacturing_and_marketing_of_unapproved_FDCs.pdf",
+    "category": "manual_review",
+    "reason": "A corrigendum to an earlier unapproved-FDC letter needs the referenced document for complete context.",
+    "has_specific_drug_or_mfg": false,
+    "detected_entities": {
+      "drug_names": [],
+      "manufacturers": [],
+      "alert_type": "Corrigendum"
+    }
+  },
+  {
+    "filename": "179_Medical_Device_Adverse_Event_reporting_form.pdf",
+    "category": "manual_review",
+    "reason": "The document is a reporting form template and requires human review to determine whether it contains actionable data.",
+    "has_specific_drug_or_mfg": false,
+    "detected_entities": {
+      "drug_names": [],
+      "manufacturers": [],
+      "alert_type": "Reporting Form"
+    }
+  }
+]
