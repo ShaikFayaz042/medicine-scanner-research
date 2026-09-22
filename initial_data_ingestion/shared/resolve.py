@@ -108,6 +108,26 @@ def infer_scope(rec: Dict[str, Any], doc_type: str = "") -> str:
     return "DOCUMENT"
 
 
+def infer_action(event_type: str, value: str | None) -> tuple[str, str]:
+    """Return an explicit action or a conservative event-type action fallback."""
+    if value and value.strip():
+        return value.strip(), "EXTRACTED"
+    actions = {
+        "BANNED": "BAN",
+        "PROHIBITED": "PROHIBITION",
+        "RECALL": "RECALL",
+        "SUSPENSION": "SUSPENSION",
+        "WITHDRAWAL": "WITHDRAWAL",
+        "APPROVAL": "APPROVAL",
+        "NOC": "IMPORT_PERMISSION",
+        "ADR": "SAFETY_ALERT",
+        "NSQ": "QUALITY_ALERT",
+        "SPURIOUS": "QUALITY_ALERT",
+    }
+    action = actions.get(event_type, "")
+    return action, "INFERRED" if action else "MISSING"
+
+
 def resolve_record(
     doc_id: Any,
     doc_type: str,
@@ -123,6 +143,15 @@ def resolve_record(
     mfg_state = extracted_rec.get("manufacturer_state") or None
     rep_name = extracted_rec.get("reporting_organization_name") or ""
     rep_state = extracted_rec.get("reporting_organization_state") or None
+    role_names = {
+        "MANUFACTURER": (mfg_name, mfg_state),
+        "IMPORTER": (extracted_rec.get("importer_name") or "", mfg_state),
+        "APPLICANT": (extracted_rec.get("applicant_name") or "", mfg_state),
+        "MARKETING_AUTHORIZATION_HOLDER": (
+            extracted_rec.get("marketing_authorization_holder_name") or "",
+            mfg_state,
+        ),
+    }
     
     category = str(extracted_rec.get("product_category") or "DRUG").upper()
     if category not in ALLOWED_PRODUCT_CATEGORIES:
@@ -130,6 +159,7 @@ def resolve_record(
 
     ev_type = infer_event_type(doc_type, extracted_rec)
     scope_val = infer_scope(extracted_rec, doc_type)
+    action, action_source = infer_action(ev_type, extracted_rec.get("action"))
 
     parsed_ingredients = extracted_rec.get("ingredients") or []
     ingredient_keys = [ingredient_key(item["name"]) for item in parsed_ingredients if item.get("name")]
@@ -189,10 +219,31 @@ def resolve_record(
         "batch_key": btch_key,
         "manufacturer_organization_key": mfg_org_key,
         "reporting_organization_key": rep_org_key,
+        "organization_roles": {
+            role: organization_key(name, state) if name else None
+            for role, (name, state) in role_names.items()
+        },
+        "organization_role_details": {
+            role: {
+                "key": organization_key(name, state) if name else None,
+                "name": name,
+                "address": extracted_rec.get(
+                    {
+                        "IMPORTER": "importer_address",
+                        "APPLICANT": "applicant_address",
+                        "MARKETING_AUTHORIZATION_HOLDER": "marketing_authorization_holder_address",
+                    }.get(role, "manufacturer_address"),
+                    "",
+                ) or "",
+                "state": state or "",
+            }
+            for role, (name, state) in role_names.items()
+        },
         "event_key": evt_key,
         
         # Canonical / Normalized Data
         "product_name": prod_name,
+        "brand_name": extracted_rec.get("brand_name") or "",
         "normalized_product_name": canonical(prod_name),
         "product_category": category,
         "ingredients": [
@@ -207,21 +258,34 @@ def resolve_record(
         "expiry_date": extracted_rec.get("expiry_date"),
         
         "manufacturer_name": mfg_name,
+        "manufacturer_address": extracted_rec.get("manufacturer_address") or "",
         "normalized_manufacturer_name": canonical(mfg_name),
         "manufacturer_state": mfg_state,
+        "importer_name": extracted_rec.get("importer_name") or "",
+        "applicant_name": extracted_rec.get("applicant_name") or "",
+        "marketing_authorization_holder_name": extracted_rec.get("marketing_authorization_holder_name") or "",
         "country": extracted_rec.get("country") or "India",
         
         "reporting_organization_name": rep_name,
+        "reporting_organization_address": extracted_rec.get("reporting_organization_address") or "",
         "normalized_reporting_organization_name": canonical(rep_name),
+        "reporting_organization_state": rep_state or "",
         
         "event_type": ev_type,
         "event_date": extracted_rec.get("event_date"),
         "scope": scope_val,
         "status": extracted_rec.get("status") or ev_type,
         "reason": extracted_rec.get("reason"),
-        "action": extracted_rec.get("action"),
+        "action": action,
         "legal_status": extracted_rec.get("legal_status"),
-        "additional_data": extracted_rec.get("additional_data") or {},
+        "additional_data": {
+            **(extracted_rec.get("additional_data") or {}),
+            "_pipeline": {
+                "event_type_source": extracted_rec.get("event_type_source", "EXTRACTED" if extracted_rec.get("event_type") else "INFERRED"),
+                "event_date_source": extracted_rec.get("event_date_source", "EXTRACTED" if extracted_rec.get("event_date") else "MISSING"),
+                "action_source": action_source,
+            },
+        },
         
         # Lineage details
         "page_number": extracted_rec.get("page_number", 1),

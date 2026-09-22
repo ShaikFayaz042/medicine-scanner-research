@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CDSCO Monitor</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 32px 16px;
+    color: #1a202c;
+  }
+  .container { max-width: 1100px; margin: 0 auto; }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  header h1 { margin: 0; font-size: 24px; }
+  .badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #e2e8f0;
+    color: #4a5568;
+  }
+  .badge.on   { background: #c6f6d5; color: #22543d; }
+  .badge.off  { background: #fed7d7; color: #742a2a; }
+
+  .card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .card h2 { margin: 0 0 16px 0; font-size: 15px; text-transform: uppercase;
+             letter-spacing: 0.5px; color: #4a5568; }
+
+  .scheduler-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  input[type="time"] {
+    font-size: 20px;
+    padding: 8px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-family: monospace;
+  }
+  button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  button:hover { opacity: 0.85; }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  .btn-primary { background: #3182ce; color: white; }
+  .btn-success { background: #38a169; color: white; }
+  .btn-ghost   { background: #edf2f7; color: #2d3748; }
+
+  .status-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .stat { background: #f7fafc; padding: 12px 16px; border-radius: 6px; }
+  .stat .label { font-size: 11px; text-transform: uppercase; color: #718096; letter-spacing: 0.5px; }
+  .stat .value { font-size: 16px; font-weight: 600; margin-top: 4px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead { background: #f7fafc; }
+  th {
+    text-align: left;
+    padding: 10px 12px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #4a5568;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  td { padding: 12px; border-bottom: 1px solid #edf2f7; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr.new-row { animation: flash 1.5s ease-out; }
+  @keyframes flash {
+    from { background: #fefcbf; }
+    to   { background: transparent; }
+  }
+
+  .sno-cell { color: #718096; font-family: monospace; width: 40px; }
+  .title-cell { max-width: 500px; }
+  .title-cell .doc-id { color: #718096; font-size: 12px; font-family: monospace; }
+
+  .status-badge {
+    display: inline-block; padding: 3px 9px; border-radius: 10px;
+    font-size: 11px; font-weight: 600;
+  }
+  .status-downloaded { background: #c6f6d5; color: #22543d; }
+  .status-discovered { background: #bee3f8; color: #2a4365; }
+  .status-failed     { background: #fed7d7; color: #742a2a; }
+
+  a.pdf-link { color: #3182ce; text-decoration: none; font-weight: 600; }
+  a.pdf-link:hover { text-decoration: underline; }
+
+  .empty-state { text-align: center; padding: 40px; color: #a0aec0; }
+  .toast {
+    position: fixed; top: 20px; right: 20px;
+    background: #2d3748; color: white; padding: 12px 20px;
+    border-radius: 6px; font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    opacity: 0; transition: opacity 0.2s; pointer-events: none;
+  }
+  .toast.show { opacity: 1; }
+  .toast.ok   { background: #276749; }
+  .toast.err  { background: #9b2c2c; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>CDSCO Monitor</h1>
+    <span id="header-status" class="badge">…</span>
+  </header>
+
+  <div class="card">
+    <h2>Automation</h2>
+    <div class="scheduler-row">
+      <label for="time-input">Run scraper at:</label>
+      <input type="time" id="time-input" value="02:00">
+      <button id="save-btn" class="btn-primary">Save Schedule</button>
+      <button id="toggle-btn" class="btn-ghost">Disable</button>
+      <button id="run-now-btn" class="btn-success">▶ Trigger Now</button>
+    </div>
+
+    <div class="status-grid">
+      <div class="stat">
+        <div class="label">Schedule</div>
+        <div class="value" id="stat-schedule">—</div>
+      </div>
+      <div class="stat">
+        <div class="label">Next Run</div>
+        <div class="value" id="stat-next">—</div>
+      </div>
+      <div class="stat">
+        <div class="label">Documents</div>
+        <div class="value" id="stat-count">—</div>
+      </div>
+      <div class="stat">
+        <div class="label">Last Refresh</div>
+        <div class="value" id="stat-refresh">—</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Documents</h2>
+    <div id="docs-container">
+      <div class="empty-state">Loading…</div>
+    </div>
+  </div>
+
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+
+function showToast(msg, kind = "ok") {
+  const t = $("toast");
+  t.textContent = msg;
+  t.className = "toast show " + kind;
+  setTimeout(() => { t.className = "toast " + kind; }, 2500);
+}
+
+async function api(path, opts = {}) {
+  const r = await fetch(path, opts);
+  if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+  return r.json();
+}
+
+function fmtBytes(b) {
+  if (b == null) return "—";
+  if (b < 1024) return b + " B";
+  if (b < 1024 * 1024) return (b / 1024).toFixed(1) + " KB";
+  return (b / (1024 * 1024)).toFixed(2) + " MB";
+}
+
+function fmtLocalTime(iso) {
+  if (!iso) return "—";
+  const d = new Date(iso);
+  const pad = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ` +
+         `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+let schedulerState = null;
+let lastDocIds = new Set();
+
+async function loadScheduler() {
+  const s = await api("/api/scheduler");
+  schedulerState = s;
+  $("time-input").value = `${String(s.hour).padStart(2, "0")}:${String(s.minute).padStart(2, "0")}`;
+  $("toggle-btn").textContent = s.enabled ? "Disable" : "Enable";
+  $("header-status").textContent = s.enabled ? "Scheduler ON" : "Scheduler OFF";
+  $("header-status").className = `badge ${s.enabled ? "on" : "off"}`;
+  $("stat-schedule").textContent = s.enabled ? `${String(s.hour).padStart(2, "0")}:${String(s.minute).padStart(2, "0")}` : "Disabled";
+  $("stat-next").textContent = s.next_run ? fmtLocalTime(s.next_run) : "—";
+}
+
+async function loadDocuments() {
+  const data = await api("/api/documents");
+  const docs = data.documents || [];
+  $("stat-count").textContent = String(data.count ?? docs.length);
+  $("stat-refresh").textContent = fmtLocalTime(new Date().toISOString());
+
+  const currentIds = new Set(docs.map(d => d.id));
+  const newIds = [...currentIds].filter(id => !lastDocIds.has(id));
+  lastDocIds = currentIds;
+
+  const container = $("docs-container");
+  if (!docs.length) {
+    container.innerHTML = '<div class="empty-state">No documents found.</div>';
+    return;
+  }
+
+  const rows = docs.map((d, i) => {
+    const isNew = newIds.includes(d.id);
+    const statusClass = `status-${d.status || "discovered"}`;
+    const pdfUrl = d.local_file_path ? `/static-pdf/${d.document_id}.pdf` : (d.pdf_url || "#");
+    return `
+      <tr class="${isNew ? "new-row" : ""}">
+        <td class="sno-cell">${i + 1}</td>
+        <td class="title-cell">
+          <div>${d.title}</div>
+          <div class="doc-id">DOC ${d.document_id}</div>
+        </td>
+        <td>${d.release_date || "—"}</td>
+        <td>
+          <span class="status-badge ${statusClass}">${d.status || "discovered"}</span>
+        </td>
+        <td>${fmtBytes(d.file_size_bytes)}</td>
+        <td>
+          <a class="pdf-link" href="${pdfUrl}" target="_blank" rel="noreferrer">Open</a>
+        </td>
+      </tr>
+    `;
+  }).join("");
+
+  container.innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Title</th>
+          <th>Release</th>
+          <th>Status</th>
+          <th>Size</th>
+          <th>PDF</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}
+
+async function saveSchedule() {
+  const time = $("time-input").value;
+  const [hour, minute] = time.split(":").map(Number);
+  await api("/api/scheduler", {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ hour, minute, enabled: true })
+  });
+  showToast("Schedule updated", "ok");
+  await loadScheduler();
+}
+
+async function toggleScheduler() {
+  const enabled = !(schedulerState && schedulerState.enabled);
+  const time = $("time-input").value;
+  const [hour, minute] = time.split(":").map(Number);
+  await api("/api/scheduler", {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ hour, minute, enabled })
+  });
+  showToast(enabled ? "Scheduler enabled" : "Scheduler disabled", "ok");
+  await loadScheduler();
+}
+
+async function triggerNow() {
+  try {
+    const result = await api("/api/scrape-now?limit=20", { method: "POST" });
+    showToast(`Scrape started: ${result.new ?? 0} new`, "ok");
+    await loadDocuments();
+  } catch (err) {
+    showToast("Scrape failed", "err");
+    console.error(err);
+  }
+}
+
+$("save-btn").addEventListener("click", saveSchedule);
+$("toggle-btn").addEventListener("click", toggleScheduler);
+$("run-now-btn").addEventListener("click", triggerNow);
+
+async function boot() {
+  try {
+    await loadScheduler();
+    await loadDocuments();
+  } catch (err) {
+    console.error(err);
+    $("docs-container").innerHTML = '<div class="empty-state">Unable to load documents.</div>';
+  }
+}
+
+boot();
+</script>
+</body>
+</html>

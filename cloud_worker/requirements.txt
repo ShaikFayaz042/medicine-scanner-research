@@ -1,0 +1,8 @@
+# Standalone ECS/Fargate scraper worker runtime dependencies
+# Minimal set required by cloud_worker/scraper/* and cloud_worker/database/*
+
+requests
+beautifulsoup4
+sqlalchemy
+psycopg2-binary
+boto3

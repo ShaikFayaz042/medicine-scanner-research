@@ -8,6 +8,7 @@ import os
 import re
 import json
 import hashlib
+from datetime import date
 from typing import Dict, Any, List, Tuple
 from .keys import row_fingerprint, generate_source_record_id
 
@@ -50,9 +51,11 @@ def detect_document_type(filename: str, json_data: Dict[str, Any]) -> str:
         return "PVPI_ADR"
     elif "spurious" in fn_lower:
         return "SPURIOUS"
+    elif "not_of_standard_quality" in fn_lower or "not of standard quality" in fn_lower:
+        return "NSQ_STATE"
     elif "cdsco" in fn_lower and "nsq" in fn_lower:
         return "NSQ_CDSCO"
-    elif "nsq" in fn_lower:
+    elif "nsq" in fn_lower or "drug_alert" in fn_lower or "drug alert" in fn_lower:
         return "NSQ_STATE"
     elif "device" in fn_lower or "ivd" in fn_lower:
         return "MEDICAL_DEVICE"
@@ -61,6 +64,28 @@ def detect_document_type(filename: str, json_data: Dict[str, Any]) -> str:
     elif "noc" in fn_lower or "import" in fn_lower or "fdc" in fn_lower:
         return "NOC_IMPORT_FDC"
     return "UNKNOWN"
+
+
+def infer_document_period(filename: str) -> Tuple[str, str]:
+    """Infer a month-level publication date and reporting period from a filename."""
+    months = {
+        "jan": 1, "january": 1, "feb": 2, "february": 2,
+        "mar": 3, "march": 3, "apr": 4, "april": 4,
+        "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
+        "aug": 8, "august": 8, "sep": 9, "sept": 9, "september": 9,
+        "oct": 10, "october": 10, "nov": 11, "november": 11,
+        "dec": 12, "december": 12,
+    }
+    match = re.search(
+        r"(?<![a-z])(" + "|".join(sorted(months, key=len, reverse=True)) + r")[^a-z0-9]+(20\d{2})\b",
+        filename.lower(),
+    )
+    if not match:
+        return "", ""
+    month_name, year_text = match.groups()
+    year = int(year_text)
+    month = months[month_name]
+    return date(year, month, 1).isoformat(), f"{month_name.title()} {year}"
 
 
 def find_records_array(data: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -85,6 +110,7 @@ def load_parsed_json(filepath: str) -> Tuple[Dict[str, Any], List[Dict[str, Any]
 
     filename = os.path.basename(filepath)
     file_hash = compute_file_hash(filepath)
+    inferred_date, inferred_period = infer_document_period(filename)
 
     if isinstance(data, list):
         header_metadata = {
@@ -92,8 +118,8 @@ def load_parsed_json(filepath: str) -> Tuple[Dict[str, Any], List[Dict[str, Any]
             "source_organization": "CDSCO",
             "source_document_id": filename,
             "document_title": filename,
-            "publication_date": None,
-            "reporting_period": None,
+            "publication_date": inferred_date or None,
+            "reporting_period": inferred_period or None,
             "source_url": filepath,
             "file_hash": file_hash,
             "document_type": detect_document_type(filename, {})
@@ -106,8 +132,8 @@ def load_parsed_json(filepath: str) -> Tuple[Dict[str, Any], List[Dict[str, Any]
             "source_organization": data.get("source_organization") or doc_meta.get("issuing_authority") or "CDSCO",
             "source_document_id": data.get("document_id") or data.get("source_document_id") or filename,
             "document_title": doc_meta.get("title") or data.get("document_title") or filename,
-            "publication_date": doc_meta.get("date_of_issue") or data.get("publication_date"),
-            "reporting_period": data.get("reporting_period"),
+            "publication_date": doc_meta.get("date_of_issue") or data.get("publication_date") or inferred_date,
+            "reporting_period": data.get("reporting_period") or inferred_period,
             "source_url": data.get("pdf_path") or filepath,
             "file_hash": file_hash,
             "document_type": detect_document_type(filename, data)
@@ -162,6 +188,24 @@ def clean_organization_name(value: str) -> str:
     return re.sub(r'\s+', ' ', cleaned).strip(' ,;:-')
 
 
+def split_organization_address(value: str) -> Tuple[str, str]:
+    """Split a combined organization value without losing the source address."""
+    cleaned = clean_organization_name(value)
+    if not cleaned:
+        return "", ""
+    match = re.search(
+        r',\s*(?=(?:plot\b|p\.?\s*no\.?\b|[a-z]?\s*-\s*\d{1,5}\b|'
+        r'road\b|street\b|village\b|district\b|sector\b|phase\b))',
+        cleaned,
+        re.IGNORECASE,
+    )
+    if not match:
+        return cleaned, ""
+    name = cleaned[:match.start()].strip(' ,;:-')
+    address = cleaned[match.end():].strip(' ,;:-')
+    return name or cleaned, address
+
+
 def parse_formulation(product_name: str) -> Tuple[List[Dict[str, str]], str, str]:
     """Extract conservative ingredient, strength, and dosage-form fields."""
     text = str(product_name or '').strip()
@@ -183,6 +227,12 @@ def parse_formulation(product_name: str) -> Tuple[List[Dict[str, str]], str, str
         parts = []
     ingredients = [{'name': p, 'strength': strength_matches[i] if i < len(strength_matches) else ''} for i, p in enumerate(parts)]
     return ingredients, dosage_form, strength
+
+
+def extract_cas_number(value: Any) -> str:
+    """Return a CAS registry number only when the source contains a valid shape."""
+    match = re.search(r"\b\d{2,7}-\d{2}-\d\b", str(value or ""))
+    return match.group(0) if match else ""
 
 
 def get_field_by_candidates(rec: Dict[str, Any], candidate_keywords: List[str]) -> str:
@@ -252,6 +302,7 @@ def extract_record_lineage(
         "brand_name", "brand name", "name of fdc", "name of vaccine", "vaccine name",
         "name of devices", "material name", "name of the drug", "name of the drugs"
     ]
+    brand_candidates = ["brand_name", "brand name", "brand"]
 
     batch_key_candidates = [
         "batch_number", "batch_no", "batch no", "batch number", "lot_no", "lot no",
@@ -261,8 +312,18 @@ def extract_record_lineage(
     mfg_key_candidates = [
         "manufactured_by", "manufactured by", "manufacture d by", "manufacturer",
         "manufacturer name", "company_name", "name of company", "name of the firm",
-        "mfg_by", "importer", "applicant", "name of the importer"
+        "mfg_by"
     ]
+
+    role_candidates = {
+        "importer": ["importer", "imported by", "name of the importer"],
+        "applicant": ["applicant", "applicant name"],
+        "marketing_authorization_holder": [
+            "marketing authorization holder",
+            "marketing_authorisation_holder",
+            "marketing authorization",
+        ],
+    }
 
     reason_key_candidates = [
         "reason for failure", "reasons for failure", "reason for nsq", "nsq result",
@@ -305,23 +366,40 @@ def extract_record_lineage(
         )
 
         product_name = get_field_by_candidates(rec, product_key_candidates)
+        brand_name = get_field_by_candidates(rec, brand_candidates)
         batch_number = get_field_by_candidates(rec, batch_key_candidates)
-        manufacturer = clean_organization_name(get_field_by_candidates(rec, mfg_key_candidates))
+        manufacturer = get_field_by_candidates(rec, mfg_key_candidates)
         mfg_date = get_field_by_candidates(rec, ["manufacturing date", "mfg date", "date of manufacture", "manufacturing_date", "mfg_date"])
         exp_date = get_field_by_candidates(rec, ["expiry date", "exp date", "date of expiry", "expiry_date", "exp_date"])
 
         # Check combined batch field if batch or manufacturer is missing
         combined_val = get_field_by_candidates(rec, combined_batch_candidates)
+        if not combined_val and re.search(r'\b(?:mfg|exp|mfd\s*by)\b', batch_number, re.IGNORECASE):
+            combined_val = batch_number
         if combined_val:
             c_batch, c_mfg_date, c_exp_date, c_mfg = extract_combined_batch_info(combined_val)
-            if not batch_number and c_batch:
+            if c_batch:
                 batch_number = c_batch
-            if not mfg_date and c_mfg_date:
+            if c_mfg_date:
                 mfg_date = c_mfg_date
-            if not exp_date and c_exp_date:
+            if c_exp_date:
                 exp_date = c_exp_date
-            if not manufacturer and c_mfg:
+            if c_mfg and (
+                not manufacturer
+                or re.search(r'\b(?:b\.?\s*no|batch\s*no|mfg|exp|mfd\s*by)\b', manufacturer, re.IGNORECASE)
+            ):
                 manufacturer = c_mfg
+
+        manufacturer, manufacturer_address = split_organization_address(manufacturer)
+        role_values = {}
+        for role, candidates in role_candidates.items():
+            role_value, role_address = split_organization_address(
+                get_field_by_candidates(rec, candidates)
+            )
+            role_values[role] = {
+                "name": role_value,
+                "address": role_address,
+            }
 
         # Fallback & overflow cleanup for drug name in prohibited_drugs / banned list notifications
         notification_val = get_field_by_candidates(rec, ["notification_no_and_date", "Notification No & Date", "Notification No. & Date", "Notification"])
@@ -341,7 +419,9 @@ def extract_record_lineage(
                     product_name = candidate_prod
 
         reason = get_field_by_candidates(rec, reason_key_candidates)
-        reporting_org = get_field_by_candidates(rec, reporting_org_candidates)
+        reporting_org, reporting_address = split_organization_address(
+            get_field_by_candidates(rec, reporting_org_candidates)
+        )
         state_val = rec.get("state") or rec.get("state_name") or ""
         country_val = rec.get("country") or "India"
 
@@ -351,6 +431,14 @@ def extract_record_lineage(
                 additional_data[k] = v
 
         ingredients, parsed_dosage_form, parsed_strength = parse_formulation(product_name)
+        effective_strength = rec.get("strength") or parsed_strength
+        if len(ingredients) == 1 and not ingredients[0].get("strength") and effective_strength:
+            ingredients[0]["strength"] = str(effective_strength).strip()
+        cas_value = extract_cas_number(
+            get_field_by_candidates(rec, ["cas_number", "cas number", "cas no", "cas"])
+        )
+        if cas_value and len(ingredients) == 1:
+            ingredients[0]["cas_number"] = cas_value
         extracted_item = {
             "source_record_id": src_rec_id,
             "page_number": page_num,
@@ -360,8 +448,9 @@ def extract_record_lineage(
             "raw_json": rec,
             
             "product_name": product_name,
+            "brand_name": brand_name,
             "dosage_form": rec.get("dosage_form") or parsed_dosage_form,
-            "strength": rec.get("strength") or parsed_strength,
+            "strength": effective_strength,
             "ingredients": ingredients,
             "product_category": rec.get("product_category") or "DRUG",
             
@@ -370,8 +459,16 @@ def extract_record_lineage(
             "expiry_date": exp_date or None,
             
             "manufacturer_name": manufacturer,
+            "manufacturer_address": manufacturer_address,
             "manufacturer_state": state_val,
+            "importer_name": role_values["importer"]["name"],
+            "importer_address": role_values["importer"]["address"],
+            "applicant_name": role_values["applicant"]["name"],
+            "applicant_address": role_values["applicant"]["address"],
+            "marketing_authorization_holder_name": role_values["marketing_authorization_holder"]["name"],
+            "marketing_authorization_holder_address": role_values["marketing_authorization_holder"]["address"],
             "reporting_organization_name": reporting_org,
+            "reporting_organization_address": reporting_address,
             "reporting_organization_state": state_val,
             "country": country_val,
             

@@ -1,24 +1,33 @@
 # Medicine Scanner Research
 
-This repository contains the research, extraction, classification, normalization, and database-loading pipeline for medicine safety and regulatory data gathered from CDSCO and IPC/PvPI sources.
+This repository combines the research pipeline, the operational app backend, and the cloud scraper worker.
 
-The project is organized around two active tracks:
+The runtime app is now organized into two layers:
+
+- [server](server) — the FastAPI application layer, database access, config, and API control
+- [cloud](cloud) — the background scraping and Cloud Run worker layer
+
+The research and ingestion workflows remain separated as:
 
 - [initial_data_ingestion](initial_data_ingestion) — the main numbered, stage-based workflow for downloads, extraction, classification, parsing, normalization, and loading
 - [data_pipeline_research](data_pipeline_research) — the research sandbox used for experimentation, source review, and pipeline iteration
-
-The older code under `websites/`, `cdsco-downloader/`, `raw_extraction/`, `scripts/`, and `normalization/` remains useful as historical reference material, but the active work is centered in the newer numbered ingestion pipeline.
 
 ## Repository structure
 
 ```text
 .
 ├── README.md
-├── .gitignore
-├── .venv/
-├── .pytest_cache/
 ├── requirements.txt
-├── automated_scraper/
+├── server/
+│   ├── README.md
+│   ├── main.py
+│   ├── config.py
+│   ├── database/
+│   ├── routes/
+│   └── templates/
+├── cloud/
+│   ├── README.md
+│   └── scraper/
 ├── initial_data_ingestion/
 │   ├── 00_project_support/
 │   ├── 01_downloads/
@@ -29,12 +38,9 @@ The older code under `websites/`, `cdsco-downloader/`, `raw_extraction/`, `scrip
 │   ├── 06_raw_extraction/
 │   ├── 08_json_conversion/
 │   ├── 09_normalization/
-│   ├── .gitignore
 │   └── README.md
 ├── data_pipeline_research/
-│   ├── .gitignore
 │   ├── README.md
-│   ├── cdsco-downloader/
 │   ├── database/
 │   ├── docs/
 │   ├── normalization/
@@ -43,6 +49,8 @@ The older code under `websites/`, `cdsco-downloader/`, `raw_extraction/`, `scrip
 │   ├── tests/
 │   ├── type_classification/
 │   └── websites/
+├── automated_scraper/
+│   └── legacy reference app kept for compatibility
 └── .git/
 ```
 

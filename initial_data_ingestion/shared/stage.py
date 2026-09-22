@@ -80,7 +80,7 @@ def write_staging_csvs(
                     m_key,
                     r["manufacturer_name"],
                     r["normalized_manufacturer_name"],
-                    "",  # address
+                    r["manufacturer_address"] or "",
                     r["manufacturer_state"] or "",
                     r["country"] or "India"
                 ]
@@ -92,9 +92,20 @@ def write_staging_csvs(
                     rep_key,
                     r["reporting_organization_name"],
                     r["normalized_reporting_organization_name"],
-                    "",
-                    r["manufacturer_state"] or "",
+                    r["reporting_organization_address"] or "",
+                    r["reporting_organization_state"] or "",
                     r["country"] or "India"
+                ]
+
+        for details in r.get("organization_role_details", {}).values():
+            if details["key"] and details["name"] and details["key"] not in unique_orgs:
+                unique_orgs[details["key"]] = [
+                    details["key"],
+                    details["name"],
+                    details["name"].lower(),
+                    details["address"],
+                    details["state"],
+                    r["country"] or "India",
                 ]
 
         # Products
@@ -105,7 +116,7 @@ def write_staging_csvs(
                     p_key,
                     r["product_name"],
                     r["normalized_product_name"],
-                    r["product_name"],  # brand_name fallback
+                    r["brand_name"] or "",
                     r["dosage_form"] or "",
                     r["strength"] or "",
                     r["product_category"]
@@ -115,13 +126,17 @@ def write_staging_csvs(
                 if ingredient.get("ingredient_key") and ingredient.get("name"):
                     i_key = ingredient["ingredient_key"]
                     unique_ingredients[i_key] = [
-                        i_key, ingredient["name"], ingredient["name"].lower(), ""
+                        i_key,
+                        ingredient["name"],
+                        ingredient["name"].lower(),
+                        ingredient.get("cas_number") or "",
                     ]
                     product_ingredients.add((p_key, i_key, ingredient.get("strength") or ""))
 
-            # Product-Organization relationship
-            if r["manufacturer_organization_key"]:
-                product_orgs.add((p_key, r["manufacturer_organization_key"], "MANUFACTURER"))
+            # Product-organization relationships from explicit source roles.
+            for role, organization_key_value in r.get("organization_roles", {}).items():
+                if organization_key_value:
+                    product_orgs.add((p_key, organization_key_value, role))
 
         # Batches
         if r["batch_key"] and r["batch_number"]:

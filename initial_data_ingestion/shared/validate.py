@@ -5,6 +5,7 @@ reconciliation, duplicate key, orphan relationship, and manifest taxonomy checks
 
 import os
 import csv
+import json
 import re
 from typing import Dict, Any, List, Set, Tuple
 
@@ -59,6 +60,35 @@ def validate_content_lineage(staging_dir: str) -> Tuple[bool, List[str]]:
     return not errors, errors
 
 
+def validate_raw_source_records(staging_dir: str) -> Tuple[bool, List[str]]:
+    """Validate raw-record completeness and JSON/source consistency."""
+    rows = read_csv_rows(os.path.join(staging_dir, "raw_source_records.csv"))
+    errors = []
+    seen = set()
+    for row in rows:
+        source_id = row.get("source_record_id", "").strip()
+        if not source_id:
+            errors.append("Raw source record has no source_record_id")
+        elif source_id in seen:
+            errors.append(f"Duplicate raw source_record_id '{source_id}'")
+        seen.add(source_id)
+
+        for field in ("source_document_id", "source_location", "source_text", "raw_json"):
+            if not row.get(field, "").strip():
+                errors.append(f"Raw source record '{source_id}' has empty {field}")
+
+        try:
+            raw_value = json.loads(row.get("raw_json", ""))
+        except json.JSONDecodeError:
+            errors.append(f"Raw source record '{source_id}' has invalid raw_json")
+            continue
+
+        if not isinstance(raw_value, (dict, list)):
+            errors.append(f"Raw source record '{source_id}' raw_json is not an object or array")
+
+    return not errors, errors
+
+
 def validate_staging_dir(staging_dir: str) -> Tuple[bool, List[str]]:
     """
     Validate all staging CSV files in staging_dir.
@@ -82,6 +112,10 @@ def validate_staging_dir(staging_dir: str) -> Tuple[bool, List[str]]:
     batches_rows = read_csv_rows(batches_path)
     prod_orgs_rows = read_csv_rows(prod_orgs_path)
     raw_rows = read_csv_rows(raw_path)
+
+    raw_valid, raw_errors = validate_raw_source_records(staging_dir)
+    if not raw_valid:
+        errors.extend(raw_errors)
 
     # 1. Reconciliation Invariant
     total_records = len(manifest_rows)

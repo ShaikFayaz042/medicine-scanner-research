@@ -30,3 +30,6 @@ onnxruntime
 python-dateutil
 rapidfuzz
 tqdm
+
+# AWS S3 storage
+boto3

@@ -29,6 +29,16 @@ def run_pipeline(input_filepath: str, output_dir: str, load_db_flag: bool = Fals
     # 1. Extraction & Lineage Assignment
     extracted = extract_record_lineage(doc_id, raw_records)
 
+    # A document date is only an approximate event date; preserve its provenance.
+    for record in extracted:
+        if record.get("event_date"):
+            record["event_date_source"] = "EXTRACTED"
+        elif header.get("publication_date"):
+            record["event_date"] = header["publication_date"]
+            record["event_date_source"] = "DOCUMENT_PUBLICATION_DATE"
+        else:
+            record["event_date_source"] = "MISSING"
+
     # 2. Entity Resolution & Taxonomy Check
     resolved = []
     for rec in extracted:

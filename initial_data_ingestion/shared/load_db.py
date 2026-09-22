@@ -107,10 +107,16 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
     Load validated staging CSV files into PostgreSQL in dependency order.
     Returns dictionary with counts of loaded records per table.
     """
+    owns_connection = db_connection is None
     conn = db_connection or get_db_connection(db_uri or "postgresql://localhost:5432/medicine_regulatory_db")
-    conn.autocommit = False
+    if owns_connection:
+        conn.autocommit = False
 
     counts = {}
+
+    def progress(table: str, loaded: int) -> None:
+        if loaded and loaded % 1000 == 0:
+            print(f"[load] {table}: {loaded} rows", flush=True)
 
     try:
         with conn.cursor() as cur:
@@ -176,6 +182,7 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
                         res = cur.fetchone()
                         if res:
                             org_map[row["organization_key"]] = res[0]
+                        progress("organizations", len(org_map))
             counts["organizations"] = len(org_map)
 
             # 3. ingredients
@@ -204,6 +211,7 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
                         res = cur.fetchone()
                         if res:
                             ing_map[row["ingredient_key"]] = res[0]
+                        progress("ingredients", len(ing_map))
             counts["ingredients"] = len(ing_map)
 
             # 4. products
@@ -235,6 +243,7 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
                         res = cur.fetchone()
                         if res:
                             prod_map[row["product_key"]] = res[0]
+                        progress("products", len(prod_map))
             counts["products"] = len(prod_map)
 
             # 5. product_ingredients
@@ -252,6 +261,7 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
                                 ON CONFLICT (product_id, ingredient_id) DO NOTHING;
                             """, (p_id, i_id, row["ingredient_strength"] or None))
                             pi_count += 1
+                            progress("product_ingredients", pi_count)
             counts["product_ingredients"] = pi_count
 
             # 6. product_organizations
@@ -269,6 +279,7 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
                                 ON CONFLICT (product_id, organization_id, role) DO NOTHING;
                             """, (p_id, o_id, row["role"]))
                             po_count += 1
+                            progress("product_organizations", po_count)
             counts["product_organizations"] = po_count
 
             # 7. batches
@@ -301,6 +312,7 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
                         res = cur.fetchone()
                         if res:
                             batch_map[row["batch_key"]] = res[0]
+                        progress("batches", len(batch_map))
             counts["batches"] = len(batch_map)
 
             # 8. raw_source_records
@@ -327,6 +339,7 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
                                 row["raw_json"] or None
                             ))
                             rs_count += 1
+                            progress("raw_source_records", rs_count)
             counts["raw_source_records"] = rs_count
 
             # 9. regulatory_events
@@ -367,6 +380,7 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
                                 row["additional_data"] or None
                             ))
                             ev_count += 1
+                            progress("regulatory_events", ev_count)
             counts["regulatory_events"] = ev_count
 
         conn.commit()
@@ -374,7 +388,7 @@ def load_staging_to_db(staging_dir: str, db_connection=None, db_uri: Optional[st
         conn.rollback()
         raise e
     finally:
-        if not db_connection:
+        if owns_connection:
             conn.close()
 
     return counts
