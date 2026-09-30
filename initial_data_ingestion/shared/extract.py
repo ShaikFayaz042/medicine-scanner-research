@@ -25,6 +25,12 @@ def compute_file_hash(filepath: str) -> str:
 def detect_document_type(filename: str, json_data: Dict[str, Any]) -> str:
     """Infer default document_type from filename or header metadata."""
     fn_lower = filename.lower()
+    if str(json_data.get("source") or "").lower() == "cdsco_nsq":
+        record_type = str(json_data.get("record_type") or "").lower()
+        if record_type == "spurious":
+            return "SPURIOUS"
+        if record_type == "nsq":
+            return "NSQ_CDSCO"
     doc_type = json_data.get("document_type") or json_data.get("doc_type")
     if doc_type:
         dt_str = str(doc_type).upper()
@@ -93,7 +99,7 @@ def find_records_array(data: Dict[str, Any]) -> List[Dict[str, Any]]:
     if isinstance(data, list):
         return data
 
-    for key in ["records", "prohibited_drugs", "adr_alerts", "rows", "data", "fdc_list", "items"]:
+    for key in ["records", "aaData", "prohibited_drugs", "adr_alerts", "rows", "data", "fdc_list", "items"]:
         if key in data and isinstance(data[key], list):
             return data[key]
 

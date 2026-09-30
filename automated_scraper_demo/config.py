@@ -1,16 +1,32 @@
 """Application configuration."""
 import os
+from pathlib import Path
+
+
+def _load_env_file() -> None:
+    env_file = Path(__file__).resolve().parents[1] / ".env"
+    if not env_file.exists():
+        return
+    for raw_line in env_file.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+_load_env_file()
 
 # --- Database ---
-DB_HOST = os.getenv("DB_HOST", "localhost")
-DB_PORT = os.getenv("DB_PORT", "5432")
-DB_NAME = os.getenv("DB_NAME", "cdsco_monitor")
-DB_USER = os.getenv("DB_USER", "postgres")
-DB_PASSWORD = os.getenv("DB_PASSWORD", "fayaz")  # <-- put your real password
+LOCAL_DB_HOST = os.getenv("LOCAL_DB_HOST", "localhost")
+LOCAL_DB_PORT = os.getenv("LOCAL_DB_PORT", "5432")
+LOCAL_DB_NAME = os.getenv("LOCAL_DB_NAME", "cdsco_monitor")
+LOCAL_DB_USER = os.getenv("LOCAL_DB_USER", "postgres")
+LOCAL_DB_PASSWORD = os.getenv("LOCAL_DB_PASSWORD", "")
 
 DATABASE_URL = (
-    f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}"
-    f"@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+    f"postgresql+psycopg2://{LOCAL_DB_USER}:{LOCAL_DB_PASSWORD}"
+    f"@{LOCAL_DB_HOST}:{LOCAL_DB_PORT}/{LOCAL_DB_NAME}"
 )
 
 # --- Storage ---

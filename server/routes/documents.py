@@ -48,6 +48,7 @@ def list_documents():
                     "title": d.title,
                     "release_date": d.release_date,
                     "status": d.status,
+                    "processing_stage": d.processing_stage,
                     "file_size_bytes": d.file_size_bytes,
                     "pdf_url": d.pdf_url,
                     "local_file_path": d.local_file_path,

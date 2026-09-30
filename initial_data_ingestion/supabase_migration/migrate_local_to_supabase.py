@@ -52,16 +52,16 @@ def supabase_connection_kwargs() -> dict[str, object]:
     load_env_file(ROOT / ".env")
     load_env_file(ROOT / "initial_data_ingestion" / ".env")
 
-    host = os.getenv("SUPABASE_HOST") or os.getenv("DB_HOST")
-    port = os.getenv("SUPABASE_PORT") or os.getenv("DB_PORT", "5432")
-    database = os.getenv("SUPABASE_DATABASE") or os.getenv("DB_NAME") or os.getenv("DB_DATABASE", "postgres")
-    user = os.getenv("SUPABASE_USER") or os.getenv("DB_USER")
-    password = os.getenv("SUPABASE_PASSWORD") or os.getenv("DB_PASSWORD")
+    host = os.getenv("SCRAPER_DB_HOST")
+    port = os.getenv("SCRAPER_DB_PORT", "5432")
+    database = os.getenv("SCRAPER_DB_NAME", "postgres")
+    user = os.getenv("SCRAPER_DB_USER")
+    password = os.getenv("SCRAPER_DB_PASSWORD")
 
     missing = [name for name, value in {
-        "SUPABASE_HOST/DB_HOST": host,
-        "SUPABASE_USER/DB_USER": user,
-        "SUPABASE_PASSWORD/DB_PASSWORD": password,
+        "SCRAPER_DB_HOST": host,
+        "SCRAPER_DB_USER": user,
+        "SCRAPER_DB_PASSWORD": password,
     }.items() if not value]
     if missing:
         raise RuntimeError("Missing Supabase settings: " + ", ".join(missing))

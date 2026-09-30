@@ -1,0 +1,4 @@
+/profiler/file_profiles.csv
+/normalizer/local_output/
+__pycache__/
+*.py[cod]

@@ -7,6 +7,10 @@ const statusStyles = {
   failed: 'bg-rose-100 text-rose-700',
 }
 
+const processingStageStyles = {
+  profiled: 'bg-cyan-100 text-cyan-800',
+}
+
 const sourceTabs = [
   { key: 'all', label: 'All sources' },
   { key: 'cdsco_alerts', label: 'CDSCO Alerts' },
@@ -377,6 +381,7 @@ export default function Homepage() {
                     <th className="px-3 py-3 font-medium">Title</th>
                     <th className="px-3 py-3 font-medium">Release</th>
                     <th className="px-3 py-3 font-medium">Status</th>
+                    <th className="px-3 py-3 font-medium">Processing stage</th>
                     <th className="px-3 py-3 font-medium">Size</th>
                     <th className="px-3 py-3 font-medium">Actions</th>
                   </tr>
@@ -402,6 +407,15 @@ export default function Homepage() {
                           >
                             {document.status || 'discovered'}
                           </span>
+                        </td>
+                        <td className="px-3 py-3">
+                          {document.processing_stage ? (
+                            <span className={`inline-flex rounded-full px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide ${processingStageStyles[document.processing_stage] || 'bg-slate-100 text-slate-600'}`}>
+                              {document.processing_stage}
+                            </span>
+                          ) : (
+                            <span className="text-slate-400">—</span>
+                          )}
                         </td>
                         <td className="px-3 py-3 text-slate-600">{fmtBytes(document.file_size_bytes)}</td>
                         <td className="px-3 py-3">

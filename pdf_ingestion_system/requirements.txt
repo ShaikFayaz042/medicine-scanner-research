@@ -1,0 +1,26 @@
+# S3 access
+boto3
+
+# PDF and image extraction
+PyMuPDF
+pdfplumber
+Pillow
+
+# Database access
+SQLAlchemy
+psycopg2-binary
+
+# Deterministic classification
+rapidfuzz
+
+# GLiClass classification runtime
+# These packages are large; omit them only if classification is disabled.
+torch
+transformers
+gliclass
+
+# Optional OCR fallback for scanned PDFs
+rapidocr
+
+# Test runner
+pytest

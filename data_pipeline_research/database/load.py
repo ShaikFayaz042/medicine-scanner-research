@@ -36,13 +36,26 @@ SCHEMA = "medicine_scanner"
 # Connection
 # --------------------------------------------------------------------------
 
+def load_root_env() -> None:
+    env_file = ROOT.parent / ".env"
+    if not env_file.exists():
+        return
+    for raw_line in env_file.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
 def connect():
+    load_root_env()
     return psycopg.connect(
-        host=os.environ.get("DB_HOST", "localhost"),
-        port=int(os.environ.get("DB_PORT", "5432")),
-        dbname=os.environ.get("DB_NAME", "cdsco_monitor"),
-        user=os.environ.get("DB_USER", "postgres"),
-        password=os.environ.get("DB_PASSWORD", ""),
+        host=os.environ.get("LOCAL_DB_HOST", "localhost"),
+        port=int(os.environ.get("LOCAL_DB_PORT", "5432")),
+        dbname=os.environ.get("LOCAL_DB_NAME", "cdsco_monitor"),
+        user=os.environ.get("LOCAL_DB_USER", "postgres"),
+        password=os.environ.get("LOCAL_DB_PASSWORD", ""),
         autocommit=False,
     )
 

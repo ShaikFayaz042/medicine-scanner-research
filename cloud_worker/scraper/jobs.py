@@ -161,6 +161,7 @@ def _seed_pdf_source(db, source: str, scraper: SourceScraper, limit: int | None,
                 fields["pdf_url"],
                 source_name=fields["source"],
                 filename=metadata.get("filename"),
+                title=fields.get("title"),
             )
             row.s3_object_key = info["s3_object_key"]
             row.file_size_bytes = info["file_size_bytes"]

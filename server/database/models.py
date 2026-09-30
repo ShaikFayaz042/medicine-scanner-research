@@ -24,6 +24,8 @@ class Document(Base):
     file_size_bytes = Column(BigInteger, nullable=True)
     content_hash = Column(String, nullable=True)
     status = Column(String, nullable=False, default="discovered")
+    profile_status = Column(String, nullable=True)
+    processing_stage = Column(String, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
 

@@ -21,19 +21,19 @@ def _load_env_file() -> None:
 
 _load_env_file()
 
-DB_HOST = os.getenv("DB_HOST", "localhost")
-DB_PORT = os.getenv("DB_PORT", "5432")
-DB_NAME = os.getenv("DB_NAME") or os.getenv("DB_DATABASE", "cdsco_monitor")
-DB_USER = os.getenv("DB_USER", "postgres")
-DB_PASSWORD = os.getenv("DB_PASSWORD")
+SCRAPER_DB_HOST = os.getenv("SCRAPER_DB_HOST", "localhost")
+SCRAPER_DB_PORT = os.getenv("SCRAPER_DB_PORT", "5432")
+SCRAPER_DB_NAME = os.getenv("SCRAPER_DB_NAME", "cdsco_monitor")
+SCRAPER_DB_USER = os.getenv("SCRAPER_DB_USER", "postgres")
+SCRAPER_DB_PASSWORD = os.getenv("SCRAPER_DB_PASSWORD")
 
 ssl_suffix = ""
-if "supabase" in DB_HOST.lower() or "pooler" in DB_HOST.lower() or "aws-" in DB_HOST.lower():
+if "supabase" in SCRAPER_DB_HOST.lower() or "pooler" in SCRAPER_DB_HOST.lower() or "aws-" in SCRAPER_DB_HOST.lower():
     ssl_suffix = "?sslmode=require"
 
 DATABASE_URL = (
-    f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}"
-    f"@{DB_HOST}:{DB_PORT}/{DB_NAME}{ssl_suffix}"
+    f"postgresql+psycopg2://{SCRAPER_DB_USER}:{SCRAPER_DB_PASSWORD}"
+    f"@{SCRAPER_DB_HOST}:{SCRAPER_DB_PORT}/{SCRAPER_DB_NAME}{ssl_suffix}"
 )
 
 MEDICINE_DB_HOST = os.getenv("MEDICINE_DB_HOST", "localhost")
@@ -54,8 +54,8 @@ MEDICINE_DATABASE_URL = MEDICINE_DB_URI or (
 )
 
 AWS_REGION = os.getenv("AWS_REGION", "ap-south-1")
-S3_BUCKET_NAME = os.getenv("S3_BUCKET_NAME")
-S3_PREFIX = os.getenv("S3_PREFIX", "medicine-data-storage")
+S3_BUCKET_NAME = os.getenv("AWS_S3_BUCKET_NAME")
+S3_PREFIX = os.getenv("AWS_S3_PREFIX", "medicine-data-storage")
 
 # AWS ECS / EventBridge Scheduler configuration for the FastAPI controller.
 ECS_CLUSTER_NAME = os.getenv("ECS_CLUSTER_NAME") or os.getenv("ECS_CLUSTER")

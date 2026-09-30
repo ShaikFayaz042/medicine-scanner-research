@@ -10,6 +10,8 @@ DOCUMENT_COLUMNS = {
     "source_key": "VARCHAR",
     "document_type": "VARCHAR",
     "metadata": "JSONB",
+    "profile_status": "VARCHAR",
+    "processing_stage": "VARCHAR",
 }
 
 

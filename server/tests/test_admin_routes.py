@@ -3,8 +3,46 @@ from fastapi.testclient import TestClient
 import server.routes.cloud_scheduler as cloud_scheduler
 from server.main import app
 from server.controllers import admin_controller
+from server.routes import documents as documents_route
 
 client = TestClient(app)
+
+
+def test_documents_route_includes_processing_stage(monkeypatch):
+    class FakeQuery:
+        def all(self):
+            from types import SimpleNamespace
+
+            return [SimpleNamespace(
+                id=1,
+                document_id=123,
+                source="cdsco_alerts",
+                source_key="cdsco:123",
+                document_type="alert",
+                source_metadata={},
+                title="Test document",
+                release_date="2026-Jan-01",
+                status="downloaded",
+                processing_stage="profiled",
+                file_size_bytes=100,
+                pdf_url="https://example.test/test.pdf",
+                local_file_path=None,
+                created_at=None,
+            )]
+
+    class FakeDatabase:
+        def query(self, model):
+            return FakeQuery()
+
+        def close(self):
+            pass
+
+    monkeypatch.setattr(documents_route, "SessionLocal", FakeDatabase)
+
+    response = client.get("/api/documents")
+
+    assert response.status_code == 200
+    assert response.json()["documents"][0]["processing_stage"] == "profiled"
 
 
 def test_scheduler_state_includes_time_fields(monkeypatch):

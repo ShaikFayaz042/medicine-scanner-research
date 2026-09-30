@@ -1,5 +1,6 @@
 """PDF download handler — resolves the iframe wrapper and downloads the real PDF."""
 import hashlib
+import re
 from pathlib import PurePosixPath
 from urllib.parse import urljoin
 
@@ -16,6 +17,15 @@ from cloud_worker.config import (
     S3_SOURCE_PREFIX,
     USER_AGENT,
 )
+
+
+def _safe_title_filename(title: str | None, fallback: str = "document") -> str:
+    candidate = (title or fallback).strip()
+    candidate = re.sub(r"[^\w\s.\-]", " ", candidate)
+    candidate = re.sub(r"\s+", " ", candidate).strip(" .")
+    candidate = re.sub(r"\s+", "_", candidate)
+    candidate = candidate[:120] or fallback
+    return f"{candidate}.pdf" if not candidate.lower().endswith(".pdf") else candidate
 
 
 def _fetch_pdf_bytes(url: str, referer: str | None = None) -> bytes:
@@ -55,6 +65,7 @@ def download_pdf(
     pdf_url: str,
     source_name: str = "cdsco_alerts",
     filename: str | None = None,
+    title: str | None = None,
 ) -> dict:
     """Download the PDF for a document and return metadata."""
     pdf_bytes = _fetch_pdf_bytes(pdf_url)
@@ -68,7 +79,8 @@ def download_pdf(
     source_prefix = (S3_SOURCE_PREFIX or "").strip("/")
     folder = S3_SOURCE_FOLDERS.get(source_name, source_name)
     parts = [part for part in (bucket_prefix, source_prefix, folder) if part]
-    object_name = PurePosixPath(filename).name if filename else f"{document_id}.pdf"
+    preferred_name = title or filename or f"{document_id}.pdf"
+    object_name = _safe_title_filename(preferred_name, fallback=f"{document_id}.pdf")
     object_key = "/".join(parts) + f"/{object_name}"
 
     try:

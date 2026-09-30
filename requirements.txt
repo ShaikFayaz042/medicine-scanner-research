@@ -26,6 +26,11 @@ pytesseract
 rapidocr
 onnxruntime
 
+# GLiClass classifier runtime
+torch
+transformers
+gliclass
+
 # Normalization and progress reporting
 python-dateutil
 rapidfuzz

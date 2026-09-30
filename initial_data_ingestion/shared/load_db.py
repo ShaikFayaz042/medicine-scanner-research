@@ -41,11 +41,11 @@ def get_db_connection(db_uri: str = "postgresql://localhost:5432/medicine_regula
     load_dotenv_file(".env")
 
     # Environment variable fallbacks
-    host = os.getenv("PGHOST", "localhost")
-    port = os.getenv("PGPORT", "5432")
-    dbname = os.getenv("PGDATABASE", "medicine_regulatory_db")
-    user = os.getenv("PGUSER", "postgres")
-    password = os.getenv("PGPASSWORD", "postgres")
+    host = os.getenv("MEDICINE_DB_HOST", "localhost")
+    port = os.getenv("MEDICINE_DB_PORT", "5432")
+    dbname = os.getenv("MEDICINE_DB_NAME", "medicine_regulatory_db")
+    user = os.getenv("MEDICINE_DB_USER", "postgres")
+    password = os.getenv("MEDICINE_DB_PASSWORD", "postgres")
     
     return psycopg2.connect(
         host=host,
