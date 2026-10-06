@@ -1,0 +1,20 @@
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONPATH=/app \
+    HF_HOME=/app/.cache/huggingface
+
+WORKDIR /app
+COPY data_processing_service/requirements-common.txt ./requirements-common.txt
+COPY data_processing_service/requirements-classifier.txt ./requirements-classifier.txt
+RUN python -m pip install --no-cache-dir -r requirements-classifier.txt
+
+COPY data_processing_service/__init__.py ./data_processing_service/__init__.py
+COPY data_processing_service/main.py ./data_processing_service/main.py
+COPY data_processing_service/shared ./data_processing_service/shared
+COPY data_processing_service/data ./data_processing_service/data
+COPY data_processing_service/classifier ./data_processing_service/classifier
+
+ENV STAGE=classifier
+ENTRYPOINT ["python", "data_processing_service/main.py"]

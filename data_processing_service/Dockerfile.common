@@ -1,0 +1,21 @@
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONPATH=/app
+
+WORKDIR /app
+COPY data_processing_service/requirements-common.txt ./requirements.txt
+RUN python -m pip install --no-cache-dir -r requirements.txt
+
+COPY data_processing_service/__init__.py ./data_processing_service/__init__.py
+COPY data_processing_service/main.py ./data_processing_service/main.py
+COPY data_processing_service/shared ./data_processing_service/shared
+COPY data_processing_service/data ./data_processing_service/data
+COPY data_processing_service/profiler ./data_processing_service/profiler
+COPY data_processing_service/parser ./data_processing_service/parser
+COPY data_processing_service/normalizer ./data_processing_service/normalizer
+COPY data_processing_service/ingester ./data_processing_service/ingester
+
+ENV STAGE=profiler
+ENTRYPOINT ["python", "data_processing_service/main.py"]

@@ -1,0 +1,21 @@
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONPATH=/app
+
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libgl1 libglib2.0-0 libsm6 libxext6 \
+    && rm -rf /var/lib/apt/lists/*
+COPY data_processing_service/requirements-common.txt ./requirements-common.txt
+COPY data_processing_service/requirements-extractor.txt ./requirements-extractor.txt
+RUN python -m pip install --no-cache-dir -r requirements-extractor.txt
+
+COPY data_processing_service/__init__.py ./data_processing_service/__init__.py
+COPY data_processing_service/main.py ./data_processing_service/main.py
+COPY data_processing_service/shared ./data_processing_service/shared
+COPY data_processing_service/extractor ./data_processing_service/extractor
+
+ENV STAGE=extractor
+ENTRYPOINT ["python", "data_processing_service/main.py"]
