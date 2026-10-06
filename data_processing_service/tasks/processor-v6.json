@@ -1,0 +1,47 @@
+{
+  "family": "data-processor-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "2048",
+  "memory": "4096",
+  "executionRoleArn": "arn:aws:iam::449902674528:role/medicine-scanner-ecs-execution-role",
+  "taskRoleArn": "arn:aws:iam::449902674528:role/medicine-scanner-ecs-task-role",
+  "runtimePlatform": {
+    "cpuArchitecture": "X86_64",
+    "operatingSystemFamily": "LINUX"
+  },
+  "containerDefinitions": [
+    {
+      "name": "data-processor",
+      "image": "449902674528.dkr.ecr.ap-south-1.amazonaws.com/data-processor:v0.2.0",
+      "essential": true,
+      "environment": [
+        {"name": "STAGE", "value": "processor"},
+        {"name": "AWS_REGION", "value": "ap-south-1"},
+        {"name": "AWS_S3_INPUT_BUCKET", "value": "medicine-data-storage-449902674528-ap-south-1-an"},
+        {"name": "AWS_S3_INPUT_PREFIX", "value": "medicine-data-storage/source_files"},
+        {"name": "SCRAPER_DB_HOST", "value": "aws-0-ap-south-1.pooler.supabase.com"},
+        {"name": "SCRAPER_DB_PORT", "value": "5432"},
+        {"name": "SCRAPER_DB_NAME", "value": "postgres"},
+        {"name": "SCRAPER_DB_USER", "value": "postgres.bwclwcmkrcfwponjgxmm"},
+        {"name": "MEDICINE_DB_HOST", "value": "aws-0-ap-south-1.pooler.supabase.com"},
+        {"name": "MEDICINE_DB_PORT", "value": "5432"},
+        {"name": "MEDICINE_DB_NAME", "value": "postgres"},
+        {"name": "MEDICINE_DB_USER", "value": "postgres.kjnasvxdpjdxriyzlxtb"},
+        {"name": "MEDICINE_DB_SCHEMA", "value": "public"}
+      ],
+      "secrets": [
+        {"name": "SCRAPER_DB_PASSWORD", "valueFrom": "arn:aws:secretsmanager:ap-south-1:449902674528:secret:scraper-db-secret-lgbYd3:SCRAPER_DB_PASSWORD::"},
+        {"name": "MEDICINE_DB_PASSWORD", "valueFrom": "arn:aws:secretsmanager:ap-south-1:449902674528:secret:medicine-db-secret-Ny25YG:MEDICINE_DB_PASSWORD::"}
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/data-processing-service",
+          "awslogs-region": "ap-south-1",
+          "awslogs-stream-prefix": "processor"
+        }
+      }
+    }
+  ]
+}

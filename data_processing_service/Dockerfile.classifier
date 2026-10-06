@@ -3,13 +3,24 @@ FROM python:3.11-slim
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PYTHONPATH=/app \
-    HF_HOME=/app/.cache/huggingface
+    HF_HOME=/app/.cache/huggingface \
+    HF_HUB_ENABLE_HF_TRANSFER=1
 
 WORKDIR /app
 COPY data_processing_service/requirements-common.txt ./requirements-common.txt
 COPY data_processing_service/requirements-classifier.txt ./requirements-classifier.txt
-RUN python -m pip install --no-cache-dir -r requirements-classifier.txt
 
+# Install deps (with hf_transfer for faster model download)
+RUN python -m pip install --no-cache-dir \
+        -r requirements-classifier.txt \
+        hf_transfer
+
+# Bake GLiClass model + tokenizer into the image
+# This makes runtime classification 3-5 min faster per run and removes
+# the HuggingFace network dependency at task execution time.
+RUN python -c "from gliclass import GLiClassModel; from transformers import AutoTokenizer; GLiClassModel.from_pretrained('knowledgator/gliclass-small-v1.0'); AutoTokenizer.from_pretrained('knowledgator/gliclass-small-v1.0'); print('Model cached at', __import__('os').environ['HF_HOME'])"
+
+# Copy application code AFTER the model so code changes don't invalidate the cache
 COPY data_processing_service/__init__.py ./data_processing_service/__init__.py
 COPY data_processing_service/main.py ./data_processing_service/main.py
 COPY data_processing_service/shared ./data_processing_service/shared

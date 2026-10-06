@@ -23,7 +23,7 @@ This runs extraction, classification, parsing, normalization, and append-only da
 
 ## Local CLI (`_run_pipeline`) vs AWS (Step Functions)
 
-The local `_run_pipeline()` uses prefix scans and applies `--limit N` independently at each stage. With `--limit 1`, stages can select different documents; this command is a pipeline smoke test, not exact document-level orchestration. For exact selection, run stages with a manifest and `--run-id`; the extractor uses only the manifest's PDF entries. The processor runs parser → normalizer → ingester. Production orchestration is intended to use Step Functions with ECS tasks.
+The local `_run_pipeline()` uses prefix scans and applies `--limit N` independently at each stage. With `--limit 1`, stages can select different documents; this command is a pipeline smoke test, not exact document-level orchestration. For exact selection, run stages with a manifest and `--run-id`; the extractor uses only the manifest's PDF entries. The processor runs parser → normalizer → ingester. Production orchestration uses the Step Functions definition in `data_processing_service/sfn/pipeline.json` and ECS task definitions in `data_processing_service/tasks/`.
 
 ## Stage Dispatch and Docker
 

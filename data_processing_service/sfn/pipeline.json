@@ -1,0 +1,148 @@
+{
+  "Comment": "PDF ingestion pipeline - extractor, classifier, processor",
+  "StartAt": "CheckHasPDFs",
+  "States": {
+    "CheckHasPDFs": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.has_pdfs",
+          "BooleanEquals": true,
+          "Next": "RunExtractor"
+        }
+      ],
+      "Default": "RunProcessor"
+    },
+    "RunExtractor": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "Cluster": "medicine-scanner-cluster",
+        "TaskDefinition": "data-extractor-task:7",
+        "LaunchType": "FARGATE",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["subnet-0a54f8319db88cd67"],
+            "SecurityGroups": ["sg-059755d9860be0cc7"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "data-extractor",
+              "Command.$": "States.Array('--bucket', $.bucket, '--region', $.region, '--manifest-s3-key', $.manifest_key, '--run-id', $.run_id, '--s3-output-bucket', $.bucket, '--s3-output-prefix', States.Format('{}/runs/{}/extracted_json', $.output_base, $.run_id))"
+            }
+          ]
+        }
+      },
+      "ResultPath": null,
+      "Retry": [
+        {
+          "ErrorEquals": ["ECS.AmazonECSException", "States.Timeout"],
+          "IntervalSeconds": 10,
+          "BackoffRate": 2.0,
+          "MaxAttempts": 2
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.failure",
+          "Next": "MarkFailed"
+        }
+      ],
+      "Next": "RunClassifier"
+    },
+    "RunClassifier": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "Cluster": "medicine-scanner-cluster",
+        "TaskDefinition": "data-classifier-task:3",
+        "LaunchType": "FARGATE",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["subnet-0a54f8319db88cd67"],
+            "SecurityGroups": ["sg-059755d9860be0cc7"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "data-classifier",
+              "Command.$": "States.Array('--bucket', $.bucket, '--region', $.region, '--manifest-s3-key', $.manifest_key, '--run-id', $.run_id, '--s3-output-bucket', $.bucket, '--s3-output-prefix', States.Format('{}/runs/{}/classifier_output', $.output_base, $.run_id))"
+            }
+          ]
+        }
+      },
+      "ResultPath": null,
+      "Retry": [
+        {
+          "ErrorEquals": ["ECS.AmazonECSException", "States.Timeout"],
+          "IntervalSeconds": 10,
+          "BackoffRate": 2.0,
+          "MaxAttempts": 2
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.failure",
+          "Next": "MarkFailed"
+        }
+      ],
+      "Next": "RunProcessor"
+    },
+    "RunProcessor": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::ecs:runTask.sync",
+      "Parameters": {
+        "Cluster": "medicine-scanner-cluster",
+        "TaskDefinition": "data-processor-task:6",
+        "LaunchType": "FARGATE",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": ["subnet-0a54f8319db88cd67"],
+            "SecurityGroups": ["sg-059755d9860be0cc7"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "Overrides": {
+          "ContainerOverrides": [
+            {
+              "Name": "data-processor",
+              "Command.$": "States.Array('--bucket', $.bucket, '--region', $.region, '--manifest-s3-key', $.manifest_key, '--run-id', $.run_id)"
+            }
+          ]
+        }
+      },
+      "ResultPath": null,
+      "Retry": [
+        {
+          "ErrorEquals": ["ECS.AmazonECSException", "States.Timeout"],
+          "IntervalSeconds": 10,
+          "BackoffRate": 2.0,
+          "MaxAttempts": 2
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.failure",
+          "Next": "MarkFailed"
+        }
+      ],
+      "Next": "MarkSuccess"
+    },
+    "MarkSuccess": {
+      "Type": "Succeed"
+    },
+    "MarkFailed": {
+      "Type": "Fail",
+      "Error": "PipelineFailed",
+      "Cause": "One or more pipeline stages failed. Check CloudWatch logs for details."
+    }
+  }
+}

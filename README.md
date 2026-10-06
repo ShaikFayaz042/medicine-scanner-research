@@ -2,6 +2,36 @@
 
 This repository combines the research pipeline, the operational app backend, and the cloud scraper worker.
 
+## Runtime Architecture
+
+```mermaid
+flowchart LR
+	Admin[Admin panel<br/>React client]
+	Server[Application server<br/>FastAPI]
+	Scheduler[AWS EventBridge / ECS<br/>Fargate task runner]
+	Collector[Data collection service<br/>cloud_worker scraper]
+	Processor[Data processing service<br/>extract, classify, parse,<br/>normalize, ingest]
+	ScraperDB[(Scraper metadata DB<br/>documents and run status)]
+	MedicineDB[(Medicine data DB<br/>normalized regulatory data)]
+	S3[(Amazon S3<br/>source files and pipeline outputs)]
+	Sources[Regulatory sources<br/>CDSCO, IPC / PvPI]
+
+	Admin <-->|Admin UI requests / API responses| Server
+	Server <-->|Read and manage scraper records| ScraperDB
+	Server <-->|Medicine search and data operations| MedicineDB
+	Server -->|Manual run / schedule control| Scheduler
+	Scheduler -->|Launch scraper task| Collector
+	Sources -->|Scrape documents and data| Collector
+	Collector -->|Persist run and document metadata| ScraperDB
+	Collector -->|Write PDFs and source JSON| S3
+	S3 -->|Read source files and prior outputs| Processor
+	Processor -->|Write extracted and normalized outputs| S3
+	Processor -->|Update document processing status| ScraperDB
+	Processor -->|Append normalized records| MedicineDB
+```
+
+The admin panel is the React app in `client/`; it calls the FastAPI server in `server/`. The server controls scraper runs through AWS, while the scraper worker is implemented in `cloud_worker/scraper/`. S3 is the shared file handoff between collection and processing; the two databases hold scraper metadata and normalized medicine data, respectively.
+
 The runtime app is now organized into two layers:
 
 - [server](server) — the FastAPI application layer, database access, config, and API control
