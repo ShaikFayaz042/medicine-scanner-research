@@ -18,7 +18,7 @@
       "Resource": "arn:aws:states:::ecs:runTask.sync",
       "Parameters": {
         "Cluster": "medicine-scanner-cluster",
-        "TaskDefinition": "data-extractor-task:7",
+        "TaskDefinition": "data-extractor-task:6",
         "LaunchType": "FARGATE",
         "NetworkConfiguration": {
           "AwsvpcConfiguration": {
@@ -59,7 +59,7 @@
       "Resource": "arn:aws:states:::ecs:runTask.sync",
       "Parameters": {
         "Cluster": "medicine-scanner-cluster",
-        "TaskDefinition": "data-classifier-task:3",
+        "TaskDefinition": "data-classifier-task:5",
         "LaunchType": "FARGATE",
         "NetworkConfiguration": {
           "AwsvpcConfiguration": {
@@ -100,7 +100,7 @@
       "Resource": "arn:aws:states:::ecs:runTask.sync",
       "Parameters": {
         "Cluster": "medicine-scanner-cluster",
-        "TaskDefinition": "data-processor-task:6",
+        "TaskDefinition": "data-processor-task:9",
         "LaunchType": "FARGATE",
         "NetworkConfiguration": {
           "AwsvpcConfiguration": {

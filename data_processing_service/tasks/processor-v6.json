@@ -13,7 +13,7 @@
   "containerDefinitions": [
     {
       "name": "data-processor",
-      "image": "449902674528.dkr.ecr.ap-south-1.amazonaws.com/data-processor:v0.2.0",
+      "image": "449902674528.dkr.ecr.ap-south-1.amazonaws.com/data-processor:v0.2.1",
       "essential": true,
       "environment": [
         {"name": "STAGE", "value": "processor"},

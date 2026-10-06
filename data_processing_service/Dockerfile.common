@@ -16,6 +16,7 @@ COPY data_processing_service/profiler ./data_processing_service/profiler
 COPY data_processing_service/parser ./data_processing_service/parser
 COPY data_processing_service/normalizer ./data_processing_service/normalizer
 COPY data_processing_service/ingester ./data_processing_service/ingester
+COPY data_processing_service/processor ./data_processing_service/processor
 
 ENV STAGE=profiler
 ENTRYPOINT ["python", "data_processing_service/main.py"]
