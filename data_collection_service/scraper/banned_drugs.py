@@ -5,8 +5,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from cloud_worker.config import CDSCO_BANNED_DRUGS_URL, USER_AGENT
-from cloud_worker.scraper.records import DiscoveredRecord
+from data_collection_service.config import CDSCO_BANNED_DRUGS_URL, USER_AGENT
+from data_collection_service.scraper.records import DiscoveredRecord
 
 
 def scrape_banned_drugs() -> DiscoveredRecord:

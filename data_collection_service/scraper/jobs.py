@@ -3,16 +3,16 @@ from datetime import datetime
 from hashlib import sha256
 from typing import Any, Callable
 
-from cloud_worker.config import S3_PREFIX, S3_SOURCE_PREFIX
-from cloud_worker.database.database import SessionLocal
-from cloud_worker.database.models import Document
-from cloud_worker.scraper.banned_drugs import scrape_banned_drugs
-from cloud_worker.scraper.fdc import scrape_fdc
-from cloud_worker.scraper.json_handler import upload_json_artifact
-from cloud_worker.scraper.nsq import _fetch_records
-from cloud_worker.scraper.pdf_handler import download_pdf
-from cloud_worker.scraper.pvpi import scrape_pvpi
-from cloud_worker.scraper.scraper import scrape_alerts
+from data_collection_service.config import S3_PREFIX, S3_SOURCE_PREFIX
+from data_collection_service.database.database import SessionLocal
+from data_collection_service.database.models import Document
+from data_collection_service.scraper.banned_drugs import scrape_banned_drugs
+from data_collection_service.scraper.fdc import scrape_fdc
+from data_collection_service.scraper.json_handler import upload_json_artifact
+from data_collection_service.scraper.nsq import _fetch_records
+from data_collection_service.scraper.pdf_handler import download_pdf
+from data_collection_service.scraper.pvpi import scrape_pvpi
+from data_collection_service.scraper.scraper import scrape_alerts
 
 SourceScraper = Callable[[int | None], list[dict]]
 WORKER_POSITIONS = (1, 2, 3, 4)
@@ -118,7 +118,14 @@ def _nsq_document_id(record_type: str, object_key: str) -> int:
     return int(sha256(value.encode("utf-8")).hexdigest()[:15], 16)
 
 
-def _seed_pdf_source(db, source: str, scraper: SourceScraper, limit: int | None, summary: dict) -> None:
+def _seed_pdf_source(
+    db,
+    source: str,
+    scraper: SourceScraper,
+    limit: int | None,
+    summary: dict,
+    new_documents: list[dict],
+) -> None:
     records = scraper(limit=limit)
     watermark = _get_watermark(db, source)
     summary["sources"][source] = {
@@ -169,6 +176,14 @@ def _seed_pdf_source(db, source: str, scraper: SourceScraper, limit: int | None,
             row.status = "downloaded"
             db.commit()
             summary["downloaded"] += 1
+            new_documents.append(
+                {
+                    "s3_key": info["s3_object_key"],
+                    "kind": "pdf",
+                    "source": fields["source"],
+                    "title": fields["title"],
+                }
+            )
         except Exception as exc:
             row.status = "failed"
             row.source_metadata = {**(row.source_metadata or {}), "last_error": str(exc)}
@@ -176,7 +191,7 @@ def _seed_pdf_source(db, source: str, scraper: SourceScraper, limit: int | None,
             summary["failed"] += 1
 
 
-def _seed_nsq(db, summary: dict) -> None:
+def _seed_nsq(db, summary: dict, new_documents: list[dict]) -> None:
     for record_type in ("nsq", "spurious"):
         records = _fetch_records(record_type)
         filtered, selected_period = _latest_period(records)
@@ -191,6 +206,7 @@ def _seed_nsq(db, summary: dict) -> None:
         )
         document_id = _nsq_document_id(record_type, object_key)
         row = db.query(Document).filter(Document.document_id == document_id).first()
+        previous_hash = row.content_hash if row is not None else None
         artifact = upload_json_artifact(
             "nsq",
             filename,
@@ -201,6 +217,7 @@ def _seed_nsq(db, summary: dict) -> None:
                 "aaData": filtered,
             },
         )
+        content_changed = previous_hash != artifact["content_hash"]
         values = {
             "source": "cdsco_nsq",
             "source_key": key,
@@ -225,6 +242,15 @@ def _seed_nsq(db, summary: dict) -> None:
                 setattr(row, key_name, value)
         db.commit()
         summary["nsq_json"][record_type] = {"records": len(filtered), **artifact}
+        if content_changed:
+            new_documents.append(
+                {
+                    "s3_key": artifact["s3_object_key"],
+                    "kind": "json",
+                    "source": "cdsco_nsq",
+                    "title": f"{filename}.json",
+                }
+            )
 
 
 def run_scraper_job(fetch_limit: int | None = None) -> dict:
@@ -238,16 +264,18 @@ def run_scraper_job(fetch_limit: int | None = None) -> dict:
         "skipped_existing": 0,
         "skipped_older": 0,
         "nsq_json": {},
+        "new_documents": [],
     }
+    new_documents = summary["new_documents"]
     db = SessionLocal()
     try:
         for source, scraper in PDF_SOURCES:
             try:
-                _seed_pdf_source(db, source, scraper, fetch_limit, summary)
+                _seed_pdf_source(db, source, scraper, fetch_limit, summary, new_documents)
             except Exception as exc:
                 summary["sources"][source] = {"error": str(exc)}
         try:
-            _seed_nsq(db, summary)
+            _seed_nsq(db, summary, new_documents)
         except Exception as exc:
             summary["nsq_json_error"] = str(exc)
     finally:

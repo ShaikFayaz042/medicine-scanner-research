@@ -13,8 +13,8 @@ router = APIRouter(prefix="/api", tags=["scraper"])
 
 
 def _run_scraper_via_cli(limit: int | None = None):
-    """Invoke the standalone scraper CLI without importing cloud_worker.scraper.jobs."""
-    cmd = [sys.executable, "-m", "cloud_worker.scraper.main"]
+    """Invoke the standalone scraper CLI without importing its job module."""
+    cmd = [sys.executable, "-m", "data_collection_service.scraper.main"]
     if limit is not None:
         cmd.extend(["--limit", str(limit)])
     completed = subprocess.run(cmd, capture_output=True, text=True, check=False)

@@ -9,7 +9,7 @@ import requests
 from botocore.exceptions import BotoCoreError, ClientError
 from bs4 import BeautifulSoup
 
-from cloud_worker.config import (
+from data_collection_service.config import (
     AWS_REGION,
     S3_BUCKET_NAME,
     S3_PREFIX,

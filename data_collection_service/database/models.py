@@ -3,7 +3,7 @@ from datetime import datetime
 
 from sqlalchemy import BigInteger, Boolean, Column, DateTime, Index, Integer, JSON, String
 
-from cloud_worker.database.database import Base
+from data_collection_service.database.database import Base
 
 
 class Document(Base):

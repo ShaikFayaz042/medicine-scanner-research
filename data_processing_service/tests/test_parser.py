@@ -73,6 +73,26 @@ class ParserClassifierFilterTests(unittest.TestCase):
         self.assertEqual(len(output_writes), 1)
         self.assertEqual(output_writes[0]["Key"], "parsed/alerts/keep.json")
 
+    def test_manifest_input_prefix_keeps_classifier_per_doc_tree(self):
+        keys = [
+            "medicine-data-storage/processed_files/runs/run-1/classifier_output/per_doc/banned/CDSCO.json",
+            "medicine-data-storage/processed_files/runs/run-1/classifier_output/per_doc/ipc/Drug.json",
+        ]
+        self.assertEqual(
+            parser._manifest_input_prefix(keys, "medicine-data-storage/processed_files/extracted_json"),
+            "medicine-data-storage/processed_files/runs/run-1/classifier_output/per_doc",
+        )
+        key = keys[0]
+        self.assertEqual(
+            parser._output_key_for_document(
+                key,
+                parser._manifest_input_prefix(keys, "medicine-data-storage/processed_files/extracted_json"),
+                "medicine-data-storage/processed_files/parsed_json",
+                title="CDSCO banned document",
+            ),
+            "medicine-data-storage/processed_files/parsed_json/banned/CDSCO_banned_document.json",
+        )
+
     def test_manifest_run_parses_only_classifier_result_keys(self):
         run_id = "run-1"
         classified_key = (

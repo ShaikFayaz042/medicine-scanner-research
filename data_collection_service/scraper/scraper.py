@@ -5,8 +5,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from cloud_worker.config import CDSCO_ALERTS_URL, USER_AGENT
-from cloud_worker.scraper.records import DiscoveredRecord, make_document_record
+from data_collection_service.config import CDSCO_ALERTS_URL, USER_AGENT
+from data_collection_service.scraper.records import DiscoveredRecord, make_document_record
 
 BASE_URL = "https://cdsco.gov.in"
 SOURCE_POSITIONS = (5, 6)

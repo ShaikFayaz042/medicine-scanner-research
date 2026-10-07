@@ -1,5 +1,5 @@
 # Standalone ECS/Fargate scraper worker runtime dependencies
-# Minimal set required by cloud_worker/scraper/* and cloud_worker/database/*
+# Minimal runtime dependencies for this service's scraper and database packages.
 
 requests
 beautifulsoup4

@@ -117,7 +117,7 @@ def _build_schedule_target() -> dict[str, Any]:
             "containerOverrides": [
                 {
                     "name": ECS_CONTAINER_NAME,
-                    "command": ["python", "-m", "cloud_worker.scraper.main", "--limit", "1"],
+                    "command": ["python", "-m", "data_collection_service.scraper.main", "--limit", "1"],
                 }
             ]
         }),
@@ -143,7 +143,7 @@ def run_scraper_now(limit: int | None = None) -> dict:
                     "command": [
                         "python",
                         "-m",
-                        "cloud_worker.scraper.main",
+                        "data_collection_service.scraper.main",
                         *(["--limit", str(limit)] if limit is not None else []),
                     ],
                 }

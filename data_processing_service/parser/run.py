@@ -681,19 +681,34 @@ def _safe_title_filename(value: str | None, fallback: str = "document") -> str:
 def _output_key_for_document(s3_key: str, input_prefix: str, output_prefix: str, title: str | None = None) -> str:
     relative = s3_key.removeprefix(input_prefix.strip("/")).lstrip("/") if input_prefix else s3_key
     relative = _strip_source_root_segment(relative)
-    folder_prefix = ""
-    if relative and "/" in relative:
-        folder, remainder = relative.split("/", 1)
-        if folder in {"alerts", "fdc", "ipc", "banned", "banned_drugs", "nsq"}:
-            folder_prefix = f"{folder}/"
-            relative = remainder
+    parts = [part for part in PurePosixPath(relative).parts if part not in {"", "."}]
+    category_names = {"alerts", "fdc", "ipc", "banned", "banned_drugs", "nsq"}
+    known_roots = {
+        "medicine-data-storage",
+        "processed_files",
+        "runs",
+        "classifier_output",
+        "per_doc",
+        "source_files",
+        "extracted_json",
+        "parsed_json",
+        "normalized",
+    }
+    while len(parts) > 1 and (parts[0] in known_roots or parts[0] not in category_names):
+        parts = parts[1:]
+    relative = "/".join(parts)
     if title:
-        filename = _safe_title_filename(title, fallback=PurePosixPath(relative).stem if relative else "document")
-        output_name = f"{folder_prefix}{filename}.json"
+        relative_path = PurePosixPath(relative) if relative else PurePosixPath()
+        parent_dir = relative_path.parent.as_posix() if relative_path.parent != PurePosixPath(".") else ""
+        filename = _safe_title_filename(title, fallback=relative_path.stem if relative else "document")
+        output_name = f"{parent_dir}/{filename}.json" if parent_dir else f"{filename}.json"
     else:
         if not relative:
             relative = PurePosixPath(s3_key).name
-        output_name = f"{folder_prefix}{PurePosixPath(relative).with_suffix('.json').name}"
+        relative_path = PurePosixPath(relative)
+        output_name = relative_path.as_posix()
+        if not PurePosixPath(output_name).suffix:
+            output_name = f"{output_name}.json"
     return f"{output_prefix.rstrip('/')}/{output_name}"
 
 
@@ -715,10 +730,6 @@ def _manifest_input_prefix(keys: list[str], fallback: str) -> str:
     if not keys:
         return fallback.strip("/")
     normalized = [PurePosixPath(key) for key in keys]
-    if len({path.parent.name for path in normalized}) == 1:
-        parent_parts = list(normalized[0].parent.parent.parts)
-        if parent_parts:
-            return PurePosixPath(*parent_parts).as_posix()
     common_parts = list(normalized[0].parts)
     for candidate in normalized[1:]:
         index = 0
@@ -727,7 +738,17 @@ def _manifest_input_prefix(keys: list[str], fallback: str) -> str:
         common_parts = common_parts[:index]
         if not common_parts:
             break
-    return PurePosixPath(*common_parts[:-1]).as_posix() if common_parts else fallback.strip("/")
+    common_path = PurePosixPath(*common_parts)
+    if common_path.suffix:
+        common_dir = common_path.parent
+    else:
+        common_dir = common_path
+    dir_parts = list(common_dir.parts)
+    if "per_doc" in dir_parts:
+        return PurePosixPath(*dir_parts[: dir_parts.index("per_doc") + 1]).as_posix()
+    if dir_parts and dir_parts[-1] in {"alerts", "fdc", "ipc", "banned", "banned_drugs", "nsq"}:
+        return PurePosixPath(*dir_parts[:-1]).as_posix() if len(dir_parts) > 1 else fallback.strip("/")
+    return common_dir.as_posix() if common_dir.as_posix() else fallback.strip("/")
 
 
 def _read_json_from_s3(s3_client: Any, bucket: str, key: str) -> dict[str, Any]:

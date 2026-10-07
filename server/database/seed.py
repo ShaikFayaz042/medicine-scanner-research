@@ -5,13 +5,13 @@ from datetime import datetime
 from hashlib import sha256
 import re
 
-from cloud_worker.scraper.banned_drugs import scrape_banned_drugs
-from cloud_worker.scraper.fdc import scrape_fdc
-from cloud_worker.scraper.json_handler import upload_json_artifact
-from cloud_worker.scraper.nsq import _fetch_records
-from cloud_worker.scraper.pdf_handler import download_pdf
-from cloud_worker.scraper.pvpi import scrape_pvpi
-from cloud_worker.scraper.scraper import scrape_alerts
+from data_collection_service.scraper.banned_drugs import scrape_banned_drugs
+from data_collection_service.scraper.fdc import scrape_fdc
+from data_collection_service.scraper.json_handler import upload_json_artifact
+from data_collection_service.scraper.nsq import _fetch_records
+from data_collection_service.scraper.pdf_handler import download_pdf
+from data_collection_service.scraper.pvpi import scrape_pvpi
+from data_collection_service.scraper.scraper import scrape_alerts
 from server.database.database import SessionLocal
 from server.database.models import Document
 

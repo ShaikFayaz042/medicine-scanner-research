@@ -1,12 +1,13 @@
-"""Cloud worker configuration for the standalone scraper task."""
+"""Configuration for the standalone data collection service."""
 import os
 from pathlib import Path
 
 
 def _load_env_file() -> None:
-    """Load repository-local environment variables for the worker package."""
-    repo_root = Path(__file__).resolve().parents[1]
-    candidates = [repo_root / ".env", repo_root / "server" / ".env"]
+    """Load service-local or repository-local environment variables."""
+    service_root = Path(__file__).resolve().parent
+    repo_root = service_root.parent
+    candidates = [service_root / ".env", repo_root / ".env", repo_root / "server" / ".env"]
 
     for env_file in candidates:
         if not env_file.exists():
@@ -64,6 +65,16 @@ USER_AGENT = (
     "Chrome/120.0.0.0 Safari/537.36"
 )
 
-CLOUD_ROOT = Path(__file__).resolve().parent
-PDF_DIR = Path(os.getenv("SCRAPER_PDF_DIR", str(CLOUD_ROOT / "downloads")))
+SERVICE_ROOT = Path(__file__).resolve().parent
+PDF_DIR = Path(os.getenv("SCRAPER_PDF_DIR", str(SERVICE_ROOT / "downloads")))
 PDF_DIR.mkdir(parents=True, exist_ok=True)
+
+# --- Pipeline trigger config ---
+SFN_STATE_MACHINE_ARN = os.getenv(
+    "SFN_STATE_MACHINE_ARN",
+    "arn:aws:states:ap-south-1:449902674528:stateMachine:pdf-ingestion-pipeline",
+)
+SFN_TRIGGER_MAX_ATTEMPTS = int(os.getenv("SFN_TRIGGER_MAX_ATTEMPTS", "3"))
+SFN_TRIGGER_RETRY_INTERVAL_SECONDS = int(
+    os.getenv("SFN_TRIGGER_RETRY_INTERVAL_SECONDS", "5")
+)

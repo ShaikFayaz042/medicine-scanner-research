@@ -680,19 +680,34 @@ def _safe_title_filename(value: str | None, fallback: str = "document") -> str:
 def _output_key_for_document(s3_key: str, input_prefix: str, output_prefix: str, title: str | None = None) -> str:
     relative = s3_key.removeprefix(input_prefix.strip("/")).lstrip("/") if input_prefix else s3_key
     relative = _strip_source_root_segment(relative)
-    folder_prefix = ""
-    if relative and "/" in relative:
-        folder, remainder = relative.split("/", 1)
-        if folder in {"alerts", "fdc", "ipc", "banned", "banned_drugs", "nsq"}:
-            folder_prefix = f"{folder}/"
-            relative = remainder
+    parts = [part for part in PurePosixPath(relative).parts if part not in {"", "."}]
+    category_names = {"alerts", "fdc", "ipc", "banned", "banned_drugs", "nsq"}
+    known_roots = {
+        "medicine-data-storage",
+        "processed_files",
+        "runs",
+        "classifier_output",
+        "per_doc",
+        "source_files",
+        "extracted_json",
+        "parsed_json",
+        "normalized",
+    }
+    while len(parts) > 1 and (parts[0] in known_roots or parts[0] not in category_names):
+        parts = parts[1:]
+    relative = "/".join(parts)
     if title:
-        filename = _safe_title_filename(title, fallback=PurePosixPath(relative).stem if relative else "document")
-        output_name = f"{folder_prefix}{filename}.json"
+        relative_path = PurePosixPath(relative) if relative else PurePosixPath()
+        parent_dir = relative_path.parent.as_posix() if relative_path.parent != PurePosixPath(".") else ""
+        filename = _safe_title_filename(title, fallback=relative_path.stem if relative else "document")
+        output_name = f"{parent_dir}/{filename}.json" if parent_dir else f"{filename}.json"
     else:
         if not relative:
             relative = PurePosixPath(s3_key).name
-        output_name = f"{folder_prefix}{PurePosixPath(relative).with_suffix('.json').name}"
+        relative_path = PurePosixPath(relative)
+        output_name = relative_path.as_posix()
+        if not PurePosixPath(output_name).suffix:
+            output_name = f"{output_name}.json"
     return f"{output_prefix.rstrip('/')}/{output_name}"
 
 

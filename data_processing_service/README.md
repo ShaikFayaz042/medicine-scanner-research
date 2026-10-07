@@ -50,15 +50,35 @@ $env:RUN_ID = "example-run"
 python data_processing_service/main.py
 ```
 
-Build all images from the repository root:
+Build the service images from the repository root so the Dockerfiles can copy the correct project files and the per-image requirements files (`requirements-common.txt`, `requirements-extractor.txt`, `requirements-classifier.txt`). Do not build from the service folder or from the repo-root `requirements.txt`; those files are not the actual runtime dependency set for the image.
 
 ```powershell
-docker build -f data_processing_service/Dockerfile.common -t pdf-common .
-docker build -f data_processing_service/Dockerfile.extractor -t pdf-extractor .
-docker build -f data_processing_service/Dockerfile.classifier -t pdf-classifier .
+$AccountId = "449902674528"
+$Region = "ap-south-1"
+$EcrRegistry = "$AccountId.dkr.ecr.$Region.amazonaws.com"
+
+# Sign in to ECR once
+aws ecr get-login-password --region $Region | docker login --username AWS --password-stdin $EcrRegistry
+
+# Build CPU-only Linux images for the ECS Fargate runtime (x86_64)
+docker build --platform linux/amd64 -f data_processing_service/Dockerfile.common -t data-processor:local .
+docker build --platform linux/amd64 -f data_processing_service/Dockerfile.extractor -t data-extractor:local .
+docker build --platform linux/amd64 -f data_processing_service/Dockerfile.classifier -t data-classifier:local .
 ```
 
-Use `pdf-common` for processor, profiler, parser, normalizer, and ingester; override `STAGE` in the task definition. Use `pdf-extractor` for extraction and `pdf-classifier` for classification. The classifier uses GLiClass (`gliclass`), not GLiNER. The split requirements files are specific to these images. Keep the repository-root `requirements.txt`; it remains the shared dependency list for other workspace components. The superseded `data_processing_service/requirements.txt` has been removed.
+Push the images to the ECR repos that match the task definitions already in the project:
+
+```powershell
+docker tag data-processor:local "$EcrRegistry/data-processor:v0.2.1"
+docker tag data-extractor:local "$EcrRegistry/data-extractor:v0.2.0"
+docker tag data-classifier:local "$EcrRegistry/data-classifier:v0.2.0"
+
+docker push "$EcrRegistry/data-processor:v0.2.1"
+docker push "$EcrRegistry/data-extractor:v0.2.0"
+docker push "$EcrRegistry/data-classifier:v0.2.0"
+```
+
+Use `data-processor` for processor, profiler, parser, normalizer, and ingester; override `STAGE` in the task definition. Use `data-extractor` for extraction and `data-classifier` for classification. The classifier uses GLiClass (`gliclass`), not GLiNER. Keep the repository-root `requirements.txt` only for non-container workspace tooling; the actual container dependency sets are the split service requirements files above.
 
 ## 1. Optional PDF Profile Report
 

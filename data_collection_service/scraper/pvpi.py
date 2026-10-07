@@ -5,8 +5,8 @@ from urllib.parse import unquote, urljoin, urlsplit
 import requests
 from bs4 import BeautifulSoup
 
-from cloud_worker.config import IPC_PVPI_URL, USER_AGENT
-from cloud_worker.scraper.records import DiscoveredRecord
+from data_collection_service.config import IPC_PVPI_URL, USER_AGENT
+from data_collection_service.scraper.records import DiscoveredRecord
 
 DROP_HINTS = (
     "ip-reference-substances",

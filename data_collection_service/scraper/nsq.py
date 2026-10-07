@@ -4,9 +4,9 @@ from typing import Any
 
 import requests
 
-from cloud_worker.config import CDSCO_ONLINE_BASE_URL, USER_AGENT
-from cloud_worker.scraper.json_handler import upload_json_artifact
-from cloud_worker.scraper.records import DiscoveredRecord, make_data_record
+from data_collection_service.config import CDSCO_ONLINE_BASE_URL, USER_AGENT
+from data_collection_service.scraper.json_handler import upload_json_artifact
+from data_collection_service.scraper.records import DiscoveredRecord, make_data_record
 
 API_HEADERS = {
     "User-Agent": USER_AGENT,

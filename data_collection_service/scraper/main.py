@@ -8,7 +8,8 @@ import json
 import os
 from urllib import error, request
 
-from cloud_worker.scraper.jobs import run_scraper_job
+from data_collection_service.scraper.jobs import run_scraper_job
+from data_collection_service.scraper.trigger import trigger_ingestion_pipeline
 
 
 def _notify_backend(event: str, payload: dict | None = None) -> None:
@@ -56,6 +57,8 @@ def main() -> int:
     except Exception as exc:
         _notify_backend("error", {"error": str(exc)})
         raise
+    pipeline_result = trigger_ingestion_pipeline(summary.get("new_documents", []))
+    summary["pipeline_trigger"] = pipeline_result
     _notify_backend("finish", {"status": "finished", "summary": summary})
     print(json.dumps(summary, indent=2, default=str))
     return 0

@@ -9,7 +9,7 @@ flowchart LR
 	Admin[Admin panel<br/>React client]
 	Server[Application server<br/>FastAPI]
 	Scheduler[AWS EventBridge / ECS<br/>Fargate task runner]
-	Collector[Data collection service<br/>cloud_worker scraper]
+	Collector[Data collection service<br/>data_collection_service scraper]
 	Processor[Data processing service<br/>extract, classify, parse,<br/>normalize, ingest]
 	ScraperDB[(Scraper metadata DB<br/>documents and run status)]
 	MedicineDB[(Medicine data DB<br/>normalized regulatory data)]
@@ -30,12 +30,12 @@ flowchart LR
 	Processor -->|Append normalized records| MedicineDB
 ```
 
-The admin panel is the React app in `client/`; it calls the FastAPI server in `server/`. The server controls scraper runs through AWS, while the scraper worker is implemented in `cloud_worker/scraper/`. S3 is the shared file handoff between collection and processing; the two databases hold scraper metadata and normalized medicine data, respectively.
+The admin panel is the React app in `client/`; it calls the FastAPI server in `server/`. The server controls scraper runs through AWS, while the scraper worker is implemented in `data_collection_service/scraper/`. S3 is the shared file handoff between collection and processing; the two databases hold scraper metadata and normalized medicine data, respectively.
 
 The runtime app is now organized into two layers:
 
 - [server](server) — the FastAPI application layer, database access, config, and API control
-- [cloud](cloud) — the background scraping and Cloud Run worker layer
+- [data_collection_service](data_collection_service) — the background scraping worker and its standalone Docker build
 
 The research and ingestion workflows remain separated as:
 
@@ -55,8 +55,11 @@ The research and ingestion workflows remain separated as:
 │   ├── database/
 │   ├── routes/
 │   └── templates/
-├── cloud/
-│   ├── README.md
+├── data_collection_service/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── config.py
+│   ├── database/
 │   └── scraper/
 ├── initial_data_ingestion/
 │   ├── 00_project_support/
