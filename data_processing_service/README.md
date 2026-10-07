@@ -58,8 +58,7 @@ $Region = "ap-south-1"
 $EcrRegistry = "$AccountId.dkr.ecr.$Region.amazonaws.com"
 
 # Sign in to ECR once
-aws ecr get-login-password --region $Region | docker login --username AWS --password-stdin $EcrRegistry
-
+aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 449902674528.dkr.ecr.ap-south-1.amazonaws.com
 # Build CPU-only Linux images for the ECS Fargate runtime (x86_64)
 docker build --platform linux/amd64 -f data_processing_service/Dockerfile.common -t data-processor:local .
 docker build --platform linux/amd64 -f data_processing_service/Dockerfile.extractor -t data-extractor:local .

@@ -1,4 +1,4 @@
-"""Create and upgrade the server documents table."""
+"""Create and upgrade the SQLAlchemy tables used by the FastAPI server."""
 from sqlalchemy import inspect, text
 
 from server.database import models  # noqa: F401
@@ -28,10 +28,19 @@ def ensure_document_columns() -> None:
                 connection.execute(text(f'ALTER TABLE documents ADD COLUMN "{name}" {definition}'))
 
 
-if __name__ == "__main__":
+def ensure_pipeline_tables() -> None:
+    """Create the pipeline event and run approval tables if they do not exist."""
     Base.metadata.create_all(
         bind=engine,
-        tables=[models.Document.__table__],
+        tables=[
+            models.PipelineEvent.__table__,
+            models.RunApproval.__table__,
+        ],
     )
+
+
+if __name__ == "__main__":
+    Base.metadata.create_all(bind=engine)
     ensure_document_columns()
-    print("Documents table created or upgraded.")
+    ensure_pipeline_tables()
+    print("Database tables created or upgraded.")

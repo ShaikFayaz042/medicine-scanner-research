@@ -742,13 +742,27 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--doc-id", help="Ingest only this normalized document folder or CSV key")
     parser.add_argument("--region", default=AWS_REGION, help="AWS region for S3")
     parser.add_argument("--limit", type=int, default=0, help="Maximum number of S3 document folders to ingest; 0 means all")
-    parser.add_argument("--dry-run", action="store_true", help="Run inserts in a transaction and then roll back")
+    dry_run_group = parser.add_mutually_exclusive_group()
+    dry_run_group.add_argument(
+        "--commit",
+        dest="commit",
+        action="store_true",
+        help="Insert rows into medicine DB. Without this flag, dry-run mode is used.",
+    )
+    dry_run_group.add_argument(
+        "--dry-run",
+        dest="commit",
+        action="store_false",
+        help="Backward-compatible alias for dry-run mode.",
+    )
+    parser.set_defaults(commit=False)
     args = parser.parse_args(argv)
+    dry_run = not args.commit
 
     if args.limit < 0:
         parser.error("--limit must be zero or greater")
     if args.folder:
-        result = ingest_document_folder(args.folder, dry_run=args.dry_run)
+        result = ingest_document_folder(args.folder, dry_run=dry_run)
         print(json.dumps(result, default=str))
         scraper_status = result.get("scraper_status")
         return 1 if scraper_status and not scraper_status.get("updated") else 0
@@ -760,13 +774,13 @@ def main(argv: list[str] | None = None) -> int:
         args.prefix,
         region=args.region,
         limit=args.limit,
-        dry_run=args.dry_run,
+        dry_run=dry_run,
         doc_id=args.doc_id,
     )
     if args.doc_id and not results:
         print(f"No matching normalized document: {args.doc_id}", file=sys.stderr)
         return 1
-    totals = {table: sum(result.get("would_insert" if args.dry_run else "inserted_counts", {}).get(table, 0) for result in results) for table in _INSERT_TABLES}
+    totals = {table: sum(result.get("would_insert" if dry_run else "inserted_counts", {}).get(table, 0) for result in results) for table in _INSERT_TABLES}
     status_update_failures = sum(
         1
         for result in results
@@ -774,7 +788,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     print(json.dumps({
         "documents_processed": len(results),
-        "dry_run": args.dry_run,
+        "dry_run": dry_run,
         "table_counts": totals,
         "scraper_status_update_failures": status_update_failures,
     }, default=str))

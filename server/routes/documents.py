@@ -1,13 +1,12 @@
 """Document-related routes."""
 from datetime import datetime
-from pathlib import Path
 
 import boto3
 from botocore.exceptions import BotoCoreError, ClientError
 from fastapi import APIRouter, HTTPException
-from fastapi.responses import FileResponse, Response
+from fastapi.responses import Response
 
-from server.config import AWS_REGION, PDF_DIR, S3_BUCKET_NAME
+from server.config import AWS_REGION, S3_BUCKET_NAME
 from server.database.database import SessionLocal
 from server.database.medicine_database import MedicineSessionLocal
 from server.database.medicine_models import MedicineRegulatoryDocument, MedicineRegulatoryEvent
@@ -51,7 +50,6 @@ def list_documents():
                     "processing_stage": d.processing_stage,
                     "file_size_bytes": d.file_size_bytes,
                     "pdf_url": d.pdf_url,
-                    "local_file_path": d.local_file_path,
                     "created_at": d.created_at.isoformat() if d.created_at else None,
                 }
                 for d in docs
@@ -78,25 +76,11 @@ def get_document(document_id: int):
             "release_date": d.release_date,
             "status": d.status,
             "pdf_url": d.pdf_url,
-            "local_file_path": d.local_file_path,
             "file_size_bytes": d.file_size_bytes,
             "content_hash": d.content_hash,
         }
     finally:
         db.close()
-
-
-def _remove_local_files(document_id: int, local_file_path: str | None) -> None:
-    candidates = {PDF_DIR / f"{document_id}.pdf"}
-    if local_file_path:
-        candidate = Path(local_file_path)
-        try:
-            if candidate.resolve().is_relative_to(PDF_DIR.resolve()):
-                candidates.add(candidate)
-        except ValueError:
-            pass
-    for path in candidates:
-        path.unlink(missing_ok=True)
 
 
 def _remove_s3_object(object_key: str | None, pdf_url: str | None = None) -> bool:
@@ -121,7 +105,6 @@ def delete_document(document_id: int):
             raise HTTPException(status_code=404, detail="Document not found")
 
         s3_deleted = _remove_s3_object(document.s3_object_key, document.pdf_url)
-        _remove_local_files(document_id, document.local_file_path)
 
         deleted_events = medicine_db.query(MedicineRegulatoryEvent).filter(
             MedicineRegulatoryEvent.document_id == document_id
@@ -152,14 +135,6 @@ def delete_document(document_id: int):
         db.close()
 
 
-@router.get("/static-pdf/{document_id}.pdf")
-def serve_pdf(document_id: int):
-    path = PDF_DIR / f"{document_id}.pdf"
-    if not path.exists():
-        raise HTTPException(status_code=404, detail="PDF not found")
-    return FileResponse(str(path), media_type="application/pdf")
-
-
 @router.get("/documents/{document_id}/pdf")
 def download_document_pdf(document_id: int):
     db = SessionLocal()
@@ -167,14 +142,6 @@ def download_document_pdf(document_id: int):
         document = db.query(Document).filter(Document.document_id == document_id).first()
         if not document:
             raise HTTPException(status_code=404, detail="Document not found")
-
-        local_path = PDF_DIR / f"{document_id}.pdf"
-        if local_path.exists():
-            return FileResponse(
-                str(local_path),
-                media_type="application/pdf",
-                filename=f"{document_id}.pdf",
-            )
 
         object_key = document.s3_object_key
         if not object_key and document.pdf_url and not document.pdf_url.startswith(("http://", "https://")):

@@ -52,7 +52,9 @@ def test_scheduler_state_includes_time_fields(monkeypatch):
                 pass
 
         def get_schedule(self, Name):
-            return {"Name": Name, "State": "ENABLED", "ScheduleExpression": "cron(15 2 * * ? *)"}
+            if Name == "test-schedule":
+                return {"Name": Name, "State": "ENABLED", "ScheduleExpression": "cron(15 2 * * ? *)"}
+            raise FakeClient.exceptions.ResourceNotFoundException()
 
     monkeypatch.setattr(cloud_scheduler, "_scheduler_client", lambda: FakeClient())
     monkeypatch.setattr(cloud_scheduler, "EVENTBRIDGE_SCHEDULE_NAME", "test-schedule")

@@ -701,14 +701,28 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--manifest-s3-key", help="S3 key for the pipeline manifest JSON")
     parser.add_argument("--region", default=AWS_REGION, help="AWS region for S3")
     parser.add_argument("--limit", type=int, default=0, help="Maximum number of S3 document folders to ingest; 0 means all")
-    parser.add_argument("--dry-run", action="store_true", help="Run inserts in a transaction and then roll back")
+    dry_run_group = parser.add_mutually_exclusive_group()
+    dry_run_group.add_argument(
+        "--commit",
+        dest="commit",
+        action="store_true",
+        help="Insert rows into medicine DB. Without this flag, dry-run mode is used.",
+    )
+    dry_run_group.add_argument(
+        "--dry-run",
+        dest="commit",
+        action="store_false",
+        help="Backward-compatible alias for dry-run mode.",
+    )
+    parser.set_defaults(commit=False)
     args = parser.parse_args(argv)
     started_at = utc_now_iso()
+    dry_run = not args.commit
 
     if args.limit < 0:
         parser.error("--limit must be zero or greater")
     if args.folder:
-        result = ingest_document_folder(args.folder, dry_run=args.dry_run)
+        result = ingest_document_folder(args.folder, dry_run=dry_run)
         print(json.dumps(result, default=str))
         scraper_status = result.get("scraper_status")
         return 1 if scraper_status and not scraper_status.get("updated") else 0
@@ -726,17 +740,17 @@ def main(argv: list[str] | None = None) -> int:
                 folder = Path(temp_dir)
                 for filename, key in objects.items():
                     s3_client.download_file(args.bucket, key, str(folder / filename))
-                result = ingest_document_folder(folder, engine=engine, dry_run=args.dry_run)
+                result = ingest_document_folder(folder, engine=engine, dry_run=dry_run)
                 result["s3_prefix"] = document_prefix
                 results.append(result)
         total_documents = len(results)
-        totals = {table: sum(result.get("would_insert" if args.dry_run else "inserted_counts", {}).get(table, 0) for result in results) for table in _INSERT_TABLES}
+        totals = {table: sum(result.get("would_insert" if dry_run else "inserted_counts", {}).get(table, 0) for result in results) for table in _INSERT_TABLES}
         status_update_failures = sum(
             1 for result in results if result.get("scraper_status") and not result["scraper_status"].get("updated")
         )
         print(json.dumps({
             "documents_processed": total_documents,
-            "dry_run": args.dry_run,
+            "dry_run": dry_run,
             "table_counts": totals,
             "scraper_status_update_failures": status_update_failures,
         }, default=str))
@@ -756,7 +770,7 @@ def main(argv: list[str] | None = None) -> int:
                     "input_keys": [result.get("s3_prefix") for result in results if result.get("s3_prefix")],
                     "output_keys": [],
                     "table_counts": totals,
-                    "dry_run": args.dry_run,
+                    "dry_run": dry_run,
                     "error": f"{status_update_failures} scraper status update(s) failed" if status_update_failures else None,
                 },
             )
@@ -770,13 +784,13 @@ def main(argv: list[str] | None = None) -> int:
         args.prefix,
         region=args.region,
         limit=args.limit,
-        dry_run=args.dry_run,
+        dry_run=dry_run,
         doc_id=args.doc_id,
     )
     if args.doc_id and not results:
         print(f"No matching normalized document: {args.doc_id}", file=sys.stderr)
         return 1
-    totals = {table: sum(result.get("would_insert" if args.dry_run else "inserted_counts", {}).get(table, 0) for result in results) for table in _INSERT_TABLES}
+    totals = {table: sum(result.get("would_insert" if dry_run else "inserted_counts", {}).get(table, 0) for result in results) for table in _INSERT_TABLES}
     status_update_failures = sum(
         1
         for result in results
@@ -784,7 +798,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     print(json.dumps({
         "documents_processed": len(results),
-        "dry_run": args.dry_run,
+        "dry_run": dry_run,
         "table_counts": totals,
         "scraper_status_update_failures": status_update_failures,
     }, default=str))
@@ -804,7 +818,7 @@ def main(argv: list[str] | None = None) -> int:
                 "input_keys": [result.get("s3_prefix") for result in results if result.get("s3_prefix")],
                 "output_keys": [],
                 "table_counts": totals,
-                "dry_run": args.dry_run,
+                "dry_run": dry_run,
                 "error": f"{status_update_failures} scraper status update(s) failed" if status_update_failures else None,
             },
         )

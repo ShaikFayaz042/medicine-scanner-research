@@ -560,6 +560,43 @@ def test_manifest_run_ingests_only_normalizer_result_keys(monkeypatch):
     assert "prefix" not in captured
 
 
+def test_ingester_commit_flag_controls_dry_run_mode(monkeypatch):
+    captured = {}
+
+    def fake_ingest_s3_prefix(bucket, prefix, **kwargs):
+        captured["kwargs"] = kwargs
+        return [{"status": "dry_run"}]
+
+    monkeypatch.setattr(append_ingest, "ingest_s3_prefix", fake_ingest_s3_prefix)
+    monkeypatch.setattr(append_ingest.boto3, "client", lambda *args, **kwargs: Mock())
+
+    result = append_ingest.main([
+        "--bucket", "test-bucket",
+        "--prefix", "normalized",
+    ])
+
+    assert result == 0
+    assert captured["kwargs"]["dry_run"] is True
+
+    captured.clear()
+    result = append_ingest.main([
+        "--bucket", "test-bucket",
+        "--prefix", "normalized",
+        "--commit",
+    ])
+
+    assert result == 0
+    assert captured["kwargs"]["dry_run"] is False
+
+    with pytest.raises(SystemExit):
+        append_ingest.main([
+            "--bucket", "test-bucket",
+            "--prefix", "normalized",
+            "--commit",
+            "--dry-run",
+        ])
+
+
 def test_staging_key_is_reused_across_documents(tmp_path):
     engine = _create_db()
     shared_key = "shared_org_key"
