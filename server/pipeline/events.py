@@ -46,6 +46,17 @@ def _as_datetime(value: Any) -> datetime | None:
 
 def _extract_run_id(detail: Mapping[str, Any], source: str) -> str | None:
     if source == "aws.states":
+        raw_input = detail.get("input")
+        if raw_input:
+            try:
+                parsed = json.loads(raw_input) if isinstance(raw_input, str) else raw_input
+                if isinstance(parsed, dict):
+                    candidate = parsed.get("run_id")
+                    if isinstance(candidate, str) and candidate.strip():
+                        return candidate.strip()
+            except (json.JSONDecodeError, TypeError):
+                pass
+
         execution_arn = detail.get("executionArn") or detail.get("execution_arn")
         if isinstance(execution_arn, str) and execution_arn:
             return execution_arn.rsplit(":", 1)[-1] or None

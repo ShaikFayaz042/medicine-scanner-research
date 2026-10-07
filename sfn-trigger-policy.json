@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowSFNStart",
+      "Effect": "Allow",
+      "Action": [
+        "states:StartExecution",
+        "states:DescribeExecution",
+        "states:ListExecutions"
+      ],
+      "Resource": [
+        "arn:aws:states:ap-south-1:449902674528:stateMachine:pdf-ingestion-pipeline",
+        "arn:aws:states:ap-south-1:449902674528:execution:pdf-ingestion-pipeline:*"
+      ]
+    }
+  ]
+}

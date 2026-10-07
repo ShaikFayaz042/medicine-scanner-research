@@ -5,13 +5,14 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // <-- 2. Add it here
+    tailwindcss(),
   ],
   server: {
     proxy: {
       '/api': {
         target: 'http://localhost:8000',
         changeOrigin: true,
+        ws: true,
       },
       '/health': {
         target: 'http://localhost:8000',

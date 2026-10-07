@@ -6,3 +6,23 @@
   --color-brand-primary: #1da1f2;
   --font-display: "Inter", sans-serif;
 }
+
+.pipeline-flow-controls .react-flow__controls-button {
+  background-color: #ffffff;
+  border-color: #e2e8f0;
+  color: #334155;
+}
+
+.pipeline-flow-controls .react-flow__controls-button:hover {
+  background-color: #f1f5f9;
+}
+
+.dark .pipeline-flow-controls .react-flow__controls-button {
+  background-color: #1e293b;
+  border-color: #475569;
+  color: #e2e8f0;
+}
+
+.dark .pipeline-flow-controls .react-flow__controls-button:hover {
+  background-color: #334155;
+}
