@@ -1,0 +1,1 @@
+export { DocumentsPage as default, DocumentsPage } from '../components/scanner/documents'

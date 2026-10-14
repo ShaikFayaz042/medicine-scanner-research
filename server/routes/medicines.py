@@ -1,6 +1,6 @@
 """Scanner-oriented medicine identification endpoints."""
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 from server.database.medicine_database import MedicineSessionLocal
 from server.services.medicine_service import get_medicine as get_medicine_record
@@ -15,7 +15,22 @@ class MedicineSearchRequest(BaseModel):
     ingredient: str = Field(default="", max_length=200)
     strength: str = Field(default="", max_length=100)
     dosage_form: str = Field(default="", max_length=100)
+    batch_number: str = Field(default="", max_length=100)
     limit: int = Field(default=50, ge=1, le=100)
+
+    @model_validator(mode="after")
+    def require_search_field(self):
+        search_fields = (
+            self.name,
+            self.manufacturer,
+            self.ingredient,
+            self.strength,
+            self.dosage_form,
+            self.batch_number,
+        )
+        if not any(value.strip() for value in search_fields):
+            raise ValueError("At least one non-empty search field is required")
+        return self
 
 
 def get_medicine_db():
@@ -28,17 +43,13 @@ def get_medicine_db():
 
 @router.post("/search")
 def identify_medicines(request: MedicineSearchRequest, db=Depends(get_medicine_db)):
-    fields = {
-        key: value.strip().lower()
+    query = {
+        key: (value.strip() or None)
         for key, value in request.model_dump().items()
-        if isinstance(value, str) and value.strip()
+        if key != "limit"
     }
-    if not fields:
-        return {"matches": [], "count": 0}
-
-    matches = search_medicines(db, fields, request.limit)
-    matches.sort(key=lambda match: (-match["relevance"], match["product"]["name"] or ""))
-    return {"matches": matches, "count": len(matches)}
+    fields = {key: value.lower() for key, value in query.items() if value}
+    return search_medicines(db, fields, request.limit, query=query)
 
 
 @router.get("/{medicine_id}")

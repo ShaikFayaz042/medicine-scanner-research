@@ -1,5 +1,5 @@
-"""Read models for the deployed normalized medicine regulatory schema."""
-from sqlalchemy import BigInteger, Column, Date, ForeignKey, String, Table, Text, and_
+"""Read models for the normalized medicine regulatory schema."""
+from sqlalchemy import BigInteger, Column, Date, ForeignKey, Integer, Numeric, String, Table, Text, and_
 from sqlalchemy.orm import relationship
 
 from server.config import MEDICINE_DB_SCHEMA
@@ -12,9 +12,9 @@ MEDICINE_SCHEMA = MEDICINE_DB_SCHEMA
 product_organizations = Table(
     "product_organizations",
     Base.metadata,
-    Column("product_id", BigInteger, ForeignKey(f"{MEDICINE_SCHEMA}.products.product_id")),
-    Column("organization_id", BigInteger, ForeignKey(f"{MEDICINE_SCHEMA}.organizations.organization_id")),
-    Column("role", String(50)),
+    Column("product_id", BigInteger, ForeignKey(f"{MEDICINE_SCHEMA}.products.product_id"), primary_key=True),
+    Column("organization_id", BigInteger, ForeignKey(f"{MEDICINE_SCHEMA}.organizations.organization_id"), primary_key=True),
+    Column("role", String(50), nullable=False),
     schema=MEDICINE_SCHEMA,
 )
 
@@ -59,7 +59,12 @@ class MedicineProduct(Base):
         viewonly=True,
     )
     ingredients = relationship("MedicineProductIngredient", back_populates="product")
-    regulatory_events = relationship("MedicineRegulatoryEvent", back_populates="product")
+    batches = relationship("MedicineBatch", back_populates="product")
+    regulatory_events = relationship(
+        "MedicineRegulatoryEvent",
+        back_populates="product",
+        foreign_keys="MedicineRegulatoryEvent.product_id",
+    )
 
     @property
     def manufacturer(self):
@@ -91,6 +96,20 @@ class MedicineRegulatoryDocument(Base):
     pdf_filename = Column("filename", Text)
 
 
+class MedicineBatch(Base):
+    __tablename__ = "batches"
+    __table_args__ = {"schema": MEDICINE_SCHEMA}
+
+    id = Column("batch_id", BigInteger, primary_key=True)
+    product_id = Column(BigInteger, ForeignKey(f"{MEDICINE_SCHEMA}.products.product_id"), nullable=False)
+    manufacturer_id = Column("organization_id", BigInteger, ForeignKey(f"{MEDICINE_SCHEMA}.organizations.organization_id"))
+    batch_number = Column(Text, nullable=False)
+    manufacturing_date = Column(Date)
+    expiry_date = Column("expiry_date", Date)
+
+    product = relationship("MedicineProduct", back_populates="batches")
+
+
 class MedicineRegulatoryEvent(Base):
     __tablename__ = "regulatory_events"
     __table_args__ = {"schema": MEDICINE_SCHEMA}
@@ -98,15 +117,17 @@ class MedicineRegulatoryEvent(Base):
     id = Column("event_id", BigInteger, primary_key=True)
     document_id = Column(BigInteger, ForeignKey(f"{MEDICINE_SCHEMA}.regulatory_documents.document_id"), nullable=False)
     product_id = Column(BigInteger, ForeignKey(f"{MEDICINE_SCHEMA}.products.product_id"))
-    source_record_id = Column(Text)
+    batch_id = Column(BigInteger, ForeignKey(f"{MEDICINE_SCHEMA}.batches.batch_id"))
+    scope = Column(String(50), nullable=False)
+    source_record_id = Column(Text, nullable=False)
     event_type = Column(String(100), nullable=False)
     status = Column(String(50))
     legal_status = Column(Text)
     reason = Column(Text)
     effective_date = Column("event_date", Date)
-    action = Column(Text)
 
     product = relationship("MedicineProduct", back_populates="regulatory_events")
+    batch = relationship("MedicineBatch")
     document = relationship("MedicineRegulatoryDocument")
 
 
@@ -115,6 +136,7 @@ __all__ = [
     "MedicineOrganization",
     "MedicineProduct",
     "MedicineProductIngredient",
+    "MedicineBatch",
     "MedicineRegulatoryDocument",
     "MedicineRegulatoryEvent",
 ]

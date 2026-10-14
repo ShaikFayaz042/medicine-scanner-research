@@ -1,0 +1,1 @@
+export { HomePage as default, HomePage } from '../components/scanner/home'

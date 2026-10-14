@@ -1,14 +1,85 @@
 from __future__ import annotations
 
+import json
+
+import boto3
+from botocore.exceptions import BotoCoreError, ClientError
 from fastapi import APIRouter, Depends, HTTPException, WebSocket, WebSocketDisconnect
 from sqlalchemy.orm import Session
 
+from server.config import AWS_REGION, S3_BUCKET_NAME, S3_PREFIX
 from server.database.database import SessionLocal, get_db
 from server.database.models import PipelineEvent, RunApproval
 from server.pipeline.approval_service import approve_run, reject_run
 from server.pipeline.websocket_manager import manager
 
 router = APIRouter(prefix="/api/pipeline", tags=["pipeline"])
+
+
+def _run_s3_prefix(run_id: str) -> str:
+    """Build the S3 prefix shared by run-scoped pipeline artifacts."""
+    return f"{(S3_PREFIX or '').strip('/')}/processed_files/runs/{run_id}"
+
+
+@router.get("/runs/{run_id}/manifest")
+def get_run_manifest(run_id: str):
+    """Read a run manifest and return its source and document summary."""
+    key = f"{_run_s3_prefix(run_id)}/manifest.json"
+    try:
+        response = boto3.client("s3", region_name=AWS_REGION).get_object(
+            Bucket=S3_BUCKET_NAME,
+            Key=key,
+        )
+        manifest = json.loads(response["Body"].read())
+    except ClientError as exc:
+        error = exc.response.get("Error", {})
+        if error.get("Code") in {"NoSuchKey", "404"}:
+            raise HTTPException(status_code=404, detail="manifest not found yet") from exc
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
+    except (BotoCoreError, ValueError, KeyError) as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
+
+    documents = manifest.get("documents", [])
+    return {
+        "run_id": run_id,
+        "documents_count": len(documents),
+        "sources": sorted({document["source"] for document in documents if document.get("source")}),
+        "has_pdfs": bool(manifest.get("has_pdfs")),
+        "has_json": bool(manifest.get("has_json")),
+        "triggered_at": manifest.get("triggered_at"),
+        "documents": documents,
+    }
+
+
+@router.get("/runs/{run_id}/artifacts/normalized")
+def get_normalized_artifacts(run_id: str):
+    """Count records in the current normalized JSON artifacts for a run."""
+    prefix = f"{_run_s3_prefix(run_id)}/normalized_json/"
+    files = []
+    record_count = 0
+    try:
+        client = boto3.client("s3", region_name=AWS_REGION)
+        paginator = client.get_paginator("list_objects_v2")
+        for page in paginator.paginate(Bucket=S3_BUCKET_NAME, Prefix=prefix):
+            for item in page.get("Contents", []):
+                key = item["Key"]
+                if not key.lower().endswith(".json"):
+                    continue
+                response = client.get_object(Bucket=S3_BUCKET_NAME, Key=key)
+                payload = json.loads(response["Body"].read())
+                records = payload if isinstance(payload, list) else payload.get("records", [])
+                count = len(records)
+                record_count += count
+                files.append({"key": key, "records": count})
+    except (BotoCoreError, ClientError, ValueError, KeyError, AttributeError) as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
+
+    return {
+        "run_id": run_id,
+        "record_count": record_count,
+        "file_count": len(files),
+        "files": files,
+    }
 
 
 @router.get("/events")

@@ -1,0 +1,1 @@
+export { SourcesPage as default, SourcesPage } from '../components/scanner/secondary'

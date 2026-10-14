@@ -66,6 +66,32 @@ def test_scheduler_state_includes_time_fields(monkeypatch):
     assert state["minute"] == 15
 
 
+def test_run_now_passes_a_shared_run_id_to_ecs(monkeypatch):
+    class FakeECS:
+        def __init__(self):
+            self.payload = None
+
+        def run_task(self, **payload):
+            self.payload = payload
+            return {"tasks": [{"taskArn": "arn:aws:ecs:task/test"}]}
+
+    ecs = FakeECS()
+    monkeypatch.setattr(cloud_scheduler, "_validate_aws_config", lambda: None)
+    monkeypatch.setattr(cloud_scheduler, "_ecs_client", lambda: ecs)
+    monkeypatch.setattr(cloud_scheduler, "_build_network_configuration", lambda: None)
+    monkeypatch.setattr(cloud_scheduler, "set_worker_status", lambda *args, **kwargs: None)
+    monkeypatch.setattr(cloud_scheduler, "ECS_CLUSTER_NAME", "test-cluster")
+    monkeypatch.setattr(cloud_scheduler, "ECS_TASK_DEFINITION", "test-task")
+    monkeypatch.setattr(cloud_scheduler, "ECS_CONTAINER_NAME", "scraper")
+
+    result = cloud_scheduler.run_scraper_now()
+
+    command = ecs.payload["overrides"]["containerOverrides"][0]["command"]
+    run_id_index = command.index("--run-id") + 1
+    assert result["run_id"] == command[run_id_index]
+    assert result["tasks"][0]["taskArn"].endswith("test")
+
+
 def test_admin_dashboard_route(monkeypatch):
     monkeypatch.setattr(
         admin_controller,

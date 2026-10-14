@@ -1,0 +1,1 @@
+export { LookupPage as default, LookupPage } from '../components/scanner/secondary'

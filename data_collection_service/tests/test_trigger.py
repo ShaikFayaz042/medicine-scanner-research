@@ -29,3 +29,19 @@ def test_manifest_key_is_scoped_to_run():
     assert manifest_s3_key("run-123").endswith(
         "/processed_files/runs/run-123/manifest.json"
     )
+
+
+def test_trigger_ingestion_uses_provided_run_id(monkeypatch):
+    from data_collection_service.scraper import trigger
+
+    captured = {}
+    monkeypatch.setattr(trigger, "write_manifest", lambda manifest: captured.update(manifest) or "manifest.json")
+    monkeypatch.setattr(trigger, "trigger_step_function", lambda **kwargs: "execution-arn")
+
+    result = trigger.trigger_ingestion_pipeline(
+        [{"s3_key": "source_files/example.pdf", "kind": "pdf"}],
+        run_id="manual-shared-run",
+    )
+
+    assert result["run_id"] == "manual-shared-run"
+    assert captured["run_id"] == "manual-shared-run"

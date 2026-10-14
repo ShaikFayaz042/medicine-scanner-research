@@ -124,13 +124,15 @@ def trigger_step_function(
     )
 
 
-def trigger_ingestion_pipeline(new_documents: list[dict[str, Any]]) -> dict[str, Any]:
+def trigger_ingestion_pipeline(
+    new_documents: list[dict[str, Any]], *, run_id: str | None = None
+) -> dict[str, Any]:
     """Build a manifest and start Step Functions without raising to the scraper."""
     if not new_documents:
         logger.info("No new documents in this run; skipping pipeline trigger")
         return {"triggered": False, "reason": "no_new_documents"}
 
-    run_id = build_run_id()
+    run_id = run_id or build_run_id()
     result: dict[str, Any] = {"run_id": run_id, "triggered": False}
     try:
         manifest = build_manifest(run_id, new_documents)

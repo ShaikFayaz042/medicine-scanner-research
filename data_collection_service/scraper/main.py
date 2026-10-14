@@ -41,6 +41,11 @@ def main() -> int:
         help="Optional maximum number of records to scrape in one run.",
     )
     parser.add_argument(
+        "--run-id",
+        default=None,
+        help="Optional run ID shared with the triggering scheduler and pipeline.",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Print the run plan without executing the scraper.",
@@ -57,7 +62,9 @@ def main() -> int:
     except Exception as exc:
         _notify_backend("error", {"error": str(exc)})
         raise
-    pipeline_result = trigger_ingestion_pipeline(summary.get("new_documents", []))
+    pipeline_result = trigger_ingestion_pipeline(
+        summary.get("new_documents", []), run_id=args.run_id
+    )
     summary["pipeline_trigger"] = pipeline_result
     _notify_backend("finish", {"status": "finished", "summary": summary})
     print(json.dumps(summary, indent=2, default=str))

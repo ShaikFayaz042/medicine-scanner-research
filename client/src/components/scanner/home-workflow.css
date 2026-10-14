@@ -1,0 +1,134 @@
+.home-workflow-canvas {
+  height: 250px;
+  overflow: hidden;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background-color: var(--background);
+}
+
+.home-workflow-canvas .react-flow__controls {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card);
+  box-shadow: 0 2px 5px oklch(0.3 0.05 250 / 8%);
+}
+
+.home-workflow-canvas .react-flow__controls-button {
+  border-color: var(--border);
+  background: var(--card);
+  fill: var(--foreground);
+}
+
+.home-flow-node {
+  display: flex;
+  width: 150px;
+  min-height: 78px;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--card);
+  box-shadow: 0 3px 12px oklch(0.3 0.05 250 / 7%);
+}
+
+.home-flow-node.state-Running {
+  border-color: oklch(0.76 0.14 240);
+  box-shadow: 0 0 0 3px oklch(0.88 0.07 240 / 45%), 0 3px 12px oklch(0.3 0.05 250 / 7%);
+}
+
+.home-flow-node.state-Failed {
+  border-color: var(--danger);
+}
+
+.home-flow-node .home-flow-icon {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 6px;
+  background: var(--info-soft);
+  color: var(--info);
+}
+
+.home-flow-node.state-Completed .home-flow-icon {
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+.home-flow-node.state-Failed .home-flow-icon {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.home-flow-copy {
+  display: grid;
+  min-width: 0;
+  flex: 1;
+  gap: 5px;
+}
+
+.home-flow-copy strong,
+.home-flow-copy small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.home-flow-copy strong {
+  color: var(--foreground);
+  font-size: 10px;
+  font-weight: 650;
+}
+
+.home-flow-copy small {
+  color: var(--muted-foreground);
+  font-size: 8px;
+}
+
+.home-flow-node .badge {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 8px;
+}
+
+.home-flow-node .react-flow__handle {
+  width: 8px;
+  height: 8px;
+  border: 1px solid var(--card);
+  background: var(--muted-foreground);
+}
+
+@media (max-width: 680px) {
+  .home-workflow-canvas {
+    height: 220px;
+  }
+}
+
+.page-content .home-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.pipeline-flow-controls .react-flow__controls-button {
+  background-color: #ffffff;
+  border-color: #e2e8f0;
+  color: #334155;
+}
+
+.pipeline-flow-controls .react-flow__controls-button:hover {
+  background-color: #f1f5f9;
+}
+
+.dark .pipeline-flow-controls .react-flow__controls-button {
+  background-color: #1e293b;
+  border-color: #475569;
+  color: #e2e8f0;
+}
+
+.dark .pipeline-flow-controls .react-flow__controls-button:hover {
+  background-color: #334155;
+}

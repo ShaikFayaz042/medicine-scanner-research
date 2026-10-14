@@ -6,6 +6,7 @@ worker via the supported AWS task runner.
 """
 import json
 from typing import Any
+from uuid import uuid4
 
 import boto3
 from botocore.exceptions import BotoCoreError, ClientError
@@ -127,8 +128,8 @@ def _build_schedule_target() -> dict[str, Any]:
 
 def run_scraper_now(limit: int | None = None) -> dict:
     """Trigger an ECS task to run the scraper worker immediately."""
-    set_worker_status("running", source="aws-ecs", triggered_by="manual")
     _validate_aws_config()
+    run_id = f"manual-{uuid4().hex}"
     client = _ecs_client()
     network = _build_network_configuration()
     payload = {
@@ -144,6 +145,8 @@ def run_scraper_now(limit: int | None = None) -> dict:
                         "python",
                         "-m",
                         "data_collection_service.scraper.main",
+                        "--run-id",
+                        run_id,
                         *(["--limit", str(limit)] if limit is not None else []),
                     ],
                 }
@@ -158,12 +161,26 @@ def run_scraper_now(limit: int | None = None) -> dict:
     except (BotoCoreError, ClientError) as exc:
         raise HTTPException(status_code=500, detail=f"ECS run_task failed: {exc}") from exc
 
+    tasks = response.get("tasks", [])
+    if not tasks:
+        failures = response.get("failures", [])
+        reasons = "; ".join(
+            str(failure.get("reason") or failure.get("detail") or "unknown ECS failure")
+            for failure in failures
+        )
+        raise HTTPException(
+            status_code=502,
+            detail=f"ECS did not start the scraper task: {reasons or 'no task was returned'}",
+        )
+
+    set_worker_status("running", source="aws-ecs", triggered_by="manual")
     return {
         "status": "started",
+        "run_id": run_id,
         "source": "aws-ecs",
         "cluster": ECS_CLUSTER_NAME or ECS_CLUSTER_ARN,
         "task_definition": ECS_TASK_DEFINITION_ARN or ECS_TASK_DEFINITION,
-        "tasks": response.get("tasks", []),
+        "tasks": tasks,
     }
 
 

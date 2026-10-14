@@ -4,7 +4,7 @@ beautifulsoup4
 
 # FastAPI application
 fastapi
-uvicorn
+uvicorn[standard]
 jinja2
 pydantic
 sqlalchemy

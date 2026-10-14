@@ -33,7 +33,7 @@ class Document(Base):
 class PipelineEvent(Base):
     __tablename__ = "pipeline_events"
 
-    id = Column(BigInteger, primary_key=True, autoincrement=True)
+    id = Column(BigInteger().with_variant(Integer, "sqlite"), primary_key=True, autoincrement=True)
     event_id = Column(String(36), unique=True, nullable=False, index=True)
     event_type = Column(String(64), nullable=False)
     source = Column(String(32), nullable=False)
@@ -46,7 +46,7 @@ class PipelineEvent(Base):
 class RunApproval(Base):
     __tablename__ = "run_approvals"
 
-    id = Column(BigInteger, primary_key=True, autoincrement=True)
+    id = Column(BigInteger().with_variant(Integer, "sqlite"), primary_key=True, autoincrement=True)
     run_id = Column(String(64), unique=True, nullable=False, index=True)
     status = Column(String(16), nullable=False, index=True)
     manifest_key = Column(Text, nullable=True)

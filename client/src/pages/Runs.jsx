@@ -1,0 +1,1 @@
+export { RunsPage as default, RunsPage } from '../components/scanner/runs'

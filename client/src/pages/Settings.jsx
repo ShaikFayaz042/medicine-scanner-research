@@ -1,0 +1,1 @@
+export { SettingsPage as default, SettingsPage } from '../components/scanner/secondary'
