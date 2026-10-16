@@ -3,7 +3,7 @@ import json
 
 from botocore.exceptions import ClientError
 
-from server.pipeline.events import parse_pipeline_event
+from server.services.workflow_events import parse_pipeline_event
 
 
 def test_parse_sfn_state_change():

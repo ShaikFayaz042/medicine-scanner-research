@@ -1,11 +1,12 @@
 """Server-specific configuration for the Render/FastAPI app."""
+import os
 from pathlib import Path
 
 from sqlalchemy.engine import URL, make_url
 
 
 def _load_env_file() -> dict[str, str]:
-    """Read repository- and server-scoped env variables without using process env."""
+    """Read repository- and server-scoped env variables as file fallbacks."""
     env_files = [
         Path(__file__).resolve().parents[1] / ".env",
         Path(__file__).resolve().parent / ".env",
@@ -28,7 +29,7 @@ _ENV = _load_env_file()
 
 
 def _env(name: str, default: str | None = None) -> str | None:
-    return _ENV.get(name, default)
+    return os.environ.get(name, _ENV.get(name, default))
 
 
 def _is_remote_supabase_pooler(host: str | None) -> bool:
@@ -58,6 +59,21 @@ def _local_sqlite_url(database_name: str = "medicine_scanner.sqlite3") -> str:
     return f"sqlite:///{database_path.as_posix()}"
 
 
+def _medicine_database_url() -> str:
+    uri = _env("MEDICINE_DB_URI")
+    if not uri:
+        raise ValueError("Configure MEDICINE_DB_URI with the Medicine Scanner Supabase project URL.")
+    medicine_url = make_url(uri)
+
+    host = (medicine_url.host or "").lower()
+    if not medicine_url.drivername.startswith("postgresql") or not host.endswith((".supabase.co", ".supabase.com")):
+        raise ValueError("MEDICINE_DB_URI must be a PostgreSQL URL for the Medicine Scanner Supabase project.")
+
+    query = dict(medicine_url.query)
+    query["sslmode"] = "require"
+    return medicine_url.set(query=query).render_as_string(hide_password=False)
+
+
 APP_ENV = _env("APP_ENV", "development")
 SCRAPER_DB_HOST = _env("SCRAPER_DB_HOST", "localhost")
 SCRAPER_DB_PORT = _env("SCRAPER_DB_PORT", "5432")
@@ -66,6 +82,7 @@ SCRAPER_DB_USER = _env("SCRAPER_DB_USER", "postgres")
 SCRAPER_DB_PASSWORD = _env("SCRAPER_DB_PASSWORD")
 SCRAPER_DB_URI = _env("SCRAPER_DB_URI")
 
+requires_ssl = _is_remote_supabase_pooler(SCRAPER_DB_HOST)
 if _should_use_sqlite_fallback(SCRAPER_DB_HOST, SCRAPER_DB_URI, APP_ENV):
     DATABASE_URL = _local_sqlite_url("scraper_local.sqlite3")
 else:
@@ -94,19 +111,43 @@ MEDICINE_DB_NAME = _env("MEDICINE_DB_NAME", "medicine_regulatory_db")
 MEDICINE_DB_USER = _env("MEDICINE_DB_USER", "postgres")
 MEDICINE_DB_PASSWORD = _env("MEDICINE_DB_PASSWORD")
 MEDICINE_DB_URI = _env("MEDICINE_DB_URI")
-MEDICINE_DB_SCHEMA = _env("MEDICINE_DB_SCHEMA", "medicine_scanner")
+MEDICINE_DB_SCHEMA = _env("MEDICINE_DB_SCHEMA", "data_schema")
 
-if _should_use_sqlite_fallback(MEDICINE_DB_HOST, MEDICINE_DB_URI, APP_ENV):
-    MEDICINE_DATABASE_URL = _local_sqlite_url("medicine_local.sqlite3")
-else:
-    medicine_ssl_suffix = ""
-    if "supabase" in MEDICINE_DB_HOST.lower() or "pooler" in MEDICINE_DB_HOST.lower() or "aws-" in MEDICINE_DB_HOST.lower():
-        medicine_ssl_suffix = "?sslmode=require"
+MEDICINE_DATABASE_URL = _medicine_database_url()
 
-    MEDICINE_DATABASE_URL = MEDICINE_DB_URI or (
-        f"postgresql+psycopg2://{MEDICINE_DB_USER}:{MEDICINE_DB_PASSWORD}"
-        f"@{MEDICINE_DB_HOST}:{MEDICINE_DB_PORT}/{MEDICINE_DB_NAME}{medicine_ssl_suffix}"
-    )
+JWT_SECRET_KEY = _env("JWT_SECRET_KEY") or _env("SECRET_KEY")
+JWT_ALGORITHM = _env("JWT_ALGORITHM", "HS256")
+ACCESS_TOKEN_TTL_MINUTES = int(_env("ACCESS_TOKEN_TTL_MINUTES", "10080"))
+GOOGLE_WEB_CLIENT_ID = _env("GOOGLE_WEB_CLIENT_ID")
+GOOGLE_ANDROID_CLIENT_ID = _env("GOOGLE_ANDROID_CLIENT_ID")
+GOOGLE_IOS_CLIENT_ID = _env("GOOGLE_IOS_CLIENT_ID")
+GOOGLE_WEB_CLIENT_SECRET = _env("GOOGLE_WEB_CLIENT_SECRET")
+GOOGLE_WEB_OAUTH_STATE_SECRET = _env("GOOGLE_WEB_OAUTH_STATE_SECRET")
+GOOGLE_WEB_REDIRECT_URI = _env(
+    "GOOGLE_WEB_REDIRECT_URI",
+    "http://localhost:8000/auth/google/callback",
+)
+GOOGLE_WEB_APP_CALLBACK_URI = _env(
+    "GOOGLE_WEB_APP_CALLBACK_URI",
+    "http://localhost:8081/auth/google",
+)
+GOOGLE_WEB_OAUTH_COOKIE_SAMESITE = _env("GOOGLE_WEB_OAUTH_COOKIE_SAMESITE", "lax").lower()
+GEMINI_API_KEY = _env("GEMINI_API_KEY")
+GEMINI_MODEL = _env("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_TIMEOUT_SECONDS = float(_env("GEMINI_TIMEOUT_SECONDS", "15"))
+RATE_LIMIT_AUTH = _env("RATE_LIMIT_AUTH", "10/minute")
+RATE_LIMIT_SCAN = _env("RATE_LIMIT_SCAN", "10/minute")
+CORS_ORIGINS = tuple(
+    origin.strip()
+    for origin in _env(
+        "CORS_ORIGINS",
+        "http://localhost:8081,http://127.0.0.1:8081",
+    ).split(",")
+    if origin.strip()
+)
+
+MOBILE_DB_SCHEMA = _env("MOBILE_DB_SCHEMA", "mobile_app_schema")
+MOBILE_DATABASE_URL = MEDICINE_DATABASE_URL
 
 AWS_REGION = _env("AWS_REGION", "ap-south-1")
 S3_BUCKET_NAME = _env("AWS_S3_BUCKET_NAME", "medicine-data-storage-449902674528-ap-south-1-an")

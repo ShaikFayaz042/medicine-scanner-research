@@ -34,6 +34,8 @@ def _relevant_events(product, batch_number, matching_batches):
 def _serialize_event(event):
     document = event.document
     return {
+        "event_id": event.id,
+        "source_record_id": event.source_record_id,
         "event_type": event.event_type,
         "scope": event.scope,
         "batch_number": event.batch.batch_number if event.batch else None,
@@ -43,6 +45,7 @@ def _serialize_event(event):
         "effective_date": _text(event.effective_date),
         "source": {
             "document_id": document.id,
+            "source_org": getattr(document, "source_org", None),
             "title": document.title,
             "document_type": document.document_type,
             "publication_date": _text(document.publication_date),
@@ -55,7 +58,7 @@ def _serialize_event(event):
 def _build_assessment(events):
     disclaimer = (
         "This result reflects the regulatory records available in the system. "
-        "It is not medical advice."
+        "It does not verify the authenticity of a physical pack and is not medical advice."
     )
     recognized_scopes = {"BATCH", "PRODUCT", "INGREDIENT", "COMBINATION"}
 
@@ -81,9 +84,40 @@ def _build_assessment(events):
             "disclaimer": disclaimer,
         }
 
+    uncertain_legal_statuses = {"UNKNOWN", "QUASHED", "STAYED", "REVOKED_WITH_CONDITIONS"}
+    if any(
+        (event.get("legal_status") or "").upper() in uncertain_legal_statuses
+        for event in events
+    ):
+        return {
+            "indicator": "UNKNOWN",
+            "template_id": "UNCLEAR_LEGAL_STATUS",
+            "summary": (
+                "A regulatory record was found, but the available legal status does not support "
+                "a reliable current conclusion. Review the official source record."
+            ),
+            "disclaimer": disclaimer,
+        }
+
+    if any(
+        (event.get("legal_status") or "").upper() in {"PROHIBITED", "RESTRICTED"}
+        and not event.get("source")
+        for event in events
+    ):
+        return {
+            "indicator": "UNKNOWN",
+            "template_id": "UNSUPPORTED_LEGAL_RESTRICTION",
+            "summary": (
+                "A legal restriction is recorded, but its supporting source is unavailable. "
+                "Review the official record before drawing a conclusion."
+            ),
+            "disclaimer": disclaimer,
+        }
+
     restrictions = [
         event for event in events
         if (event.get("legal_status") or "").upper() in {"PROHIBITED", "RESTRICTED"}
+        and event.get("source")
     ]
     if restrictions:
         event = restrictions[0]
@@ -100,30 +134,42 @@ def _build_assessment(events):
             "disclaimer": disclaimer,
         }
 
-    uncertain_legal_statuses = {"UNKNOWN", "QUASHED", "STAYED", "REVOKED_WITH_CONDITIONS"}
-    if any(
-        (event.get("legal_status") or "").upper() in uncertain_legal_statuses
-        for event in events
-    ):
+    concern_types = {
+        "QUALITY_FAILURE", "QUALITY_ALERT", "INVESTIGATION", "CAUTION",
+        "SPURIOUS", "NSQ", "COUNTERFEIT", "RECALL", "WARNING",
+    }
+    concern_statuses = {
+        "NOT_OF_STANDARD_QUALITY", "SPURIOUS", "NSQ", "UNDER_INVESTIGATION",
+        "CAUTION", "RECALLED", "WARNING",
+    }
+    is_concern = any(
+        (item.get("event_type") or "").upper() in concern_types
+        or (item.get("status") or "").upper() in concern_statuses
+        for item in events
+    )
+    if not is_concern:
         return {
             "indicator": "UNKNOWN",
-            "template_id": "UNCLEAR_LEGAL_STATUS",
+            "template_id": "INSUFFICIENT_REGULATORY_EVIDENCE",
             "summary": (
-                "A regulatory record was found, but the available legal status does not support "
-                "a reliable current conclusion. Review the official source record."
+                "A regulatory record was found, but its meaning does not establish a safety conclusion. "
+                "Review the official source record."
             ),
             "disclaimer": disclaimer,
         }
-
-    event = events[0]
+    event = next(
+        item for item in events
+        if (item.get("event_type") or "").upper() in concern_types
+        or (item.get("status") or "").upper() in concern_statuses
+    )
     scope = event["scope"].lower()
     batch_text = f" for batch {event['batch_number']}" if event.get("batch_number") else ""
     reason_text = f" Reason recorded: {event['reason']}." if event.get("reason") else ""
     is_batch_quality_alert = (
         scope == "batch"
         and (
-            event.get("event_type", "").upper() in {"QUALITY_FAILURE", "QUALITY_ALERT"}
-            or event.get("status", "").upper() == "NOT_OF_STANDARD_QUALITY"
+            (event.get("event_type") or "").upper() in {"QUALITY_FAILURE", "QUALITY_ALERT"}
+            or (event.get("status") or "").upper() == "NOT_OF_STANDARD_QUALITY"
         )
     )
     template_id = "BATCH_QUALITY_ALERT" if is_batch_quality_alert else "REGULATORY_CONCERN"
@@ -238,7 +284,10 @@ def _serialize_match(product, relevance, match_type, fields):
         reference = {
             "source_record_id": event_object.source_record_id,
             "document_id": source["document_id"],
+            "source_org": source["source_org"],
             "title": source["title"],
+            "document_type": source["document_type"],
+            "publication_date": source["publication_date"],
             "source_url": source["source_url"],
             "pdf_filename": source["pdf_filename"],
         }
@@ -271,7 +320,10 @@ def _serialize(product, fields):
             {
                 "source_record_id": event_object.source_record_id,
                 "document_id": event["source"]["document_id"],
+                "source_org": event["source"]["source_org"],
                 "title": event["source"]["title"],
+                "document_type": event["source"]["document_type"],
+                "publication_date": event["source"]["publication_date"],
                 "source_url": event["source"]["source_url"],
                 "pdf_filename": event["source"]["pdf_filename"],
             }
@@ -283,15 +335,25 @@ def _serialize(product, fields):
 
 
 def search_medicines(db, fields: dict[str, str], limit: int, query=None):
+    query_fields = query or {
+        key: fields.get(key) or None
+        for key in ("name", "manufacturer", "ingredient", "strength", "dosage_form", "batch_number")
+    }
+    if not any(value for value in fields.values()):
+        return {
+            "query": query_fields,
+            "search_status": "NO_PRODUCT_MATCH",
+            "count": 0,
+            "limit": limit,
+            "has_more": False,
+            "matches": [],
+        }
+
     matches, has_more = search_medicine_products(db, fields, limit)
     serialized_matches = [
         _serialize_match(product, relevance, match_type, fields)
         for product, relevance, match_type in matches
     ]
-    query_fields = query or {
-        key: fields.get(key) or None
-        for key in ("name", "manufacturer", "ingredient", "strength", "dosage_form", "batch_number")
-    }
     return {
         "query": query_fields,
         "search_status": "MATCHED" if serialized_matches else "NO_PRODUCT_MATCH",

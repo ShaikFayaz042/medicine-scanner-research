@@ -1,6 +1,6 @@
 """Scanner-oriented medicine identification endpoints."""
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 from server.database.medicine_database import MedicineSessionLocal
 from server.services.medicine_service import get_medicine as get_medicine_record
@@ -10,13 +10,18 @@ router = APIRouter(prefix="/api/medicines", tags=["medicines"])
 
 
 class MedicineSearchRequest(BaseModel):
-    name: str = Field(default="", max_length=200)
-    manufacturer: str = Field(default="", max_length=200)
-    ingredient: str = Field(default="", max_length=200)
-    strength: str = Field(default="", max_length=100)
-    dosage_form: str = Field(default="", max_length=100)
-    batch_number: str = Field(default="", max_length=100)
+    name: str | None = Field(default=None, max_length=200)
+    manufacturer: str | None = Field(default=None, max_length=200)
+    ingredient: str | None = Field(default=None, max_length=200)
+    strength: str | None = Field(default=None, max_length=100)
+    dosage_form: str | None = Field(default=None, max_length=100)
+    batch_number: str | None = Field(default=None, max_length=100)
     limit: int = Field(default=50, ge=1, le=100)
+
+    @field_validator("name", "manufacturer", "ingredient", "strength", "dosage_form", "batch_number")
+    @classmethod
+    def normalize_search_value(cls, value):
+        return value.strip() or None if value is not None else None
 
     @model_validator(mode="after")
     def require_search_field(self):
@@ -28,7 +33,7 @@ class MedicineSearchRequest(BaseModel):
             self.dosage_form,
             self.batch_number,
         )
-        if not any(value.strip() for value in search_fields):
+        if not any(search_fields):
             raise ValueError("At least one non-empty search field is required")
         return self
 
@@ -43,12 +48,8 @@ def get_medicine_db():
 
 @router.post("/search")
 def identify_medicines(request: MedicineSearchRequest, db=Depends(get_medicine_db)):
-    query = {
-        key: (value.strip() or None)
-        for key, value in request.model_dump().items()
-        if key != "limit"
-    }
-    fields = {key: value.lower() for key, value in query.items() if value}
+    query = request.model_dump(exclude={"limit"})
+    fields = {key: value.casefold() for key, value in query.items() if value}
     return search_medicines(db, fields, request.limit, query=query)
 
 

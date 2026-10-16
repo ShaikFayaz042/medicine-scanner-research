@@ -1,6 +1,5 @@
-from __future__ import annotations
+"""Compatibility wrapper for the workflow consumer module."""
 
-import asyncio
 import json
 import logging
 from datetime import datetime, timezone
@@ -8,23 +7,13 @@ from typing import Any
 
 import boto3
 from botocore.exceptions import ClientError
-from sqlalchemy.orm import Session
 
-from server.config import (
-    AWS_REGION,
-    S3_BUCKET_NAME,
-    S3_PREFIX,
-    SQS_DLQ_URL,
-    SQS_MAX_MESSAGES,
-    SQS_MAX_RECEIVE_COUNT,
-    SQS_QUEUE_URL,
-    SQS_VISIBILITY_TIMEOUT,
-    SQS_WAIT_SECONDS,
-)
+from server.config import AWS_REGION, S3_BUCKET_NAME, S3_PREFIX, SQS_MAX_RECEIVE_COUNT, SQS_QUEUE_URL
 from server.database.database import SessionLocal
 from server.database.models import PipelineEvent, RunApproval
-from server.pipeline.events import parse_event
-from server.pipeline.websocket_manager import broadcast
+from server.services.workflow_consumer import _handle_failed_message, _message_body_preview, _message_receive_count, sqs_consumer_loop
+from server.services.workflow_events import parse_event
+from server.services.workflow_websocket import broadcast
 
 logger = logging.getLogger(__name__)
 
@@ -84,55 +73,6 @@ def _resolve_manifest_key(run_id: str | None, payload: dict[str, Any]) -> str | 
         return candidate
 
 
-def _message_receive_count(message: dict[str, Any]) -> int:
-    attributes = message.get("Attributes") or {}
-    value = attributes.get("ApproximateReceiveCount")
-    try:
-        return int(value)
-    except (TypeError, ValueError):
-        return 0
-
-
-def _message_body_preview(message: dict[str, Any]) -> str:
-    body = message.get("Body") or ""
-    if isinstance(body, bytes):
-        body = body.decode("utf-8", errors="replace")
-    return str(body)[:200]
-
-
-def _handle_failed_message(sqs_client: Any, message: dict[str, Any], exc: Exception) -> None:
-    receive_count = _message_receive_count(message)
-    raw_body = message.get("Body") or ""
-    if isinstance(raw_body, bytes):
-        raw_body = raw_body.decode("utf-8", errors="replace")
-    body_preview = str(raw_body)[:200]
-
-    if receive_count >= SQS_MAX_RECEIVE_COUNT:
-        logger.error(
-            "Parse failed (attempt %d): %s | body=%r",
-            receive_count,
-            exc,
-            body_preview,
-        )
-        try:
-            if message.get("ReceiptHandle"):
-                sqs_client.delete_message(
-                    QueueUrl=SQS_QUEUE_URL,
-                    ReceiptHandle=message["ReceiptHandle"],
-                )
-            logger.warning("Dropped poison SQS message %s after %d attempts", message.get("MessageId"), receive_count)
-        except Exception:
-            logger.exception("Failed to delete poison message %s after %d attempts", message.get("MessageId"), receive_count)
-        return
-
-    logger.warning(
-        "Parse failed (attempt %d): %s | body=%r",
-        receive_count,
-        exc,
-        body_preview,
-    )
-
-
 def _ensure_pending_approval(run_id: str | None, payload: dict[str, Any]) -> None:
     if not run_id:
         return
@@ -166,7 +106,7 @@ def _ensure_pending_approval(run_id: str | None, payload: dict[str, Any]) -> Non
 
 
 def _persist_event(event: dict[str, Any]) -> bool:
-    db: Session = SessionLocal()
+    db = SessionLocal()
     try:
         existing = db.query(PipelineEvent).filter(PipelineEvent.event_id == event["event_id"]).first()
         if existing is not None:
@@ -196,40 +136,22 @@ def _persist_event(event: dict[str, Any]) -> bool:
         db.close()
 
 
-async def sqs_consumer_loop() -> None:
-    """Long-poll the SQS queue, persist valid events, and broadcast them to WebSocket clients."""
-    sqs = boto3.client("sqs", region_name=AWS_REGION)
+__all__ = [
+    "_handle_failed_message",
+    "_message_receive_count",
+    "_message_body_preview",
+    "_persist_event",
+    "_resolve_manifest_key",
+    "_ensure_pending_approval",
+    "sqs_consumer_loop",
+    "parse_event",
+    "broadcast",
+    "SessionLocal",
+    "S3_BUCKET_NAME",
+    "S3_PREFIX",
+    "SQS_QUEUE_URL",
+    "SQS_MAX_RECEIVE_COUNT",
+    "AWS_REGION",
+]
 
-    while True:
-        try:
-            response = await asyncio.to_thread(
-                sqs.receive_message,
-                QueueUrl=SQS_QUEUE_URL,
-                MaxNumberOfMessages=SQS_MAX_MESSAGES,
-                WaitTimeSeconds=SQS_WAIT_SECONDS,
-                VisibilityTimeout=SQS_VISIBILITY_TIMEOUT,
-                AttributeNames=["ApproximateReceiveCount"],
-                MessageAttributeNames=["All"],
-            )
-        except ClientError as exc:
-            logger.exception("SQS receive failed: %s", exc)
-            await asyncio.sleep(5)
-            continue
-
-        messages = response.get("Messages", [])
-        for message in messages:
-            try:
-                event = parse_event(message)
-                persisted = await asyncio.to_thread(_persist_event, event)
-                if persisted:
-                    await broadcast(event)
-                    await asyncio.to_thread(
-                        sqs.delete_message,
-                        QueueUrl=SQS_QUEUE_URL,
-                        ReceiptHandle=message["ReceiptHandle"],
-                    )
-            except Exception as exc:
-                _handle_failed_message(sqs, message, exc)
-                continue
-
-        await asyncio.sleep(0.1)
+resolve_manifest_key = _resolve_manifest_key

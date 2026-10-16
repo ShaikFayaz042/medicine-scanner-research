@@ -2,21 +2,21 @@
 
 from fastapi import APIRouter
 
-from server.controllers import admin_controller
+from server.services import admin_service
 
 router = APIRouter(prefix="/api/admin", tags=["admin"])
 
 
 @router.get("/dashboard")
 def dashboard():
-    return admin_controller.get_dashboard_summary()
+    return admin_service.get_dashboard_summary()
 
 
 @router.get("/scraper/status")
 def scraper_status():
-    return admin_controller.get_scraper_status()
+    return admin_service.get_scraper_status()
 
 
 @router.get("/system")
 def system_status():
-    return admin_controller.get_system_status()
+    return admin_service.get_system_status()

@@ -1,5 +1,5 @@
-"""Pipeline event processing for SQS-driven workflow monitoring."""
+"""Compatibility exports for pipeline event processing."""
 
-from server.pipeline.websocket_manager import broadcast, manager
+from server.services.workflow_websocket import broadcast, manager
 
 __all__ = ["broadcast", "manager"]

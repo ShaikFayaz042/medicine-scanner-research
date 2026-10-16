@@ -1,0 +1,25 @@
+# EAS archives from the git repository, so exclude everything that is not the
+# app itself. Without this the FastAPI service is uploaded on every build.
+../server
+../.claude
+
+# Dependencies and generated output
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+.pytest_cache/
+*.log
+expo-env.d.ts
+
+# Never ship local env files or signing credentials to build servers.
+.env
+.env.*
+!.env.example
+credentials.json
+credentials/
+
+# Generated native projects
+android/
+ios/

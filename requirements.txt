@@ -1,6 +1,13 @@
 # HTTP and HTML scraping
 requests
 beautifulsoup4
+biip
+
+# Auth and validation
+argon2-cffi
+PyJWT[crypto]
+email-validator
+slowapi==0.1.10
 
 # FastAPI application
 fastapi

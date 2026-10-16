@@ -1,8 +1,10 @@
 """Read queries for normalized medicine regulatory data."""
 from sqlalchemy import and_, case, desc, func, literal, or_
+from sqlalchemy.exc import DBAPIError
 from sqlalchemy.orm import joinedload
 
 from server.database.medicine_models import (
+    MedicineBatch,
     MedicineIngredient,
     MedicineOrganization,
     MedicineProduct,
@@ -29,17 +31,28 @@ def _product_options():
     )
 
 
-def search_medicine_products(db, fields: dict[str, str], limit: int):
+def _is_missing_word_similarity(error: DBAPIError) -> bool:
+    original = error.orig
+    code = getattr(original, "pgcode", None)
+    message = str(original).casefold()
+    return (code == "42883" and "word_similarity" in message) or (
+        "no such function: word_similarity" in message
+    )
+
+
+def search_medicine_products(
+    db, fields: dict[str, str], limit: int, *, use_fuzzy: bool = True
+):
     """Return (product, relevance, match_type) rows and a has-more flag."""
     query = db.query(MedicineProduct).options(*_product_options())
 
     name = fields.get("name", "")
     name_lower = " ".join(name.lower().split())
     compact_name = "".join(name_lower.split())
-    exact_name = literal(False)
-    exact_ingredient = literal(False)
-    prefix_name = literal(False)
-    contains_name = literal(False)
+    exact_conditions = []
+    partial_conditions = []
+    fuzzy_match = literal(False)
+    fuzzy_relevance = literal(60)
 
     if name:
         token_conditions = []
@@ -66,7 +79,23 @@ def search_medicine_products(db, fields: dict[str, str], limit: int):
                     ),
                 )
             )
-        query = query.filter(or_(and_(*token_conditions)))
+        if use_fuzzy:
+            fuzzy_similarities = [
+                func.word_similarity(name_lower, MedicineProduct.product_name),
+                func.word_similarity(
+                    name_lower, func.coalesce(MedicineProduct.brand_name, "")
+                ),
+                func.word_similarity(name_lower, MedicineProduct.normalized_search_name),
+            ]
+            fuzzy_similarity = fuzzy_similarities[0]
+            for similarity in fuzzy_similarities[1:]:
+                fuzzy_similarity = case(
+                    (fuzzy_similarity >= similarity, fuzzy_similarity),
+                    else_=similarity,
+                )
+            fuzzy_match = fuzzy_similarity >= 0.55
+            fuzzy_relevance = func.round(60 + fuzzy_similarity * 20)
+        query = query.filter(or_(and_(*token_conditions), fuzzy_match))
 
         exact_name = or_(
             func.lower(MedicineProduct.product_name) == name_lower,
@@ -96,6 +125,8 @@ def search_medicine_products(db, fields: dict[str, str], limit: int):
             MedicineProduct.brand_name.ilike(_contains(name_lower), escape="\\"),
             MedicineProduct.normalized_search_name.ilike(_contains(name_lower), escape="\\"),
         )
+        exact_conditions.extend((exact_name, exact_ingredient))
+        partial_conditions.extend((prefix_name, contains_name))
 
     manufacturer = fields.get("manufacturer", "")
     if manufacturer:
@@ -108,10 +139,27 @@ def search_medicine_products(db, fields: dict[str, str], limit: int):
                 )
             )
         )
+        exact_conditions.append(
+            MedicineProduct.organizations.any(
+                func.lower(MedicineOrganization.name) == manufacturer.casefold()
+            )
+        )
+        partial_conditions.append(
+            MedicineProduct.organizations.any(
+                or_(
+                    MedicineOrganization.name.ilike(term, escape="\\"),
+                    MedicineOrganization.normalized_name.ilike(term, escape="\\"),
+                )
+            )
+        )
 
     dosage_form = fields.get("dosage_form", "")
     if dosage_form:
         query = query.filter(
+            MedicineProduct.dosage_form.ilike(_contains(dosage_form), escape="\\")
+        )
+        exact_conditions.append(func.lower(MedicineProduct.dosage_form) == dosage_form.casefold())
+        partial_conditions.append(
             MedicineProduct.dosage_form.ilike(_contains(dosage_form), escape="\\")
         )
 
@@ -129,6 +177,36 @@ def search_medicine_products(db, fields: dict[str, str], limit: int):
                     )
                 )
             )
+        exact_conditions.append(
+            and_(
+                *[
+                    MedicineProduct.ingredients.any(
+                        MedicineProductIngredient.ingredient.has(
+                            or_(
+                                func.lower(MedicineIngredient.name) == token.casefold(),
+                                func.lower(MedicineIngredient.normalized_name) == token.casefold(),
+                            )
+                        )
+                    )
+                    for token in ingredient.split()
+                ]
+            )
+        )
+        partial_conditions.append(
+            and_(
+                *[
+                    MedicineProduct.ingredients.any(
+                        MedicineProductIngredient.ingredient.has(
+                            or_(
+                                MedicineIngredient.name.ilike(_contains(token), escape="\\"),
+                                MedicineIngredient.normalized_name.ilike(_contains(token), escape="\\"),
+                            )
+                        )
+                    )
+                    for token in ingredient.split()
+                ]
+            )
+        )
 
     strength = fields.get("strength", "")
     if strength:
@@ -155,51 +233,76 @@ def search_medicine_products(db, fields: dict[str, str], limit: int):
                 ),
             )
         )
+        exact_conditions.append(
+            or_(
+                func.lower(func.coalesce(MedicineProduct.strength, "")) == strength.casefold(),
+                MedicineProduct.ingredients.any(
+                    func.lower(func.coalesce(MedicineProductIngredient.strength_text, ""))
+                    == strength.casefold()
+                ),
+            )
+        )
+        partial_conditions.append(
+            or_(
+                MedicineProduct.strength.ilike(_contains(strength), escape="\\"),
+                MedicineProduct.ingredients.any(
+                    MedicineProductIngredient.strength_text.ilike(
+                        _contains(strength), escape="\\"
+                    )
+                ),
+            )
+        )
 
     batch_number = fields.get("batch_number", "")
     if batch_number:
         query = query.filter(
             MedicineProduct.batches.any(
-                MedicineProduct.batches.property.mapper.class_.batch_number.ilike(
-                    _contains(batch_number), escape="\\"
-                )
+                MedicineBatch.batch_number.ilike(_contains(batch_number), escape="\\")
+            )
+        )
+        exact_conditions.append(
+            MedicineProduct.batches.any(
+                func.lower(MedicineBatch.batch_number) == batch_number.casefold()
+            )
+        )
+        partial_conditions.append(
+            MedicineProduct.batches.any(
+                MedicineBatch.batch_number.ilike(_contains(batch_number), escape="\\")
             )
         )
 
-    if name:
-        relevance = case(
-            (exact_name, 100),
-            (prefix_name, 90),
-            (contains_name, 80),
-            (exact_ingredient, 75),
-            else_=50,
+    exact_match = or_(*exact_conditions) if exact_conditions else literal(False)
+    exact_name_match = or_(exact_name, exact_ingredient) if name else literal(False)
+    partial_match = or_(*partial_conditions) if partial_conditions else literal(False)
+    relevance_conditions = [(exact_name_match, 100), (exact_match, 95)]
+    if partial_conditions:
+        relevance_conditions.append((partial_match, 80))
+    relevance_conditions.append((fuzzy_match, fuzzy_relevance))
+    relevance = case(*relevance_conditions, else_=60)
+    match_type = case(
+        (exact_match, "EXACT"),
+        (partial_match, "PARTIAL"),
+        (fuzzy_match, "FUZZY"),
+        else_="PARTIAL",
+    )
+    try:
+        rows = (
+            query.add_columns(relevance.label("relevance"), match_type.label("match_type"))
+            .distinct()
+            .order_by(
+                desc("relevance"),
+                MedicineProduct.product_name.asc(),
+                MedicineProduct.id.asc(),
+            )
+            .limit(limit + 1)
+            .all()
         )
-        match_type = case(
-            (or_(exact_name, exact_ingredient), "EXACT"),
-            (or_(prefix_name, contains_name), "PARTIAL"),
-            else_="PARTIAL",
-        )
-    else:
-        relevance = literal(50)
-        match_type = literal("PARTIAL")
+    except DBAPIError as error:
+        if not use_fuzzy or not name or not _is_missing_word_similarity(error):
+            raise
+        db.rollback()
+        return search_medicine_products(db, fields, limit, use_fuzzy=False)
 
-    match_priority = case(
-        (match_type == "EXACT", 3),
-        (match_type == "PARTIAL", 2),
-        else_=1,
-    )
-    rows = (
-        query.add_columns(relevance.label("relevance"), match_type.label("match_type"))
-        .distinct()
-        .order_by(
-            desc(match_priority),
-            desc("relevance"),
-            MedicineProduct.product_name.asc(),
-            MedicineProduct.id.asc(),
-        )
-        .limit(limit + 1)
-        .all()
-    )
     has_more = len(rows) > limit
     matches = [
         (product, int(round(float(score or 0))), match)

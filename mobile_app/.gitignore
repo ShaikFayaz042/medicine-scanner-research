@@ -1,0 +1,23 @@
+
+# Dependencies and generated output
+/node_modules/
+/.expo/
+/dist/
+/web-build/
+/coverage/
+/.pytest_cache/
+expo-env.d.ts
+*.log
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Android signing credentials contain private keys and passwords.
+credentials.json
+credentials/
+
+# Generated native projects
+/android/
+/ios/

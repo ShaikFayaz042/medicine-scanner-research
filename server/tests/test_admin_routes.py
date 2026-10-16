@@ -2,7 +2,7 @@ from fastapi.testclient import TestClient
 
 import server.routes.cloud_scheduler as cloud_scheduler
 from server.main import app
-from server.controllers import admin_controller
+from server.services import admin_service
 from server.routes import documents as documents_route
 
 client = TestClient(app)
@@ -94,7 +94,7 @@ def test_run_now_passes_a_shared_run_id_to_ecs(monkeypatch):
 
 def test_admin_dashboard_route(monkeypatch):
     monkeypatch.setattr(
-        admin_controller,
+        admin_service,
         "get_dashboard_summary",
         lambda: {
             "total_documents": 12,
@@ -115,7 +115,7 @@ def test_admin_dashboard_route(monkeypatch):
 
 def test_admin_scraper_status_route(monkeypatch):
     monkeypatch.setattr(
-        admin_controller,
+        admin_service,
         "get_scraper_status",
         lambda: {
             "status": "idle",
@@ -141,7 +141,7 @@ def test_admin_scraper_status_route(monkeypatch):
 
 def test_admin_system_status_route(monkeypatch):
     monkeypatch.setattr(
-        admin_controller,
+        admin_service,
         "get_system_status",
         lambda: {
             "api_health": "healthy",
