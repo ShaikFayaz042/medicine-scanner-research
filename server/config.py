@@ -59,11 +59,17 @@ def _local_sqlite_url(database_name: str = "medicine_scanner.sqlite3") -> str:
     return f"sqlite:///{database_path.as_posix()}"
 
 
+def _use_psycopg2_driver(database_url: URL) -> URL:
+    if database_url.get_backend_name() == "postgresql":
+        return database_url.set(drivername="postgresql+psycopg2")
+    return database_url
+
+
 def _medicine_database_url() -> str:
     uri = _env("MEDICINE_DB_URI")
     if not uri:
         raise ValueError("Configure MEDICINE_DB_URI with the Medicine Scanner Supabase project URL.")
-    medicine_url = make_url(uri)
+    medicine_url = _use_psycopg2_driver(make_url(uri))
 
     host = (medicine_url.host or "").lower()
     if not medicine_url.drivername.startswith("postgresql") or not host.endswith((".supabase.co", ".supabase.com")):
@@ -88,7 +94,7 @@ if _should_use_sqlite_fallback(SCRAPER_DB_HOST, SCRAPER_DB_URI, APP_ENV):
 else:
     requires_ssl = _is_remote_supabase_pooler(SCRAPER_DB_HOST)
     if SCRAPER_DB_URI:
-        scraper_url = make_url(SCRAPER_DB_URI)
+        scraper_url = _use_psycopg2_driver(make_url(SCRAPER_DB_URI))
         if requires_ssl or "supabase" in (scraper_url.host or "").lower() or "pooler" in (scraper_url.host or "").lower():
             query = dict(scraper_url.query)
             query.setdefault("sslmode", "require")

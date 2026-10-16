@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import pytest
+from sqlalchemy.engine import make_url
 from fastapi.testclient import TestClient
 from sqlalchemy.dialects.postgresql import UUID
 
@@ -40,9 +41,10 @@ def test_process_environment_overrides_env_files(monkeypatch):
 def test_mobile_database_url_requires_supabase_and_ssl(monkeypatch):
     monkeypatch.setenv(
         "MEDICINE_DB_URI",
-        "postgresql+psycopg2://user:password@db.project.supabase.co:5432/postgres?sslmode=disable",
+        "postgresql+psycopg://user:password@db.project.supabase.co:5432/postgres?sslmode=disable",
     )
     url = server_config._medicine_database_url()
+    assert server_config.make_url(url).drivername == "postgresql+psycopg2"
     assert "db.project.supabase.co" in url
     assert "sslmode=require" in url
 
@@ -52,6 +54,20 @@ def test_mobile_database_url_requires_supabase_and_ssl(monkeypatch):
     )
     with pytest.raises(ValueError, match="Supabase"):
         server_config._medicine_database_url()
+
+
+@pytest.mark.parametrize(
+    "database_uri",
+    [
+        "postgresql://user:password@db.example.com:5432/database",
+        "postgresql+psycopg://user:password@db.example.com:5432/database",
+        "postgresql+psycopg2://user:password@db.example.com:5432/database",
+    ],
+)
+def test_postgresql_urls_use_psycopg2_driver(database_uri):
+    database_url = server_config._use_psycopg2_driver(make_url(database_uri))
+
+    assert database_url.drivername == "postgresql+psycopg2"
 
 
 def test_scraper_and_medicine_fallback_decisions_remain_compatible():
