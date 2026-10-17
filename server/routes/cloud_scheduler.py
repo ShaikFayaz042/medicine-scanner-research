@@ -10,9 +10,10 @@ from uuid import uuid4
 
 import boto3
 from botocore.exceptions import BotoCoreError, ClientError
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 
+from server import deps as server_deps
 from server.config import (
     AWS_ACCOUNT_ID,
     AWS_REGION,
@@ -26,6 +27,7 @@ from server.config import (
     EVENTBRIDGE_SCHEDULE_NAME,
     EVENTBRIDGE_SCHEDULER_ROLE_ARN,
 )
+from server.database.mobile_models import User
 from server.status_store import get_worker_status, set_worker_status
 
 router = APIRouter(prefix="/api", tags=["scheduler"])
@@ -464,12 +466,12 @@ def _schedule_exists(name: str) -> bool:
 
 
 @router.get("/scheduler")
-def get_scheduler_route():
+def get_scheduler_route(current_user: User = Depends(server_deps.require_admin)):
     return get_scheduler_state()
 
 
 @router.put("/scheduler")
-def set_scheduler_route(payload: ScheduleUpdate):
+def set_scheduler_route(payload: ScheduleUpdate, current_user: User = Depends(server_deps.require_admin)):
     return update_schedule(
         payload.hour,
         payload.minute,
@@ -491,17 +493,17 @@ def set_scheduler_route(payload: ScheduleUpdate):
 
 
 @router.post("/scheduler/run-now")
-def trigger_run_now():
+def trigger_run_now(current_user: User = Depends(server_deps.require_admin)):
     return run_scraper_now()
 
 
 @router.get("/scheduler/status")
-def get_scheduler_status():
+def get_scheduler_status(current_user: User = Depends(server_deps.require_admin)):
     return get_scheduler_state()
 
 
 @router.post("/scheduler/pause")
-def pause_scheduler():
+def pause_scheduler(current_user: User = Depends(server_deps.require_admin)):
     client = _scheduler_client()
     try:
         existing_schedule = client.get_schedule(Name=EVENTBRIDGE_SCHEDULE_NAME)
@@ -535,7 +537,7 @@ def pause_scheduler():
 
 
 @router.post("/scheduler/resume")
-def resume_scheduler():
+def resume_scheduler(current_user: User = Depends(server_deps.require_admin)):
     client = _scheduler_client()
     try:
         existing_schedule = client.get_schedule(Name=EVENTBRIDGE_SCHEDULE_NAME)

@@ -1,4 +1,4 @@
-# Medicine Scanner Client
+# MediCheck Client
 
 The client is a Vite + React frontend. Its application source, styles, and UI components live in this directory.
 

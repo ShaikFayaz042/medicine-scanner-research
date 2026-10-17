@@ -1,9 +1,15 @@
 import { defineConfig } from 'vite'
+import { loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { fileURLToPath } from 'node:url'
 
-export default defineConfig({
+export default defineConfig(({ mode }) => {
+  const clientRoot = fileURLToPath(new URL('.', import.meta.url))
+  const env = loadEnv(mode, clientRoot, '')
+  const serverUrl = env.VITE_SERVER_URL || 'http://localhost:8000'
+
+  return {
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
@@ -34,18 +40,27 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: serverUrl,
         changeOrigin: true,
         ws: true,
       },
+      '/auth': {
+        target: serverUrl,
+        changeOrigin: true,
+      },
+      '/scans': {
+        target: serverUrl,
+        changeOrigin: true,
+      },
       '/health': {
-        target: 'http://localhost:8000',
+        target: serverUrl,
         changeOrigin: true,
       },
       '/static-pdf': {
-        target: 'http://localhost:8000',
+        target: serverUrl,
         changeOrigin: true,
       },
     },
   },
+  }
 })

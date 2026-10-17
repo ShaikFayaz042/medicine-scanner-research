@@ -1,6 +1,9 @@
 from fastapi.testclient import TestClient
 
+import server.deps as server_deps
 import server.routes.cloud_scheduler as cloud_scheduler
+from server import config as server_config
+from server.database.mobile_models import User
 from server.main import app
 from server.services import admin_service
 from server.routes import documents as documents_route
@@ -90,6 +93,31 @@ def test_run_now_passes_a_shared_run_id_to_ecs(monkeypatch):
     run_id_index = command.index("--run-id") + 1
     assert result["run_id"] == command[run_id_index]
     assert result["tasks"][0]["taskArn"].endswith("test")
+
+
+def test_admin_dashboard_requires_allowlisted_admin(monkeypatch):
+    monkeypatch.setattr(server_config, "ADMIN_EMAILS", ("admin@example.com",))
+
+    guest = User(id="guest-user-id", name="Guest", email="user@example.com")
+    admin = User(id="admin-user-id", name="Admin", email="admin@example.com")
+
+    def override_guest_user():
+        return guest
+
+    def override_admin_user():
+        return admin
+
+    app.dependency_overrides[server_deps.get_current_user] = override_guest_user
+    guest_response = client.get("/api/admin/dashboard")
+    assert guest_response.status_code == 403
+    assert guest_response.json()["detail"] == "Admin access required."
+
+    app.dependency_overrides[server_deps.get_current_user] = override_admin_user
+    admin_response = client.get("/api/admin/dashboard")
+    assert admin_response.status_code == 200
+    assert admin_response.json()["total_documents"] == 12
+
+    app.dependency_overrides.clear()
 
 
 def test_admin_dashboard_route(monkeypatch):

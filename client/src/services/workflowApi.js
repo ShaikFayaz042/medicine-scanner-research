@@ -1,8 +1,8 @@
 const JSON_HEADERS = { 'Content-Type': 'application/json' }
+import { adminFetch } from './adminAuth'
 
 async function request(path, options = {}) {
-  const response = await fetch(path, {
-    headers: JSON_HEADERS,
+  const response = await adminFetch(path, {
     ...options,
     headers: { ...JSON_HEADERS, ...(options.headers || {}) },
   })

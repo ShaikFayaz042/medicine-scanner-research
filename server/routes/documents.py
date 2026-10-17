@@ -3,13 +3,15 @@ from datetime import datetime
 
 import boto3
 from botocore.exceptions import BotoCoreError, ClientError
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import Response
 
+from server import deps as server_deps
 from server.config import AWS_REGION, S3_BUCKET_NAME
 from server.database.database import SessionLocal
 from server.database.medicine_database import MedicineSessionLocal
 from server.database.medicine_models import MedicineRegulatoryDocument, MedicineRegulatoryEvent
+from server.database.mobile_models import User
 from server.database.models import Document
 
 router = APIRouter(prefix="/api", tags=["documents"])
@@ -28,7 +30,7 @@ def _date_sort_key(d: Document) -> datetime:
 
 
 @router.get("/documents")
-def list_documents():
+def list_documents(current_user: User = Depends(server_deps.require_admin)):
     db = SessionLocal()
     try:
         docs = db.query(Document).all()
@@ -60,7 +62,7 @@ def list_documents():
 
 
 @router.get("/documents/{document_id}")
-def get_document(document_id: int):
+def get_document(document_id: int, current_user: User = Depends(server_deps.require_admin)):
     db = SessionLocal()
     try:
         d = db.query(Document).filter(Document.document_id == document_id).first()
@@ -96,7 +98,7 @@ def _remove_s3_object(object_key: str | None, pdf_url: str | None = None) -> boo
 
 
 @router.delete("/documents/{document_id}")
-def delete_document(document_id: int):
+def delete_document(document_id: int, current_user: User = Depends(server_deps.require_admin)):
     db = SessionLocal()
     medicine_db = MedicineSessionLocal()
     try:
@@ -136,7 +138,7 @@ def delete_document(document_id: int):
 
 
 @router.get("/documents/{document_id}/pdf")
-def download_document_pdf(document_id: int):
+def download_document_pdf(document_id: int, current_user: User = Depends(server_deps.require_admin)):
     db = SessionLocal()
     try:
         document = db.query(Document).filter(Document.document_id == document_id).first()

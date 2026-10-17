@@ -1,6 +1,8 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from pydantic import BaseModel
 
+from server import deps as server_deps
+from server.database.mobile_models import User
 from server.status_store import get_worker_status, set_worker_status
 
 router = APIRouter(prefix="/api", tags=["status"])
@@ -13,23 +15,23 @@ class WorkerEventPayload(BaseModel):
 
 
 @router.get("/scheduler/worker-status")
-def scheduler_worker_status():
+def scheduler_worker_status(current_user: User = Depends(server_deps.require_admin)):
     return get_worker_status()
 
 
 @router.post("/scheduler/worker/start")
-def scheduler_worker_start(payload: WorkerEventPayload | None = None):
+def scheduler_worker_start(payload: WorkerEventPayload | None = None, current_user: User = Depends(server_deps.require_admin)):
     data = payload.model_dump() if payload else {}
     return set_worker_status("running", **data)
 
 
 @router.post("/scheduler/worker/finish")
-def scheduler_worker_finish(payload: WorkerEventPayload | None = None):
+def scheduler_worker_finish(payload: WorkerEventPayload | None = None, current_user: User = Depends(server_deps.require_admin)):
     data = payload.model_dump() if payload else {}
     return set_worker_status("finished", **data)
 
 
 @router.post("/scheduler/worker/error")
-def scheduler_worker_error(payload: WorkerEventPayload | None = None):
+def scheduler_worker_error(payload: WorkerEventPayload | None = None, current_user: User = Depends(server_deps.require_admin)):
     data = payload.model_dump() if payload else {}
     return set_worker_status("failed", **data)

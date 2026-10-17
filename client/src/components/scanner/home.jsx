@@ -12,7 +12,7 @@ export function HomePage() {
 
     return <main className="page-content">
         <PageHeading
-            eyebrow="MEDICINE SCANNER"
+            eyebrow="MEDICHECK"
             title="Regulatory Intelligence"
             description="Monitor, manage and track regulatory medicine data from multiple government sources."
         />

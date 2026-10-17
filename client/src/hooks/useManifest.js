@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
+import { adminFetch } from '@/services/adminAuth'
 
 /** Fetch one run-scoped artifact, retrying temporary 404 responses. */
 function useRunArtifact({ runId, enabled, path }) {
@@ -10,7 +11,7 @@ function useRunArtifact({ runId, enabled, path }) {
     setResult({ key: requestKey, data: null, loading: true, error: null })
     try {
       for (let attempt = 0; attempt < 3; attempt += 1) {
-        const response = await fetch(`/api/pipeline/runs/${encodeURIComponent(runId)}/${path}`, { signal })
+        const response = await adminFetch(`/api/pipeline/runs/${encodeURIComponent(runId)}/${path}`, { signal })
         if (response.status === 404 && attempt < 2) {
           await new Promise((resolve, reject) => {
             const timer = setTimeout(resolve, 3000)

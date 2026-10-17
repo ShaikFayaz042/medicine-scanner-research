@@ -1,13 +1,15 @@
-import { useRouterState } from '@tanstack/react-router'
+import { useNavigate, useRouterState } from '@tanstack/react-router'
 import { useEffect, useState } from 'react'
 import { CircleCheck, X } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import { useScanner } from '@/context/ScannerContext'
+import { clearAdminSession, getAdminSession } from '@/services/adminAuth'
 import { Header } from './Header'
 import { Sidebar } from './Sidebar'
 
 export function AppLayout({ children }) {
+  const navigate = useNavigate()
   const pathname = useRouterState({ select: (state) => state.location.pathname })
   const [collapsed, setCollapsed] = useState(false)
   const [notifications, setNotifications] = useState(false)
@@ -16,7 +18,15 @@ export function AppLayout({ children }) {
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('medicine-scanner-theme') === 'dark')
 
   const { documents, search, setSearch, notice, setNotice } = useScanner()
+  const adminUser = getAdminSession()?.user
+  const adminName = adminUser?.name?.trim() || adminUser?.email || 'Administrator'
   const pending = documents.filter((document) => document.status === 'In review').length
+
+  const signOut = () => {
+    clearAdminSession()
+    setProfile(false)
+    navigate({ to: '/admin/login', replace: true })
+  }
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', darkMode)
@@ -45,6 +55,9 @@ export function AppLayout({ children }) {
           onMarkAllRead={() => setRead(true)}
           profile={profile}
           onToggleProfile={() => setProfile((value) => !value)}
+          onSignOut={signOut}
+          adminName={adminName}
+          adminEmail={adminUser?.email || ''}
           pending={pending}
           onToggleSidebar={() => setCollapsed((value) => !value)}
           collapsed={collapsed}

@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from 'react';
 import { initialRuns, initialDocuments } from '@/lib/scanner-data';
+import { adminFetch } from '@/services/adminAuth';
 const Context = createContext(null);
 export function ScannerProvider({ children }) {
     const [runs] = useState(initialRuns);
@@ -15,7 +16,7 @@ export function ScannerProvider({ children }) {
         setNotice('Starting scraper task…');
         void (async () => {
             try {
-                const response = await fetch('/api/scheduler/run-now', { method: 'POST' });
+                const response = await adminFetch('/api/scheduler/run-now', { method: 'POST' });
                 const result = await response.json().catch(() => ({}));
                 if (!response.ok) throw new Error(result.detail || `Request failed (${response.status})`);
                 setRequestedRunId(result.run_id);

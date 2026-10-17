@@ -5,6 +5,7 @@ import {
   Bell,
   CircleAlert,
   CircleCheck,
+  LogOut,
   Moon,
   PanelLeftClose,
   PanelLeftOpen,
@@ -25,6 +26,9 @@ export function Header({
   onMarkAllRead,
   profile,
   onToggleProfile,
+  onSignOut,
+  adminName,
+  adminEmail,
   pending,
   onToggleSidebar,
   collapsed,
@@ -89,27 +93,31 @@ export function Header({
         </div>
 
         <div className="profile-anchor">
-          <Button variant="ghost" className="profile-button" onClick={onToggleProfile}>
-            <span className="avatar">F</span>
+          <Button variant="ghost" className="profile-button" onClick={onToggleProfile} aria-expanded={profile} aria-haspopup="menu">
+            <span className="avatar">{adminName.slice(0, 1).toUpperCase()}</span>
             <span>
-              <strong>Shaik Fayaz</strong>
+              <strong>{adminName}</strong>
               <small>Admin</small>
             </span>
           </Button>
 
           {profile && (
-            <div className="profile-menu">
-              <div className="section-title">
-                <strong>Profile</strong>
+            <div className="profile-menu admin-profile-menu" role="menu">
+              <div className="admin-profile-identity">
+                <span className="avatar">{adminName.slice(0, 1).toUpperCase()}</span>
+                <div>
+                  <strong>{adminName}</strong>
+                  {adminEmail && <small>{adminEmail}</small>}
+                </div>
               </div>
-              <div className="profile-item">
-                <span>Role</span>
+              <div className="admin-profile-access">
+                <span>Access</span>
                 <strong>Administrator</strong>
               </div>
-              <div className="profile-item">
-                <span>Workspace</span>
-                <strong>Medicine Scanner</strong>
-              </div>
+              <Button variant="ghost" className="admin-profile-logout" onClick={onSignOut} role="menuitem">
+                <LogOut size={16} />
+                <span>Sign out</span>
+              </Button>
             </div>
           )}
         </div>

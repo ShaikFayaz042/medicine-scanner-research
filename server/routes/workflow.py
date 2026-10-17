@@ -6,8 +6,10 @@ import boto3
 from fastapi import APIRouter, Depends, HTTPException, WebSocket, WebSocketDisconnect
 from sqlalchemy.orm import Session
 
+from server import deps as server_deps
 from server.config import AWS_REGION, S3_BUCKET_NAME, S3_PREFIX
 from server.database.database import SessionLocal, get_db
+from server.database.mobile_models import User
 from server.database.models import PipelineEvent, RunApproval
 from server.repositories.workflow_repository import fetch_recent_events, list_events, list_runs
 from server.services.workflow_approval_service import approve_run, reject_run
@@ -23,7 +25,7 @@ def _run_s3_prefix(run_id: str) -> str:
 
 
 @router.get("/runs/{run_id}/manifest")
-def get_run_manifest_route(run_id: str):
+def get_run_manifest_route(run_id: str, current_user: User = Depends(server_deps.require_admin)):
     """Read a run manifest and return its source and document summary."""
     try:
         return get_run_manifest(run_id)
@@ -34,7 +36,7 @@ def get_run_manifest_route(run_id: str):
 
 
 @router.get("/runs/{run_id}/artifacts/normalized")
-def get_normalized_artifacts_route(run_id: str):
+def get_normalized_artifacts_route(run_id: str, current_user: User = Depends(server_deps.require_admin)):
     """Count records in the current normalized JSON artifacts for a run."""
     try:
         return list_normalized_artifacts(run_id)
@@ -43,17 +45,17 @@ def get_normalized_artifacts_route(run_id: str):
 
 
 @router.get("/events")
-def list_events_route(limit: int = 100, run_id: str | None = None, db: Session = Depends(get_db)):
+def list_events_route(limit: int = 100, run_id: str | None = None, db: Session = Depends(get_db), current_user: User = Depends(server_deps.require_admin)):
     return list_events(db, limit=limit, run_id=run_id)
 
 
 @router.get("/runs")
-def list_runs_route(limit: int = 50, db: Session = Depends(get_db)):
+def list_runs_route(limit: int = 50, db: Session = Depends(get_db), current_user: User = Depends(server_deps.require_admin)):
     return list_runs(db, limit=limit)
 
 
 @router.post("/runs/{run_id}/approve")
-async def approve(run_id: str, payload: dict | None = None, db: Session = Depends(get_db)):
+async def approve(run_id: str, payload: dict | None = None, db: Session = Depends(get_db), current_user: User = Depends(server_deps.require_admin)):
     body = payload or {}
     try:
         return await approve_run(run_id, decided_by=str(body.get("by") or "admin"), db=db)
@@ -62,7 +64,7 @@ async def approve(run_id: str, payload: dict | None = None, db: Session = Depend
 
 
 @router.post("/runs/{run_id}/reject")
-def reject(run_id: str, payload: dict | None = None, db: Session = Depends(get_db)):
+def reject(run_id: str, payload: dict | None = None, db: Session = Depends(get_db), current_user: User = Depends(server_deps.require_admin)):
     body = payload or {}
     try:
         return reject_run(run_id, decided_by=str(body.get("by") or "admin"), notes=body.get("notes"), db=db)

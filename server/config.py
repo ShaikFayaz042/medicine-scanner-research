@@ -6,22 +6,18 @@ from sqlalchemy.engine import URL, make_url
 
 
 def _load_env_file() -> dict[str, str]:
-    """Read repository- and server-scoped env variables as file fallbacks."""
-    env_files = [
-        Path(__file__).resolve().parents[1] / ".env",
-        Path(__file__).resolve().parent / ".env",
-    ]
-
+    """Read server-scoped environment variables as file fallbacks."""
+    env_file = Path(__file__).resolve().parent / ".env"
     values: dict[str, str] = {}
-    for env_file in env_files:
-        if not env_file.exists():
+    if not env_file.exists():
+        return values
+
+    for raw_line in env_file.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
             continue
-        for raw_line in env_file.read_text(encoding="utf-8").splitlines():
-            line = raw_line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            key, value = line.split("=", 1)
-            values[key.strip()] = value.strip().strip('"').strip("'")
+        key, value = line.split("=", 1)
+        values[key.strip()] = value.strip().strip('"').strip("'")
     return values
 
 
@@ -150,6 +146,11 @@ CORS_ORIGINS = tuple(
         "http://localhost:8081,http://127.0.0.1:8081",
     ).split(",")
     if origin.strip()
+)
+ADMIN_EMAILS = tuple(
+    email.strip().lower()
+    for email in (_env("ADMIN_EMAILS") or "").split(",")
+    if email.strip()
 )
 
 MOBILE_DB_SCHEMA = _env("MOBILE_DB_SCHEMA", "mobile_app_schema")

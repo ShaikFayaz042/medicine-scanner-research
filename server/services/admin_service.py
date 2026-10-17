@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
+from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy import text
 
 from server.config import EVENTBRIDGE_SCHEDULE_NAME, S3_BUCKET_NAME
@@ -34,6 +35,12 @@ def _db_healthcheck() -> str:
 def get_dashboard_summary() -> dict[str, Any]:
     """Return aggregate stats for the admin dashboard."""
     db = SessionLocal()
+    total_documents = 0
+    new_documents = 0
+    downloaded = 0
+    failed = 0
+    last_record = None
+    last_success = None
     try:
         total_documents = db.query(Document).count()
         new_documents = db.query(Document).filter(Document.status == "discovered").count()
@@ -47,6 +54,15 @@ def get_dashboard_summary() -> dict[str, Any]:
             .order_by(Document.updated_at.desc())
             .first()
         )
+    except SQLAlchemyError:
+        return {
+            "total_documents": 0,
+            "new_documents": 0,
+            "downloaded": 0,
+            "failed": 0,
+            "last_scraper_run": None,
+            "last_successful_run": None,
+        }
     finally:
         db.close()
 
@@ -64,6 +80,11 @@ def get_scraper_status() -> dict[str, Any]:
     """Return current scraper and latest summary information."""
     live_status = get_worker_status()
     db = SessionLocal()
+    latest_document = None
+    total_documents = 0
+    new_documents = 0
+    downloaded = 0
+    failed = 0
     try:
         latest_document = db.query(Document).order_by(Document.updated_at.desc()).first()
         total_documents = db.query(Document).count()
@@ -71,6 +92,8 @@ def get_scraper_status() -> dict[str, Any]:
         downloaded = db.query(Document).filter(Document.status == "downloaded").count()
         failed = db.query(Document).filter(Document.status == "failed").count()
         skipped_existing = total_documents - (new_documents + downloaded + failed)
+    except SQLAlchemyError:
+        skipped_existing = 0
     finally:
         db.close()
 

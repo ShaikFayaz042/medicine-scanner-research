@@ -6,6 +6,7 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from sqlalchemy.orm import Session
 
+from server import config as server_config
 from server.auth.security import TokenError, decode_access_token
 from server.database.mobile_database import MobileSessionLocal
 from server.database.mobile_models import User
@@ -48,4 +49,21 @@ def get_current_user(
     return user
 
 
+def require_admin(current_user: Annotated[User, Depends(get_current_user)]) -> User:
+    if not server_config.ADMIN_EMAILS:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Admin access is not configured on this server.",
+        )
+
+    if current_user.email.lower() not in server_config.ADMIN_EMAILS:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Admin access required.",
+        )
+
+    return current_user
+
+
 CurrentUser = Annotated[User, Depends(get_current_user)]
+AdminUser = Annotated[User, Depends(require_admin)]
