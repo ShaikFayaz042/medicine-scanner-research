@@ -2,6 +2,12 @@
 # app itself. Without this the FastAPI service is uploaded on every build.
 ../server
 ../.claude
+../.venv
+../.pytest_cache
+../client
+../data_collection_service
+../data_processing_service
+../initial_data_ingestion
 
 # Dependencies and generated output
 node_modules/

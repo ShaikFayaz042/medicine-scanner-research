@@ -50,8 +50,10 @@
     "web": "expo start --web",
     "lint": "expo lint",
     "build:development": "eas build --platform all --profile development",
+    "build:development:apk": "eas build --platform android --profile development",
     "build:preview": "eas build --platform all --profile preview",
     "build:production": "eas build --platform all --profile production",
+    "build:production:apk": "eas build --platform android --profile production",
     "submit:production": "eas submit --platform all --profile production"
   },
   "private": true

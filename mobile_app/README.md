@@ -10,6 +10,8 @@ npm run start
 
 Set `EXPO_PUBLIC_API_URL` in `.env` to the backend URL reachable from the device. For a physical device, use the computer's LAN address rather than `localhost`. Local HTTP is enabled only when this URL uses `http://`; release builds should use HTTPS.
 
+The local `.env` value is for development only. Production Android builds use the Render HTTPS URL configured in the EAS production profile.
+
 ## EAS builds
 
 Install and authenticate the EAS CLI:
@@ -21,7 +23,7 @@ eas login
 
 In the Expo project's EAS environment settings, configure these public build-time variables for the environments where they are used:
 
-- `EXPO_PUBLIC_API_URL`: the deployed backend's HTTPS base URL (required for production)
+- `EXPO_PUBLIC_API_URL`: a development backend URL reachable from the installed development APK; use your computer's LAN address when testing a local server. The production profile sets the deployed Render URL.
 - `EXPO_PUBLIC_API_URL_WEB`: the backend URL used by the web build
 - `EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID`: Google web OAuth client ID
 - `EXPO_PUBLIC_GOOGLE_ANDROID_CLIENT_ID`: Google Android OAuth client ID
@@ -32,12 +34,14 @@ These `EXPO_PUBLIC_*` values are embedded in the application and must not contai
 Build from this directory:
 
 ```powershell
+npm run build:development:apk
+npm run build:production:apk
 npm run build:development
 npm run build:preview
 npm run build:production
 ```
 
-The production profile uses the EAS `production` environment and automatically increments the remote app version. The app is linked to its EAS project in `app.json`; its iOS bundle identifier and Android package are both `com.fayaz.medicheck`.
+The Android APK commands create installable development-client and production APKs. The production profile uses the EAS `production` environment and automatically increments the remote app version. The app is linked to its EAS project in `app.json`; its iOS bundle identifier and Android package are both `com.fayaz.medicheck`.
 
 ## Store submission
 

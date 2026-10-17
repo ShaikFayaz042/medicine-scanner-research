@@ -7,15 +7,35 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "environment": "development"
+      "environment": "development",
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "644120426594-tek7m8un9emk4sk43kprctmi8kvi59be.apps.googleusercontent.com",
+        "EXPO_PUBLIC_GOOGLE_ANDROID_CLIENT_ID": "644120426594-hloi5msfr8ig1neqvl617rkqt6pa3j6q.apps.googleusercontent.com"
+      },
+      "android": {
+        "buildType": "apk"
+      }
     },
     "preview": {
       "distribution": "internal",
-      "environment": "preview"
+      "environment": "preview",
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "644120426594-tek7m8un9emk4sk43kprctmi8kvi59be.apps.googleusercontent.com",
+        "EXPO_PUBLIC_GOOGLE_ANDROID_CLIENT_ID": "644120426594-hloi5msfr8ig1neqvl617rkqt6pa3j6q.apps.googleusercontent.com"
+      }
     },
     "production": {
       "autoIncrement": true,
-      "environment": "production"
+      "environment": "production",
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://medicine-scanner-api-drw5.onrender.com",
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "644120426594-tek7m8un9emk4sk43kprctmi8kvi59be.apps.googleusercontent.com",
+        "EXPO_PUBLIC_GOOGLE_ANDROID_CLIENT_ID": "644120426594-hloi5msfr8ig1neqvl617rkqt6pa3j6q.apps.googleusercontent.com"
+      },
+      "android": {
+        "buildType": "apk"
+      }
     }
   },
   "submit": {
