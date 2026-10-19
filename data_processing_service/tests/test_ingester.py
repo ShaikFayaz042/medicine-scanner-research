@@ -560,6 +560,54 @@ def test_manifest_run_ingests_only_normalizer_result_keys(monkeypatch):
     assert "prefix" not in captured
 
 
+def test_manifest_run_continues_after_a_failing_document(monkeypatch):
+    run_id = "run-1"
+    prefix = "medicine-data-storage/processed_files/runs/run-1/normalized/alerts"
+    s3_client = Mock()
+    s3_client.get_object.return_value = {"Body": io.BytesIO(json.dumps({
+        "run_id": run_id, "stage": "normalizer",
+        "output_keys": [f"{prefix}/bad/regulatory_documents.csv", f"{prefix}/good/regulatory_documents.csv"],
+    }).encode("utf-8"))}
+    written = []
+    monkeypatch.setattr(append_ingest.boto3, "client", lambda *_args, **_kwargs: s3_client)
+    monkeypatch.setattr(append_ingest, "create_engine", lambda *_args, **_kwargs: Mock())
+    monkeypatch.setattr(append_ingest, "write_result", lambda *args: written.append(args[4]))
+    ingested = []
+
+    def fake_ingest(folder, engine=None, dry_run=False):
+        ingested.append(folder)
+        if len(ingested) == 1:
+            raise RuntimeError("CHECK constraint failed")
+        return {"status": "inserted", "inserted_counts": {"regulatory_documents": 1}}
+
+    monkeypatch.setattr(append_ingest, "ingest_document_folder", fake_ingest)
+
+    result = append_ingest.main(["--bucket", "b", "--manifest-s3-key", "m.json", "--run-id", run_id, "--commit"])
+
+    assert result == 1
+    assert len(ingested) == 2
+    assert written[0]["failed_documents"] == [f"{prefix}/bad"]
+    assert written[0]["table_counts"]["regulatory_documents"] == 1
+    assert "CHECK constraint failed" in written[0]["error"]
+
+
+def test_unknown_document_type_is_stored_as_unknown(tmp_path):
+    engine = _create_db()
+    doc_dir = tmp_path / "doc"
+    doc_dir.mkdir()
+    _write_csv(
+        doc_dir / "regulatory_documents.csv",
+        ["source_organization", "source_document_id", "filename", "document_title", "publication_date", "reporting_period", "source_url", "file_hash", "document_type"],
+        [{"source_organization": "CDSCO", "source_document_id": "doc-x", "filename": "x.pdf", "document_title": "X", "publication_date": "", "reporting_period": "", "source_url": "x.pdf", "file_hash": "", "document_type": "DOC 5: CDSCO DRUG ALERTS"}],
+    )
+
+    result = ingest_document_folder(doc_dir, engine=engine)
+
+    assert result["status"] == "inserted"
+    with engine.connect() as conn:
+        assert conn.exec_driver_sql("SELECT document_type FROM regulatory_documents").fetchone()[0] == "UNKNOWN"
+
+
 def test_ingester_commit_flag_controls_dry_run_mode(monkeypatch):
     captured = {}
 

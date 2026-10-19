@@ -68,16 +68,38 @@ docker build --platform linux/amd64 -f data_processing_service/Dockerfile.classi
 Push the images to the ECR repos that match the task definitions already in the project:
 
 ```powershell
-docker tag data-processor:local "$EcrRegistry/data-processor:v0.2.1"
-docker tag data-extractor:local "$EcrRegistry/data-extractor:v0.2.0"
-docker tag data-classifier:local "$EcrRegistry/data-classifier:v0.2.0"
+docker tag data-processor:local "$EcrRegistry/data-processor:v0.3.0"
+docker tag data-extractor:local "$EcrRegistry/data-extractor:v0.3.0"
+docker tag data-classifier:local "$EcrRegistry/data-classifier:v0.3.0"
 
-docker push "$EcrRegistry/data-processor:v0.2.1"
-docker push "$EcrRegistry/data-extractor:v0.2.0"
-docker push "$EcrRegistry/data-classifier:v0.2.0"
+docker push "$EcrRegistry/data-processor:v0.3.0"
+docker push "$EcrRegistry/data-extractor:v0.3.0"
+docker push "$EcrRegistry/data-classifier:v0.3.0"
 ```
 
-Use `data-processor` for processor, profiler, parser, normalizer, and ingester; override `STAGE` in the task definition. Use `data-extractor` for extraction and `data-classifier` for classification. The classifier uses GLiClass (`gliclass`), not GLiNER. Keep the repository-root `requirements.txt` only for non-container workspace tooling; the actual container dependency sets are the split service requirements files above.
+Use `data-processor` for processor, profiler, parser, normalizer, and ingester; override `STAGE` in the task definition. `tasks/ingester-v1.json` defines `data-ingester-task`, which the server launches with `--commit` when an admin approves a run. After pushing new images, register the task definitions (`aws ecs register-task-definition --cli-input-json file://data_processing_service/tasks/<file>.json`) and update the task revisions referenced in `sfn/pipeline.json`. Use `data-extractor` for extraction and `data-classifier` for classification. The classifier uses GLiClass (`gliclass`), not GLiNER. Keep the repository-root `requirements.txt` only for non-container workspace tooling; the actual container dependency sets are the split service requirements files above.
+
+## OCR
+
+Scanned pages are read with RapidOCR using the English PP-OCRv5 recognition model (`extractor/ocr.py`). RapidOCR's default Chinese model drops the spaces between English words, so the model is set explicitly. `Dockerfile.extractor` downloads the models at build time into `OCR_MODEL_DIR`, so tasks never fetch them at runtime.
+
+A page is OCR'd when it has no text layer, when its text layer is mostly undecodable glyphs, or when images cover most of it and its text layer is only a stamp or footer. OCR output keeps per-line boxes and confidence scores, sideways scans are rotated before reading, and ruled tables are rebuilt cell by cell so the parser can read scanned tables. When the ruling lines are dashed or broken, the table is rebuilt from text positions instead: columns come from the header row (or the previous page's columns on continuation pages) and rows start at each serial number, which is re-read from an enlarged strip of the first column because small serials are often missed on the full page. `OCR_DPI` (default 200) and `OCR_MAX_SIDE_LEN` (default 3000) tune the page rendering.
+
+## Tests
+
+```powershell
+python -m pytest data_processing_service/tests
+```
+
+`tests/regression` scores the real extractor and parser against hand-checked records from 40 CDSCO PDFs (`golden.json`). The PDFs are not committed; fetch them into `initial_data_ingestion/01_downloads/` first. Tests skip when a PDF is missing.
+
+```powershell
+python -m data_processing_service.tests.regression.fetch_fixtures
+python -m data_processing_service.tests.regression.harness                    # scorecard
+python -m data_processing_service.tests.regression.harness --update-baseline  # record improvements
+```
+
+The test fails when any document scores below its recorded baseline. Baselines only move up.
 
 ## 1. Optional PDF Profile Report
 
@@ -118,7 +140,7 @@ python -m data_processing_service.classifier.run `
 
 ## 4. Parse Extracted Documents
 
-Converts the extractor JSON files into structured parsed JSON files. Requires the classifier summary CSV from Step 3 and parses only rows whose `bucket` is `event-bearing`. By default, the CSV is read from `medicine-data-storage/processed_files/classifier_output/classification_summary.csv` in the input bucket. Use `--classifier-csv-key` or `--classifier-csv-bucket` if the classifier output is stored elsewhere.
+Converts the extractor JSON files into structured parsed JSON files. Requires the classifier summary CSV from Step 3 and parses rows whose `bucket` is `event-bearing`, plus rows the classifier flagged `needs_review` (their output carries a `classifier_review` block, and the run's `parsed.json` result lists them under `review_documents`). Tables are read with multi-row headers, section rows, page continuations and the 2013–2018 combined batch column. Column names are mapped to one standard set (`Name of Drugs/medical device/cosmetics`, `Batch No`, `Date of Manufacture`, ...). Documents without tables (gazette prohibitions, recall and falsified-drug alerts, circulars) are parsed by `parser/narrative.py`. In manifest runs the parser reads the extractor's output for the run. Runs without PDFs finish as a successful no-op. By default, the CSV is read from `medicine-data-storage/processed_files/classifier_output/classification_summary.csv` in the input bucket. Use `--classifier-csv-key` or `--classifier-csv-bucket` if the classifier output is stored elsewhere.
 
 ```powershell
 python -m data_processing_service.parser.run `
@@ -137,7 +159,7 @@ The normalizer processes the parsed PDF input and the scraper's direct JSON inpu
 - NSQ and spurious JSON files under `medicine-data-storage/source_files/nsq/` (the scraper's `aaData` JSON exports).
 - For backwards compatibility, JSON files directly under `medicine-data-storage/processed_files/profiler_output/nsq_json/` and `.../spurious_json/` are also included when present.
 
-It validates each document and writes per-document staging CSVs under `processed_files/normalized/`. It does not insert normalized records into a database. After all CSVs upload successfully, it marks the exact matching scraper `documents` row `normalized` in `status` and, when available, `processing_stage`.
+It validates each document and writes per-document staging CSVs under `processed_files/normalized/`. It does not insert normalized records into a database. Records with a product, or product-less records that document a regulatory action, are marked `VALID` in `normalization_manifest.csv`; only `VALID` rows are ingested. Dates are written as ISO dates, and document types are mapped onto the database's allowed values. In manifest runs, the scraper's NSQ/spurious JSON documents (manifest `documents` of kind `json`) are normalized alongside the parser output. A scraper row that cannot be found is reported under `status_update_failures` instead of failing the document. After all CSVs upload successfully, it marks the exact matching scraper `documents` row `normalized` in `status` and, when available, `processing_stage`.
 
 ```powershell
 python -m data_processing_service.normalizer.run `

@@ -122,5 +122,64 @@ def test_manifest_run_normalizes_only_parser_result_keys(monkeypatch):
     assert seen["key"] == parsed_key
 
 
+def _manifest_normalizer_run(monkeypatch, manifest, status_result):
+    run = "medicine-data-storage/processed_files/runs/run-1"
+    nsq_key = "medicine-data-storage/source_files/nsq/nsq_2025-06.json"
+    objects = {
+        f"{run}/results/parsed.json": {"run_id": "run-1", "stage": "parser", "output_keys": []},
+        f"{run}/manifest.json": manifest,
+        nsq_key: {"source": "cdsco_nsq", "record_type": "nsq", "reporting_period": "2025-06",
+                  "aaData": [{"str_product_name": "Paracetamol Tablets", "str_batch_no": "B-1"}]},
+    }
+    s3_client = Mock()
+    s3_client.get_object.side_effect = lambda Bucket, Key: {"Body": io.BytesIO(json.dumps(objects[Key]).encode("utf-8"))}
+    s3_client.get_paginator.side_effect = AssertionError("manifest run must not prefix-scan")
+    uploads, results = [], []
+    s3_client.upload_file.side_effect = lambda filename, bucket, key: uploads.append(key)
+    monkeypatch.setattr(normalizer.boto3, "client", lambda *_args, **_kwargs: s3_client)
+    monkeypatch.setattr(normalizer, "set_scraper_document_status", lambda **_kwargs: status_result)
+    monkeypatch.setattr(normalizer, "write_result", lambda *args: results.append(args[4]))
+    exit_code = normalizer.main([
+        "--bucket", "b", "--manifest-s3-key", f"{run}/manifest.json", "--run-id", "run-1",
+        "--s3-output-prefix", f"{run}/normalized",
+    ])
+    return exit_code, uploads, results[0]
+
+
+def test_manifest_json_documents_from_the_scraper_are_normalized(monkeypatch):
+    manifest = {"run_id": "run-1", "has_pdfs": False,
+                "documents": [{"s3_key": "medicine-data-storage/source_files/nsq/nsq_2025-06.json", "kind": "json"}]}
+
+    exit_code, uploads, result = _manifest_normalizer_run(monkeypatch, manifest, {"updated": True})
+
+    assert exit_code == 0
+    assert result["input_keys"] == ["medicine-data-storage/source_files/nsq/nsq_2025-06.json"]
+    assert "medicine-data-storage/processed_files/runs/run-1/normalized/nsq/nsq_2025-06/products.csv" in uploads
+
+
+def test_missing_scraper_row_is_reported_without_failing_the_document(monkeypatch):
+    manifest = {"run_id": "run-1", "documents": [{"s3_key": "medicine-data-storage/source_files/nsq/nsq_2025-06.json", "kind": "json"}]}
+
+    exit_code, uploads, result = _manifest_normalizer_run(monkeypatch, manifest, {"updated": False, "reason": "scraper document row not found"})
+
+    assert exit_code == 0
+    assert result["status"] == "success"
+    assert len(uploads) == 10
+    assert result["status_update_failures"] == [
+        "medicine-data-storage/source_files/nsq/nsq_2025-06.json: scraper document row not found"
+    ]
+
+
 def test_document_type_unknown_is_replaced_with_supported_enum():
     assert pipeline._document_type({"document_type": "GENERAL REGULATORY DOCUMENT"}, "example.json") == "UNKNOWN"
+
+def test_placeholder_batch_and_manufacturer_are_left_empty():
+    record = {"S No": "1", "Name of Drugs/medical device/cosmetics": "Purport to contain Amoxycillin",
+              "Batch No": "Not Specified", "Manufactured By": "Not mentioned", "Date of Expiry": "Not Specified"}
+    kept = dict(record, **{"Batch No": "37", "Manufactured By": "M/s. Sundaram Surgical"})
+
+    empty = pipeline._normalize_record("doc.pdf", "SPURIOUS", record, 0)
+    real = pipeline._normalize_record("doc.pdf", "SPURIOUS", kept, 0)
+
+    assert (empty["batch_number"], empty["batch_key"], empty["manufacturer_name"]) == ("", "", "")
+    assert (real["batch_number"], real["manufacturer_name"]) == ("37", "M/s. Sundaram Surgical")

@@ -32,15 +32,13 @@ flowchart LR
 
 The admin panel is the React app in `client/`; it calls the FastAPI server in `server/`. The server controls scraper runs through AWS, while the scraper worker is implemented in `data_collection_service/scraper/`. S3 is the shared file handoff between collection and processing; the two databases hold scraper metadata and normalized medicine data, respectively.
 
-The runtime app is now organized into two layers:
+The repository has four runtime parts and one research workflow:
 
-- [server](server) — the FastAPI application layer, database access, config, and API control
-- [data_collection_service](data_collection_service) — the background scraping worker and its standalone Docker build
-
-The research and ingestion workflows remain separated as:
-
-- [initial_data_ingestion](initial_data_ingestion) — the main numbered, stage-based workflow for downloads, extraction, classification, parsing, normalization, and loading
-- [data_pipeline_research](data_pipeline_research) — the research sandbox used for experimentation, source review, and pipeline iteration
+- [client](client) — the React admin panel
+- [server](server) — the FastAPI application layer: database access, scraper scheduling, and the run-approval (human-in-the-loop) API
+- [data_collection_service](data_collection_service) — the scraper worker that downloads CDSCO / IPC documents to S3 and starts the processing pipeline
+- [data_processing_service](data_processing_service) — extraction (with OCR), classification, parsing, normalization, and append-only ingest; see its [README](data_processing_service/README.md)
+- [initial_data_ingestion](initial_data_ingestion) — the original numbered, stage-based research workflow used for the first data load
 
 ## Repository structure
 
@@ -48,53 +46,27 @@ The research and ingestion workflows remain separated as:
 .
 ├── README.md
 ├── requirements.txt
-├── server/
-│   ├── README.md
-│   ├── main.py
-│   ├── config.py
-│   ├── database/
-│   ├── routes/
-│   └── templates/
-├── data_collection_service/
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   ├── config.py
-│   ├── database/
-│   └── scraper/
-├── initial_data_ingestion/
-│   ├── 00_project_support/
-│   ├── 01_downloads/
-│   ├── 02_light_extraction/
-│   ├── 03_ai_classification/
-│   ├── 04_classified_documents/
-│   ├── 05_type_classification/
-│   ├── 06_raw_extraction/
-│   ├── 08_json_conversion/
-│   ├── 09_normalization/
-│   └── README.md
-├── data_pipeline_research/
-│   ├── README.md
-│   ├── database/
-│   ├── docs/
-│   ├── normalization/
-│   ├── raw_extraction/
-│   ├── structured_raw/
-│   ├── tests/
-│   ├── type_classification/
-│   └── websites/
-├── automated_scraper/
-│   └── legacy reference app kept for compatibility
-└── .git/
+├── client/                     React admin panel
+├── server/                     FastAPI app, databases, pipeline approval API
+├── data_collection_service/    scraper worker (Docker / ECS)
+├── data_processing_service/    processing pipeline (Docker / ECS + Step Functions)
+│   ├── extractor/              PDF text, tables and OCR
+│   ├── classifier/             deterministic rules + GLiClass
+│   ├── parser/                 table and narrative record parsing
+│   ├── normalizer/             staging CSVs for the medicine database
+│   ├── ingester/               append-only database ingest
+│   ├── processor/              parser → normalizer → ingester for one run
+│   ├── sfn/ and tasks/         Step Functions and ECS task definitions
+│   └── tests/                  unit tests and the real-PDF regression set (tests/regression)
+└── initial_data_ingestion/     numbered research workflow (00_project_support … 09_normalization)
 ```
 
-This is the actual top-level layout of the repository. Historical and legacy project material remains under the active ingestion and research subprojects instead of being shown as separate root folders.
+## Research workflow
 
-## Active workflow
-
-The main working pipeline is in [initial_data_ingestion/README.md](initial_data_ingestion/README.md). It follows a numbered stage layout:
+The numbered workflow in [initial_data_ingestion/README.md](initial_data_ingestion/README.md) follows these stages:
 
 1. `00_project_support` — project docs and flow definitions
-2. `01_downloads` — download source PDFs and data
+2. `01_downloads` — download source PDFs and data (also the location of the regression-test PDFs)
 3. `02_light_extraction` — quick page-level extraction for review
 4. `03_ai_classification` — AI-assisted classification and output contract
 5. `04_classified_documents` — copy/route files into classified groups
@@ -102,20 +74,6 @@ The main working pipeline is in [initial_data_ingestion/README.md](initial_data_
 7. `06_raw_extraction` — full extraction and OCR processing
 8. `08_json_conversion` — convert extracted output into structured JSON
 9. `09_normalization` — normalization, validation, and downstream preparation
-
-This keeps the pipeline readable and makes it easier to rerun only the required stage without mixing legacy research outputs with the active ingestion flow.
-
-## Research sandbox
-
-The [data_pipeline_research](data_pipeline_research) folder is a separate exploration workspace for:
-
-- testing source access methods
-- validating extraction logic
-- comparing OCR and parsing approaches
-- experimenting with document classification and normalization
-- preserving intermediate research artifacts without disturbing the active ingestion pipeline
-
-The README in that folder explains the research flow in more detail.
 
 ## Setup
 
@@ -127,45 +85,16 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-For the extraction pipeline, confirm the required OCR dependencies are available, especially where scanned PDFs are handled.
-
-## Quick start
-
-The recommended working path is:
-
-```powershell
-cd Z:\medicine-scanner-research
-.\.venv\Scripts\Activate.ps1
-```
-
-Then follow the stage-by-stage commands in [initial_data_ingestion/README.md](initial_data_ingestion/README.md).
-
-For a research-oriented walkthrough and experimental notes, use the docs in [data_pipeline_research/README.md](data_pipeline_research/README.md).
-
-## Legacy and reference material
-
-Older supporting artifacts are kept inside the active subprojects rather than as top-level repo folders. Examples include:
-
-- [initial_data_ingestion](initial_data_ingestion) — active numbered pipeline and stage outputs
-- [data_pipeline_research](data_pipeline_research) — research sandbox with downloader, parser, extraction, schema, and normalization experiments
-- [automated_scraper](automated_scraper) — application layer for monitoring and scraping
-
-These remain useful as references, but the current repository structure is intentionally centered on the two main working directories above.
+The processing service has its own per-image requirements; see [data_processing_service/README.md](data_processing_service/README.md) for running its stages and tests.
 
 ## Notes
 
 - Source data, extracted content, and intermediate outputs are preserved for auditability.
-- Generated outputs are intentionally separated from source scripts through the stage-specific `.gitignore` rules.
-- Working from the numbered ingestion flow is preferred over editing legacy experimental scripts unless a specific research task requires it.
+- Generated outputs are kept out of git through the stage-specific `.gitignore` rules.
 
 ## Related documentation
 
+- [data_processing_service/README.md](data_processing_service/README.md)
+- [server/README.md](server/README.md)
 - [initial_data_ingestion/README.md](initial_data_ingestion/README.md)
-- [data_pipeline_research/README.md](data_pipeline_research/README.md)
-- [docs/PIPELINE_AUDIT.md](docs/PIPELINE_AUDIT.md)
-- [docs/pdf-schema-samples.md](docs/pdf-schema-samples.md)
-- [websites/README.md](websites/README.md)
-
-## Summary
-
-This project is a research and ingestion pipeline for medicine safety and drug-regulatory data. The active path is the numbered ingestion workflow in [initial_data_ingestion](initial_data_ingestion), while the research sandbox in [data_pipeline_research](data_pipeline_research) keeps exploratory work isolated and traceable.
+- [initial_data_ingestion/00_project_support/PIPELINE_STEPS.md](initial_data_ingestion/00_project_support/PIPELINE_STEPS.md)

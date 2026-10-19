@@ -3,6 +3,8 @@
 import io
 import json
 import unittest
+
+import pytest
 from unittest.mock import patch
 from unittest.mock import Mock
 
@@ -618,6 +620,144 @@ def test_manifest_run_classifies_only_extractor_result_keys(monkeypatch, capsys)
     assert result_writes[0][2:4] == ("run-1", "classifier")
     assert result_writes[0][4]["input_keys"] == [extracted_key]
     assert f"Classified 1/1: {extracted_key}" in capsys.readouterr().out
+
+
+def test_lexicon_drops_quantities_and_everyday_words():
+    names, _ = load_medicine_lexicons()
+
+    for noise in ("000units", "025billion cfu", "per", "dry", "india"):
+        assert noise not in names
+    for real in ("paracetamol", "alenvox500"):
+        assert real in names
+
+
+def test_quantity_entries_no_longer_count_as_drug_mentions():
+    names, _ = load_medicine_lexicons()
+    verdict = classify_document({
+        "doc_id": "alerts/circular.pdf",
+        "source_name": "alerts",
+        "pages": [{"text": "Supply 100 vials of 1000units each as per the dry storage schedule."}],
+        "tables": [],
+    }, names, [])
+
+    assert verdict["deterministic"]["paragraph_drug_matches"] == 0
+
+
+def _table_doc(header, rows):
+    return {
+        "doc_id": "alerts/table.pdf",
+        "source_name": "alerts",
+        "pages": [{"text": ""}],
+        "tables": [{"cells": [header, *rows]}],
+    }
+
+
+def test_unknown_names_in_a_plain_product_list_are_not_event_evidence():
+    verdict = classify_document(
+        _table_doc(["S. No.", "Product Name", "Pack Size"], [["1.", "Zylocorp Gel", "10 g"], ["2.", "Brandex Cream", "15 g"]]),
+        ["paracetamol"], [],
+    )
+
+    assert verdict["deterministic"]["table_drug_matches"] == 0
+    assert verdict["bucket"] != "event-bearing"
+
+
+def test_unknown_names_in_a_batch_table_still_count():
+    verdict = classify_document(
+        _table_doc(["S. No.", "Product Name", "Batch No."], [["1.", "Zylocorp Gel", "ZG2401"]]),
+        ["paracetamol"], [],
+    )
+
+    assert verdict["deterministic"]["table_drug_matches"] == 1
+    assert verdict["bucket"] == "event-bearing"
+
+
+def test_section_26a_prohibition_order_is_event_bearing():
+    verdict = {"bucket": "unimportant", "deterministic": {"rule_matched": "D6", "paragraph_drug_matches": 0}}
+    text = ("S.O. 2298(E).- Whereas ... it is necessary to prohibit the import, manufacture, sale and distribution "
+            "of antimicrobials for animal use ... powers conferred by section 26A of the Drugs and Cosmetics Act")
+
+    result = complete_classifier_fields(verdict, text)
+
+    assert result["bucket"] == "event-bearing"
+    assert result["bucket_reason"] == "prohibition_order"
+    assert result["deterministic"]["rule_matched"] == "D9"
+
+
+def test_discussion_of_a_ban_without_a_gazette_notification_stays_reviewable():
+    verdict = {"bucket": "event-bearing", "deterministic": {"rule_matched": "D4", "paragraph_drug_matches": 1,
+                                                            "paragraph_batch_matches": 0, "paragraph_manufacturer_matches": 0,
+                                                            "table_drug_matches": 0, "table_fdc_matches": 0}}
+
+    result = complete_classifier_fields(verdict, "DTAB minutes: the committee discussed whether to prohibit an FDC under section 26A.")
+
+    assert result["bucket"] == "context-only"
+    assert result["needs_review"] is True
+
+
+def test_gliclass_samples_long_documents_instead_of_truncating(monkeypatch):
+    from data_processing_service.classifier import gliclass
+
+    seen = []
+
+    def fake_pipeline(samples, labels, **_kwargs):
+        seen.extend(samples)
+        return [{label: 0.2 for label in labels} | {labels[0]: 0.8} for _ in samples]
+
+    monkeypatch.setattr(gliclass, "load_classifier", lambda: fake_pipeline)
+    text = "HEAD " + "x" * 9000 + " RECALL OF BATCH AB1234 AT THE END"
+
+    result = gliclass.classify_text(text)
+
+    assert len(seen) == gliclass.SAMPLE_POINTS
+    assert seen[0].startswith("HEAD") and seen[-1].endswith("AT THE END")
+    assert result["sample_count"] == gliclass.SAMPLE_POINTS
+
+
+def _page_with_tables(*tables, top_level):
+    cells = [{"cells": row, "table_index": index} for index, rows in enumerate(tables) for row in rows]
+    payload = {"doc_id": "alerts/nsq.pdf", "pdf_title": "NSQ alert", "pages": [{"page": 1, "text": "", "tables": cells}]}
+    if top_level:
+        payload["tables"] = [{"page": 1, "cells": cells}]
+    return payload
+
+
+@pytest.mark.parametrize("top_level", [True, False])
+def test_summary_box_above_the_data_table_does_not_hide_its_header(top_level):
+    summary = [["Total number of samples tested", "8235"], ["Declared as of standard quality", "8196"],
+               ["Declared as not of standard quality", "39"], ["Declared as spurious", "0"],
+               ["Declared as adulterated", "0"], ["Declared as misbranded", "0"]]
+    data = [["S.No.", "Name of Drugs", "Batch No", "Manufactured By"], ["1.", "Paracetamol Tablets", "PCT2401", "M/s XYZ"]]
+
+    normalized = normalize_extracted_payload(_page_with_tables(summary, data, top_level=top_level))
+    headers = _detect_table_headers(normalized["tables"])
+
+    assert [table["cells"][0][0] for table in normalized["tables"]] == ["Total number of samples tested", "S.No."]
+    assert headers[1]["columns"]["drug_name_column"] == [1]
+
+
+def test_medical_device_alert_without_batches_is_kept_for_review():
+    verdict = {
+        "bucket": "event-bearing",
+        "deterministic": {"rule_matched": "D4", "paragraph_manufacturer_matches": 2, "paragraph_batch_matches": 0},
+    }
+
+    result = complete_classifier_fields(
+        verdict,
+        "MEDICAL DEVICE ALERT Absorb Bioresorbable Vascular Scaffold. The Indian agent M/s Abbott Healthcare "
+        "Pvt. Ltd. has informed that the manufacturer has initiated a Field Safety Notice.",
+        filename="MEDICAL DEVICE ALERT FOR Absorb Bioresorbable Vascular Scaffold",
+    )
+
+    assert result["needs_review"] is True
+    assert result["bucket_reason"] != "drug_and_manufacturer_without_event_context"
+
+
+@pytest.mark.parametrize("name", ["Name of Vaccine", "Vaccine Name", "Device Name", "Brand Name"])
+def test_vaccine_and_device_name_headers_are_product_columns(name):
+    header = _detect_table_headers([{"page": 1, "cells": [["S. No.", name, "Batch No.", "Reason"]]}])[0]
+
+    assert header["columns"]["drug_name_column"] == [1]
 
 
 if __name__ == "__main__":

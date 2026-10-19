@@ -24,7 +24,8 @@ class DummyPage:
         }
 
     def extract_tables(self, settings=None):
-        key = None if not settings else tuple(sorted((k, v) for k, v in settings.items()))
+        strategy = {k: v for k, v in (settings or {}).items() if k.endswith("_strategy")}
+        key = None if not strategy else tuple(sorted(strategy.items()))
         if key == (('horizontal_strategy', 'text'), ('vertical_strategy', 'text')):
             return self._tables_by_strategy["text"]
         if key == (('horizontal_strategy', 'text'), ('vertical_strategy', 'lines')):
@@ -182,6 +183,78 @@ class ExtractorTableDetectionTests(unittest.TestCase):
         self.assertIn("WARN profiler/extractor mismatch", stderr.getvalue())
 
 
+def test_table_with_full_width_section_row_is_accepted():
+    rows = [
+        ["B. State Laboratories", "", "", "", "", "", "", ""],
+        ["S.No", "Product/Drug Name", "Batch No.", "Manufacturing Date", "Expiry Date", "Manufactured By", "NSQ Result", "Reported by"],
+        ["1.", "Enrofloxacin Inj IP", "VT4072", "Jul-24", "Jun-26", "Alpha Laboratories", "Particulate Matter", "CFDL Jammu"],
+    ]
+
+    assert _is_valid_table_candidate(rows)
+    page = DummyPage(default_tables=[rows], mixed_v_tables=[rows[1:]])
+    assert _extract_table_rows_from_page(page) == ([rows], "default")
+
+
+def _pdf_with_text(text: str) -> bytes:
+    import pymupdf
+
+    document = pymupdf.open()
+    document.new_page().insert_text((72, 72), text)
+    return document.tobytes()
+
+
+def test_garbled_text_layer_is_sent_to_ocr(monkeypatch):
+    calls = []
+    monkeypatch.setattr(extractor.page_ocr, "ocr_available", lambda: True)
+    monkeypatch.setattr(
+        extractor.page_ocr,
+        "ocr_page",
+        lambda page, **_kwargs: calls.append(page) or {"text": "Batch No - C 2009", "lines": [], "table": [], "rotation": 0, "mean_score": 0.9},
+    )
+    garbled = "Batch No � C 2009 �� D/Mfg � 07/2012 �"
+    monkeypatch.setattr(extractor, "_page_text", lambda _page: garbled)
+
+    payload = _extract_document_from_bytes(_pdf_with_text("placeholder"), "src/alerts/old.pdf", "src")
+
+    page = payload["pages"][0]
+    assert calls and page["ocr"]["reason"] == "garbled_text_layer"
+    assert page["text"] == "Batch No - C 2009"
+    assert "�" in page["text_layer"]
+
+
+def test_ocr_failure_is_reported_not_swallowed(monkeypatch, capsys):
+    monkeypatch.setattr(extractor.page_ocr, "ocr_available", lambda: True)
+
+    def broken_ocr(_page, **_kwargs):
+        raise RuntimeError("model file missing")
+
+    monkeypatch.setattr(extractor.page_ocr, "ocr_page", broken_ocr)
+    monkeypatch.setattr(extractor, "_page_text", lambda _page: "�" * 40)
+    payload = _extract_document_from_bytes(_pdf_with_text("placeholder"), "src/alerts/scan.pdf", "src")
+
+    assert payload["pages"][0]["ocr_error"] == "RuntimeError: model file missing"
+    assert payload["extraction_meta"]["ocr_failed_pages"] == 1
+    assert "WARN OCR failed: src/alerts/scan.pdf page 1: model file missing" in capsys.readouterr().err
+
+
+def test_unreadable_pdf_fails_the_document_instead_of_passing_as_empty():
+    import pytest
+
+    with pytest.raises(Exception):
+        _extract_document_from_bytes(b"not a pdf", "src/alerts/broken.pdf", "src")
+
+
+def test_output_key_is_named_after_the_pdf_not_its_title():
+    s3_client = Mock()
+    payload = {"pdf_title": "NSQ ALERT FOR THE MONTH OF MAY-2025"}
+
+    first = extractor.write_json_to_s3(s3_client, "bucket", "src/alerts/12001_NSQ_ALERT.pdf", "src", "out", payload)
+    second = extractor.write_json_to_s3(s3_client, "bucket", "src/alerts/12002_NSQ_ALERT.pdf", "src", "out", payload)
+
+    assert first == "out/alerts/12001_NSQ_ALERT.json"
+    assert second == "out/alerts/12002_NSQ_ALERT.json"
+
+
 def test_extractor_uses_only_pdf_keys_from_manifest(monkeypatch):
     manifest_key = "medicine-data-storage/processed_files/runs/manual-test-001/manifest.json"
     input_key = "medicine-data-storage/source_files/ipc/Drug-Safety-Alert-February-20-2026.pdf"
@@ -224,6 +297,35 @@ def test_extractor_uses_only_pdf_keys_from_manifest(monkeypatch):
     assert written_results[0][2:4] == ("manual-test-001", "extractor")
     assert written_results[0][4]["input_keys"] == [input_key]
     assert written_results[0][4]["output_keys"] == ["run-output/extracted.json"]
+
+
+
+def test_fake_bold_text_printed_several_times_is_read_once():
+    import pymupdf
+
+    document = pymupdf.open()
+    page = document.new_page()
+    for offset in (0, 0.25, 0.5, 0.75):  # how some gazettes draw bold headings
+        page.insert_text((72 + offset, 72), "S.O. 4482(E).-Whereas", fontsize=11)
+    page.insert_text((72, 100), "fixed dose combination of Metformin ER + Gliclazide MR", fontsize=11)
+    page.insert_text((72, 128), "S.O. 4482(E) is cited twice on purpose", fontsize=11)
+
+    text = extractor._page_text(pymupdf.open(stream=document.tobytes())[0])
+
+    assert text.splitlines() == [
+        "S.O. 4482(E).-Whereas",
+        "fixed dose combination of Metformin ER + Gliclazide MR",
+        "S.O. 4482(E) is cited twice on purpose",
+    ]
+
+
+def test_page_without_overprint_keeps_the_plain_text_layer():
+    import pymupdf
+
+    page = pymupdf.open(stream=_pdf_with_text("Batch No. AB1234  Exp 12/2025"))[0]
+
+    assert extractor._without_overprint(page) is None
+    assert extractor._page_text(page) == "Batch No. AB1234  Exp 12/2025"
 
 
 if __name__ == "__main__":

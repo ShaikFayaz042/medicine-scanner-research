@@ -6,6 +6,16 @@ from typing import Any
 
 
 def _rows_from_table(table: Any) -> list[list[str]]:
+    """All rows of an extracted page entry, with its separate tables concatenated."""
+    return [row for rows in _tables_from_entry(table) for row in rows]
+
+
+def _tables_from_entry(table: Any) -> list[list[list[str]]]:
+    """Rows of each table in an extracted page entry, kept apart by table_index.
+
+    A page often has a summary box ("Total number of samples tested ...") above the data table; merged
+    together, the summary rows filled the header scan window and hid the real header.
+    """
     cells = table.get("cells", []) if isinstance(table, dict) else table
     if isinstance(cells, dict):
         cells = [cells]
@@ -13,7 +23,7 @@ def _rows_from_table(table: Any) -> list[list[str]]:
         return []
 
     if all(not isinstance(cell, (dict, list, tuple)) for cell in cells):
-        return [["" if cell is None else str(cell).strip() for cell in cells]]
+        return [[["" if cell is None else str(cell).strip() for cell in cells]]]
 
     grouped_rows: dict[int, list[list[str]]] = {}
     for row in cells:
@@ -33,10 +43,7 @@ def _rows_from_table(table: Any) -> list[list[str]]:
 
         grouped_rows.setdefault(table_index, []).append(normalized_row)
 
-    rows: list[list[str]] = []
-    for table_index in sorted(grouped_rows):
-        rows.extend(grouped_rows[table_index])
-    return rows
+    return [grouped_rows[table_index] for table_index in sorted(grouped_rows)]
 
 
 def normalize_extracted_payload(payload: dict[str, Any]) -> dict[str, Any]:
@@ -54,18 +61,22 @@ def normalize_extracted_payload(payload: dict[str, Any]) -> dict[str, Any]:
             [{"page": page.get("page"), "cells": rows}] if rows else []
         )
         pages.append(normalized_page)
-        if rows:
-            page_tables.append({"page": page.get("page"), "cells": rows})
+        entries = page.get("tables") or []
+        if entries and all(isinstance(entry, dict) and "table_index" in entry for entry in entries):
+            groups = _tables_from_entry({"cells": entries})  # one entry per row: regroup by table_index
+        else:
+            groups = [rows for entry in entries for rows in _tables_from_entry(entry)]
+        page_tables.extend({"page": page.get("page"), "cells": rows} for rows in groups if rows)
 
     source_tables = payload.get("tables") or []
     tables = []
     for table in source_tables:
-        rows = _rows_from_table(table)
-        if rows:
-            normalized_table = {"cells": rows}
-            if isinstance(table, dict) and table.get("page") is not None:
-                normalized_table["page"] = table["page"]
-            tables.append(normalized_table)
+        for rows in _tables_from_entry(table):
+            if rows:
+                normalized_table = {"cells": rows}
+                if isinstance(table, dict) and table.get("page") is not None:
+                    normalized_table["page"] = table["page"]
+                tables.append(normalized_table)
 
     normalized["pages"] = pages
     normalized["tables"] = tables or page_tables

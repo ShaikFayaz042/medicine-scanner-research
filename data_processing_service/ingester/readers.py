@@ -83,4 +83,11 @@ def _validity_map(folder_path: Path) -> tuple[dict[str, set[str]] | None, bool]:
             key = (row.get(key_column) or "").strip()
             if key:
                 valid_keys[key_column].add(key)
+    # The manifest lists each record's manufacturer; reporting laboratories of valid events are valid too.
+    for event in _read_csv_rows(folder_path / "regulatory_events.csv"):
+        if (event.get("event_key") or "").strip() in valid_keys["event_key"]:
+            for column in ("manufacturer_organization_key", "reporting_organization_key"):
+                key = (event.get(column) or "").strip()
+                if key:
+                    valid_keys["organization_key"].add(key)
     return valid_keys, True

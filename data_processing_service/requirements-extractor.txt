@@ -2,4 +2,7 @@
 PyMuPDF
 pdfplumber
 Pillow
-rapidocr-onnxruntime
+# rapidocr 3.x can load English recognition models; rapidocr-onnxruntime only ships the Chinese one,
+# which drops the spaces between English words.
+rapidocr==3.10.0
+onnxruntime==1.31.0

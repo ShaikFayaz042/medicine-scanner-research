@@ -35,6 +35,12 @@ from data_processing_service.ingester.readers import (
     _validity_map,
 )
 
+# regulatory_documents.document_type CHECK constraint; anything else would abort the document transaction.
+_DOCUMENT_TYPES = {
+    "BANNED_DRUGS", "PVPI_ADR", "NSQ_STATE", "SPURIOUS", "NSQ_CDSCO", "LEGACY_CDSCO",
+    "MEDICAL_DEVICE", "APPROVED_DRUGS", "NOC_IMPORT_FDC", "MIXED_ALERT", "UNKNOWN",
+}
+
 _INSERT_TABLES = (
     "regulatory_documents",
     "organizations",
@@ -286,7 +292,11 @@ def _ingest_document_rows(folder_path: Path, engine, dry_run: bool = False) -> d
                 "reporting_period": document_row.get("reporting_period"),
                 "source_url": document_row.get("source_url") or "",
                 "file_hash": file_hash,
-                "document_type": document_row.get("document_type") or "UNKNOWN",
+                "document_type": (
+                    document_row.get("document_type")
+                    if document_row.get("document_type") in _DOCUMENT_TYPES
+                    else "UNKNOWN"
+                ),
             }
             insert_doc = text(
                 "INSERT INTO regulatory_documents (source_organization, source_document_id, filename, document_title, publication_date, reporting_period, source_url, file_hash, document_type) "
@@ -479,7 +489,7 @@ def _ingest_document_rows(folder_path: Path, engine, dry_run: bool = False) -> d
                 return {
                     "status": "dry_run",
                     "document_id": document_id,
-                    "inserted": True,
+                    "inserted": False,
                     "would_insert": inserted_counts,
                     "reason": "Dry run rollback",
                 }
@@ -736,13 +746,19 @@ def main(argv: list[str] | None = None) -> int:
         engine = create_engine(MEDICINE_DATABASE_URL, future=True)
         results = []
         for document_prefix, objects in document_objects:
-            with tempfile.TemporaryDirectory(prefix="medicine-ingest-") as temp_dir:
-                folder = Path(temp_dir)
-                for filename, key in objects.items():
-                    s3_client.download_file(args.bucket, key, str(folder / filename))
-                result = ingest_document_folder(folder, engine=engine, dry_run=dry_run)
-                result["s3_prefix"] = document_prefix
-                results.append(result)
+            # Each document commits or rolls back on its own; one bad document must not stop the run.
+            try:
+                with tempfile.TemporaryDirectory(prefix="medicine-ingest-") as temp_dir:
+                    folder = Path(temp_dir)
+                    for filename, key in objects.items():
+                        s3_client.download_file(args.bucket, key, str(folder / filename))
+                    result = ingest_document_folder(folder, engine=engine, dry_run=dry_run)
+            except Exception as exc:
+                print(f"ERROR ingesting {document_prefix}: {type(exc).__name__}: {exc}", file=sys.stderr)
+                result = {"status": "failed", "error": f"{type(exc).__name__}: {exc}"}
+            result["s3_prefix"] = document_prefix
+            results.append(result)
+        failed_documents = [result for result in results if result.get("status") == "failed"]
         total_documents = len(results)
         totals = {table: sum(result.get("would_insert" if dry_run else "inserted_counts", {}).get(table, 0) for result in results) for table in _INSERT_TABLES}
         status_update_failures = sum(
@@ -750,10 +766,15 @@ def main(argv: list[str] | None = None) -> int:
         )
         print(json.dumps({
             "documents_processed": total_documents,
+            "documents_failed": len(failed_documents),
             "dry_run": dry_run,
             "table_counts": totals,
             "scraper_status_update_failures": status_update_failures,
         }, default=str))
+        problems = [
+            *(f"{result['s3_prefix']}: {result['error']}" for result in failed_documents),
+            *([f"{status_update_failures} scraper status update(s) failed"] if status_update_failures else []),
+        ]
         if args.bucket and args.run_id:
             write_result(
                 boto3.client("s3", region_name=args.region),
@@ -766,15 +787,16 @@ def main(argv: list[str] | None = None) -> int:
                     "run_id": args.run_id,
                     "started_at": started_at,
                     "finished_at": utc_now_iso(),
-                    "status": "failure" if status_update_failures else "success",
+                    "status": "failure" if problems else "success",
                     "input_keys": [result.get("s3_prefix") for result in results if result.get("s3_prefix")],
                     "output_keys": [],
                     "table_counts": totals,
+                    "failed_documents": [result["s3_prefix"] for result in failed_documents],
                     "dry_run": dry_run,
-                    "error": f"{status_update_failures} scraper status update(s) failed" if status_update_failures else None,
+                    "error": "; ".join(problems) or None,
                 },
             )
-        return 1 if status_update_failures else 0
+        return 1 if problems else 0
 
     if not args.prefix:
         parser.error("--prefix is required with --bucket")

@@ -13,7 +13,7 @@
   "containerDefinitions": [
     {
       "name": "data-extractor",
-      "image": "449902674528.dkr.ecr.ap-south-1.amazonaws.com/data-extractor:v0.2.0",
+      "image": "449902674528.dkr.ecr.ap-south-1.amazonaws.com/data-extractor:v0.3.0",
       "essential": true,
       "environment": [
         {"name": "STAGE", "value": "extractor"},

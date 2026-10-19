@@ -9,7 +9,6 @@ import json
 import re
 import sys
 from pathlib import Path, PurePosixPath
-from tempfile import TemporaryDirectory
 from typing import Any
 
 import boto3
@@ -27,7 +26,15 @@ from data_processing_service.shared.database import (
     get_document_metadata,
     update_parsed_documents,
 )
-from data_processing_service.shared.manifest import result_key, utc_now_iso, write_result
+from data_processing_service.shared.manifest import read_manifest, result_key, utc_now_iso, write_result
+from data_processing_service.parser import narrative
+from data_processing_service.parser.tables import (
+    BATCH_COLUMN,
+    COMBINED_COLUMN,
+    MANUFACTURER_COLUMN,
+    PRODUCT_COLUMN,
+    records_from_tables,
+)
 
 DEFAULT_S3_INPUT_BUCKET = S3_INPUT_BUCKET
 DEFAULT_S3_INPUT_PREFIX = "medicine-data-storage/processed_files/extracted_json"
@@ -42,11 +49,6 @@ SOURCE_CATEGORY_BY_SOURCE = {
     "ipc_pvpi": "ipc",
 }
 
-
-SPECIAL_FILE_IDS = [
-    "3145", "3146", "3147", "3246", "3253", "11255", "2058", "4540", "7571",
-    "7770", "7881", "banneddrugs", "514_Notice", "List-of-Drugs-Safety-Alerts",
-]
 
 DOCUMENT_TYPES = {
     "Doc 1": ("Doc 1: Banned Drugs", "Banned Drugs"),
@@ -65,7 +67,9 @@ DOCUMENT_TYPES = {
     "Doc 14": ("Doc 14: Performance Evaluation Laboratories for IVD Analyzers & Software", "Administrative"),
     "Doc 15": ("Doc 15: Regulatory Fee Schedule & Document Checklist for New Applications", "Administrative"),
     "Doc 16": ("Doc 16: Gazette Notification Drug Prohibition Extraordinaries", "Banned Drugs"),
+    "Doc 17": ("Doc 17: Drug Recall, Theft & Falsified Product Alerts", "Quality Failures"),
 }
+GENERAL_DOCUMENT = ("General Regulatory Document", "Administrative")
 
 
 def _scraper_metadata(payload: dict[str, Any]) -> dict[str, Any]:
@@ -118,65 +122,6 @@ def _clean_cell(value: Any) -> str:
     return re.sub(r"\s+", " ", str(value).replace("\n", " ")).strip()
 
 
-def _sanitize_header_key(value: Any) -> str:
-    cleaned = _clean_cell(value)
-    cleaned = re.sub(r"[\.\s]+\b", " ", cleaned)
-    cleaned = re.sub(r"[^a-zA-Z0-9\s/_\-&]", "", cleaned).strip()
-    return cleaned if cleaned else "Column"
-
-
-def _is_summary_table(rows: list[list[Any]]) -> bool:
-    if not rows or len(rows) <= 6:
-        table_text = " ".join(
-            " ".join(_clean_cell(cell) for cell in row if _clean_cell(cell))
-            for row in rows
-        ).lower()
-        return "total number of samples" in table_text or "samples declared" in table_text
-    return False
-
-
-def _is_noise_row(row: list[Any]) -> bool:
-    row_str = " ".join(_clean_cell(cell) for cell in row if str(cell).strip()).lower()
-    if not row_str:
-        return True
-    if re.search(r"^page\s+\d+\s+of\s+\d+", row_str) or re.search(r"^\d+\s+of\s+\d+", row_str):
-        return True
-    if (
-        ("name of product" in row_str or "product/drug name" in row_str or "batch no" in row_str)
-        and ("manufacturing date" in row_str or "expiry date" in row_str or "nsq result" in row_str)
-    ):
-        return True
-    if "this report is issued" in row_str or "confidential" in row_str or "cdsco website" in row_str:
-        return True
-    return False
-
-
-def _is_valid_anchor(first_cell: Any) -> bool:
-    cell_str = _clean_cell(first_cell)
-    return bool(re.match(r"^\d+[\.)]?$", cell_str))
-
-
-def _find_real_header_row(rows: list[list[Any]]) -> tuple[int, list[str]]:
-    for idx, row in enumerate(rows[:15]):
-        non_empty = [_clean_cell(cell) for cell in row if _clean_cell(cell)]
-        row_str = " ".join(non_empty).lower()
-        if len(non_empty) >= 3 and any(
-            kw in row_str
-            for kw in [
-                "s. no", "s no", "s.no", "sl no", "sr. no", "s n o",
-                "s n", "name of drug", "product", "batch", "manufactured by",
-                "reason for failure",
-            ]
-        ):
-            return idx, [_sanitize_header_key(cell) for cell in row if _clean_cell(cell)]
-    for idx, row in enumerate(rows[:5]):
-        non_empty = [_clean_cell(cell) for cell in row if _clean_cell(cell)]
-        if len(non_empty) >= 2:
-            return idx, [_sanitize_header_key(cell) for cell in row if _clean_cell(cell)]
-    first_row = rows[0] if rows else []
-    return 0, [_sanitize_header_key(cell) for cell in first_row if _clean_cell(cell)]
-
-
 def _rows_from_table(table: dict[str, Any]) -> list[list[Any]]:
     raw_rows = table.get("rows") or table.get("cells") or []
     if not isinstance(raw_rows, list):
@@ -194,37 +139,25 @@ def _rows_from_table(table: dict[str, Any]) -> list[list[Any]]:
     return rows
 
 
-def _run_exact_legacy_parser(
-    payload: dict[str, Any],
-    filename: str,
-    source_category: str | None = None,
-) -> dict[str, Any] | None:
-    del filename, source_category
-    return None
-
-
-def _is_banned_drugs_payload(payload: dict[str, Any]) -> bool:
-    source_key = str(payload.get("s3_object_key") or payload.get("source_file") or "").casefold()
-    path_parts = {part for part in PurePosixPath(source_key).parts}
-    if path_parts.intersection({"banned", "banned_drugs", "banned-drugs"}):
-        return True
-
-    page_text = " ".join(
-        str(page.get("text") or "")
+def _table_blocks(payload: dict[str, Any]) -> list[tuple[int, list[list[Any]]]]:
+    """Every extracted table as (page, rows), keeping separate tables on one page apart."""
+    tables = payload.get("tables") or [
+        {"page": page.get("page"), "cells": page.get("tables") or []}
         for page in payload.get("pages") or []
-        if isinstance(page, dict)
-    ).casefold()
-    if "section 26a" in page_text and "prohibited" in page_text and "drugs" in page_text:
-        return True
-
-    table_text = " ".join(
-        _clean_cell(cell).casefold()
-        for table in payload.get("tables") or []
-        if isinstance(table, dict)
-        for row in _rows_from_table(table)
-        for cell in row
-    )
-    return "section 26a" in table_text and "prohibited" in table_text and "drugs" in table_text
+        if isinstance(page, dict) and page.get("tables")
+    ]
+    blocks: list[tuple[int, list[list[Any]]]] = []
+    for table in tables:
+        if not isinstance(table, dict):
+            continue
+        grouped: dict[int, list[list[Any]]] = {}
+        for row in table.get("cells") or table.get("rows") or []:
+            if isinstance(row, dict) and isinstance(row.get("cells"), list):
+                grouped.setdefault(int(row.get("table_index") or 0), []).append(row["cells"])
+            elif isinstance(row, list):
+                grouped.setdefault(0, []).append(row)
+        blocks.extend((int(table.get("page") or 1), rows) for _, rows in sorted(grouped.items()))
+    return blocks
 
 
 def _parse_pvpi_alert(payload: dict[str, Any]) -> dict[str, Any] | None:
@@ -358,172 +291,63 @@ def _parse_pvpi_alert(payload: dict[str, Any]) -> dict[str, Any] | None:
     }, payload)
 
 
-def _normalize_alert_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    normalized: list[dict[str, Any]] = []
-    key_map = {
-        "s_no": ["s no", "s.no", "s. no", "s n o", "sl no", "sr. no", "sl.no", "s n"],
-        "product_name": ["name of drugs", "product/drug name", "name of product", "name of drug", "product name"],
-        "batch_no": ["batch no", "batch no.", "b. no.", "b no", "batch number"],
-        "mfg_date": ["date of manufacture", "date of manu factur e", "manufacturing date", "manufact uring date", "manufa cturing date", "mfg date"],
-        "exp_date": ["date of expiry", "expiry date", "exp date"],
-        "mfg_by": ["manufactured by", "manufactured by as per label"],
-        "reason": ["reason for failure", "reasons for failure", "nsq result", "sub-standard in"],
-        "drawn_by": ["drawn by", "drawn by from state/cdsco zone", "reporting source"],
-        "from_lab": ["from", "from name of laboratory", "reported by cdsco laboratory", "reported by state laboratory"],
-        "remarks": ["remarks", "remark", "response of original manufacturer"],
-    }
-
-    for record in records:
-        standard = {
-            "S No": "",
-            "Name of Drugs/medical device/cosmetics": "",
-            "Batch No": "",
-            "Date of Manufacture": "",
-            "Date of Expiry": "",
-            "Manufactured By": "",
-            "Reason for failure": "",
-            "Drawn By": "",
-            "From": "",
-            "Remarks": "",
-        }
-
-        for key, value in record.items():
-            key_clean = str(key).lower().strip()
-            val_str = str(value).strip()
-            matched = False
-            for std_key, aliases in key_map.items():
-                if any(alias in key_clean for alias in aliases):
-                    if std_key == "s_no":
-                        standard["S No"] = val_str
-                    elif std_key == "product_name":
-                        standard["Name of Drugs/medical device/cosmetics"] = val_str
-                    elif std_key == "batch_no":
-                        standard["Batch No"] = val_str
-                    elif std_key == "mfg_date":
-                        standard["Date of Manufacture"] = val_str
-                    elif std_key == "exp_date":
-                        standard["Date of Expiry"] = val_str
-                    elif std_key == "mfg_by":
-                        standard["Manufactured By"] = val_str
-                    elif std_key == "reason":
-                        standard["Reason for failure"] = val_str
-                    elif std_key == "drawn_by":
-                        standard["Drawn By"] = val_str
-                    elif std_key == "from_lab":
-                        standard["From"] = val_str
-                    elif std_key == "remarks":
-                        standard["Remarks"] = val_str
-                    matched = True
-                    break
-
-            if not matched and str(key).startswith("Column_"):
-                suffix = str(key).split("_", 1)[1]
-                if suffix.isdigit():
-                    col_num = int(suffix)
-                    mapping = {
-                        1: "S No",
-                        2: "Name of Drugs/medical device/cosmetics",
-                        3: "Batch No",
-                        4: "Date of Manufacture",
-                        5: "Date of Expiry",
-                        6: "Manufactured By",
-                        7: "Reason for failure",
-                        8: "Drawn By",
-                        9: "From",
-                        10: "Remarks",
-                    }
-                    standard[mapping.get(col_num, "Remarks")] = val_str
-        normalized.append(standard)
-    return normalized
+def _matches(pattern: str, text: str) -> bool:
+    return re.search(pattern, text, re.I) is not None
 
 
-def _classify_document(subfolder: str, filename: str, headers_list: list[list[str]], sample_text: str):
-    text_sample = (filename + " " + sample_text).lower()
-    header_str = " ".join(" ".join(_clean_cell(cell) for cell in header) for header in headers_list).lower() if headers_list else ""
-
-    if "spurious" in header_str or "spurious" in text_sample or "manufacturer details" in header_str:
+def _classify_document(title: str, columns: list[str], text: str) -> tuple[str, str]:
+    """Document type from the scraper title first, then table columns, then body text (whole words only)."""
+    # Gazette titles join words with "_" ("4595(E)_Prohibition"); "_" is a word character, so \b would fail.
+    title_text = title.lower().replace("_", " ")
+    body = text[:6000].lower()
+    if _matches(r"\bspurious\b", title_text) and not _matches(r"\bnsq\b|not of standard", title_text):
         return DOCUMENT_TYPES["Doc 4"]
-    if "suspected drugs" in header_str or "adverse drug reaction" in header_str or "pvpi" in text_sample:
-        return DOCUMENT_TYPES["Doc 2"]
-    if ("drugs name" in header_str or "prohibited" in text_sample or "banned" in text_sample) and ("notification" in text_sample or "26a" in text_sample):
-        return DOCUMENT_TYPES["Doc 1"]
-    if "nsq result" in header_str and ("reporting by lab" in header_str or "state lab" in header_str or "reporting source" in header_str):
-        return DOCUMENT_TYPES["Doc 3"]
-    if "cdsco laboratory" in header_str or "reported by cdsco" in header_str:
-        return DOCUMENT_TYPES["Doc 5"]
-    if "drawn by" in header_str or "reason for failure" in header_str:
-        return DOCUMENT_TYPES["Doc 6"]
-    if "device" in text_sample or "catheter" in text_sample or "implant" in text_sample:
+    if _matches(r"\bmedical\s+devices?\b.*\balert|\bdevice\s+alert", title_text):
         return DOCUMENT_TYPES["Doc 7"]
-    if "approved" in text_sample and "indication" in text_sample:
+    if _matches(r"\b(?:recall|theft|stolen|falsified|counterfeit)\b", title_text):
+        return DOCUMENT_TYPES["Doc 17"]
+    prohibition = _matches(r"\b(?:prohibit\w*|banned|section\s*26\s*a)\b", title_text) or (
+        _matches(r"\bprohibit\w*\b", body) and _matches(r"\bsection\s*26\s*a\b", body)
+    )
+    if prohibition:
+        if _matches(r"\b(?:s\.?\s*o\.?|g\.?\s*s\.?\s*r\.?)\s*\d+", title_text) and PRODUCT_COLUMN not in columns:
+            return DOCUMENT_TYPES["Doc 16"]
+        return DOCUMENT_TYPES["Doc 1"]
+    quality_alert = _matches(r"\bnsq\b|not of standard|standard quality|\bdrugs?\s+alerts?\b", title_text) or (
+        BATCH_COLUMN in columns and "Reason for failure" in columns
+    )
+    if quality_alert:
+        if COMBINED_COLUMN + " (source)" in columns:
+            return DOCUMENT_TYPES["Doc 6"]
+        if _matches(r"\bstate\b", title_text) or _matches(r"\b(?:reported by|from)\s+state\b|\bstate\s+lab", " ".join(columns) + " " + body):
+            return DOCUMENT_TYPES["Doc 3"]
+        return DOCUMENT_TYPES["Doc 5"]
+    if _matches(r"\bapproved\b", title_text) and _matches(r"\bindications?\b", body):
         return DOCUMENT_TYPES["Doc 8"]
-    if "fdc" in text_sample and ("irrational" in text_sample or "prohibition" in text_sample):
+    if _matches(r"\bfdcs?\b|fixed dose combination", title_text) and _matches(r"\bcommittee\b|\bevaluation\b|\bstatus\b", title_text):
         return DOCUMENT_TYPES["Doc 9"]
-    if "sec" in text_sample or "tentative schedule" in text_sample:
+    if _matches(r"\bsec\b|subject expert committee|\bndac\b|tentative schedule", title_text):
         return DOCUMENT_TYPES["Doc 10"]
-    if "noc" in text_sample or "import" in text_sample:
+    if _matches(r"\bnoc\b|import\s+(?:permission|licen[cs]e)|registration certificate", title_text):
         return DOCUMENT_TYPES["Doc 11"]
-    if "vaccine" in text_sample and "inspection" in text_sample:
+    if _matches(r"\bvaccine\b", title_text) and _matches(r"\binspection\b", title_text):
         return DOCUMENT_TYPES["Doc 12"]
-    if "pcr" in text_sample or "testing kit" in text_sample:
+    if _matches(r"\bpcr\b|testing kits?\b", title_text):
         return DOCUMENT_TYPES["Doc 13"]
-    if "laboratory" in text_sample and "ivd" in text_sample:
+    if _matches(r"\bivd\b", title_text) and _matches(r"\blaborator(?:y|ies)\b", title_text):
         return DOCUMENT_TYPES["Doc 14"]
-    if "fee" in text_sample or "faq" in text_sample:
+    if _matches(r"\bfees?\b|\bfaqs?\b|checklist", title_text):
         return DOCUMENT_TYPES["Doc 15"]
-    if "g.s.r" in text_sample or "s.o." in text_sample:
-        return DOCUMENT_TYPES["Doc 16"]
-    return ("General Regulatory Document", "Administrative")
+    return GENERAL_DOCUMENT
 
 
-def _process_table_rows(raw_rows: list[list[Any]], clean_headers: list[str], current_record: dict[str, Any] | None = None):
-    records: list[dict[str, Any]] = []
-    for row in raw_rows:
-        if _is_noise_row(row):
-            continue
-
-        row_cells = [_clean_cell(cell) for cell in row]
-        row_str = " ".join(row_cells).strip()
-        first_cell = row_cells[0] if row_cells else ""
-        second_cell = row_cells[1] if len(row_cells) > 1 else ""
-
-        remark_match = (
-            re.search(r"^(remark|remarks)\s*:\s*(.*)", first_cell, re.IGNORECASE)
-            or re.search(r"^(remark|remarks)\s*:\s*(.*)", second_cell, re.IGNORECASE)
-            or re.search(r"^(remark|remarks)\s*:\s*(.*)", row_str, re.IGNORECASE)
-        )
-
-        if remark_match and current_record is not None and not _is_valid_anchor(first_cell):
-            remark_text = remark_match.group(2).strip()
-            if not remark_text and len(row_cells) > 1:
-                remark_text = " ".join(
-                    cell for cell in row_cells if cell and not cell.lower().startswith("remark")
-                ).strip()
-            current_record["Remark"] = remark_text
-            continue
-
-        if _is_valid_anchor(first_cell):
-            record: dict[str, Any] = {}
-            for idx, value in enumerate(row_cells):
-                col_name = clean_headers[idx] if idx < len(clean_headers) else f"Column_{idx + 1}"
-                record[col_name] = value
-            records.append(record)
-            current_record = record
-        elif current_record is not None:
-            for idx, value in enumerate(row_cells):
-                if not value:
-                    continue
-                col_name = clean_headers[idx] if idx < len(clean_headers) else f"Column_{idx + 1}"
-                if col_name in current_record:
-                    current_record[col_name] = (current_record[col_name] + " " + value).strip()
-                else:
-                    current_record[col_name] = value
-
-    has_remark_added = any("Remark" in record for record in records)
-    if has_remark_added and "Remark" not in clean_headers and "Remarks" not in clean_headers:
-        clean_headers.append("Remark")
-
-    return clean_headers, records, current_record
+def _record_columns(records: list[dict[str, Any]]) -> list[str]:
+    columns: list[str] = []
+    for record in records:
+        for key in record:
+            if key not in columns and key != "page_number":
+                columns.append(key)
+    return columns
 
 
 def _process_single_payload(payload: dict[str, Any]) -> dict[str, Any]:
@@ -534,85 +358,42 @@ def _process_single_payload(payload: dict[str, Any]) -> dict[str, Any]:
     source_category = _source_category(payload)
     title = _document_title(payload, document_id)
     source_key = str(payload.get("s3_object_key") or payload.get("source_file") or f"{document_id}.pdf")
-    filename = PurePosixPath(source_key).name
-    tables = payload.get("tables") or []
 
     pvpi_result = _parse_pvpi_alert(payload)
     if pvpi_result is not None:
+        pvpi_result["parse_method"] = "pvpi_table"
         return pvpi_result
 
-    if _is_banned_drugs_payload(payload):
-        banned_result = _run_exact_legacy_parser(payload, "banneddrugs", "banned_drugs")
-        if banned_result is not None:
-            return banned_result
+    pages = [page for page in payload.get("pages") or [] if isinstance(page, dict)]
+    text = "\n".join(str(page.get("text") or "") for page in pages)
+    dropped: list[dict[str, Any]] = []
+    records, columns = records_from_tables(_table_blocks(payload), dropped=dropped)
+    if dropped:
+        print(f"WARN {len(dropped)} table row(s) could not be placed in {source_key}", file=sys.stderr)
+    doc_type, group_type = _classify_document(title, columns, text)
+    method = "table" if records else "none"
 
-    is_special_document = any(special_id.casefold() in filename.casefold() for special_id in SPECIAL_FILE_IDS)
-    if tables or is_special_document:
-        legacy_result = _run_exact_legacy_parser(payload, filename, source_category)
-        if legacy_result is not None:
-            return legacy_result
-
-    all_records: list[dict[str, Any]] = []
-    all_exact_columns: list[str] = []
-    all_pages: set[int] = set()
-    sample_text = " ".join(
-        page.get("text") or "" for page in (payload.get("pages") or [])
-    )
-    headers_found: list[list[str]] = []
-    master_headers: list[str] | None = None
-    current_record: dict[str, Any] | None = None
-
-    for table in tables:
-        if not isinstance(table, dict):
-            continue
-        rows = _rows_from_table(table)
-        if not rows or not isinstance(rows, list):
-            continue
-        page_num = table.get("page") or 1
-        all_pages.add(int(page_num))
-        if _is_summary_table(rows):
-            continue
-
-        if master_headers is None:
-            header_idx, clean_headers = _find_real_header_row(rows)
-            master_headers = clean_headers
-            headers_found.append(clean_headers)
-            data_rows = rows[header_idx + 1:]
-        else:
-            first_row = " ".join(_clean_cell(cell) for cell in rows[0]).lower() if rows else ""
-            if any(term in first_row for term in ["s no", "s n", "batch no", "product", "manufactured by", "name of drug"]):
-                data_rows = rows[1:]
-            else:
-                data_rows = rows
-
-        master_headers, records, current_record = _process_table_rows(data_rows, master_headers, current_record)
-        if not all_exact_columns and master_headers:
-            all_exact_columns = master_headers
-        elif "Remark" in (master_headers or []) and "Remark" not in all_exact_columns and "Remarks" not in all_exact_columns:
-            all_exact_columns.append("Remark")
-        all_records.extend(records)
-
-    doc_type, group_type = _classify_document(source_category, filename, headers_found, sample_text)
-
-    if source_category in ["alerts", "nsq_json"] and doc_type in [
-        DOCUMENT_TYPES["Doc 3"],
-        DOCUMENT_TYPES["Doc 4"],
-        DOCUMENT_TYPES["Doc 5"],
-        DOCUMENT_TYPES["Doc 6"],
-    ]:
-        all_records = _normalize_alert_records(all_records)
-        all_exact_columns = [
-            "S No",
-            "Name of Drugs/medical device/cosmetics",
-            "Batch No",
-            "Date of Manufacture",
-            "Date of Expiry",
-            "Manufactured By",
-            "Reason for failure",
-            "Drawn By",
-            "From",
-            "Remarks",
-        ]
+    has_products = any(PRODUCT_COLUMN in record for record in records)
+    if (doc_type, group_type) in (DOCUMENT_TYPES["Doc 1"], DOCUMENT_TYPES["Doc 16"]) and not has_products:
+        listed = narrative.parse_notification(text)
+        if listed:
+            records, method = listed, "notification_list"
+    if records and not has_products and any(BATCH_COLUMN in record for record in records):
+        # Batch tables in recall letters often omit the product; it is named in the letter's subject.
+        subject = narrative.subject_product(text, title)
+        if subject:
+            for record in records:
+                record.setdefault(PRODUCT_COLUMN, subject[0])
+                if subject[1]:
+                    record.setdefault(MANUFACTURER_COLUMN, subject[1])
+    if not records:
+        # Any document whose tables give nothing may still be an alert written as prose
+        # (e.g. an NSQ letter naming its batches in the subject line).
+        records, method = narrative.parse_alert(text, title), "alert_prose"
+    if not records:
+        records, method = narrative.parse_notice(text, title), "notice"
+    if not records:
+        method = "none"
 
     structured_json = {
         "document_id": document_id,
@@ -622,10 +403,14 @@ def _process_single_payload(payload: dict[str, Any]) -> dict[str, Any]:
         "document_type": doc_type,
         "group_type": group_type,
         "title": title,
-        "pages": sorted(all_pages),
-        "total_rows": len(all_records),
-        "exact_columns": all_exact_columns,
-        "records": all_records,
+        "pages": sorted({int(record.get("page_number") or 0) for record in records} - {0}) or sorted(
+            int(page.get("page") or 1) for page in pages
+        ),
+        "parse_method": method,
+        "total_rows": len(records),
+        "dropped_rows": dropped if method == "table" else [],
+        "exact_columns": _record_columns(records),
+        "records": records,
     }
     return _apply_scraper_metadata(structured_json, payload)
 
@@ -641,7 +426,13 @@ def _iter_s3_objects(s3_client: Any, bucket: str, prefix: str) -> list[str]:
     return sorted(keys, key=str.casefold)
 
 
-def _read_event_bearing_source_keys(s3_client: Any, bucket: str, key: str) -> set[str]:
+def _read_documents_to_parse(s3_client: Any, bucket: str, key: str) -> dict[str, dict[str, Any]]:
+    """Classifier decisions for every document that should be parsed, keyed by source PDF key.
+
+    Event-bearing documents are parsed, and so are documents the classifier flagged for review: nothing
+    downstream reads the review flag, so skipping them silently discarded documents such as prohibition
+    notices. Their records carry the flag through to the run approval step instead.
+    """
     response = s3_client.get_object(Bucket=bucket, Key=key)
     content = response["Body"].read().decode("utf-8-sig")
     reader = csv.DictReader(io.StringIO(content))
@@ -650,12 +441,29 @@ def _read_event_bearing_source_keys(s3_client: Any, bucket: str, key: str) -> se
         raise ValueError(
             "Classifier CSV must contain 'bucket' and 's3_object_key' columns"
         )
-    return {
-        source_key.strip()
-        for row in reader
-        if (row.get("bucket") or "").strip().casefold() == "event-bearing"
-        if (source_key := (row.get("s3_object_key") or "").strip())
-    }
+    decisions: dict[str, dict[str, Any]] = {}
+    for row in reader:
+        source_key = (row.get("s3_object_key") or "").strip()
+        bucket_name = (row.get("bucket") or "").strip().casefold()
+        needs_review = (row.get("needs_review") or "").strip().casefold() == "true"
+        if not source_key or not (bucket_name == "event-bearing" or needs_review):
+            continue
+        try:
+            reasons = json.loads(row.get("needs_review_reasons") or "[]")
+        except json.JSONDecodeError:
+            reasons = [row["needs_review_reasons"]]
+        decisions[source_key] = {"bucket": bucket_name, "needs_review": needs_review, "reasons": reasons}
+    return decisions
+
+
+def _manifest_has_pdfs(manifest: dict[str, Any]) -> bool:
+    if "has_pdfs" in manifest:
+        return bool(manifest["has_pdfs"])
+    return any(
+        isinstance(document, dict)
+        and (document.get("kind") == "pdf" or str(document.get("s3_key") or "").casefold().endswith(".pdf"))
+        for document in manifest.get("documents") or []
+    )
 
 
 def _strip_source_root_segment(relative: str) -> str:
@@ -788,12 +596,22 @@ def main(argv: list[str] | None = None) -> int:
 
     s3_client = boto3.client("s3", region_name=args.region)
     manifest_mode = bool(args.manifest_s3_key and args.run_id)
+    if manifest_mode and not _manifest_has_pdfs(read_manifest(s3_client, args.bucket, args.manifest_s3_key)):
+        # JSON-only runs skip the extractor and classifier; there is nothing for the parser to read.
+        print("Manifest has no PDFs; nothing to parse.")
+        write_result(s3_client, args.bucket, args.run_id, "parser", {
+            "schema_version": 1, "stage": "parser", "run_id": args.run_id, "started_at": started_at,
+            "finished_at": utc_now_iso(), "status": "success", "input_keys": [], "output_keys": [],
+            "review_documents": [], "error": None,
+        })
+        return 0
     if manifest_mode:
-        classifier_output_keys = _manifest_result_keys(s3_client, args.bucket, args.run_id, "classifier")
+        # Parse the extractor's page/table JSON; the classifier's per-document verdicts carry no content.
         keys = [
-            key for key in classifier_output_keys
+            key for key in _manifest_result_keys(s3_client, args.bucket, args.run_id, "extractor")
             if PurePosixPath(key).suffix.casefold() == ".json"
         ]
+        classifier_output_keys = _manifest_result_keys(s3_client, args.bucket, args.run_id, "classifier")
         classifier_csv_keys = [
             key for key in classifier_output_keys
             if PurePosixPath(key).name.casefold() == "classification_summary.csv"
@@ -812,7 +630,7 @@ def main(argv: list[str] | None = None) -> int:
         keys = keys[:args.limit]
     classifier_bucket = args.classifier_csv_bucket or args.bucket
     try:
-        event_bearing_source_keys = _read_event_bearing_source_keys(
+        documents_to_parse = _read_documents_to_parse(
             s3_client, classifier_bucket, classifier_csv_key
         )
     except Exception as exc:
@@ -820,7 +638,7 @@ def main(argv: list[str] | None = None) -> int:
             f"Could not load classifier CSV from s3://{classifier_bucket}/"
             f"{classifier_csv_key}: {exc}"
         )
-    if not keys:
+    if not keys and not manifest_mode:
         print(
             f"No JSON files found in s3://{args.bucket}/{args.prefix}. "
             "Point --prefix to the extractor JSON output, currently "
@@ -830,6 +648,7 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     parsed_keys: list[str] = []
+    review_documents: list[str] = []
     output_keys: list[str] = []
     errors: list[str] = []
     skipped_count = 0
@@ -842,7 +661,7 @@ def main(argv: list[str] | None = None) -> int:
             try:
                 payload = _read_json_from_s3(s3_client, args.bucket, s3_key)
                 source_pdf_key = payload.get("s3_object_key") or payload.get("source_file")
-                if not source_pdf_key or source_pdf_key not in event_bearing_source_keys:
+                if not source_pdf_key or source_pdf_key not in documents_to_parse:
                     skipped_count += 1
                     print(f"Skipped (not event-bearing): {s3_key}")
                     continue
@@ -868,8 +687,12 @@ def main(argv: list[str] | None = None) -> int:
                     if metadata:
                         payload["scraper_metadata"] = metadata
                 structured = _process_single_payload(payload)
-                title = structured.get("title") or payload.get("pdf_title") or payload.get("title")
-                output_key = _output_key_for_document(s3_key, input_prefix, args.s3_output_prefix, title)
+                decision = documents_to_parse.get(source_pdf_key) or {}
+                if decision.get("needs_review"):
+                    structured["classifier_review"] = {"bucket": decision["bucket"], "reasons": decision["reasons"]}
+                    review_documents.append(source_pdf_key)
+                # Named after the input file, which is unique; titles repeat across monthly documents.
+                output_key = _output_key_for_document(s3_key, input_prefix, args.s3_output_prefix)
                 _write_json_to_s3(s3_client, args.s3_output_bucket, output_key, structured)
                 output_keys.append(output_key)
                 parsed_keys.append(source_pdf_key or s3_key)
@@ -881,7 +704,7 @@ def main(argv: list[str] | None = None) -> int:
 
     update_parsed_documents(parsed_keys)
     print(
-        f"Parsing complete: {len(parsed_keys)} event-bearing documents parsed; "
+        f"Parsing complete: {len(parsed_keys)} documents parsed ({len(review_documents)} flagged for review); "
         f"{skipped_count} non-event-bearing documents skipped"
     )
     if args.run_id and args.bucket:
@@ -899,6 +722,7 @@ def main(argv: list[str] | None = None) -> int:
                 "status": "failure" if failed else "success",
                 "input_keys": keys,
                 "output_keys": output_keys,
+                "review_documents": review_documents,
                 "error": "; ".join(errors) or None,
             },
         )

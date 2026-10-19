@@ -1,0 +1,1277 @@
+{
+  "description": "Real CDSCO PDFs with hand-verified expectations. rows_expected = data rows in the PDF; samples were checked by eye against rendered pages. baseline = scores of the production extractor+parser when each document was added (first 25 on 2026-10-15, the next 15 on 2026-10-17); harness --update-baseline only ever raises it.",
+  "documents": [
+    {
+      "id": "12927",
+      "title": "CDSCO NSQ ALERT FOR THE MONTH OF June 2025",
+      "release_date": "2025-Jul-18",
+      "file": "initial_data_ingestion/01_downloads/alerts/12927_CDSCO_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.pdf",
+      "sha256": "e4d55f085dcfb29bb808c55ddd89a374c1f256c4a620af95a2c50144ce410509",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTI5Mjc="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 55,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Dextrose Injection I.P. 5%w/v (D5)",
+          "batch": "1-3098"
+        },
+        {
+          "s_no": "55",
+          "product": "Cefpodoxime Dispersible Tablets 200 mg (Xpocef 200 DT)",
+          "batch": "XCT24078C"
+        }
+      ],
+      "notes": "2025 CDSCO-lab layout",
+      "baseline": {
+        "rows_matched": 55,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "12926",
+      "title": "STATE NSQ ALERT FOR THE MONTH OF June 2025",
+      "release_date": "2025-Jul-18",
+      "file": "initial_data_ingestion/01_downloads/alerts/12926_STATE_NSQ_ALERT_FOR_THE_MONTH_OF_June_2025.pdf",
+      "sha256": "43de100540526f71bd7555afeecb84ffc64c308e1a564d37c91e0446c2b307c3",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTI5MjY="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 130,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Lorazepam Tablets I.P (1 mg)",
+          "batch": "3305"
+        },
+        {
+          "s_no": "130",
+          "product": "ORS(Oral Rehydration Salts IP)",
+          "batch": "P0831"
+        }
+      ],
+      "notes": "2025 state-lab layout, 15 pages",
+      "baseline": {
+        "rows_matched": 130,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "12960",
+      "title": "Revise list drug alert May-2025",
+      "release_date": "2025-Jul-18",
+      "file": "initial_data_ingestion/01_downloads/alerts/12960_Revise_list_drug_alert_May-2025.pdf",
+      "sha256": "0ba4117374cfb2bb778fdc80191c2c352dcc3eb755734adff3437de232d60ff0",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTI5NjA="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 1,
+      "samples": [
+        {
+          "s_no": "19",
+          "product": "Tranexamic Acid Tablets IP (Trenaxa 500)",
+          "batch": "18242021A"
+        }
+      ],
+      "notes": "revision notice; single row numbered 19",
+      "baseline": {
+        "rows_matched": 1,
+        "rows_extra": 0,
+        "samples_correct": 1
+      }
+    },
+    {
+      "id": "12393",
+      "title": "Drug Alert for the Month of December 2024",
+      "release_date": "2025-Jan-24",
+      "file": "initial_data_ingestion/01_downloads/alerts/12393_Drug_Alert_for_the_Month_of_December_2024.pdf",
+      "sha256": "84a032123daeadabfb159111c9a053f0a608c7fd8a0d620911403ab636e34ddb",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTIzOTM="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 51,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Cefotaxime Sodium Injection IP 1 g",
+          "batch": "DP24029"
+        },
+        {
+          "s_no": "51",
+          "product": "DOXYCYCLINE CAPSULES IP 100 mg",
+          "batch": "HDXA08"
+        }
+      ],
+      "notes": "full-width section row above header",
+      "baseline": {
+        "rows_matched": 51,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "12290",
+      "title": "State Drug Alert for the Month of November 2024",
+      "release_date": "2024-Dec-27",
+      "file": "initial_data_ingestion/01_downloads/alerts/12290_State_Drug_Alert_for_the_Month_of_November_2024.pdf",
+      "sha256": "f582691ff96bedf82f541b272e6633ac761e40e8b711f93acafee6044fc6d391",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTIyOTA="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 70,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "EnrofloxacinInj IP",
+          "batch": "VT4072"
+        },
+        {
+          "s_no": "4",
+          "product": "PARACETAMOL TABLETS IP 500mg",
+          "batch": "X51H127"
+        },
+        {
+          "s_no": "70",
+          "product": "Dermotil-K Spray",
+          "batch": "E1207"
+        }
+      ],
+      "notes": "full-width 'B. State Laboratories' row above a 3-line header",
+      "baseline": {
+        "rows_matched": 70,
+        "rows_extra": 0,
+        "samples_correct": 3
+      }
+    },
+    {
+      "id": "11372",
+      "title": "NSQ May 2024 CDSCO Labs",
+      "release_date": "2024-Jun-20",
+      "file": "initial_data_ingestion/01_downloads/alerts/11372_NSQ_May_2024_CDSCO_Labs.pdf",
+      "sha256": "2e4471b661e24f94b8811fa024001b369ab789614d4f86a1c29c0093132c5ec0",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTEzNzI="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 39,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Terbutaline Sulfate",
+          "batch": "VS16010"
+        },
+        {
+          "s_no": "37",
+          "product": "Calcium 500 mg",
+          "batch": "LMT240263"
+        },
+        {
+          "s_no": "39",
+          "product": "Ceftriaxone Injection IP",
+          "batch": "C2402-02F"
+        }
+      ],
+      "notes": "batch numbers wrap inside a narrow column",
+      "baseline": {
+        "rows_matched": 39,
+        "rows_extra": 0,
+        "samples_correct": 3
+      }
+    },
+    {
+      "id": "11373",
+      "title": "NSQ May 2024 State Labs",
+      "release_date": "2024-Jun-20",
+      "file": "initial_data_ingestion/01_downloads/alerts/11373_NSQ_May_2024_State_Labs.pdf",
+      "sha256": "4552c0329f1888a312698f5fe2a0351e5756d8c9dbb23cd422fbeecbebbe7d79",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTEzNzM="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 13,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Cyra Tablets, Rabeprazole Sodium Tablets IP",
+          "batch": "CA21868"
+        },
+        {
+          "s_no": "13",
+          "product": "Sif Alben Suspension",
+          "batch": "AL800123"
+        }
+      ],
+      "notes": "batch numbers wrap inside a narrow column",
+      "baseline": {
+        "rows_matched": 13,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "10784",
+      "title": "Drug Alert for the Month of November 2023",
+      "release_date": "2023-Dec-20",
+      "file": "initial_data_ingestion/01_downloads/alerts/10784_Drug_Alert_for_the_Month_of_November_2023.pdf",
+      "sha256": "19d995956fd6fee1a5ac02a7b3ea32b9e6639f0a832cc795bc81b41bf2a5fabb",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTA3ODQ="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 64,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Cefixime, Azithromycin and Lactic Acid Bacillus Tablets (SEFIX-CZ LB TABLETS)",
+          "batch": "JUN-23102"
+        },
+        {
+          "s_no": "2",
+          "product": "Paracetamol Tablets IP 500 mg",
+          "batch": "PRS-520"
+        },
+        {
+          "s_no": "64",
+          "product": "Caffeine Anhydrous BP",
+          "batch": "CF/23/0007"
+        }
+      ],
+      "notes": "summary table above the data table; 62 NSQ + 1 spurious + 1 misbranded",
+      "baseline": {
+        "rows_matched": 64,
+        "rows_extra": 0,
+        "samples_correct": 3
+      }
+    },
+    {
+      "id": "11955",
+      "title": "Samples declared NSQ 2017-2023",
+      "release_date": "2024-Sep-11",
+      "file": "initial_data_ingestion/01_downloads/alerts/11955_Samples_declared_NSQ_2017-2023.pdf",
+      "sha256": "36a0e5447692cae42e7d828bed17fa96599e7df917275143f44f788b123cd0d5",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTE5NTU="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 16,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Bio Typh",
+          "batch": "1050411"
+        },
+        {
+          "s_no": "1",
+          "product": "Typhoid Polysaccharide Vaccine I.P. (TYPBAR)",
+          "batch": "54A22001A"
+        }
+      ],
+      "notes": "one table per year 2017-2023, numbering restarts",
+      "baseline": {
+        "rows_matched": 16,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "1950",
+      "title": "List of Drugs, Medical Devices and Cosmetics declared as Not of Standard Quality/Spurious/Adulterated/Misbranded, For the Month of August, 2018",
+      "release_date": "2018-Sep-14",
+      "file": "initial_data_ingestion/01_downloads/alerts/1950_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.pdf",
+      "sha256": "857d32733b516662bd8ce73d14d459c2d3c4accab6665976bf7b8fc80b5b6e4b",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTk1MA=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 34,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Telkonol-20 Tablets (Telmisartan Tablets IP 20mg)",
+          "batch": "HT-3049"
+        },
+        {
+          "s_no": "34",
+          "product": "Paracetamol Tablets I.P. 500mg",
+          "batch": "M-9706"
+        }
+      ],
+      "notes": "2018 format: batch/dates/manufacturer share one column",
+      "baseline": {
+        "rows_matched": 34,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "2363",
+      "title": "Drug Alert list for month of January 2016",
+      "release_date": "2016-Feb-10",
+      "file": "initial_data_ingestion/01_downloads/alerts/2363_Drug_Alert_list_for_month_of_January_2016.pdf",
+      "sha256": "5f1e96507033af72131ddd8a1b8f6e8f64fbce96193b97413a3990993276146c",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MjM2Mw=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 25,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Noxflox (Ofloxacin IP 200 mg Tablets)",
+          "batch": "HST-15-036"
+        },
+        {
+          "s_no": "25",
+          "product": "Amoxycillin Dispersible Tablets IP (BILIN-250 TABLETS)",
+          "batch": "WT-1900"
+        }
+      ],
+      "notes": "2016 format: combined batch column",
+      "baseline": {
+        "rows_matched": 25,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "2254",
+      "title": "Drug Alert list for month of August 2014",
+      "release_date": "2014-Sep-08",
+      "file": "initial_data_ingestion/01_downloads/alerts/2254_Drug_Alert_list_for_month_of_August_2014.pdf",
+      "sha256": "a2bea4d2ca17ed248ee1822ddd37b7eca0d837f8887bd03913f5a42925c130ef",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MjI1NA=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 22,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "ERYTHROMYCIN ESTOLATE TABLETS",
+          "batch": "EE009"
+        },
+        {
+          "s_no": "22",
+          "product": "Rabeprazole and Domperidone Sustained Release Caps (Rabela DSR Caps)",
+          "batch": "DMC-81"
+        }
+      ],
+      "notes": "2014 format: combined batch column, two layouts",
+      "baseline": {
+        "rows_matched": 22,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "2362",
+      "title": "Drug Alert list for month of May 2013",
+      "release_date": "2013-Jun-11",
+      "file": "initial_data_ingestion/01_downloads/alerts/2362_Drug_Alert_list_for_month_of_May_2013.pdf",
+      "sha256": "b54832f23dc8deefeb80a06e74911fe7943ea2d291723f8f2daabdbe69cf922d",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MjM2Mg=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 9,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Rantitidine Hydrochloride Tablets",
+          "batch": "C 2009"
+        },
+        {
+          "s_no": "9",
+          "product": "Calcium Carbonate Tablets (MARYCAL-500)",
+          "batch": "MMT-657"
+        }
+      ],
+      "notes": "2013 format: combined column; dash glyph decodes as U+FFFD",
+      "baseline": {
+        "rows_matched": 9,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "12959",
+      "title": "List of spurious Drugs  for the month of June-2025",
+      "release_date": "2025-Jul-18",
+      "file": "initial_data_ingestion/01_downloads/alerts/12959_List_of_spurious_Drugs_for_the_month_of_June-2025.pdf",
+      "sha256": "7ddd0c43d13b56f76ed1a4097c992a963e71f45430c52f25429d389c28c85e0b",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTI5NTk="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 4,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Cefixime Tablets IP (TAXIM-O 200 TABLETS)",
+          "batch": "24460967"
+        },
+        {
+          "s_no": "4",
+          "product": "Rosuvas F 20 Tablets",
+          "batch": "SIF2736A"
+        }
+      ],
+      "notes": "spurious list; row 4 alone on page 2",
+      "baseline": {
+        "rows_matched": 4,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "12291",
+      "title": "List of Drugs Medical Devices Vaccine and Cosmetics declared as Spurious for the Month of November 2024",
+      "release_date": "2024-Dec-27",
+      "file": "initial_data_ingestion/01_downloads/alerts/12291_List_of_Drugs_Medical_Devices_Vaccine_and_Cosmetics_declared_as_Spurious_for_the_Month_of_November_2024.pdf",
+      "sha256": "e1951ead85b45629e9471b04c1a571e4b8a76be4aa2e4bf900235fc2c62f16fd",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTIyOTE="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 2,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Pantoprazole Gastro-Resistant Tablets I.P.",
+          "batch": "23443074"
+        },
+        {
+          "s_no": "2",
+          "product": "Amoxycillin and Potassium Clavulanate Tablets IP (AUGMENTIN 625 DUO)",
+          "batch": "824D054"
+        }
+      ],
+      "notes": "spurious list",
+      "baseline": {
+        "rows_matched": 2,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "11255",
+      "title": "SPURIOUS ALERT FOR THE MONTH OF APRIL 2024",
+      "release_date": "2024-May-17",
+      "file": "initial_data_ingestion/01_downloads/alerts/11255_SPURIOUS_ALERT_FOR_THE_MONTH_OF_APRIL_2024.pdf",
+      "sha256": "0ddfa36a2904691416e54730ef14f37110e2ae8acf55261244ddbac1778f9e2e",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTEyNTU="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 5,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Instgra Tablets (Dolutegravir Tablets IP 50 mg)",
+          "batch": "E16DV23001"
+        },
+        {
+          "s_no": "4",
+          "product": "Rifaximin Tablets (Rifagut 400)",
+          "batch": "GKE0938A"
+        },
+        {
+          "s_no": "5",
+          "product": "Cefixime Trihydrate with Lactic Acid Bacillus",
+          "batch": "BHCJ-009"
+        }
+      ],
+      "notes": "region rows ('NCT of DELHI', 'JHARKHAND') inside the table",
+      "baseline": {
+        "rows_matched": 5,
+        "rows_extra": 0,
+        "samples_correct": 3
+      }
+    },
+    {
+      "id": "13174",
+      "title": "Alert on theft of multiple drug products of M/s. Novo Nordisk during transit",
+      "release_date": "2025-Aug-21",
+      "file": "initial_data_ingestion/01_downloads/alerts/13174_Alert_on_theft_of_multiple_drug_products_of_Ms._Novo_Nordisk_during_transit.pdf",
+      "sha256": "7274534d0f51ea557cd70da207f3f77c4c4e2471e0af0c08490e6e091170fa98",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTMxNzQ="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 6,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Insulin degludec/ Insulin Aspart (r-DNA origin) solution for injection",
+          "batch": "RT6GY96"
+        },
+        {
+          "s_no": "6",
+          "product": "Semaglutide Injection 1 mg",
+          "batch": "RP5S210"
+        }
+      ],
+      "notes": "scanned page; ruled table with faint lines",
+      "baseline": {
+        "rows_matched": 6,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "14514",
+      "title": "List of 16 FDCs banned dated 11.06.2026",
+      "release_date": "2026-Jul-21",
+      "file": "initial_data_ingestion/01_downloads/fdc/14514_List_of_16_FDCs_banned_dated_11.06.2026.pdf",
+      "sha256": "67e24b20cb498fb6b8a752a255c1b521bd6d004939117bed67149ab655318fe9",
+      "source": {
+        "listing": "fdc",
+        "num_id": "MTQ1MTQ="
+      },
+      "source_category": "fdc",
+      "requires_ocr": false,
+      "rows_expected": 16,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Acetyl Salicylic acid + Ethoheptazine",
+          "notification": "S.O. 3068(E)"
+        },
+        {
+          "s_no": "16",
+          "product": "Cefuroxime + Serratiopeptidase",
+          "notification": "S.O. 3083(E)"
+        }
+      ],
+      "notes": "banned FDC list",
+      "baseline": {
+        "rows_matched": 16,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "12087",
+      "title": "List of Prohibited FDC drugs 156 FDCs dated 02.08.2024",
+      "release_date": "2024-Oct-24",
+      "file": "initial_data_ingestion/01_downloads/fdc/12087_List_of_Prohibited_FDC_drugs_156_FDCs_dated_02.08.2024.pdf",
+      "sha256": "dc4da65a878fa54e3570190fba8c8a4e803d12e6b1f7a09ebe37e75eec514375",
+      "source": {
+        "listing": "fdc",
+        "num_id": "MTIwODc="
+      },
+      "source_category": "fdc",
+      "requires_ocr": false,
+      "rows_expected": 156,
+      "samples": [
+        {
+          "s_no": "151",
+          "product": "Methocarbamol + Diclofenac Sodium Injection",
+          "notification": "S.O.3435 (E)"
+        },
+        {
+          "s_no": "156",
+          "product": "Tramadol HCl +Paracetamol +Caffeine +Taurine",
+          "notification": "S.O.3440 (E)"
+        }
+      ],
+      "notes": "banned FDC list, 7 pages",
+      "baseline": {
+        "rows_matched": 156,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "11024",
+      "title": "LIST OF DRUGS PROHIBITED FOR MANUFACTURE AND SALE THROUGH GAZETTE NOTIFICATIONS UNDER SECTION 26A OF DRUGS & COSMETICS ACT 1940 BY THE MINISTRY OF HEALTH AND FAMILY WELFARE WITH THEIR PRESENT STATUS AS ON 22.11.2021.",
+      "release_date": "2024-Mar-22",
+      "file": "initial_data_ingestion/01_downloads/fdc/11024_LIST_OF_DRUGS_PROHIBITED_FOR_MANUFACTURE_AND_SALE_THROUGH_GAZETTE_NOTIFICATIONS_UNDER_SECTION_26A_OF_DRUGS_COSMETICS_ACT.pdf",
+      "sha256": "4549bdef7cafd9c0dcd389b6624da197ac568a8682e78f6d5fb1b6f248065b07",
+      "source": {
+        "listing": "fdc",
+        "num_id": "MTEwMjQ="
+      },
+      "source_category": "fdc",
+      "requires_ocr": false,
+      "rows_expected": 518,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Amidopyrine",
+          "notification": "GSR NO. 578(E)"
+        },
+        {
+          "s_no": "12",
+          "product": "Fixed dose combinations of any other Tetracycline With Vitamin C",
+          "notification": "578(E)"
+        }
+      ],
+      "notes": "master Section 26A list; footnote markers (1#..6#) beside serials",
+      "baseline": {
+        "rows_matched": 517,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "10494",
+      "title": "Voluntary Recall of Digene Gel manufactured by M/s Abbott India Limited, L-18/19, Verna Industrial Estate, Salcette, Goa-403722",
+      "release_date": "2023-Aug-31",
+      "file": "initial_data_ingestion/01_downloads/alerts/10494_Voluntary_Recall_of_Digene_Gel_manufactured_by_Ms_Abbott_India_Limited_L-1819_Verna_Industrial_Estate_Salcette_Goa-40372.pdf",
+      "sha256": "60501e8e11a6d0e4904cd31ee63bfb703a940ba49fc589f284be08394a8b0945",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTA0OTQ="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 5,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Digene Gel",
+          "batch": "510303D7"
+        },
+        {
+          "s_no": "5",
+          "product": "Digene Gel",
+          "batch": "500354D7"
+        }
+      ],
+      "notes": "scanned recall letter; batches listed in prose",
+      "baseline": {
+        "rows_matched": 5,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "10504",
+      "title": "Alert on falsified versions of Adcetris Injection Brentuximab Vedotin Manufactured by M/s Takeda Pharmaceuticals Company Ltd",
+      "release_date": "2023-Sep-05",
+      "file": "initial_data_ingestion/01_downloads/alerts/10504_Alert_on_falsified_versions_of_Adcetris_Injection_Brentuximab_Vedotin_Manufactured_by_Ms_Takeda_Pharmaceuticals_Company_.pdf",
+      "sha256": "008e01c0a59d4b29c2c25665afbd3633186687c7098ee62e0d8a1475581cbafe",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTA1MDQ="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 8,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Adcetris Injection",
+          "batch": "11980412"
+        },
+        {
+          "s_no": "8",
+          "product": "Adcetris Injection",
+          "batch": "512053"
+        }
+      ],
+      "notes": "scanned falsified-product alert; batches with expiry (ED) in prose",
+      "baseline": {
+        "rows_matched": 8,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "14673",
+      "title": "2026.09.03 S.O. 4996(E)_ Prohibition of manufacture, import, sale and distribution of Carboxypenicillins and Phosphonic acid derivatives for animal use.",
+      "release_date": "2026-Sep-03",
+      "file": "initial_data_ingestion/01_downloads/gazette/14673_2026.09.03_S.O._4996E__Prohibition_of_manufacture_import_sale_and_distribution_of_Carboxypenicillins_and_Phosphonic_acid.pdf",
+      "sha256": "93434e6d8d0434bf5a41bed2f919e5e939c3e3120028f1034d533d287267998a",
+      "source": {
+        "listing": "gazette",
+        "num_id": "MTQ2NzM="
+      },
+      "source_category": "banned_drugs",
+      "requires_ocr": false,
+      "rows_expected": 2,
+      "samples": [
+        {
+          "s_no": "1.i",
+          "product": "Carboxypenicillins",
+          "notification": "S.O. 4996(E)"
+        },
+        {
+          "s_no": "1.ii",
+          "product": "Phosphonic acid derivatives",
+          "notification": "S.O. 4996(E)"
+        }
+      ],
+      "notes": "bilingual gazette with a roman-numeral item list",
+      "baseline": {
+        "rows_matched": 2,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "12742",
+      "title": "2025.05.22_S.O. 2298(E)_Notification to prohibit the import, manufacture, sale and distribution of certain antimicrobial products for animal use",
+      "release_date": "2025-May-22",
+      "file": "initial_data_ingestion/01_downloads/gazette/12742_2025.05.22_S.O._2298E_Notification_to_prohibit_the_import_manufacture_sale_and_distribution_of_certain_antimicrobial_pro.pdf",
+      "sha256": "615240b4fcf4ee3c5de0fb3bc3ece00aae96820d6f5c6b1e227bf003bc3f2727",
+      "source": {
+        "listing": "gazette",
+        "num_id": "MTI3NDI="
+      },
+      "source_category": "banned_drugs",
+      "requires_ocr": false,
+      "rows_expected": 34,
+      "samples": [
+        {
+          "s_no": "1.i",
+          "product": "Ureidopenicillins",
+          "notification": "S.O. 2298(E)"
+        },
+        {
+          "s_no": "2.xviii",
+          "product": "Zanamivir",
+          "notification": "S.O. 2298(E)"
+        }
+      ],
+      "notes": "bilingual gazette; English item list follows the Hindi one",
+      "baseline": {
+        "rows_matched": 34,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "11593",
+      "title": "2024.08.12_S.O. 3284(E)_Notification reg Prohibiton of Etodolac",
+      "release_date": "2024-Aug-12",
+      "file": "initial_data_ingestion/01_downloads/gazette/11593_2024.08.12_S.O._3284E_Notification_reg_Prohibiton_of_Etodolac.pdf",
+      "sha256": "f004f763cce56da3ea4afdb92a70298c14fe4d3de3e4e4be3819bba9a4fcf17a",
+      "source": {
+        "listing": "gazette",
+        "num_id": "MTE1OTM="
+      },
+      "source_category": "banned_drugs",
+      "requires_ocr": false,
+      "rows_expected": 1,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Etodolac + Paracetamol",
+          "notification": "S.O. 3284(E)"
+        }
+      ],
+      "notes": "gazette naming one fixed-dose combination in prose",
+      "baseline": {
+        "rows_matched": 1,
+        "rows_extra": 0,
+        "samples_correct": 1
+      }
+    },
+    {
+      "id": "7494",
+      "title": "Drug Alert list for month of June 2021",
+      "release_date": "2021-Jul-26",
+      "file": "initial_data_ingestion/01_downloads/alerts/7494_Drug_Alert_list_for_month_of_June_2021.pdf",
+      "sha256": "43ef26055a2a14b1e46ee6fb95a2cffd4e3dc37367e5bc74260c62eee174ec01",
+      "source": {
+        "listing": "alerts",
+        "num_id": "NzQ5NA=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 39,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "SESTIL - AD",
+          "batch": "CST-75"
+        },
+        {
+          "s_no": "24",
+          "product": "Atorvastatin Tablets IP 20 mg",
+          "batch": "AVBT802"
+        },
+        {
+          "s_no": "34",
+          "product": "CEFIXIME DISPERSIBLE TABLETS IP 200 mg",
+          "batch": "TPT GOV-2231"
+        }
+      ],
+      "notes": "scan with dashed rules: OCR table rebuilt from text positions, serials re-read from an enlarged strip",
+      "baseline": {
+        "rows_matched": 39,
+        "rows_extra": 0,
+        "samples_correct": 3
+      }
+    },
+    {
+      "id": "5349",
+      "title": "Drug Alert list for month of November 2019",
+      "release_date": "2019-Dec-10",
+      "file": "initial_data_ingestion/01_downloads/alerts/5349_Drug_Alert_list_for_month_of_November_2019.pdf",
+      "sha256": "15416954a669f61abb1449181bee11aac0aa25da825c6a3f9adf62c5743cb781",
+      "source": {
+        "listing": "alerts",
+        "num_id": "NTM0OQ=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 35,
+      "samples": [
+        {
+          "s_no": "28",
+          "product": "Zinc Sulphate Tablets IP 20 mg",
+          "batch": "05069"
+        },
+        {
+          "s_no": "30",
+          "product": "Ciprofloxacin Tablets IP 250 mg",
+          "batch": "(10)CITW-31"
+        },
+        {
+          "s_no": "1b",
+          "product": "Cefpirome Injection",
+          "batch": "GS1547G"
+        }
+      ],
+      "notes": "two trailing tables that each restart at 1; placeholder values ('Not Specified')",
+      "baseline": {
+        "rows_matched": 35,
+        "rows_extra": 0,
+        "samples_correct": 3
+      }
+    },
+    {
+      "id": "1716",
+      "title": "List of Drugs, Medical Devices and Cosmetics declared as Not of Standard Quality/Spurious/Adulterated/Misbranded, For the Month of MAY, 2018",
+      "release_date": "2018-Jun-11",
+      "file": "initial_data_ingestion/01_downloads/alerts/1716_List_of_Drugs_Medical_Devices_and_Cosmetics_declared_as_Not_of_Standard_QualitySpuriousAdulteratedMisbranded_For_the_Mon.pdf",
+      "sha256": "dd234ef6d1983e7e4ad541adde371ea273b6e2fb232dd50181057264cbaeaf22",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTcxNg=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 43,
+      "samples": [
+        {
+          "s_no": "28",
+          "product": "Prozol-P",
+          "batch": "27-72"
+        },
+        {
+          "s_no": "30",
+          "product": "Rolled (Gauze SCH F II)",
+          "batch": "86"
+        },
+        {
+          "s_no": "32",
+          "product": "Sodium Valproate Tablets 200 mg",
+          "batch": "VCR1197D"
+        }
+      ],
+      "notes": "long multi-line reason cells",
+      "baseline": {
+        "rows_matched": 43,
+        "rows_extra": 0,
+        "samples_correct": 3
+      }
+    },
+    {
+      "id": "11871",
+      "title": "2024.08.12__DR_S.O. 3285(E) to 3440(E)_ Prohibition of 156 FDCs",
+      "release_date": "2024-Aug-12",
+      "file": "initial_data_ingestion/01_downloads/gazette/11871_2024.08.12__DR_S.O._3285E_to_3440E__Prohibition_of_156_FDCs.pdf",
+      "sha256": "759f51d0ffec2f477f7ff581d15018615d724f16dad5f832d64b5a5c8e0a9dde",
+      "source": {
+        "listing": "gazette",
+        "num_id": "MTE4NzE="
+      },
+      "source_category": "banned_drugs",
+      "requires_ocr": false,
+      "rows_expected": 156,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Amylase + Protease + Glucoamylase",
+          "notification": "S.O. 3285(E)"
+        },
+        {
+          "s_no": "156",
+          "product": "Tramadol HCl +Paracetamol +Caffeine +Taurine",
+          "notification": "S.O. 3440(E)"
+        }
+      ],
+      "notes": "156 notifications in one gazette, one FDC each",
+      "baseline": {
+        "rows_matched": 156,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "1951",
+      "title": "2018.09.07_S.O. 4379(E) to S.O.4712 (E)_Prohibition and Restriction of FDC drugs_Section 26A",
+      "release_date": "2018-Sep-07",
+      "file": "initial_data_ingestion/01_downloads/gazette/1951_2018.09.07_S.O._4379E_to_S.O.4712_E_Prohibition_and_Restriction_of_FDC_drugs_Section_26A.pdf",
+      "sha256": "526368eba81370bd5afe5c7e619fe10bab4ede7f3830a2e1f84bd58229796421",
+      "source": {
+        "listing": "gazette",
+        "num_id": "MTk1MQ=="
+      },
+      "source_category": "banned_drugs",
+      "requires_ocr": false,
+      "rows_expected": 334,
+      "samples": [
+        {
+          "s_no": "104",
+          "product": "Metformin ER + Gliclazide MR + Voglibose",
+          "notification": "S.O. 4482(E)"
+        },
+        {
+          "s_no": "114",
+          "product": "Gentamicin Sulphate + Clotrimazole + Betamethasone + Lignocaine",
+          "notification": "S.O. 4492(E)"
+        }
+      ],
+      "notes": "334 notifications; fake-bold (overprinted) headings, a number wrapped across lines; S.O. 4707 is misprinted as 4607 in the English text",
+      "baseline": {
+        "rows_matched": 334,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "14656",
+      "title": "2026.08.18 S.O. 4595(E)_Prohibition of all formulations of FDC containing Chlorpheniramine Maleate and Phenylephrine HCl in children below four years of age",
+      "release_date": "2026-Aug-18",
+      "file": "initial_data_ingestion/01_downloads/gazette/14656_2026.08.18_S.O._4595E_Prohibition_of_all_formulations_of_FDC_containing_Chlorpheniramine_Maleate_and_Phenylephrine_HCl_i.pdf",
+      "sha256": "2fc178b2814650f4a4ebf8fa2a26694b92bdb0060eb43bd881354e3e5859fd28",
+      "source": {
+        "listing": "gazette",
+        "num_id": "MTQ2NTY="
+      },
+      "source_category": "banned_drugs",
+      "requires_ocr": false,
+      "rows_expected": 1,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Chlorpheniramine Maleate + Phenylephrine Hydrochloride",
+          "notification": "S.O. 4595(E)"
+        }
+      ],
+      "notes": "'fixed dose combinations containing' phrasing",
+      "baseline": {
+        "rows_matched": 1,
+        "rows_extra": 0,
+        "samples_correct": 1
+      }
+    },
+    {
+      "id": "10571",
+      "title": "2023.07.31_DR_S.O. 3448(E)_Prohibition of Veterinary Drugs Ketoprofen and its formulation and Aceclofenac its Formulation",
+      "release_date": "2023-Jul-31",
+      "file": "initial_data_ingestion/01_downloads/gazette/10571_2023.07.31_DR_S.O._3448E_Prohibition_of_Veterinary_Drugs_Ketoprofen_and_its_formulation_and_Aceclofenac_its_Formulation.pdf",
+      "sha256": "33ada838bb6d51c9a6f37d9b687561704e09e336c7df39643b7f0d20b89108a0",
+      "source": {
+        "listing": "gazette",
+        "num_id": "MTA1NzE="
+      },
+      "source_category": "banned_drugs",
+      "requires_ocr": false,
+      "rows_expected": 2,
+      "samples": [
+        {
+          "s_no": "i",
+          "product": "Ketoprofen and its formulations for animal use",
+          "notification": "S.O. 3448(E)"
+        },
+        {
+          "s_no": "ii",
+          "product": "Aceclofenac and its formulations for animal use",
+          "notification": "S.O. 3448(E)"
+        }
+      ],
+      "notes": "inline list after 'namely:-'",
+      "baseline": {
+        "rows_matched": 2,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "13931",
+      "title": "Alert on theft of LantusÂ® SoloStarÂ® (Insulin Glargine Injection IP, râDNA origin, 100 IU/mL Batch No. 5F0347B of M/s Sanofi India Limited during transit",
+      "release_date": "2026-Mar-03",
+      "file": "initial_data_ingestion/01_downloads/public_notices/13931_Alert_on_theft_of_LantusÂ_SoloStarÂ_Insulin_Glargine_Injection_IP_râDNA_origin_100_IUmL_Batch_No._5F0347B_of_Ms_Sanofi_I.pdf",
+      "sha256": "d215289a1c80aefb3de2ac271dadc72a840e55338232955c57307e6918f7036d",
+      "source": {
+        "listing": "public_notices",
+        "num_id": "MTM5MzE="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 1,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Lantus",
+          "batch": "5F0347B"
+        }
+      ],
+      "notes": "theft alert; product and batch from the Subject line",
+      "baseline": {
+        "rows_matched": 1,
+        "rows_extra": 0,
+        "samples_correct": 1
+      }
+    },
+    {
+      "id": "1458",
+      "title": "NSQ Vi-Conjugate Typhoid Vaccine Batch No.TC010915 and Batch No. TC010417 of M/s Bio Med Pvt Ltd dated 14-03-2018",
+      "release_date": "2018-Mar-14",
+      "file": "initial_data_ingestion/01_downloads/alerts/1458_NSQ_Vi-Conjugate_Typhoid_Vaccine_Batch_No.TC010915_and_Batch_No._TC010417_of_Ms_Bio_Med_Pvt_Ltd_dated_14-03-2018.pdf",
+      "sha256": "951fc66f230e3dc633cf40d2df61a375c6561b1bdae7fa48d8e55c6394f4babe",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTQ1OA=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 2,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Vi-Conjugate Typhoid Vaccine",
+          "batch": "TC010915"
+        },
+        {
+          "s_no": "2",
+          "product": "Vi-Conjugate Typhoid Vaccine",
+          "batch": "TC010417"
+        }
+      ],
+      "notes": "NSQ alert naming product and batches in its title",
+      "baseline": {
+        "rows_matched": 2,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "10505",
+      "title": "WHO Alert on falsified DEFITELIO (DEFIBROTIDE) 80 mg/ml concentrate for solution for infusion, B. No.  20G20A, Exp date 08/2024 mfg by:  Gentium Srl and identified in India",
+      "release_date": "2023-Sep-06",
+      "file": "initial_data_ingestion/01_downloads/alerts/10505_WHO_Alert_on_falsified_DEFITELIO_DEFIBROTIDE_80_mgml_concentrate_for_solution_for_infusion_B._No._20G20A_Exp_date_082024.pdf",
+      "sha256": "57c88169b0cda2d37c85b6c4c8b982e650c878e56af54198562ac74a9a864497",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MTA1MDU="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 1,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "DEFITELIO",
+          "batch": "20G20A"
+        }
+      ],
+      "notes": "WHO falsified-product alert",
+      "baseline": {
+        "rows_matched": 1,
+        "rows_extra": 0,
+        "samples_correct": 1
+      }
+    },
+    {
+      "id": "2058",
+      "title": "Recall of OZURDEX (Dexamethasone Intravitreal Implant 0.7mg)",
+      "release_date": "2018-Oct-17",
+      "file": "initial_data_ingestion/01_downloads/alerts/2058_Recall_of_OZURDEX_Dexamethasone_Intravitreal_Implant_0.7mg.pdf",
+      "sha256": "54571d26e2a3cb2e3d99cf2c045ee589a1622622f43913cd1c9a3cc99dc811a8",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MjA1OA=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 7,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "OZURDEX",
+          "batch": "E78550"
+        },
+        {
+          "s_no": "7",
+          "product": "OZURDEX",
+          "batch": "E83148"
+        }
+      ],
+      "notes": "batch table without a product column; product from the Subject line",
+      "baseline": {
+        "rows_matched": 7,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "11755",
+      "title": "Baxter recall letter for Product Fibrin Sealant Kit Brand name Tisseel Lyo manufactured in Vienna Austria",
+      "release_date": "2024-Sep-02",
+      "file": "initial_data_ingestion/01_downloads/public_notices/11755_Baxter_recall_letter_for_Product_Fibrin_Sealant_Kit_Brand_name_Tisseel_Lyo_manufactured_in_Vienna_Austria.pdf",
+      "sha256": "94e28736d6b0b30d80fa8f01272e8bba5e5301601cf5f07dead526391619c157",
+      "source": {
+        "listing": "public_notices",
+        "num_id": "MTE3NTU="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 6,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Fibrin Sealant",
+          "batch": "T5A010AA"
+        },
+        {
+          "s_no": "6",
+          "product": "Fibrin Sealant",
+          "batch": "T5X036AE"
+        }
+      ],
+      "notes": "scanned recall letter; lots listed under a 'Batch No.' column",
+      "baseline": {
+        "rows_matched": 6,
+        "rows_extra": 0,
+        "samples_correct": 2
+      }
+    },
+    {
+      "id": "8658",
+      "title": "Medical Device Alert date 21 June 2022",
+      "release_date": "2022-Jun-21",
+      "file": "initial_data_ingestion/01_downloads/alerts/8658_Medical_Device_Alert_date_21_June_2022.pdf",
+      "sha256": "7c83f85b09228f602ac6425ff80bbb9fa2258d8309e59afd6e65b1f3478ba6bc",
+      "source": {
+        "listing": "alerts",
+        "num_id": "ODY1OA=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 1,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "PALMAZ GENESIS"
+        }
+      ],
+      "notes": "device alert: device named under the DEVICE heading",
+      "baseline": {
+        "rows_matched": 1,
+        "rows_extra": 0,
+        "samples_correct": 1
+      }
+    },
+    {
+      "id": "7770",
+      "title": "Medical Devices Alert on MiniMed 620G Insulin Pump/Pump Kits & MiniMed 640G Insulin Pump/Pump kit of India Medtronic Ltd",
+      "release_date": "2021-Oct-11",
+      "file": "initial_data_ingestion/01_downloads/alerts/7770_Medical_Devices_Alert_on_MiniMed_620G_Insulin_PumpPump_Kits_MiniMed_640G_Insulin_PumpPump_kit_of_India_Medtronic_Ltd.pdf",
+      "sha256": "5b28bc2ecc1051f5bccb96435cd3c34db25bd1cb118f8006cd5f44acbd6c4eec",
+      "source": {
+        "listing": "alerts",
+        "num_id": "Nzc3MA=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": true,
+      "rows_expected": 1,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "MiniMed"
+        }
+      ],
+      "notes": "device alert: device named under the DEVICE heading",
+      "baseline": {
+        "rows_matched": 1,
+        "rows_extra": 0,
+        "samples_correct": 1
+      }
+    },
+    {
+      "id": "3263",
+      "title": "MEDICAL DEVICE ALERT FOR \" Absorb Bioresorbale Vascular Scaffold BVS and Absorb GT1 Bioresorbale Vascular Scaffold BVS",
+      "release_date": "2017-Jun-28",
+      "file": "initial_data_ingestion/01_downloads/alerts/3263_MEDICAL_DEVICE_ALERT_FOR_Absorb_Bioresorbale_Vascular_Scaffold_BVS_and_Absorb_GT1_Bioresorbale_Vascular_Scaffold_BVS.pdf",
+      "sha256": "de5403361a7e58d5e48a3006af3f7d055814a337a612a35c489121fb680ac719",
+      "source": {
+        "listing": "alerts",
+        "num_id": "MzI2Mw=="
+      },
+      "source_category": "alerts",
+      "requires_ocr": false,
+      "rows_expected": 1,
+      "samples": [
+        {
+          "s_no": "1",
+          "product": "Absorb Bioresorbale Vascular Scaffold"
+        }
+      ],
+      "notes": "scanned device alert: device named in the title",
+      "baseline": {
+        "rows_matched": 1,
+        "rows_extra": 0,
+        "samples_correct": 1
+      }
+    }
+  ]
+}

@@ -8,6 +8,19 @@ from data_processing_service.shared.config import DATABASE_URL
 
 
 _STATUS_ENGINE = None
+# documents-table columns per engine; inspected once instead of on every status update.
+_COLUMNS_BY_ENGINE: dict[int, set[str] | None] = {}
+
+
+def _document_columns(engine) -> set[str] | None:
+    if id(engine) not in _COLUMNS_BY_ENGINE:
+        inspector = inspect(engine)
+        _COLUMNS_BY_ENGINE[id(engine)] = (
+            {column["name"] for column in inspector.get_columns("documents")}
+            if inspector.has_table("documents")
+            else None
+        )
+    return _COLUMNS_BY_ENGINE[id(engine)]
 
 
 def set_scraper_document_status(
@@ -18,19 +31,21 @@ def set_scraper_document_status(
     source_s3_key: str | None = None,
     engine=None,
 ) -> dict[str, object]:
-    """Update one scraper document row, refusing ambiguous identity matches."""
+    """Update one scraper document row, refusing ambiguous identity matches.
+
+    The default engine is created once per process and reused (it used to be created and disposed for
+    every document, opening a new database connection each time).
+    """
     global _STATUS_ENGINE
-    owns_engine = engine is None
-    if owns_engine:
+    if engine is None:
         if _STATUS_ENGINE is None:
-            _STATUS_ENGINE = create_engine(DATABASE_URL, future=True)
+            _STATUS_ENGINE = create_engine(DATABASE_URL, future=True, pool_pre_ping=True)
         engine = _STATUS_ENGINE
 
     try:
-        inspector = inspect(engine)
-        if not inspector.has_table("documents"):
+        columns = _document_columns(engine)
+        if columns is None:
             return {"updated": False, "reason": "documents table not found"}
-        columns = {column["name"] for column in inspector.get_columns("documents")}
         update_columns = [column for column in ("status", "processing_stage") if column in columns]
         if not update_columns:
             return {"updated": False, "reason": "no supported status columns"}
@@ -87,8 +102,4 @@ def set_scraper_document_status(
 
         return {"updated": False, "reason": "scraper document row not found"}
     except Exception as exc:
-        return {"updated": False, "error": type(exc).__name__}
-    finally:
-        if owns_engine and _STATUS_ENGINE is not None:
-            _STATUS_ENGINE.dispose()
-            _STATUS_ENGINE = None
+        return {"updated": False, "error": f"{type(exc).__name__}: {exc}"}

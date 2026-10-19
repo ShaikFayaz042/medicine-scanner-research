@@ -71,6 +71,9 @@ EVENT_TERMS = (
     "drug safety alert",
     "safety alert",
     "safety advisory",
+    "medical device alert",
+    "field safety notice",
+    "field safety corrective action",
     "adverse drug reaction",
     "adverse drug reaction alert",
     "pharmacovigilance",
@@ -178,6 +181,18 @@ def _has_strong_event_evidence(deterministic: dict[str, Any], text: str, filenam
     return _distinct_event_term_count(context_text) >= 2
 
 
+_SECTION_26A = re.compile(r"\bsection\s*26\s*a\b", re.IGNORECASE)
+_PROHIBITS = re.compile(r"\bprohibit\w*", re.IGNORECASE)
+_GAZETTE_REFERENCE = re.compile(r"(?<![a-z])(?:s\.?\s*o\.?|g\.?\s*s\.?\s*r\.?)\s*\d+|\bgazette\s+notifications?\b", re.IGNORECASE)
+
+
+def _is_prohibition_order(text: str, filename: str | None = None) -> bool:
+    """A Section 26A prohibition that cites its gazette notification is a regulatory event in itself,
+    even when it names no batch (e.g. S.O. 2298(E) banning antimicrobials for animal use)."""
+    context = _normalized_context_text(text, filename)
+    return bool(_SECTION_26A.search(context) and _PROHIBITS.search(context) and _GAZETTE_REFERENCE.search(context))
+
+
 def complete_classifier_fields(
     verdict: dict[str, Any], text: str, filename: str | None = None
 ) -> dict[str, Any]:
@@ -195,6 +210,18 @@ def complete_classifier_fields(
         verdict["score_band"] = "low"
 
     deterministic = verdict.get("deterministic") or {}
+    if _is_prohibition_order(text, filename):
+        deterministic["rule_matched"] = "D9"
+        verdict.update({
+            "bucket": "event-bearing",
+            "bucket_reason": "prohibition_order",
+            "is_relevant": True,
+            "needs_review": False,
+            "needs_review_reasons": [],
+            "deterministic": deterministic,
+        })
+        return verdict
+
     manufacturer_hits = deterministic.get("paragraph_manufacturer_matches", 0)
     batch_hits = deterministic.get("paragraph_batch_matches", 0)
     if (

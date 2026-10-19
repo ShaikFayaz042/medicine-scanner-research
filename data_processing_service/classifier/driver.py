@@ -17,7 +17,8 @@ HEADER_PATTERNS = {
         "fixed dose combination", "name of drug", "name of product",
         "name of drugs", "drugs name", "drug name", "product name", "medicine name",
         "suspected drugs", "suspected drug", "suspected medicine",
-        "suspected medicines",
+        "suspected medicines", "vaccine name", "name of vaccine", "device name",
+        "brand name",
     ),
     "batch_column": ("batch", "b no", "batch no", "batch number", "lot"),
     "manufacturer_column": (
@@ -303,6 +304,29 @@ def _lexicon_pattern(lexicon):
     return re.compile(r"(?<!\w)(?:" + alternatives + r")(?!\w)")
 
 
+LEXICON_NON_NAME_WORDS = NUMBER_UNITS | {
+    "bp", "ip", "usp", "eq", "of", "and", "to", "vial", "vials", "tablet", "tablets", "capsule", "capsules",
+    "injection", "syrup", "lozenges", "india", "dry", "gel",
+    # Single-word lexicon entries that are ordinary English in CDSCO prose (found by scanning real alerts).
+    "each", "manufacture", "park", "water", "other", "data", "labelled", "wings", "white", "cough", "soap",
+    "methyl",
+}
+
+
+def _is_matchable_name(name):
+    """A lexicon name must contain a real name word to be searched for inside running text.
+
+    Entries such as "000units", "025billion cfu" or "per" match quantities and everyday words
+    ("as per", "Dry Syrup") and produced false drug hits.
+    """
+    for word in name.split():
+        if word in LEXICON_NON_NAME_WORDS or word.isdigit():
+            continue
+        if re.fullmatch(r"[a-z]{4,}", word) or re.fullmatch(r"[a-z]{3}[a-z0-9]*\d[a-z0-9]*", word):
+            return True  # a name word, or a brand code such as "alenvox500" (quantities start with digits)
+    return False
+
+
 def load_medicine_lexicons():
     """Load the checked-in, normalized and globally deduplicated medicine names."""
     lexicon_path = Path(__file__).resolve().parents[1] / "data" / "medicine_lexicon.json"
@@ -312,7 +336,7 @@ def load_medicine_lexicons():
         raise ValueError(f"Invalid medicine lexicon resource: {lexicon_path}")
     if len(names) != len(set(names)):
         raise ValueError(f"Medicine lexicon contains duplicate names: {lexicon_path}")
-    return names, []
+    return [name for name in names if _is_matchable_name(name)], []
 
 
 def _known_name_match(value, lexicon, pattern=None):
@@ -470,6 +494,12 @@ def classify_document(stage2_doc, products=None, ingredients=None):
             if not drug_columns:
                 continue
             skip_rows = header.get("header_rows_skipped", 0)
+            # Unknown names only count in tables that record events (batch, notification, failure reason
+            # or alert columns); otherwise any table with a "Product" heading looked event-bearing.
+            records_events = any(
+                columns.get(category)
+                for category in ("batch_column", "notification_column", "reason_column", "alert_column")
+            )
             for row in rows[skip_rows:]:
                 for column in drug_columns:
                     if column >= len(row) or not row[column]:
@@ -477,8 +507,10 @@ def classify_document(stage2_doc, products=None, ingredients=None):
                     value = row[column]
                     match = _known_name_match(value, lexicon, lexicon_pattern)
                     normalized = normalize_text(value)
-                    if normalized and re.search(r"[a-z]", normalized):
-                        table_matches.add(match or "raw:" + normalized)
+                    if match:
+                        table_matches.add(match)
+                    elif records_events and normalized and re.search(r"[a-z]", normalized):
+                        table_matches.add("raw:" + normalized)
 
             headers = " ".join(header.get("header_values", [])).casefold()
             notification_columns = columns.get("notification_column", [])

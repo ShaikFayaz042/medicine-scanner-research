@@ -10,7 +10,7 @@ import argparse
 import json
 import re
 import sys
-import tempfile
+import unicodedata
 from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path, PurePosixPath
@@ -19,7 +19,6 @@ from typing import Any
 import boto3
 import pymupdf
 import pdfplumber
-from PIL import Image
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
@@ -37,14 +36,14 @@ from data_processing_service.shared.database import (
     update_extracted_documents,
 )
 from data_processing_service.shared.manifest import read_manifest, utc_now_iso, write_result
+from data_processing_service.extractor import ocr as page_ocr
 
-try:  # pragma: no cover - optional dependency
-    from rapidocr_onnxruntime import RapidOCR
-except Exception:  # pragma: no cover
-    try:
-        from rapidocr import RapidOCR
-    except Exception:  # pragma: no cover
-        RapidOCR = None
+# A page whose text layer is shorter than this, while images cover most of it, is a scan with a stamp,
+# footer or page number on top; its real content is only in the image.
+SPARSE_TEXT_CHARS = 200
+IMAGE_COVER_FOR_OCR = 0.5
+# Share of undecodable glyphs (U+FFFD, "(cid:NN)") above which a text layer is treated as unusable.
+GARBLED_TEXT_RATIO = 0.02
 
 DEFAULT_S3_INPUT_BUCKET = S3_INPUT_BUCKET
 DEFAULT_S3_INPUT_PREFIX = S3_INPUT_PREFIX
@@ -73,32 +72,70 @@ def _source_name_from_key(key: str, prefix: str) -> str:
 
 def _page_text(page: Any) -> str:
     try:
-        return (page.get_text("text") or "").strip()
+        text = (page.get_text("text") or "").strip()
     except Exception:
         return ""
+    return _without_overprint(page) or text
+
+
+def _without_overprint(page: Any) -> str | None:
+    """Page text with fake-bold copies removed, or None when the page has none.
+
+    Some gazettes draw bold headings by printing the same span several times a fraction of a point
+    apart; the text layer then repeats every word ("S.O. 4482\\nS.O. 4482\\nS.O. 4482(E).\\n(E).").
+    """
+    try:
+        blocks = page.get_text("rawdict").get("blocks", [])
+    except Exception:
+        return None
+    # The copies are split into spans differently, so compare characters: a character is a copy when the
+    # same character was already placed less than a third of its width away (a repeated letter, as in
+    # "ll", sits a full width away). Points are bucketed by whole pt for a constant-time lookup.
+    placed: dict[tuple[str, int, int], list[tuple[float, float]]] = {}
+    out_blocks, duplicates = [], 0
+    for block in blocks:
+        out_lines = []
+        for line in block.get("lines", []):
+            kept = []
+            for span in line.get("spans", []):
+                for char in span.get("chars", []):
+                    c, (x, y) = char.get("c", ""), char.get("origin", (0.0, 0.0))
+                    bbox = char.get("bbox", (x, y, x, y))
+                    tolerance = max(0.15, 0.35 * (bbox[2] - bbox[0]))
+                    gx, gy = int(x), int(y)
+                    # Combining marks (the Devanagari virama in conjuncts) legitimately share a position.
+                    if not unicodedata.category(c or " ").startswith("M") and any(
+                        abs(x - px) < tolerance and abs(y - py) < tolerance
+                        for dx in (-1, 0, 1) for dy in (-1, 0, 1)
+                        for px, py in placed.get((c, gx + dx, gy + dy), ())
+                    ):
+                        duplicates += 1
+                        continue
+                    placed.setdefault((c, gx, gy), []).append((x, y))
+                    kept.append(c)
+            if "".join(kept).strip():
+                out_lines.append("".join(kept))
+        if out_lines:
+            out_blocks.append("\n".join(out_lines))
+    return "\n".join(out_blocks).strip() if duplicates > 5 else None
 
 
 def _is_valid_table_candidate(rows: list[list[str]]) -> bool:
     if not rows or len(rows) < 2:
         return False
 
-    widths: list[int] = []
-    meaningful_row_count = 0
-    for row in rows:
-        cells = [cell for cell in row if str(cell).strip()]
-        if not cells:
-            continue
-        widths.append(len(cells))
-        if len(cells) >= 2:
-            meaningful_row_count += 1
-
-    if not widths or meaningful_row_count < 2:
+    # Rows with a single filled cell are full-width section titles ("B. State Laboratories") or text
+    # continuations; they are part of real tables, so only multi-cell rows decide the width spread.
+    widths = [
+        filled
+        for row in rows
+        if (filled := sum(1 for cell in row if str(cell).strip())) >= 2
+    ]
+    if len(widths) < 2:
         return False
 
-    # Real PDF table rows often have merged cells / sparse layout; a row with a
-    # single textual continuation is still part of a valid table. We only require
-    # at least two multi-cell rows and a modest spread across the table.
-    return min(widths) >= 1 and max(widths) - min(widths) <= 6
+    # Merged cells make sparse rows common, so allow a modest spread between multi-cell rows.
+    return max(widths) - min(widths) <= 6
 
 
 def _is_valid_text_strategy_table(rows: list[list[str]]) -> bool:
@@ -138,7 +175,9 @@ def _extract_table_rows_from_page(plumber_page: Any) -> tuple[list[list[str]], s
 
     for strategy_name, settings in strategies:
         try:
-            tables = plumber_page.extract_tables(settings) or []
+            # Follow the PDF's text order inside cells; position-based word gaps letter-space justified
+            # text ("p h y s i c a l").
+            tables = plumber_page.extract_tables({**settings, "text_use_text_flow": True}) or []
         except Exception:
             continue
 
@@ -157,6 +196,9 @@ def _extract_table_rows_from_page(plumber_page: Any) -> tuple[list[list[str]], s
                     normalized.append(rows)
             elif rows and _is_valid_table_candidate(rows):
                 normalized.append(rows)
+            elif strategy_name == "default" and len(rows) == 1 and sum(1 for cell in rows[0] if cell) >= 4:
+                # A ruled one-row table is the last record of a table that continues from the previous page.
+                normalized.append(rows)
 
         if normalized:
             return normalized, strategy_name
@@ -172,45 +214,92 @@ def _flatten_table_rows(table_rows: list[list[list[str]]]) -> list[dict[str, Any
     return output
 
 
-def _ocr_image_from_page(page: Any, page_num: int, doc_id: str) -> str:
-    if RapidOCR is None:
-        return ""
-
+def _image_cover(page: Any) -> float:
+    """Fraction of the page area covered by images (0 when the page cannot report images)."""
     try:
-        pix = page.get_pixmap(matrix=pymupdf.Matrix(2, 2))
-        image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+        area = abs(page.rect)
+        covered = sum(abs(pymupdf.Rect(info["bbox"]) & page.rect) for info in page.get_image_info())
     except Exception:
-        return ""
+        return 0.0
+    return min(covered / area, 1.0) if area else 0.0
 
-    try:
-        ocr = RapidOCR()
-    except Exception:
-        return ""
 
-    try:
-        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
-            temp_path = tmp.name
-        image.save(temp_path)
-        result, _ = ocr(temp_path)
-        if not result:
-            return ""
+def _garbled_ratio(text: str) -> float:
+    if not text:
+        return 0.0
+    return (text.count("�") + text.count("(cid:")) / len(text)
 
-        lines: list[str] = []
-        for item in result:
-            if not isinstance(item, (list, tuple)) or len(item) < 2:
-                continue
-            text = item[1]
-            if isinstance(text, str) and text.strip():
-                lines.append(text.strip())
 
-        return "\n".join(lines).strip()
-    except Exception:
-        return ""
-    finally:
+def _ocr_reason(raw_text: str, table_rows: list[list[list[str]]], page: Any) -> str | None:
+    """Decide whether a page's content is only available through OCR, and why."""
+    if not raw_text and not table_rows:
+        return "no_text_layer"
+    if _garbled_ratio(raw_text) > GARBLED_TEXT_RATIO:
+        return "garbled_text_layer"
+    if not table_rows and len(raw_text) < SPARSE_TEXT_CHARS and _image_cover(page) >= IMAGE_COVER_FOR_OCR:
+        return "image_page_with_sparse_text"
+    return None
+
+
+def _extract_page(
+    page: Any,
+    plumber_page: Any,
+    page_num: int,
+    s3_key: str,
+    ocr_layout: list[dict[str, Any]] | None = None,
+) -> tuple[dict[str, Any], list[list[list[str]]], str]:
+    """Extract one page. `ocr_layout` is the table column layout OCR found on an earlier page, for
+    scanned continuation pages that repeat no header row."""
+    raw_text = _page_text(page)
+    table_rows: list[list[list[str]]] = []
+    table_strategy = "none"
+    if plumber_page is not None:
         try:
-            Path(temp_path).unlink(missing_ok=True)
-        except Exception:
-            pass
+            table_rows, table_strategy = _extract_table_rows_from_page(plumber_page)
+        except Exception as exc:
+            print(f"WARN table extraction failed: {s3_key} page {page_num}: {exc}", file=sys.stderr)
+            table_rows, table_strategy = [], "none"
+
+    page_out: dict[str, Any] = {
+        "page": page_num,
+        "type": "text" if raw_text or table_rows else "empty",
+        "method": "pdfplumber" if table_rows else "pymupdf",
+        "text": raw_text,
+    }
+    reason = _ocr_reason(raw_text, table_rows, page)
+    if reason:
+        if not page_ocr.ocr_available():
+            print(f"WARN OCR unavailable; {reason} page left as-is: {s3_key} page {page_num}", file=sys.stderr)
+            page_out["ocr_error"] = "ocr_unavailable"
+        else:
+            try:
+                result = page_ocr.ocr_page(page, layout=ocr_layout)
+            except Exception as exc:
+                print(f"WARN OCR failed: {s3_key} page {page_num}: {exc}", file=sys.stderr)
+                page_out["ocr_error"] = f"{type(exc).__name__}: {exc}"
+            else:
+                if result["text"]:
+                    if raw_text:
+                        page_out["text_layer"] = raw_text
+                    page_out.update({"type": "image", "method": "rapidocr", "text": result["text"]})
+                    page_out["ocr"] = {
+                        "reason": reason,
+                        "rotation": result["rotation"],
+                        "mean_score": result["mean_score"],
+                        "lines": result["lines"],
+                        "layout": result.get("layout"),
+                    }
+                    if not table_rows and result["table"]:
+                        table_rows, table_strategy = [result["table"]], result.get("table_method", "ocr_grid")
+                elif not raw_text and not table_rows:
+                    page_out["type"] = "empty"
+
+    page_out.update({
+        "tables": _flatten_table_rows(table_rows),
+        "table_count": len(table_rows),
+        "table_strategy": table_strategy,
+    })
+    return page_out, table_rows, table_strategy
 
 
 def _extract_document_from_bytes(
@@ -219,6 +308,7 @@ def _extract_document_from_bytes(
     prefix: str,
     profiler_page_profile: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
+    """Extract every page; raises when the document cannot be opened or no page could be read."""
     source_name = _source_name_from_key(s3_key, prefix)
     relative = s3_key.removeprefix(prefix).lstrip("/")
     file_name = PurePosixPath(relative).name or "document.pdf"
@@ -226,7 +316,7 @@ def _extract_document_from_bytes(
 
     pages_out: list[dict[str, Any]] = []
     tables_out: list[dict[str, Any]] = []
-    counts = {"text": 0, "table": 0, "ocr": 0, "empty": 0, "failed": 0}
+    counts = {"text": 0, "table": 0, "ocr": 0, "empty": 0, "failed": 0, "ocr_failed": 0}
     tables_by_strategy = {"default": 0, "text": 0, "mixed_v_text": 0, "mixed_h_text": 0, "none": 0}
     table_strategies_used = {"default": 0, "text": 0, "mixed_v": 0, "mixed_h": 0, "none": 0}
     profiler_has_table_by_page = {
@@ -236,115 +326,68 @@ def _extract_document_from_bytes(
     }
     pages_with_zero_tables: list[int] = []
 
-    doc = None
+    doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
     plumber_doc = None
-    title = file_name
     try:
-        doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
         if doc.needs_pass:
             raise ValueError("encrypted PDF")
-        metadata = doc.metadata if doc is not None else {}
-        title = (metadata or {}).get("title") or file_name
-
+        title = (doc.metadata or {}).get("title") or file_name
         try:
             plumber_doc = pdfplumber.open(BytesIO(pdf_bytes))
         except Exception as exc:
-            plumber_doc = None
             print(f"WARN pdfplumber open failed: {s3_key}: {exc}", file=sys.stderr)
 
+        ocr_layout = None
         for page_index in range(len(doc)):
-            page = doc[page_index]
             page_num = page_index + 1
-            raw_text = _page_text(page)
-            method = "pymupdf"
-            page_type = "text" if raw_text else "empty"
-            text_value = raw_text
-            table_rows: list[list[str]] = []
-            table_strategy = "none"
-            table_count = 0
-
-            if plumber_doc is not None and page_index < len(plumber_doc.pages):
-                try:
-                    table_rows, table_strategy = _extract_table_rows_from_page(plumber_doc.pages[page_index])
-                except Exception:
-                    table_rows, table_strategy = [], "none"
-
-            strategy_key = {
-                "mixed_v_text": "mixed_v",
-                "mixed_h_text": "mixed_h",
-            }.get(table_strategy, table_strategy)
-            table_strategies_used[strategy_key] = table_strategies_used.get(strategy_key, 0) + 1
-
-            if table_rows:
-                method = "pdfplumber"
-                page_type = "text"
-                counts["table"] += 1
-                table_count = len(table_rows)
-                tables_by_strategy[table_strategy] = tables_by_strategy.get(table_strategy, 0) + 1
-                tables_out.append({"page": page_num, "cells": _flatten_table_rows(table_rows)})
-            else:
-                table_count = 0
-
-            if profiler_has_table_by_page.get(page_num, False) and table_count == 0:
-                print(f"WARN profiler/extractor mismatch: {s3_key} page {page_num}", file=sys.stderr)
-            if table_count == 0:
-                pages_with_zero_tables.append(page_num)
-
-            if not raw_text and not table_rows:
-                ocr_text = _ocr_image_from_page(page, page_num, doc_id)
-                if ocr_text:
-                    text_value = ocr_text
-                    method = "rapidocr"
-                    page_type = "image"
-                    counts["ocr"] += 1
-                else:
-                    page_type = "empty"
-                    counts["empty"] += 1
-
-            if raw_text and page_type == "text":
-                counts["text"] += 1
-
-            page_tables = _flatten_table_rows(table_rows)
-            pages_out.append(
-                {
-                    "page": page_num,
-                    "type": page_type,
-                    "method": method,
-                    "text": text_value,
-                    "tables": page_tables,
-                    "table_count": table_count,
-                    "table_strategy": table_strategy,
-                }
+            plumber_page = (
+                plumber_doc.pages[page_index]
+                if plumber_doc is not None and page_index < len(plumber_doc.pages)
+                else None
             )
-            if page_type == "empty" and not text_value:
-                pages_out[-1]["text"] = ""
-    except Exception:
-        counts["failed"] += 1
-        pages_out.append(
-            {
-                "page": 1,
-                "type": "failed",
-                "method": "failed",
-                "text": "",
-                "tables": [],
-                "table_count": 0,
-                "table_strategy": "none",
-                "error": "PDF extraction failed",
-            }
-        )
-    finally:
-        if doc is not None:
             try:
-                doc.close()
-            except Exception:
-                pass
-        if plumber_doc is not None:
-            try:
-                plumber_doc.close()
-            except Exception:
-                pass
+                page_out, table_rows, table_strategy = _extract_page(
+                    doc[page_index], plumber_page, page_num, s3_key, ocr_layout=ocr_layout
+                )
+                ocr_layout = (page_out.get("ocr") or {}).get("layout") or ocr_layout
+            except Exception as exc:
+                print(f"WARN page extraction failed: {s3_key} page {page_num}: {exc}", file=sys.stderr)
+                counts["failed"] += 1
+                pages_out.append({
+                    "page": page_num, "type": "failed", "method": "failed", "text": "", "tables": [],
+                    "table_count": 0, "table_strategy": "none", "error": f"{type(exc).__name__}: {exc}",
+                })
+                continue
 
-    payload = {
+            strategy_key = {"mixed_v_text": "mixed_v", "mixed_h_text": "mixed_h"}.get(table_strategy, table_strategy)
+            table_strategies_used[strategy_key] = table_strategies_used.get(strategy_key, 0) + 1
+            if table_rows:
+                counts["table"] += 1
+                tables_by_strategy[table_strategy] = tables_by_strategy.get(table_strategy, 0) + 1
+                tables_out.append({"page": page_num, "cells": page_out["tables"]})
+            else:
+                pages_with_zero_tables.append(page_num)
+            if profiler_has_table_by_page.get(page_num, False) and not table_rows:
+                print(f"WARN profiler/extractor mismatch: {s3_key} page {page_num}", file=sys.stderr)
+
+            if page_out["method"] == "rapidocr":
+                counts["ocr"] += 1
+            elif page_out["type"] == "empty":
+                counts["empty"] += 1
+            elif page_out["text"]:
+                counts["text"] += 1
+            if "ocr_error" in page_out:
+                counts["ocr_failed"] += 1
+            pages_out.append(page_out)
+    finally:
+        doc.close()
+        if plumber_doc is not None:
+            plumber_doc.close()
+
+    if pages_out and counts["failed"] == len(pages_out):
+        raise RuntimeError(f"every page failed to extract ({len(pages_out)} pages)")
+
+    return {
         "doc_id": doc_id,
         "source_name": source_name,
         "s3_object_key": s3_key,
@@ -356,18 +399,18 @@ def _extract_document_from_bytes(
             "text_pages": counts["text"],
             "table_pages": counts["table"],
             "ocr_pages": counts["ocr"],
+            "ocr_failed_pages": counts["ocr_failed"],
             "empty_pages": counts["empty"],
             "failed_pages": counts["failed"],
             "total_pages": max(len(pages_out), 1),
-            "extractor_version": "v1",
-            "method": "pymupdf+pdfplumber+rapidocr",
+            "extractor_version": "v2",
+            "method": "pymupdf+pdfplumber+rapidocr-en",
             "tables_by_strategy": tables_by_strategy,
             "table_strategies_used": table_strategies_used,
             "pages_with_zero_tables": pages_with_zero_tables,
             "pdfplumber_available": plumber_doc is not None,
         },
     }
-    return payload
 
 
 def collect_s3_pdfs(s3_client: Any, bucket: str, prefix: str) -> list[str]:
@@ -451,8 +494,8 @@ def _normalized_output_key(s3_key: str, prefix: str, output_prefix: str, title: 
 
 
 def write_json_to_s3(s3_client: Any, bucket: str, s3_key: str, prefix: str, output_prefix: str, payload: dict[str, Any]) -> str:
-    title = payload.get("pdf_title") or payload.get("title") or (payload.get("scraper_metadata") or {}).get("title")
-    output_key = _normalized_output_key(s3_key, prefix, output_prefix, title)
+    # Named after the source PDF, which is unique; titles repeat (e.g. monthly alerts) and overwrote each other.
+    output_key = _normalized_output_key(s3_key, prefix, output_prefix)
     body = json.dumps(payload, indent=2, ensure_ascii=False).encode("utf-8")
     s3_client.put_object(
         Bucket=bucket,

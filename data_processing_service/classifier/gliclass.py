@@ -59,7 +59,9 @@ def classify_text(text):
         return None
 
     pipeline = load_classifier()
-    samples = text.split(SAMPLE_SEPARATOR)
+    # The model reads at most 512 tokens per input, so long documents are sampled at the head, evenly
+    # spaced sections and the tail instead of being truncated after the first page.
+    samples = build_sample_text(text).split(SAMPLE_SEPARATOR)
     try:
         result = pipeline(
             samples,

@@ -113,6 +113,7 @@ def _normalize_s3_file(
     input_key: str,
     output_bucket: str,
     output_prefix: str,
+    status_failures: list[str] | None = None,
 ) -> int:
     response = s3_client.get_object(Bucket=input_bucket, Key=input_key)
     parsed_json = response["Body"].read()
@@ -158,9 +159,14 @@ def _normalize_s3_file(
             source_url=source_url,
             source_s3_key=input_key,
         )
-        if not status_result.get("updated"):
-            raise RuntimeError(f"Scraper status was not updated: {status_result.get('reason', status_result.get('error'))}")
-        print(f"Scraper document status updated: normalized ({status_result.get('matched_by')})")
+        if status_result.get("updated"):
+            print(f"Scraper document status updated: normalized ({status_result.get('matched_by')})")
+        else:
+            # The staging CSVs are already written; a missing scraper row is reported, not a failed document.
+            reason = status_result.get("reason", status_result.get("error"))
+            print(f"WARN scraper status not updated for {input_key}: {reason}", file=sys.stderr)
+            if status_failures is not None:
+                status_failures.append(f"{input_key}: {reason}")
 
     return 0
 
@@ -217,12 +223,16 @@ def main(argv: list[str] | None = None) -> int:
     manifest_mode = bool(args.manifest_s3_key and args.run_id)
     if manifest_mode:
         sources = [(key, _prefix_for_manifest_keys([key], args.prefix)) for key in _manifest_result_keys(s3_client, args.bucket, args.run_id, "parser")]
-        if args.manifest_s3_key:
-            manifest = read_manifest(s3_client, args.bucket, args.manifest_s3_key)
-            extra_json_keys = manifest.get("json_keys") or []
-            if isinstance(extra_json_keys, list):
-                extra_keys = [str(key) for key in extra_json_keys if isinstance(key, str)]
-                sources.extend((key, _prefix_for_manifest_keys([key], args.prefix)) for key in extra_keys)
+        manifest = read_manifest(s3_client, args.bucket, args.manifest_s3_key)
+        # The scraper lists its NSQ/spurious JSON exports as documents of kind "json"; they skip the
+        # extractor and parser and are normalized directly. ("json_keys" is the older manifest field.)
+        json_keys = [
+            str(document["s3_key"])
+            for document in manifest.get("documents") or []
+            if isinstance(document, dict) and document.get("kind") == "json" and document.get("s3_key")
+        ]
+        json_keys.extend(str(key) for key in manifest.get("json_keys") or [] if isinstance(key, str))
+        sources.extend((key, PurePosixPath(key).parent.parent.as_posix()) for key in json_keys)
         sources = sorted(dict(sources).items(), key=lambda item: item[0].casefold())
     else:
         sources = [
@@ -248,7 +258,7 @@ def main(argv: list[str] | None = None) -> int:
         sources = [source for source in sources if source[0] == args.doc_id]
     if args.limit:
         sources = sources[:args.limit]
-    if not sources:
+    if not sources and not manifest_mode:
         print(
             "No JSON files found under parsed_json, source_files/nsq, "
             "or legacy profiler nsq_json/spurious_json prefixes.",
@@ -259,6 +269,7 @@ def main(argv: list[str] | None = None) -> int:
     failed = 0
     output_keys: list[str] = []
     errors: list[str] = []
+    status_failures: list[str] = []
     for index, (key, source_prefix) in enumerate(sources, start=1):
         try:
             result = _normalize_s3_file(
@@ -268,6 +279,7 @@ def main(argv: list[str] | None = None) -> int:
                 key,
                 args.s3_output_bucket,
                 args.s3_output_prefix,
+                status_failures=status_failures,
             )
             if result:
                 failed += 1
@@ -300,6 +312,7 @@ def main(argv: list[str] | None = None) -> int:
                 "status": "failure" if failed else "success",
                 "input_keys": [key for key, _ in sources],
                 "output_keys": output_keys,
+                "status_update_failures": status_failures,
                 "error": "; ".join(errors) or None,
             },
         )
