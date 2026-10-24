@@ -1,0 +1,23 @@
+# Ignore analysis outputs by default.
+*
+
+# Keep classified data and app taxonomies.
+!.gitignore
+!/csv/
+!/csv/*.csv
+!/markdown/
+!/markdown/*.md
+
+# Keep analysis code and its notebook.
+!/scripts/
+!/scripts/**/
+!/scripts/**/*.py
+!/scripts/**/*.ipynb
+!/semantic_labelling/
+!/semantic_labelling/*.py
+!/semantic_labelling/*.ipynb
+
+# Keep batch manifests, but not copied PDFs.
+!/Test_batches/
+!/Test_batches/**/
+!/Test_batches/**/batch_manifest.csv
