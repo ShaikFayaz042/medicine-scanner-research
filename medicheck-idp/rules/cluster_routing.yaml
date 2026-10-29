@@ -1,0 +1,167 @@
+# =============================================================================
+# CLUSTER ROUTING  (paragraph md, Part 2)
+# -----------------------------------------------------------------------------
+# TRIAGE HINTS ONLY. The 14 clusters are exploratory, document-level topic
+# groupings. They are NOT legal or app taxonomies and must never override
+# record-level classification. One dominant cluster is assigned per source
+# document, but a document can hold several topics.
+#
+# Use them to decide where a human or the classifier should LOOK FIRST.
+#
+#   mode: default_route          start from default_route, then apply overrides
+#   mode: classify_each_record   there is no cluster-wide class; split records
+#
+# Route values are P-series IDs from rules/taxonomy/paragraphs.yaml.
+# =============================================================================
+
+triage_only: true
+
+clusters:
+
+  - cluster_id: 0
+    topic: "General Drugs & Cosmetics Rules, amendments and licensing"
+    mode: default_route
+    default_route: [P29]
+    overrides:
+      - when: "Fees, ports, appointments and administrative provisions"
+        route: [P26]
+      - when: "Product-specific restrictions or labeling actions (retain legal status)"
+        route: [P3, P3b, P3c, P4, P8]
+
+  - cluster_id: 1
+    topic: "Medical Devices Rules and device compliance"
+    mode: default_route
+    default_route: [P9]
+    overrides:
+      - when: "Device authority appointments or qualifications"
+        route: [P26]
+    notes: "Keep device records separate from human-medicine findings."
+
+  - cluster_id: 2
+    topic: "FDC prohibitions and restrictions"
+    mode: default_route
+    default_route: [P3, P3b, P3c]
+    default_applies_when: "The passage states a specific product action"
+    overrides:
+      - when: "Draft or general FDC policy"
+        route: [P29]
+    notes: "Separate prohibition, restriction, conditional permission, proposal and superseding notice."
+
+  - cluster_id: 3
+    topic: "Clinical trials, new drugs and expert-committee guidance"
+    mode: default_route
+    default_route: [P29]
+    default_applies_when: "Formal rule changes"
+    overrides:
+      - when: "Committee reports or recommendations"
+        route: [P23]
+    notes: "Operative product-status passages are classified by action, not by cluster."
+
+  - cluster_id: 4
+    topic: "Drugs Rules, 1945 draft amendments and proposals"
+    mode: default_route
+    default_route: [P29]
+    overrides:
+      - when: "Administrative-only draft provisions"
+        route: [P26]
+    notes: "Explicitly proposed, not binding. Product-specific proposed restrictions remain P29 until effective; never display them as current restrictions."
+
+  - cluster_id: 5
+    topic: "Medical-device classification as drugs"
+    mode: default_route
+    default_route: [P9]
+    notes: "Classification as a drug does not itself establish an individual medicine safety finding. Separate device/product-scope reference from medicine alerts."
+
+  - cluster_id: 6
+    topic: "COVID-19 and emergency drug/vaccine measures"
+    mode: default_route
+    default_route: [P30]
+    overrides:
+      - when: "A still-operative product-specific action (verify first)"
+        route: [P3, P3b, P3c, P4]
+    notes: "Check time limits, expiry, repeal and supersession."
+
+  - cluster_id: 7
+    topic: "Rule-specific amendments and consultation/public-comment cycles"
+    mode: default_route
+    default_route: [P29]
+    overrides:
+      - when: "Corrigenda to procedure"
+        route: [P27]
+      - when: "Product-specific corrections (update the product record)"
+        route: [P3, P3b, P3c, P4]
+    notes: "Distinguish draft, final publication, commencement, correction and product-specific effect."
+
+  - cluster_id: 8
+    topic: "CDSCO notices, stakeholder meetings, implementation circulars and alerts"
+    mode: classify_each_record
+    overrides:
+      - when: "Device alerts"
+        route: [P9]
+      - when: "Product safety, recall, prohibition or advisory records"
+        route: [P3, P3b, P3c, P4, P5, P6, P7, P8]
+      - when: "Meetings"
+        route: [P24]
+      - when: "Generic notices"
+        route: [P28]
+
+  - cluster_id: 9
+    topic: "Government analysts, laboratories and authority appointments"
+    mode: default_route
+    default_route: [P26]
+    default_applies_when: "Appointments and rosters"
+    overrides:
+      - when: "A separately listed laboratory directory"
+        route: [P15]
+    notes: "Neither is a medicine verdict."
+
+  - cluster_id: 10
+    topic: "Export permissions, BA/BE NOC, bioequivalence and manufacturer lists"
+    mode: default_route
+    default_route: [P20, P21]
+    default_applies_when: "Guidance and checklists"
+    overrides:
+      - when: "A genuine product, importer, registration or reference list"
+        route: [P11, P12, P13]
+    notes: "Do not classify procedural guidance as usable merely because it is operationally useful."
+
+  - cluster_id: 11
+    topic: "Drug-quality enforcement, spurious/NSQ guidance, compounding offences and compliance FAQs"
+    mode: classify_each_record
+    overrides:
+      - when: "Specific batch/sample findings"
+        route: [P1, P2]
+      - when: "FAQs"
+        route: [P22]
+      - when: "Enforcement procedure"
+        route: [P25]
+      - when: "Administrative or compounding notices"
+        route: [P26]
+      - when: "Product-specific revocation or corrigendum (updates the product record)"
+        route: [P3, P3b, P3c, P4]
+
+  - cluster_id: 12
+    topic: "Expert committees, vaccine PSUR review and safety-review meetings"
+    mode: default_route
+    default_route: [P24]
+    default_applies_when: "Meeting records"
+    overrides:
+      - when: "Committee reports"
+        route: [P23]
+      - when: "Aggregate PSUR analytics"
+        route: [P18]
+      - when: "A separately enacted drug action"
+        route: [P3, P3b, P3c, P4]
+
+  - cluster_id: 13
+    topic: "Special product restrictions, supply/import controls, animal-use controls and traceability notices"
+    mode: classify_each_record
+    overrides:
+      - when: "Human-medicine prohibitions or restrictions"
+        route: [P3, P3b, P3c, P4]
+      - when: "Veterinary actions"
+        route: [P16]
+      - when: "Product or class labeling"
+        route: [P8]
+      - when: "Broad traceability or rule mandates (unless a consumer-facing product record is independently extractable)"
+        route: [P29]

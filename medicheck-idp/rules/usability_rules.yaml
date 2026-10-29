@@ -1,0 +1,329 @@
+# =============================================================================
+# USABILITY RULES                       converted from the two taxonomy md files
+# -----------------------------------------------------------------------------
+# The taxonomy (rules/taxonomy/*.yaml) says WHAT a record is.
+# This file says WHAT TO DO with it: is it ready for direct matching, how may
+# it be displayed, how are mixed records split.
+#
+# Every rule has an ID. The classifier must write the IDs of the rules it
+# applied into its output (`rule_ids`) so a regulatory audit can answer
+# "why was this record usable / not ready?".
+#
+# Four fields are INDEPENDENT and must never be folded into each other
+# (paragraph md, "Classification rules"):
+#     app_classification   usable | future_usable | non_usable
+#     priority             P0..P3
+#     legal_status         see legal_status_display below
+#     direct_match_ready   true | false
+# "Direct usable", "Archive / context", "Operational" are NOT class values.
+# =============================================================================
+
+rules_version: "1.0.0"
+
+# -----------------------------------------------------------------------------
+# The three checks the current app performs (paragraph md, "Classification
+# rules"). P5/P6 are promoted to usable only when they satisfy one of these.
+# NOTE: the table md describes Usable more broadly (recalls, falsified-product
+# checks). That disagreement is tracked as DEC-01.
+# -----------------------------------------------------------------------------
+current_app_checks:
+  - id: CHK-SPURIOUS-NSQ
+    description: "Spurious / NSQ finding for a medicine or batch"
+  - id: CHK-PROHIBITION
+    description: "Prohibition / banned-drug status (including restriction and conditional-permission status of FDCs)"
+  - id: CHK-PVPI
+    description: "PvPI adverse-reaction alert"
+
+# -----------------------------------------------------------------------------
+# Invariants: statements that hold for EVERY output. They are not matched
+# against records; Step 8 (validator) and the display layer enforce them.
+# -----------------------------------------------------------------------------
+invariants:
+  - id: INV-01
+    text: "A missing match is not evidence that a medicine is safe, genuine, approved or unrestricted. It is an unsuccessful search."
+    enforced_in: [display]
+  - id: INV-02
+    text: "Show confirmed findings separately from unsuccessful searches."
+    enforced_in: [display]
+  - id: INV-03
+    text: "Verify the current legal status and scope before displaying any regulatory warning."
+    enforced_in: [display, validator]
+  - id: INV-04
+    text: "Historical approval or listing is not proof of current status."
+    enforced_in: [display]
+  - id: INV-05
+    text: "Preserve the original PDF and a source reference for every extracted record, plus publication date, exact regulatory wording and verification date."
+    enforced_in: [validator, normalizer]
+  - id: INV-06
+    text: "Classify each table and record independently. Never force one document-level classification onto all of its content."
+    enforced_in: [classifier]
+  - id: INV-07
+    text: "Mixed medicine / device / veterinary / cosmetic records: classify each record by product type. Only in-scope medicine records enter current medicine checks."
+    enforced_in: [classifier]
+  - id: INV-08
+    text: "Batch NSQ, spurious and banned-product findings are distinct from adverse-reaction alerts. A PvPI alert is not a recall or a prohibition."
+    enforced_in: [classifier, display]
+  - id: INV-09
+    text: "A draft or proposed action is never displayed as a current restriction."
+    enforced_in: [classifier, display]
+  - id: INV-10
+    text: "Generated summaries, semantic labels, cluster names and model confidence are review aids. Legal effect is never inferred from them or from titles alone."
+    enforced_in: [classifier, validator]
+  - id: INV-11
+    text: "Historical records carry their original dates and a historical flag. Older survey findings are not evidence that a currently sold pack is counterfeit."
+    enforced_in: [normalizer, display]
+  - id: INV-12
+    text: "Aggregate survey findings (P19) are never promoted to an individual batch verdict. A reported finding for one sample is never generalised to every pack of the brand."
+    enforced_in: [classifier, display]
+  - id: INV-13
+    text: "Non-usable does not mean the source document is invalid. Retain original files as needed."
+    enforced_in: [normalizer]
+  - id: INV-14
+    text: "app_classification, priority, legal_status and direct_match_ready are independent fields. Never derive one from another."
+    enforced_in: [classifier]
+
+# -----------------------------------------------------------------------------
+# APP-SCOPE GATE for paragraph records ("Current app-scope gate" in the md).
+#   direct_use: direct       passes only if require_fields are all present
+#               conditional  default class is future_usable; promoted to usable
+#                            only when the record satisfies a current check
+#               none         never ready for direct matching by default
+# Exactly one gate must cover each P-series ID (checked at load time).
+# A record that fails its gate is RETAINED with direct_match_ready=false.
+# Its app_classification does not change.
+# -----------------------------------------------------------------------------
+paragraph_gates:
+  - id: GATE-P1P2
+    applies_to: [P1, P2]
+    direct_use: direct
+    require_fields: [product_name, batch_no, manufacturer, failure_reason]
+    on_unmet: {direct_match_ready: false}
+    notes: "Medicine name, batch number, manufacturer and failure reason/result are all required. If any is missing, retain as not yet ready for direct matching."
+
+  - id: GATE-P3P4
+    applies_to: [P3, P4]
+    direct_use: direct
+    require_fields: [product_name, operative_action]
+    preserve_fields: [product_scope, legal_status]
+    on_unmet: {direct_match_ready: false}
+    notes: "The source must support the named medicine/FDC and the operative prohibition. Preserve exact product scope and legal status."
+
+  - id: GATE-P3B-P3C
+    applies_to: [P3b, P3c]
+    direct_use: direct
+    require_fields: [product_name, operative_action, conditions]
+    preserve_fields: [conditions, legal_basis, product_scope, legal_status]
+    constraints:
+      - "Preserve every condition."
+      - "Never turn a restriction or conditional permission into a blanket ban."
+    on_unmet: {direct_match_ready: false}
+
+  - id: GATE-P5P6
+    applies_to: [P5, P6]
+    direct_use: conditional
+    promotion:
+      checks_any_of: [CHK-SPURIOUS-NSQ, CHK-PROHIBITION, CHK-PVPI]
+      otherwise_class: future_usable
+    on_unmet: {direct_match_ready: false}
+    notes: "Direct only when the record satisfies one of the three current app checks; otherwise Future-usable (future recall / fraud-alert feature). See DEC-01."
+
+  - id: GATE-P7
+    applies_to: [P7]
+    direct_use: direct
+    require_fields: [suspected_drug, adverse_reaction]
+    optional_fields: [batch_no]
+    constraints:
+      - "Do not present an adverse-reaction alert as a recall or prohibition."
+    on_unmet: {direct_match_ready: false}
+    notes: "Suspected drug and adverse reaction must be present. Batch is optional."
+
+  - id: GATE-P8
+    applies_to: [P8]
+    direct_use: none
+    promote_only_if_independent_check: true
+    notes: "General product warnings and labeling advice are outside the three current schemas. Promote only if a specific record independently satisfies a current check."
+
+  - id: GATE-FUTURE-DEFAULT
+    applies_to: [P9, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P29, P30]
+    direct_use: none
+    promote_only_if_independent_check: true
+    notes: "Reference, device, veterinary, analytics, policy-monitoring or historical material stays deferred unless a specific actionable record independently satisfies a current check."
+
+  - id: GATE-NONUSABLE-DEFAULT
+    applies_to: [P20, P21, P22, P23, P24, P25, P26, P27, P28]
+    direct_use: none
+    promote_only_if_independent_check: false
+    notes: "Generic procedures, administrative notices, meetings and informational documents are not current app findings. Extract any independently actionable product finding separately and classify it on its own."
+
+# -----------------------------------------------------------------------------
+# MINIMUM EVIDENCE to promote a Usable record to direct matching / display
+# (paragraph md, Part 4). Applies on top of the gate above.
+# -----------------------------------------------------------------------------
+promotion_requirements:
+  required_all: [evidence_quote, source_document, source_location, legal_status]
+  required_any_of:
+    - [product_name, suspected_drug]                       # a named product
+    - [operative_action, failure_reason, adverse_reaction]  # the action / finding
+  required_if_present: [publication_date, effective_date, conditions, product_scope]
+  required_checks:
+    - id: linked_notices_reviewed
+      description: "Any linked corrigendum, revocation or superseding notice has been reviewed."
+  forbidden:
+    - "Substituting a generated summary for the operative wording."
+
+# -----------------------------------------------------------------------------
+# LEGAL STATUS display semantics (paragraph md, Part 4). Keys are the
+# LegalStatus enum in idp/schemas/taxonomy.py.
+# A missing legal_status is treated as unclear_from_excerpt.
+# -----------------------------------------------------------------------------
+missing_legal_status_as: unclear_from_excerpt
+
+legal_status_display:
+  final_or_effective_explicitly_stated:
+    display_mode: confirmed_finding
+    requires: [scope_verified, source_verified]
+    rule: "May be displayed as a confirmed finding only after scope and source verification (usable archetypes only)."
+  draft_or_proposed_explicitly_stated:
+    display_mode: proposed_only
+    rule: "Show only as proposed / under consultation. Never imply binding effect."
+  administrative_or_informational:
+    display_mode: context_only
+    rule: "Context only. Never a product verdict."
+  banned:
+    display_mode: confirmed_finding
+    requires: [evidence_quote_supports_prohibition_and_scope]
+    rule: "Accept only when the exact evidence quote supports the stated legal prohibition and scope."
+  repealed:
+    display_mode: link_to_parent
+    rule: "Link to the parent record and reflect the current operative status. Retain history for audit."
+  rescinded:
+    display_mode: link_to_parent
+    rule: "Link to the parent record and reflect the current operative status. Retain history for audit."
+  superseded:
+    display_mode: link_to_parent
+    rule: "Link to the parent record and reflect the current operative status. Retain history for audit."
+  corrected:
+    display_mode: link_to_parent
+    rule: "Link to the parent record and reflect the current operative status. Retain history for audit."
+  unclear_from_excerpt:
+    display_mode: hidden
+    review_status: needs_source_context_review
+    rule: "Do not display as a finding. Queue for source-context review or re-extraction."
+
+# -----------------------------------------------------------------------------
+# STATUS-CHAIN RULE: a rescission, supersession, correction or amendment to a
+# product-specific P3 / P3b / P3c / P4 record belongs to THAT record.
+# -----------------------------------------------------------------------------
+status_chain_rule:
+  id: RULE-STATUS-CHAIN
+  applies_to: [P3, P3b, P3c, P4]
+  events: [rescission, supersession, correction, amendment]
+  link_source_chain: true
+  update_parent_status: true
+  forbid_conflicting_parallel_alert: true
+  retain_history: true
+
+# -----------------------------------------------------------------------------
+# RECORD-LEVEL rules for table archetypes (and paragraphs where noted).
+# -----------------------------------------------------------------------------
+record_rules:
+  - id: REC-C-SPLIT
+    applies_to_tables: [C]
+    applies_to_paragraphs: [P1, P19]
+    action: split_by_record_type
+    description: "Mixed-document rule: classify tables and records independently."
+    record_types:
+      - record_type: specific_sample_record
+        class: usable
+        requires_fields: [product_name, batch_no, manufacturer, sample_no, test_findings]
+        maps_to_paragraph: P1
+        use: historical_batch_identification
+      - record_type: brand_level_summary
+        class: future_usable
+        maps_to_paragraph: P19
+        use: aggregate_trend_context_only
+        must_not: "Drive an individual product or batch verdict."
+    historical_note: "The country-wide survey (PDF 3257) is historical (2007-2009; some listed expiries 2010-2011). Preserve original dates and mark the records historical."
+
+  - id: REC-HISTORICAL
+    applies_to_tables: [C]
+    applies_to_paragraphs: [P1, P19]
+    action: mark_historical
+    description: "Records from historical sources carry original dates and a historical flag. Use them for historical batch identification and research. Do not present them as evidence that a currently sold pack is counterfeit without a sufficiently specific match and appropriate verification."
+
+  - id: REC-MIXED-PRODUCT
+    applies_to_tables: [A, C, E, AM, AU]
+    action: filter_by_product_type
+    in_scope_product_types: [medicine]
+    out_of_scope_product_types: [medical_device, veterinary, cosmetic, ivd_kit]
+    description: "Classify each record by product type. Use medicine-related entries only for current medicine checks."
+
+  - id: REC-SELECT-MEDICINE
+    applies_to_tables: [E, AU]
+    applies_to_paragraphs: [P11, P12]
+    action: select_subset
+    description: "Select relevant medicine records only. Exclude device and other out-of-scope records. Verify current validity before use."
+
+  - id: REC-K-STATUS
+    applies_to_tables: [K]
+    applies_to_paragraphs: [P3, P3b, P3c, P4]
+    action: require_distinct_status
+    description: "Keep prohibited, restricted and conditionally permitted combinations as distinct statuses. The Category C list under the 18-month policy is not a prohibition list; retain its exact legal basis and conditions."
+
+  - id: REC-NO-DOUBLE-COUNT
+    applies_to_tables: [A, B, C]
+    applies_to_paragraphs: [P1, P2]
+    action: deduplicate_across_modalities
+    description: "For monthly alerts extract both qualifying table rows (A/B/C) and independent prose findings (P1/P2), but do not count a table row as a separate paragraph alert without distinct evidence."
+
+# -----------------------------------------------------------------------------
+# DECISION ORDER (paragraph md, Part 3). The classifier applies these steps in
+# this order for every candidate paragraph / chunk. Steps are the CONTRACT that
+# tests check; the executable logic lives in idp/stages/classifier/.
+# -----------------------------------------------------------------------------
+decision_procedure:
+  - step: 1
+    question: "Is it an independent record or operative passage?"
+    otherwise: "Heading, publication mark, repeated boilerplate or fragment: retain for provenance, do not classify as a finding, mark for context / re-extraction."
+    routes_to: []
+  - step: 2
+    question: "Does it state a specific product/sample and an actionable quality, status, recall or safety finding?"
+    then: "Route by finding type, then apply the app-scope gate."
+    routes_to: [P1, P2, P3, P3b, P3c, P4, P5, P6, P7]
+  - step: 3
+    question: "Is it a product-specific advisory or labeling requirement rather than a ban or batch verdict?"
+    then: "Route to P8 (Future-usable by default). Never turn advisory wording into a quality or counterfeit finding."
+    routes_to: [P8]
+  - step: 4
+    question: "Is it a register, directory, reference list, aggregate analysis, device/IVD/veterinary record, or historical reference?"
+    then: "Default to Future-usable. Never infer a consumer verdict from aggregate data."
+    routes_to: [P9, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P30]
+  - step: 5
+    question: "Is it a formal general rule change or proposed regulatory amendment?"
+    then: "Route to P29 unless a specific product action can be extracted independently. Draft/proposed text remains proposed."
+    routes_to: [P29]
+  - step: 6
+    question: "Is it procedure, administration, meeting material, generic guidance or an informational notice?"
+    then: "Do not prioritise for consumer app extraction."
+    routes_to: [P20, P21, P22, P23, P24, P25, P26, P27, P28]
+  - step: 7
+    question: "Does it correct, revoke or supersede an existing product record?"
+    then: "Update and link the parent P3/P3b/P3c/P4 record. Do not keep contradictory parallel statuses."
+    routes_to: [P3, P3b, P3c, P4]
+
+# -----------------------------------------------------------------------------
+# DATA HANDLING (both md files, "Data handling rules")
+# -----------------------------------------------------------------------------
+data_handling:
+  inventory_fields:
+    - document_name
+    - category
+    - subcategory
+    - source_authority
+    - publication_date
+    - regulatory_status
+    - reason_for_classification
+    - extraction_status
+    - last_verified_date
+  keep_table_and_paragraph_extraction_linked_to_same_source: true
+  preserve_original_pdfs_and_source_paths: true

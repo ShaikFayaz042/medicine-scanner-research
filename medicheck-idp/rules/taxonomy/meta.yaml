@@ -1,0 +1,172 @@
+# =============================================================================
+# MediCheck taxonomy: metadata, controlled vocabulary, open decisions
+# -----------------------------------------------------------------------------
+# Edit this file by hand. Validated at startup by idp/schemas/taxonomy.py.
+# Bump `taxonomy_version` on ANY change under rules/ (semver):
+#   MAJOR = archetype removed/renamed or class meaning changed
+#   MINOR = archetype/layout/column added
+#   PATCH = alias, wording or note fixes
+# Every pipeline output must carry this version + the content hash.
+# =============================================================================
+
+taxonomy_version: "1.0.0"
+schema_version: 1
+
+sources:
+  - file: table_taxonomy_for_app.md
+    document_version: "1.0"
+    generated_from: [full_corpus_classified.csv, table_types_extraction.json]
+  - file: paragraph_taxonomy_for_app.md
+    document_version: "1.0"
+    generated_from:
+      - medicheck_semantic_labels_clustered.csv
+      - medicheck_document_clusters.csv
+      - medicheck_document_app_classification.csv
+      - medicheck_cluster_overview.csv
+      - medicheck_clustering_report.md
+
+corpus_stats:                       # informational only, never used in logic
+  tables:
+    raw_distinct_types_detected: 672
+    genuine_distinct_schemas: "~45-55"
+    high_volume_archetypes: "~16"
+  paragraphs:
+    paragraph_chunk_records: 3029
+    markdown_source_paths: 343
+    exploratory_clusters: 14
+
+# Column canonicals that appear in almost every table. The header matcher
+# ignores them when scoring, otherwise "S.No" would match all 48 archetypes.
+generic_columns: [sno, sl_no, serial_no]
+
+# -----------------------------------------------------------------------------
+# Controlled vocabulary for RECORD-LEVEL fields (paragraph findings, gates,
+# record rules). Rule files may only reference names defined here, so a typo
+# fails at startup instead of silently never matching.
+# NOTE: names are a conversion proposal (see DEC-08), not defined in the md.
+# Table column canonicals are a separate namespace (see tables.yaml).
+# -----------------------------------------------------------------------------
+field_vocabulary:
+  product_name:       {description: "Named medicine, formulation or FDC the record is about"}
+  product_scope:      {description: "Exact scope of the product named (dosage form, strength, formulation, FDC components covered)"}
+  batch_no:           {description: "Batch / lot number"}
+  sample_no:          {description: "Sample identifier in a survey or investigation record"}
+  manufacturer:       {description: "Manufacturer named in the record"}
+  failure_reason:     {description: "Failure reason or test/investigation result (NSQ, spurious, adulterated, misbranded)"}
+  test_findings:      {description: "Supporting investigation or test findings"}
+  mfg_date:           {description: "Date of manufacture"}
+  exp_date:           {description: "Date of expiry"}
+  operative_action:   {description: "The operative action stated: prohibition, restriction or conditional permission"}
+  conditions:         {description: "Every stated condition (indication, age, dose, population, other)"}
+  legal_basis:        {description: "Statutory basis, notification number or section (e.g. Section 26A, 18-month policy)"}
+  legal_status:       {description: "Legal status of the passage (see LegalStatus enum in the schema)"}
+  suspected_drug:     {description: "Suspected drug in a pharmacovigilance alert"}
+  adverse_reaction:   {description: "Adverse drug reaction reported"}
+  evidence_quote:     {description: "Exact operative wording from the source. A generated summary never substitutes for it"}
+  source_document:    {description: "Source document identifier / name"}
+  source_location:    {description: "Page or section within the source document"}
+  publication_date:   {description: "Publication date where present"}
+  effective_date:     {description: "Effective / commencement date where present"}
+  verification_date:  {description: "Date the record was last verified against the source"}
+  linked_record_id:   {description: "Parent product-status record updated by a rescission, correction or supersession"}
+
+# -----------------------------------------------------------------------------
+# Open decisions. The YAML files encode a safe default for each one and point
+# here through `decision_refs`. Resolve them, set status: resolved, and bump
+# the taxonomy version.
+# -----------------------------------------------------------------------------
+open_decisions:
+  - id: DEC-01
+    title: "Tables AV and AQ vs paragraphs P5 and P6 disagree on 'Usable'"
+    status: open
+    owner: Fayaz
+    detail: >
+      table_taxonomy_for_app.md lists AV (recall) and AQ (WHO fraud alert) as
+      Usable / P1 and defines Usable broadly (recalls, falsified-product
+      checks, safety alerts). paragraph_taxonomy_for_app.md limits the current
+      app to three checks (spurious/NSQ, prohibition, PvPI) and makes P5/P6
+      Usable only when a record satisfies one of them, otherwise
+      Future-usable.
+    current_encoding: >
+      tables.yaml follows the table md (AV, AQ = usable/P1). paragraphs.yaml
+      follows the paragraph md (P5, P6 = conditional, default future_usable).
+      Until resolved, AV/AQ rows must not be treated as direct-match-ready
+      unless the P5/P6 gate is satisfied.
+    affects: [AV, AQ, P5, P6]
+
+  - id: DEC-02
+    title: "P8 is listed in the Usable table but decided Future-usable by default"
+    status: open
+    owner: Fayaz
+    detail: >
+      P8 sits in the paragraph md "Usable" table with priority P1, but the
+      app-scope gate and the summary table make it Future-usable by default
+      (P2 when deferred).
+    current_encoding: "default_class future_usable, priority P1 as listed, priority_when_deferred P2"
+    affects: [P8]
+
+  - id: DEC-03
+    title: "Stray content in the table md"
+    status: resolved
+    owner: Fayaz
+    detail: >
+      A full table row ('| C | Spurious Drug List | ...') was embedded inside
+      archetype C's sample-file list, and the last two rows of the Part 2
+      Future-usable table lost their leading pipe. A raw OCR excerpt of the
+      survey Table-3 sits at the end of the file.
+    current_encoding: >
+      Row removed from C's sample list; the two rows are handled in DEC-04;
+      the OCR excerpt is test-fixture material, not taxonomy.
+    affects: [C]
+
+  - id: DEC-04
+    title: "Two Part-2 items have no archetype ID"
+    status: open
+    owner: Fayaz
+    detail: >
+      (a) 'Country-wide survey for spurious drugs (brand-level summary)' and
+      (b) 'Top-300 QR mandate records'. The md says (b) is not covered by the
+      A-AV archetypes.
+    current_encoding: >
+      (a) modelled as record_type brand_level_summary on table C (rule
+      REC-C-SPLIT) and paragraph P19. (b) is NOT encoded: it needs an ID or
+      an explicit decision to drop it.
+    affects: [C, P19]
+
+  - id: DEC-05
+    title: "AS, AU, AV have descriptions, not exact columns"
+    status: open
+    owner: Fayaz
+    detail: "Exact header text must come from sample PDFs before these can be matched."
+    current_encoding: "columns_status descriptive_only, matchable false, expected_concepts listed"
+    affects: [AS, AU, AV]
+
+  - id: DEC-06
+    title: "No required-field list per table archetype"
+    status: open
+    owner: Fayaz
+    detail: >
+      The md defines required fields only for paragraph archetypes (P1-P2,
+      P3-P4, P3b-P3c, P7). Which columns must be present for a table row of A,
+      B, K, Z... to be usable is not stated.
+    current_encoding: "No table-level readiness gate; only record rules in usability_rules.yaml"
+    affects: [A, B, C, K, Z, AR]
+
+  - id: DEC-07
+    title: "Identical headers in AM.donor_criteria and T.condition_criteria"
+    status: open
+    owner: Fayaz
+    detail: "Both are `sno | condition | criteria`. A header match cannot separate them."
+    current_encoding: "Both layouts marked ambiguous_with each other; resolve by content/context in the classifier"
+    affects: [AM, T]
+
+  - id: DEC-08
+    title: "Record-level field names are a proposal"
+    status: open
+    owner: "Fayaz + Santosh"
+    detail: >
+      field_vocabulary above was derived from the md wording (e.g. 'medicine
+      name, batch number, manufacturer, failure reason/result'). Confirm the
+      names before the extractor / parser output schema is frozen.
+    current_encoding: "As listed in field_vocabulary"
+    affects: [P1, P2, P3, P3b, P3c, P4, P7]
