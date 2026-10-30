@@ -1,0 +1,7 @@
+# runtime
+pymupdf>=1.28,<3        # tested on 1.28.2 (Windows) and 2.0 (Linux); pin the exact version you deploy
+pydantic>=2.6,<3
+pyyaml>=6               # taxonomy / rules loader
+
+# dev
+pytest>=8

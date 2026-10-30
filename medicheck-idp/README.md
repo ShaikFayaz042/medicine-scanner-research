@@ -2,7 +2,7 @@
 
 This system is aligned with MediCheck's Version 2 Intelligent Document Processing (IDP) pipeline. V2 uses separate processing stages, structured taxonomies, explicit decision rules, validated stage contracts, and deliberate/limited LLM usage to improve extraction quality, traceability, and processing efficiency.
 
-![MediCheck IDP Pipeline Architecture](docs/MediCheck%20IDP%20Pipeline%20Architecture.png)
+![MediCheck IDP Pipeline Architecture](<docs/MediCheck%20IDP%20Pipeline%20Architecture.png>)
 
 ## IDP V2: Processing Overview
 
