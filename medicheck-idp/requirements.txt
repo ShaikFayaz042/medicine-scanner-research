@@ -1,0 +1,13 @@
+# Shared
+pydantic>=2.7,<3
+PyYAML>=6.0
+
+# Stage 5 (classifier): S3 artifacts and the Bedrock LLM provider.
+# Converse structured outputs (outputConfig) were verified with boto3 1.43.
+boto3>=1.43
+
+# Optional LLM provider, only when IDP_LLM_PROVIDER=gemini
+# google-genai>=1.30
+
+# Tests
+pytest>=8

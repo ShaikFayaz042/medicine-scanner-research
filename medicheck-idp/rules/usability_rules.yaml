@@ -18,7 +18,7 @@
 # "Direct usable", "Archive / context", "Operational" are NOT class values.
 # =============================================================================
 
-rules_version: "1.0.0"
+rules_version: "2.0.0"
 
 # -----------------------------------------------------------------------------
 # The three checks the current app performs (paragraph md, "Classification
@@ -100,8 +100,8 @@ paragraph_gates:
     on_unmet: {direct_match_ready: false}
     notes: "Medicine name, batch number, manufacturer and failure reason/result are all required. If any is missing, retain as not yet ready for direct matching."
 
-  - id: GATE-P3P4
-    applies_to: [P3, P4]
+  - id: GATE-P3
+    applies_to: [P3]
     direct_use: direct
     require_fields: [product_name, operative_action]
     preserve_fields: [product_scope, legal_status]
@@ -212,11 +212,11 @@ legal_status_display:
 
 # -----------------------------------------------------------------------------
 # STATUS-CHAIN RULE: a rescission, supersession, correction or amendment to a
-# product-specific P3 / P3b / P3c / P4 record belongs to THAT record.
+# product-specific P3 / P3b / P3c record belongs to THAT record.
 # -----------------------------------------------------------------------------
 status_chain_rule:
   id: RULE-STATUS-CHAIN
-  applies_to: [P3, P3b, P3c, P4]
+  applies_to: [P3, P3b, P3c]
   events: [rescission, supersession, correction, amendment]
   link_source_chain: true
   update_parent_status: true
@@ -266,7 +266,7 @@ record_rules:
 
   - id: REC-K-STATUS
     applies_to_tables: [K]
-    applies_to_paragraphs: [P3, P3b, P3c, P4]
+    applies_to_paragraphs: [P3, P3b, P3c]
     action: require_distinct_status
     description: "Keep prohibited, restricted and conditionally permitted combinations as distinct statuses. The Category C list under the 18-month policy is not a prohibition list; retain its exact legal basis and conditions."
 
@@ -289,7 +289,7 @@ decision_procedure:
   - step: 2
     question: "Does it state a specific product/sample and an actionable quality, status, recall or safety finding?"
     then: "Route by finding type, then apply the app-scope gate."
-    routes_to: [P1, P2, P3, P3b, P3c, P4, P5, P6, P7]
+    routes_to: [P1, P2, P3, P3b, P3c, P5, P6, P7]
   - step: 3
     question: "Is it a product-specific advisory or labeling requirement rather than a ban or batch verdict?"
     then: "Route to P8 (Future-usable by default). Never turn advisory wording into a quality or counterfeit finding."
@@ -300,7 +300,7 @@ decision_procedure:
     routes_to: [P9, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P30]
   - step: 5
     question: "Is it a formal general rule change or proposed regulatory amendment?"
-    then: "Route to P29 unless a specific product action can be extracted independently. Draft/proposed text remains proposed."
+    then: "Route to P29 only when no product-specific action is stated. A product-specific proposed action is classified by its action (P3/P3b/P3c/P8) with legal_status draft_or_proposed_explicitly_stated (DEC-10). Draft/proposed text remains proposed."
     routes_to: [P29]
   - step: 6
     question: "Is it procedure, administration, meeting material, generic guidance or an informational notice?"
@@ -308,8 +308,8 @@ decision_procedure:
     routes_to: [P20, P21, P22, P23, P24, P25, P26, P27, P28]
   - step: 7
     question: "Does it correct, revoke or supersede an existing product record?"
-    then: "Update and link the parent P3/P3b/P3c/P4 record. Do not keep contradictory parallel statuses."
-    routes_to: [P3, P3b, P3c, P4]
+    then: "Update and link the parent P3/P3b/P3c record. Do not keep contradictory parallel statuses."
+    routes_to: [P3, P3b, P3c]
 
 # -----------------------------------------------------------------------------
 # DATA HANDLING (both md files, "Data handling rules")

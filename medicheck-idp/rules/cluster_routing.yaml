@@ -26,7 +26,7 @@ clusters:
       - when: "Fees, ports, appointments and administrative provisions"
         route: [P26]
       - when: "Product-specific restrictions or labeling actions (retain legal status)"
-        route: [P3, P3b, P3c, P4, P8]
+        route: [P3, P3b, P3c, P8]
 
   - cluster_id: 1
     topic: "Medical Devices Rules and device compliance"
@@ -64,7 +64,7 @@ clusters:
     overrides:
       - when: "Administrative-only draft provisions"
         route: [P26]
-    notes: "Explicitly proposed, not binding. Product-specific proposed restrictions remain P29 until effective; never display them as current restrictions."
+    notes: "Explicitly proposed, not binding. Product-specific proposed restrictions are classified by action (P3/P3b/P3c) with legal_status draft_or_proposed_explicitly_stated (DEC-10); never display them as current restrictions."
 
   - cluster_id: 5
     topic: "Medical-device classification as drugs"
@@ -78,7 +78,7 @@ clusters:
     default_route: [P30]
     overrides:
       - when: "A still-operative product-specific action (verify first)"
-        route: [P3, P3b, P3c, P4]
+        route: [P3, P3b, P3c]
     notes: "Check time limits, expiry, repeal and supersession."
 
   - cluster_id: 7
@@ -89,7 +89,7 @@ clusters:
       - when: "Corrigenda to procedure"
         route: [P27]
       - when: "Product-specific corrections (update the product record)"
-        route: [P3, P3b, P3c, P4]
+        route: [P3, P3b, P3c]
     notes: "Distinguish draft, final publication, commencement, correction and product-specific effect."
 
   - cluster_id: 8
@@ -99,7 +99,7 @@ clusters:
       - when: "Device alerts"
         route: [P9]
       - when: "Product safety, recall, prohibition or advisory records"
-        route: [P3, P3b, P3c, P4, P5, P6, P7, P8]
+        route: [P3, P3b, P3c, P5, P6, P7, P8]
       - when: "Meetings"
         route: [P24]
       - when: "Generic notices"
@@ -138,7 +138,7 @@ clusters:
       - when: "Administrative or compounding notices"
         route: [P26]
       - when: "Product-specific revocation or corrigendum (updates the product record)"
-        route: [P3, P3b, P3c, P4]
+        route: [P3, P3b, P3c]
 
   - cluster_id: 12
     topic: "Expert committees, vaccine PSUR review and safety-review meetings"
@@ -151,14 +151,14 @@ clusters:
       - when: "Aggregate PSUR analytics"
         route: [P18]
       - when: "A separately enacted drug action"
-        route: [P3, P3b, P3c, P4]
+        route: [P3, P3b, P3c]
 
   - cluster_id: 13
     topic: "Special product restrictions, supply/import controls, animal-use controls and traceability notices"
     mode: classify_each_record
     overrides:
       - when: "Human-medicine prohibitions or restrictions"
-        route: [P3, P3b, P3c, P4]
+        route: [P3, P3b, P3c]
       - when: "Veterinary actions"
         route: [P16]
       - when: "Product or class labeling"
