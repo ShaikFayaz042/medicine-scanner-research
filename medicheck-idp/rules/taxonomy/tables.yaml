@@ -41,23 +41,34 @@ tables:
       - layout_id: A.standard
         columns:
           - {canonical: sno,            variants: ["S.No", "Sr.No", "Sl.No", "S.NO", "S.N o"]}
-          - {canonical: product_name,   variants: ["Name of Drugs/medical device/cosmetics"]}
-          - {canonical: batch_no,       variants: ["Batch No."]}
-          - {canonical: mfg_date,       variants: ["Date of Manufacture", "Mfg Date"]}
-          - {canonical: exp_date,       variants: ["Date of Expiry", "Exp Date"]}
-          - {canonical: manufacturer,   variants: ["Manufactured By"]}
-          - {canonical: failure_reason, variants: ["Reason for failure"]}
-          - {canonical: drawn_by,       variants: ["Drawn By (From state/CDSCO Zone)"]}
-          - {canonical: lab,            variants: ["From (Name of Laboratory)", "From"]}
+          - {canonical: product_name, variants: ["Name of Drugs/medical device/cosmetics", "Name of Drug", "Name of the Drug", "Name of the Drugs", "Drug Name", "Drugs Name", "Product/Drug Name", "Name of the Drug/Medical Device/Cosmetic"]}
+          - {canonical: batch_no, variants: ["Batch No.", "Batch Number", "B.No."]}
+          - {canonical: mfg_date, variants: ["Date of Manufacture", "Mfg Date", "Manufacturing Date", "Mfg Dt"]}
+          - {canonical: exp_date, variants: ["Date of Expiry", "Exp Date", "Expiry Date", "Exp Dt"]}
+          - {canonical: manufacturer, variants: ["Manufactured By", "Mfg By", "Mfd By", "Manufactured by as per label"]}
+          - {canonical: failure_reason, variants: ["Reason for failure", "Reasons for failure", "Reason of failure", "Reason for failure with report no", "Reason for failure/Report No"]}
+          - {canonical: drawn_by, variants: ["Drawn By (From state/CDSCO Zone)"]}
+          - {canonical: lab, variants: ["From (Name of Laboratory)", "From", "From (Name of the Laboratory)"]}
           - {canonical: report_no_form13, optional: true}
-          - {canonical: remarks,          optional: true}
-          - {canonical: firms_reply,      optional: true}
+          - {canonical: remarks, optional: true}
+          - {canonical: firms_reply, variants: ["Firm Reply"], optional: true}
       - layout_id: A.composite
         inherits: A.standard
         composite_cells:
           - header_variants: ["Batch No./Date of Manufacture/Date of Expiry/Manufactured By"]
             split_into: [batch_no, mfg_date, exp_date, manufacturer]
         notes: "One cell packs four values. Parser (Step 7A) must split it into four columns."
+      - layout_id: A.nsq_result
+        columns:
+          - {canonical: sno}
+          - {canonical: product_name, variants: ["Product/Drug Name", "Name of Drugs/medical device/cosmetics"]}
+          - {canonical: batch_no, variants: ["Batch No."]}
+          - {canonical: mfg_date, variants: ["Manufacturing Date", "Date of Manufacture"]}
+          - {canonical: exp_date, variants: ["Expiry Date", "Date of Expiry"]}
+          - {canonical: manufacturer, variants: ["Manufactured By"]}
+          - {canonical: nsq_result, variants: ["NSQ Result", "NSQ Results"]}
+          - {canonical: lab, variants: ["Reported by CDSCO Laboratory", "Reported by CDSCO Lab"]}
+        notes: "From 2025 CDSCO-laboratory alerts use the State-alert column set with a CDSCO laboratory column (e.g. 12927, June 2025). DEC-12."
     notes:
       - "Monthly list; 2013-2024 PDFs. Product column name covers drugs, devices and cosmetics: classify each record by product type."
 
@@ -72,13 +83,13 @@ tables:
       - layout_id: B.standard
         columns:
           - {canonical: sno,          variants: ["S.No", "Sr.No"]}
-          - {canonical: product_name, variants: ["Product/Drug Name"]}
-          - {canonical: batch_no,     variants: ["Batch No."]}
-          - {canonical: mfg_date,     variants: ["Manufacturing Date"]}
-          - {canonical: exp_date,     variants: ["Expiry Date"]}
-          - {canonical: manufacturer, variants: ["Manufactured By"]}
-          - {canonical: nsq_result,   variants: ["NSQ Result"]}
-          - {canonical: lab,          variants: ["Reported by State Laboratory"]}
+          - {canonical: product_name, variants: ["Product/Drug Name", "Drug Name", "Name of Drug", "Name of Drugs", "Vaccine Name"]}
+          - {canonical: batch_no, variants: ["Batch No.", "Batch Number", "B.No."]}
+          - {canonical: mfg_date, variants: ["Manufacturing Date", "Date of Manufacture", "Mfg Dt"]}
+          - {canonical: exp_date, variants: ["Expiry Date", "Date of Expiry"]}
+          - {canonical: manufacturer, variants: ["Manufactured By", "Mfg By", "Mfd By"]}
+          - {canonical: nsq_result, variants: ["NSQ Result", "NSQ Results"]}
+          - {canonical: lab, variants: ["Reported by State Laboratory", "Reported by"]}  # CDSCO-laboratory wording belongs to A.nsq_result (DEC-12)
     notes:
       - "Same shape as A, but lab is the State laboratory and nsq_result is free text."
 
@@ -93,15 +104,27 @@ tables:
       - layout_id: C.standard
         columns:
           - {canonical: sno,            variants: ["S.No"]}
-          - {canonical: product_name,   variants: ["Name of Drugs/medical device/cosmetics"]}
-          - {canonical: batch_no,       variants: ["Batch No.", "B.No."]}
-          - {canonical: mfg_date,       variants: ["Date of Manufacture"]}
-          - {canonical: exp_date,       variants: ["Date of Expiry"]}
-          - {canonical: manufacturer,   variants: ["Manufactured By"]}
-          - {canonical: failure_reason, variants: ["Reason for failure"]}
-          - {canonical: drawn_by,       variants: ["Drawn By"]}
-          - {canonical: firms_reply,    variants: ["Firm's reply"]}
+          - {canonical: product_name, variants: ["Name of Drugs/medical device/cosmetics", "Name of Drug", "Name of the Drug", "Drug Name", "Product/Drug Name"]}
+          - {canonical: batch_no, variants: ["Batch No.", "B.No.", "Batch Number"]}
+          - {canonical: mfg_date, variants: ["Date of Manufacture", "Manufacturing Date"]}
+          - {canonical: exp_date, variants: ["Date of Expiry", "Expiry Date"]}
+          - {canonical: manufacturer, variants: ["Manufactured By", "Mfg By"]}
+          - {canonical: failure_reason, variants: ["Reason for failure", "Reasons for failure", "Reason of failure"]}
+          - {canonical: drawn_by, variants: ["Drawn By", "Drawn By (From state/CDSCO Zone)"]}
+          - {canonical: firms_reply, variants: ["Firm's reply", "Firm Reply"]}
           - {canonical: remarks,        variants: ["Remarks"]}
+      - layout_id: C.outlets_and_response
+        columns:
+          - {canonical: sno}
+          - {canonical: product_name, variants: ["Product/Drug Name"]}
+          - {canonical: batch_no, variants: ["B. No.", "Batch No."]}
+          - {canonical: mfg_date, variants: ["Manufacturing Date"]}
+          - {canonical: exp_date, variants: ["Expiry Date"]}
+          - {canonical: manufacturer, variants: ["Manufactured By as per label", "Manufactured By"]}
+          - {canonical: sales_outlets, variants: ["Sales Outlets Involved in Distribution of Spurious Drugs"]}
+          - {canonical: manufacturer_response, variants: ["Response of Original Manufacturer"]}
+          - {canonical: reported_by, variants: ["Reported by CDSCO/ State/Manufacturer", "Reported by"]}
+        notes: "Monthly spurious alerts from 2024 (e.g. 11255, April 2024). DEC-12."
     guardrails:
       - "Mixed-document rule: classify tables and records independently (see REC-C-SPLIT)."
       - "Specific spurious-sample records are Usable for historical batch identification; brand-level survey summaries and aggregate sample counts are Future-usable only and must not drive an individual product or batch verdict."
@@ -122,11 +145,11 @@ tables:
       - layout_id: K.standard
         columns:
           - {canonical: sno}
-          - {canonical: name_of_fdc}
-          - {canonical: strength}
-          - {canonical: dosage_form}
-          - {canonical: notification_no_date}
-          - {canonical: date_of_central_govt_approval, optional: true}
+          - {canonical: name_of_fdc, variants: ["Name of the FDC", "Name of Fixed Dose Combination", "Drug Name", "Drugs Name"]}
+          - {canonical: strength, variants: ["Strength of FDC"], optional: true}   # absent from the published lists (DEC-12)
+          - {canonical: dosage_form, optional: true}
+          - {canonical: notification_no_date, variants: ["Notification No", "Notification"]}
+          - {canonical: date_of_central_govt_approval, variants: ["Date of Central Government Approval"], optional: true}
     guardrails:
       - "Keep prohibited, restricted and conditionally permitted combinations as distinct statuses."
       - "The Category C list under the 18-month policy is NOT a prohibition list; retain its exact legal basis and conditions."
@@ -143,9 +166,9 @@ tables:
         columns:
           - {canonical: sno}
           - {canonical: issue_date}
-          - {canonical: suspected_drug}
-          - {canonical: indication}
-          - {canonical: adverse_drug_reaction}
+          - {canonical: suspected_drug, variants: ["Suspected Drugs"]}
+          - {canonical: indication, variants: ["Indication(s)"]}
+          - {canonical: adverse_drug_reaction, variants: ["Adverse Drug Reactions"]}
     guardrails:
       - "A PvPI alert is not a recall or a prohibition."
       - "Adverse-reaction alerts are distinct from batch NSQ, spurious and banned-product findings."
@@ -161,8 +184,8 @@ tables:
       - layout_id: AQ.standard
         columns:
           - {canonical: product_name}
-          - {canonical: stated_value}    # claimed manufacturer / batch
-          - {canonical: actual_value}
+          - {canonical: stated_value, variants: ["Stated", "Stated on product"]}    # claimed manufacturer / batch
+          - {canonical: actual_value, variants: ["Actual"]}
     notes:
       - "stated_value = the claimed manufacturer/batch printed on the falsified pack; actual_value = what was found."
     decision_refs: [DEC-01]
@@ -178,8 +201,8 @@ tables:
       - layout_id: AR.standard
         columns:
           - {canonical: sno}
-          - {canonical: drug_name}
-          - {canonical: notification_no}
+          - {canonical: drug_name, variants: ["Drugs Name", "Name of Drug"]}
+          - {canonical: notification_no, variants: ["Notification", "Notification No. & Date"]}
     guardrails:
       - "Retain the notification number and the scope of the prohibition."
 
@@ -211,9 +234,9 @@ tables:
       - layout_id: D.standard
         columns:
           - {canonical: sno,          variants: ["Sr. No", "S. No."]}
-          - {canonical: device_name,  variants: ["Device name", "Medical Device Name", "Name of the Medical Device"]}
-          - {canonical: intended_use, variants: ["Intended use", "Intended Use", "General Intended Use"]}
-          - {canonical: risk_class,   variants: ["Risk Class", "Risk Classification", "Classification India as per First Schedule Part-1 MDR 2017"]}
+          - {canonical: device_name, variants: ["Device name", "Medical Device Name", "Name of the Medical Device", "Name of the Medical Devices", "Name of Product"]}
+          - {canonical: intended_use, variants: ["Intended use", "Intended Use", "General Intended Use", "Intended Uses"]}
+          - {canonical: risk_class, variants: ["Risk Class", "Risk Classification", "Classification India as per First Schedule Part-1 MDR 2017", "Risk"]}
       - layout_id: D.revision_comparison
         inherits: D.standard
         status: partial
@@ -233,8 +256,8 @@ tables:
       - layout_id: E.standard
         columns:
           - {canonical: sno}
-          - {canonical: file_no}
-          - {canonical: company_address}
+          - {canonical: file_no, variants: ["File Nos"]}
+          - {canonical: company_address, variants: ["Name of the Company", "Name of Company", "Name of the Company and Address"]}
           - {canonical: product_name}
           - {canonical: intended_use}
           - {canonical: regulatory_status, known_values: ["Regulated", "Not Regulated"]}
@@ -253,8 +276,8 @@ tables:
       - layout_id: F.standard
         columns:
           - {canonical: sno}
-          - {canonical: category, known_values: ["IVD", "device"]}
-          - {canonical: name_of_facility}
+          - {canonical: category, variants: ["Category of In Vitro Diagnostics", "Category of In Vitro Diagnostics Medical Devices"], known_values: ["IVD", "device"]}
+          - {canonical: name_of_facility, variants: ["Name of Testing Facility", "Name of Laboratory"]}
     guardrails:
       - "Directory only. Not product or batch evidence."
 
@@ -270,13 +293,13 @@ tables:
       - layout_id: J.standard
         columns:
           - {canonical: sno}
-          - {canonical: name_of_vaccine}
-          - {canonical: strain}
-          - {canonical: source_of_strain}
-          - {canonical: dosage_form}
-          - {canonical: indication}
-          - {canonical: permission_no}
-          - {canonical: importer_manufacturer}
+          - {canonical: name_of_vaccine, variants: ["Name of the Vaccine", "Name of Veterinary Vaccine", "Vaccine Name"]}
+          - {canonical: strain, variants: ["Name of the Strain", "Strain Name"]}
+          - {canonical: source_of_strain, variants: ["Source of the Strain"]}
+          - {canonical: dosage_form, variants: ["Dosage Form & Presentation"]}
+          - {canonical: indication, variants: ["Indication(s)"]}
+          - {canonical: permission_no, variants: ["Permission Number"]}
+          - {canonical: importer_manufacturer, variants: ["Manufacturer", "Name of the Manufacturer", "Name of the Importer/Manufacturer with Address"]}
 
   - id: M
     name: "COVID / PCR Kit Approval"
@@ -290,9 +313,9 @@ tables:
       - layout_id: M.standard
         columns:
           - {canonical: sno}
-          - {canonical: name_of_firm}
-          - {canonical: type_of_kit}
-          - {canonical: country}
+          - {canonical: name_of_firm, variants: ["Name of the Firm", "Company Name", "Manufacturer Name"]}
+          - {canonical: type_of_kit, variants: ["Kit Type"]}
+          - {canonical: country, variants: ["Country of Origin"]}
 
   - id: R
     name: "SAE / PSUR Reporting"
@@ -306,12 +329,12 @@ tables:
       - layout_id: R.standard
         columns:
           - {canonical: sno}
-          - {canonical: sae}
+          - {canonical: sae, variants: ["Serious Adverse Event", "Serious Adverse Events"]}
           - {canonical: duration_from}
           - {canonical: duration_to}
-          - {canonical: num_sae}
-          - {canonical: units_sold}
-          - {canonical: lot_batch_no}
+          - {canonical: num_sae, variants: ["Number of the SAE Reported", "Number of SAE"]}
+          - {canonical: units_sold, variants: ["Total Units Sold", "Total Units"]}
+          - {canonical: lot_batch_no, variants: ["Lot/Batch Number"]}
     guardrails:
       - "Assess record suitability. Not a direct consumer batch alert."
 
@@ -327,13 +350,13 @@ tables:
       - layout_id: AC.drug_category
         columns:
           - {canonical: sno}
-          - {canonical: drug}
+          - {canonical: drug, variants: ["Drug Name", "Name of Drug"]}
           - {canonical: therapeutic_category}
       - layout_id: AC.expert_recommendation
         columns:
           - {canonical: sno}
-          - {canonical: drug_name_strength}
-          - {canonical: recommendation_of_experts}
+          - {canonical: drug_name_strength, variants: ["Drug Name and Strength", "Name of Drug Strength"]}
+          - {canonical: recommendation_of_experts, variants: ["Recommendations", "Recommendations of Experts"]}
       - layout_id: AC.section_summary
         status: partial
         columns:
@@ -368,10 +391,10 @@ tables:
       - layout_id: AE.standard
         columns:
           - {canonical: sno}
-          - {canonical: drug_name}
-          - {canonical: bcs_class}
+          - {canonical: drug_name, variants: ["Name of Drug"]}
+          - {canonical: bcs_class, variants: ["BCS", "BCS (Class II/IV)"]}
           - {canonical: product}
-          - {canonical: company_trade_name}
+          - {canonical: company_trade_name, variants: ["Name of Drug/Company/Trade Name", "Name of Drug/Company/Trade Name/Manufacturer"]}
     guardrails:
       - "Not a batch-safety source."
 
@@ -427,7 +450,7 @@ tables:
       - layout_id: AT.standard
         columns:
           - {canonical: sno}
-          - {canonical: drug}
+          - {canonical: drug, variants: ["Name of Drug", "Drug Name"]}
           - {canonical: indication}
           - {canonical: date_of_issue}
     guardrails:
@@ -439,11 +462,21 @@ tables:
     priority: P2
     scope_condition: "Selectively, for relevant medicine records"
     purpose: "Imported-product registration reference"
-    columns_status: descriptive_only
-    matchable: false
+    columns_status: partial
+    matchable: true
     column_description: "Registration certificate holder, importer/manufacturer, product category, registration number, and validity."
     expected_concepts: [registration_certificate_holder, importer_manufacturer, product_category, registration_number, validity]
-    layouts: []
+    layouts:
+      - layout_id: AU.rc_register
+        status: partial
+        columns:
+          - {canonical: sno}
+          - {canonical: registration_certificate_holder, variants: ["Indian Agent", "Indian Agent/Importer"]}
+          - {canonical: importer_manufacturer, variants: ["Legal Manufacturer"]}
+          - {canonical: registration_number, variants: ["Reg. No", "Registration No"]}
+          - {canonical: validity, variants: ["Validity"]}
+          - {canonical: product_category, optional: true, variants: ["Category"]}
+        notes: "Header texts taken from the corpus-derived rules in analysis/scripts/table/classify_table_archetypes.py (DEC-05)."
     guardrails:
       - "Select relevant medicine records; verify current validity."
     decision_refs: [DEC-05]
@@ -452,6 +485,20 @@ tables:
   # NON-USABLE   (do not prioritise for the current consumer app database;
   #               retain the original source documents as needed)
   # ===========================================================================
+
+  - id: NU
+    name: "Other non-usable table"
+    default_class: non_usable
+    priority: P3
+    purpose: "Fallback for a table that matches no archetype and has no current or future app value (DEC-11)"
+    columns_status: descriptive_only
+    matchable: false
+    column_description: "Any administrative, procedural or technical table not covered by a specific archetype."
+    expected_concepts: []
+    layouts: []
+    notes:
+      - "Never assigned by header matching. Used by the LLM fallback so it does not have to choose between 28 non-usable archetypes that the app treats identically."
+    decision_refs: [DEC-11]
 
   - id: G
     name: "Gazette Fee Schedule"

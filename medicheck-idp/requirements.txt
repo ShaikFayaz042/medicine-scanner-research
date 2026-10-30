@@ -1,7 +1,13 @@
 # runtime
 pymupdf>=1.28,<3        # tested on 1.28.2 (Windows) and 2.0 (Linux); pin the exact version you deploy
-pydantic>=2.6,<3
-pyyaml>=6               # taxonomy / rules loader
+pydantic>=2.7,<3
+PyYAML>=6.0             # taxonomy / rules loader
 
-# dev
+# Stage 5 Bedrock LLM provider; boto3 is not used for artifact storage.
+boto3>=1.43
+
+# Optional LLM provider, only when IDP_LLM_PROVIDER=gemini
+# google-genai>=1.30
+
+# Tests
 pytest>=8

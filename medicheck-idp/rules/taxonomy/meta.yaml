@@ -9,7 +9,7 @@
 # Every pipeline output must carry this version + the content hash.
 # =============================================================================
 
-taxonomy_version: "1.0.0"
+taxonomy_version: "2.1.0"
 schema_version: 1
 
 sources:
@@ -138,7 +138,12 @@ open_decisions:
     status: open
     owner: Fayaz
     detail: "Exact header text must come from sample PDFs before these can be matched."
-    current_encoding: "columns_status descriptive_only, matchable false, expected_concepts listed"
+    current_encoding: >
+      AS and AV: columns_status descriptive_only, matchable false, expected_concepts listed
+      (the classifier matches their expected_concepts against column names known from other
+      archetypes). AU: matchable layout AU.rc_register using header texts from the
+      corpus-derived rules in analysis/scripts/table/classify_table_archetypes.py; confirm
+      against sample PDFs.
     affects: [AS, AU, AV]
 
   - id: DEC-06
@@ -169,4 +174,57 @@ open_decisions:
       name, batch number, manufacturer, failure reason/result'). Confirm the
       names before the extractor / parser output schema is frozen.
     current_encoding: "As listed in field_vocabulary"
-    affects: [P1, P2, P3, P3b, P3c, P4, P7]
+    affects: [P1, P2, P3, P3b, P3c, P7]
+
+  - id: DEC-09
+    title: "P4 merged into P3"
+    status: resolved
+    owner: "Team (2026-10-29)"
+    detail: >
+      'Prose banned-drug list or Section 26A prohibition record' (P4) could not be
+      told apart from an operative prohibition (P3) in the text, and the app uses
+      both identically (prohibited-status check).
+    current_encoding: "P4 removed; P3 covers it (P3.replaces: [P4]); GATE-P3P4 renamed GATE-P3."
+    affects: [P3, P4]
+
+  - id: DEC-10
+    title: "Legal status is an attribute; P29 narrowed to general rule changes"
+    status: resolved
+    owner: "Team (2026-10-29)"
+    detail: >
+      A product-specific proposed action used to be P29. It is now classified by
+      its action (P3, P3b, P3c, P8) and carries legal_status
+      draft_or_proposed_explicitly_stated, so the action type and the legal
+      status are recorded independently (INV-14). P29 keeps general rule
+      changes and policy proposals that name no product action.
+    current_encoding: "paragraphs.yaml P29 archetype text and relations; usability decision_procedure step 5."
+    affects: [P3, P3b, P3c, P8, P29]
+
+  - id: DEC-11
+    title: "Generic non-usable table label (NU)"
+    status: resolved
+    owner: "Team (2026-10-29)"
+    detail: >
+      The classifier keeps every specific non-usable archetype when its header
+      rule matches. The LLM fallback, however, chooses only among usable and
+      future-usable archetypes plus NU, because the 28 non-usable archetypes are
+      handled identically by the app.
+    current_encoding: "tables.yaml NU (matchable: false)."
+    affects: [NU]
+
+  - id: DEC-12
+    title: "Table columns corrected against real PDFs"
+    status: resolved
+    owner: "Team (2026-10-29)"
+    detail: >
+      Checked on downloaded PDFs while building the classifier. (a) The published
+      prohibited/restricted FDC lists (12085, 12087, 14514) have only
+      'S. No. | Drugs Name | Notification No. & Date', so K.strength and
+      K.dosage_form are optional. (b) From 2025 the CDSCO-laboratory alert (12927)
+      uses the State-alert column set with 'Reported by CDSCO Laboratory'; this is
+      A (CDSCO laboratories), not B, so A gained layout A.nsq_result and B's lab
+      column keeps only State-laboratory wording. (c) The 2024 monthly spurious
+      alerts (11255) list sales outlets and the original manufacturer's response;
+      C gained layout C.outlets_and_response.
+    current_encoding: "tables.yaml K.standard, A.nsq_result, B.standard.lab, C.outlets_and_response"
+    affects: [A, B, C, K]
