@@ -1,0 +1,392 @@
+# =============================================================================
+# PARAGRAPH TAXONOMY  (P-series, 31 archetypes; P4 merged into P3, DEC-09)   converted from
+# paragraph_taxonomy_for_app.md v1.0
+# -----------------------------------------------------------------------------
+# DATA ONLY: what each passage type says and how it relates to others.
+# What makes a passage ready for direct matching (required fields, legal-status
+# display, decision order) lives in rules/usability_rules.yaml.
+#
+# IDs are STRINGS. "P3b" and "P3c" are real IDs. Never sort or cast numerically.
+#
+# Entry fields
+#   default_class   usable | future_usable | non_usable
+#   class_mode      fixed        = class never changes with the record
+#                   conditional  = default_class is the SAFE default; the record
+#                                  is promoted to usable only if its gate passes
+#   priority        P0..P3. priority_when_deferred = priority if left deferred
+#   maps_to_tables  table archetypes (tables.yaml) that carry the same record
+#                   in tabular form. One direction only: the reverse mapping
+#                   (table -> paragraphs) is derived by the loader.
+#   extraction_fields  record-level fields to extract (names from
+#                   meta.yaml field_vocabulary). Fields REQUIRED for direct use
+#                   are in the usability gate, not here.
+#   relations       how a passage hands off to another archetype:
+#                   splits_to | routes_to | updates_parent | links_on_effect | related
+#
+# The md states that app_classification, priority, legal_status and
+# direct-match readiness are INDEPENDENT. None of them is encoded in another.
+# =============================================================================
+
+paragraphs:
+
+  # ===========================================================================
+  # USABLE  (current medicine checks)
+  # ===========================================================================
+
+  - id: P1
+    name: "Batch/sample-specific spurious or falsified finding"
+    archetype: "Batch/sample-specific prose finding that a named medicine is spurious, falsified, adulterated, or misbranded; retain product and available batch, sample, manufacturer, test/investigation details"
+    default_class: usable
+    class_mode: fixed
+    priority: P0
+    app_use: "Historical batch-level falsified-product check"
+    maps_to_tables: [C]
+    extraction_fields: [product_name, batch_no, sample_no, manufacturer, failure_reason, test_findings]
+    guardrails:
+      - "WHO-origin alerts are classified under P6 (table AQ), not here."
+
+  - id: P2
+    name: "Batch-specific NSQ narrative finding"
+    archetype: "Batch-specific NSQ / not-of-standard-quality narrative finding outside a structured table"
+    default_class: usable
+    class_mode: fixed
+    priority: P0
+    app_use: "Batch quality-failure check"
+    maps_to_tables: [A, B]
+    extraction_fields: [product_name, batch_no, manufacturer, failure_reason]
+    guardrails:
+      - "For monthly alerts, do not double-count a table row (A/B/C) as a separate paragraph alert without distinct evidence."
+
+  - id: P3
+    name: "Operative prohibition / banned-drug record"
+    archetype: "Operative prohibition of a named medicine, formulation, or FDC for manufacture, sale, distribution, import, or use, including prose banned-drug lists and Section 26A prohibition records"
+    default_class: usable
+    class_mode: fixed
+    priority: P0
+    app_use: "Prohibited-status check (includes banned-drug status)"
+    maps_to_tables: [K, AR]            # K for FDC entries
+    replaces: [P4]                     # DEC-09: P4 merged into P3
+    extraction_fields: [product_name, product_scope, operative_action, legal_basis, legal_status]
+    guardrails:
+      - "Preserve exact product scope and legal status."
+
+  - id: P3b
+    name: "Operative restriction (not a ban)"
+    archetype: "Operative restriction on a named medicine/FDC, including indication, age, dose, population, or other stated conditions; not an outright prohibition"
+    default_class: usable
+    class_mode: fixed
+    priority: P0
+    app_use: "Restricted-status check; preserve scope and conditions"
+    maps_to_tables: [K]
+    extraction_fields: [product_name, product_scope, operative_action, conditions, legal_basis, legal_status]
+    guardrails:
+      - "Preserve every condition. Never turn a restriction into a blanket ban."
+
+  - id: P3c
+    name: "Conditional permission / continued-use pathway"
+    archetype: "Explicit conditional permission or continued-use/manufacture pathway, including Category C / 18-month policy status"
+    default_class: usable
+    class_mode: fixed
+    priority: P0
+    app_use: "Conditional-status check; preserve conditions and legal basis"
+    maps_to_tables: [K]
+    extraction_fields: [product_name, product_scope, operative_action, conditions, legal_basis, legal_status]
+    guardrails:
+      - "Preserve every condition and the exact legal basis. Never turn it into a blanket ban."
+      - "The Category C / 18-month policy list is not a prohibition list."
+
+  - id: P5
+    name: "Product recall / safety communication"
+    archetype: "Product recall or safety communication that identifies the affected product and, where available, batch/lot"
+    default_class: future_usable       # SAFE default; promoted by the P5/P6 gate (DEC-01)
+    class_mode: conditional
+    priority: P1
+    priority_when_deferred: P2
+    app_use: "Conditional: direct only if it satisfies a current app check, otherwise future recall feature"
+    maps_to_tables: [AV]
+    extraction_fields: [product_name, batch_no]
+    decision_refs: [DEC-01]
+
+  - id: P6
+    name: "WHO / international falsified-medicine alert"
+    archetype: "WHO or other international authority alert identifying a falsified medicine, claimed/actual product details, or lot"
+    default_class: future_usable       # SAFE default; promoted by the P5/P6 gate (DEC-01)
+    class_mode: conditional
+    priority: P1
+    priority_when_deferred: P2
+    app_use: "Conditional: direct only if it satisfies a current app check, otherwise future fraud-alert feature"
+    maps_to_tables: [AQ]
+    extraction_fields: [product_name, batch_no]
+    decision_refs: [DEC-01]
+
+  - id: P7
+    name: "PvPI / pharmacovigilance adverse-reaction alert"
+    archetype: "PvPI / pharmacovigilance alert with suspected drug and adverse drug reaction; batch is optional"
+    default_class: usable
+    class_mode: fixed
+    priority: P1
+    app_use: "Adverse-reaction check; not a recall or prohibition"
+    maps_to_tables: [Z]
+    extraction_fields: [suspected_drug, adverse_reaction, batch_no]
+    guardrails:
+      - "Do not present an adverse-reaction alert as a recall or prohibition."
+
+  # ===========================================================================
+  # FUTURE-USABLE  (retain and defer)
+  # ===========================================================================
+
+  - id: P8
+    name: "Product/class warning, advisory or labeling requirement"
+    archetype: "Product- or class-specific warning, advisory, or labeling requirement that informs safe use but is not itself a ban, batch finding, or recall"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P1                       # as listed in the md Usable table (DEC-02)
+    priority_when_deferred: P2
+    app_use: "Future-usable by default; no general advisory feature in the current three checks"
+    maps_to_tables: []
+    relations:
+      - {type: related, targets: [P29], when: "Applicable rule context may be P29"}
+    guardrails:
+      - "Do not turn advisory wording into a quality or counterfeit finding."
+      - "Promote only if a specific record independently satisfies a current check."
+    decision_refs: [DEC-02]
+
+  - id: P9
+    name: "Medical-device alert or classification"
+    archetype: "Medical-device safety alert or device classification/risk information"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Device verification only if a device vertical is in scope"
+    maps_to_tables: [D, AS]
+    guardrails:
+      - "Keep device records separate from human-medicine findings."
+
+  - id: P10
+    name: "Approved-products-for-marketing list"
+    archetype: "Approved-products-for-marketing list"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Historical approval reference"
+    maps_to_tables: [AT]
+    guardrails:
+      - "A past listing does not prove current approval."
+
+  - id: P11
+    name: "Registration-certificate holder / importer register"
+    archetype: "Registration-certificate holder/importer register"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Imported-product reference"
+    maps_to_tables: [AU]
+    guardrails:
+      - "Verify validity and product match."
+
+  - id: P12
+    name: "NOC / clarification register"
+    archetype: "NOC / clarification register or product-specific regulatory reference"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Regulatory reference for selected medicine records"
+    maps_to_tables: [E]
+    guardrails:
+      - "Select medicine records; exclude out-of-scope product types."
+
+  - id: P13
+    name: "Reference-product list for BE studies"
+    archetype: "Reference-product list for bioequivalence studies"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Product/brand enrichment only"
+    maps_to_tables: [AE]
+    guardrails:
+      - "Not a safety source."
+
+  - id: P14
+    name: "NLEM / essential-medicines prose or list"
+    archetype: "NLEM / essential-medicines prose or list"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Badge/reference only"
+    maps_to_tables: [AC]
+    guardrails:
+      - "Preserve edition and date."
+
+  - id: P15
+    name: "Laboratory / testing-facility listing"
+    archetype: "Laboratory or testing-facility listing"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Directory only"
+    maps_to_tables: [F]
+    guardrails:
+      - "Not product or batch evidence."
+
+  - id: P16
+    name: "Veterinary medicine / vaccine / animal-use list or restriction"
+    archetype: "Veterinary medicine, vaccine, or animal-use restriction/list"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Veterinary vertical only"
+    maps_to_tables: [J]                # no direct mapping for all animal-use restrictions
+    guardrails:
+      - "An animal-use prohibition is not a human-medicine prohibition."
+      - "Table J covers vaccine lists only; animal-use restrictions in prose have no table equivalent."
+
+  - id: P17
+    name: "IVD / COVID kit approval or listing"
+    archetype: "IVD / COVID kit approval or product listing"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "IVD scope only"
+    maps_to_tables: [M]
+
+  - id: P18
+    name: "SAE / PSUR / aggregate pharmacovigilance analytics"
+    archetype: "SAE / PSUR / aggregate pharmacovigilance analytics"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Analytics only"
+    maps_to_tables: [R]
+    guardrails:
+      - "Not a consumer batch alert."
+
+  - id: P19
+    name: "Aggregate / country-wide survey prose"
+    archetype: "Country-wide or aggregate survey prose, brand-level sample counts, or manufacturer-reported aggregate findings"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Historical surveillance only"
+    maps_to_tables: [C]                # C only for separately identified batch/sample records
+    relations:
+      - {type: splits_to, targets: [P1], when: "A record in the survey is batch/sample-specific"}
+    guardrails:
+      - "Must never drive an individual pack verdict."
+      - "Split any batch/sample-specific record to P1."
+      - "Historical records (e.g. the 2007-2009 survey) must carry original dates and a historical flag."
+    decision_refs: [DEC-04]
+
+  - id: P29
+    name: "Rule amendment / draft proposal / policy change (regulatory watch)"
+    archetype: "General drug-rule amendment, formal draft rule proposal, or regulatory-policy change that names no product-specific operative action. A product-specific action, in force or proposed, is classified by its action (P3, P3b, P3c, P8) with its legal_status attribute instead (DEC-10)"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Regulatory watch"
+    maps_to_tables: []                 # K/AR only for independently actionable effective product records
+    relations:
+      - {type: links_on_effect, targets: [P3, P3b, P3c, P8], when: "Once a general rule change names a product action, classify that action separately"}
+    guardrails:
+      - "Preserve proposed/final/commencement status and later links."
+      - "A proposed product-specific action is NOT P29: it is P3/P3b/P3c/P8 with legal_status draft_or_proposed_explicitly_stated, and is never displayed as current (INV-09)."
+
+  - id: P30
+    name: "Historical / emergency regulatory measure (archive)"
+    archetype: "Historical/emergency regulatory measures retained for provenance or precedent"
+    default_class: future_usable
+    class_mode: fixed
+    priority: P2
+    app_use: "Archive / context only"
+    maps_to_tables: []
+    relations:
+      - {type: routes_to, targets: [P3, P3b, P3c], when: "A current product-status action is still operative (verify first)"}
+    guardrails:
+      - "Check dates, expiry, repeal and supersession before any current use."
+
+  # ===========================================================================
+  # NON-USABLE  (do not prioritise for current app extraction)
+  # Generic default. Any independently actionable product finding inside such a
+  # document is extracted and classified separately.
+  # ===========================================================================
+
+  - id: P20
+    name: "BE / BABE / NOC procedural guidance and forms"
+    archetype: "BE / BABE / NOC procedural guidance, application requirements, submission checklists, forms, or fees"
+    default_class: non_usable
+    class_mode: fixed
+    priority: P3
+    guardrails:
+      - "Do not promote to future_usable merely because it concerns a medicine or a regulated workflow."
+
+  - id: P21
+    name: "BA/BE centre approval document checklists"
+    archetype: "BA/BE centre approval document checklists"
+    default_class: non_usable
+    class_mode: fixed
+    priority: P3
+
+  - id: P22
+    name: "Generic FAQ / public-awareness material"
+    archetype: "Generic FAQ or public-awareness material without a product-specific actionable warning"
+    default_class: non_usable
+    class_mode: fixed
+    priority: P3
+
+  - id: P23
+    name: "Expert committee / policy report or recommendation"
+    archetype: "Expert committee / policy report or recommendation"
+    default_class: non_usable
+    class_mode: fixed
+    priority: P3
+    guardrails:
+      - "Non-usable as a consumer finding. Cite an enacting product notification as the source of truth if one exists."
+
+  - id: P24
+    name: "Meeting minutes, schedules and participant lists"
+    archetype: "Meeting minutes, consultation notes, meeting schedules, and participant lists"
+    default_class: non_usable
+    class_mode: fixed
+    priority: P3
+    guardrails:
+      - "Substantive product-specific outcomes must be separately sourced and classified."
+
+  - id: P25
+    name: "Enforcement / prosecution procedure"
+    archetype: "Enforcement/prosecution procedure, including generic Category A/B/C handling and compounding guidance"
+    default_class: non_usable
+    class_mode: fixed
+    priority: P3
+    guardrails:
+      - "Non-usable as a product verdict."
+      - "Category definitions may be retained as a Future-usable INTERNAL reference taxonomy. They are not extracted as findings."
+
+  - id: P26
+    name: "Administrative Gazette notice"
+    archetype: "Administrative Gazette notice: ports, fees, appointments, analyst/inspector qualifications, authority rosters, debarment, administrative compounding, or cosmetic procedure"
+    default_class: non_usable
+    class_mode: fixed
+    priority: P3
+    relations:
+      - type: routes_to
+        targets: [P1, P2, P3, P3b, P3c, P5, P6, P7, P8]
+        when: "A separately stated medicine restriction or safety finding is routed to its applicable P-series ID"
+    guardrails:
+      - "Non-usable even when final and effective."
+
+  - id: P27
+    name: "Corrigendum to procedural or administrative rules"
+    archetype: "Corrigendum to procedural or administrative rules"
+    default_class: non_usable
+    class_mode: fixed
+    priority: P3
+    relations:
+      - type: updates_parent
+        targets: [P3, P3b, P3c]
+        when: "The corrigendum corrects a product-specific action: incorporate it into that status record instead"
+
+  - id: P28
+    name: "Informational public notice, circular or press note"
+    archetype: "Informational public notice, circular, or press note without a product-specific actionable finding or rule change requiring monitoring"
+    default_class: non_usable
+    class_mode: fixed
+    priority: P3

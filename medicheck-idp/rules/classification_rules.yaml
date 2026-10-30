@@ -1,0 +1,376 @@
+# =============================================================================
+# CLASSIFICATION RULES  (stage 5: how units are MATCHED to the taxonomy)
+# -----------------------------------------------------------------------------
+# taxonomy/*.yaml says WHAT each archetype is; usability_rules.yaml says what to
+# DO with it; this file says how the classifier RECOGNISES it.
+# Validated at start-up by idp/schemas/taxonomy.py (labels must exist, regexes
+# must compile, every P-series ID needs at least one rule).
+#
+# Patterns are Python regular expressions, matched case-insensitively against
+# text whose whitespace has been collapsed to single spaces.
+#
+# Scoring
+#   - A paragraph rule fires when EVERY `require` group matches (any pattern in
+#     a group) and no `exclude` pattern matches. A label's score combines its
+#     fired rules as 1 - prod(1 - weight), so two independent weak rules
+#     reinforce each other but never exceed 1.
+#   - Context cues read the document title, table caption and heading path.
+#     Titles count as content (team decision), but a cue only ADDS to a label
+#     that its own content already supports; on its own it can only nominate a
+#     candidate for the LLM.
+#   - Units whose best score is below the accept threshold, whose accepted
+#     labels conflict, or that match nothing go to the LLM fallback.
+#
+# Bump classification_rules_version on any change (semver).
+# =============================================================================
+
+classification_rules_version: "1.0.0"
+
+units:
+  paragraph_strategy: section       # section = blocks under one heading; chunk = fixed-size groups of blocks
+  min_record_chars: 80              # shorter units (lone headings, page marks) are not_a_record
+  max_unit_chars: 4000              # longer sections are split at block boundaries
+  chunk_target_chars: 1500          # target size for the chunk strategy
+  skip_block_types: [header, footer, table_ref]
+  languages: [en]                   # blocks tagged with another language (e.g. Hindi) are skipped
+
+thresholds:
+  table_accept: 0.70
+  table_candidate: 0.35
+  paragraph_accept: 0.60
+  paragraph_candidate: 0.30
+  conflict_margin: 0.10             # two table archetypes closer than this are a conflict
+
+table_matching:
+  fuzzy_min_ratio: 0.86             # SequenceMatcher ratio on compact header text (OCR tolerance)
+  containment_min_chars: 5          # "nameofdrugsmedicaldevicecosmetics" contains "nameofdrugs"; "batch" in "batchno"
+  min_matched_columns: 2            # non-generic columns that must match
+  min_coverage: 0.5                 # share of a layout's required columns that must be found
+  coverage_weight: 0.75             # score = coverage * w + precision * (1 - w)
+  concept_score_cap: 0.55           # descriptive-only archetypes (AS, AV) cannot reach accept on concepts alone
+  context_cues:
+    - {id: TC-A, label: A, weight: 0.10, patterns: ['drug alert', 'not of standard quality', '\bnsq\b'], exclude: ['\bstate\b']}
+    # State alerts reuse the CDSCO template, even 'Reported by CDSCO Laboratory' (11373); 'state' wording decides.
+    - {id: TC-B, label: B, weight: 0.15, patterns: ['\bstate\b.{0,40}(nsq|drug alert|not of standard)', '(nsq|drug alert|not of standard).{0,40}\bstate\b', 'state\s+(drugs\s+testing\s+)?lab']}
+    - {id: TC-C, label: C, weight: 0.12, patterns: ['spurious', 'adulterated', 'misbranded']}
+    - {id: TC-K, label: K, weight: 0.12, patterns: ['fixed dose combination', '\bfdcs?\b', 'section 26 ?a']}
+    - {id: TC-AR, label: AR, weight: 0.12, patterns: ['banned drugs?', 'drugs? banned', 'prohibited for manufacture']}
+    - {id: TC-Z, label: Z, weight: 0.12, patterns: ['pvpi', 'pharmacovigilance', 'drug safety alert']}
+    - {id: TC-AQ, label: AQ, weight: 0.12, patterns: ['\bwho\b.{0,60}(falsified|counterfeit|fraud)', 'falsified']}
+    - {id: TC-AV, label: AV, weight: 0.15, patterns: ['\brecall']}
+    - {id: TC-D, label: D, weight: 0.10, patterns: ['risk class', 'medical devices?', 'intended use']}
+    - {id: TC-AS, label: AS, weight: 0.15, patterns: ['medical device alert', 'field safety']}
+    - {id: TC-E, label: E, weight: 0.10, patterns: ['\bnocs?\b', 'no objection', 'clarification']}
+    - {id: TC-F, label: F, weight: 0.10, patterns: ['laborator', 'testing facilit']}
+    - {id: TC-J, label: J, weight: 0.12, patterns: ['veterinary', 'animal']}
+    - {id: TC-M, label: M, weight: 0.12, patterns: ['covid', '\bpcr\b', 'test kits?', 'elisa', 'clia']}
+    - {id: TC-AC, label: AC, weight: 0.12, patterns: ['\bnlem\b', 'essential medicines']}
+    - {id: TC-AE, label: AE, weight: 0.12, patterns: ['reference products?', 'bioequivalence', '\bbe stud']}
+    - {id: TC-AT, label: AT, weight: 0.12, patterns: ['approved for marketing']}
+    - {id: TC-AU, label: AU, weight: 0.12, patterns: ['\brc holders?', 'registration certificate']}
+    - {id: TC-R, label: R, weight: 0.10, patterns: ['\bpsur\b', 'serious adverse event']}
+
+# -----------------------------------------------------------------------------
+# Paragraph rules. Weights: ~0.75 = enough alone; ~0.5 = needs a second rule or
+# a context cue; ~0.35 = only nominates a candidate for the LLM.
+# -----------------------------------------------------------------------------
+paragraph_rules:
+  # --- Usable --------------------------------------------------------------
+  - id: PR-P1-SPURIOUS-BATCH
+    label: P1
+    weight: 0.75
+    require:
+      - ['spurious', 'falsified', 'counterfeit', 'adulterated', 'misbranded']
+      - ['batch\s*(no|number)', '\bb\.?\s*no\b', '\blot\s*(no|number)', 'sample\s*(no|number)']
+    exclude: ['world health organi[sz]ation', '(?-i:\bWHO\b)']
+    note: "WHO-origin alerts are P6."
+
+  - id: PR-P2-NSQ-BATCH
+    label: P2
+    weight: 0.75
+    require:
+      - ['not of standard quality', '\bnsq\b', 'sub-?standard']
+      - ['batch\s*(no|number)', '\bb\.?\s*no\b', '\blot\s*(no|number)']
+
+  - id: PR-P3-PROHIBITS
+    label: P3
+    weight: 0.75
+    require:
+      - ['prohibit\w*\s+(the\s+)?(manufacture|sale|distribution|import|use)', 'hereby\s+prohibit', 'banned\s+(the\s+)?(manufacture|sale|import)', 'ban(ning)?\s+of']
+      - ['drug', 'formulation', 'fixed dose combination', '\bfdcs?\b', 'tablet', 'injection', 'syrup', 'capsule', 'suspension']
+  - id: PR-P3-BANNED-LIST
+    label: P3
+    weight: 0.60
+    require:
+      - ['banned drugs?', 'drugs?\s+banned', 'prohibited\s+drugs?', 'prohibited\s+for\s+manufacture']
+  - id: PR-P3-SECTION-26A
+    label: P3
+    weight: 0.45
+    require:
+      - ['section\s*26\s*a']
+      - ['prohibit', 'ban']
+
+  - id: PR-P3B-RESTRICTS
+    label: P3b
+    weight: 0.70
+    require:
+      - ['hereby\s+restricts?', 'restrict\w*\s+(the\s+)?(manufacture|sale|distribution|use|import)', 'shall\s+not\s+be\s+(used|sold|marketed|prescribed)', 'not\s+to\s+be\s+used', 'subject\s+to\s+the\s+conditions?\s+that', 'restricted\s+(to|for)\b']
+      - ['drug', 'formulation', 'fixed dose combination', '\bfdcs?\b', 'tablet', 'injection', 'syrup', 'medicine']
+      - ['children', 'below\s+\w+\s+(years|months)', '\bage\b', 'indication', '\bdose\b', 'dosage', 'population', 'pregnan', 'condition', 'label', 'warning']
+    exclude: ['no\s+regulation\s+or\s+restriction', 'regulation\s+or\s+restriction\s+(can|could|would|is|was)']
+    note: "Prohibition notices say 'no regulation or restriction can be justified'; that is not a restriction."
+
+  - id: PR-P3C-CATEGORY-C
+    label: P3c
+    weight: 0.75
+    require:
+      - ['category\s*[''"(]?\s*c\b', '18\s*months?\s*policy', 'continued\s+manufactur', 'permitted\s+for\s+continued']
+
+  - id: PR-P5-RECALL
+    label: P5
+    weight: 0.70
+    require:
+      - ['\brecall']
+      - ['batch', '\blot\b', 'product', 'drug', 'device', 'implant']
+    exclude: ['pharmacovigilance', 'pvpi', 'adverse drug reaction']
+
+  - id: PR-P6-WHO-FALSIFIED
+    label: P6
+    weight: 0.80
+    require:
+      - ['world health organi[sz]ation', '(?-i:\bWHO\b)', 'interpol', 'international']
+      - ['falsified', 'counterfeit', 'substandard', 'fraudulent']
+
+  - id: PR-P7-PVPI
+    label: P7
+    weight: 0.75
+    require:
+      - ['pharmacovigilance', 'pvpi', 'adverse drug reactions?', '\badrs?\b']
+      - ['suspected', 'reaction', 'alert', 'signal']
+
+  # --- Future-usable -------------------------------------------------------
+  - id: PR-P8-ADVISORY
+    label: P8
+    weight: 0.60
+    require:
+      - ['advis(e|es|ed)\b', 'advisory\s+(is|to|for|on|regarding)\b', 'caution', 'warning\s+(shall|should|must|that)', 'label(l)?ing', 'package\s+insert', 'prescribing\s+information', 'precaution']
+      - ['drug', 'medicine', 'product', 'formulation', 'patients', 'healthcare professionals', 'consumers']
+    exclude: ['advisory\s+(board|committee)']
+    note: "'Drugs Technical Advisory Board' is not an advisory."
+
+  - id: PR-P9-DEVICE
+    label: P9
+    weight: 0.60
+    require:
+      - ['medical\s+devices?\s+(alert|rules)', 'risk\s+class', 'device\s+alert', 'implantable\s+(medical\s+)?devices?', 'field\s+safety\s+notice', 'notified\s+(as\s+)?medical\s+devices?', 'classification\s+of\s+medical\s+devices?', 'medical\s+devices?\s+(is|are|was|were|has|have)\b']
+    exclude: ['in vitro diagnostic', '\bivd\b']
+    note: "Generic 'Drugs, Medical Devices and Cosmetics' wording in NSQ lists is not a device record."
+  - id: PR-P9-DEVICE-IVD
+    label: P9
+    weight: 0.35
+    require:
+      - ['medical devices?']
+      - ['in vitro diagnostic', '\bivd\b']
+
+  - id: PR-P10-APPROVED-MARKETING
+    label: P10
+    weight: 0.70
+    require:
+      - ['approved\s+for\s+marketing', 'marketing\s+approval', 'approved\s+(new\s+)?drugs?\s+list']
+
+  - id: PR-P11-RC-HOLDER
+    label: P11
+    weight: 0.70
+    require:
+      - ['registration\s+certificate', '\brc\s+holders?']
+      - ['holder', 'importer', 'indian agent', 'issued']
+
+  - id: PR-P12-NOC
+    label: P12
+    weight: 0.55
+    require:
+      - ['no\s+objection\s+certificate', '\bnocs?\b', 'clarification']
+      - ['product', 'regulated', 'not regulated', 'device', 'drug']
+    exclude: ['bioequivalence', '\bba\s*/?\s*be\b', 'babe']
+
+  - id: PR-P13-BE-REFERENCE
+    label: P13
+    weight: 0.75
+    require:
+      - ['reference\s+products?']
+      - ['bioequivalence', '\bbe\s+stud', '\bba\s*/?\s*be\b']
+
+  - id: PR-P14-NLEM
+    label: P14
+    weight: 0.75
+    require:
+      - ['national\s+list\s+of\s+essential\s+medicines', '\bnlem\b', 'essential\s+medicines']
+
+  - id: PR-P15-LAB-LIST
+    label: P15
+    weight: 0.50
+    require:
+      - ['laborator(y|ies)', 'testing\s+facilit']
+      - ['list', 'registered', 'approved', 'notified', 'names?\s+of']
+
+  - id: PR-P16-VETERINARY
+    label: P16
+    weight: 0.70
+    require:
+      - ['veterinary', 'animal\s+use', 'for\s+animals?', 'poultry', 'cattle', 'livestock']
+
+  - id: PR-P17-IVD-KIT
+    label: P17
+    weight: 0.70
+    require:
+      - ['covid', 'rt-?pcr', '\bpcr\b', 'antigen', 'elisa', 'clia', 'in\s+vitro\s+diagnostic', '\bivd\b']
+      - ['kits?', 'test', 'assay', 'diagnostic']
+
+  - id: PR-P18-PSUR-SAE
+    label: P18
+    weight: 0.70
+    require:
+      - ['\bpsurs?\b', 'periodic\s+safety\s+update', 'serious\s+adverse\s+events?', '\bsaes?\b']
+
+  - id: PR-P19-SURVEY
+    label: P19
+    weight: 0.70
+    require:
+      - ['survey', 'country-?\s*wide', 'samples\s+(were\s+)?(collected|drawn|tested)', 'number\s+of\s+samples', 'brand-?\s*wise']
+      - ['spurious', 'not of standard quality', '\bnsq\b', 'quality', 'genuine']
+
+  - id: PR-P29-RULE-AMENDMENT
+    label: P29
+    weight: 0.60
+    require:
+      - ['drugs\s+(and|&)\s+cosmetics\s+rules', 'medical\s+devices\s+rules', 'new\s+drugs\s+and\s+clinical\s+trials\s+rules', 'cosmetics\s+rules', 'drugs\s+rules']
+      - ['amend', 'draft', 'insert', 'substitut', 'omit', 'propos']
+  - id: PR-P29-DRAFT-POLICY
+    label: P29
+    weight: 0.45
+    require:
+      - ['draft', 'propos', 'objections\s+and\s+suggestions', 'inviting\s+comments', 'public\s+comments']
+
+  - id: PR-P30-EMERGENCY
+    label: P30
+    weight: 0.50
+    require:
+      - ['covid-?19', 'pandemic', 'emergency\s+use', 'restricted\s+emergency', 'public\s+health\s+emergency']
+      - ['permission', 'approval', 'measure', 'exemption', 'relaxation', 'extension']
+
+  # --- Non-usable ----------------------------------------------------------
+  - id: PR-P20-BE-PROCEDURE
+    label: P20
+    weight: 0.65
+    require:
+      - ['bioequivalence', '\bba\s*/?\s*be\b', 'babe', '\bnoc\b', 'export']
+      - ['application', 'checklist', 'requirement', 'submission', 'form', 'fee', 'guidance', 'procedure', 'documents?\s+required']
+
+  - id: PR-P21-BABE-CENTRE-CHECKLIST
+    label: P21
+    weight: 0.75
+    require:
+      - ['\bba\s*/?\s*be\b', 'babe', 'bioequivalence']
+      - ['centre', 'center']
+      - ['documents?', 'checklist', 'approval']
+
+  - id: PR-P22-FAQ
+    label: P22
+    weight: 0.70
+    require:
+      - ['frequently\s+asked\s+questions', '\bfaqs?\b', 'public\s+awareness', 'do''?s\s+and\s+don''?ts']
+
+  - id: PR-P23-COMMITTEE-REPORT
+    label: P23
+    weight: 0.55
+    require:
+      - ['expert\s+committee', 'sub-?committee', '\bdtab\b', 'drugs\s+technical\s+advisory\s+board', '\bdcc\b', 'subject\s+expert\s+committee']
+      - ['recommend', 'report', 'deliberat', 'opined']
+
+  - id: PR-P24-MEETING
+    label: P24
+    weight: 0.70
+    require:
+      - ['minutes\s+of\s+(the\s+)?meeting', 'members\s+present', 'agenda\s+(item|no)', 'meeting\s+schedule', 'proceedings\s+of\s+the\s+meeting', 'list\s+of\s+participants']
+
+  - id: PR-P25-ENFORCEMENT
+    label: P25
+    weight: 0.60
+    require:
+      - ['prosecution', 'compounding', 'category\s+[abc]\s+(offence|cases?)', 'action\s+against\s+(the\s+)?(firm|offender)', 'guidelines\s+for\s+taking\s+action']
+
+  - id: PR-P26-ADMIN-GAZETTE
+    label: P26
+    weight: 0.55
+    require:
+      - ['government\s+analyst', 'drugs\s+inspector', 'appoint', 'ports?\s+of\s+(entry|import)', '\bfees?\b', 'debar', 'qualification', 'licensing\s+authority']
+      - ['hereby', 'notification', 'g\.?\s*s\.?\s*r\.?', 's\.?\s*o\.?\s*\d', 'gazette']
+
+  - id: PR-P27-CORRIGENDUM
+    label: P27
+    weight: 0.75
+    require:
+      - ['corrigendum', '\bfor\s+["“].{1,80}["”]\s*,?\s*read\b']
+
+  - id: PR-P28-NOTICE
+    label: P28
+    weight: 0.40
+    require:
+      - ['public\s+notice', 'circular', 'press\s+(note|release)', 'it\s+is\s+(hereby\s+)?informed', 'for\s+(the\s+)?information\s+of']
+
+paragraph_context_cues:
+  - {id: PC-P2, label: P2, weight: 0.10, patterns: ['\bnsq\b', 'not of standard quality', 'drug alert']}
+  - {id: PC-P1, label: P1, weight: 0.10, patterns: ['spurious', 'falsified']}
+  - {id: PC-P3, label: P3, weight: 0.10, patterns: ['prohibit', 'banned?', 'section 26 ?a']}
+  - {id: PC-P3B, label: P3b, weight: 0.10, patterns: ['restrict']}
+  - {id: PC-P5, label: P5, weight: 0.10, patterns: ['\brecall']}
+  - {id: PC-P6, label: P6, weight: 0.10, patterns: ['(?-i:\bWHO\b)', 'falsified']}
+  - {id: PC-P7, label: P7, weight: 0.10, patterns: ['pvpi', 'pharmacovigilance', 'drug safety alert']}
+  - {id: PC-P9, label: P9, weight: 0.10, patterns: ['medical device']}
+  - {id: PC-P24, label: P24, weight: 0.10, patterns: ['minutes', 'meeting']}
+  - {id: PC-P29, label: P29, weight: 0.10, patterns: ['draft', 'amendment']}
+
+# -----------------------------------------------------------------------------
+# Legal status: first matching rule wins; nothing matched = unclear_from_excerpt.
+# Order matters: draft wording beats "hereby" wording found in draft notices.
+# -----------------------------------------------------------------------------
+legal_status_rules:
+  - id: LS-DRAFT
+    status: draft_or_proposed_explicitly_stated
+    patterns: ['draft\s+(rules|notification|amendment)', 'proposes?\s+to', 'proposed\s+(amendment|rules?|notification)', 'objections\s+(and|or)\s+suggestions', 'inviting\s+(comments|objections)', 'persons\s+likely\s+to\s+be\s+affected']
+  - id: LS-CORRECTED
+    status: corrected
+    patterns: ['corrigendum']
+  - id: LS-RESCINDED
+    status: rescinded
+    patterns: ['\brescind', 'hereby\s+revoke', '\brevocation\s+of', 'withdraw\w*\s+(the\s+)?notification']
+  - id: LS-SUPERSEDED
+    status: superseded
+    patterns: ['stands?\s+superseded', 'is\s+hereby\s+superseded']
+  - id: LS-FINAL
+    status: final_or_effective_explicitly_stated
+    patterns: ['with\s+immediate\s+effect', 'shall\s+come\s+into\s+force', 'hereby\s+(prohibits|restricts|notifies|specifies|directs|bans)', 'come\s+into\s+force\s+on', 'with\s+effect\s+from']
+  - id: LS-ADMIN
+    status: administrative_or_informational
+    patterns: ['public\s+notice', 'circular', 'press\s+(note|release)', 'for\s+(the\s+)?information\s+of', 'minutes\s+of', 'frequently\s+asked\s+questions']
+
+# -----------------------------------------------------------------------------
+# Labels that cannot both apply to ONE unit. If both are accepted, the unit is
+# sent to the LLM (with the rule candidates as hints).
+# -----------------------------------------------------------------------------
+conflicts:
+  - {labels: [P5, P7], reason: "A PvPI adverse-reaction alert is not a recall (INV-08)."}
+  - {labels: [P1, P19], reason: "A sample-specific finding and an aggregate survey summary must be split (REC-C-SPLIT, INV-12)."}
+  - {labels: [P2, P19], reason: "A batch NSQ finding and an aggregate survey summary must be split (INV-12)."}
+  - {labels: [P29, P3], reason: "P29 holds rule changes that name no product action; a product action is P3 (DEC-10)."}
+  - {labels: [P29, P3b], reason: "P29 holds rule changes that name no product action; a product action is P3b (DEC-10)."}
+  - {labels: [P29, P3c], reason: "P29 holds rule changes that name no product action; a product action is P3c (DEC-10)."}
+  - {labels: [P1, P6], reason: "WHO-origin falsified alerts are P6, not P1."}
+
+llm:
+  prompt_version: "classify-v1"
+  max_unit_chars: 6000              # unit text sent to the model (longer text is truncated)
+  context_chars: 400                # neighbouring text shown for interpretation only
+  table_sample_rows: 8              # body rows shown with the header
+  confidence_map: {high: 0.9, medium: 0.7, low: 0.45}
+  min_confidence: 0.6               # model labels below this are kept but the unit goes to review

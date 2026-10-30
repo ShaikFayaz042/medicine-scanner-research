@@ -1,0 +1,919 @@
+# =============================================================================
+# TABLE TAXONOMY  (archetypes A-AV)           converted from table_taxonomy_for_app.md v1.0
+# -----------------------------------------------------------------------------
+# This file is DATA ONLY: what each table type is and which headers identify it.
+# Decision logic (gates, record splits, legal-status display) lives in
+# rules/usability_rules.yaml. Do not put conditions here.
+#
+# Entry fields
+#   default_class    usable | future_usable | non_usable   (exactly these three)
+#   priority         P0..P3  (extraction order; P2/P3 are conditional on features)
+#   columns_status   complete | partial | descriptive_only
+#   matchable        false => the header matcher skips it (no exact columns known)
+#   layouts[]        one archetype can have several header layouts
+#     layout_id      must be "<ARCHETYPE>.<name>", globally unique
+#     inherits       reuse the columns of another layout of the same archetype
+#     composite_cells  one header cell that packs several canonical columns
+#     ambiguous_with layouts whose header set is identical (needs content context)
+#   columns[]        canonical = stable internal name used by Steps 7-9
+#                    variants  = header texts seen in the corpus
+#                    optional  = may be absent without hurting the match
+#
+# Matching is done on a compact normal form (lower-case, letters+digits only),
+# so "S.No", "S. NO" and "S.N o" are the same alias. Do not list case/punctuation
+# variants separately.
+# =============================================================================
+
+tables:
+
+  # ===========================================================================
+  # USABLE
+  # ===========================================================================
+
+  - id: A
+    name: "CDSCO Monthly Drug Alert / NSQ List"
+    default_class: usable
+    priority: P0
+    purpose: "Batch-level quality failures"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: A.standard
+        columns:
+          - {canonical: sno,            variants: ["S.No", "Sr.No", "Sl.No", "S.NO", "S.N o"]}
+          - {canonical: product_name, variants: ["Name of Drugs/medical device/cosmetics", "Name of Drug", "Name of the Drug", "Name of the Drugs", "Drug Name", "Drugs Name", "Product/Drug Name", "Name of the Drug/Medical Device/Cosmetic"]}
+          - {canonical: batch_no, variants: ["Batch No.", "Batch Number", "B.No."]}
+          - {canonical: mfg_date, variants: ["Date of Manufacture", "Mfg Date", "Manufacturing Date", "Mfg Dt"]}
+          - {canonical: exp_date, variants: ["Date of Expiry", "Exp Date", "Expiry Date", "Exp Dt"]}
+          - {canonical: manufacturer, variants: ["Manufactured By", "Mfg By", "Mfd By", "Manufactured by as per label"]}
+          - {canonical: failure_reason, variants: ["Reason for failure", "Reasons for failure", "Reason of failure", "Reason for failure with report no", "Reason for failure/Report No"]}
+          - {canonical: drawn_by, variants: ["Drawn By (From state/CDSCO Zone)"]}
+          - {canonical: lab, variants: ["From (Name of Laboratory)", "From", "From (Name of the Laboratory)"]}
+          - {canonical: report_no_form13, optional: true}
+          - {canonical: remarks, optional: true}
+          - {canonical: firms_reply, variants: ["Firm Reply"], optional: true}
+      - layout_id: A.composite
+        inherits: A.standard
+        composite_cells:
+          - header_variants: ["Batch No./Date of Manufacture/Date of Expiry/Manufactured By"]
+            split_into: [batch_no, mfg_date, exp_date, manufacturer]
+        notes: "One cell packs four values. Parser (Step 7A) must split it into four columns."
+      - layout_id: A.nsq_result
+        columns:
+          - {canonical: sno}
+          - {canonical: product_name, variants: ["Product/Drug Name", "Name of Drugs/medical device/cosmetics"]}
+          - {canonical: batch_no, variants: ["Batch No."]}
+          - {canonical: mfg_date, variants: ["Manufacturing Date", "Date of Manufacture"]}
+          - {canonical: exp_date, variants: ["Expiry Date", "Date of Expiry"]}
+          - {canonical: manufacturer, variants: ["Manufactured By"]}
+          - {canonical: nsq_result, variants: ["NSQ Result", "NSQ Results"]}
+          - {canonical: lab, variants: ["Reported by CDSCO Laboratory", "Reported by CDSCO Lab"]}
+        notes: "From 2025 CDSCO-laboratory alerts use the State-alert column set with a CDSCO laboratory column (e.g. 12927, June 2025). DEC-12."
+    notes:
+      - "Monthly list; 2013-2024 PDFs. Product column name covers drugs, devices and cosmetics: classify each record by product type."
+
+  - id: B
+    name: "State NSQ Alert"
+    default_class: usable
+    priority: P0
+    purpose: "State-laboratory batch quality failures"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: B.standard
+        columns:
+          - {canonical: sno,          variants: ["S.No", "Sr.No"]}
+          - {canonical: product_name, variants: ["Product/Drug Name", "Drug Name", "Name of Drug", "Name of Drugs", "Vaccine Name"]}
+          - {canonical: batch_no, variants: ["Batch No.", "Batch Number", "B.No."]}
+          - {canonical: mfg_date, variants: ["Manufacturing Date", "Date of Manufacture", "Mfg Dt"]}
+          - {canonical: exp_date, variants: ["Expiry Date", "Date of Expiry"]}
+          - {canonical: manufacturer, variants: ["Manufactured By", "Mfg By", "Mfd By"]}
+          - {canonical: nsq_result, variants: ["NSQ Result", "NSQ Results"]}
+          - {canonical: lab, variants: ["Reported by State Laboratory", "Reported by"]}  # CDSCO-laboratory wording belongs to A.nsq_result (DEC-12)
+    notes:
+      - "Same shape as A, but lab is the State laboratory and nsq_result is free text."
+
+  - id: C
+    name: "Spurious Drug List"
+    default_class: usable
+    priority: P0
+    purpose: "Officially reported spurious-product and batch checks; use batch-specific survey records, not brand-level aggregate findings"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: C.standard
+        columns:
+          - {canonical: sno,            variants: ["S.No"]}
+          - {canonical: product_name, variants: ["Name of Drugs/medical device/cosmetics", "Name of Drug", "Name of the Drug", "Drug Name", "Product/Drug Name"]}
+          - {canonical: batch_no, variants: ["Batch No.", "B.No.", "Batch Number"]}
+          - {canonical: mfg_date, variants: ["Date of Manufacture", "Manufacturing Date"]}
+          - {canonical: exp_date, variants: ["Date of Expiry", "Expiry Date"]}
+          - {canonical: manufacturer, variants: ["Manufactured By", "Mfg By"]}
+          - {canonical: failure_reason, variants: ["Reason for failure", "Reasons for failure", "Reason of failure"]}
+          - {canonical: drawn_by, variants: ["Drawn By", "Drawn By (From state/CDSCO Zone)"]}
+          - {canonical: firms_reply, variants: ["Firm's reply", "Firm Reply"]}
+          - {canonical: remarks,        variants: ["Remarks"]}
+      - layout_id: C.outlets_and_response
+        columns:
+          - {canonical: sno}
+          - {canonical: product_name, variants: ["Product/Drug Name"]}
+          - {canonical: batch_no, variants: ["B. No.", "Batch No."]}
+          - {canonical: mfg_date, variants: ["Manufacturing Date"]}
+          - {canonical: exp_date, variants: ["Expiry Date"]}
+          - {canonical: manufacturer, variants: ["Manufactured By as per label", "Manufactured By"]}
+          - {canonical: sales_outlets, variants: ["Sales Outlets Involved in Distribution of Spurious Drugs"]}
+          - {canonical: manufacturer_response, variants: ["Response of Original Manufacturer"]}
+          - {canonical: reported_by, variants: ["Reported by CDSCO/ State/Manufacturer", "Reported by"]}
+        notes: "Monthly spurious alerts from 2024 (e.g. 11255, April 2024). DEC-12."
+    guardrails:
+      - "Mixed-document rule: classify tables and records independently (see REC-C-SPLIT)."
+      - "Specific spurious-sample records are Usable for historical batch identification; brand-level survey summaries and aggregate sample counts are Future-usable only and must not drive an individual product or batch verdict."
+    notes:
+      - "manufacturer is often the literal text 'Under Investigation'."
+      - "remarks often contains 'spurious / section 17B(e)'."
+      - "The country-wide survey PDF 3257 holds both record types and is historical (2007-2009)."
+
+  - id: K
+    name: "FDC Prohibition / Restriction List"
+    default_class: usable
+    priority: P0
+    purpose: "Check prohibited and restricted FDC status"
+    columns_status: complete
+    matchable: true
+    status_values: [prohibited, restricted, conditionally_permitted]
+    layouts:
+      - layout_id: K.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: name_of_fdc, variants: ["Name of the FDC", "Name of Fixed Dose Combination", "Drug Name", "Drugs Name"]}
+          - {canonical: strength, variants: ["Strength of FDC"], optional: true}   # absent from the published lists (DEC-12)
+          - {canonical: dosage_form, optional: true}
+          - {canonical: notification_no_date, variants: ["Notification No", "Notification"]}
+          - {canonical: date_of_central_govt_approval, variants: ["Date of Central Government Approval"], optional: true}
+    guardrails:
+      - "Keep prohibited, restricted and conditionally permitted combinations as distinct statuses."
+      - "The Category C list under the 18-month policy is NOT a prohibition list; retain its exact legal basis and conditions."
+
+  - id: Z
+    name: "PvPI Drug Safety Alert List"
+    default_class: usable
+    priority: P1
+    purpose: "Suspected-drug and adverse-reaction safety warnings"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: Z.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: issue_date}
+          - {canonical: suspected_drug, variants: ["Suspected Drugs"]}
+          - {canonical: indication, variants: ["Indication(s)"]}
+          - {canonical: adverse_drug_reaction, variants: ["Adverse Drug Reactions"]}
+    guardrails:
+      - "A PvPI alert is not a recall or a prohibition."
+      - "Adverse-reaction alerts are distinct from batch NSQ, spurious and banned-product findings."
+
+  - id: AQ
+    name: "WHO Fraudulent Drug Alert"
+    default_class: usable
+    priority: P1
+    purpose: "Falsified medicine/product and lot checks"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AQ.standard
+        columns:
+          - {canonical: product_name}
+          - {canonical: stated_value, variants: ["Stated", "Stated on product"]}    # claimed manufacturer / batch
+          - {canonical: actual_value, variants: ["Actual"]}
+    notes:
+      - "stated_value = the claimed manufacturer/batch printed on the falsified pack; actual_value = what was found."
+    decision_refs: [DEC-01]
+
+  - id: AR
+    name: "Banned Drugs List"
+    default_class: usable
+    priority: P0
+    purpose: "Check drug prohibitions; retain notification and scope"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AR.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: drug_name, variants: ["Drugs Name", "Name of Drug"]}
+          - {canonical: notification_no, variants: ["Notification", "Notification No. & Date"]}
+    guardrails:
+      - "Retain the notification number and the scope of the prohibition."
+
+  - id: AV
+    name: "Product Recall / Safety Alert"
+    default_class: usable
+    priority: P1
+    purpose: "Product- and batch-specific recall warnings"
+    columns_status: descriptive_only
+    matchable: false
+    column_description: "Variable recall identifiers, including product, batch, manufacture date and expiry date."
+    expected_concepts: [product_name, batch_no, mfg_date, exp_date]
+    layouts: []
+    decision_refs: [DEC-01, DEC-05]
+
+  # ===========================================================================
+  # FUTURE-USABLE   (retain and classify; defer extraction)
+  # ===========================================================================
+
+  - id: D
+    name: "Medical Device Risk Classification"
+    default_class: future_usable
+    priority: P2
+    scope_condition: "Only if a device vertical is added"
+    purpose: "Future device verification"
+    columns_status: partial
+    matchable: true
+    layouts:
+      - layout_id: D.standard
+        columns:
+          - {canonical: sno,          variants: ["Sr. No", "S. No."]}
+          - {canonical: device_name, variants: ["Device name", "Medical Device Name", "Name of the Medical Device", "Name of the Medical Devices", "Name of Product"]}
+          - {canonical: intended_use, variants: ["Intended use", "Intended Use", "General Intended Use", "Intended Uses"]}
+          - {canonical: risk_class, variants: ["Risk Class", "Risk Classification", "Classification India as per First Schedule Part-1 MDR 2017", "Risk"]}
+      - layout_id: D.revision_comparison
+        inherits: D.standard
+        status: partial
+        columns:
+          - {canonical: old_class}
+          - {canonical: new_class}
+        notes: "Earlier/Revised risk-class comparison variant. Exact header texts not yet confirmed from sample PDFs."
+
+  - id: E
+    name: "NOC / Clarification Register"
+    default_class: future_usable
+    priority: P2
+    purpose: "Product-specific regulatory reference"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: E.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: file_no, variants: ["File Nos"]}
+          - {canonical: company_address, variants: ["Name of the Company", "Name of Company", "Name of the Company and Address"]}
+          - {canonical: product_name}
+          - {canonical: intended_use}
+          - {canonical: regulatory_status, known_values: ["Regulated", "Not Regulated"]}
+          - {canonical: date_of_issue}
+    guardrails:
+      - "Select medicine records; exclude device and other out-of-scope records."
+
+  - id: F
+    name: "Laboratory / Testing Facility List"
+    default_class: future_usable
+    priority: P2
+    purpose: "Future laboratory directory"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: F.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: category, variants: ["Category of In Vitro Diagnostics", "Category of In Vitro Diagnostics Medical Devices"], known_values: ["IVD", "device"]}
+          - {canonical: name_of_facility, variants: ["Name of Testing Facility", "Name of Laboratory"]}
+    guardrails:
+      - "Directory only. Not product or batch evidence."
+
+  - id: J
+    name: "Veterinary Vaccine List"
+    default_class: future_usable
+    priority: P2
+    scope_condition: "Only if a veterinary vertical is added"
+    purpose: "Future animal-medicine catalogue"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: J.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: name_of_vaccine, variants: ["Name of the Vaccine", "Name of Veterinary Vaccine", "Vaccine Name"]}
+          - {canonical: strain, variants: ["Name of the Strain", "Strain Name"]}
+          - {canonical: source_of_strain, variants: ["Source of the Strain"]}
+          - {canonical: dosage_form, variants: ["Dosage Form & Presentation"]}
+          - {canonical: indication, variants: ["Indication(s)"]}
+          - {canonical: permission_no, variants: ["Permission Number"]}
+          - {canonical: importer_manufacturer, variants: ["Manufacturer", "Name of the Manufacturer", "Name of the Importer/Manufacturer with Address"]}
+
+  - id: M
+    name: "COVID / PCR Kit Approval"
+    default_class: future_usable
+    priority: P2
+    scope_condition: "Only if IVD kits / COVID are in app scope"
+    purpose: "Future IVD-kit catalogue"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: M.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: name_of_firm, variants: ["Name of the Firm", "Company Name", "Manufacturer Name"]}
+          - {canonical: type_of_kit, variants: ["Kit Type"]}
+          - {canonical: country, variants: ["Country of Origin"]}
+
+  - id: R
+    name: "SAE / PSUR Reporting"
+    default_class: future_usable
+    priority: P2
+    scope_condition: "Analytics only"
+    purpose: "Post-marketing safety analytics"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: R.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: sae, variants: ["Serious Adverse Event", "Serious Adverse Events"]}
+          - {canonical: duration_from}
+          - {canonical: duration_to}
+          - {canonical: num_sae, variants: ["Number of the SAE Reported", "Number of SAE"]}
+          - {canonical: units_sold, variants: ["Total Units Sold", "Total Units"]}
+          - {canonical: lot_batch_no, variants: ["Lot/Batch Number"]}
+    guardrails:
+      - "Assess record suitability. Not a direct consumer batch alert."
+
+  - id: AC
+    name: "NLEM Data Tables"
+    default_class: future_usable
+    priority: P2
+    scope_condition: "Essential-medicine reference"
+    purpose: "Essential-medicine reference badge"
+    columns_status: partial
+    matchable: true
+    layouts:
+      - layout_id: AC.drug_category
+        columns:
+          - {canonical: sno}
+          - {canonical: drug, variants: ["Drug Name", "Name of Drug"]}
+          - {canonical: therapeutic_category}
+      - layout_id: AC.expert_recommendation
+        columns:
+          - {canonical: sno}
+          - {canonical: drug_name_strength, variants: ["Drug Name and Strength", "Name of Drug Strength"]}
+          - {canonical: recommendation_of_experts, variants: ["Recommendations", "Recommendations of Experts"]}
+      - layout_id: AC.section_summary
+        status: partial
+        columns:
+          - {canonical: section}
+          - {canonical: total_nlem2011}
+          - {canonical: deleted}
+          - {canonical: added}
+          - {canonical: total_nlem2015}
+        notes: "Source lists further columns ('...'); complete from sample PDFs."
+      - layout_id: AC.edition_comparison
+        columns:
+          - {canonical: sno}
+          - {canonical: in_nlem2015}
+          - {canonical: in_nlem2022}
+      - layout_id: AC.level_dosage
+        columns:
+          - {canonical: sno}
+          - {canonical: medicine}
+          - {canonical: level_of_healthcare,      variants: ["Level of Healthcare"]}
+          - {canonical: dosage_form_and_strength, variants: ["Dosage form and strength"]}
+    guardrails:
+      - "Preserve the NLEM edition and date."
+
+  - id: AE
+    name: "Reference Product List for BE Studies"
+    default_class: future_usable
+    priority: P2
+    purpose: "Reference product and brand enrichment"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AE.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: drug_name, variants: ["Name of Drug"]}
+          - {canonical: bcs_class, variants: ["BCS", "BCS (Class II/IV)"]}
+          - {canonical: product}
+          - {canonical: company_trade_name, variants: ["Name of Drug/Company/Trade Name", "Name of Drug/Company/Trade Name/Manufacturer"]}
+    guardrails:
+      - "Not a batch-safety source."
+
+  - id: AM
+    name: "Donor / Patient / Cosmetic Registration Data"
+    default_class: future_usable
+    priority: P2
+    scope_condition: "Classify each record by product type"
+    purpose: "Potential specialized-product features"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AM.donor_criteria
+        ambiguous_with: [T.condition_criteria]
+        columns:
+          - {canonical: sno}
+          - {canonical: condition}
+          - {canonical: criteria}
+        notes: "Blood-donor criteria."
+      - layout_id: AM.cosmetic_registration
+        columns:
+          - {canonical: serial_no}
+          - {canonical: product_brand}
+          - {canonical: brand_name}
+          - {canonical: variant}
+          - {canonical: pack_size}
+          - {canonical: actual_manufacturer}
+    guardrails:
+      - "Classify each record by product type; cosmetics are outside the current medicine scope."
+    decision_refs: [DEC-07]
+
+  - id: AS
+    name: "Medical Device Alert"
+    default_class: future_usable
+    priority: P2
+    scope_condition: "Only if a device vertical is added"
+    purpose: "Future device verification"
+    columns_status: descriptive_only
+    matchable: false
+    column_description: "Device/product identification, issue, and recommended action."
+    expected_concepts: [product_identification, issue, recommended_action]
+    layouts: []
+    decision_refs: [DEC-05]
+
+  - id: AT
+    name: "Approved Products for Marketing"
+    default_class: future_usable
+    priority: P2
+    purpose: "Historical approval reference"
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AT.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: drug, variants: ["Name of Drug", "Drug Name"]}
+          - {canonical: indication}
+          - {canonical: date_of_issue}
+    guardrails:
+      - "Preserve date and wording. A historical listing does not prove current approval."
+
+  - id: AU
+    name: "Registration Certificate Holder Register"
+    default_class: future_usable
+    priority: P2
+    scope_condition: "Selectively, for relevant medicine records"
+    purpose: "Imported-product registration reference"
+    columns_status: partial
+    matchable: true
+    column_description: "Registration certificate holder, importer/manufacturer, product category, registration number, and validity."
+    expected_concepts: [registration_certificate_holder, importer_manufacturer, product_category, registration_number, validity]
+    layouts:
+      - layout_id: AU.rc_register
+        status: partial
+        columns:
+          - {canonical: sno}
+          - {canonical: registration_certificate_holder, variants: ["Indian Agent", "Indian Agent/Importer"]}
+          - {canonical: importer_manufacturer, variants: ["Legal Manufacturer"]}
+          - {canonical: registration_number, variants: ["Reg. No", "Registration No"]}
+          - {canonical: validity, variants: ["Validity"]}
+          - {canonical: product_category, optional: true, variants: ["Category"]}
+        notes: "Header texts taken from the corpus-derived rules in analysis/scripts/table/classify_table_archetypes.py (DEC-05)."
+    guardrails:
+      - "Select relevant medicine records; verify current validity."
+    decision_refs: [DEC-05]
+
+  # ===========================================================================
+  # NON-USABLE   (do not prioritise for the current consumer app database;
+  #               retain the original source documents as needed)
+  # ===========================================================================
+
+  - id: NU
+    name: "Other non-usable table"
+    default_class: non_usable
+    priority: P3
+    purpose: "Fallback for a table that matches no archetype and has no current or future app value (DEC-11)"
+    columns_status: descriptive_only
+    matchable: false
+    column_description: "Any administrative, procedural or technical table not covered by a specific archetype."
+    expected_concepts: []
+    layouts: []
+    notes:
+      - "Never assigned by header matching. Used by the LLM fallback so it does not have to choose between 28 non-usable archetypes that the app treats identically."
+    decision_refs: [DEC-11]
+
+  - id: G
+    name: "Gazette Fee Schedule"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: G.standard
+        columns:
+          - {canonical: rule_no}
+          - {canonical: subject}
+          - {canonical: fee_inr}
+          - {canonical: fee_usd}
+
+  - id: H
+    name: "Contents / Index"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: H.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: title}
+          - {canonical: page_no}
+
+  - id: I
+    name: "Checklist / Form"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: I.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: item}
+          - {canonical: "yes"}      # quoted: bare yes/no/na are YAML booleans or strings depending on parser
+          - {canonical: "no"}
+          - {canonical: na}
+
+  - id: L
+    name: "Abbreviations / Glossary"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: L.standard
+        columns:
+          - {canonical: abbr}
+          - {canonical: full_form}
+
+  - id: N
+    name: "Committee Meeting Schedule"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: N.standard
+        columns:
+          - {canonical: month}
+          - {canonical: tentative_dates}
+          - {canonical: day}
+
+  - id: O
+    name: "BABE Study Centre Approval"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: O.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: file_no}
+          - {canonical: centre_address}
+          - {canonical: valid_upto}
+
+  - id: P
+    name: "Government Analyst / Committee Member Notification"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: P.standard
+        columns:
+          - {canonical: sl_no}
+          - {canonical: name_designation}
+          - {canonical: laboratory}
+          - {canonical: class_of_drugs_or_device}
+
+  - id: Q
+    name: "Stability Study Design"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: Q.standard
+        columns:
+          - {canonical: product}
+          - {canonical: storage_condition}
+          - {canonical: shelf_life}
+          - {canonical: accel_or_realtime_condition}
+          - {canonical: testing_interval}
+
+  - id: S
+    name: "Cleanroom / ISO Class Requirement"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: S.standard
+        columns:
+          - {canonical: device_name}
+          - {canonical: type_of_operation}
+          - {canonical: iso_class_at_rest}
+
+  - id: T
+    name: "Exemption / Condition-Criteria"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: T.class_exemption
+        columns:
+          - {canonical: sno}
+          - {canonical: class_of_device}
+          - {canonical: extent_and_conditions}
+      - layout_id: T.condition_criteria
+        ambiguous_with: [AM.donor_criteria]
+        columns:
+          - {canonical: sno}
+          - {canonical: condition}
+          - {canonical: criteria}
+    decision_refs: [DEC-07]
+
+  - id: U
+    name: "BIS / IS Standard Reference"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: U.is_standard
+        columns:
+          - {canonical: sno}
+          - {canonical: is_no}
+          - {canonical: title}
+      - layout_id: U.standard_amendment
+        columns:
+          - {canonical: sl_no}
+          - {canonical: standard_no_and_year}
+          - {canonical: amendment_no}
+          - {canonical: date_established}
+          - {canonical: date_old_valid_until}
+
+  - id: V
+    name: "Treasury Challan / Payment Form"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: V.standard
+        columns:
+          - {canonical: tendered_by}
+          - {canonical: name_address}
+          - {canonical: particulars}
+          - {canonical: amount_rs}
+          - {canonical: amount_ps}
+          - {canonical: head_of_account}
+          - {canonical: order_to_bank}
+
+  - id: W
+    name: "Application Questionnaire / Evaluation Form"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: W.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: item_particulars}
+          - {canonical: response}
+
+  - id: X
+    name: "Stakeholder Applicability Matrix"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: X.standard
+        columns:
+          - {canonical: document_or_requirement}
+          - {canonical: healthcare_prof, known_values: ["√", "–"]}
+          - {canonical: domestic_mfr,    known_values: ["√", "–"]}
+          - {canonical: importer,        known_values: ["√", "–"]}
+          - {canonical: govt_program,    known_values: ["√", "–"]}
+          - {canonical: blood_centre,    known_values: ["√", "–"]}
+          - {canonical: pathology_lab,   known_values: ["√", "–"]}
+
+  - id: Y
+    name: "Comparative Study Results"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: Y.parameter_study
+        columns:
+          - {canonical: parameter}
+          - {canonical: study_a}
+          - {canonical: study_b}
+      - layout_id: Y.assay_specification
+        columns:
+          - {canonical: sno}
+          - {canonical: test}
+          - {canonical: rbc}
+          - {canonical: specification}
+
+  - id: AA
+    name: "Sample Size / Acceptance Criteria"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AA.standard
+        columns:
+          - {canonical: type_of_assay}
+          - {canonical: acceptance_criteria}
+          - {canonical: min_samples_needed}
+
+  - id: AB
+    name: "Committee / Staff Roster"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AB.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: name}
+          - {canonical: designation}
+          - {canonical: institution}
+
+  - id: AD
+    name: "State-wise Sample Testing Statistics"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AD.standard
+        columns:
+          - {canonical: state_zone}
+          - {canonical: total_drawn}
+          - {canonical: total_tested}
+          - {canonical: standard_quality}
+          - {canonical: nsq}
+          - {canonical: steps_taken}
+
+  - id: AF
+    name: "Clinical Trial Site / Investigator Roster"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AF.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: pi_name_qualification}
+          - {canonical: site_address}
+          - {canonical: site_type}
+          - {canonical: iec_name}
+          - {canonical: ecr_no}
+
+  - id: AG
+    name: "Cost / Budget Breakdown"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AG.standard
+        columns:
+          - {canonical: category}
+          - {canonical: component}
+          - {canonical: no_of_components}
+          - {canonical: rate}
+          - {canonical: total_cost}
+
+  - id: AH
+    name: "Timeline / Milestone / Schedule"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AH.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: particular}
+          - {canonical: timeline_days}
+
+  - id: AI
+    name: "Equipment / Calibration Frequency"
+    default_class: non_usable
+    priority: P3
+    columns_status: partial
+    matchable: true
+    layouts:
+      - layout_id: AI.standard
+        status: partial
+        columns:
+          - {canonical: equipment}
+          - {canonical: frequency}
+        notes: "Source lists further columns ('...'); complete from sample PDFs."
+
+  - id: AJ
+    name: "Post-Approval Change (PAC) Matrix"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AJ.standard
+        columns:
+          - {canonical: description_of_change}
+          - {canonical: conditions_to_fulfil}
+          - {canonical: supporting_data}
+          - {canonical: reporting_category}
+    notes:
+      - "About 15 apparent types all come from ONE file (10953). Treat as a single schema."
+
+  - id: AK
+    name: "IVD First-Time Validation Screening"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AK.standard
+        columns:
+          - {canonical: company}
+          - {canonical: supplier}
+          - {canonical: kit_batch_no}
+          - {canonical: first_time_validation_yn}
+          - {canonical: last_validation_details}
+
+  - id: AL
+    name: "Feedback / Rating Scale"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AL.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: detail}
+          - {canonical: excellent}
+          - {canonical: very_good}
+          - {canonical: good}
+          - {canonical: fair}
+          - {canonical: poor}
+
+  - id: AN
+    name: "IVD Performance Requirement"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AN.standard
+        columns:
+          - {canonical: product}
+          - {canonical: technology}
+          - {canonical: specification_criteria}
+          - {canonical: reference}
+
+  - id: AO
+    name: "Contact Directory"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AO.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: ministry_or_state}
+          - {canonical: activity_or_lab_name}
+
+  - id: AP
+    name: "Inspection Non-Compliance Observations"
+    default_class: non_usable
+    priority: P3
+    columns_status: complete
+    matchable: true
+    layouts:
+      - layout_id: AP.standard
+        columns:
+          - {canonical: sno}
+          - {canonical: checklist_category}
+          - {canonical: non_compliance_observed}
