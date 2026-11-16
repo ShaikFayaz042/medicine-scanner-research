@@ -1,22 +1,21 @@
-"""Stage 5: rule matching, escalation and the LLM fallback, on layouts and wording seen in CDSCO PDFs."""
+"""Classifier rules and LLM fallback against unified classification contexts."""
 
 from __future__ import annotations
 
+from pathlib import Path
+
 import pytest
 
-from conftest import build_document
+from conftest import build_context
 from idp.models.llm import LLMError
 from idp.schemas.taxonomy import UnitSettings
 from idp.stages.classifier.llm_fallback import FileCache
-from idp.stages.classifier.service import output_name
 from idp.stages.classifier.units import paragraph_units
 
 
-def _table(header, rows=None, title="Test document", pages=(1,), caption=None):
-    table = {"table_id": "t1", "pages": list(pages), "header_rows": [header], "rows": rows or [["1", "x"]]}
-    if caption:
-        table["caption"] = caption
-    return build_document(tables=[table], title=title, pages=max(pages))
+def _table(header, rows=None, title="Test document", pages=(1,)):
+    table = {"pages": list(pages), "header_rows": [header], "rows": rows or [["1", "x"]]}
+    return build_context(tables=[table], title=title, pages=max(pages))
 
 
 def _only_unit(result, kind):
@@ -93,8 +92,8 @@ def test_2025_cdsco_laboratory_alert_is_a_not_b(classifier):
     assert unit.labels[0].layout_id == "A.nsq_result"
 
 
-def test_header_below_a_section_row_is_found_when_stage_4_delivered_none(classifier):
-    document = build_document(tables=[{"table_id": "t1", "header_rows": [], "rows": [
+def test_header_below_a_section_row_is_found_when_context_has_no_header(classifier):
+    document = build_context(tables=[{"header_rows": [], "rows": [
         ["NCT of DELHI", "", "", "", "", "", "", ""],
         ["S.No", "Product/Drug Name", "Batch No.", "Manufacturing Date", "Expiry Date", "Manufactured By", "NSQ Result",
          "Reported by State Laboratory"],
@@ -110,7 +109,7 @@ def test_state_section_row_marks_a_state_alert_on_the_cdsco_template(classifier)
     # 11373 (NSQ May 2024, State Labs) reuses the CDSCO header, even 'Reported by CDSCO Laboratory'.
     header = ["S.No", "Name of Drugs/medical device/cosmetics", "Batch No.", "Date of Manufacture", "Date of Expiry",
               "Manufactured By", "NSQ Result", "Reported by CDSCO Laboratory"]
-    document = build_document(tables=[{"table_id": "t1", "header_rows": [], "rows": [
+    document = build_context(tables=[{"header_rows": [], "rows": [
         ["B. STATE LABORATORIES", "", "", "", "", "", "", ""], header,
         ["1.", "Cyra Tablets", "CA21868", "07/2023", "06/2025", "M/s Mepro", "NOT OF STANDARD QUALITY", "DCL Telangana"],
     ]}], title="NSQ May 2024")
@@ -125,12 +124,13 @@ def test_title_alone_never_classifies_a_table(classifier):
     assert unit.escalation.reasons == ["no_rule_match"]
 
 
-def test_table_spanning_pages_is_one_unit(classifier):
+def test_table_contexts_are_classified_per_page(classifier):
     result = classifier.classify(_table(["Sr. No", "Drugs Name", "Notification No"], rows=[["1", "A", "S.O. 1"], ["2", "B", "S.O. 2"]],
                                         pages=(1, 2), title="Drugs banned in the country"))
 
-    unit = _only_unit(result, "table")
-    assert unit.source.pages == [1, 2] and unit.labels[0].label == "AR"
+    units = [unit for unit in result.units if unit.kind == "table"]
+    assert [unit.source.pages for unit in units] == [[1], [2]]
+    assert all(unit.labels[0].label == "AR" for unit in units)
 
 
 def test_mixed_record_tables_are_flagged_for_the_parser(classifier):
@@ -179,7 +179,7 @@ PROHIBITION = ("S.O. 4595(E).- In exercise of the powers conferred by section 26
     ],
 )
 def test_paragraph_wording_identifies_its_archetype(classifier, text, expected, legal):
-    unit = _only_unit(classifier.classify(build_document([text])), "paragraph")
+    unit = _only_unit(classifier.classify(build_context([text])), "paragraph")
 
     assert unit.status == "classified", (unit.review_reasons, [(c.label, c.score) for c in unit.candidates])
     assert expected in [label.label for label in unit.labels]
@@ -194,7 +194,7 @@ def test_proposed_product_ban_is_p3_with_draft_status_not_p29(classifier):
     text = ("The Central Government proposes to prohibit the manufacture for sale and distribution of the fixed dose "
             "combination of Nimesulide + Paracetamol; objections and suggestions may be sent within thirty days.")
 
-    unit = _only_unit(classifier.classify(build_document([text])), "paragraph")
+    unit = _only_unit(classifier.classify(build_context([text])), "paragraph")
 
     assert [label.label for label in unit.labels] == ["P3"]
     assert unit.legal_status.value == "draft_or_proposed_explicitly_stated"
@@ -216,7 +216,7 @@ def test_proposed_product_ban_is_p3_with_draft_status_not_p29(classifier):
     ],
 )
 def test_gazette_and_alert_boilerplate_does_not_trigger_unrelated_labels(classifier, text, absent):
-    unit = _only_unit(classifier.classify(build_document([text])), "paragraph")
+    unit = _only_unit(classifier.classify(build_context([text])), "paragraph")
 
     assert not absent & {label.label for label in unit.labels}, [label.label for label in unit.labels]
 
@@ -226,7 +226,7 @@ def test_unit_with_two_distinct_actions_gets_two_labels(classifier):
             "Nimesulide + Paracetamol, and restricts the fixed dose combination of Ofloxacin + Ornidazole, which shall "
             "not be used in children below twelve years.")
 
-    unit = _only_unit(classifier.classify(build_document([text])), "paragraph")
+    unit = _only_unit(classifier.classify(build_context([text])), "paragraph")
 
     assert {label.label for label in unit.labels} == {"P3", "P3b"}
 
@@ -235,7 +235,7 @@ def test_recall_label_keeps_its_conditional_class_and_gate(classifier):
     text = ("M/s Abbott India Limited has initiated a voluntary recall of Digene Gel, Batch No. 510303D7, from the "
             "market after complaints from consumers.")
 
-    label = _only_unit(classifier.classify(build_document([text])), "paragraph").labels[0]
+    label = _only_unit(classifier.classify(build_context([text])), "paragraph").labels[0]
 
     assert (label.label, label.class_mode, label.app_classification, label.gate_ids) == ("P5", "conditional", "future_usable", ["GATE-P5P6"])
 
@@ -244,7 +244,7 @@ def test_conflicting_labels_are_escalated_not_guessed(classifier):
     text = ("In the countrywide survey for spurious drugs, samples were collected from retail outlets; the sample of "
             "Amoxycillin Capsules, Batch No. AMX12, was found spurious on investigation.")
 
-    unit = _only_unit(classifier.classify(build_document([text])), "paragraph")
+    unit = _only_unit(classifier.classify(build_context([text])), "paragraph")
 
     assert unit.status == "needs_review"
     assert unit.escalation.reasons == ["rule_conflict"] and "INV-12" in unit.escalation.detail
@@ -254,27 +254,26 @@ def test_conflicting_labels_are_escalated_not_guessed(classifier):
 def test_unmatched_paragraph_goes_to_review_without_an_llm(classifier):
     text = "The office of the Drugs Controller will remain closed on Saturday because of maintenance work in the building."
 
-    unit = _only_unit(classifier.classify(build_document([text])), "paragraph")
+    unit = _only_unit(classifier.classify(build_context([text])), "paragraph")
 
     assert (unit.status, unit.labels, unit.escalation.outcome) == ("needs_review", [], "unavailable")
     assert unit.review_reasons == ["llm_unavailable", "escalated:no_rule_match"]
 
 
 def test_fragments_are_not_records(classifier):
-    result = classifier.classify(build_document(["Sir,"]))
+    result = classifier.classify(build_context(["Sir,"]))
 
     assert [(u.status, u.labels) for u in result.units] == [("not_a_record", [])]
 
 
 # ------------------------------------------------------------------------------------------- units
 def _settings(**changes):
-    base = dict(paragraph_strategy="section", min_record_chars=20, max_unit_chars=4000, chunk_target_chars=200,
-                skip_block_types=["header", "footer", "table_ref"], languages=["en"])
+    base = dict(paragraph_strategy="section", min_record_chars=20, max_unit_chars=4000, chunk_target_chars=200)
     return UnitSettings(**{**base, **changes})
 
 
-def test_section_strategy_groups_blocks_under_their_heading():
-    document = build_document([
+def test_section_strategy_groups_context_paragraphs_under_their_heading():
+    document = build_context([
         {"type": "heading", "level": 1, "text": "Prohibition"}, "First paragraph about the prohibition of a drug.",
         "Second paragraph about the same prohibition.", {"type": "heading", "level": 1, "text": "Advisory"},
         "A paragraph that advises patients about safe use.",
@@ -283,20 +282,17 @@ def test_section_strategy_groups_blocks_under_their_heading():
     units = paragraph_units(document, _settings(), context_chars=50)
 
     assert [u.heading_path for u in units] == [["Prohibition"], ["Advisory"]]
-    assert units[0].text.startswith("Prohibition\nFirst paragraph") and units[1].previous_text
+    assert units[0].text.startswith("First paragraph") and units[1].previous_text
 
 
-def test_chunk_strategy_splits_by_size_and_skips_headers_footers_and_other_languages():
-    document = build_document([
-        {"type": "header", "text": "THE GAZETTE OF INDIA : EXTRAORDINARY"},
+def test_chunk_strategy_splits_page_markdown_paragraphs_by_size():
+    document = build_context([
         "x" * 150, "y" * 150,
-        {"type": "paragraph", "text": "केन्द्रीय सरकार एतद्द्वारा प्रतिबंधित करती है", "language": "hi"},
-        {"type": "footer", "text": "Page 1 of 2"},
     ])
 
     units = paragraph_units(document, _settings(paragraph_strategy="chunk"), context_chars=0)
 
-    assert [u.text[:1] for u in units] == ["x", "y"]
+    assert [u.text for u in units] == ["x" * 150, "y" * 150]
 
 
 # ------------------------------------------------------------------------------------------- LLM fallback
@@ -355,7 +351,7 @@ def test_llm_resolves_a_rule_conflict_and_sets_legal_status(make_classifier):
                    {"label": "P19", "evidence_quote": "samples were collected from retail outlets", "confidence": "medium"}],
     }])
 
-    unit = _only_unit(classifier.classify(build_document([text])), "paragraph")
+    unit = _only_unit(classifier.classify(build_context([text])), "paragraph")
 
     assert unit.status == "classified" and {l.label for l in unit.labels} == {"P1", "P19"}
     assert unit.legal_status.value == "administrative_or_informational" and unit.legal_status_rule_id == "LLM:classify-v1"
@@ -366,7 +362,7 @@ def test_llm_can_mark_a_unit_as_not_a_record(make_classifier):
     classifier, _ = make_classifier([{"is_record": False, "labels": [], "legal_status": "unclear_from_excerpt"}])
     text = "Food and Drugs Administration Bhawan, Kotla Road, New Delhi 110002, Telephone 011-23236965, Fax 011-23236973."
 
-    unit = _only_unit(classifier.classify(build_document([text])), "paragraph")
+    unit = _only_unit(classifier.classify(build_context([text])), "paragraph")
 
     assert unit.status == "not_a_record" and unit.labels == []
 
@@ -383,17 +379,20 @@ def test_cached_answers_are_reused_without_calling_the_model(make_classifier, tm
 
 
 # ------------------------------------------------------------------------------------------- I/O
-def test_classify_uri_writes_the_classified_document(classifier, tmp_path):
+def test_classify_uri_writes_the_classified_document(classifier, tmp_path, monkeypatch):
     import json
 
     from idp.stages.classifier.service import classify_uri
 
-    source = tmp_path / "in" / "12087_prohibited.structured.json"
+    monkeypatch.setenv("IDP_DATA_DIR", str(tmp_path / "data"))
+    source = tmp_path / "in" / "12087_prohibited.classification_context.json"
     source.parent.mkdir()
-    source.write_text(build_document([PROHIBITION]).model_dump_json(), encoding="utf-8")
+    source.write_text(build_context([PROHIBITION]).model_dump_json(), encoding="utf-8")
 
-    target, result = classify_uri(classifier, str(source), str(tmp_path / "out"))
+    target, result = classify_uri(classifier, str(source))
+    expected_target = (
+        tmp_path / "data" / "artifacts" / ("0" * 64) / "04_classifier" / "classification.json"
+    )
 
-    assert target.endswith("12087_prohibited.classified.json")
-    assert json.loads((tmp_path / "out" / "12087_prohibited.classified.json").read_text(encoding="utf-8"))["summary"]["units"] == 1
-    assert output_name("x.json") == "x.classified.json"
+    assert Path(target) == expected_target
+    assert json.loads(expected_target.read_text(encoding="utf-8"))["summary"]["units"] == 1

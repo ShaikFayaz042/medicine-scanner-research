@@ -12,7 +12,7 @@ from idp.stages.classifier.taxonomy import DEFAULT_RULES_DIR, RULE_FILES, load_t
 
 
 def test_rule_files_load_and_report_versions(taxonomy):
-    assert taxonomy.versions == {"taxonomy": "2.1.0", "usability_rules": "2.0.0", "classification_rules": "1.0.0"}
+    assert taxonomy.versions == {"taxonomy": "2.1.1", "usability_rules": "2.0.0", "classification_rules": "1.1.0"}
     assert len(taxonomy.rules_sha256) == 64
     assert len(taxonomy.paragraphs) == 31 and "P4" not in taxonomy.paragraphs
 

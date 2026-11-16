@@ -157,12 +157,12 @@ class LLMClassifier:
         system = SYSTEM_PREAMBLE + "\n" + TABLE_NOTE + "\n\nTable archetypes:\n" + self._table_catalogue()
         user = "\n".join([
             f"Document title: {unit.title or '(none)'}",
-            f"Caption / headings above the table: {' / '.join(filter(None, [*unit.table.heading_path, unit.table.caption or ''])) or '(none)'}",
+            f"Table context: {unit.context or '(none)'}",
             f"Rule-based hints (may be wrong; decide from the table): {self._hints(candidates)}",
             "",
             "TARGET TABLE (classify this; quote only from it):",
             "Header: " + (" | ".join(unit.header) or "(no header row detected)"),
-            f"First {self.settings.table_sample_rows} rows:",
+            f"Representative sample rows (up to {self.settings.table_sample_rows}):",
             _clip(unit.body_text(self.settings.table_sample_rows), self.settings.max_unit_chars),
         ])
         return self._run(unit.text + "\n" + unit.context, "table", system, user, self.table_labels, False, reasons)

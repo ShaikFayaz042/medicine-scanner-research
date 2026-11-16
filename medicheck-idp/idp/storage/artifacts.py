@@ -1,14 +1,11 @@
-"""Read and write pipeline artifacts on the local filesystem.
-
-Profiler artifacts use data/artifacts/profiles/<doc_id>/<name>.json.
-"""
+"""Read and write pipeline artifacts on the local filesystem."""
 from __future__ import annotations
 
 import json
 import os
 from pathlib import Path
-from typing import Any
-from typing import TypeVar
+from pathlib import PurePosixPath, PureWindowsPath
+from typing import Any, TypeVar
 
 from pydantic import BaseModel
 
@@ -19,20 +16,34 @@ def _project_root() -> Path:
     return Path(__file__).resolve().parents[2]
 
 
+def _base_root() -> Path:
+    env_root = os.getenv("IDP_DATA_DIR")
+    root = Path(env_root).expanduser() if env_root else Path("data")
+    if not root.is_absolute():
+        root = _project_root() / root
+    return root / "artifacts"
+
+
 def path(name: str, doc_id: str) -> Path:
-    env_root = os.getenv("IDP_DATA_DIR")
-    root = Path(env_root).expanduser() if env_root else Path("data")
-    if not root.is_absolute():
-        root = _project_root() / root
-    return root / "artifacts" / "profiles" / doc_id / f"{name}.json"
+    return artifact_path(f"{name}.json", doc_id)
 
 
-def _legacy_path(name: str, doc_id: str) -> Path:
-    env_root = os.getenv("IDP_DATA_DIR")
-    root = Path(env_root).expanduser() if env_root else Path("data")
-    if not root.is_absolute():
-        root = _project_root() / root
-    return root / "artifacts" / doc_id / f"{name}.json"
+def artifact_path(name: str, doc_id: str) -> Path:
+    """Resolve a relative side-artifact path while preventing directory traversal."""
+    if not isinstance(name, str) or not name.strip():
+        raise ValueError(f"invalid artifact name: {name!r}")
+    normalized = name.replace("\\", "/")
+    windows_path = PureWindowsPath(name)
+    parts = normalized.split("/")
+    relative = PurePosixPath(normalized)
+    if (relative.is_absolute() or windows_path.is_absolute() or windows_path.drive
+            or any(part in ("", ".", "..") for part in parts)):
+        raise ValueError(f"invalid artifact name: {name!r}")
+    root = _base_root() / doc_id
+    target = root.joinpath(*relative.parts)
+    if not target.resolve().is_relative_to(root.resolve()):
+        raise ValueError(f"invalid artifact name: {name!r}")
+    return target
 
 
 def _local_path(uri: str | Path) -> Path:
@@ -57,7 +68,6 @@ def write_json(uri: str | Path, value: Any) -> None:
 
 
 def list_json(uri: str | Path) -> list[str]:
-    """List JSON files under a local directory, or return a single JSON file."""
     target = _local_path(uri)
     if target.is_file():
         return [str(target)]
@@ -79,8 +89,18 @@ def load(name: str, doc_id: str, cls: type[T]) -> T | None:
     try:
         return cls.model_validate_json(p.read_text(encoding="utf-8"))
     except (FileNotFoundError, ValueError):
-        legacy = _legacy_path(name, doc_id)
-        try:
-            return cls.model_validate_json(legacy.read_text(encoding="utf-8"))
-        except (FileNotFoundError, ValueError):
-            return None
+        return None
+
+
+def save_bytes(name: str, doc_id: str, value: bytes) -> Path:
+    """Write a binary artifact (for example 02_extraction/crops/p003_r1.png).
+
+    FIX: does NOT go through path() — that appends ".json" and with_suffix("") was
+    silently dropping the real extension (.png → nothing).
+    """
+    target = artifact_path(name, doc_id)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    tmp = target.with_name(target.name + ".tmp")
+    tmp.write_bytes(value)
+    tmp.replace(target)
+    return target

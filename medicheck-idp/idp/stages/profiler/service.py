@@ -26,8 +26,9 @@ from pydantic import BaseModel, ConfigDict
 from idp.schemas.profile import Batch, DocProfile, Engine, PageProfile, PageType
 from idp.storage import artifacts
 
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 log = logging.getLogger("idp.profiler")
+_PROFILE_ARTIFACT = "01_profiler/profile"
 pymupdf.TOOLS.mupdf_display_errors(False)   # MuPDF repair noise; we count it instead
 
 # U+FFFD, control characters, private-use area: the signature of a broken font encoding
@@ -43,14 +44,13 @@ class ProfilerConfig(BaseModel):
     max_garbled: float = 0.10     # above this the native text layer is not trusted
     scan_img: float = 0.30        # image coverage that makes a low-text page a scan
     blank_img: float = 0.05       # below this (and no text, no drawings) the page is blank
-    max_decor_paths: int = 30     # stroke-only pages with <= this many paths can be blank
+    max_blank_drawing_items: int = 30  # segments, not drawing paths
     min_region: float = 0.08      # an image must cover this much of the page to be an OCR region
     min_region_words: int = 3     # fewer native words than this inside an image => it needs OCR
     ocr_layer_img: float = 0.85   # image page that already has trusted text => flag ocr_layer
     low_dpi: int = 150
     band: float = 0.15            # header/footer band, fraction of page height
     repeat_min_pages: int = 3     # same xref on at least this many pages is decorative
-    repeat_frac: float = 0.5      # repeated xref must cover at least this page share
     table_rules: int = 6          # ruled lines/cells needed for table_hint
     rule_min_len: float = 20.0
     batch_size: dict[str, int] = {"pymupdf": 100, "rapidocr": 15, "hybrid": 15}
@@ -64,7 +64,7 @@ class Sig(NamedTuple):
     words: int
     img: float
     garbled: float
-    paths: int
+    drawing_items: int
     regions: bool
     ink: int = 0
 
@@ -73,7 +73,8 @@ class Sig(NamedTuple):
 # Decision
 # --------------------------------------------------------------------------- #
 def classify(s: Sig, c: ProfilerConfig) -> tuple[PageType, Engine]:
-    if s.words == 0 and s.img < c.blank_img and s.ink == 0 and s.paths <= c.max_decor_paths:
+    if (s.words == 0 and s.img < c.blank_img and s.ink == 0
+            and s.drawing_items <= c.max_blank_drawing_items):
         return "blank", "skip"
     native = s.words > 0 and s.garbled <= c.max_garbled
     if native and (s.words >= c.min_words or s.img < c.scan_img):
@@ -89,14 +90,15 @@ def garbled_ratio(text: str) -> float:
 # Page
 # --------------------------------------------------------------------------- #
 def _drawings(page: pymupdf.Page, min_len: float, area: float) -> tuple[int, int, int]:
-    """(number of drawing paths, ruled-line count, filled non-white ink-like paths)."""
-    paths, rules, ink = page.get_cdrawings(), 0, 0
-    for d in paths:
+    """(drawing item count, ruled-line count, filled non-white ink-like paths)."""
+    drawings, rules, ink = page.get_cdrawings(), 0, 0
+    item_count = sum(len(d.get("items", [])) for d in drawings)
+    for d in drawings:
         rect = d.get("rect")
         fill = d.get("fill")
         if rect is not None and fill is not None and fill != (1.0, 1.0, 1.0):
             w, h = rect[2] - rect[0], rect[3] - rect[1]
-            if w * h < 0.5 * area:
+            if min(w, h) >= 0.75 and w * h < 0.5 * area:
                 ink += 1
         for it in d.get("items", []):
             if it[0] == "l":
@@ -105,39 +107,34 @@ def _drawings(page: pymupdf.Page, min_len: float, area: float) -> tuple[int, int
             elif it[0] == "re":
                 w, h = it[1][2] - it[1][0], it[1][3] - it[1][1]
                 rules += (max(w, h) >= min_len and min(w, h) < 2) or (w >= min_len and h >= 8)
-    return len(paths), rules, ink
+    return item_count, rules, ink
 
 
 def _doc_repeat_xrefs(doc: pymupdf.Document, c: ProfilerConfig) -> set[int]:
-    counts: dict[int, int] = defaultdict(int)
-    total = max(doc.page_count, 1)
-    for page in doc.pages():
+    pages_by_xref: dict[int, set[int]] = defaultdict(set)
+    for page_number, page in enumerate(doc.pages()):
         for info in page.get_image_info(xrefs=True):
             xref = info.get("xref")
             if xref is None:
                 continue
             try:
-                counts[int(xref)] += 1
+                xref = int(xref)
             except (TypeError, ValueError):
                 continue
-    return {xref for xref, count in counts.items()
-            if count >= c.repeat_min_pages and (count / total) >= c.repeat_frac}
+            if xref:
+                pages_by_xref[xref].add(page_number)
+    return {xref for xref, page_numbers in pages_by_xref.items()
+            if len(page_numbers) >= c.repeat_min_pages}
 
 
-def _is_decorative_image(clipped: pymupdf.Rect, info: dict, repeat_xrefs: set[int], c: ProfilerConfig,
-                        bounds: pymupdf.Rect) -> bool:
-    xref = info.get("xref")
-    if xref is not None:
-        try:
-            if int(xref) in repeat_xrefs:
-                return True
-        except (TypeError, ValueError):
-            pass
+def _is_decorative_image(clipped: pymupdf.Rect, c: ProfilerConfig,
+                         bounds: pymupdf.Rect) -> bool:
     page_h = max(bounds.height, 1.0)
     return clipped.y1 <= c.band * page_h or clipped.y0 >= (1.0 - c.band) * page_h
 
 
-def _page(page: pymupdf.Page, c: ProfilerConfig, repeat_xrefs: set[int] | None = None) -> PageProfile:
+def _page(page: pymupdf.Page, c: ProfilerConfig,
+          repeat_xrefs: set[int] | None = None) -> PageProfile:
     area = page.rect.width * page.rect.height
     # Words and image boxes live in UNROTATED space; page.rect and get_pixmap(clip=)
     # use the rotated one. Compare in unrotated space, publish regions in visible space.
@@ -147,7 +144,7 @@ def _page(page: pymupdf.Page, c: ProfilerConfig, repeat_xrefs: set[int] | None =
     garbled = garbled_ratio("".join(w[4] for w in words))
 
     img_area, big = 0.0, []
-    for info in page.get_image_info():
+    for info in page.get_image_info(xrefs=True):
         box = pymupdf.Rect(info["bbox"])
         clipped = box & bounds
         if clipped.is_empty:
@@ -158,29 +155,52 @@ def _page(page: pymupdf.Page, c: ProfilerConfig, repeat_xrefs: set[int] | None =
     img = min(img_area / area, 1.0) if area else 0.0
 
     # a big image with (almost) no native words inside it still needs OCR
-    regions, skipped_regions, dpis = [], [], []
+    regions, skipped_regions, region_dpis, candidates = [], [], [], []
     if big:
         centres = [((w[0] + w[2]) / 2, (w[1] + w[3]) / 2) for w in words]
         for clipped, box, info in big:
-            if _is_decorative_image(clipped, info, repeat_xrefs or set(), c, bounds):
+            if _is_decorative_image(clipped, c, bounds):
                 r = clipped * page.rotation_matrix
                 skipped_regions.append((round(r.x0, 1), round(r.y0, 1), round(r.x1, 1), round(r.y1, 1)))
                 continue
             inside = sum(clipped.x0 <= x <= clipped.x1 and clipped.y0 <= y <= clipped.y1 for x, y in centres)
             if inside < c.min_region_words:
-                r = clipped * page.rotation_matrix
-                regions.append((round(r.x0, 1), round(r.y0, 1), round(r.x1, 1), round(r.y1, 1)))
+                candidates.append((clipped, box, info))
+
+        for clipped, box, info in candidates:
+            r = clipped * page.rotation_matrix
+            regions.append((round(r.x0, 1), round(r.y0, 1), round(r.x1, 1), round(r.y1, 1)))
             px = info["width"] * info["height"]
-            dpis.append((px / (box.get_area() / 72**2)) ** 0.5 if box.get_area() else 0.0)
+            region_dpis.append((px / (box.get_area() / 72**2)) ** 0.5 if box.get_area() else 0.0)
 
-    paths = rules = ink = 0
+    drawing_items = rules = ink = 0
     if words or img < c.blank_img:      # a pure scan needs neither blank check nor table hint
-        paths, rules, ink = _drawings(page, c.rule_min_len, area)
+        drawing_items, rules, ink = _drawings(page, c.rule_min_len, area)
 
-    s = Sig(len(words), img, garbled, paths, bool(regions), ink)
+    s = Sig(len(words), img, garbled, drawing_items, bool(regions), ink)
     ptype, engine = classify(s, c)
+    if engine == "hybrid" and big and repeat_xrefs:
+        # Repeated xrefs are removed only from hybrid OCR regions. Keep page-local
+        # native content and mark each suppressed image for auditability.
+        keep_regions, keep_dpis = [], []
+        for clipped, box, info in candidates:
+            try:
+                repeated = int(info.get("xref", 0)) != 0 and int(info.get("xref", 0)) in repeat_xrefs
+            except (TypeError, ValueError):
+                repeated = False
+            r = clipped * page.rotation_matrix
+            visible = (round(r.x0, 1), round(r.y0, 1), round(r.x1, 1), round(r.y1, 1))
+            if repeated:
+                skipped_regions.append(visible)
+                continue
+            keep_regions.append(visible)
+            px = info["width"] * info["height"]
+            keep_dpis.append((px / (box.get_area() / 72**2)) ** 0.5 if box.get_area() else 0.0)
+        regions, region_dpis = keep_regions, keep_dpis
+        if not regions:
+            ptype, engine = "digital", "pymupdf"
     ocr_routed = engine in ("rapidocr", "hybrid")
-    min_dpi = round(min(dpis)) if dpis and ocr_routed else None
+    min_dpi = round(min(region_dpis)) if region_dpis and ocr_routed else None
 
     flags = []
     if engine == "pymupdf" and img >= c.ocr_layer_img:
@@ -200,6 +220,7 @@ def _page(page: pymupdf.Page, c: ProfilerConfig, repeat_xrefs: set[int] | None =
 
     return PageProfile(
         n=page.number + 1, type=ptype, engine=engine, words=s.words,
+        drawing_items=s.drawing_items,
         img=round(img, 3), garbled=round(garbled, 3),
         table_hint=engine != "skip" and rules >= c.table_rules,
         rotation=page.rotation, min_dpi=min_dpi,
@@ -209,12 +230,18 @@ def _page(page: pymupdf.Page, c: ProfilerConfig, repeat_xrefs: set[int] | None =
     )
 
 
-def _safe_page(page: pymupdf.Page, c: ProfilerConfig, repeat_xrefs: set[int] | None = None) -> PageProfile:
+def _safe_page(page: pymupdf.Page, c: ProfilerConfig, repeat_xrefs: set[int] | None = None,
+               doc_id: str = "") -> PageProfile:
     """One bad page must not sink the document: route it to OCR and say why."""
     try:
-        return _page(page, c, repeat_xrefs)
+        t0 = time.perf_counter()
+        result = _page(page, c, repeat_xrefs)
+        log.info("profile_page doc=%s page=%d type=%s engine=%s drawing_items=%d secs=%.3f",
+                 doc_id[:12], result.n, result.type, result.engine, result.drawing_items,
+                 time.perf_counter() - t0)
+        return result
     except Exception:
-        log.exception("profile_error page=%d", page.number + 1)
+        log.exception("profile_error doc=%s page=%d", doc_id[:12], page.number + 1)
         return PageProfile(n=page.number + 1, type="scanned", engine="rapidocr", words=0,
                            img=0.0, garbled=0.0, table_hint=False, flags=["profile_error"])
 
@@ -267,7 +294,7 @@ def profile_pdf(path: str | Path, cfg: ProfilerConfig = DEFAULT_CONFIG,
                 profiler_version=VERSION, config_hash=config_hash(cfg))
 
     def fail(reason: str) -> DocProfile:
-        log.warning("profile_failed doc=%s reason=%s", base["doc_id"][:12], reason)
+        log.warning("profile_failed doc=%s page=0 reason=%s", base["doc_id"][:12], reason)
         return DocProfile(status="failed", reason=reason, **base)
 
     if path.stat().st_size > cfg.max_file_mb * 2**20:
@@ -284,13 +311,13 @@ def profile_pdf(path: str | Path, cfg: ProfilerConfig = DEFAULT_CONFIG,
         if doc.page_count == 0:
             return fail("zero_pages")
         repeat_xrefs = _doc_repeat_xrefs(doc, cfg)
-        pages = [_safe_page(p, cfg, repeat_xrefs) for p in doc.pages()]
+        pages = [_safe_page(p, cfg, repeat_xrefs, base["doc_id"]) for p in doc.pages()]
 
     counts = {t: sum(p.type == t for p in pages) for t in ("digital", "scanned", "hybrid", "blank")}
     prof = DocProfile(status="ok", total_pages=len(pages), doc_type=_doc_type(counts),
                       page_type_counts=counts, batches=_batches(pages, cfg.batch_size),
                       pages=pages, **base)
-    log.info("profiled doc=%s pages=%d type=%s counts=%s mupdf_warnings=%d secs=%.2f",
+    log.info("profiled doc=%s page=all pages=%d type=%s counts=%s mupdf_warnings=%d secs=%.2f",
              prof.doc_id[:12], prof.total_pages, prof.doc_type, counts,
              len(pymupdf.TOOLS.mupdf_warnings().splitlines()), time.perf_counter() - t0)
     return prof
@@ -300,10 +327,10 @@ def run(pdf_path: str | Path, *, force: bool = False,
         cfg: ProfilerConfig = DEFAULT_CONFIG) -> DocProfile:
     """Idempotent stage entry: same file + same version + same config => reuse the artifact."""
     doc_id = sha256_file(Path(pdf_path))
-    cached = None if force else artifacts.load("profile", doc_id, DocProfile)
+    cached = None if force else artifacts.load(_PROFILE_ARTIFACT, doc_id, DocProfile)
     if cached and cached.profiler_version == VERSION and cached.config_hash == config_hash(cfg):
-        log.info("profile_cached doc=%s", doc_id[:12])
+        log.info("profile_cached doc=%s page=all", doc_id[:12])
         return cached
     prof = profile_pdf(pdf_path, cfg, doc_id)
-    artifacts.save("profile", doc_id, prof)
+    artifacts.save(_PROFILE_ARTIFACT, doc_id, prof)
     return prof

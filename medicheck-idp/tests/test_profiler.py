@@ -137,6 +137,49 @@ def test_blank(tmp_path):
     assert (p.type, p.engine) == ("blank", "skip")
 
 
+def test_sparse_vector_drawing_items_are_blank_and_threshold_is_configurable(tmp_path):
+    def build(d):
+        page = d.new_page()
+        page.draw_rect(pymupdf.Rect(100, 100, 100.48, 500), color=None, fill=(0, 0, 0))
+        page.draw_rect(pymupdf.Rect(200, 200, 201.44, 200.48), color=None, fill=(0, 0, 0))
+
+    doc = pymupdf.open()
+    build(doc)
+    path = _save(doc, tmp_path)
+    default_page = profile_pdf(path).pages[0]
+    strict_page = profile_pdf(path, ProfilerConfig(max_blank_drawing_items=1)).pages[0]
+
+    assert default_page.drawing_items == 2
+    assert (default_page.type, default_page.engine) == ("blank", "skip")
+    assert (strict_page.type, strict_page.engine) == ("scanned", "rapidocr")
+
+
+def test_repeated_image_xrefs_are_skipped_only_for_hybrid_regions(tmp_path):
+    doc = pymupdf.open()
+    shared_xref = None
+    for page_number in range(4):
+        page = _text_page(doc)
+        region = pymupdf.Rect(60, 400, 530, 750)
+        if page_number == 0:
+            shared_xref = page.insert_image(region, pixmap=_raster(), keep_proportion=False)
+        elif page_number < 3:
+            page.insert_image(region, xref=shared_xref)
+        else:
+            image = pymupdf.Pixmap(pymupdf.csRGB, pymupdf.IRect(0, 0, 100, 100), 0)
+            image.clear_with(240)
+            page.insert_image(region, pixmap=image, keep_proportion=False)
+
+    profile = profile_pdf(_save(doc, tmp_path))
+
+    assert [page.engine for page in profile.pages] == [
+        "pymupdf", "pymupdf", "pymupdf", "hybrid",
+    ]
+    assert all("decor_skipped" in page.flags and page.skipped_regions
+               for page in profile.pages[:3])
+    assert len(profile.pages[3].ocr_regions) == 1
+    assert "decor_skipped" not in profile.pages[3].flags
+
+
 def test_table_hint_from_ruled_grid(tmp_path):
     def build(d):
         page = _text_page(d)
@@ -147,16 +190,19 @@ def test_table_hint_from_ruled_grid(tmp_path):
     assert _profile_one(build, tmp_path).table_hint
 
 
-def test_rotated_page_region_is_usable_as_clip(tmp_path):
-    """Regression: bboxes are unrotated, get_pixmap(clip=) is rotated. Region must be converted."""
+@pytest.mark.parametrize("rotation", [90, 270])
+def test_rotated_page_region_is_usable_as_clip(tmp_path, rotation):
+    """Image boxes are unrotated; profiler OCR regions and pixmap clips are visible-space."""
     d = pymupdf.open()
-    _hybrid_page(d).set_rotation(90)
+    _hybrid_page(d).set_rotation(rotation)
     path = _save(d, tmp_path)
     p = profile_pdf(path).pages[0]
-    assert p.rotation == 90 and "rotated" in p.flags and p.engine == "hybrid"
+    assert p.rotation == rotation and "rotated" in p.flags and p.engine == "hybrid"
+    expected = (82, 40, 442, 555) if rotation == 90 else (400, 40, 760, 555)
+    assert p.ocr_regions[0] == pytest.approx(expected, abs=1.0)
     with pymupdf.open(path) as doc:
         pix = doc[0].get_pixmap(clip=pymupdf.Rect(*p.ocr_regions[0]), dpi=72)
-    assert (pix.width, pix.height) == pytest.approx((360, 515), abs=2)    # 515x360 image seen rotated
+    assert (pix.width, pix.height) == pytest.approx((360, 515), abs=2)
 
 
 # --------------------------------------------------------------------------- #
@@ -208,10 +254,10 @@ def test_one_broken_page_does_not_sink_the_document(tmp_path, monkeypatch):
     path = _mixed(tmp_path)
     real = S._page
 
-    def flaky(page, c):
+    def flaky(page, c, repeat_xrefs=None):
         if page.number == 1:
             raise RuntimeError("boom")
-        return real(page, c)
+        return real(page, c, repeat_xrefs)
     monkeypatch.setattr(S, "_page", flaky)
     prof = profile_pdf(path)
     assert prof.status == "ok"
@@ -237,13 +283,23 @@ def test_run_is_idempotent_and_config_aware(tmp_path, monkeypatch):
     run(path, cfg=ProfilerConfig(min_words=25))
     assert len(calls) == 3                                       # new thresholds => re-profile
     assert DocProfile.model_validate_json(
-        (tmp_path / "data" / "artifacts" / "profiles" / first.doc_id / "profile.json").read_text()).doc_id == first.doc_id
+        (tmp_path / "data" / "artifacts" / first.doc_id / "01_profiler" / "profile.json").read_text()).doc_id == first.doc_id
 
 
 def test_relative_idp_data_dir_is_resolved_from_project_root(monkeypatch):
     monkeypatch.setenv("IDP_DATA_DIR", "data/scratch")
-    p = S.artifacts.path("profile", "abc123")
-    assert str(p).endswith("medicheck-idp\\data\\scratch\\artifacts\\profiles\\abc123\\profile.json")
+    p = S.artifacts.path("01_profiler/profile", "abc123")
+    assert str(p).endswith("medicheck-idp\\data\\scratch\\artifacts\\abc123\\01_profiler\\profile.json")
+
+
+def test_stage_artifacts_use_general_root_and_support_bytes(tmp_path, monkeypatch):
+    monkeypatch.setenv("IDP_DATA_DIR", str(tmp_path / "data"))
+    stage_path = S.artifacts.path("02_extraction/batches/b0000", "abc123")
+    assert stage_path == tmp_path / "data" / "artifacts" / "abc123" / "02_extraction" / "batches" / "b0000.json"
+
+    image_path = S.artifacts.save_bytes("02_extraction/crops/p001.png", "abc123", b"png")
+    assert image_path == tmp_path / "data" / "artifacts" / "abc123" / "02_extraction" / "crops" / "p001.png"
+    assert image_path.read_bytes() == b"png"
 
 
 # --------------------------------------------------------------------------- #

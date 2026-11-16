@@ -1,7 +1,7 @@
-"""Stage 5 output contract: the classification of every unit of one structured document.
+"""Stage 4 output contract: classification results for a classification context.
 
-A unit is either one logical table or one paragraph unit (a heading section or a fixed-size chunk of
-blocks). Every unit is recorded, including non-usable and unclassifiable ones; stage 6 filters.
+A unit is either one page-level table context or a heading section/fixed-size chunk of paragraphs.
+Every unit is recorded, including non-usable and unclassifiable ones; routing filters later.
 
 Per INV-14 (rules/usability_rules.yaml) app_classification, priority and legal_status are independent
 fields. `direct_match_ready` is NOT decided here: it needs the fields extracted by the parser, so the
@@ -14,9 +14,10 @@ from typing import Any, List, Literal, Optional
 
 from pydantic import Field
 
+from idp.schemas.classification_context import SourceReference
 from idp.schemas.common import AppClass, LegalStatus, Priority, StrictModel
 
-SCHEMA_VERSION = "1.0"
+SCHEMA_VERSION = "2.0"
 
 UnitKind = Literal["table", "paragraph"]
 UnitStatus = Literal["classified", "needs_review", "not_a_record"]
@@ -69,8 +70,8 @@ class Escalation(StrictModel):
 
 class UnitSource(StrictModel):
     pages: List[int]
-    table_id: Optional[str] = None
-    block_ids: List[str] = Field(default_factory=list)
+    context_ids: List[str] = Field(default_factory=list)
+    source_refs: List["SourceReference"] = Field(default_factory=list)
     heading_path: List[str] = Field(default_factory=list)
 
 
@@ -111,7 +112,7 @@ class Summary(StrictModel):
 
 
 class ClassifiedDocument(StrictModel):
-    schema_version: Literal["1.0"] = SCHEMA_VERSION
+    schema_version: Literal["2.0"] = SCHEMA_VERSION
     document_id: str
     document_sha256: str
     title: Optional[str] = None

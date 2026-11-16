@@ -1,7 +1,10 @@
 # runtime
-pymupdf>=1.28,<3        # tested on 1.28.2 (Windows) and 2.0 (Linux); pin the exact version you deploy
+pymupdf==1.28.2         # pymupdf4llm 1.28.2 requires the matching PyMuPDF version
 pydantic>=2.7,<3
 PyYAML>=6.0             # taxonomy / rules loader
+numpy>=1.24,<3           # OCR image arrays
+rapidocr>=3,<4          # OCR engine for scanned and hybrid pages
+pymupdf4llm==1.28.2     # pinned for page_chunks metadata and explicit OCR disablement
 
 # Stage 5 Bedrock LLM provider; boto3 is not used for artifact storage.
 boto3>=1.43

@@ -1,11 +1,11 @@
-"""Stage 5: classify every table and paragraph unit of a structured document.
+"""Stage 4: classify every table and paragraph unit in a classification context.
 
     rules  ->  accepted labels                         (status: classified)
            ->  escalate: no match / conflict / low confidence
                   ->  LLM labels, validated            (status: classified, or needs_review)
                   ->  no provider / invalid answer     (status: needs_review, rule candidates kept)
 
-`Classifier.classify` is pure (no I/O); `classify_uri` reads a stage-4 JSON and writes the result.
+`Classifier.classify` is pure (no I/O); `classify_uri` reads a context JSON and writes the result.
 """
 
 from __future__ import annotations
@@ -27,7 +27,7 @@ from idp.schemas.classified import (
     Versions,
 )
 from idp.schemas.common import LegalStatus
-from idp.schemas.structured import StructuredDocument
+from idp.schemas.classification_context import ClassificationContext
 from idp.stages.classifier.llm_fallback import LLMClassifier, ResponseCache
 from idp.stages.classifier.matcher import (
     ParagraphCandidate,
@@ -41,7 +41,7 @@ from idp.stages.classifier.taxonomy import Taxonomy, load_taxonomy
 from idp.stages.classifier.units import ParagraphUnit, TableUnit, collapse, paragraph_units, table_units
 from idp.stages.classifier.usability import build_label, requires_record_split
 
-CLASSIFIER_VERSION = "1.0.0"
+CLASSIFIER_VERSION = "2.0.0"
 PREVIEW_CHARS = 200
 
 
@@ -63,15 +63,25 @@ class Classifier:
         self.clock = clock
 
     # ------------------------------------------------------------------ document
-    def classify(self, document: StructuredDocument) -> ClassifiedDocument:
+    def classify(self, document: ClassificationContext) -> ClassifiedDocument:
+        if document.quality.failed_pages:
+            raise ValueError(
+                "classification context is incomplete; "
+                f"failed_pages={document.quality.failed_pages}",
+            )
+        if not document.quality.has_classifiable_content:
+            raise ValueError(
+                "classification context contains no classifiable paragraphs or tables; "
+                f"warnings={document.quality.warnings}",
+            )
         settings = self.taxonomy.classification
         units: List[ClassifiedUnit] = [self._table(unit) for unit in table_units(document)]
         units += [self._paragraph(unit) for unit in paragraph_units(document, settings.units, settings.llm.context_chars)]
         versions = self.taxonomy.versions
         return ClassifiedDocument(
-            document_id=document.document.document_id,
-            document_sha256=document.document.sha256,
-            title=document.document.title,
+            document_id=document.document_id,
+            document_sha256=document.document_sha256,
+            title=document.source_metadata.get("title"),
             created_at=self.clock(),
             versions=Versions(
                 taxonomy=versions["taxonomy"],
@@ -93,7 +103,12 @@ class Classifier:
         record = ClassifiedUnit(
             unit_id=unit.unit_id,
             kind="table",
-            source=UnitSource(pages=unit.pages, table_id=unit.table.table_id, heading_path=list(unit.table.heading_path)),
+            source=UnitSource(
+                pages=unit.pages,
+                context_ids=[unit.table.id],
+                source_refs=unit.source_refs,
+                heading_path=unit.heading_path,
+            ),
             text_preview=collapse(unit.text)[:PREVIEW_CHARS],
             status="classified",
             candidates=[Candidate(label=c.label, score=c.score, rule_ids=c.rule_ids, layout_id=c.layout_id) for c in candidates[:5]],
@@ -128,7 +143,12 @@ class Classifier:
         record = ClassifiedUnit(
             unit_id=unit.unit_id,
             kind="paragraph",
-            source=UnitSource(pages=unit.pages, block_ids=[b.block_id for b in unit.blocks], heading_path=list(unit.heading_path)),
+            source=UnitSource(
+                pages=unit.pages,
+                context_ids=unit.context_ids,
+                source_refs=unit.source_refs,
+                heading_path=list(unit.heading_path),
+            ),
             text_preview=collapse(unit.text)[:PREVIEW_CHARS],
             status="classified",
         )
@@ -197,19 +217,12 @@ def _summary(units: List[ClassifiedUnit]) -> Summary:
     )
 
 
-def output_name(input_name: str) -> str:
-    """'<doc>.json' / '<doc>.structured.json' -> '<doc>.classified.json'."""
-    stem = input_name[:-5] if input_name.lower().endswith(".json") else input_name
-    stem = stem[: -len(".structured")] if stem.endswith(".structured") else stem
-    return f"{stem}.classified.json"
+def classify_uri(classifier: Classifier, input_uri: str) -> Tuple[str, ClassifiedDocument]:
+    """Read a classification context and write its standard stage-4 artifact."""
+    from idp.storage.artifacts import path, read_json, write_json
 
-
-def classify_uri(classifier: Classifier, input_uri: str, output_dir: str) -> Tuple[str, ClassifiedDocument]:
-    """Read one stage-4 JSON (local path or s3://), classify it, write the stage-5 JSON next to `output_dir`."""
-    from idp.storage.artifacts import join, read_json, write_json
-
-    document = StructuredDocument.model_validate(read_json(input_uri))
+    document = ClassificationContext.model_validate(read_json(input_uri))
     result = classifier.classify(document)
-    target = join(output_dir, output_name(input_uri.replace("\\", "/").rsplit("/", 1)[-1]))
+    target = path("04_classifier/classification", document.document_sha256)
     write_json(target, result.model_dump(mode="json"))
-    return target, result
+    return str(target), result

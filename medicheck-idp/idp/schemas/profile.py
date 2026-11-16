@@ -25,6 +25,7 @@ class PageProfile(_Model):
     type: PageType
     engine: Engine                          # the routing decision
     words: int                              # native words found
+    drawing_items: int = Field(default=0, ge=0)  # vector segments/items, not paths
     img: float                              # fraction of page covered by images
     garbled: float                          # share of broken glyphs in native text
     table_hint: bool                        # ruled lines found; a hint, not a detection

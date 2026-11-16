@@ -9,7 +9,7 @@
 # Every pipeline output must carry this version + the content hash.
 # =============================================================================
 
-taxonomy_version: "2.1.0"
+taxonomy_version: "2.1.1"
 schema_version: 1
 
 sources:
@@ -228,3 +228,14 @@ open_decisions:
       C gained layout C.outlets_and_response.
     current_encoding: "tables.yaml K.standard, A.nsq_result, B.standard.lab, C.outlets_and_response"
     affects: [A, B, C, K]
+
+  - id: DEC-13
+    title: "Representative table middle-row selection"
+    status: resolved
+    owner: "Team (2026-11-16)"
+    detail: >
+      When selecting representative table rows, use the row at index
+      len(rows) // 2 as the deterministic middle sample. This selects index 3
+      for seven rows and index 1 for three rows.
+    current_encoding: "classification_context/service.py _representative_rows"
+    affects: [table_samples]

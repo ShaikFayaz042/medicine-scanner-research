@@ -24,15 +24,13 @@
 # Bump classification_rules_version on any change (semver).
 # =============================================================================
 
-classification_rules_version: "1.0.0"
+classification_rules_version: "1.1.0"
 
 units:
-  paragraph_strategy: section       # section = blocks under one heading; chunk = fixed-size groups of blocks
-  min_record_chars: 80              # shorter units (lone headings, page marks) are not_a_record
-  max_unit_chars: 4000              # longer sections are split at block boundaries
+  paragraph_strategy: section       # section = paragraphs sharing a heading path; chunk = fixed-size groups
+  min_record_chars: 80              # shorter context units are not_a_record
+  max_unit_chars: 4000              # longer sections are split at paragraph boundaries
   chunk_target_chars: 1500          # target size for the chunk strategy
-  skip_block_types: [header, footer, table_ref]
-  languages: [en]                   # blocks tagged with another language (e.g. Hindi) are skipped
 
 thresholds:
   table_accept: 0.70
@@ -371,6 +369,6 @@ llm:
   prompt_version: "classify-v1"
   max_unit_chars: 6000              # unit text sent to the model (longer text is truncated)
   context_chars: 400                # neighbouring text shown for interpretation only
-  table_sample_rows: 8              # body rows shown with the header
+  table_sample_rows: 3              # context schema provides at most three representative rows
   confidence_map: {high: 0.9, medium: 0.7, low: 0.45}
   min_confidence: 0.6               # model labels below this are kept but the unit goes to review

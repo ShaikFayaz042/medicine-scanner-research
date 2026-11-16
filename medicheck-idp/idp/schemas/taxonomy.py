@@ -164,8 +164,6 @@ class UnitSettings(StrictModel):
     min_record_chars: int = Field(ge=0, description="Shorter units are headings/fragments: not_a_record")
     max_unit_chars: int = Field(ge=200)
     chunk_target_chars: int = Field(ge=200)
-    skip_block_types: List[str]
-    languages: List[str] = Field(description="Blocks in other languages are skipped; blocks without a language are kept")
 
 
 class Thresholds(StrictModel):
